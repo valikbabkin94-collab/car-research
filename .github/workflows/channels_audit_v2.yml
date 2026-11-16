@@ -1,0 +1,77 @@
+name: Channels audit v2 author updates and fixed five policies
+on:
+  push:
+    branches: [research/channels-audit-v2]
+    paths: [.github/workflows/channels_audit_v2.yml]
+permissions: {contents: write, actions: read}
+concurrency:
+  group: channels-audit-v2
+  cancel-in-progress: false
+jobs:
+  isolated_audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - name: Reuse existing public minute archive cache, never private HTML
+        uses: actions/download-artifact@v4
+        with:
+          name: pf-rubik-m1-cache-before-pnl
+          path: work/market
+          run-id: '43922147568'
+          github-token: ${{ github.token }}
+      - name: Fixed P1-P3, saved P4-P5; checkpoint only missing sources
+        timeout-minutes: 50
+        run: python research/channels_audit_v2_20261116/run.py
+      - name: Scan publishable report, parameters and trades
+        id: scan
+        if: always()
+        run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.scan.outcome == 'success'
+        with:
+          name: channels-audit-v2-code-results-checkpoints
+          path: research/channels_audit_v2_20261116
+          retention-days: 7
+      - name: Validate cache structure and content before retaining
+        id: cache_scan
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          import numpy as np
+          for p in Path('work/market/m1').glob('*.npz'):
+           meta=json.loads(p.with_suffix('.json').read_text());assert hashlib.sha256(p.read_bytes()).hexdigest()==meta['parsed_sha256']
+           with np.load(p,allow_pickle=False) as z:
+            assert set(z.files)=={'bars'};a=z['bars'];assert a.dtype.kind=='f' and a.ndim==2 and a.shape[1]==5 and np.all(np.isfinite(a))
+           assert set(meta)<=set(['key','source_sha256','rows','parsed_sha256','bar_ms','first_ms','last_ms'])
+           if 'key'in meta:assert meta['key'].startswith('data/futures/um/')
+          print('Only verified numerical market arrays and constrained archive receipts retained')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.cache_scan.outcome == 'success'
+        with:
+          name: channels-audit-v2-verified-m1-cache-resume-only
+          path: work/market/m1
+          retention-days: 7
+          compression-level: 0
+      - name: Commit full report and all gaps, no main merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/channels_audit_v2_20261116
+          git commit -m 'research: publish channels v2 execution audit, coverage and unresolved data [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/channels-audit-v2'],check=True,stdout=subprocess.DEVNULL)
+          PY
