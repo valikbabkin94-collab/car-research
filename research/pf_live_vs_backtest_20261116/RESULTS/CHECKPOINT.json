@@ -1,0 +1,11 @@
+{
+  "stage": "HISTORY_BE_COMPONENT_AUDITED_LIVE_RECONCILIATION_BLOCKED",
+  "code_sha": "b7ef9526c0d474d0b4f51c9490ca50b6dd48f07a",
+  "reference_n": 2113,
+  "baseline_parity": "PASS",
+  "changed_outcomes": 835,
+  "live_rows_available": 0,
+  "expected_live_rows": 13,
+  "profitability": "NOT_PROVEN",
+  "no_runtime_changes": true
+}

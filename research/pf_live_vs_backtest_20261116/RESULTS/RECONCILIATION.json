@@ -1,0 +1,39 @@
+{
+  "expected_live_closed": 13,
+  "available_live_closed_rows": 0,
+  "live_trade_source_status": "DATA_GAP_EXPECTED_13_CLOSED_ROWS_NOT_PUBLISHED_IN_CHECKED_GITHUB_SOURCES",
+  "trade_pairs": [],
+  "snapshot_signal_pairs": [
+    {
+      "symbol": "CRWVUSDT",
+      "signal_ms": 1794405600000,
+      "created_ms": 1794405722332,
+      "match_status": "EXACT",
+      "is_live_trade": false,
+      "model_id": "BASE:PRIMARY:CRWVUSDT:1794405600000",
+      "OLD_status": "RIGHT_CENSORED",
+      "OLD_entry_ms": null,
+      "OLD_net_R": null,
+      "BE_ALIGNED_net_R": null,
+      "model_fill_precedes_card_creation": false
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "signal_ms": 1794416400000,
+      "created_ms": 1794416522025,
+      "match_status": "EXACT",
+      "is_live_trade": false,
+      "model_id": "BASE:PRIMARY:BLUAIUSDT:1794416400000",
+      "OLD_status": "RIGHT_CENSORED",
+      "OLD_entry_ms": null,
+      "OLD_net_R": null,
+      "BE_ALIGNED_net_R": null,
+      "model_fill_precedes_card_creation": false
+    }
+  ],
+  "reverse_reconciliation_status": "DATA_GAP_COMPLETE_LIVE_DECISIONS_REQUIRED",
+  "decision_log_coverage_complete": false,
+  "requested_recent30_end_ms": 1794787200000,
+  "history_end_ms": 1794466800000,
+  "missing_window_ms": 320400000
+}
