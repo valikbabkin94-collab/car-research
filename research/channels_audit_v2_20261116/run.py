@@ -10,9 +10,14 @@ LAB=Path(__file__).parent;I=LAB/'inputs';OUT=LAB/'RESULTS';CUTOFF=1794614400000
 def gz(p,data):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(gzip.compress(json.dumps(data,allow_nan=False).encode(),mtime=0))
 def read(p):return json.loads(gzip.decompress(p.read_bytes()))if p.suffix=='.gz'else json.loads(p.read_text())
 def collect_jobs(quote,jobs,deadline):
- jobs=sorted(set(jobs));receipts=[]
+ jobs=sorted(set(jobs));receipts=[];previous={}
+ prior=Path('work/prior-audit/RESULTS/SOURCE_CHECKPOINT.json')
+ if prior.exists():
+  for r in read(prior).get('receipts',[]):
+   if r['status']=='DATA_GAP' and '404' in r.get('error',''):previous[(r['symbol'],r['period'],r['kind'])]=r
  def one(x):
   sym,period,kind=x
+  if x in previous:return dict(previous[x],reused_negative_probe=True)
   try:return dict(symbol=sym,period=period,kind=kind,status='OK',receipt=quote.fetch(sym,period,kind))
   except Exception as e:return dict(symbol=sym,period=period,kind=kind,status='DATA_GAP',error=type(e).__name__+': '+str(e))
  with cf.ThreadPoolExecutor(max_workers=4)as pool:
@@ -39,11 +44,13 @@ def execute(signals,q,phase):
  for i,s in enumerate(sorted(signals,key=lambda x:(x['symbol'],x['pub'],x['post_key']))):
   path=chunks/(s['post_key']+'.json.gz');stored=read(path)if path.exists()else {};res={};bars=None
   for policy in ['P1','P2','P3']:
-   cached=stored.get(policy)
-   if cached and cached.get('engine_sha')==code and cached['status']in ['TRADE','REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET']:r=cached
+   cached=stored.get(policy);plan={k:s[k]for k in ['symbol','pub','side','stop','targets']}
+   if policy=='P1':plan['events']=s.get('events',[])
+   input_sha=sha(json.dumps(plan,sort_keys=True).encode())
+   if cached and cached.get('engine_sha')==code and (cached.get('input_sha')==input_sha or policy in ['P2','P3'] and not cached.get('input_sha')) and cached['status']in ['TRADE','REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET']:r=cached
    else:
     if bars is None:bars=q.load(s['symbol'])
-    r=simulate(bars,s,policy,CUTOFF);r.update(channel=s['channel'],post_key=s['post_key'],pub=s['pub'],symbol=s['symbol'],policy=policy,engine_sha=code,edited_visible=s['edited_visible'],edited_update_n=sum(e.get('edited_visible',False)for e in s['events']),phase=phase)
+    r=simulate(bars,s,policy,CUTOFF);r.update(channel=s['channel'],post_key=s['post_key'],pub=s['pub'],symbol=s['symbol'],policy=policy,engine_sha=code,input_sha=input_sha,edited_visible=s['edited_visible'],edited_update_n=sum(e.get('edited_visible',False)for e in s['events']),phase=phase)
    res[policy]=r
    if r.get('needed_from_ms')and r.get('entry_ms')and r['needed_from_ms']<CUTOFF and phase==0:
     begin=r['needed_from_ms'];extension+=jobs_for(s['symbol'],begin,min(CUTOFF,begin+32*DAY))

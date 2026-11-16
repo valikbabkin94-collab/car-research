@@ -44,7 +44,7 @@ oldcov={r['channel']:r for r in json.loads((p/'coverage.json').read_text())}
 for ch in json.loads((PUBLIC/'CHANNEL_REGISTRY.json').read_text()):
  rows=channels.get(ch,{});ordered=sorted(rows.values(),key=lambda r:(r.get('datetime_utc')or'',r['id']));sigs=bych[ch];smap=dict(sigs);counts=collections.Counter();linked=set();ambiguous=0
  for r in ordered:
-  text=r.get('text','');acts=actions(text)
+  text=r.get('text','');acts=[] if r['id']in smap else actions(text)
   if re.search(r'(?i)(?:monthly|month|месяц|итог|result|profit|прибыль)',text) and re.search(r'[+−-]?\d+(?:\.\d+)?\s*%',text):claims.append(dict(channel=ch,post_key=key(ch,r['id']),status='NON_COMPARABLE_CAPITAL_LEVERAGE_FEES_UNSPECIFIED'))
   if not acts:continue
   if not r.get('datetime_utc'):continue
@@ -56,6 +56,10 @@ for ch in json.loads((PUBLIC/'CHANNEL_REGISTRY.json').read_text()):
    candidates=[s for mid,s in sigs if s['symbol']in symbols and 0<pub-s['pub']<=30*86400000];side='LONG'if re.search(r'\blong\b|лонг',text,re.I)else 'SHORT'if re.search(r'\bshort\b|шорт',text,re.I)else None
    if side:candidates=[s for s in candidates if s['side']==side]
    method='UNIQUE_SYMBOL_SIDE_TIME'
+  if method=='EXACT_REPLY' and candidates:
+   explicit_side='LONG' if re.search(r'\blong\b|лонг',text,re.I) else 'SHORT' if re.search(r'\bshort\b|шорт',text,re.I) else None
+   if explicit_side and explicit_side!=candidates[0]['side']:candidates=[];method='REPLY_DIRECTION_CONFLICT'
+  if r.get('forwarded_from') and method!='EXACT_REPLY':candidates=[];method='FORWARDED_AUTHOR_UNKNOWN'
   counts.update(a['kind']for a in acts)
   if len(candidates)==1:
    s=candidates[0];linked.add(s['post_key'])

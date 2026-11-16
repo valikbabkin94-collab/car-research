@@ -3,6 +3,8 @@ import re
 NUMBER=r'(?:\d+(?:\.\d+)?)'
 def actions(text):
  t=text.lower();out=[]
+ if re.search(r"do not close|don't close|не закрыва|не перенос",t):return [dict(kind='UNRESOLVED_NEGATION')]
+ if re.search(r'\bif\b|\bonce\b|\bwhen\b|если|(?:close|closing).{0,25}(?:at|on)\s*(?:tp|target)',t):return [dict(kind='UNRESOLVED_CONDITIONAL')]
  claim=bool(re.search(r'(?i)(?:\btp\s*\d*\s*(?:hit|reached|achieved)|target.{0,25}(?:hit|reached)|тейк.{0,20}(?:достиг|взят)|цель.{0,20}достиг)',text))
  if claim:out.append(dict(kind='TP_REACHED_CLAIM'))
  close=bool(re.search(r'\bclose\b|\bclosing\b|закрываем|закрывайте|фиксируем|выходим',t))
@@ -15,7 +17,7 @@ def actions(text):
   elif re.search(r'\ball\b|\bfull(?:y)?\b|всю|полностью|выходим',t):out.append(dict(kind='CLOSE_ALL'))
   else:out.append(dict(kind='UNRESOLVED_FRACTION'))
  be=re.search(r'(?:stop(?:.?loss)?|\bsl\b|стоп).{0,40}(?:break.?even|\bentry\b|\bbe\b|безубыт|\bб[у/е]\b)',t)
- if be:out.append(dict(kind='MOVE_BE'))
+ if be and re.search(r'(?:move|set|raise|adjust|update|перенос|ставим)|(?:stop(?:.?loss)?|\bsl\b|стоп)\s*(?:to|at|now|=|:|->|→|в|на)\s*(?:entry|be|break|б/у|бу|безубыт)',t):out.append(dict(kind='MOVE_BE'))
  else:
   st=re.search(r'(?:move|set|adjust|переносим|перенесите|ставим).{0,30}(?:stop(?:.?loss)?|\bsl\b|стоп).{0,12}?(?:to|at|на|:|=)\s*\$?('+NUMBER+r')',t)
   if st:out.append(dict(kind='MOVE_STOP',price=float(st[1])))

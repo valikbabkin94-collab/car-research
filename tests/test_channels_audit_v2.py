@@ -8,6 +8,8 @@ class AuditTests(unittest.TestCase):
  def signal(self):return dict(side='LONG',pub=1,stop=90,targets=[110,120],events=[])
  def bars(self):return np.array([[M,100,101,99,100],[2*M,105,106,104,105],[3*M,103,104,102,103]],float)
  def test_claim_not_instruction(self):self.assertEqual([x['kind']for x in actions('TP1 hit!')],['TP_REACHED_CLAIM']);self.assertNotIn('CLOSE_ALL',[x['kind']for x in actions('We closed all yesterday')])
+ def test_conditional_and_negation_do_not_execute(self):
+  self.assertEqual(actions('If TP1 is hit, move stop to entry')[0]['kind'],'UNRESOLVED_CONDITIONAL');self.assertEqual(actions('Do not close all')[0]['kind'],'UNRESOLVED_NEGATION')
  def test_explicit_actions_and_unresolved_fraction(self):self.assertEqual(actions('close half of position')[0]['fraction'],.5);self.assertEqual(actions('close part of position')[0]['kind'],'UNRESOLVED_FRACTION');self.assertEqual(actions('move stop loss to 94.2')[0]['price'],94.2);self.assertEqual(actions('stop loss at entry')[0]['kind'],'MOVE_BE')
  def test_partial_and_full_at_next_open(self):
   s=self.signal();s['events']=[dict(kind='CLOSE_PART',fraction=.5,effective_ms=2*M,post_key='a'),dict(kind='CLOSE_ALL',effective_ms=3*M,post_key='b')];r=simulate(self.bars(),s,'P1',4*M);self.assertEqual(r['status'],'TRADE');self.assertEqual([x['fraction']for x in r['events']],[.5,.5]);self.assertAlmostEqual(r['grossR'],.4);self.assertGreater(r['slippageR'],0)

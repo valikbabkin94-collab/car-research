@@ -22,9 +22,16 @@ jobs:
       - name: Reuse existing public minute archive cache, never private HTML
         uses: actions/download-artifact@v4
         with:
-          name: pf-rubik-m1-cache-before-pnl
-          path: work/market
-          run-id: '43922147568'
+          name: channels-audit-v2-verified-m1-cache-resume-only
+          path: work/market/m1
+          run-id: '43938421536'
+          github-token: ${{ github.token }}
+      - name: Reuse prior source probes without executing old code
+        uses: actions/download-artifact@v4
+        with:
+          name: channels-audit-v2-code-results-checkpoints
+          path: work/prior-audit
+          run-id: '43938421536'
           github-token: ${{ github.token }}
       - name: Fixed P1-P3, saved P4-P5; checkpoint only missing sources
         timeout-minutes: 50
