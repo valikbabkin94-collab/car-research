@@ -1,0 +1,43 @@
+name: PF preserve existing source receipts only, no recalculation
+on:
+  push:
+    branches: [research/pf-rubik]
+    paths: [.github/workflows/pf_rubik_preserve_sources.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/download-artifact@v4
+        with:
+          name: pf-rubik-m1-cache-before-pnl
+          path: work/preserved-source
+          run-id: '43922147568'
+          github-token: ${{ github.token }}
+      - name: Match original source hash, copy only existing receipts
+        run: |
+          python - <<'PYCODE'
+          import hashlib,json
+          from pathlib import Path
+          lab=Path('research/pf_rubik_20261116');src=Path('work/preserved-source/SOURCE_CHECKPOINT.json');raw=src.read_bytes();h=hashlib.sha256(raw).hexdigest()
+          for mode in ['train','validation']:
+           assert json.loads((lab/'RESULTS'/mode/'CODE_AND_CONFIG.json').read_text())['source_checkpoint_sha']==h
+          (lab/'SOURCE_CHECKPOINT_PRESERVED.json').write_bytes(raw)
+          PYCODE
+          python tools/scan_publication.py
+      - name: Publish receipts, no trading or PnL code runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_rubik_20261116/SOURCE_CHECKPOINT_PRESERVED.json
+          git commit -m 'research: retain original source receipts and SHAs beyond artifact expiry [skip ci]'
+          python - <<'PYCODE'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-rubik'],check=True,stdout=subprocess.DEVNULL)
+          PYCODE
