@@ -1,5 +1,5 @@
 {
-  "stage": "INITIAL_AUDIT_COMPLETE_WITH_EXPLICIT_GAPS",
+  "stage": "ARCHIVE_STAGE_COMPLETE_PENDING_FRIEND_FORWARD_AND_DATA_GAPS",
   "code_sha": "bc88185aa83ef8616eb52c9654c73de96d6d8316",
   "findings": {
     "original_signals": 2489,
@@ -28,5 +28,28 @@
   "LIVE_changes": 0,
   "quality_review_completed": true,
   "continuation_completed": true,
-  "existing_closed_and_legacy_unchanged": true
+  "existing_closed_and_legacy_unchanged": true,
+  "unresolved_work": {
+    "friend_channel": "UNKNOWN_USERNAME_REQUIRED",
+    "true_forward": "NOT_STARTED",
+    "native_execution": "BINANCE_PROXY_ONLY",
+    "funding": "NOT_INCLUDED_IN_OLD_PROTOCOL_OR_NEW_RESULTS",
+    "mirror_integrity": "UNKNOWN_EDITS_DELETIONS_VIP_NOT_RECOVERABLE",
+    "entry_price_gap_cases": 143,
+    "P1_unresolved_author_logs": 76,
+    "censored_asof_P1": 36,
+    "terminal_archive_gap": {
+      "symbol": "KEEPUSDT",
+      "policy": "P1",
+      "source_end_utc": "2022-02-15T02:03:00Z",
+      "needed_from_utc": "2022-02-15T02:04:00Z",
+      "monthly_archive_sha256": "f399e3598188ae547c7eccd554acef6055d0a3cfae997b0e64b4171e754008a3",
+      "reason": "Complete checksummed archive terminates mid-month. Terminal settlement/delisting outcome unknown; no invented last-price exit."
+    }
+  },
+  "all45_in_registry": true,
+  "table_rows": 3375,
+  "closed_cases_never_replayed": true,
+  "legacy_never_replayed": true,
+  "report_revision": "Interpretation and aggregates of saved outcomes only, no policy/price changes"
 }

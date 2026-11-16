@@ -1,0 +1,18 @@
+{
+  "friend_channel": "UNKNOWN_USERNAME_REQUIRED",
+  "true_forward": "NOT_STARTED",
+  "native_execution": "BINANCE_PROXY_ONLY",
+  "funding": "NOT_INCLUDED_IN_OLD_PROTOCOL_OR_NEW_RESULTS",
+  "mirror_integrity": "UNKNOWN_EDITS_DELETIONS_VIP_NOT_RECOVERABLE",
+  "entry_price_gap_cases": 143,
+  "P1_unresolved_author_logs": 76,
+  "censored_asof_P1": 36,
+  "terminal_archive_gap": {
+    "symbol": "KEEPUSDT",
+    "policy": "P1",
+    "source_end_utc": "2022-02-15T02:03:00Z",
+    "needed_from_utc": "2022-02-15T02:04:00Z",
+    "monthly_archive_sha256": "f399e3598188ae547c7eccd554acef6055d0a3cfae997b0e64b4171e754008a3",
+    "reason": "Complete checksummed archive terminates mid-month. Terminal settlement/delisting outcome unknown; no invented last-price exit."
+  }
+}
