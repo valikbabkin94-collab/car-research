@@ -1,0 +1,72 @@
+{
+  "status": "INCONCLUSIVE_DATA_GAP",
+  "tables": {
+    "FULL": {
+      "n": 0,
+      "WR": null,
+      "PF": null,
+      "netR": 0,
+      "USD_at_5R": 0,
+      "maxDD_R": 0.0,
+      "maxDD_percent_fixed_10000": 0.0,
+      "average_hold_hours": null,
+      "best3_share_net": null,
+      "status_counts": {}
+    },
+    "H1": {
+      "n": 0,
+      "WR": null,
+      "PF": null,
+      "netR": 0,
+      "USD_at_5R": 0,
+      "maxDD_R": 0.0,
+      "maxDD_percent_fixed_10000": 0.0,
+      "average_hold_hours": null,
+      "best3_share_net": null,
+      "status_counts": {}
+    },
+    "H2": {
+      "n": 0,
+      "WR": null,
+      "PF": null,
+      "netR": 0,
+      "USD_at_5R": 0,
+      "maxDD_R": 0.0,
+      "maxDD_percent_fixed_10000": 0.0,
+      "average_hold_hours": null,
+      "best3_share_net": null,
+      "status_counts": {}
+    },
+    "OOS40": {
+      "n": 0,
+      "WR": null,
+      "PF": null,
+      "netR": 0,
+      "USD_at_5R": 0,
+      "maxDD_R": 0.0,
+      "maxDD_percent_fixed_10000": 0.0,
+      "average_hold_hours": null,
+      "best3_share_net": null,
+      "status_counts": {}
+    }
+  },
+  "events": [],
+  "pages": [],
+  "catalog_period_complete": false,
+  "errors": [
+    {
+      "page": 1,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "reason": "BINANCE_FALLBACK_SNAPSHOT_ONLY_NOT_COMPLETE_HISTORICAL_DELISTING_CORPUS",
+      "sha256": "b107d0c571d4d7cba3c05b94a8f8f158909f099cfcc8845580e6fae173ebefa2"
+    }
+  ],
+  "control": {
+    "kind": "FIXED_PLUS_7_DAY_TIME_SHIFT",
+    "tables": null,
+    "status": "CONTROL_DATA_GAP"
+  },
+  "original_revision_status": "DATA_GAP"
+}

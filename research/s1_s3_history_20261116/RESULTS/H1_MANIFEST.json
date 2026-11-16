@@ -1,0 +1,6887 @@
+{
+  "archive_catalog_size": 923,
+  "symbols": [
+    {
+      "symbol": "0GUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000000BOBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000BTTCUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000WHYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000XUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "2ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "42USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "4USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "A2ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAOIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ABBVUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ACEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACNUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "ACTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ADAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ADBEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AERGOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AEROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGPUUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "AGTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AI16ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AKAMUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "AKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AKROUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AKTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALABUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPACAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPHAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMCUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "AMDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMGNUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "AMZNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANCUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "ANETUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANTHROPICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "APEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "API3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APLDUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "APPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASMLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AUDIOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AWEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "B2USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "B3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BABAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BABYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BACUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "BADGERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BARDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BBXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BDXNUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BEATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BERAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BICOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BILLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BITOUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLUEBIRDUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BLURUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BMNRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BONDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BREVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRKBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTCSTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BWETUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "BXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BYDUSDT",
+      "rows": 1318,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "BZRXUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "C98USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CAPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CARVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CATIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CBRSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CEGUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "CELOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CELRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CFGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CFXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CIENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CKBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COCOSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "COHRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMMONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COPPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRCLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRMLUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CRMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRWDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CSCOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CSOPSAMSUNG2LUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CSOPSKHYNIX2LUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CTKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTUSDT",
+      "rows": 737,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "CUDISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CVCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CVNAUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CVXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CXMTUSDT",
+      "rows": 1795,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CYPHUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DASHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DDOGUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DGBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DJTUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "DKNGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DMCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DODOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOODUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOSUSDT",
+      "rows": 1953,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "DOTECOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "DOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DRAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DYMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EBAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EIDOUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EOSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "EPICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EQTUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ERAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ESPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EULUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWZSUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "EWZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FHEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLEXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOOTBALLUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "FORMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FRONTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "FTMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FTTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FWDIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GALAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GALUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "GASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GDXUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GEVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GHSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GIGADEVUSDT",
+      "rows": 2155,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GOATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GOOGLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GPROUSDT",
+      "rows": 1403,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "GPSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "rows": 2220,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GSUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GTLBUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "GUAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HANMIUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "HBARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIGHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIPPOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HK0625USDT",
+      "rows": 1462,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HK0700USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HK0992USDT",
+      "rows": 1318,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HK1810USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HNTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOODUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOOKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUTUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HYUNDAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IBKRUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "IBMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDEXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ILVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INITUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INTWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IONQUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IWMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JCTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JOEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JPMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JTOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JUPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KEEPUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KEYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KITEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KLACUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KLAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KODEX200USDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KORUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KOUSDT",
+      "rows": 2079,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "KSMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KUAISHOUUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "LABUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LENDUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "LEVERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LGELECTRONICSUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LITEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LITUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LLYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LOOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LRCXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LSKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "LYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LYTEUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MARAUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "rows": 1455,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MASKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MATICUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MAVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MBLUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "MBOXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MCDUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MDBUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MDTUSDT",
+      "rows": 2199,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEITUANUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MELIUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MEMEFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MERLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MILKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MINAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MINIMAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MITOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MLNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOONSHOTUSDT",
+      "rows": 952,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MPUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MRKUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MRNAUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MRVLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSTUUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MTLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MYROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MYXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NATGASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NAVERUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "NBISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEIROETHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NETUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NFLXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NFPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NKEUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "NKNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NTRNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NULSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NUUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "NVDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NVDLUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "NVOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OBOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OCEANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OGNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OKLOUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "OLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMNIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONDSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPENAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORBSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORCLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OURAUSDT",
+      "rows": 928,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "OUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OXTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OXYUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PANWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PATHUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PAYPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PDDUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PENGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PERPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PFEUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PHAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PHBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PONKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PONSUSDT",
+      "rows": 1338,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POPMARTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PORT3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POWERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POWRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PREDICTUSDT",
+      "rows": 160,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PRLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROMPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PTBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUFFERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUMPBTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PYPLUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QCOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QNTXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QUICKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RADUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAMUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "RAREUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RDDTUSDT",
+      "rows": 2079,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "RDNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RDWUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REEFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIVNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RKLBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RLCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RLSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RONINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RSRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RUMUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RVNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RVVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAMSUNGEMUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SAMSUNGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SANDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SECZUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "SEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SFPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHAZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHOPUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKATEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKDDUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SKHYNIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKHYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKUUUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLERFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMCIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMHUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMRUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "SNDKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNPSUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "SNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SONICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SONYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPCXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SQDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SQQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SRMUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "SSVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STBLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STMUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "STMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STORJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STXXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SWELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SXPUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "SXTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TACUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TANSSIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TBTUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TEAMUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TEMUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "TENCENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "THETAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "THEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TMFUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOKENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOMOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "TONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TQQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TREEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TROYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSLAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSLLUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TSMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TTWOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TWSTUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TXNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TZAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UBERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UNFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UNHUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "UNITREEUSDT",
+      "rows": 1774,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "UNIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "URNMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USDBRLUSDT",
+      "rows": 970,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "USDCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USDEXUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USUALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UVXYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UXLINKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VELODROMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VFYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VIDTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VINEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VKTXUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "VOXELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VSTUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VVVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WAVESUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WCTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WDCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WIFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WOOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XBIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XCNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XEMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XNYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XOMUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "XPDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XRPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XTZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XVGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XVSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YALAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YFIIUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "YFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YGGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZCSHUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ZECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZHIPUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "ZILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZSUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "哈基米USDT",
+      "rows": 1337,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "币安人生USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "牛来USDT",
+      "rows": 1501,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "龙虾USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    }
+  ],
+  "files": {
+    "h1/VFYUSDT.json.gz": "6807b54c1a6b9e1c6332c7ed0651903d397fb30a7e00bb1b8544df15742c839b",
+    "h1/SUPERUSDT.json.gz": "ffe15522f93df26a0ae546835c0439cefa3d88aed1742d08942ac53cd9cd4809",
+    "h1/BULLAUSDT.json.gz": "f3a3f711c9f6db5740b53eeaf0592ad88553ac5de9004157f4cd225292685702",
+    "h1/CVXUSDT.json.gz": "bbd919ae6cea171f421c7eae6f11a970690df6f3becf54c7cf76917f7280d9d1",
+    "h1/LABUSDT.json.gz": "dcd83e24e4698d0f3d4f717bce6fbecdedb9e38de8e3f2c3d4c494962d81ed6b",
+    "h1/LOOMUSDT.json.gz": "8d5fefc6f9a9ffc22a51932d3ba558d02317ee8870bfbf50579c02a4811189cd",
+    "h1/BLZUSDT.json.gz": "1dffef59152faa5a475fda9dfd02240ccd6bff1c44fe8ec843bbc1db4e3d4d5a",
+    "h1/BXUSDT.json.gz": "d95dd158276ec37acd32aeeb38eda80393c604ac87c5293f03feebbe78bda82f",
+    "h1/WENUSDT.json.gz": "9ce5d591fcd1903871d78725820b30bb869617f3e39658345e9f0fb88634a461",
+    "h1/OPNUSDT.json.gz": "12951a387e42c763b563c22c618ce527d26735e370ae4d5426cee9ac6061ba97",
+    "h1/VOXELUSDT.json.gz": "d5d3c59b770c17b599829a9bc5775e5ce63becae58ba0035c41e6bac3ba9aeaf",
+    "h1/GRASSUSDT.json.gz": "1f9d1f47163878f3ac1ce78bda1b89895b9d1739eb01c94ad50b37938db0afb2",
+    "h1/LSKUSDT.json.gz": "e9e8ef85b73c67b1421d0c304faf067551d9da01d45f2c1526a91f787c834bc3",
+    "h1/EWZSUSDT.json.gz": "d32c8fd324adf463f19e1f3d7469b1640b35106185f8f2ba564b0bb1f8ecbc87",
+    "h1/TRXUSDT.json.gz": "b82b6b91fc5fe5743b656c790081ff8583b91b1f965c0e6c3c71e5b46c7c977e",
+    "h1/KOMAUSDT.json.gz": "71bc120456e010bfa94432687aa2d3f7230aa0da86fd2633006f54fe32b51e68",
+    "h1/ORDERUSDT.json.gz": "97d23b715c6c7ed2d6556a8dccbfbf41c4bcb797a86dede1d406846cdb34b236",
+    "h1/PORTALUSDT.json.gz": "76110e3d94c6d1343bf2c7c7a539790da5fac07567a222a831086dcf201115fa",
+    "h1/AERGOUSDT.json.gz": "fb9a78bcd6553b5022d18b8cd714ee0090122a98a6d8f9ad4de76a64d4d75b47",
+    "h1/SMCIUSDT.json.gz": "f4ce26092e2837d83210da51ea005f44be63ef5932ce15a1b6329a5479530d58",
+    "h1/SKHYNIXUSDT.json.gz": "c4ea2e960157e20b3765dadd99621f8cd8915b768722764f72732e39d8baaf8c",
+    "h1/NOTUSDT.json.gz": "60b29c93d9832d71397e2658f8cbb2968dfd5298948d54a8214060594ad0f5ac",
+    "h1/DOGSUSDT.json.gz": "7f871615484d9c7b32bdb87e34b2f7252b8e0b9d09df248c3fcbd4b99008beac",
+    "h1/ANCUSDT.json.gz": "ed08fb53c7ca3c290c8e1b0f7ec1952178f2b2d396caccc25687228811a16e75",
+    "h1/WUSDT.json.gz": "c1bbbdc13d089fe01e50daf69bd4c7547b16c0f70eb027d48ad2d075caeac043",
+    "h1/BANANAS31USDT.json.gz": "bbf4238d13b3e20cffc510dc9440d2b18223ee8b32d5a7f6a064c0700eecada8",
+    "h1/FETUSDT.json.gz": "07605f6f6ca675a666d8c154c36328cf5d7a581ee925c1178ec553818d40900f",
+    "h1/TUSDT.json.gz": "bcb0ca920189445b8c8b5a83e2adaebbaeff91e0bbc9147d9589ef0448caaa79",
+    "h1/MUUUSDT.json.gz": "fe7f09d3d0f48a87c9e1976ee4003cb8928efee10d5148dff86c916ad8324f6a",
+    "h1/HFTUSDT.json.gz": "621f91ff061879d890fae1cccad240223b613f1f98f5b22a3e31ac738803c3e8",
+    "h1/ZILUSDT.json.gz": "686f4778f7e546ee3437031b347f93419b615c0b2b7351ad525cda353ee54b18",
+    "h1/PUFFERUSDT.json.gz": "766ef7988895a370241face6d9e2f748a2ca67fa1e85dca567e9fd77a3b4e790",
+    "h1/NATGASUSDT.json.gz": "f07553947d806914b18dcfa2c2c5471f2bdea79a1557ec7616eebb70c2758c36",
+    "h1/UVXYUSDT.json.gz": "63aa7d34ec0962f12e4bd6992b76d8aae0acfedab9b7a6f2077c6358a676fcaa",
+    "h1/REZUSDT.json.gz": "a7d312ee9c871b99f21377ae4788fa0af8c4d06ff19e559a11cda764687cefa0",
+    "h1/ICXUSDT.json.gz": "9b80ba4b3164674b7b92eb8f7c75b8a965425bba1db1437d7435876b3ad8ae75",
+    "h1/FUSDT.json.gz": "551e077472cb2774d95aba85101ebe317ae99dc6677ddffcf9cd45a73a57d500",
+    "h1/ARUSDT.json.gz": "24446a14b224660157377bd5113683371a8f6c993024229803e026564c52013d",
+    "h1/SYNUSDT.json.gz": "64ce2e22ad50acc87ae4d2167cb28e541f5533adb90936bba68ecfbc478ddf3e",
+    "h1/BACUSDT.json.gz": "32a6e44216b35b4b88c54f7f0b8c5b940d2ca68c2d321fdec4e6ed87a6c1539a",
+    "h1/GTLBUSDT.json.gz": "7e68c4be0327afc26027450f80332b166c5a02721148b0614229e0dac16e2aca",
+    "h1/1000RATSUSDT.json.gz": "ff98c2d36022db12bc5b1ebc2d9e264404b5d5d7f4b92c9e0203363e754538e0",
+    "h1/PIXELUSDT.json.gz": "a992b927d20522f66277f499e749f5b0a8dcce8607cef9f557c7108a4a103382",
+    "h1/BNCUSDT.json.gz": "8580c42877773f992e4039e69abe28041a66eb751614b912d9764253f75b45a9",
+    "h1/DELLUSDT.json.gz": "45e234ddb56ebcea95faf1bef4b5efbed397ac839382133adc90a004ec5ee4ab",
+    "h1/QUICKUSDT.json.gz": "705b31bde8bb34200a5fedadd94db1a44c0059a4529ce9704c188680fcd7d909",
+    "h1/YALAUSDT.json.gz": "a0a7efb2ba3374f478eab49726cd720158cfca185f3d32869bbb5b4e5e054fff",
+    "h1/SOPHUSDT.json.gz": "9b16bc9b2b39c393a7c34dd1ab3bc6027afb9c0b5df3ce5b421a9d4345085c46",
+    "h1/BROCCOLI714USDT.json.gz": "12ac8f060c96f611ab6e9aefe77fa554c943a6c4be9175fa3ccc53838d311c22",
+    "h1/SKDDUSDT.json.gz": "310ffc912e36fd711d987cd7fe3180855224a31e26a6be350d808785f462065c",
+    "h1/YFIIUSDT.json.gz": "88de5b753d249bc22c2d3385248cc1b2d92d365b9a595ca67324bfe299b80e1b",
+    "h1/QQQUSDT.json.gz": "7af53f1bfc8ff01b63db3db726c87e4720809c968ff89ebf8d778b3496d511a9",
+    "h1/OMUSDT.json.gz": "d8055a912eacb29ec2e589d2c3e2ce564f1b88ecab6d4a719e474a45c66c2440",
+    "h1/KMNOUSDT.json.gz": "7fe3b48f91cb7405656fa10b269726f4293ba2dfd0816024f8ced79890c6b9a7",
+    "h1/FILUSDT.json.gz": "7c59666e9442f42b6199ac558452b427ff5ebd54fe590a77a9b6f28dc6e5dc34",
+    "h1/TSLLUSDT.json.gz": "16a95b963b7088176bbc7b4843c2ad41d98d5d3ea6b429f33cef4a2537a7c8f2",
+    "h1/SKLUSDT.json.gz": "9c94b9b8af9fa1d1de6d64c4d90b32d438c4f66c8e0bf9f0002876cb0a84e581",
+    "h1/GLWUSDT.json.gz": "fe5000cdeb0f496e54374a17320f1e8cce0c6e64a55c38f310a8773dd19380e8",
+    "h1/DKNGUSDT.json.gz": "402a74e6dea7b7e9304a5abc026ca80cba67140154f69290690a52dd530e23a4",
+    "h1/MRKUSDT.json.gz": "880b6117cce2a71488f211873d8b271af81f7eb78b0e6c1df9efc77397ccf3ed",
+    "h1/ALLOUSDT.json.gz": "0afa3dd3524387b0dd3fc0fb87eb410b9b80c538816ea9e50b9b130dbeb17a4d",
+    "h1/BOMEUSDT.json.gz": "3f1ac53bfab197d674a294a9232c6387bb2d8958ff866c02b9152c4a345bc3e2",
+    "h1/APRUSDT.json.gz": "46ceeac3c310c3133d62414079f67ab56a5ea82b82c05025ed48eb3a0512c1f8",
+    "h1/SANTOSUSDT.json.gz": "64c8584bbaab818bd52abd6ab60dffac1530a0a43ea2f407519a8d756bad2003",
+    "h1/FRONTUSDT.json.gz": "ee77ff70c83dbda7f6482a0aa6fc6ab11fcd0eef057acbfbe7a9f3a1a27e2068",
+    "h1/API3USDT.json.gz": "60104c53b2ec0c8934dea69b1be74d075c14bc193b8e6999db25f5d5751d38b3",
+    "h1/FIGHTUSDT.json.gz": "40dd4a42bb67a12f52e350ee4e667dd994ba6d9e6d395c8d4a4bf094207a2087",
+    "h1/CRWDUSDT.json.gz": "a1fe7abc419fd7e6ecfec9c5cfde34571c1f8eb04f7a64a0f0c1542d44a5c454",
+    "h1/FORTHUSDT.json.gz": "59596a854800bb013c9395d4619958b12328e0320a9c6ad9416aab2a29e44ea1",
+    "h1/PRLUSDT.json.gz": "624fb9cfe72d76326d908bf31fe02dea423662752d440e7bba5f5345e3473a6a",
+    "h1/PIEVERSEUSDT.json.gz": "7a16e4c1657c1cf0017c0800cb9dbde2f912935597a4813ca4cb9b74007a35a2",
+    "h1/AIOUSDT.json.gz": "6a7c9bd2efff73765f2160e5e471f35f2b5a116a597ec9c3cf44534e24881167",
+    "h1/GOATUSDT.json.gz": "0469c5e5abac00cf827aca5d153f562a0eb05af7cacd67aac4941d837ad3c1dd",
+    "h1/MATICUSDT.json.gz": "4c672e87e20ee62a140a0ba6632036aabad28870d8b6f99d5d8a3e9f8e3bf815",
+    "h1/MEMEUSDT.json.gz": "80c3913391910e9a7da2e1b8dd71e12ff1de7194cf184ecb3ead9fb4a6f33015",
+    "h1/COMBOUSDT.json.gz": "81d0a2547097c29238c6208cccf8d515d62f44cd6d883966a722d5008af200ce",
+    "h1/PIPPINUSDT.json.gz": "ad98942feb22a4d478294b8b00ae2ba5a2ff351499ae068bf3fd27920c19e366",
+    "h1/BRUSDT.json.gz": "002f1f213a3b01e342db917d4ccacde3cf765fa83af1e9f396c985fdd09dd3cc",
+    "h1/FLEXUSDT.json.gz": "9398a82cda2621c6c6299bf0fdadc456140b709813c51c444a26c543bf8033ab",
+    "h1/GMTUSDT.json.gz": "7a7798a20e93614a5b83bb18194eaf50777a2fc69c364f7fc7b20b976e9e235c",
+    "h1/IOUSDT.json.gz": "e2e16894daa0629ca5c8388b98fbf5a203adc29a3127b06958a86b43618d4dd2",
+    "h1/NOMUSDT.json.gz": "6d0637d3147193ea4f697dae6e0966e43cb7c4e4e78d297eda221dc28a962ee9",
+    "h1/AGPUUSDT.json.gz": "d87ba6ca977179109df9769a99e065ac76c6a30662da62ee10d8ebfca4c6b578",
+    "h1/EWYUSDT.json.gz": "28b107f20281c8415f87b0c39e8b6e9c231fcab8b7428e6811345c6abb653703",
+    "h1/ZKPUSDT.json.gz": "62d8e8fe5415a0e226de48714f6b0128ad86daa91d03cfd380e66a4662717361",
+    "h1/KLACUSDT.json.gz": "6cc3fb394ba51b200f115c922198f842210b069c2eaddd97c4ba697375f2e072",
+    "h1/STGUSDT.json.gz": "fb0284c512b21621a5ec47afc18ed7ccc91843308f50eabf80e615b8fcdf03ca",
+    "h1/BILLUSDT.json.gz": "18cc7ace9cad19aa3f69cc9ab35c1aa6bc6da01c2c491a022d1a789dbc492d48",
+    "h1/USARUSDT.json.gz": "74a16ba7a3656510e924f846ad26f87289e973403c12bcb9dfb0726beaef3b26",
+    "h1/DEGENUSDT.json.gz": "38710c436fc1bb46a9fdaed069ecbaf40ae183da7b821425e0cd728022261c9f",
+    "h1/FLNCUSDT.json.gz": "6a662edd6daf4c6588e96695928945a7e5fb49f19ff64a2ce4ae9263d76b5835",
+    "h1/ASTSUSDT.json.gz": "e0fc31df2e3fc2248f0c2dcc41fc3b68ecb5191a5a68a49bdd180d6c8e2046fa",
+    "h1/SPORTFUNUSDT.json.gz": "79369e1807d7dbc399387bab318f540901a687dbf0295a9dded07105d8c324b4",
+    "h1/ENJUSDT.json.gz": "c97990f949a40c337734910e2153c051a5d8e6404e9cc148525ba079118cdfc6",
+    "h1/BRETTUSDT.json.gz": "80acdf0b385a0e04a2e606f2b8d0467cf92032bf26a60aac3e52ee1f6b6bd099",
+    "h1/BANUSDT.json.gz": "bcf5211ee43c30f3bef436beb31c3f5996c94f5247e0e808586e9daf6edda997",
+    "h1/REDUSDT.json.gz": "7d88cebb89cc23e9d7d0148ee61109f548cd2db83f64282ca5d9499ca3864dc7",
+    "h1/SNPSUSDT.json.gz": "f55ed57eef5c63792afbb6dbe31f333246ec3cfc3e4a54d58666657b96eb8d2d",
+    "h1/IBKRUSDT.json.gz": "491a08ca60efcb5fd1be17872fb4ce2c9e2ebb1314870a672fb741eae5393bb7",
+    "h1/PFEUSDT.json.gz": "a5fed3b7c0961fc662095c6ea74dcf44eaa7383e1fadcc876b0e33617331ae24",
+    "h1/CGPTUSDT.json.gz": "df9816ea53dee839972d0a56bc8b42a681a4b244f13971292c16da8bfbb848ad",
+    "h1/CEGUSDT.json.gz": "4caf539a822ca5cb1af3c50fc7777a10b73588795d70c1dc941ea7b2ca28966c",
+    "h1/DFUSDT.json.gz": "62948b4a01e3cf0e52aa65ce99b7294cd4e2a4b75ad9ac9f6ca5ccbb75b2540c",
+    "h1/MOVRUSDT.json.gz": "fceb75266f4c4e815eb6cb75838233fc0ab336f9a8ff192ebab8c4601d871841",
+    "h1/GALAUSDT.json.gz": "d6a4bb28d429da66eab3de5081ba34a35f5c34c153de1cc528fd94aeba0872cb",
+    "h1/SLERFUSDT.json.gz": "3c2cc6fe60f43a9033507f2d5ad5983afd217b5d7323687988b95e3e1f2fe249",
+    "h1/SECZUSDT.json.gz": "e00fb9183acc26a07037ee77901569e376d9c589d9a72324529da2035eb1a50c",
+    "h1/YGGUSDT.json.gz": "120579a3bf13382f243eaba99e122c462209d46137b73baab438008e7b98b0d4",
+    "h1/LAYERUSDT.json.gz": "02e8c427d8ecffc43abdc332fe6ae1561daeefb238699517594658dfba818e9c",
+    "h1/CRDOUSDT.json.gz": "b93e7f08e678688ba18b0f98ae10dd283d1f72323d3b2bf01b5464ce03291def",
+    "h1/STXXUSDT.json.gz": "f818a30448f31dc34ce6908e32fdfcb1766b29dce6134c0fc519fcfa3c76080f",
+    "h1/KEYUSDT.json.gz": "35965f625bc4f553e7ed7a13dc83b0b763c3e173958656dae522c379543a7f00",
+    "h1/EBAYUSDT.json.gz": "86b17019098ff0604387ba83c2b44a6e37de60f841d5d0c3eaccecb1a1d3e6e4",
+    "h1/KASUSDT.json.gz": "c7362bb3cb84f1bd38aa3e8a8b33eb631ddc3bf3005bc7ab54167faa527080ea",
+    "h1/ZETAUSDT.json.gz": "154d3f3bdc2c419ee0eb4ad14e19073cbfebfff90e836a54548dbf06fbd37b4b",
+    "h1/MEUSDT.json.gz": "6cf28e9c666f0e0cab346956fc27b58dbb063e12186019dcc49f8f1ac15ef35e",
+    "h1/CAKEUSDT.json.gz": "811c9d38e0a68d12b3a009271415581fbc7d002ec3fe7843431f752ec293de73",
+    "h1/BANANAUSDT.json.gz": "fa89d0d70204e9c0063fe859ea2e3c11ce933f6cd32011656a0e2ebf1a1f1f16",
+    "h1/WLDUSDT.json.gz": "cca4a8267d2c97dec35f9d5d685bb4b2c9249fd433f0e7841d17161109b7ebf8",
+    "h1/AUDIOUSDT.json.gz": "e55df3b6b70126d57892065de6838c645002ea3f01c9dfa10085a3d296cfd712",
+    "h1/CTRUSDT.json.gz": "c22ed3f59e04feda58873bbfda36c75738c2c711d72b38af30a002b2bd53e059",
+    "h1/BABAUSDT.json.gz": "bb217faad436e14973fca2de440ac21028c6b8e9d869ea49aa1fe0260c9b045d",
+    "h1/CFXUSDT.json.gz": "31072411fab6f4ac6ff7ae71f54945c4404371f5308a6ab2e087e546ef893648",
+    "h1/VIRTUALUSDT.json.gz": "98b94ab177091c1bfb6d1daf7623add4bd718877e6bc1b906b77f092b8053c5b",
+    "h1/FWDIUSDT.json.gz": "c6ebf41c38d5af4a23c63db327805cd22bd04901352c7cee0de671dc56b8c296",
+    "h1/HYPERUSDT.json.gz": "a53f85c72249ec67dd7bb3226f4972bf7edf792cbe741fe30546ff80558b5cac",
+    "h1/STBLUSDT.json.gz": "9e62892c9b42546da37a5caafb1f0d2caaec54beacb1884cd85e2385c7c94662",
+    "h1/1000BONKUSDT.json.gz": "e2af0e1c9b83bd289b2cc262466ff51fac993ccd50c84757f369f5a193080350",
+    "h1/TOKENUSDT.json.gz": "005e71cc9e4de5c7ea8a81a84b9da94ada028e29b06a81c0a0f85a54f5758221",
+    "h1/HANAUSDT.json.gz": "15749dfe594adc3b157054d3c7aab5698af84c727adf6e040ba37d523d6e32b9",
+    "h1/BREVUSDT.json.gz": "9356297f95960f34d6d200266ccbf07ec33a8ef203546d988234e3e14a1b0c88",
+    "h1/MOCAUSDT.json.gz": "6e9e09390418abdc5aa4790c98f957a6c37055f4f31e157efd967af84f8cdee4",
+    "h1/EDENUSDT.json.gz": "3addd456a786b69cd9f2d5b7dc0a6b4531ac92c88f64b07edf1f66f3d2e9a649",
+    "h1/POWERUSDT.json.gz": "23eaaafcc15ee6ac4f59182a0804f2147a1cd55774e00729dbf156b38224d2e1",
+    "h1/CVNAUSDT.json.gz": "2213da078fe6c69b2b56b93b0661bff58d6bac12392ab90861b7d954ce08df97",
+    "h1/PAXGUSDT.json.gz": "7501cd8399a6c5f96421ac7812886e707cbc6fbe685530568ac8b865d0e6367c",
+    "h1/GEVUSDT.json.gz": "e52b2fd5415a73ca3ab6abb62ebc3730be0dfe82eec5c05f5a96ff448b37c17c",
+    "h1/WALUSDT.json.gz": "fea513d4e9b497981f155386802db3e15e0b0f8dccd23bb7de58f79274480298",
+    "h1/FXSUSDT.json.gz": "6e0ef8202314916e663337e9c20d403dd96327a45d9ab2cb6783303f1f3572ef",
+    "h1/HK0700USDT.json.gz": "9738050455fcbe9a699e74df15fc67b2ede9f20b848a13e6a720441e42cf9bf5",
+    "h1/LYNUSDT.json.gz": "c7f80db45627d351cbab82ea3a894dcbcaa0352fae0da10f6f0d9cf3d97e1e54",
+    "h1/NFLXUSDT.json.gz": "c449f2a59450f36560cbd8ccb68b5ec177d58dd814262a5882bd3e9ef14061a3",
+    "h1/SIRENUSDT.json.gz": "552efc51f850f6d6307a5923299a1dc40fd96a6f11231c126e3ab2885961c7ce",
+    "h1/BMTUSDT.json.gz": "fbc4582dddec4e9dbb1529c21a35dff69497d4710cccb61042e314a65aa6b21c",
+    "h1/龙虾USDT.json.gz": "16c80bacaaa890c228ea0fc7d8c8a82b15801a17f084ca5bbf687c9ac68d370e",
+    "h1/TAGUSDT.json.gz": "4a9f3ad35417b7dafc9b02854bcd4d1bba0f21f4b50aab1cab3c0a0c38cf35a1",
+    "h1/GMXUSDT.json.gz": "1c002acb0dd9c82bbd122ce8053804d5adced68659e9c2213ba0ba2f3251bb0b",
+    "h1/ENSUSDT.json.gz": "98863f2edd724e70d6d23fd872961e538b2e2429ef8c6459dd1bbcd2123f20fc",
+    "h1/MDBUSDT.json.gz": "83ff77539f9143fdc89e5c3772f9d8789539c792dc7d3f6cdd4a2998c142e2dd",
+    "h1/BONDUSDT.json.gz": "a142bc7bff158e7aa481217447c9762733eba0d6310a42c200726ec108c2a00c",
+    "h1/DATAIPUSDT.json.gz": "8a78e46d149cb6fa45e0fee49504d9347e37945f6b946f49ebfffeb1f4d29f3e",
+    "h1/SOONUSDT.json.gz": "804f64c26bf9db60bf33c5419358965fbc538cc34c8e83f76b9636deda7bd224",
+    "h1/ACUUSDT.json.gz": "e193ac37fdb848a9c1586eedaa7d6879e0e7b5567699d24c7da94bcda3cdf9e8",
+    "h1/USTCUSDT.json.gz": "90c3ff11ec89ed1937a2e4be4b98599e7a891bba49fb1217a3b40df7ae5e4017",
+    "h1/APPUSDT.json.gz": "09ec639346a1439ba4565035434e3f4d1d613aeeae2eb2b611bb3c78697b0927",
+    "h1/ANKRUSDT.json.gz": "baef348490f62cce81a143e30d5d950a97b5510889d5e8ff56c2ee2afebf68b5",
+    "h1/FOGOUSDT.json.gz": "2c8372c15b70fd8ddb1ac6da1387f3edd587506b4c289f389710320f0fbf3f64",
+    "h1/IWMUSDT.json.gz": "12987937efed9f7e80f83234397431244326f7f565040abfd1cf41ba18bf0851",
+    "h1/CATUSDT.json.gz": "780f8b2876728fdbcaa14e6bff358765203113fbc21500bb94b18ea9a2d5900e",
+    "h1/SQDUSDT.json.gz": "9196e9c82cc39ce8292bb70303f36f4546f7cea7042fe541663fbe9cf774682b",
+    "h1/2ZUSDT.json.gz": "03a2748b800614f47d5b4c299325b793e7356c429eb41ce0f11293752c86182e",
+    "h1/NAVERUSDT.json.gz": "2317a6a7a3b71d2a0e7ba50a83458711c910e2e66f2f69a7fa144cac74acb262",
+    "h1/TURTLEUSDT.json.gz": "74a253a6aea7323bb9b25529903b0dc1bf6826444491ea857ff377a4e70745dd",
+    "h1/CRMUSDT.json.gz": "4cdf14bef87b44f8ddb812231f870a476cca41370e6e8304183204301abd92c6",
+    "h1/PDDUSDT.json.gz": "ac142fa1f3d7da408c4f93f665b3185519d48974ae401a734eef7f971ee55edd",
+    "h1/AAPLUSDT.json.gz": "51ecaca021cae99c7425f851c455a048b7b50169b2e1dd997b5aba7e1b110263",
+    "h1/EPICUSDT.json.gz": "d8d8fb632ab6ed733c951b32ffd6cd4bd99708e64087c889d2edf58b73410e86",
+    "h1/PUNDIXUSDT.json.gz": "b86f8485c828dc7175aa7c9dc9c99555e5552f75ced675da4a7bf049975d8781",
+    "h1/XANUSDT.json.gz": "5633659a476b9e3655e8858ac23faa17d95dc16a3e8df984cb70f29d91d530ff",
+    "h1/EIGENUSDT.json.gz": "612d77eb778fa5aa941322652f37f652cb3b44f50a24b0b0c7b2b619eca6e381",
+    "h1/ELSAUSDT.json.gz": "95e29077f975f340006365222e7730ae1cba7b98e9e69cb9531db26740ead008",
+    "h1/LEVERUSDT.json.gz": "fa7e49b4ac41c4c51ba3e3a4277546810fd34106ff305a43f309519227214a18",
+    "h1/STOUSDT.json.gz": "588cbbcc612307502149ede290dd11a4729deae485c376d0fd0889f4823990cd",
+    "h1/NEIROUSDT.json.gz": "64ef10a2f850a48cfe3f78494ebd6a99de296eea48b1da5b72836999c799e261",
+    "h1/SPKUSDT.json.gz": "a9269f2d5779de145b3ec176d90ab17bb7adef8e9231f8a17b711c5c5a8e9ab5",
+    "h1/APLDUSDT.json.gz": "97d3f20821e6398f7175b8c3ff0ce447dac998c185ff233816d8de9507cc30a6",
+    "h1/QUSDT.json.gz": "89259d5c9477f2bb5bf61d453d3d1d9c9ebf1f892df4f1d898fde7e5cb3d74d7",
+    "h1/HIVEUSDT.json.gz": "eed8dd9dd553ab31d97d081c15544aba6d05032399a54719ed2bd8e82e636f95",
+    "h1/AGIXUSDT.json.gz": "74cdbcdce9266ea9a46f65096141190583ffc67ab670d11d08f510ffa95b2b70",
+    "h1/PNUTUSDT.json.gz": "505688680510b7e390b277e8e56c2af30e03c46793ae46ee639f31ef061631fe",
+    "h1/COMMONUSDT.json.gz": "89d4e7fa8d41e1ef7aefab517ef4782ef55254a12e407b9cca0249735526f313",
+    "h1/AMDUSDT.json.gz": "31e76ca25675dddf2602c245f88b02a2edc8395b92ae730d8f8dcf5e4cea6a3a",
+    "h1/ANTHROPICUSDT.json.gz": "0a2c7d4eacdbdb09c2da3302c281b0942b88e2459f49a4d4da9edb1cebeff00c",
+    "h1/LRCUSDT.json.gz": "e7b208fd8bc75cc6c0eff28bec79736474e629384b47fe4d4aedbcdd0ce2f653",
+    "h1/BOTUSDT.json.gz": "c635ccd786bfc2d7c5cda7d3fd6069034565c3e10e7923bc834d84eeb4fa1701",
+    "h1/MOODENGUSDT.json.gz": "b5b988a64ca6fc8dd593778d933c782a884b67a10e6d386bb0fd22a49801a65f",
+    "h1/BIGTIMEUSDT.json.gz": "78af58cb830959a2a914e882aaee36716152ae0982cd88e1a2d0ec2c8f116a58",
+    "h1/ZRCUSDT.json.gz": "1a84675772628fcfda125a96bc04834fd92e5b2009c0891b3fc3eb57d978df80",
+    "h1/RVVUSDT.json.gz": "532820860617dde2073a7f3f99d463d771fff4c4fb0127c0492a9dc85ba05807",
+    "h1/POLYXUSDT.json.gz": "e6c83c95a601007b96caa35fdb71baafb0730ed33934f4f7a4754d9407cb720b",
+    "h1/KOUSDT.json.gz": "1621a352d33c75ee2745bd569e57ef38977ff1c419a3875fb0c63aacf48bcd9a",
+    "h1/XMRUSDT.json.gz": "da09d9d7bc8d0ad43ac5c126f7b0f2d530583d2331246e3d665a49fd635e437e",
+    "h1/GSUSDT.json.gz": "a46d098ab2a8ed6a46beefce92c2be47d204ecbd1265470e1003c930a13d8e7c",
+    "h1/OUSDT.json.gz": "a4c73249046e29604cc23e23546e187200134640f65a254b3628434bd8f3d7fa",
+    "h1/KNCUSDT.json.gz": "fb459b4cedda50d487de712a4812949304590116c56225b5946483c381c0470e",
+    "h1/CLOUSDT.json.gz": "df3d61360657b0161a7e9cd6947721b91be0d242ec0b6f011acfc89dfb2c4e47",
+    "h1/DOLOUSDT.json.gz": "8a02c22e616458a6e56311e1d09531f0f6937f0ad1efef7e94929febd410d219",
+    "h1/EWTUSDT.json.gz": "9e81ace57f48b2fa86cb8957ded3b3995e8527dd989967cd642ddf515decedb6",
+    "h1/PYTHUSDT.json.gz": "8a2ed7e5740e8cf76c43d5cf09ec9526ab4a526295d9d7f1ff76e77986e1ce9c",
+    "h1/KGENUSDT.json.gz": "3b931193571d43af8056b9fb757d97483f1cd8b8956edcccdb48664a5961d60d",
+    "h1/HAEDALUSDT.json.gz": "46b5ca59677612594f71a03b880309b5b99555f177b7137393fdd9164cef5933",
+    "h1/NEOUSDT.json.gz": "3b7efe79d5e552fb3ed986ac96315fd9439d01bcbf7bb213d027ee58e54995a6",
+    "h1/RAMUSDT.json.gz": "556cf35e41bde61ab464262d457f1322d76f6521f9b3b2ea26a89fb20aa84805",
+    "h1/EGLDUSDT.json.gz": "4ec66dc629b1ac5e788d8c488e9704344972ad2d9a5b2d570391a67a14d8ada3",
+    "h1/ATUSDT.json.gz": "c7927a355d4b938485b328327a0e2cb882845a5da276a8bae0f4a7d3e90a02b1",
+    "h1/BALUSDT.json.gz": "1d8b9e5c8172e8029a18a16bc8a43bd67d3e708ba66501a84f5e7b7f252577cb",
+    "h1/STEEMUSDT.json.gz": "940943a2718f1ab063c853a4b366d077304e759ab7df0b2d9f79884a1901ccbd",
+    "h1/XVSUSDT.json.gz": "85acdba38b2a1ba411589dfb5b4aaad41ccd7e61cd2c522bbee404b8a1e13c13",
+    "h1/BLESSUSDT.json.gz": "5acccd87c6d6abae732a28b14dba43bc99e4f05ac849238c7dbbeb5474e62bd2",
+    "h1/COSTUSDT.json.gz": "f32861adfb03bed5d31dddcc9c9ebb01de0e50063f5a5344084fe5723e3a30cd",
+    "h1/NIGHTUSDT.json.gz": "cf8638497fa1c82a88411bcc3fb4311a64c3902b6399cd6a41db3f13f3914051",
+    "h1/JUPUSDT.json.gz": "0c97f953d41354730df17e6e0907316177630ac8b6cc538a70d1001f8176d5f6",
+    "h1/XPDUSDT.json.gz": "a1e7b9064078cafb830b932d91d2ba0a1edf8551b6baded5b0151baa0839b23f",
+    "h1/TIAUSDT.json.gz": "54b7cb0b8961e1b71f61f894f90e8b4e6dc82296a602d2f488ff5bc763aef6be",
+    "h1/DOSUSDT.json.gz": "2842fd57ae6bed5fd4cf13003c9a8387b61829248587bc1050884fcd48d3418d",
+    "h1/HNTUSDT.json.gz": "fc7860dada63510e3e515c0c6f0be2823756c9b7166d571ea8d93047ce6c64aa",
+    "h1/ICNTUSDT.json.gz": "382f4b01e95193b371a8d097568405d6fa1487324b29ef1e384577d7af476956",
+    "h1/NBISUSDT.json.gz": "184996ed92075a39538eb6c215c4de576424e241b4e91cb21e7877bb36a590a2",
+    "h1/MEMEFIUSDT.json.gz": "ba052f317719d7f360ea6c867ab938e1d8c501fada20999d8f11cfc7744bb95a",
+    "h1/ATHUSDT.json.gz": "6b8f35148949c45dc932e621a7bff6e432c60c00a412e647f091c414a26cbca2",
+    "h1/LIGHTUSDT.json.gz": "7fd4b93a8ce5e4f59509d751a1ceb5a5b19a59e71e366cbc20adfaefadc73c2d",
+    "h1/MARAUSDT.json.gz": "be69156173e99db47c02a7e5d08ec5d27fc3664e6d202c24c9956999e6bbb537",
+    "h1/CLANKERUSDT.json.gz": "61f7b0b0f2e7ae4d8f6531d7da5dc6fba07ba49e655e45f1b96571108dfa5bed",
+    "h1/DISUSDT.json.gz": "baa06a674f445955a2878f8b857a94e7f416a942cc7a8005005da419fc2833df",
+    "h1/MOONSHOTUSDT.json.gz": "ef865a21badc6e5c56072ad7ab10d935eab07c9a3d60dc3812b9b30b7415f308",
+    "h1/PONKEUSDT.json.gz": "487fcdd4e1857422e23ade8069d10fec9f29104ea2e657bd1e4188e6b1e7db6f",
+    "h1/BNXUSDT.json.gz": "e69933d89008b4655eb2fe9e2f5867aaa80d98ae68259856b0ff29a68eab5450",
+    "h1/SOLUSDT.json.gz": "3268de27012339ebf5e27ab9960e1b867c9b09671661f556b9fcf98fc7f35f4d",
+    "h1/THEUSDT.json.gz": "2d7316a48bb07182ed0a8ceb846120a74a97c09138958a277b207b728fe38f85",
+    "h1/TUTUSDT.json.gz": "f4675d7875637d85cfc6c19f433b4f174c2dfe338fd3676088df9d3eb1496073",
+    "h1/ATAUSDT.json.gz": "990f94501da6b559639b7b62f78d58942f17e6c7dddc7bbb45eb1e59c2171937",
+    "h1/FLUIDUSDT.json.gz": "65aad6b2757892d0ee08e06f811dbafc2f6f62ca81a79d16af3edb8a05687908",
+    "h1/SCRUSDT.json.gz": "6d3ecfa95bf4278f0e014ef5610fad09c87998799a5d98f1a41ebaa2e45bf13f",
+    "h1/ZENUSDT.json.gz": "e99389dd24a261eab9fd8e8a84dc465f5b252203b39210146a14f6f15285f66d",
+    "h1/ESPUSDT.json.gz": "0a0f8fae23620aa730720730958e33192cc6e2ffcc79dde758c596b6d787e004",
+    "h1/1000000MOGUSDT.json.gz": "76bc4409e021b9050a5ed3aeba1238a62278cc46de930895191b99e6b9d6250c",
+    "h1/POWRUSDT.json.gz": "f9bdaa101d6f206bcc0f3678327b141dcf5c6317e98225761b1aaf36547f9e76",
+    "h1/ANTUSDT.json.gz": "95d01e75cc3143bdf2a5e862b5511223865e01f5add3abd6eb6af2e158c0b35e",
+    "h1/1000BTTCUSDT.json.gz": "88e730b3347bc51cb9eb71049330d21e3547d74f2b0f364b11881046d48d2eb9",
+    "h1/RAYUSDT.json.gz": "e43865118dc4e53884d3ae8f683b6b2416344a58e7846f4e0f6d4dcdb1c2b750",
+    "h1/SYSUSDT.json.gz": "a5333ba4e07daf96e7034110d423588ad8a826580be0e24e14f82c73cf8070b3",
+    "h1/NVDLUSDT.json.gz": "d5bc53b53d40b9a49d04a565e4878fa9052fdd850d820f01bfd6af9564008c5f",
+    "h1/HK1810USDT.json.gz": "cb6213212eecf398978010267b6ecb0889bbf9556f31655b497aa72c00adfdbc",
+    "h1/AVAUSDT.json.gz": "e44020acdc420ae073d848752183905dacb1e35f7eece7368c9f304fa30ba895",
+    "h1/BTCUSDT.json.gz": "e507c8a8595ef916f0e9fe9b1af695b3e9073cf171f2e65bc05bc376ad8da2e4",
+    "h1/SANDUSDT.json.gz": "7aa929e6d8d788ab2458468d1ce7c26a55e6f2b7f6623c640be7a0d136037bf6",
+    "h1/JELLYJELLYUSDT.json.gz": "9de8abb8c5cee26f861219eff3a89ed850edc607bd7c1aede092f93ad833c785",
+    "h1/KEEPUSDT.json.gz": "04ee1c8c044135f39c25aef8093eeef4959973e008e779d3159d8ff45726b455",
+    "h1/EOSUSDT.json.gz": "b4cbf68d4377d532bdae780880ff1e2dd4f7767444455fe42535e5c71285eabd",
+    "h1/SOMIUSDT.json.gz": "27ba14b6deda73874a6f05029ff5bc02f0f572441f5e42a68c9daed8148d6c8b",
+    "h1/ASTRUSDT.json.gz": "2904f4d5e4ad787c8dc19a4ac3bcd7c7ca095ca6c7129f69187ef3020f71b80c",
+    "h1/AMBUSDT.json.gz": "44bb80246cd285a618ae77fa8b1ab4a1461d350b476075d032a47353afb59da8",
+    "h1/USELESSUSDT.json.gz": "ac026331a4dfff7a22f1859bf203eb9a009bd2563e87a92cf1f6db3e43076b0b",
+    "h1/TANSSIUSDT.json.gz": "8286ae61fcf7f170ce53d1c4f003f15047888024913bca41b1e1b5a0389debe8",
+    "h1/GIGADEVUSDT.json.gz": "be6e057ed23f5b7817fedddba02467f3fe1e9ddb236c105eee421a5ecee648e4",
+    "h1/COPPERUSDT.json.gz": "3a4721f17702cf089aca7ba41f7a2c5d4cb3a093d832b58f6dbdbe8801c50d0b",
+    "h1/TLMUSDT.json.gz": "7524454f5c31bc30d5168540c69296bc953c219ec6f6abf081f68d63d51098d1",
+    "h1/STARUSDT.json.gz": "57b614e226381ffc97d7da32e534512749e324c5e4e3b3bcb337419d923d70a5",
+    "h1/TAOUSDT.json.gz": "2cbed80cf3f5200a81a6a4842887918733dc4ad316a965e0c33401ad844b375d",
+    "h1/USUALUSDT.json.gz": "28a0c69b7537de47fab6847a2d14a4f9fd35b108edafdc3001da009202f2843e",
+    "h1/ACTUSDT.json.gz": "fe0265b87923bc59d04ae3b1bb8b5e6acbc436f70551290369758a4b083f760a",
+    "h1/NOKUSDT.json.gz": "fdf86f4bdd6feb8771f7a64e05873e33de2406af236b5a75a002f9522737976e",
+    "h1/IDUSDT.json.gz": "c586a2c63eaf3edcbe803a519707308edb18103caf123c7a3b4ae557492c0ade",
+    "h1/RUNEUSDT.json.gz": "c1c08059d01064e9786e00e3917b67e645e925058f056ea9f3ecd8ab3ac582f8",
+    "h1/SUIUSDT.json.gz": "a39c7efc7b81ce4c0ff2751cd0036c6a9cc7edd53bc417975b6a47f5252abf68",
+    "h1/ABBVUSDT.json.gz": "c7a4bba2283dd63dd93e7d06097af034e9e91258b23ed19935a93d02a3a1e7df",
+    "h1/FHEUSDT.json.gz": "37d29cc2e25ca974fa3dc51481a91824a3d2eb8a5e319464448acb15473d2b1b",
+    "h1/OMGUSDT.json.gz": "8af4282647a7bd1fe9dfad6728c2ad55502ee96794c16a0ea997985f91c55e06",
+    "h1/PLAYUSDT.json.gz": "fd16adf1fb35d20af4747208f53858eecaf9872d0fc23a1d1b9adbf800b0986c",
+    "h1/SHOPUSDT.json.gz": "72dcea7e274a35f6ac53f2bb4ab8e979c6e20c47b1bbf68885dc7cef9fa0e9da",
+    "h1/1000PEPEUSDT.json.gz": "d6ade542ec68c8fb740452cb0397f8bd53587a4ee4691af05be83e94fe604933",
+    "h1/KDAUSDT.json.gz": "75d9a49d687645f5c082df373455eebd1c58ff91e0be8708de6730c50142e20e",
+    "h1/CROSSUSDT.json.gz": "62ca0e124c0ade695126a6a7f96dc1880861a5217cad15cd5bdf48c2e6673a10",
+    "h1/CETUSUSDT.json.gz": "9ed13e60e6c1a30f9644658be5059d3617ecfbffab2e1f87da0ca2a6151218ac",
+    "h1/ETCUSDT.json.gz": "f12de7408d18885da61b06f0db1f5db95b02fea9a594f5d684367b036c6a7d75",
+    "h1/GLMUSDT.json.gz": "af57253b2f35a2345b17f52997352a2ff61c444edb6d332a3c78828221bb5bb1",
+    "h1/CXMTUSDT.json.gz": "c3f33c35f4e086840d7265ac7d5e17dbc44ed51a811483bd37ff2cf62be1bd9b",
+    "h1/MUUSDT.json.gz": "dc8efda39f49b861007bbb21af1a8656a1da7bd9a53a0363a920d0590a8c6c45",
+    "h1/ZKJUSDT.json.gz": "7438575d7aee6e1967a7b37680c09281deb6c11ef0756d8e39a9c86eccf55d7e",
+    "h1/BTCDOMUSDT.json.gz": "0a5cc98aa6857a8d68334b5bddefcd2feeaabc5cfe08e32df44de75d23390d82",
+    "h1/RADUSDT.json.gz": "b2a6c387a5481629cb255911546992d56c8ff3380282eacb4e81e15aff0672bb",
+    "h1/LUMIAUSDT.json.gz": "a4672bcc36bd00b802abe6b06a226a7fd5f404f847c0e2243571552b47b1d599",
+    "h1/SAPIENUSDT.json.gz": "05d235112d0ba143d16912e29eb0f42afe3f36db16eddc536116a7f29b2cb2ef",
+    "h1/BUSDT.json.gz": "1e861fa0403dbbb41370afe17b9d555fe0c673d08abbc70b85a731e63a9142e4",
+    "h1/SHAZUSDT.json.gz": "ed8b20885ccdd21fa90cb8c0f0cffb4d6b3f4c96731cbd2332847966066c61e5",
+    "h1/STORJUSDT.json.gz": "35a31d87f2181281be6cd15e4765c99ecbde8b78effa967ac78ce79f7cc1a9f9",
+    "h1/AI16ZUSDT.json.gz": "60e588630a174b93e910e582e849b473df87763cc98865f01e9d4669eba66b44",
+    "h1/BSPUSDT.json.gz": "5acedd68d0f6693cd80f40db21addc736cf9342543110460779d599f949080a9",
+    "h1/SCRTUSDT.json.gz": "fd675e78c8a948e1cb8fe4d57e4efbcecfb11df0b602da62400627b2933def0f",
+    "h1/SKATEUSDT.json.gz": "b81babb98ec3d850f6b073b06f3d8e6848de44529bfbd4159c05dc7b6eea5012",
+    "h1/1000CATUSDT.json.gz": "a8ac1b80a34c792659d3a25cc5bcc000c9b95afeb4634094cb5348b3541e04c8",
+    "h1/MANTRAUSDT.json.gz": "0755f5a9d9239f728fd3e2cd5455d0e421872f7b87604a156cd3ed758e0edd99",
+    "h1/KODEX200USDT.json.gz": "36fc54a1186ce2e0b27f22a510388b28339a981ef2ac12d51bb1bedd8676a1d2",
+    "h1/NEWTUSDT.json.gz": "23946acf5c6bb0ea0d1f7acf226619a105af2edc9e55399939dce6f89b6e0ccc",
+    "h1/YBUSDT.json.gz": "a62920dc89e8109e0344e990c9ea44ac6242c7cd3148e2fc7911c5cf0e68104b",
+    "h1/CLUSDT.json.gz": "b600b1fbfe179bc9952b6f5b5ed5db1f2accab8d7ab431b70d158633a2744790",
+    "h1/HIPPOUSDT.json.gz": "15377a88e8f0d7f4ee49234093c19adb1d1a78317936716ba51de4f4822cc863",
+    "h1/CARVUSDT.json.gz": "66d0d788cf963e70222c41e707d4a3fd4641564b09ec5dc9aa687c9807ec1384",
+    "h1/UMAUSDT.json.gz": "0bb48a5b41d76e281f2057e46c9f8a3a12e575d66ec546d85294d4cd759d5dd1",
+    "h1/KAITOUSDT.json.gz": "1526593c1c145c15a336530bd94448b88a0639cbc5b720cccc4c98572ee2ae83",
+    "h1/MIRAUSDT.json.gz": "22744e16d1de40d585d503e6deb7d7ef840aaeecd75ecda2b79fe4ab8e7ea3e5",
+    "h1/OGUSDT.json.gz": "0cafc0b4af76c0f6d64058c3bad8d182c590f663f437e08ed9e0b0dd0e8e7bb8",
+    "h1/COMPUSDT.json.gz": "83be7c6884cbf0d049d308257189a8179c1acf1df1ecbe2eb67f8ff4570b4715",
+    "h1/USDBRLUSDT.json.gz": "15823d0f42756f33054505c7590306967b599f53a0f65a0ea66488fd6dea9582",
+    "h1/AIXBTUSDT.json.gz": "4c8f751d7a9f14e93c344507cccb4b4c751b0fb0030f9489f387ba7f72754abd",
+    "h1/EWJUSDT.json.gz": "74ea2de2ac748490832f1e99c2bf8f0794d2ef8a7e4aac6fccc4186a7b51076c",
+    "h1/COCOSUSDT.json.gz": "fad6c668bd46f905193244434e8461119a403f486d55fdf146ab5d665f41dfde",
+    "h1/AEROUSDT.json.gz": "76f8678ba3c350da744289fa6173f49e28f204c3158d9eadf28479b7188be605",
+    "h1/KUAISHOUUSDT.json.gz": "6dce9a172df5d1dd22915d34962313129bb2a65c762b87ac2127c42831ea7e72",
+    "h1/RIFUSDT.json.gz": "283d20ea639f61da94471b6e5b3432134543a9ac19cbec801cc8f1f12b997927",
+    "h1/HYPEUSDT.json.gz": "2d1cbf63d1995e59ad6367ec530fcfc2a31fc8a37447e9aa487c27a9781872d1",
+    "h1/IDEXUSDT.json.gz": "1eed04e879fe43c01f9881b4804f18f3de0a758219986da4335286b0eccd1ab2",
+    "h1/XVGUSDT.json.gz": "039824ab9c2c92a367a64d7b7b0be44dba750f97daa51b2f1e3bdfe93c1d8e1b",
+    "h1/TAUSDT.json.gz": "ea3987229dc068f54d8f1737418bb1584f401f384646bf2aab3860a60ad6d409",
+    "h1/AUSDT.json.gz": "0125c66e93ded696298dc4cac84736359b9f11963942fb3ee1787c322f106beb",
+    "h1/LITUSDT.json.gz": "b875be49776e4e35a68020d7e7d452651be79dc641c2f4eeae9e736573772691",
+    "h1/1000SATSUSDT.json.gz": "727a5e9a5e54cf29d300d8c9a541d2ccfadc0262864f60433821df1ba6cdb051",
+    "h1/AIAUSDT.json.gz": "1a32fd035ce6e9d43833d9d6c36e59987c3f85053145576bc6bfaf7556bfa7c2",
+    "h1/AXTIUSDT.json.gz": "6f623e3b7b184de043b540eedb721e40373ee15f5579897ba6b66ae84fdcbd79",
+    "h1/STRCUSDT.json.gz": "1a9808499e28b760a51deb1e052bd74c4dac379f551837201c31cb979db851f1",
+    "h1/ORCLUSDT.json.gz": "994503450cb082e0ad616f4081a83ab51a3f039b34b88c570ad0c4f01ed96374",
+    "h1/RUMUSDT.json.gz": "7ea74cd7bb01732893eeba437efb5f45905289cca31986b5646a4d365da1c9ba",
+    "h1/SNXXUSDT.json.gz": "d414f384d63caa1c9af7b1a6be41661406c1e6bc5638a0d22ec87292833c15dd",
+    "h1/CFGUSDT.json.gz": "d9af1d51e64aa05abdf0715556946cdde1bb04e258c07016a06d25b71d7aafd8",
+    "h1/BABYUSDT.json.gz": "86bdb43ff7091d68e62149e33d04dfc412d9ce4e64649f8166c8a91f7f2a12a8",
+    "h1/COHRUSDT.json.gz": "eb2883f5cdcd95aa9bc23fbf6f56c8a51db2c367162db7d70b00d8435f3cac37",
+    "h1/1000CHEEMSUSDT.json.gz": "240f18d24344d533af373ae182499c9b01cff385d489d75763e5d1a63ff62d44",
+    "h1/BWETUSDT.json.gz": "f76d1de2a17ff87844f64a905853e06bcfb6f3ce8f0a3b5ed592f216628095c9",
+    "h1/HOODUSDT.json.gz": "0173636a28b5ea67d58f2b5adbaf67c525bc5151460c2aa22455ad4b851aeb96",
+    "h1/TRADOORUSDT.json.gz": "e9e298afb3283783576d034354fe958733bb3db84bc1edd044f5d51fd51a3967",
+    "h1/BITOUSDT.json.gz": "30ad7e77d809c0b86d82834f979b50998771cf5409dba45d74d27c75800e6a3f",
+    "h1/HMSTRUSDT.json.gz": "3ef73f174905fd06eb1347dd660ba260d2ee3450530bd1274dcb0ddf6a77502e",
+    "h1/SOFIUSDT.json.gz": "6b818893874aebf99c71a29c7b2ac621f5aa501bb1ad1d9d396c727e762495f0",
+    "h1/PONSUSDT.json.gz": "448b6e6dad0d1a3ce0e694770cb08d3631ec415e5c63905ab384a0a053e7f374",
+    "h1/AMGNUSDT.json.gz": "b4f708e07e1f2ad2f739d0a35153be47ba983da20ecd06f7f2ab2474f3e9cc00",
+    "h1/MBLUSDT.json.gz": "fb0d7598979a61c12ffcebcf75936eff6ad07908042357e8e28ea806ee7af80d",
+    "h1/COINUSDT.json.gz": "5776c6173478283b382e4f7548dfd8a631eaa3f8bfab1f108c3a0e8a91a709b9",
+    "h1/REEFUSDT.json.gz": "10faec9ab093894259d7d2f17b70373d7dd8ecdf65c6757994aedc25e8c3fc5d",
+    "h1/QNTXUSDT.json.gz": "ca17bf047f6dbdaaec85e0f7c571fd3fa6302ed6b84229edbc7fd9699ea66e94",
+    "h1/PUMPUSDT.json.gz": "1e5381ab47231aa5d3b336e00be48ec01ccdefcb4d53b4018cb82ec5ff880328",
+    "h1/UXLINKUSDT.json.gz": "fa4489b3b8665fb834724d819b32a124b51d8388ed19df776ebf8b6b88255b80",
+    "h1/VUSDT.json.gz": "4ad3a1b4e29a1793fd686cb30af48e53f471bbae54bc30868d6d71ba8b6c58d7",
+    "h1/TTWOUSDT.json.gz": "1f24aacafb2f7fa39c82850ccc019d6caee157d9ac7b01b70db947b4dfa3b482",
+    "h1/MSFTUSDT.json.gz": "231e72da6d5f99a7e164337c5c55372c785ebea7e60a2b7b46a72639db23fe52",
+    "h1/MONUSDT.json.gz": "0c4f5401c26ef230625c8df7bbc5054855d175e2e88a32ee631f3ee304ee7b26",
+    "h1/VSTUSDT.json.gz": "e93077d8263bf216c2497a34f4e52606b682e6e7098a27a99e3c8ea375cef05a",
+    "h1/PHBUSDT.json.gz": "b2f22b28e778f927ef302110062ca6c1e920f3c90bf5b6cb43d90f915c072472",
+    "h1/GRVTUSDT.json.gz": "bfa8fea0d7b84913b596b6575c9d0afb2770f094324c1ceed2e9c5084b1b636c",
+    "h1/STXUSDT.json.gz": "e1db867e5c28d4da5a6de8344b3fe64dd77ce6da2801cf26bded32a50b0ffa7e",
+    "h1/MYXUSDT.json.gz": "1f7fa76da4b506d7a9d8fb2720450671d9dbe04b98ba6019264e079bf6fc2605",
+    "h1/CUDISUSDT.json.gz": "15f2e3431ac6673518ebe38eeda252ea8281050ac87e21a117f48beba86d02c9",
+    "h1/DUSKUSDT.json.gz": "8add6ea74dba635e8986634a16c2d1666864f6fad2545c54302e9bae82ce3cfa",
+    "h1/CTUSDT.json.gz": "bf3f9fe76e214ca07bf2ab1be17fb41490fcc33898bb421b316c044dd9b3a6c6",
+    "h1/MRVLUSDT.json.gz": "bb0691209c1d2beaa1615c651c5c720440f316442c3acfc5e5b490e1b94b4e0f",
+    "h1/GPSUSDT.json.gz": "5a996de4202d27b847409e72cbef396245735de8b64fe24fe597d205c97997b3",
+    "h1/IRYSUSDT.json.gz": "a322f85646c85c4e44c14130ae53c515388e1c48015815f5d97476e1f3a9fc15",
+    "h1/OXTUSDT.json.gz": "e7310a0c20d863a4fc902d76c9993bc310e73232fd2dd3381e9805b894fe78fb",
+    "h1/STMUSDT.json.gz": "8bf4c37c22d5040d7cd02b10890fecf67afb21fdcf3d4dde5086ac1fcd32b2ad",
+    "h1/XNYUSDT.json.gz": "3f1ba347496f233cef1b6f2cfcbedd5f4a6157b60a151e25935cf9007c734be6",
+    "h1/NULSUSDT.json.gz": "48e504b34d8e71f81028409074b2afd0ac73182c987dc0c1905e4fb9a712cb13",
+    "h1/ADBEUSDT.json.gz": "68f7c43efd807446bea48b5b216126dd4d5514bc47c30f6bf57293a67b2ee711",
+    "h1/UAIUSDT.json.gz": "f73eae73516f1576c87c6e8f65e724fbb47640b6a6f0b937c9be03f86e0e2bf8",
+    "h1/TWTUSDT.json.gz": "0e78f1e18526f91d4dae0b4d9f7e61b7b45557effcde8368d424160f1cf3e605",
+    "h1/FRAXUSDT.json.gz": "d95a4cb8a1c93c61f61d710424934d4424976a01455d4a0d8015c1b7f8bb634d",
+    "h1/ZESTUSDT.json.gz": "742a7f68f55c3a4e7bcb4647ad50d66a1aab085fe5822111cda4b26f57e36c96",
+    "h1/COWUSDT.json.gz": "7b4b33ac8ba7a7595173da779fd95adc618b411c87143d662dead4c5426dfe32",
+    "h1/ALICEUSDT.json.gz": "8dc03d45d424b1193a6f0277880114aa80df7796a61e91e88a3d14771b60d096",
+    "h1/ACXUSDT.json.gz": "ef2abbc68a595fcb6b2b796cdb1148f6aed2ed9d10c7781beee49d95ad512fe9",
+    "h1/ALABUSDT.json.gz": "7d91d58fb120c5cab96e5e61664e281c0d21e71462e0442296c2e36cbc95ac5d",
+    "h1/BEATUSDT.json.gz": "d86369421f5ea9b1e33772dad1d78193ec99510cc8509aa5664088e966da31d3",
+    "h1/IMXUSDT.json.gz": "5e7e02a136b420f9aecf18599e24942ecbeaaf6c93c677b9962e4c06b8dfb0d6",
+    "h1/AGTUSDT.json.gz": "21961181a1aede972918e03458826e02bbc685a0c3d5436789efeeae93bc8f24",
+    "h1/IOSTUSDT.json.gz": "1d38375c834271ecb302a281e55abe1a8b1ec339b99ad4299b7a484887616ad4",
+    "h1/METUSDT.json.gz": "ee0a1a66de9236622e3ddd54a002b673a183b260780659783ed4012eeb294265",
+    "h1/KITEUSDT.json.gz": "ad99adfec72c65b13da74c7a3599d028d322fa3b7e314b7ad95d2f483e6bcbd3",
+    "h1/PROVEUSDT.json.gz": "fc01fd513871bd3d60be3f2d737515ca7f69650ad37b2bf5f75cb4b1a606dbe4",
+    "h1/BTWUSDT.json.gz": "fc0cd9867b0a617bdb6e231aeb0be9b78f767838b3995f6986454a32db05e9ad",
+    "h1/AUCTIONUSDT.json.gz": "677b5af7e12d16ae670a8054c0d902a35ceb53d8a0fc79530ada6fd499c3bafb",
+    "h1/JCTUSDT.json.gz": "8622435dee895b6bdb7b38bb40454fb669d411e6a82f60b8a3a8730f26771dd7",
+    "h1/TSLAUSDT.json.gz": "8deff4b17c1f64cd00fbcd909c660c1a53df8baa71f92327bef8ca1e9be599ae",
+    "h1/MDTUSDT.json.gz": "5e95e4acbd9f92d4f98d3d7a9e18fe5280fc9a0e1d6d7ab11a34e7ea261f2b85",
+    "h1/BIRBUSDT.json.gz": "f30344e2fd74e40cd981b491b2207343206113ae212aadf225461d6fefc40301",
+    "h1/STRKUSDT.json.gz": "06b854f2bf58e4a68113f5cf78e7b71d3f8c848c6435a5ea4354ad2d398219f3",
+    "h1/4USDT.json.gz": "75822d4ffee2c8983c1f2506b7854f6c9ae816710b90c1313e09e21b97567286",
+    "h1/TRIAUSDT.json.gz": "3fa4467ecf3a6f101d02fce50fec9fb2e7862871a55c3645923a5c92a521b376",
+    "h1/BTCSTUSDT.json.gz": "b494abdf0fb0237e218c997196667fdb8435a35e62cb2b7e92ff32ee357a0ea6",
+    "h1/TRUTHUSDT.json.gz": "6c0ae9bdd37f8e7f4b8c9334291013aab6b4f068fd55dd41499364595b7260be",
+    "h1/HOOKUSDT.json.gz": "91688e0fe973d5517a3eeecc0eb23282cdad1e28ce5b390d8689976b0f705669",
+    "h1/APEUSDT.json.gz": "89a446a9dce3d5be478ecc07540d2acd7a7b9bcc8f578f6141809a8f49c5600a",
+    "h1/ZRXUSDT.json.gz": "8700a2d8bd4b4acfb29f03b771e94b60d48e51ebf7be90d2102e45fe4d30684a",
+    "h1/DEXEUSDT.json.gz": "78bebaf8f9256d79cde38a251b852d407d79a4695573f2f4d29367df90ce6002",
+    "h1/GWEIUSDT.json.gz": "68ad771fb2d92a84da88925a03d74b609342ec0cbab67532083b6237f1a49e70",
+    "h1/WCTUSDT.json.gz": "a5858dbb1ad6b457f53ffa6c96eb9f05f4b31ddc622f559fb09f7a021a6aae61",
+    "h1/RENDERUSDT.json.gz": "c23062f953669ce3c6347616566c72e1e075eb8d2492da2afa7522657f22f497",
+    "h1/PORT3USDT.json.gz": "2f2e0d6c2f72976e98aa89e10e913ad5dba8b4a306fd2530efd94e7a5ac3f57d",
+    "h1/FARTCOINUSDT.json.gz": "59b2d5d2329cfbbe4405996965b1d918c17276a500b9e8f649275ade282fc293",
+    "h1/ICPUSDT.json.gz": "a242b31dd593fe1e952ba880a589d3dbbad2558a3e6de17450c3f8209eb41b21",
+    "h1/ASRUSDT.json.gz": "fb9ebc9b7be170066e21ed1548a3863d86c6bacc16f1a6cf2105904433092b78",
+    "h1/DENTUSDT.json.gz": "c87cd2f7ebcd0215a315046902c5055f6b66e2772ba0bb68b136413eae51d2de",
+    "h1/MELANIAUSDT.json.gz": "17ea8619b058d2b77a5c925d562b263a03bd160a900233e5b1a05247af5ef228",
+    "h1/ANIMEUSDT.json.gz": "a216542da6f50d195e717d0b337955f068d191e1664098ea1b7a66baa40d3682",
+    "h1/XEMUSDT.json.gz": "041d4390bdca24ce1363a3098a19a4261fc25249292047695078fbbacc6daa7c",
+    "h1/B3USDT.json.gz": "e09b1dd9de1a13bd9a15c8dfde9c0d482161b632bb41da37c4fcf48e91f3f967",
+    "h1/OPUSDT.json.gz": "5565f05b09cdb096ac63c305948fdf8e0f9ae82abe1309199f1699ffa1739bbb",
+    "h1/SONYUSDT.json.gz": "0ea0968ce92b388ec4da919d3e6a094ab565b876c9db81fca378d1edb3f163a6",
+    "h1/MANAUSDT.json.gz": "d52bef8009e1b2181ac50b89bc44ce746ade4ef81c18c3302f57a3e31b6e347f",
+    "h1/KAIAUSDT.json.gz": "28cdace6c19d76a989ceb870bad0d27a0361e8e52ec5e2c41c49f65becf0a622",
+    "h1/DOODUSDT.json.gz": "acf92157abef1f61cced42edb208282a555abdf3960d1596ef693f3ca7f0c787",
+    "h1/CRCLUSDT.json.gz": "456b53f195ec51020cf853b25fdde477c63c06bce1f6776a2317829350642c6b",
+    "h1/ACHUSDT.json.gz": "f4eb208886084de6975b84e6b5ceaed4e7e8b1592b500598c7718ea28799085a",
+    "h1/TEMUSDT.json.gz": "9bc9fa27062816e0bddb78c4fe5b2929d741c6c03785905a843008ef46eda348",
+    "h1/LENDUSDT.json.gz": "8d6405d346d87f95436c86473468112fabeff9dc1d3b8343bd06b0c9b39966dd",
+    "h1/PENGUSDT.json.gz": "69b0c79395040cc699839dc546760a27893b0d7d3adb8baf7175943fb56ae960",
+    "h1/CELOUSDT.json.gz": "228b1594d8dc55b3a3f36f14fc89247b910c4003adade2a76dda95802c870540",
+    "h1/WLFIUSDT.json.gz": "2670191bcc7079cdcc89965039341f7dd93242529cb16eb773c732c58a62be49",
+    "h1/MSTRUSDT.json.gz": "6b15958ece317ec67d331a8b6564b808893b4e4c985b1b0c77bfb782e20e7f4e",
+    "h1/PYPLUSDT.json.gz": "9f4570da13c6bd926bec161ce37c7a1f70a791ef064a81b71d9b7c744ffce9d9",
+    "h1/EIDOUSDT.json.gz": "dc05107a9cde626ab5152e3e504a214cab4a375eeabd9bbc3d856f8c6edf1e4d",
+    "h1/XAUTUSDT.json.gz": "9b34ef0251ae967f93cc641587145b0ffeefe2d38a4259fa96bbe7b84ca1cf01",
+    "h1/RIVNUSDT.json.gz": "a49f37f7097d1d35a75a1bf6cb353410c60de1d01978e056ed1981a2ad7ae630",
+    "h1/0GUSDT.json.gz": "67551a517af991ad92b0952e98c32c442caccc3a98bef865f21f71ca527772e9",
+    "h1/ALGOUSDT.json.gz": "ee54756e11e9a31fa524a6f8c5d4302ed5d5552a247daaca6a1c6062744f7e71",
+    "h1/SPCXUSDT.json.gz": "f3ea4a4bed09d73cc107e3bf45c340650e0b8fa9fca6efec413519550e624276",
+    "h1/AIOTUSDT.json.gz": "752747707a0d519e6973ff97c3719128d18fea96ffdab5198f460d9531eb240e",
+    "h1/ARKUSDT.json.gz": "ba22b165c28b9fde5235a9f86ded581ab0b0527bcd78fa6f575fec6c2d482610",
+    "h1/IOTAUSDT.json.gz": "0d4fc9ec6ac55177b14350ccf3a713217d0274681b90eeffe88239628b9b4012",
+    "h1/NFPUSDT.json.gz": "fccfb061882c6fdacde17a302053b3cba57d8e9c9a9f2e508e4eed840edf6d11",
+    "h1/SKYUSDT.json.gz": "8e275a6498d9f6a5d85556325fa8b27764ef50c7aa31345baa119c9b75a30cc8",
+    "h1/IBMUSDT.json.gz": "385402d899dea5d3d5065061d09bd24790e3875f4b2ad35ce301d40ec98baa59",
+    "h1/SNOWUSDT.json.gz": "87a6f79fa4ae68c2fac10c83eb7a7a7db706d564240f847e6e66ce28918ed956",
+    "h1/EDUUSDT.json.gz": "54f17a00dcf782cb676367fd480a4897d63618888f37d0e3a0b75e0b5a992a75",
+    "h1/HK0625USDT.json.gz": "a8454ff70fab255061f3ccd64286c1eef9836eb4a68f9b40a71ece889563753b",
+    "h1/PANWUSDT.json.gz": "85994f0c5eebc7bec973db6af38076d582330f26feb619f3e94d743f1ff14901",
+    "h1/BADGERUSDT.json.gz": "265a31c2d2eaa529183b7dcaad15858da0cb2613a701232f427f7751771b6f27",
+    "h1/MRNAUSDT.json.gz": "fbfb3c116ed26d720fa1efba00f88578ff8154f285614a5fcb73c12b5730dcba",
+    "h1/ZMUSDT.json.gz": "7807ad7b419da0f677a1aef8c6e6f3fa75024aa3835a10ed5383219dbb90e5ec",
+    "h1/TSTUSDT.json.gz": "18f6886ecc6ff92472054080fe000547ce4f738a838c9ea40fc6fd28ce880f2e",
+    "h1/TURBOUSDT.json.gz": "5dccace3eace17649c93d8a6c82c92be358bff537875222ab893e174db1286ee",
+    "h1/SNXUSDT.json.gz": "d282da83f18d46ee41b2af88832ee1f38df96a3d5ba71c32de6bba27f806cb9f",
+    "h1/SOXLUSDT.json.gz": "70aa4432f6c1565849162b90ab41ba541ae859e5a044346467eed5849fa66e40",
+    "h1/AIGENSYNUSDT.json.gz": "41d6f79ae382e1658fbff061b7456a893f981c79d2110b5d3216bca4a4d727ac",
+    "h1/SUSDT.json.gz": "119bb90dd9d955d0e24f4bf0a907008cfccb7c9f68d79db3945c78735ac43b77",
+    "h1/TACUSDT.json.gz": "98bf381829a6cc4b16aa87a908ca7bbfb3e3536dad41fc46f0362726268a7e8c",
+    "h1/STMXUSDT.json.gz": "68d4f718f4a18bbd4b4fcaa2eafac2278c41b98edcd6f0947051e6d36e36bd64",
+    "h1/CHRUSDT.json.gz": "3944b96b15705fd7ce1c33c22753514f20cf09f3d9cb5c0fe44bc225a179799c",
+    "h1/CKBUSDT.json.gz": "e4ffa671de55557c19a52f7c8dfa265d3b5687a147247320edb2695d61a2103e",
+    "h1/LUNA2USDT.json.gz": "85178d78fb7cfc7c8cca6fcb8a37acddfb991c7113ab170f2844fc466f533818",
+    "h1/METAUSDT.json.gz": "46d17ef331ce0e61c8fa4a0f9d6288a58ab8e93ac7b2e18fbe9f9f0f35779cdb",
+    "h1/ZCSHUSDT.json.gz": "0b9f5ebc1fe6a650caef4d5f0cab295b6d6cc45d844a9385434bc3a967239554",
+    "h1/MEWUSDT.json.gz": "15324ea617453365bfa4ad016d8cf755222ad1a70a1dc2c7bb6c923c950630c6",
+    "h1/SKRUSDT.json.gz": "74dbefe810bdc28dcb9cb0a920942b2403629c2f33f9190865a630dc9f449a8f",
+    "h1/HK0992USDT.json.gz": "ba039156e1a2a2ae663d4ce11eb8d62864298b9f1c6017ae375a0630a08bf201",
+    "h1/GUNUSDT.json.gz": "951af1f710d451eea78482c5393a53af4b8125b940dcfc437c28e20a93966fc5",
+    "h1/IRENUSDT.json.gz": "7aed89aff80087dce84ff7b64b0a886265d3133621514e0f167fd1ced129bf21",
+    "h1/STABLEUSDT.json.gz": "a4c8fe369747c3de44a32a7b31db5241d122b1ae25c8741d1463caff73eb3ad3",
+    "h1/GDXUSDT.json.gz": "d97f91d878de90c4f677f8c42ce0baa232babc181d69eb12b04c0f7f73cbb105",
+    "h1/MOVEUSDT.json.gz": "9214f8b7b7751e02d33d01200cd7c7c77a46ec3aff2551292100d218d86346bd",
+    "h1/LLYUSDT.json.gz": "15378513899d160e3c0a3180f64ec2a5f66acf4ac2bceac81530977a2e824778",
+    "h1/TERUSDT.json.gz": "20dc93cb6de430570ed38370bae4e2f6291867d8b49c8413dbbe47d89b18c8b0",
+    "h1/B2USDT.json.gz": "f76c8f76636b2a15429880315a1a7fda6e5ea5c403554a25ccd7f5cc4787278f",
+    "h1/ONGUSDT.json.gz": "2835a932a478b67ae0cb2bf93bd2db80e26dbc466273f2dad3e6d54c79f0dfd2",
+    "h1/NUUSDT.json.gz": "08dbe3f1182e39306c69167c8caa9792dff9c5d79a0b7be2e19317287239ae07",
+    "h1/AXLUSDT.json.gz": "29ad5f829072d7a72fa4000a8174d5cf5e1cdca271da8fa67cc151f12f2cdaa3",
+    "h1/C98USDT.json.gz": "174bd2790fc127639c4db1fb4d6e57eac5391610f2e52d69d4fbadac2166da7c",
+    "h1/PHAUSDT.json.gz": "160b30261cc19a531b9857ece3afaad1f912f9cd7edf433cff97641e688d4313",
+    "h1/PARTIUSDT.json.gz": "10795ecfe2a621e71edeb518db912ce62a1419a91bed5266a6dfa022922aa26e",
+    "h1/FUNUSDT.json.gz": "79d4c2747ae2c629b74ac5aa980b57550d11ed42e5c8bef4017568a056ece161",
+    "h1/GIGGLEUSDT.json.gz": "7435e7ec16afdbcffc32e66f370c886ccc8dc24745565178b93c77c1912d8b96",
+    "h1/BLUAIUSDT.json.gz": "b40503c281c31d4106c2b6e0dc62f8737777ddc4f4b15a1fc44028f734fd8fd3",
+    "h1/GHSTUSDT.json.gz": "02aab891491b8d36a75cfb5d4dae0cb027e541daf9291c886641c02b53ca5854",
+    "h1/OXYUSDT.json.gz": "03fae08e1a259c157d6274e80353d3dcceb65e7f44dafc26488a789c69ecd311",
+    "h1/AMCUSDT.json.gz": "4c816fbe6814740a40cbde2e6f94bb6c5dca33592784f0bbf8eb6d34d0d7de18",
+    "h1/FLMUSDT.json.gz": "f5a5dcf01aabde9e4dedc77f8acd2ecb622f2f085224faa2488af3feec706ba3",
+    "h1/SSVUSDT.json.gz": "f552d87d259e0077f9514519465eb349f4ef815f7c7124af9b735af60703ce6f",
+    "h1/GRAMUSDT.json.gz": "e6f103642642664f705833413020e36cc7ee8b194ba4a2e3bfa271493ed62677",
+    "h1/ZSUSDT.json.gz": "36201a166e8660347a2bb3a149aded2b0d6b1cc450a0fa85dc3a5b09afdfee6a",
+    "h1/ZHIPUUSDT.json.gz": "f5f928b2ca995114b1ae65c2fc06d76d34e6b949c931fdbcaeed38c46a324243",
+    "h1/BERAUSDT.json.gz": "8e7a89620c847ef7b156b423b2ecd19bcbcb95deb1e514f0987320a26b926e43",
+    "h1/GRTUSDT.json.gz": "b1049feb8e327385c2ed519172bf076c7b275ef05a1a88403a9148fe83b54c90",
+    "h1/METISUSDT.json.gz": "1f9cae06f3ef98cd470e41ba25135eb8f9e7c4a5508b01bf0e92f92289bd7b45",
+    "h1/SOXSUSDT.json.gz": "6cd3869ee6bd3970cfc0d385a9985e5f94a5e730c22a6433699935d3277f178c",
+    "h1/TEAMUSDT.json.gz": "af03dab4fff454be7f438a3f3eb5f344acf7037ccdb02dee028f54fd3601d760",
+    "h1/PTBUSDT.json.gz": "5d71f91f7079ced22ca4befa74caedf54d195040a2f3d0ee9956986a5e31fdc5",
+    "h1/UNIUSDT.json.gz": "6ffad983505c8917a0e636fc861b65ee76c277a7025b55a99dc12b467ea23add",
+    "h1/MUBARAKUSDT.json.gz": "6be0e16fe1ea66c45d96cfe8ccfcb1036b6d8fb05afc1fc98e04d6a5873b1d68",
+    "h1/BOBUSDT.json.gz": "3eb199f8678921c05864d7daf83fe7cc13d79ddf7ebcadbee11b818330bab89a",
+    "h1/MPUSDT.json.gz": "992fd105ec4cd1fc06c73e4fc786671fd26b28c239e5f12ffe8c5ef3594a5512",
+    "h1/FLOCKUSDT.json.gz": "2f7b1b1d62441e8d48af399b7233e9de84a67b1b0de16af4247b191cded924af",
+    "h1/NEARUSDT.json.gz": "120b367caae9532d17898ca9ba0b8d8e4ca6991ec14ef54be4faedc37e2f2c9b",
+    "h1/ARXUSDT.json.gz": "611b1d33665585ab8d3618395e89c1344cad05992997c80073f5b978f173adb6",
+    "h1/MEITUANUSDT.json.gz": "f84fe67688004572a21c7072da1a7efb19084a25851b026249737fd415036dfc",
+    "h1/SPACEUSDT.json.gz": "059a82a49d5ce135d3cd87554573e050627694461e7b83caea636bb7802f57a3",
+    "h1/SNDKUSDT.json.gz": "1ac0938f23d2f9b102c8afe046128e6c76d787dd08b7508c81fa4c10bec7665c",
+    "h1/REUSDT.json.gz": "76edab4af9d6720b3a169e959ab44621d40d32ec04b8e9627e3d44fc62a42e61",
+    "h1/HOMEUSDT.json.gz": "1776c688483ebb0d600d28e37e8be9da240f7aebed04289f3065bf24e6d53829",
+    "h1/COSUSDT.json.gz": "7b6dc1241fa0487a66535294d411f170b76f3994c91020f4c6531289a1ccde91",
+    "h1/DRAMUSDT.json.gz": "70a02bae514da7caf35e115cc167e202770a46839bf33f9a651830672b171d06",
+    "h1/STRAXUSDT.json.gz": "0c39779a23fcd68c441ea07be060c94f8466806f4390c97ad86372c63522c45b",
+    "h1/1000XECUSDT.json.gz": "27d278bbd1a836d5c5ba4bef8bae5a17738d091502feba104298cca8f57d1a31",
+    "h1/XAGUSDT.json.gz": "0938600aa7a45ca7a61037e3048b8c2a41848a1798014948282f1085a519132f",
+    "h1/TROYUSDT.json.gz": "0d5915b1d45e92e438038aba6f97dd375be8c27e01a98ff64813101408cb8eda",
+    "h1/AKTUSDT.json.gz": "d680190c2502dfca303baeb9706520e94ac35a067d54c4f811a3f4329e7e9569",
+    "h1/MTLUSDT.json.gz": "3e22e4ec8d361604e169c5be860a89c4c7eb62eef3f642bf1a9798da3d5e41bd",
+    "h1/ORDIUSDT.json.gz": "b54242b57d9476b5af657ab138e1e2e9d1c7cc7a04c164a8f1e9833ce633be48",
+    "h1/MAVUSDT.json.gz": "4d71b3928a37b02e8426a3f30e461b4938baedce1fcc9d49a51002ce5a64ab9c",
+    "h1/HUMAUSDT.json.gz": "486037baafff76ef57d3e045d45d085527ef4024c0126b38648cb01f15d24e87",
+    "h1/BICOUSDT.json.gz": "1d691121664efbb7a97f5483162a16a1ca19aa18015c940705bf2806e51714a7",
+    "h1/IRUSDT.json.gz": "bb7fd8e9843fe4847fb4538c887fed20b0efabec14253ea2287daa247057cd38",
+    "h1/RAYSOLUSDT.json.gz": "ec019cae2575d57a8d2b6e4bbb4fcf2c926a5da599ef13111b75d472aa2b6e4f",
+    "h1/ENSOUSDT.json.gz": "63a1bbeb5e92fb769cd757701df87597df0015e56355f2dabc194bc005680407",
+    "h1/SUSHIUSDT.json.gz": "1fc4017a49167523455fe4634fb8950a15ee5362467396500133c34116502731",
+    "h1/EULUSDT.json.gz": "d7883d54ccc81f28a12e2faff86c19aa6dfcfc727a2728f222db2eb444131c3d",
+    "h1/DODOUSDT.json.gz": "b8df18e90a582072dc11b955a6bd9164db71cfc7164945579c213b028d32533e",
+    "h1/NXPCUSDT.json.gz": "a6bac526ce2e9b09c4da8fa333bbc893b6ce87f73e6bce97ba8164f5681e5b8e",
+    "h1/BTTUSDT.json.gz": "72709ee146853e65181e40dd93217d8bcec9de9cad76511fbd530e417dfdf040",
+    "h1/DIAUSDT.json.gz": "1d2b85b2a4a699bab21fe1599280c5fe78dd18987182d5841a6e44bfbcc9638d",
+    "h1/AAVEUSDT.json.gz": "d2b1bcb576ce4c007552dee97474b8b383d70a9d764f74e0a1a3063206dd3285",
+    "h1/LTCUSDT.json.gz": "d44aaa7f5ab56de39502754babbe0e7efe67800eb4ce6d67e8a4846e52ca93f0",
+    "h1/ETHFIUSDT.json.gz": "122de78962bc3d073dd09db97e0a8f193d8deebc3e7478ce4e75db136a4932e4",
+    "h1/FORMUSDT.json.gz": "cfb87434b852e2357df3abed1145ad2de475e9cef8f9a53484f323b0ee127801",
+    "h1/SNTUSDT.json.gz": "a3a5dfeba0e19fbbbc3cb85e0f911428067f4654ec50a7768fe7d55123429a95",
+    "h1/RNDRUSDT.json.gz": "1af8fd3832ae9fc3a280b59298690319650c525205b4a2f95a7d85b6887c7db0",
+    "h1/USDCUSDT.json.gz": "aea44640e364731a510f4661ac0fae254cad1efad0d00c2d504eda848195507a",
+    "h1/CYBERUSDT.json.gz": "bdf9e88f78300641b3ec535e828fa283833c6a58c0f19f31d2abb60ba0b55411",
+    "h1/TOWNSUSDT.json.gz": "eab2dbe237cca38be3517069cb223d7380fc47dff818e05462a7b33f7eb3dfbc",
+    "h1/OURAUSDT.json.gz": "6b43ccfb98650a74d57172887b391d1ac795d62dcbfc5ad8284a6d5aa1504e6d",
+    "h1/MITOUSDT.json.gz": "98a9c38b9de5b2da42c608651a17c20919dada6cb1a235b451a798589377fd5c",
+    "h1/ZEREBROUSDT.json.gz": "96395cd98de64d7c7183bf6dccb2ff25848f1e200d84ea72e32fd02570809f3c",
+    "h1/CRWVUSDT.json.gz": "0be7b2f0385c5f42476222e31a452e4929fdf31b8241ae6e1749f3adf685bca1",
+    "h1/ALPINEUSDT.json.gz": "daf7dd34be40b7640332ae5bfdc23c53012111f5b13028792c85a981fddceea8",
+    "h1/1INCHUSDT.json.gz": "21d593f5b64156b1939fd325dd581796435bcdbdf2e3d7d75005897ec4bdf5e0",
+    "h1/ACEUSDT.json.gz": "6b9f9ec8a7a2a67bb7aeebe1f87dd0229e29269fa019a46a8d11fce9fd681920",
+    "h1/LGELECTRONICSUSDT.json.gz": "a0e17058ebf5aa0e7740228328fbd5d59f06c490beebef2bfef18f4187e6cd03",
+    "h1/1000WHYUSDT.json.gz": "d4224151e8f1a736a4ab0cc8b52bbcb4f8fb61b2a130efb4f9c1fcf4fa6a72e4",
+    "h1/FOOTBALLUSDT.json.gz": "5f157d5351e7505f72e12b77fe2546690de7cc48101fcefc7019cc082c0b2cde",
+    "h1/CTKUSDT.json.gz": "bcc4bef9f19432a35e6dfd4a73984c70811d971cd66eb2ab59ed29c8f4fa3989",
+    "h1/DEFIUSDT.json.gz": "7d0da3521b4e6e49204e86bc2045ff773507890d69fce45030640d0296e3cb50",
+    "h1/MBOXUSDT.json.gz": "7c094c444c48e3868c7d147892b79a8a8e4f4d94f36c990e52df279eba94b308",
+    "h1/VVVUSDT.json.gz": "0d76d1774fac68466e72a339d80047422921fb2206591f0f470bf34597def904",
+    "h1/BATUSDT.json.gz": "b14e05ec6d8acbbc37684a94a29a8898e1fe0dc4711cdac9fefe569018e449b8",
+    "h1/NETUSDT.json.gz": "f208b8eaa3e94a7b9103206f0b022f7ed734eb0e304b7d7688c8c357aa857b02",
+    "h1/JPMUSDT.json.gz": "2493a15b88bb9db330fe429248aefe449de0ec768fea1382e8dc28ee6002ad07",
+    "h1/OPENUSDT.json.gz": "aff858e300fbd5c5a2c91cd144a20e091ba8792d40eed2e79afcd3c77c465fbb",
+    "h1/1MBABYDOGEUSDT.json.gz": "e5498cd8a52c80be655a7159a8b66852030276839657f089d1f0fbfb1fb7bea3",
+    "h1/POPMARTUSDT.json.gz": "cca45fd6ff00ff423f97a130cc9e16a8247254e805ca94a1a0c3012b64c2554e",
+    "h1/AEVOUSDT.json.gz": "c551f8471fed7ad353f78cf27dc789c47ab9f51bb4d3b115a6fdb97441ab5d84",
+    "h1/AGLDUSDT.json.gz": "36f8e68a21c8ec329dfaba8ee0e6cae4ebe27e916d869ae85b730a035e8a3225",
+    "h1/1000SHIBUSDT.json.gz": "b76281e86f2a7f4d8e03d36979af95410f85dfee771f1b78cfdbbb664542fe44",
+    "h1/HEMIUSDT.json.gz": "7444a63df3c3a8f2af12a0db4b8a42cc49228e276590b7b484e25725c107fdd1",
+    "h1/MEGAUSDT.json.gz": "bfa976fd2652e88432e6ce89ef309e6428126287bb240c48ddfa47e1e23a822c",
+    "h1/ONDSUSDT.json.gz": "5255d0b89f7e15f786e68994ead2b7f6a571d00e4ceac75809225e570f0db9c4",
+    "h1/BSVUSDT.json.gz": "9e20cb6b109b6e1890b15411accdb90220f3f1509db9a3628c984ff59bead54b",
+    "h1/USUSDT.json.gz": "634dd85d2a003e3bfddae0e3045c24886ca96d0f3e16870ca5b74203feb1208f",
+    "h1/CYPHUSDT.json.gz": "ad6fe5bb6ba4475e2bf6403b1b652c7b4d366b74252c4091e83f22d9c4bad264",
+    "h1/SKYAIUSDT.json.gz": "ef54a21deedef7c0a191cbcd69864ce8b8bf441008a89eb6a87d876218dc1bc3",
+    "h1/ARMUSDT.json.gz": "3047aef34a13def291f656c52d64fc10a69a730c264b8e2d8fbd7e220f0535f5",
+    "h1/CRMLUSDT.json.gz": "b79fb70d3d7075d5e186ff90fcf4947ae4ad2033804fc0d8f1ebb9ac0ae761e3",
+    "h1/CHILLGUYUSDT.json.gz": "7f684fced90af94c2306eb69e9d40c03d35d77a2a50c361e7421712d75792828",
+    "h1/TZAUSDT.json.gz": "a56bd6f3b8c6116f855f9f3f220e5c720c18e1dcf043877ea5835c1d3a74fcf1",
+    "h1/TAKEUSDT.json.gz": "127112207675cb19bde800add8c39fe1479d83e064743baaf039e77f4b175752",
+    "h1/AKROUSDT.json.gz": "7685bffaa9ba3a27b86854be6a31cb3ea632cd056546034691ba75b343b1cce9",
+    "h1/BAKEUSDT.json.gz": "5ba1657132f7af3700971ce85901822d4fc14bce25a41906004fc4b1f2871ce1",
+    "h1/EQTUSDT.json.gz": "4c65e6970c12d54865132855f112a3aa8e5bb35f3582517c5f1d397fbe0a52bf",
+    "h1/ARIAUSDT.json.gz": "5636ac81beb2a27f5fd0b20c376e88f493d8b77fcd002fa474cf390104b6d7de",
+    "h1/BZUSDT.json.gz": "b604fe0f0ea17464f57e5077b9d0cbef48401a58ac0518b70bc107377ea637fd",
+    "h1/ZKUSDT.json.gz": "13f29d6f921bcc72609347a5f515d9abe65dd8f965157be2fabed68296582d59",
+    "h1/WAVESUSDT.json.gz": "6de774c586ee89b28a5f182f620e7919e8daabbbf4a61c556387c2a8f5466ed2",
+    "h1/XRPUSDT.json.gz": "04b6d4070143eb3b6c58c6417d91d2aeb569fe80387424a788a6a5b88ad1bf50",
+    "h1/XAIUSDT.json.gz": "7ce6e441e5580d5cf9f909c0f98a2a67c2fc90ad32bbe11c4809c7d722b73f1a",
+    "h1/BTRUSDT.json.gz": "7eda8878fe749b43a9105a6c85de44df40b4a5623e9b8db35c6645e9f217b929",
+    "h1/OCEANUSDT.json.gz": "49c9857f1060ba2c27da46d919524b89462006770fb6a447bab9b5b8601c44c5",
+    "h1/A2ZUSDT.json.gz": "fe302ba667f89dd6533fb597e255a335f42eb69aa0f6e730d22a193c5a5eb8e1",
+    "h1/LOKAUSDT.json.gz": "ef4c18d3cbc1c72a026ef0ab2e99593b9a5cf1b226d0ba0385969848b5d47de1",
+    "h1/BASEDUSDT.json.gz": "448197116ded5c17e85a7e0730338627275f15f77c9e1464fa60807ffa03f69f",
+    "h1/SQQQUSDT.json.gz": "0aa7fd596afd063ee08116a63f51ad498e97c912b9139cbdde8f66c97765476c",
+    "h1/ZROUSDT.json.gz": "b87b0da6ffe34b35e5f6b639595da7b3444c8f620f2373a328802706419a2885",
+    "h1/GOOGLUSDT.json.gz": "1f6e995c87847cbf283bd4db8df55ccd8f371c6a0e9a216f6a755991031a2df1",
+    "h1/XTZUSDT.json.gz": "b5c52857c3518d124366c3fbaa830f34eda4857c5532ce5739bb8c3389c748e2",
+    "h1/GPROUSDT.json.gz": "5ea27696273fbe6695b2cda26bfe9ca083f45b29aeb796512a3f86b402226123",
+    "h1/SMHUSDT.json.gz": "d859fcf782385ba2e25fabdda4259ebde3dca55e01cc4c34c8f89ccfb8c65b28",
+    "h1/COLLECTUSDT.json.gz": "d3521023bf0efda0e7b78ef9b9ba5dd87a49e7faa0093e81f3b93b0368e59f0e",
+    "h1/XCNUSDT.json.gz": "67999a747c86b4a9105c184359b4ba6ccaa60992ae5ffe6b8be42bb322d26af4",
+    "h1/COTIUSDT.json.gz": "8c74b777b91b421089fa801e2b31f1f6b94070594af3b3c15dd0082ba227da34",
+    "h1/BARDUSDT.json.gz": "89b993a60767ff8396ce0311e79471a5e01e801ef0e509f95f14ae135b20cdf8",
+    "h1/TSMUSDT.json.gz": "9e5237840302315024a0cb676027839569346daaa0ce6b22ac69de9c1173bfa7",
+    "h1/MAGICUSDT.json.gz": "c79ae5a939264396f9cb3f2edb775b728ece43caa6de87be441612737bc23f3a",
+    "h1/CSCOUSDT.json.gz": "b18d8058fd8f1c3f539b13da610dd66b0b6b564f93fb3682b9288c522bfc2f2c",
+    "h1/DOTECOUSDT.json.gz": "9e9141cb7a09522b85cbf0414784087edd294f2a07e2cfda99f69ebebeb119c6",
+    "h1/HYUNDAIUSDT.json.gz": "1ed458b9b51c4bfe4fededa09ac65e1ac10fbea8750e3dfaf2e4268bea483ce5",
+    "h1/SENTUSDT.json.gz": "0594768cbc1df96f65ac6076f0adbc54b5a3ad3c0a7c3b0b70a6dd94a2c03536",
+    "h1/OBOLUSDT.json.gz": "9e6021c385e374bfc10bed1fb1d0d025a631b7fbf1f1cf8bf011597d44744a17",
+    "h1/LAUSDT.json.gz": "42501fd78ab46dd378bb7131be5c7f22e059f6556eb27fad392fff46774cdbf0",
+    "h1/TRUSTUSDT.json.gz": "388e3bce649d08878d47cf94d9cce5e5ee820587ddf515f9ec592888b6f38082",
+    "h1/RKLBUSDT.json.gz": "e4c79e91ea82f8100abf2040211b7355cf23c5552d35cae2d231dcd01e35d7a0",
+    "h1/VKTXUSDT.json.gz": "202b9078a30c75cb944da7b2e03f675e4ddf82d4e0bfacd3e5d8e6179af6b4a7",
+    "h1/CSOPSKHYNIX2LUSDT.json.gz": "a8f525f0c3f6a9b1bca929bc4f5321009074903cfd6bb444b019233fa4234795",
+    "h1/SOLVUSDT.json.gz": "10bbd85ef454e57312a15fa135619a4ea2d45cefdc1815ca82081bd177cb0803",
+    "h1/CRVUSDT.json.gz": "487a10084200cf4e2076667957f5d8973e9b93209451ad077001351074508661",
+    "h1/MINAUSDT.json.gz": "25207f60eadcebc8346c3fd5fedbf7cfd8174526d98f57f98adea8ab7158aad5",
+    "h1/NAORISUSDT.json.gz": "9b05d875f216fd04161b9cfce0f9e9064a8638a205ac9a0e25b906179cdf71d3",
+    "h1/BZRXUSDT.json.gz": "b7bfe579c5551da431a7fdd0522210c4c3ee9d0d497c095337fbc4a9568266bc",
+    "h1/CCUSDT.json.gz": "987fe2829a370d0dc89ab082d6bc93fc35f4641e22f3a4ecf04759100534ec8a",
+    "h1/HBARUSDT.json.gz": "694df6502ca3982a5353de5b72eda0b7dbab4257144430af762c84ccf0cf6868",
+    "h1/SAHARAUSDT.json.gz": "291e608eedc1be9f88e933fe4c7f43d00c5515ad43f4d94ced3ff1989dab9e6d",
+    "h1/CSOPSAMSUNG2LUSDT.json.gz": "befe6add5ce89173d88612c6fc8781d3adaf21eac19ce56aa4a4efbb8b9d665d",
+    "h1/TXNUSDT.json.gz": "f2d2008be37327513b5e447d0ee4855de36c6b25d75206ebbf1b149a37aef4e9",
+    "h1/ONDOUSDT.json.gz": "3661b0ff495a71f623fb93f35628e5b38e3e473eaec21a247615d7895b832841",
+    "h1/AIUSDT.json.gz": "89bb8fadac86340955b82d3e4bc93b47e53cd26d64c872a02913aebbc5d4aa36",
+    "h1/ZAMAUSDT.json.gz": "4e0d40484be5336010c29699a1bba11a418bf72a43629e68afc922d15e5793bb",
+    "h1/XPLUSDT.json.gz": "50490416fa9ae3e5b905b5acb8c09d3da5c12520ef230921721590be2c768c4f",
+    "h1/MUSDT.json.gz": "3bf122637866c24cbf58aee58f21c86b97317b5110668f4318e0ba0e01685685",
+    "h1/JSTUSDT.json.gz": "d02bdb111782afcb9c359f28a51c24cdf20fe67641e49367b67544b7a99541c2",
+    "h1/MARSCOINUSDT.json.gz": "a7f1d016fe098f930a1704860d3c23194e2aa298f715028305c635588766e605",
+    "h1/BSWUSDT.json.gz": "aeee447d930ad737d1c2e9255d2bd7e8e791164bedca8d21077ceb90088ec5fa",
+    "h1/XLMUSDT.json.gz": "51cb900221db4a24608bea3cb7d54a45fdeb57dcf20aca8c73df87e8de111df1",
+    "h1/BTSUSDT.json.gz": "90135eff073d13abac8d4919b99cb5115a2a5617dff84f4cb2fce6b84df606fc",
+    "h1/NVOUSDT.json.gz": "daf5fd7558caa03e526e55e53e0761f2f966661b4d12bf36f4004ee99220d9bf",
+    "h1/AVGOUSDT.json.gz": "7dd603a61ca3aabf9e840d7fd72f2fc42e430ea058e188efb54e9595b491ddea",
+    "h1/BROCCOLIF3BUSDT.json.gz": "c65fee80430684bd727601380f68d8fe22d70c73df8493ff1dfe931a1548aaa3",
+    "h1/GMEUSDT.json.gz": "9ed892e7e593905e7c32c9a581afac0e863cef5794ef59fe65f49f05da237371",
+    "h1/DGBUSDT.json.gz": "471f93676cc37b1176ca5df9890b7b0d73e88a55a9506700cd88cbbb6700fcfe",
+    "h1/BCHUSDT.json.gz": "eafcef3b75e67a59726b8e5a67b9bcb1452a59e1dcaf12346c331d7b1bebf03c",
+    "h1/LUNAUSDT.json.gz": "900c888d650ab95923fb7754b62f1e76b5c9c83234dce2b9588088d9a28f8a7d",
+    "h1/FLUXUSDT.json.gz": "cf6addd291826dad962d0e5c0a0dfb2fe44b6d530a31d6fbb3a0366c3bb8ccbc",
+    "h1/QTUMUSDT.json.gz": "3f63fdf60583715310bd6672982db7369cc694afe2aebd6139a6b58e2cb5cf9c",
+    "h1/IOTXUSDT.json.gz": "b326287cfb5da17836f03d102beb3c2b90522ee7848ddbaaeaf37d5d8b1c404f",
+    "h1/SAMSUNGEMUSDT.json.gz": "4a469d4099d2c6459da9031feb59e2fcd2ac295a2c2d68b4bd2849bdcc0ef2a5",
+    "h1/SIGNUSDT.json.gz": "e2f3660acb8e8533367d7f1edd05d6ca3a6e310ddbeeb00657b02dafe2b46a66",
+    "h1/LQTYUSDT.json.gz": "d335d73f85bdd445dd169d1bc97f96e7f00f85ec5f659a4906cb117e40a652fa",
+    "h1/1000000BOBUSDT.json.gz": "ccda9367a03473c77f9ff4165cc365627aa2c44d94c8397c621891101a439256",
+    "h1/LITEUSDT.json.gz": "18ec560663d3bea659b32901f1746535e4403cb3bbee0b9ac9612d52616a4175",
+    "h1/ROBOUSDT.json.gz": "4a500cc734efb004e7967d9ac3c4b52b8df4615798494a33d5c6ae29148d3d7d",
+    "h1/BEAMXUSDT.json.gz": "87db85872a13f404e60164d60ef7d5f920f9f141f858c3ae94adfe56994bbd89",
+    "h1/GUSDT.json.gz": "fa4b184b52e4ae3a6a0e450b151b0ef3e1e6409a47d33892f5ad2d6f79fd4bc6",
+    "h1/RAREUSDT.json.gz": "feb1ac68052c0bebc60de390c8be0bb4e12ac3dd9d80a42bdbdf061678e7adfe",
+    "h1/FISUSDT.json.gz": "e9c81998e039f71d6e23f732d720716823f1f91fab5e77001913aa938c6b67f5",
+    "h1/TRUUSDT.json.gz": "12feada6357d09d8cce8a3d5c16d5ad4cb2c157f8cc1a792f8e1f62e560faa29",
+    "h1/NILUSDT.json.gz": "eeb044cda11a1ea417f311eeb8995d50f46be076d2c38c10e5dcf9bed24ed311",
+    "h1/NKEUSDT.json.gz": "40fdfe399d53d1ea8b468553a01d0a96fc23ffad32d457b5f9e9e25ba52265e5",
+    "h1/ARBUSDT.json.gz": "7729682e7497b89a3819e1d42081c44635466113ac28f072855c9a04aa76cdf7",
+    "h1/DYDXUSDT.json.gz": "7bab915cc71559c37d9c55375fc638f8b12d8d5f18357146ff6a64e4112898f1",
+    "h1/DJTUSDT.json.gz": "27aa58e682e4f194a5c28713bc796b428b668fd6d8fc4e95b623f1d87603671f",
+    "h1/IPUSDT.json.gz": "46893940d382d08fa7fa8a6df7519fe449c6ae8bb6bafb1e24df4e0550d22532",
+    "h1/CUSDT.json.gz": "3a0b2766aa3307dfa01fa853c42881e52c5368750d2e1199d30e6153dd079ef3",
+    "h1/NVDAUSDT.json.gz": "34bf4408ee1ae5287eb2fbc792394e1b0e6572e076045bcc45edc4465eafff22",
+    "h1/RAVEUSDT.json.gz": "bd130b76dc9cc33988867716c19989bf476f429fa07265815d59357eb575ab84",
+    "h1/BBUSDT.json.gz": "31554f52f2886e88551d9ac8f757ecca29f79173fde0ebe8c2bebdb3899bd4c4",
+    "h1/ESPORTSUSDT.json.gz": "cb4f31aeca0722e8252c0509925c1798a3f50596606f9b3fc76d2c7bd712706e",
+    "h1/LINAUSDT.json.gz": "bcec92410b589893c80d7679e7c89ff27c2ea5ba7f429ae9178ea64c62ebae7a",
+    "h1/KAVAUSDT.json.gz": "ed0c67ea9202c68ec6a68840f2509092056d8c0268619c497b07cdb877cbcd0b",
+    "h1/ZBTUSDT.json.gz": "d8aeab6d0575866228b7db85cb3d594d22a124e2df97eb0b34eb61b4a0b34070",
+    "h1/SRMUSDT.json.gz": "2d7d91e7c7ac294d78cce1fa1070abe101ef9b90c519d0df79dbb2b2f6f25057",
+    "h1/1000XUSDT.json.gz": "1ae3e4be735c80150cb860542073d70edbd617700743d7c12c508e96a7a5f51a",
+    "h1/TRUMPUSDT.json.gz": "65e51e04d8bb8ae3609bc8e42bda87b00dfb98a2b4c6b13fb6b4a21eed4af4ff",
+    "h1/SPELLUSDT.json.gz": "dcef02ad7a304a33bc53f1a773a167f7cda8a9e4d98ea4504433fdb405c11cca",
+    "h1/PATHUSDT.json.gz": "b8b48db1e102235a1b6f9a47176a3e6b7b3211290b1dcb9102da8783c4bd2b1d",
+    "h1/OMNIUSDT.json.gz": "53b74c6b891fc6ed961b9e3eded5447a3eda3b6cd7e3bd039dc1d7699b1d134e",
+    "h1/MELIUSDT.json.gz": "1c6ed872840962813db1cc2e2641fece3d3a83b8900b034e025fe1a3ec549f8a",
+    "h1/AXSUSDT.json.gz": "89ef479029c450845e927ffd2078c6f299d21c8ecbeaed622d5b09f932b9ba5c",
+    "h1/RVNUSDT.json.gz": "6cea42f80046a7eefd23554a16e2131931c04c458382eb861f1c831600ebaf3c",
+    "h1/SYRUPUSDT.json.gz": "b21e52c2dbce990f72d1341dc23872eaa393fa798038b59a267fdff943de98be",
+    "h1/TWSTUSDT.json.gz": "91130e94daec67058d8dcf63cba9984e340b5b3bbe4feffd73ce4ba5acb3748a",
+    "h1/DAMUSDT.json.gz": "492707650bdc01c09a26b91d3a4f291a1142f28216206473ed817a3e95ef20ae",
+    "h1/RDNTUSDT.json.gz": "803e9acf47f2e662565572efde2962b598f820f510af77bf2067d336c2528961",
+    "h1/MANTAUSDT.json.gz": "f1bdbd53e8e9cdaf59729a905fb2c3f740f16ac9e9bf20ada7e8f993a74998a6",
+    "h1/CATIUSDT.json.gz": "446144039e53d9dc743dc9ccd18be0da3e4249744c40ef1100bc1f39773ebfe2",
+    "h1/THETAUSDT.json.gz": "ec206f74677fd0a41af9bde00a29a48d3af8e9d6331e41e93e67e97116a58722",
+    "h1/LPTUSDT.json.gz": "f61d68885280d3de0ddcf1ee434c4842ea8c656bdae32ec2e9b67130c4044f4b",
+    "h1/TBTUSDT.json.gz": "cdb04091aeb94ae45f01ad9b3afa9bd53a6a272922de21cd9e3440ce7b91efe0",
+    "h1/GALUSDT.json.gz": "c3ed2d12e10709924ef07aac94898e6ce63b14c3bb9dff0d8385cad15f74b76e",
+    "h1/LRCXUSDT.json.gz": "2cf9a1874a6a0620305eff49f4ea6c9b94c7406002ac28064015116497240871",
+    "h1/KLAYUSDT.json.gz": "3185b359d1fcbaccf4ac3508d40b9aeb3e860034d3225506534ad16e05a3ecec",
+    "h1/VANRYUSDT.json.gz": "85c57fcb5ac14f12c8361eb66f016d8c0852b20f4fc6ca1b94efeb15dab15ced",
+    "h1/MKRUSDT.json.gz": "8eaa70d17bd5242570f0ed7888ddd4261b9d2c90390857ea20457b3e6bf3f042",
+    "h1/PUMPBTCUSDT.json.gz": "56f1954bac09001336cf32e645446999d8d26939a24fd1fdf752ad1a839ca191",
+    "h1/VETUSDT.json.gz": "ca39a8bd85a2d51699a6328017d574cf9bda4c27e5ad672308815032d54c23a8",
+    "h1/INTCUSDT.json.gz": "75344770c5e2e261a8ca4937ea04ae619d06e544cb679503c007dd82858d1dda",
+    "h1/RECALLUSDT.json.gz": "3a8cf34e2105aaf1a00c5ba5849ddc5d15552d37823f706333be389e54806ae0",
+    "h1/QCOMUSDT.json.gz": "1ef97156b3e001c75a0ec34fbe8e222808806d8e312049e9056026e2699dc73b",
+    "h1/HDUSDT.json.gz": "94ef83a1bc473710cd4a99d37331f55e0419e02ba8342fcee3569d46bc7b273e",
+    "h1/BRKBUSDT.json.gz": "a778569d77e26f032ce62d1b1798dce444b7952ece27edaf7ca6c27913f29763",
+    "h1/OGNUSDT.json.gz": "bd0cc1c0ea77c7df55131e3421909823d7ff9216dac848207f7c537ce36cc904",
+    "h1/MAGMAUSDT.json.gz": "8957f730906a32c6a926ea27ede55dcbc8ac3fccd63500f32a19cd746bda66d7",
+    "h1/FIOUSDT.json.gz": "bf883742382b48f34ea67dbf28a7ab4f7ac034e739de8b4f3d19f73f36660ead",
+    "h1/TRBUSDT.json.gz": "ffad6d05c244acf23cdc2d146989040d603239046509bc81c19c7efbf4abc62e",
+    "h1/PAYPUSDT.json.gz": "0f7b421f4ee6e974a59071120c4cd3f70bfcea59b8fd770cb35a8bae3aa3e37a",
+    "h1/AMATUSDT.json.gz": "1c4101a653760590bd21faebbebb4aad562a86636a24676cf2d0d2eaa920e627",
+    "h1/CVCUSDT.json.gz": "d153e954aa374ddbeaf916efa343e808c694e91597be63cbf5155b619d49768a",
+    "h1/INUSDT.json.gz": "ead4e38f550dd2d47d75bf0628856b44dd3c67cbc711be0e5fd194ef62cd1e12",
+    "h1/AMZNUSDT.json.gz": "db68c7c584a809d986e65ad563cd05b2c2f0074de647b5a10ad33a9e6b9971b5",
+    "h1/XPTUSDT.json.gz": "f04df9da7a4a409f311993e797704cc66065933b8a3616b5d6cf4b807afa9708",
+    "h1/SHELLUSDT.json.gz": "eab094e266bd4438355840bb97af6f03e4505ee4884ec7a9d97210aee7e8a696",
+    "h1/AZTECUSDT.json.gz": "d9db83ebfa42c05479b868261e1bc66c8f0e9998ea14d36c48508436980346c4",
+    "h1/ROSEUSDT.json.gz": "69587f5c76442ca029e11e207e27a18d54abc088da7436131a78b1a1abb913e1",
+    "h1/INXUSDT.json.gz": "2490c1e6598da665d106c93f17b4b7a350e7f48a2e470d559fd7c3d46fd18fb0",
+    "h1/HIGHUSDT.json.gz": "57f79a7fb06672306e3bf15e05dd23166ec4531f45396c8ac7671c4e6bf7ad89",
+    "h1/USDEXUSDT.json.gz": "8240b7aa26005677953b88954155b00080b5fb6403cc4ba30555daf60c171efb",
+    "h1/SWARMSUSDT.json.gz": "cf8f1c33bf7353dcfbf3877e111ca7d020ae5056471947515c20281ac00a4870",
+    "h1/1000FLOKIUSDT.json.gz": "e4fb8e3d3aec1343de7b2db81498d6fedaf0fe48e27f2be29b8c3869b468eb30",
+    "h1/NMRUSDT.json.gz": "181da2b35e65d23234a0bbfd3b1b6fc0b164a242235ed7fff399b557c5a239f1",
+    "h1/BNTUSDT.json.gz": "4cb4a5b603d04a4c923169e611d851c9389d489b23357a2eb35186c0f2c1002a",
+    "h1/WIFUSDT.json.gz": "cfe74b06743295ee7e937018d5d06a6e62decbd384116d4f7ca9293829d05f07",
+    "h1/HPEUSDT.json.gz": "6fb50aa7654bc2eb1e49789609a191f8f7cb1d26cdf717e2b9cf903fd7f09522",
+    "h1/PERPUSDT.json.gz": "d363d2b6d48499bf020f416a75b063bfc772c9ef649ab3b7776e60cc6201d31c",
+    "h1/WAXPUSDT.json.gz": "d5bd7b0ea68deed1e0991df3beb6e1bd3aaf7f2ae43f41e9650a8369a89b7a51",
+    "h1/VELODROMEUSDT.json.gz": "8e27f341c0fda8fb0e676d927b73a1aeb823590a93251b090adae2118ded85cb",
+    "h1/HEIUSDT.json.gz": "dc97e4555fb8896bfa610c3002ac9bf1cc66b16eb30bf28dbe8b475939a8ec0a",
+    "h1/SXPUSDT.json.gz": "8f21a9c39a8d211d891f114b4c6b992da6d1cc8c1f0fdfae36984beb93de9aa9",
+    "h1/WOOUSDT.json.gz": "a9e6018f99fe103c234222891b4f727beb6d4fefaedb0a83dcacade9a2919cde",
+    "h1/TONUSDT.json.gz": "0f2b55186bb3bbc27967907905e8c253322a8cc8c613d8ca3dc00e6651c985b0",
+    "h1/SLPUSDT.json.gz": "e51e1c503d1d928966b42ebaa801aa35082424217aad67e4ae82f78cf280e357",
+    "h1/VELVETUSDT.json.gz": "c2aae0904e76f6b04d0463d9bda38f64f7e5a3a35951f4c7dd4dac95de3b1b3b",
+    "h1/COAIUSDT.json.gz": "7f6d2f1e6fe7e4f09cc6552700d224569abc007cbc118eb6eda68610d0f30e33",
+    "h1/AVAXUSDT.json.gz": "70d05f4aed942c89a388ca13e7cdc2fa9e76a43cab8113f7b595c360f2b32281",
+    "h1/ZORAUSDT.json.gz": "c116fd8992d656d17663192ab4c9767b550deb97e31c25d14d8f8eaf19b12808",
+    "h1/MMTUSDT.json.gz": "aecad53068f7018684c8b5203b5e786f1c79dc73858bc976eac30a5dd96c7516",
+    "h1/CELRUSDT.json.gz": "0f87ddfcb7be3563414215c1580f5667276f49d2980bc8ad6f13e635db20d92a",
+    "h1/ANETUSDT.json.gz": "9be7887fed8545e2c49b2341ffb56fa004d774d67c64ea24c16c73038c68777f",
+    "h1/JTOUSDT.json.gz": "69ad062b28302a7271afabc19c4de66c6f57c8a101c64df3ae6d61ce7d73fa7f",
+    "h1/OLUSDT.json.gz": "c200b59fef93124e3d28de6731434c5a81e214f612681c83f907c5785a03bcb2",
+    "h1/SMRUSDT.json.gz": "7edeba1a97b98c094909152bb5cd7b0a7e413f69d84179a26cc869f090196ce3",
+    "h1/ADAUSDT.json.gz": "82eaafa92ae0a7b44989fcfbb05abe4a9d73db9f77628e19ce7cf0fb8d1e0f26",
+    "h1/INTWUSDT.json.gz": "594c173eace40cfa8452298ed9bb8ec0bd999eb80b6a6fe21eca082cfd3d9191",
+    "h1/AKAMUSDT.json.gz": "449b875c71707a35c53a38d5062c53b037d9d3a72799266517a442d4e4572364",
+    "h1/AVAAIUSDT.json.gz": "14b6dda289fb3057db78074ec342b2722fdf8534437a67e42f32384be91d0486",
+    "h1/BANDUSDT.json.gz": "7a5b65a72c9a065f057e27857ac608ace563de6218bc1f172e21db4df2005cb1",
+    "h1/BIDUSDT.json.gz": "fe4d026f5ebd022170822b9b7a356c34b0254d87ea917678f591feffef7fea33",
+    "h1/ASTERUSDT.json.gz": "df5cc9682d25e0f89ba0ae8650b874b0720d7c417cfb23fcb418816d75b53008",
+    "h1/DOGEUSDT.json.gz": "daf03908c2c7d7d21b041eb49f121b8c5213263b95901d29e3239321f96ee58a",
+    "h1/GRIFFAINUSDT.json.gz": "b201b2679d5cce6bdd99a29f98eb1eae6f9f6f68d2cf96bf667f2f707df0716d",
+    "h1/PREDICTUSDT.json.gz": "2b170841d54ed749baf21fc1aabe9d6d09a7ffb6d8134b29792ff28d17c19c5a",
+    "h1/ALCHUSDT.json.gz": "397f122b4ca5797cfebb72beea169fb28ee667ac2db26662b13f2d1da9826537",
+    "h1/BLURUSDT.json.gz": "944a4dc919c098509f1a1ad7b80c7f2e312cb271c6a031f06919f5a071fbdf24",
+    "h1/KSTRUSDT.json.gz": "7fdd6ef01834b8d42e1816a010acb5c20a4303b70e8e49e942affebc3685d883",
+    "h1/AINUSDT.json.gz": "a696f092becdd0b284836f4b15f15b314722a8b162fbce1cba19e8a9d3d403d0",
+    "h1/MYROUSDT.json.gz": "1ff5fd5cc5c7820ee59c3d03f68d55c72d87c5a5a3b2c9ab5bebd37db4863909",
+    "h1/ZHONGJIUSDT.json.gz": "bbc96f8b4eb4419d98465282a4b0f27f8a70b2d9a305600c24fab6b1529d8a79",
+    "h1/POPCATUSDT.json.gz": "0dd9ba5e778a31f88c84bf7d235a7d6a79eafe52ce0d29b958f8f52ea7ed1e01",
+    "h1/42USDT.json.gz": "9f5d8413fb49509c66fc3c8b32954d9cfd70d9c41c2818a6c8d24767e120a254",
+    "h1/LDOUSDT.json.gz": "02d094e59c4e2b105151bdaad516b1c2f92456bbac7d17704d0a66bbf308315b",
+    "h1/RIVERUSDT.json.gz": "797cd3f715b3ba6b4896af1b1d77085babd8e7211c6173670f80ff0f53afe542",
+    "h1/JASMYUSDT.json.gz": "a0e0416ecd624a30aa940c32bd516e3e58e58d952a8e0941cb78e411fc1b995a",
+    "h1/ALPHAUSDT.json.gz": "1996029b20f9199337d86841193df75d85c8dce68b4226ee34b7512d2d46f068",
+    "h1/SPXUSDT.json.gz": "3320d9212def84adcbca1761fd550547e9787017320446dce3d0a026a0193ec8",
+    "h1/CHESSUSDT.json.gz": "24696727d2732f872040e65189bbe8dd2fe10ee246a63184a49138aac7329efe",
+    "h1/DARUSDT.json.gz": "8b324a333754f156c6a05814a70676ed0453fe9506f6a4b42aef8f2b5507e129",
+    "h1/APTUSDT.json.gz": "056d0599cc12bdf23c6c1000e93b0af34960c3f51272c61bf89ea7ef7fc4fc74",
+    "h1/TREEUSDT.json.gz": "d57d753ffcba29eaadf8e9f48adb9561042f98ce6830dfc7112028ec64eee965",
+    "h1/VTHOUSDT.json.gz": "3403b00819146765964295b5309ff66f92bdf0b2b951c62b510d7b3153e3ab9c",
+    "h1/ALTUSDT.json.gz": "b7a2e238e019f991f4864acda4222a8a1e41f085f4a4485f630780bf6aab1953",
+    "h1/OKLOUSDT.json.gz": "9b836b1544852267b1aa0ea07b9161e6fbbf65396e1921be6973e782d8253ad4",
+    "h1/ERAUSDT.json.gz": "169cbcbe2a008c3ecd00c9adcd204b6a73741049ba7a50de1a34121a55811e25",
+    "h1/LISTAUSDT.json.gz": "115acad9254bfff1c4d86f73f0a01c90621af048c386347fc8ec58017323f3ed",
+    "h1/1000LUNCUSDT.json.gz": "dafdb1adbf55b6e10636db1ffd25023e7cee69703c5026cc4429a5e03efa9646",
+    "h1/MASKUSDT.json.gz": "707509b75f78baab3c457b291526ff64db2a27171c92131227f643cc306809e1",
+    "h1/BELUSDT.json.gz": "17acb38bb2edc7003c8ab73c4b5a0296b4417fcd46babe244501be1ae4fc68cf",
+    "h1/URNMUSDT.json.gz": "f6d75758010eb9c6cee9a7530e1ac25e60de844b9b9c76c019f2de5d5786028c",
+    "h1/PLUMEUSDT.json.gz": "30e8a00b0c5d30a58e9705e43ea260083447fedfe5242af599634688d2f57246",
+    "h1/BLUEBIRDUSDT.json.gz": "3c13b12caac84ad41799d84aea35b65f1e21721f26907a1b405fd6e3b4a23319",
+    "h1/WMTUSDT.json.gz": "b1cc8ad55ec073cedbaeee1c3fb27139db3c1efbcb07d37b20ffbf906bdaaec7",
+    "h1/POLUSDT.json.gz": "d8339590a818fc38d5184299d9ee834f54e48cd8b911f7ed1a71640775b5b361",
+    "h1/INITUSDT.json.gz": "231807ef07e7fdec6b7ceba37321ee8bf45e7b0285fd0e8c91f95a3d7e9dbcec",
+    "h1/TMFUSDT.json.gz": "e9ba3738f1992b9f6962dd8ba00079da747e09cded097325661a2dc97752efd9",
+    "h1/TNSRUSDT.json.gz": "3bdf827432e885213bd0d2dc606fca45fd7de5eac3efa9c17f8eb81433168684",
+    "h1/NTRNUSDT.json.gz": "4fd8472d803adca850a0c5018e6c0d9f3fb408be256e74add9ef621fe2ad09f5",
+    "h1/BNBUSDT.json.gz": "0814608cc327f4a72d0456a608d90ff4b362bfc9c8df7f5dc0143321b42bef1e",
+    "h1/GLMRUSDT.json.gz": "5ebfb9c1a5078db6cfb5e5199476d3344b92d624dc3761ddd5a3d31259908e4c",
+    "h1/RONINUSDT.json.gz": "31a9c0309213d4f2e6e40e7f98e933c9d8e02f72d71a7ec6bf25ff9f57be6c03",
+    "h1/ORCAUSDT.json.gz": "c693975de38428945a16c043663d16031c5d451876e92effd0a31f53dc56b613",
+    "h1/NEIROETHUSDT.json.gz": "2f3033f5b7b019a304166675a200b3fb756e7ea4c9e51c55947d0177fb7bd262",
+    "h1/ALLUSDT.json.gz": "5959e63ab23acfd4054e06e5e0c1dc2aaf6cf47af7a58fdf58e6af1ea0e1d8bf",
+    "h1/SAGAUSDT.json.gz": "818e8ecf69ffb9b7b2e0c8a7199d4fa81c8c8d391c5eab39f2900d3ab36bffb7",
+    "h1/UNHUSDT.json.gz": "5c10b9aa68bffb49b78422b520e34d54894f1846bb61d4ffefd9721cbeddb197",
+    "h1/我踏马来了USDT.json.gz": "47e60e11958ed09cef44cd0767e942c041c05ead3e525d690a73ea4847cf4b0b",
+    "h1/HOLOUSDT.json.gz": "842ed79af5a2ca2608c03b879726962cf8e31be05348be1fb3d6991c08187d40",
+    "h1/CYSUSDT.json.gz": "ff974484946c5a8e0b596cf4fbaeb4b6d89ab7b3537c1e8820775baeaffe58f3",
+    "h1/TAIKOUSDT.json.gz": "7f6a5040d83b5853fedad0870990c4921b93a95bceab5b060b2a81fa1d47e935",
+    "h1/RLSUSDT.json.gz": "a0866464733233fb05f8231c2c9bbb6f10b6b39a583f82abc1ece8d3e3f562e7",
+    "h1/MINIMAXUSDT.json.gz": "00b7af16664809686c84093f258536b8065406a97336a70f7fc9965e000e4eef",
+    "h1/LINEAUSDT.json.gz": "208e7d6abecba94481aa301a45eb6ef7f77f2e3b48833c743b4f006297128f6c",
+    "h1/CBRSUSDT.json.gz": "ea6d404137d3b238bb38485934cb0b3bacca7636f9ee4c903afc2e46861f3b11",
+    "h1/BIOUSDT.json.gz": "b43503da6571198705816347381487c9afad809b0effa8670b00c9e9b1114017",
+    "h1/DEEPUSDT.json.gz": "35fb4896b20427cb655e969b033c19186a934854759f6c7582ea95a6c5c365b6",
+    "h1/GENIUSUSDT.json.gz": "562703cb563e10985c9ad1d713af5359e72794a0cc0c434b6eeb72e7fb9774be",
+    "h1/XLEUSDT.json.gz": "b84cdd64ff81ff2bba333df6f4b647e42768ae3a124c0b521f565bab78142b0e",
+    "h1/BSBUSDT.json.gz": "fadb07b8074d8ceccee36fba50636e7416e532d599fdea103db70a102ff73817",
+    "h1/DUSDT.json.gz": "bcb527b6aef02f37abd84cc459890c0ad5e112e6b8aa7e0b7038d3b328f472dc",
+    "h1/AWEUSDT.json.gz": "2413e110a33ab030f9c40694cb5a57674df3c665702c57e48ae39b0e967f9995",
+    "h1/ARKMUSDT.json.gz": "368d5060b6060a105b18271d9f26aeea83a480a963231acd541787c9ec404682",
+    "h1/KERNELUSDT.json.gz": "3e8609053bb26f98aa16549312b5e8c10a7a0bb2d30397615867a45fb88aea94",
+    "h1/BANKUSDT.json.gz": "c0e958fe197c87e16fcc849421997beae668cd0352903b117644f158b6959abc",
+    "h1/哈基米USDT.json.gz": "5169b4cdf6e49b32c1752537d981fd0f51d25f428678639912042aa02121f1e7",
+    "h1/FLOWUSDT.json.gz": "8f209d3611807720f70206ed48a65d261f1313594bad36ed5a7f754892a6318c",
+    "h1/BDXNUSDT.json.gz": "c0a3ecb0646f5b5b73a434b291d02e90fb399d72e49c9578475e0d8fb1748ead",
+    "h1/牛来USDT.json.gz": "628c019d9cf18902266460a16bdae96469532f4fa88429bed9e40975f3797eb1",
+    "h1/XPINUSDT.json.gz": "be1265a3edd11aeb3e56993d7c16dba768c00018a5d4624d1d932612a20c65dd",
+    "h1/WDCUSDT.json.gz": "7377aee0399ea03d4eb546ec7a7fcfcd087c16d948a2acf722fe2b251a996a40",
+    "h1/BYDUSDT.json.gz": "5590da85d0215237c37da2f72ac53eda26415f49267f836d97a44fc1f3931546",
+    "h1/ETHUSDT.json.gz": "cc4249514dee4d4102591a5344737371cee88e71dbba0413e1388ebe72b8b4c5",
+    "h1/INJUSDT.json.gz": "0760f7098c14a8068008ba707c98f4b4485066fd8f30b667d6847acfd0ec03e6",
+    "h1/ORBSUSDT.json.gz": "318b53a573898f0fc90f48fd7c01c3ab2e9e748dfa54403713b6b7742381ea4b",
+    "h1/VINEUSDT.json.gz": "b1437a559071d5eb1d9b2efc2cfa4769f9c53496e56d86c15d2db04b896595bc",
+    "h1/EPTUSDT.json.gz": "e6cc0f8715644cc7aa637c09a8841c90eb87e4929c67db4f4283c022bd4b4618",
+    "h1/PROMUSDT.json.gz": "9ace5eae53646d6f7afe197d8b871afdf86b095ba0643e15b18c8f28e50989ee",
+    "h1/ILVUSDT.json.gz": "1042a59b617478b69aaaab61d0f5e7d2074decb385da803b7f660605bd1d77b0",
+    "h1/BBXUSDT.json.gz": "639d187a70d3c6120cd8493adf3b46600bad0800b3564067582a24618d75ce57",
+    "h1/EVAAUSDT.json.gz": "a33f7169701d94686d2da88205effc3d4b929e9ecfcd1f9b4ad185be1a80a201",
+    "h1/ARPAUSDT.json.gz": "e767c40c4f6986c379050e6215fc0266dec0c0efc2f2659b855b744062fbae9e",
+    "h1/ALPACAUSDT.json.gz": "5bf372c2be3d87765eea02eb1ad2574c677a77b79271ac6ac3c5b19dbe2b757b",
+    "h1/HANMIUSDT.json.gz": "83cc2b7b0459bf431197303b3508444b2212c265cb91eae42dfd262f346941c8",
+    "h1/XBIUSDT.json.gz": "f2f34e9858385d1f345e4f0ffcae5bf4377710273723b708d983c9ca6280d2e1",
+    "h1/HOTUSDT.json.gz": "3894ff42660f60f8693651a1c450df125c6cfed0df9c1970a7eddb947c6ae0be",
+    "h1/币安人生USDT.json.gz": "dd29a68d5325bc6f16e108f01b6625eb60b1afb4c9f6e167e1af3e51a7de7c7e",
+    "h1/ONUSDT.json.gz": "318dd1f179c08cf8323bbbf33835c3baef173e1416427922dc8a99df408edba1",
+    "h1/IDOLUSDT.json.gz": "d57f32d07b3f8ac16184d484e4c8da07fe0e78c94d9aeda7c3f34af489700904",
+    "h1/SWELLUSDT.json.gz": "720b301119955ee64ddd502aafd32e659a9c0b22bff713ac6daa09ab41a51bd3",
+    "h1/TOMOUSDT.json.gz": "bf0b22b844075db731b253bb21348d091bf94369ca5565c21ca5e710928c5726",
+    "h1/SCUSDT.json.gz": "8f11f8c53fee4e1cb9341418b3b6ad07119cab85040d10be0aa954bb7442be23",
+    "h1/NKNUSDT.json.gz": "ce9e1b82586c4342bf30ff3e6c2ddf457d514afc8e76c32ead4c3d98af7edca4",
+    "h1/ONTUSDT.json.gz": "6cabe898007235383eb0363128ce19d97627b20001897b9730704030bd6bf7e0",
+    "h1/ONEUSDT.json.gz": "60384df6e0058fa635c62be2af8f26e5297aad10986787570d6486cb138aa218",
+    "h1/GUAUSDT.json.gz": "21632ad9ec871aca9a2ca85ea36d2fc52e364a91a934ae2af49bccc4fdee7740",
+    "h1/VICUSDT.json.gz": "c9bfd97f0af2f0441c825694dee973fe3d81508e0a934d594bb0c6e266f8c895",
+    "h1/SEIUSDT.json.gz": "58dda62181f3113257aebd668769df5f473b2e61f2d31da89c14ffc035c7c9a8",
+    "h1/UNITREEUSDT.json.gz": "655d9b07a07560b37a05089f3db55cddfa6674a51c14e785eca9690a60d7f25a",
+    "h1/RLCUSDT.json.gz": "d5a87346b0275b7a9d4a9dccbde15d34f58d816f5ea85d376cc974461bf94e62",
+    "h1/RENUSDT.json.gz": "a0708d272601cbf2fb9b3589f1f00744f039cba22abdb2235de50f3440172e22",
+    "h1/DASHUSDT.json.gz": "898ebbad405e4f0b649694cc88169026a5f7b41284e15a569f8b010fd77aa1b8",
+    "h1/EWZUSDT.json.gz": "1b79316905df784bd59197c9e1331dc38d99edfca427d1df3bd41706576b04d7",
+    "h1/LINKUSDT.json.gz": "0e98a13d92c2db1760f1f474907b3cd27f17c9f48ff0b76f5b38514335ce74a3",
+    "h1/SONICUSDT.json.gz": "ffbac349883725d4f537897989f5486d87a23bd0270877c1e6ffd452bc05a54d",
+    "h1/WETUSDT.json.gz": "011d60fe27b02a26820d5da7de528fb91a410c284e1f6fe0ce13c8eb8614fa63",
+    "h1/MLNUSDT.json.gz": "61f0b56dfb9ea3d814bea98d3f4f7d094ded58641dfae124325a55e65cb10b73",
+    "h1/CHZUSDT.json.gz": "dd65a5e3bd167488cf9b13973869198265e07a7eddf6f893c95d49c1ff2d51a6",
+    "h1/LYTEUSDT.json.gz": "bdb71b5288d242d61e845d305b78d600cc39d544d1f7e7d4b27098736348b153",
+    "h1/DODOXUSDT.json.gz": "a18ee8b0e843d02acd1867d33d22f671bf9ddc9bf211c9b952c2e1fbaa66c9c5",
+    "h1/CHIPUSDT.json.gz": "6a8c0f454e28b7b1be29cd0ba5b6857d2769b7d30efed50fcc39692bf0af01c9",
+    "h1/FOLKSUSDT.json.gz": "8cf8d7c85155ef8287738c5911523f49624a511dbe1d934f1784ec271210fe3e",
+    "h1/VIDTUSDT.json.gz": "50bd61730d006b6d026c2d67a68ac7d6a7246da205c85c7d39a68ed81c699e7f",
+    "h1/CIENUSDT.json.gz": "e331ff999524b2e87124aad57fe07a3e602c3bba07b5518475e709766b6cfee3",
+    "h1/PHAROSUSDT.json.gz": "a92559a62369fc63fd61b67bda53f785484a1b9a53be7e3530a9328f86c4f9d6",
+    "h1/RESOLVUSDT.json.gz": "50eb4852690e4b045bee8ffdcc93493d266b4d7f029e66919cea00cbbe1d0b24",
+    "h1/QNTUSDT.json.gz": "017699852027343691091a85534080bee50a8fb52429ef38c45e5ffa9528966b",
+    "h1/GTCUSDT.json.gz": "d6d8d8c67e5ee68bb33949620de2d97566d30227d48a153daa8e97e85978d637",
+    "h1/VRTUSDT.json.gz": "26edc25ee965d98bd4b79c878ec5a2770e3bd1c0e8447c514e032b4d289649c8",
+    "h1/BEUSDT.json.gz": "88bd778a4cb301d3a742a655d310ed2a0077175464a70bb049ec7a71d4e1ea46",
+    "h1/NOWUSDT.json.gz": "c8e794fdcda7de3071427116911222adf16b6b81cdf9068c204512bb0d6d5546",
+    "h1/KORUUSDT.json.gz": "655e033f59c562abd4048dc332e2fc2f5c488dbe277f11ddb87a8cd8cde54283",
+    "h1/AVNTUSDT.json.gz": "a1d5c4e59eed0acb138586ac165822c4f7d765b8c91507c2cc7a9523e8ec4478",
+    "h1/FFUSDT.json.gz": "74d016b755e7047e01971f1910d8c2989aa8e587e27f7f2d17d0789c27eb8274",
+    "h1/MAVIAUSDT.json.gz": "3a0621420ce0227ba075b109bdc68d6ff7bdd5ce9692ebb62214a9b3099cd0d9",
+    "h1/PENGUUSDT.json.gz": "a58f45eb01f36246aecde706b6fd6cd8de992f3e72ae812597aa70b833e6236b",
+    "h1/REIUSDT.json.gz": "305a19f13251285dada73c565225e3a6840d8e2c8c17cf45628443de5e9600ed",
+    "h1/XOMUSDT.json.gz": "88dad098a5c8ca236f2b7b7fd116c2d03a9f198f9205cf914caa5cfb650cbbfe",
+    "h1/PROMPTUSDT.json.gz": "15ac407dc36a7d2a4729af3c7e6c6d0643fdfb51da6f83b9cf5c5ed4c16d0371",
+    "h1/ASMLUSDT.json.gz": "3c849170b4f439a63aef3d188071207a5c5a2ea6253758904acc48661a1ce017",
+    "h1/MILKUSDT.json.gz": "0395acc452f3519e2f59affb6428f4258445ffab3e753460b5c2a8f83f9334ac",
+    "h1/FTMUSDT.json.gz": "c96824860881f0a36c1ed36cacf71aa0b75897fa6f4365a0bad2337d2b5c1706",
+    "h1/JOEUSDT.json.gz": "6acc6b44bee7f60d8a356fc788ba44d7f3a94c9c16d7b184f85dbfb9dda3c58f",
+    "h1/KATUSDT.json.gz": "7273cb42f677e72aa385745d8144ece6d616255ef9fb11a8ee9553c593549555",
+    "h1/MVLLUSDT.json.gz": "6309e4875c1c3b7c22465eaaa0a8cf837ca2bbbe617c57d49b6797aa4d30ead2",
+    "h1/PEOPLEUSDT.json.gz": "4b3d3d54c266ab37673a77696ce537376556cf1b5a805383f3ab5a513cc758ac",
+    "h1/UBERUSDT.json.gz": "be8c47a7ea0486387f1ea333554806d1fc288afd50c59be15482bdcac7c324db",
+    "h1/MCDUSDT.json.gz": "d5ade1d97816c1f4920f715b508148e86af358291897b1323dd976f5ae2c5309",
+    "h1/ZKCUSDT.json.gz": "b564fad642fac19ab13ef99fa1e3167dcfaca23654b8fda01a5104538d6dbe03",
+    "h1/SFPUSDT.json.gz": "8327677141e398ec3a6297b11430fd5348e3e1c1c5ee647322c0e1dbb2d630fe",
+    "h1/RDWUSDT.json.gz": "f82d370626a7833ebeb97b03553722fd86807f3aa5839e7eeb178a2016b9f748",
+    "h1/FIDAUSDT.json.gz": "0c8896a82b00acd5710172f573a19244e1430535cad810288a9ab28100449fbd",
+    "h1/DYMUSDT.json.gz": "4df38706b4bcb6a55a54b92103c026847ebd69832934da01035fa9b37a542e6a",
+    "h1/RSRUSDT.json.gz": "68088f4c0043138259d36fa8b898c6d85ec8127fcdf6c58c7126802ef3673dbe",
+    "h1/RDDTUSDT.json.gz": "d5d9647a52c08f48b056dea126151639456014dbc4b7dd56ced8296fe592f6b8",
+    "h1/SKHYUSDT.json.gz": "ff32612e3513b9d8970769b93cab0965f779f4137b30c9b6cbfeb12cbab83edb",
+    "h1/XAUUSDT.json.gz": "81664b2d9ee0153a8d63e20e3f66c5579781c635684f7cc37a2494594722e009",
+    "h1/MSTUUSDT.json.gz": "0726c024d911048106b65bc1350bb328e514856111c962b64867a6fb3d60988d",
+    "h1/UBUSDT.json.gz": "9e57698c9e71ca9137048d6201782ef3a09d82fda045595921b456ca9b67f824",
+    "h1/PLTRUSDT.json.gz": "728cd88fe90c2bfb166600cdc98f7881371f9b9b7b52687bdb55294ec4aae226",
+    "h1/ZECUSDT.json.gz": "e49025bd935a5166fdb7f050c22e41384330dff42026b72d279fcd815bf140d5",
+    "h1/ACNUSDT.json.gz": "749c19e707519342354904257270633b8ae60f4388e34bcc98ec63467f1befb3",
+    "h1/SKUUUSDT.json.gz": "6f92d34ddeface541fc7d4b95079e9c89bb5144d8ebc9f1104551c73948b4781",
+    "h1/DDOGUSDT.json.gz": "54f493b4f85b3849e79d98ad4fca8bb07f9e754f6b548b9d71fd20c4353f9034",
+    "h1/CTSIUSDT.json.gz": "63ce575d089d911af4f07c10a799ca220de3e65adfacdc660e1681f77f336231",
+    "h1/TQQQUSDT.json.gz": "59353f26c2c3714c5051d2a88306c137e21dcd16446a47bf48695ce8e27a736b",
+    "h1/RPLUSDT.json.gz": "8a10205fea599c804ad113068bf1e633ad510bba89db6857a775d6c79be36a7e",
+    "h1/AAOIUSDT.json.gz": "cbb9bba8e000f59fe4e0ef852bc165aade2efadcf1e675ed163a26a1d388fd28",
+    "h1/SUNUSDT.json.gz": "e4f14b2f87c75683a0e6ed0f056f686dd33b23a25bebf9c558bdf9baa45f5eea",
+    "h1/BASUSDT.json.gz": "dde6a06ac1fa4c107fbddf0c49c37af34f7ff0a38c9e124a92a35ed6976ca935",
+    "h1/MERLUSDT.json.gz": "9cff16cdf3e1571fbea657c537ae22df4e9335c0cab2da324b3156f4421044a5",
+    "h1/STPTUSDT.json.gz": "6dd3716a37afbbe994663f0d26e1a02ef7449c17b52092d7c785e94ad61430ce",
+    "h1/DRIFTUSDT.json.gz": "83f0cc5c5a047fe2d201ba5c22089212b6aea4ea0e202ba84e55e014ca2d1d84",
+    "h1/OPGUSDT.json.gz": "40fa6763b1218023f7153433966e5a5012c757121e86f8c9697ed8a2ded96366",
+    "h1/FTTUSDT.json.gz": "d660d7b5b99bf4b5e58ba769d39243660f675541b1d74cc9e2db1252fab96205",
+    "h1/BMNRUSDT.json.gz": "81ffdc09a03d1ceb3acb2c3f87b0becd071fcaa74cfd212b5d38d55ac1ebc65b",
+    "h1/COOKIEUSDT.json.gz": "f2208fbe263662b7e7b0c7e1df49475d1e82304166ed617a6cf33fb0d8ed75da",
+    "h1/DOTUSDT.json.gz": "27016e46292b0b70bcb96d2f56c36f7ec0225abc253c1f6ded577226834893df",
+    "h1/MORPHOUSDT.json.gz": "5535e3f4186a47545153bdecf34aa4e33ab60e4f92b4eea49a698f6be6f6c8b2",
+    "h1/KSMUSDT.json.gz": "842327edcd8158e17b1482538dcc96371642c03f53d5a2cdd0f777d5e77785d2",
+    "h1/UNFIUSDT.json.gz": "56c537e918a14841482ecb714ff3be796146368e6cc6b77b82fc738e3bfb7476",
+    "h1/HIMSUSDT.json.gz": "470ff0e8985c7300f425e0ce615baece81e49c0af2c72c9f40b76702e4271cc3",
+    "h1/HUSDT.json.gz": "6828c9d53df4f8f70427a0ef12778fa94e1512ce0cb5d3ec7a4707ea6ec90c41",
+    "h1/EDGEUSDT.json.gz": "fe3e3834b0ed5f527393ddded918ce1326d5f2cc1180c0968a29d57de3fd5e94",
+    "h1/ATOMUSDT.json.gz": "c9a608273b2f28200252e48cf191a197c694b9d8beb874464811bbd84155ecb0",
+    "h1/IONQUSDT.json.gz": "524e56dcfd3881a3dd101b626e8d8f7d95c37fb7b526754af6d33503cc460711",
+    "h1/SAFEUSDT.json.gz": "cdb4a80e3b1fe43d0999a1f93ea0675c5c54a60a0bb5d630fffbfedf1331be2e",
+    "h1/TOSHIUSDT.json.gz": "5a1b08c8ce35560a32716045badb3abd9474f8a8c47cf5b92a7eeda31b71d69b",
+    "h1/HUTUSDT.json.gz": "1604735aa759e0daa2bd55dddf0a9f7811d31817ac00656b739950930f1d54b5",
+    "h1/DEGOUSDT.json.gz": "1450ec6cbb1469293d835d44c510f933a534a1e6825a87895228bf2b869d66eb",
+    "h1/SPYUSDT.json.gz": "0ae751f3d9ace67488d86c50440d2f56b5b023b31b0c49e6f5e6600a4e4db3f3",
+    "h1/AKEUSDT.json.gz": "4e706987241633f698e676bfc0a7974141948e507acbf51c6b8a7cc9aa4bf535",
+    "h1/SAMSUNGUSDT.json.gz": "7380af214d1305f1e0a25c45d9a1061d6edbfee11070e939be00b7ddc8527fa6",
+    "h1/SXTUSDT.json.gz": "a0fedc0471af9b6a503915aec5bded50c51a2d32a558d74467913c92e0f169cf",
+    "h1/TENCENTUSDT.json.gz": "46876aa6a02d0d79ae0955ae80ade9a16575e9e7c0b8c181bd50b84a6f92f0ce",
+    "h1/SLXUSDT.json.gz": "f21c533a1818b2e990a39ba28d96be33e4fcf0969945a8e737cefcfca41a98ec",
+    "h1/OPENAIUSDT.json.gz": "d76be69ed9cec14387e666e5aec36af6dde3817f344b930f190934fb27c190ce",
+    "h1/ENAUSDT.json.gz": "02016da5bcaaaedefb6d5b530c27f2a526df2fb7ee7fb6deb83bbc1ac93b03b9",
+    "h1/DMCUSDT.json.gz": "5096f29b6cb99e16760016beb377165a882de0c90ecf6503ffe626b5e206b7ab",
+    "h1/CAPUSDT.json.gz": "2f8c0b5ddc85d3ae453a837f68ece3793dbd74b71767a0e1a144198411d49b91",
+    "h1/GASUSDT.json.gz": "1f68a1b753367f238cfa448aa23f4de094d6711aac8bf66895ef0d7c054ac472",
+    "h1/ETHWUSDT.json.gz": "83cc33e4455d43b650ae1e1b71fd66c512d3dc069dc3e5663d4740c9d1c99514",
+    "h1/VANAUSDT.json.gz": "f41080d608b95ff72179c928dde9f11b0e9e7fef125e79347e122c51f6838a99",
+    "h1/HIFIUSDT.json.gz": "cd96bd122738bd3c65a1d9080685cb647745c8afc093bc1688cda24e85f24733",
+    "h1/ARCUSDT.json.gz": "53f21c9d5de307814e43be6c2814bb7a8e3edb2c2568fb55c28883b5db0a6043",
+    "h1/PENDLEUSDT.json.gz": "07f933b42829e3e1c2f74ff1b763f88ac5e3a4be48e011f73b6b180eb70cd23d",
+    "h1/YFIUSDT.json.gz": "405dd3e7b825f9c75598e39441844af27f0aec6b91d2ce72dbea654c81086c5a"
+  }
+}
