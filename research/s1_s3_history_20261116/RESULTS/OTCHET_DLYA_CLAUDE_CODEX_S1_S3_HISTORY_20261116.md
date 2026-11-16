@@ -43,6 +43,13 @@ S2_BINANCE: INCONCLUSIVE_DATA_GAP_OR_NO_ELIGIBLE_EVENTS. Подробные ис
 
 S3_FACTORY: S3_SETTLED_FACTORY_OVERLAP_BINANCE_PROXY_NOT_LIVE_TICKER. Подробные источники/исключения/контроль: S3_FACTORY_RESULTS.json.
 
+|S2_BINANCE_REPLAY/main/FULL|3|66.6667|5.8287|4.8279|24.1395|0.9998|54.6667|1.2071|
+|S2_BINANCE_REPLAY/main/H1|0|NA|NA|0|0|0.0000|NA|NA|
+|S2_BINANCE_REPLAY/main/H2|3|66.6667|5.8287|4.8279|24.1395|0.9998|54.6667|1.2071|
+|S2_BINANCE_REPLAY/main/OOS40|3|66.6667|5.8287|4.8279|24.1395|0.9998|54.6667|1.2071|
+
+S2_BINANCE_REPLAY: INCONCLUSIVE_ORIGINAL_REVISION_GAP_CURRENT_DOCUMENT_CONDITIONAL_PROXY. Подробные источники/исключения/контроль: S2_BINANCE_REPLAY_RESULTS.json.
+
 ## Ограничения и независимая проверка
 S1: сохранённый прежний selected-корпус, не полный новый PUMP_FADE; top50 не настоящий фабричный BASE. До model cut2026-08-30 присутствует selection leakage. S3: settled funding Binance — известная после расчёта величина, не исторический live indicative ticker; строго раньше observation. S2: сегодняшние редакции объявлений не доказывают первоначальные версии. Binance цены/платежи не равны Bybit. Funding mark приближен закрытой5m ценой. OOS40 календарный, но сам по себе не независим от прежнего изучения корпуса. UNKNOWN не равен нулю. Смотреть все trades/status counts, каталог и checksum receipts.
 
