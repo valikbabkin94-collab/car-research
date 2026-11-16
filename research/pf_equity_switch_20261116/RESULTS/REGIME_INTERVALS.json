@@ -1,0 +1,361 @@
+{
+  "YEAR_5M": {
+    "intervals": [
+      {
+        "start_decision_ms": 1763542800000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1763866800000
+      },
+      {
+        "start_decision_ms": 1763866800000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1773993600000
+      },
+      {
+        "start_decision_ms": 1773993600000,
+        "state": "ON",
+        "end_exclusive_ms": 1774177200000
+      },
+      {
+        "start_decision_ms": 1774177200000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1780268400000
+      },
+      {
+        "start_decision_ms": 1780268400000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1780315200000
+      },
+      {
+        "start_decision_ms": 1780315200000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1783062000000
+      },
+      {
+        "start_decision_ms": 1783062000000,
+        "state": "ON",
+        "end_exclusive_ms": 1783418400000
+      },
+      {
+        "start_decision_ms": 1783418400000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1785031200000
+      },
+      {
+        "start_decision_ms": 1785031200000,
+        "state": "ON",
+        "end_exclusive_ms": 1785150000000
+      },
+      {
+        "start_decision_ms": 1785150000000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1787680800000
+      },
+      {
+        "start_decision_ms": 1787680800000,
+        "state": "ON",
+        "end_exclusive_ms": 1787724000000
+      },
+      {
+        "start_decision_ms": 1787724000000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1788984000000
+      },
+      {
+        "start_decision_ms": 1788984000000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1789081200000
+      },
+      {
+        "start_decision_ms": 1789081200000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1790733600000
+      },
+      {
+        "start_decision_ms": 1790733600000,
+        "state": "ON",
+        "end_exclusive_ms": 1791000000000
+      },
+      {
+        "start_decision_ms": 1791000000000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1791316800000
+      },
+      {
+        "start_decision_ms": 1791316800000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": 1791777600000
+      },
+      {
+        "start_decision_ms": 1791777600000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1791831600000
+      },
+      {
+        "start_decision_ms": 1791831600000,
+        "state": "ON",
+        "end_exclusive_ms": 1792076400000
+      },
+      {
+        "start_decision_ms": 1792076400000,
+        "state": "DATA_GAP_MEMORY",
+        "end_exclusive_ms": null
+      }
+    ],
+    "last_decision_ms": 1794175200000,
+    "current_november_regime": "UNKNOWN_NO_COMPLETE_NET_OUTCOME_HISTORY",
+    "asof_corpus_only": true
+  },
+  "RECENT_1M": {
+    "intervals": [
+      {
+        "start_decision_ms": 1785542522000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1785751322000
+      },
+      {
+        "start_decision_ms": 1785751322000,
+        "state": "ON",
+        "end_exclusive_ms": 1785902522000
+      },
+      {
+        "start_decision_ms": 1785902522000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1785942122000
+      },
+      {
+        "start_decision_ms": 1785942122000,
+        "state": "ON",
+        "end_exclusive_ms": 1785963722000
+      },
+      {
+        "start_decision_ms": 1785963722000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1786064522000
+      },
+      {
+        "start_decision_ms": 1786064522000,
+        "state": "ON",
+        "end_exclusive_ms": 1786075322000
+      },
+      {
+        "start_decision_ms": 1786075322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1786226522000
+      },
+      {
+        "start_decision_ms": 1786226522000,
+        "state": "ON",
+        "end_exclusive_ms": 1786255322000
+      },
+      {
+        "start_decision_ms": 1786255322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1786258922000
+      },
+      {
+        "start_decision_ms": 1786258922000,
+        "state": "ON",
+        "end_exclusive_ms": 1786262522000
+      },
+      {
+        "start_decision_ms": 1786262522000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1786280522000
+      },
+      {
+        "start_decision_ms": 1786280522000,
+        "state": "ON",
+        "end_exclusive_ms": 1786582922000
+      },
+      {
+        "start_decision_ms": 1786582922000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1787076122000
+      },
+      {
+        "start_decision_ms": 1787076122000,
+        "state": "ON",
+        "end_exclusive_ms": 1787097722000
+      },
+      {
+        "start_decision_ms": 1787097722000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1787133722000
+      },
+      {
+        "start_decision_ms": 1787133722000,
+        "state": "ON",
+        "end_exclusive_ms": 1787284922000
+      },
+      {
+        "start_decision_ms": 1787284922000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1787608922000
+      },
+      {
+        "start_decision_ms": 1787608922000,
+        "state": "ON",
+        "end_exclusive_ms": 1788051722000
+      },
+      {
+        "start_decision_ms": 1788051722000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1788069722000
+      },
+      {
+        "start_decision_ms": 1788069722000,
+        "state": "ON",
+        "end_exclusive_ms": 1788105722000
+      },
+      {
+        "start_decision_ms": 1788105722000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1788127322000
+      },
+      {
+        "start_decision_ms": 1788127322000,
+        "state": "ON",
+        "end_exclusive_ms": 1788181322000
+      },
+      {
+        "start_decision_ms": 1788181322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1788253322000
+      },
+      {
+        "start_decision_ms": 1788253322000,
+        "state": "ON",
+        "end_exclusive_ms": 1788264122000
+      },
+      {
+        "start_decision_ms": 1788264122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1788854522000
+      },
+      {
+        "start_decision_ms": 1788854522000,
+        "state": "ON",
+        "end_exclusive_ms": 1789002122000
+      },
+      {
+        "start_decision_ms": 1789002122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1789023722000
+      },
+      {
+        "start_decision_ms": 1789023722000,
+        "state": "ON",
+        "end_exclusive_ms": 1789106522000
+      },
+      {
+        "start_decision_ms": 1789106522000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1789808522000
+      },
+      {
+        "start_decision_ms": 1789808522000,
+        "state": "ON",
+        "end_exclusive_ms": 1789981322000
+      },
+      {
+        "start_decision_ms": 1789981322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1790006522000
+      },
+      {
+        "start_decision_ms": 1790006522000,
+        "state": "ON",
+        "end_exclusive_ms": 1790028122000
+      },
+      {
+        "start_decision_ms": 1790028122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1790398922000
+      },
+      {
+        "start_decision_ms": 1790398922000,
+        "state": "ON",
+        "end_exclusive_ms": 1790406122000
+      },
+      {
+        "start_decision_ms": 1790406122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1790834522000
+      },
+      {
+        "start_decision_ms": 1790834522000,
+        "state": "ON",
+        "end_exclusive_ms": 1790863322000
+      },
+      {
+        "start_decision_ms": 1790863322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1790906522000
+      },
+      {
+        "start_decision_ms": 1790906522000,
+        "state": "ON",
+        "end_exclusive_ms": 1791014522000
+      },
+      {
+        "start_decision_ms": 1791014522000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1791054122000
+      },
+      {
+        "start_decision_ms": 1791054122000,
+        "state": "ON",
+        "end_exclusive_ms": 1791126122000
+      },
+      {
+        "start_decision_ms": 1791126122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1791295322000
+      },
+      {
+        "start_decision_ms": 1791295322000,
+        "state": "ON",
+        "end_exclusive_ms": 1791457322000
+      },
+      {
+        "start_decision_ms": 1791457322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1791691322000
+      },
+      {
+        "start_decision_ms": 1791691322000,
+        "state": "ON",
+        "end_exclusive_ms": 1791982922000
+      },
+      {
+        "start_decision_ms": 1791982922000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1792713722000
+      },
+      {
+        "start_decision_ms": 1792713722000,
+        "state": "ON",
+        "end_exclusive_ms": 1792908122000
+      },
+      {
+        "start_decision_ms": 1792908122000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": 1793156522000
+      },
+      {
+        "start_decision_ms": 1793156522000,
+        "state": "ON",
+        "end_exclusive_ms": 1793185322000
+      },
+      {
+        "start_decision_ms": 1793185322000,
+        "state": "OFF_OR_WARMUP",
+        "end_exclusive_ms": null
+      }
+    ],
+    "last_decision_ms": 1793196122000,
+    "current_november_regime": "UNKNOWN_NO_COMPLETE_NET_OUTCOME_HISTORY",
+    "asof_corpus_only": true
+  }
+}

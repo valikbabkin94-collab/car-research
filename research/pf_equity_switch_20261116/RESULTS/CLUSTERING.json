@@ -1,0 +1,24 @@
+{
+  "YEAR_5M": {
+    "known_sign_n": 1466,
+    "unknown_outcomes": 295,
+    "adjacent_known_pairs": 1223,
+    "lag1_sign_autocorrelation": 0.04305848930845819,
+    "runs": 589,
+    "runs_expected": 607.0900409276944,
+    "runs_z": -1.1117498661942609,
+    "runs_two_sided_p": 0.26624571279981946,
+    "limitations": "Runs on known subset; gaps excluded. Autocorrelation only adjacent complete signs. Ties, overlaps and missing observations prevent iid proof."
+  },
+  "RECENT_1M": {
+    "known_sign_n": 505,
+    "unknown_outcomes": 0,
+    "adjacent_known_pairs": 504,
+    "lag1_sign_autocorrelation": -0.07802197802197816,
+    "runs": 219,
+    "runs_expected": 203.37623762376236,
+    "runs_z": 1.6818654273511642,
+    "runs_two_sided_p": 0.0925949380533224,
+    "limitations": "Runs on known subset; gaps excluded. Autocorrelation only adjacent complete signs. Ties, overlaps and missing observations prevent iid proof."
+  }
+}

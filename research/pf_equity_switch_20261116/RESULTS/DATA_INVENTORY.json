@@ -1,0 +1,43 @@
+{
+  "YEAR_5M": {
+    "source_records": 2113,
+    "closed": 1761,
+    "known_net_n": 1466,
+    "unknown_net_n": 295,
+    "status_counts": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 36
+    },
+    "decision_min_ms": 1763542800000,
+    "decision_max_ms": 1794175200000,
+    "duplicate_close_timestamp_n": 37,
+    "memory_restart": "continuous, unknown outcomes remain in memory",
+    "bounds": [
+      1762930800000,
+      1794466800000,
+      1778698800000,
+      1781852400000
+    ]
+  },
+  "RECENT_1M": {
+    "source_records": 582,
+    "closed": 505,
+    "known_net_n": 505,
+    "unknown_net_n": 0,
+    "status_counts": {
+      "CLOSED": 505,
+      "NOFILL": 77
+    },
+    "decision_min_ms": 1785542522000,
+    "decision_max_ms": 1793196122000,
+    "duplicate_close_timestamp_n": 1,
+    "memory_restart": "TRAIN/H2 separately due to saved purge gap",
+    "bounds": [
+      1785542400000,
+      1793491200000,
+      1789516800000,
+      1790311680000
+    ]
+  }
+}

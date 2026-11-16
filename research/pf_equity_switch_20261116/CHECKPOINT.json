@@ -1,0 +1,16 @@
+{
+  "stage": "COMPLETE",
+  "code_sha": "777a52c95ce56a494c52acac7149852883f0fb80",
+  "variants": [
+    "SW10",
+    "SW20",
+    "SW20_PF",
+    "SW_HALF"
+  ],
+  "controls_per_corpus": 1000,
+  "candidates": 0,
+  "history_replayed": false,
+  "source_manifest_sha256": "fa409ee4a7e1990a3c6481c3483871749fd8d4769ae0c9dce46776901f6825d4",
+  "next": "Independent audit; no new parameters on observed results",
+  "LIVE_changes": 0
+}
