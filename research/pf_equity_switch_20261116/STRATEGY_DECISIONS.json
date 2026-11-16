@@ -1,0 +1,15 @@
+{
+  "RECENT_1M": {
+    "SW10": "REJECTED",
+    "SW20": "REJECTED",
+    "SW20_PF": "REJECTED",
+    "SW_HALF": "REJECTED"
+  },
+  "YEAR_5M": {
+    "SW10": "INCONCLUSIVE_DATA_GAPS",
+    "SW20": "INCONCLUSIVE_DATA_GAPS",
+    "SW20_PF": "INCONCLUSIVE_DATA_GAPS",
+    "SW_HALF": "INCONCLUSIVE_DATA_GAPS"
+  },
+  "paper_candidates": []
+}
