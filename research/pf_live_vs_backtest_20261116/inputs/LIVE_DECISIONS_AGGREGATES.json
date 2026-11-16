@@ -1,5 +1,321 @@
 {
-  "status": "DATA_GAP_NO_COMPLETE_30_DAY_LIVE_DECISION_LOG",
-  "coverage_complete": false,
-  "rows": []
+ "meta": {
+  "schema_version": 1,
+  "exported_ms": 1794846591747,
+  "stop_price_type": "exchange stop (mark/last per Bybit default for stoploss_on_exchange)",
+  "note": "exit kind is heuristic (tp if leg profit>0, breakeven if |exit-entry|<0.2%, else stop); per-leg fee estimated from fee_close rate; trade-level net_R uses realized_profit",
+  "decisions_coverage": "signals.json keeps only recent signals; older PUMP_FADE signals may be pruned -> decision log may be incomplete"
+ },
+ "decisions": [
+  {
+   "source": "PUMP_FADE",
+   "symbol": "CRWVUSDT",
+   "signal_ms": 1794405600000,
+   "created_ms": 1794405722332,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "BLUAIUSDT",
+   "signal_ms": 1794416400000,
+   "created_ms": 1794416522025,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "KORUUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "MVLLUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "NBISUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SOXLUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "MUUUSDT",
+   "signal_ms": 1794438000000,
+   "created_ms": 1794438122735,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SNXXUSDT",
+   "signal_ms": 1794438000000,
+   "created_ms": 1794438122735,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "ZHONGJIUSDT",
+   "signal_ms": 1794441600000,
+   "created_ms": 1794441722506,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "XCNUSDT",
+   "signal_ms": 1794445200000,
+   "created_ms": 1794445322335,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "QUSDT",
+   "signal_ms": 1794466800000,
+   "created_ms": 1794466922290,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "ERAUSDT",
+   "signal_ms": 1794488400000,
+   "created_ms": 1794488538157,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "MAGMAUSDT",
+   "signal_ms": 1794492000000,
+   "created_ms": 1794492122226,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "PLAYSOUTUSDT",
+   "signal_ms": 1794531600000,
+   "created_ms": 1794531722140,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "AKEUSDT",
+   "signal_ms": 1794549600000,
+   "created_ms": 1794549723132,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "BARDUSDT",
+   "signal_ms": 1794553200000,
+   "created_ms": 1794553322275,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SOPHUSDT",
+   "signal_ms": 1794607200000,
+   "created_ms": 1794607323042,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "BMTUSDT",
+   "signal_ms": 1794625200000,
+   "created_ms": 1794625322890,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "TACUSDT",
+   "signal_ms": 1794628800000,
+   "created_ms": 1794628922793,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "EVAAUSDT",
+   "signal_ms": 1794693600000,
+   "created_ms": 1794693723240,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "INITUSDT",
+   "signal_ms": 1794751200000,
+   "created_ms": 1794751322576,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "JELLYJELLYUSDT",
+   "signal_ms": 1794762000000,
+   "created_ms": 1794762122348,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "NESAUSDT",
+   "signal_ms": 1794762000000,
+   "created_ms": 1794762122348,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SHELLUSDT",
+   "signal_ms": 1794765600000,
+   "created_ms": 1794765723325,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "KAVAUSDT",
+   "signal_ms": 1794769200000,
+   "created_ms": 1794769322294,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "VVVUSDT",
+   "signal_ms": 1794769200000,
+   "created_ms": 1794769322294,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "DRVUSDT",
+   "signal_ms": 1794790800000,
+   "created_ms": 1794790923578,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "TACUSDT",
+   "signal_ms": 1794790800000,
+   "created_ms": 1794790923578,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "JCTUSDT",
+   "signal_ms": 1794812400000,
+   "created_ms": 1794812522299,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SPACEUSDT",
+   "signal_ms": 1794837600000,
+   "created_ms": 1794837724785,
+   "decision": "ENTERED",
+   "reason": null,
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SKRUSDT",
+   "signal_ms": 1794841200000,
+   "created_ms": 1794841323311,
+   "decision": "NOT_ENTERED_UNKNOWN",
+   "reason": "not recorded in signals.json (state only); see coverage note",
+   "coverage_start_ms": 1792254591747,
+   "coverage_end_ms": 1794846591747
+  }
+ ]
 }

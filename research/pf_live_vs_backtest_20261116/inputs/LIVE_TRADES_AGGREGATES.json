@@ -1,5 +1,582 @@
 {
-  "status": "DATA_GAP_EXPECTED_13_CLOSED_ROWS_NOT_PUBLISHED_IN_CHECKED_GITHUB_SOURCES",
-  "expected_closed_count": 13,
-  "rows": []
+ "meta": {
+  "schema_version": 1,
+  "exported_ms": 1794846591747,
+  "stop_price_type": "exchange stop (mark/last per Bybit default for stoploss_on_exchange)",
+  "note": "exit kind is heuristic (tp if leg profit>0, breakeven if |exit-entry|<0.2%, else stop); per-leg fee estimated from fee_close rate; trade-level net_R uses realized_profit; kind relabelled: |exit-entry|/entry<0.3% -> breakeven",
+  "decisions_coverage": "signals.json keeps only recent signals; older PUMP_FADE signals may be pruned -> decision log may be incomplete"
+ },
+ "trades": [
+  {
+   "source": "PUMP_FADE",
+   "symbol": "NBISUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "entry_ms": 1794431118000,
+   "exit_ms": 1794438766000,
+   "side": "short",
+   "entry_price": 156.5,
+   "initial_stop_price": 175.79,
+   "signal_stop_price": 165.264,
+   "net_R": 0.6151,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "tp_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794436147000,
+     "kind": "tp",
+     "price": 153.21,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.1786,
+     "fee_R": 0.0023,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794436294000,
+     "kind": "tp",
+     "price": 149.93,
+     "fraction_of_initial_qty": 0.2727,
+     "net_R": 0.1958,
+     "fee_R": 0.0012,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794438766000,
+     "kind": "tp",
+     "price": 146.64,
+     "fraction_of_initial_qty": 0.2273,
+     "net_R": 0.2454,
+     "fee_R": 0.001,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "KORUUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "entry_ms": 1794431215000,
+   "exit_ms": 1794442354000,
+   "side": "short",
+   "entry_price": 8.63,
+   "initial_stop_price": 9.69,
+   "signal_stop_price": 9.113280000000001,
+   "net_R": 0.6115,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "dust_close",
+   "exits": [
+    {
+     "time_ms": 1794436099000,
+     "kind": "tp",
+     "price": 8.45,
+     "fraction_of_initial_qty": 0.4988,
+     "net_R": 0.1791,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794437693000,
+     "kind": "tp",
+     "price": 8.27,
+     "fraction_of_initial_qty": 0.2988,
+     "net_R": 0.2145,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794442275000,
+     "kind": "tp",
+     "price": 8.09,
+     "fraction_of_initial_qty": 0.2,
+     "net_R": 0.2154,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794442354000,
+     "kind": "tp",
+     "price": 8.12,
+     "fraction_of_initial_qty": 0.0025,
+     "net_R": 0.0025,
+     "fee_R": 0.0,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "MVLLUSDT",
+   "signal_ms": 1794430800000,
+   "created_ms": 1794430922170,
+   "entry_ms": 1794431223000,
+   "exit_ms": 1794438017000,
+   "side": "short",
+   "entry_price": 12.37,
+   "initial_stop_price": 13.9,
+   "signal_stop_price": 13.06272,
+   "net_R": 0.6174,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "tp_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794436106000,
+     "kind": "tp",
+     "price": 12.11,
+     "fraction_of_initial_qty": 0.4982,
+     "net_R": 0.1802,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794436309000,
+     "kind": "tp",
+     "price": 11.85,
+     "fraction_of_initial_qty": 0.2968,
+     "net_R": 0.2148,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794438017000,
+     "kind": "tp",
+     "price": 11.59,
+     "fraction_of_initial_qty": 0.2049,
+     "net_R": 0.2224,
+     "fee_R": 0.0,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SNXXUSDT",
+   "signal_ms": 1794438000000,
+   "created_ms": 1794438122735,
+   "entry_ms": 1794438213000,
+   "exit_ms": 1794439734000,
+   "side": "short",
+   "entry_price": 4.31,
+   "initial_stop_price": 4.84,
+   "signal_stop_price": 4.55136,
+   "net_R": 0.4028,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "stoploss_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794438477000,
+     "kind": "tp",
+     "price": 4.22,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.1797,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794438813000,
+     "kind": "tp",
+     "price": 4.13,
+     "fraction_of_initial_qty": 0.2993,
+     "net_R": 0.2151,
+     "fee_R": 0.0,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794439734000,
+     "kind": "breakeven",
+     "price": 4.3,
+     "fraction_of_initial_qty": 0.2007,
+     "net_R": 0.008,
+     "fee_R": 0.0,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "QUSDT",
+   "signal_ms": 1794466800000,
+   "created_ms": 1794466922290,
+   "entry_ms": 1794467513000,
+   "exit_ms": 1794489016000,
+   "side": "short",
+   "entry_price": 0.02779,
+   "initial_stop_price": 0.03123,
+   "signal_stop_price": 0.02934624,
+   "net_R": 0.6045,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0006,
+   "exit_reason": "tp_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794469952000,
+     "kind": "tp",
+     "price": 0.02721,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.1766,
+     "fee_R": 0.003,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794482586000,
+     "kind": "tp",
+     "price": 0.02662,
+     "fraction_of_initial_qty": 0.2937,
+     "net_R": 0.211,
+     "fee_R": 0.0017,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794489016000,
+     "kind": "tp",
+     "price": 0.02604,
+     "fraction_of_initial_qty": 0.2063,
+     "net_R": 0.2225,
+     "fee_R": 0.0012,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "ERAUSDT",
+   "signal_ms": 1794488400000,
+   "created_ms": 1794488538157,
+   "entry_ms": 1794488994000,
+   "exit_ms": 1794493121000,
+   "side": "short",
+   "entry_price": 0.09835,
+   "initial_stop_price": 0.11038,
+   "signal_stop_price": 0.10385760000000001,
+   "net_R": 0.5834,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "tp_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794490352000,
+     "kind": "tp",
+     "price": 0.09628,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.1727,
+     "fee_R": 0.0084,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794491171000,
+     "kind": "tp",
+     "price": 0.09422,
+     "fraction_of_initial_qty": 0.2997,
+     "net_R": 0.2117,
+     "fee_R": 0.0049,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794493121000,
+     "kind": "tp",
+     "price": 0.09209,
+     "fraction_of_initial_qty": 0.2003,
+     "net_R": 0.2162,
+     "fee_R": 0.0032,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "MAGMAUSDT",
+   "signal_ms": 1794492000000,
+   "created_ms": 1794492122226,
+   "entry_ms": 1794492280000,
+   "exit_ms": 1794493924000,
+   "side": "short",
+   "entry_price": 0.3255,
+   "initial_stop_price": 0.3657,
+   "signal_stop_price": 0.34372800000000003,
+   "net_R": 0.2005,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "stop_on_exchange_panel",
+   "exits": [
+    {
+     "time_ms": 1794493459000,
+     "kind": "tp",
+     "price": 0.3177,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.2029,
+     "fee_R": 0.0034,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794493924000,
+     "kind": "breakeven",
+     "price": 0.3252,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.0045,
+     "fee_R": 0.0034,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "AKEUSDT",
+   "signal_ms": 1794549600000,
+   "created_ms": 1794549723132,
+   "entry_ms": 1794549839000,
+   "exit_ms": 1794550265000,
+   "side": "short",
+   "entry_price": 0.003332,
+   "initial_stop_price": 0.00374,
+   "signal_stop_price": 0.003518592,
+   "net_R": 0.3659,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "stop_on_exchange_panel",
+   "exits": [
+    {
+     "time_ms": 1794549991000,
+     "kind": "tp",
+     "price": 0.003262,
+     "fraction_of_initial_qty": 0.4981,
+     "net_R": 0.1717,
+     "fee_R": 0.0084,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794549992000,
+     "kind": "tp",
+     "price": 0.003192,
+     "fraction_of_initial_qty": 0.2966,
+     "net_R": 0.2096,
+     "fee_R": 0.0049,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794550265000,
+     "kind": "breakeven",
+     "price": 0.003327,
+     "fraction_of_initial_qty": 0.2053,
+     "net_R": 0.0018,
+     "fee_R": 0.0035,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SOPHUSDT",
+   "signal_ms": 1794607200000,
+   "created_ms": 1794607323042,
+   "entry_ms": 1794607377000,
+   "exit_ms": 1794617902000,
+   "side": "short",
+   "entry_price": 0.001755,
+   "initial_stop_price": 0.001972,
+   "signal_stop_price": 0.0018532800000000001,
+   "net_R": 0.3818,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0009,
+   "exit_reason": "stop_on_exchange_panel",
+   "exits": [
+    {
+     "time_ms": 1794616619000,
+     "kind": "tp",
+     "price": 0.001718,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.1784,
+     "fee_R": 0.003,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794616677000,
+     "kind": "tp",
+     "price": 0.001681,
+     "fraction_of_initial_qty": 0.2999,
+     "net_R": 0.2159,
+     "fee_R": 0.0018,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794617902000,
+     "kind": "breakeven",
+     "price": 0.001758,
+     "fraction_of_initial_qty": 0.2001,
+     "net_R": -0.0071,
+     "fee_R": 0.0012,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "BMTUSDT",
+   "signal_ms": 1794625200000,
+   "created_ms": 1794625322890,
+   "entry_ms": 1794625923000,
+   "exit_ms": 1794631747000,
+   "side": "short",
+   "entry_price": 0.024076,
+   "initial_stop_price": 0.028842,
+   "signal_stop_price": 0.025424256000000003,
+   "net_R": 0.1735,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "stoploss_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794627155000,
+     "kind": "tp",
+     "price": 0.02357,
+     "fraction_of_initial_qty": 0.4999,
+     "net_R": 0.1775,
+     "fee_R": 0.0034,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794631747000,
+     "kind": "breakeven",
+     "price": 0.02405817,
+     "fraction_of_initial_qty": 0.5001,
+     "net_R": 0.0029,
+     "fee_R": 0.0034,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "JELLYJELLYUSDT",
+   "signal_ms": 1794762000000,
+   "created_ms": 1794762122348,
+   "entry_ms": 1794762548000,
+   "exit_ms": 1794805348000,
+   "side": "short",
+   "entry_price": 0.04289,
+   "initial_stop_price": 0.0482,
+   "signal_stop_price": 0.04529184,
+   "net_R": 0.6336,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0038,
+   "exit_reason": "tp_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794787899000,
+     "kind": "tp",
+     "price": 0.04199,
+     "fraction_of_initial_qty": 0.4997,
+     "net_R": 0.1771,
+     "fee_R": 0.0034,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794792891000,
+     "kind": "tp",
+     "price": 0.04109,
+     "fraction_of_initial_qty": 0.2997,
+     "net_R": 0.2145,
+     "fee_R": 0.002,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794805348000,
+     "kind": "tp",
+     "price": 0.03983,
+     "fraction_of_initial_qty": 0.2007,
+     "net_R": 0.2451,
+     "fee_R": 0.0013,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "JCTUSDT",
+   "signal_ms": 1794812400000,
+   "created_ms": 1794812522299,
+   "entry_ms": 1794830970000,
+   "exit_ms": 1794834579000,
+   "side": "short",
+   "entry_price": 0.00245,
+   "initial_stop_price": 0.002752,
+   "signal_stop_price": 0.0025872,
+   "net_R": 0.3977,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "sold_on_exchange",
+   "exits": [
+    {
+     "time_ms": 1794832540000,
+     "kind": "tp",
+     "price": 0.002388,
+     "fraction_of_initial_qty": 0.5,
+     "net_R": 0.2086,
+     "fee_R": 0.0092,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794832570000,
+     "kind": "tp",
+     "price": 0.002347,
+     "fraction_of_initial_qty": 0.2984,
+     "net_R": 0.2105,
+     "fee_R": 0.0054,
+     "funding_R": null
+    },
+    {
+     "time_ms": 1794834579000,
+     "kind": "breakeven",
+     "price": 0.002449,
+     "fraction_of_initial_qty": 0.2016,
+     "net_R": -0.0024,
+     "fee_R": 0.0038,
+     "funding_R": null
+    }
+   ]
+  },
+  {
+   "source": "PUMP_FADE",
+   "symbol": "SPACEUSDT",
+   "signal_ms": 1794837600000,
+   "created_ms": 1794837724785,
+   "entry_ms": 1794837899000,
+   "exit_ms": 1794839581000,
+   "side": "short",
+   "entry_price": 0.003307,
+   "initial_stop_price": 0.003716,
+   "signal_stop_price": 0.0034921920000000003,
+   "net_R": -0.9595,
+   "R_basis": "INITIAL_NOTIONAL_X_0_0581",
+   "pnl_basis": "freqtrade realized_profit (all partial exits, fees included; funding_fees column=known)",
+   "funding_R": 0.0,
+   "exit_reason": "stop_on_exchange_panel",
+   "exits": [
+    {
+     "time_ms": 1794839581000,
+     "kind": "stop",
+     "price": 0.00348863,
+     "fraction_of_initial_qty": 1.0,
+     "net_R": -0.9526,
+     "fee_R": 0.0073,
+     "funding_R": null
+    }
+   ]
+  }
+ ]
 }
