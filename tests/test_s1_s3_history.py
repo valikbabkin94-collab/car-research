@@ -61,4 +61,12 @@ class FundingAmbiguityTests(unittest.TestCase):
   events=[dict(kind='TIME',time_ms=h.B,fraction=1)]
   self.assertEqual(h.remaining_for_payment(events,h.B,1,-.001),1.)
   self.assertEqual(h.remaining_for_payment(events,h.B+1,1,-.001),0.)
+class SavedLedgerCorrectionTests(unittest.TestCase):
+ def test_reprice_preserves_price_part_and_does_not_replay_fills(self):
+  old=dict(status='CLOSED',direction=1,entry_ms=h.B,exit_ms=3*h.B,entry=100,price_net_R=.2,net_R=.21,risk_denominator=.1,events=[dict(kind='TP1',fraction=.5,time_ms=2*h.B),dict(kind='TIME',fraction=.5,time_ms=3*h.B)])
+  bars=[[i*h.B,100,101,99,100,1,100] for i in range(4)]
+  fund={'rows':[{'ts':2*h.B+1,'rate':-.001}], 'coverage':[[0,h.H]]}
+  new=h.reprice_saved_funding(old,bars,fund)
+  self.assertEqual(new['events'],old['events']);self.assertEqual(new['price_net_R'],.2)
+  self.assertAlmostEqual(new['net_R'],.205);self.assertEqual(new['pre_correction_net_R'],.21)
 if __name__=='__main__':unittest.main()
