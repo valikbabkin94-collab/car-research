@@ -1,0 +1,66 @@
+name: Retain missing S2 source receipts without PnL rerun
+on:
+  push:
+    branches: [research/s1-s3-history]
+    paths: [.github/workflows/s1_s3_s2_input_retention.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  source_retention:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: results/s1-s3-history
+          run-id: '43874717889'
+          github-token: ${{ github.token }}
+      - name: Save only three missing source sets and verify saved entry/exit quotes
+        run: |
+          python - <<'PY'
+          import sys,json,gzip,shutil
+          from pathlib import Path
+          sys.path.insert(0,'research/s1_s3_history_20261116');import history as h
+          root=Path('results/s1-s3-history');http=h.HTTP(root);out=Path('research/s1_s3_history_20261116/RESULTS/S2_INPUTS');out.mkdir(exist_ok=True)
+          ledger=Path('research/s1_s3_history_20261116/RESULTS/S2_BINANCE_REPLAY_TRADES.json.gz');trades=json.load(gzip.open(ledger,'rt'));receipts=[]
+          for t in trades:
+           if t['status']!='CLOSED':continue
+           sym=t['symbol'];bars=h.monthly_5m(http,root,sym,'2026-10');fund=h.funding(http,root,sym);b={x[0]:x for x in bars}
+           assert b[t['entry_ms']][1]==t['entry']
+           for e in t['events']:
+            bar=b[e['time_ms']]
+            if e['kind']=='TIME':assert bar[1]==e['price']
+            elif e['kind']=='SL':assert bar[2]>=e['price']
+           assert h.covered(fund,t['entry_ms'],t['exit_ms'])
+           for p in [root/'m5'/f'{sym}-2026-10.json.gz',root/'funding'/(sym+'.json.gz')]:
+            target=out/(('m5-' if p.parent.name=='m5' else 'funding-')+p.name);shutil.copy2(p,target);receipts.append({'file':target.name,'sha256':h.digest(target.read_bytes()),'bytes':target.stat().st_size,'symbol':sym})
+          h.write(out/'MANIFEST.json',{'original_ledger_sha256':h.digest(ledger.read_bytes()),'action':'SOURCE_RETENTION_REPAIR_ONLY_NO_PNL_REPLAY','public_sources_only':True,'verified_entry_exit_quotes':3,'files':receipts})
+          print('Source retention and quote identity PASS; PnL not recalculated')
+          PY
+          python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: s2-retained-three-inputs-with-source-checksums
+          path: research/s1_s3_history_20261116/RESULTS/S2_INPUTS
+          compression-level: 0
+          retention-days: 7
+      - name: Publish scanned necessary compressed inputs only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/s1_s3_history_20261116/RESULTS/S2_INPUTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: retain three S2 source inputs and quote checks without PnL rerun [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/s1-s3-history'],check=True,stdout=subprocess.DEVNULL)
+          PY
