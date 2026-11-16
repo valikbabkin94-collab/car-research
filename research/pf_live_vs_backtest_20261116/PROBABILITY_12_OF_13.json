@@ -1,0 +1,578 @@
+[
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "FULL",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7073669849931787,
+      "n_model": 1466,
+      "wins": 1037,
+      "exact12": 0.05970409328704594,
+      "at_least12": 0.07080560749516261,
+      "all13": 0.011101514208116668,
+      "p_Wilson95": [
+        0.6835594004458274,
+        0.730090654362002
+      ],
+      "at_least12_Wilson_range": [
+        0.0499241685726831,
+        0.09722453763859983
+      ],
+      "Jeffreys_predictive_at_least12": 0.07152793042896531,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "H1_PURGED",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7062818336162988,
+      "n_model": 589,
+      "wins": 416,
+      "exact12": 0.058831590651137265,
+      "at_least12": 0.06971373458660775,
+      "all13": 0.010882143935470477,
+      "p_Wilson95": [
+        0.6682573819557773,
+        0.7416329797665389
+      ],
+      "at_least12_Wilson_range": [
+        0.039503356410887834,
+        0.11352593445105405
+      ],
+      "Jeffreys_predictive_at_least12": 0.07149364359262493,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "H2",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7080957810718358,
+      "n_model": 877,
+      "wins": 621,
+      "exact12": 0.060295903330240125,
+      "at_least12": 0.07154703192641775,
+      "all13": 0.011251128596177619,
+      "p_Wilson95": [
+        0.6771507540879151,
+        0.737225745048123
+      ],
+      "at_least12_Wilson_range": [
+        0.04530299729463244,
+        0.10705286230582836
+      ],
+      "Jeffreys_predictive_at_least12": 0.07275691788910083,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "TAIL40",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7104136947218259,
+      "n_model": 701,
+      "wins": 498,
+      "exact12": 0.06220958007176744,
+      "at_least12": 0.07394901579580691,
+      "all13": 0.011739435724039475,
+      "p_Wilson95": [
+        0.6757625382428455,
+        0.7427712984210467
+      ],
+      "at_least12_Wilson_range": [
+        0.04435204527560388,
+        0.11524944507815087
+      ],
+      "Jeffreys_predictive_at_least12": 0.07547926745274411,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "RECENT30_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7,
+      "n_model": 130,
+      "wins": 91,
+      "exact12": 0.05398102008389997,
+      "at_least12": 0.06366992112459996,
+      "all13": 0.009688901040699992,
+      "p_Wilson95": [
+        0.6164118937305151,
+        0.7721074817917123
+      ],
+      "at_least12_Wilson_range": [
+        0.01686076131717082,
+        0.16764478178762474
+      ],
+      "Jeffreys_predictive_at_least12": 0.07128229346786144,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "RAW",
+    "period": "LIVE_WINDOW_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7254901960784313,
+      "n_model": 102,
+      "wins": 74,
+      "exact12": 0.07587169518412358,
+      "at_least12": 0.09129616068858826,
+      "all13": 0.015424465504464682,
+      "p_Wilson95": [
+        0.6318943708450752,
+        0.8027179305398532
+      ],
+      "at_least12_Wilson_range": [
+        0.021954023434633697,
+        0.2410173572276012
+      ],
+      "Jeffreys_predictive_at_least12": 0.10207549698401303,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "FULL",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7298850574712644,
+      "n_model": 696,
+      "wins": 508,
+      "exact12": 0.0802685899674474,
+      "at_least12": 0.09695289590176134,
+      "all13": 0.016684305934313946,
+      "p_Wilson95": [
+        0.6957025087177227,
+        0.7615439089769842
+      ],
+      "at_least12_Wilson_range": [
+        0.059797411448888386,
+        0.1469238836016169
+      ],
+      "Jeffreys_predictive_at_least12": 0.09862869467909562,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "H1_PURGED",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7126865671641791,
+      "n_model": 268,
+      "wins": 191,
+      "exact12": 0.06413308954069645,
+      "at_least12": 0.07637027246005013,
+      "all13": 0.012237182919353669,
+      "p_Wilson95": [
+        0.6558051661735398,
+        0.7635569152931951
+      ],
+      "at_least12_Wilson_range": [
+        0.03246713610139968,
+        0.1507039574070596
+      ],
+      "Jeffreys_predictive_at_least12": 0.08037780988937647,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "H2",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7406542056074766,
+      "n_model": 428,
+      "wins": 317,
+      "exact12": 0.09187735425234488,
+      "at_least12": 0.1120610834955835,
+      "all13": 0.02018372924323862,
+      "p_Wilson95": [
+        0.6971216036433355,
+        0.7799053139725892
+      ],
+      "at_least12_Wilson_range": [
+        0.06105330875787744,
+        0.18439089905527647
+      ],
+      "Jeffreys_predictive_at_least12": 0.11485689706321955,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "TAIL40",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.742603550295858,
+      "n_model": 338,
+      "wins": 251,
+      "exact12": 0.09410878340363608,
+      "at_least12": 0.11499411022442535,
+      "all13": 0.020885326820789262,
+      "p_Wilson95": [
+        0.6934508192173784,
+        0.7863037446841957
+      ],
+      "at_least12_Wilson_range": [
+        0.05784995035562815,
+        0.19909717013734685
+      ],
+      "Jeffreys_predictive_at_least12": 0.11853571936565188,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "RECENT30_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7121212121212122,
+      "n_model": 66,
+      "wins": 47,
+      "exact12": 0.0636502459939687,
+      "at_least12": 0.0757618312640761,
+      "all13": 0.012111585270107405,
+      "p_Wilson95": [
+        0.5936275059135345,
+        0.8072805002019328
+      ],
+      "at_least12_Wilson_range": [
+        0.011253424692538375,
+        0.2537856149600163
+      ],
+      "Jeffreys_predictive_at_least12": 0.0911999657644155,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "OLD",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "LIVE_WINDOW_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7169811320754716,
+      "n_model": 53,
+      "wins": 38,
+      "exact12": 0.06789713763536093,
+      "at_least12": 0.081128374713021,
+      "all13": 0.013231237077660073,
+      "p_Wilson95": [
+        0.5842971358358297,
+        0.8203370955366142
+      ],
+      "at_least12_Wilson_range": [
+        0.009482402451429159,
+        0.293115639124245
+      ],
+      "Jeffreys_predictive_at_least12": 0.10040484101913329,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "FULL",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7080491132332879,
+      "n_model": 1466,
+      "wins": 1038,
+      "exact12": 0.060257866305149045,
+      "at_least12": 0.07149935897674227,
+      "all13": 0.011241492671593228,
+      "p_Wilson95": [
+        0.6842556256199395,
+        0.7307551201576525
+      ],
+      "at_least12_Wilson_range": [
+        0.0504497751435882,
+        0.09810680274623455
+      ],
+      "Jeffreys_predictive_at_least12": 0.07222434094951627,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "H1_PURGED",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7062818336162988,
+      "n_model": 589,
+      "wins": 416,
+      "exact12": 0.058831590651137265,
+      "at_least12": 0.06971373458660775,
+      "all13": 0.010882143935470477,
+      "p_Wilson95": [
+        0.6682573819557773,
+        0.7416329797665389
+      ],
+      "at_least12_Wilson_range": [
+        0.039503356410887834,
+        0.11352593445105405
+      ],
+      "Jeffreys_predictive_at_least12": 0.07149364359262493,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "H2",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7092360319270239,
+      "n_model": 877,
+      "wins": 622,
+      "exact12": 0.06123129368992431,
+      "at_least12": 0.07272024230987391,
+      "all13": 0.011488948619949596,
+      "p_Wilson95": [
+        0.6783204463396125,
+        0.738326608956075
+      ],
+      "at_least12_Wilson_range": [
+        0.04611784278630561,
+        0.10864032386863895
+      ],
+      "Jeffreys_predictive_at_least12": 0.07393743820306418,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "TAIL40",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7118402282453637,
+      "n_model": 701,
+      "wins": 499,
+      "exact12": 0.06341135532089559,
+      "at_least12": 0.07546096168233005,
+      "all13": 0.012049606361434463,
+      "p_Wilson95": [
+        0.6772300578931177,
+        0.7441412963074788
+      ],
+      "at_least12_Wilson_range": [
+        0.04535784820469106,
+        0.11735234490164273
+      ],
+      "Jeffreys_predictive_at_least12": 0.0770023187515064,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "RECENT30_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7076923076923077,
+      "n_model": 130,
+      "wins": 92,
+      "exact12": 0.05996768686111545,
+      "at_least12": 0.0711357580984082,
+      "all13": 0.011168071237292758,
+      "p_Wilson95": [
+        0.6244469876657346,
+        0.779015440761194
+      ],
+      "at_least12_Wilson_range": [
+        0.01935678740563884,
+        0.18241541014266494
+      ],
+      "Jeffreys_predictive_at_least12": 0.07906260703073106,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "RAW",
+    "period": "LIVE_WINDOW_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7352941176470589,
+      "n_model": 102,
+      "wins": 75,
+      "exact12": 0.0859488448706481,
+      "at_least12": 0.10431398266352164,
+      "all13": 0.018365137792873534,
+      "p_Wilson95": [
+        0.6422725125202735,
+        0.811235975881391
+      ],
+      "at_least12_Wilson_range": [
+        0.02608025042239181,
+        0.2652601402789097
+      ],
+      "Jeffreys_predictive_at_least12": 0.11540513907912223,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "FULL",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7313218390804598,
+      "n_model": 696,
+      "wins": 509,
+      "exact12": 0.08174820624317129,
+      "at_least12": 0.09886455218219811,
+      "all13": 0.017116345939026816,
+      "p_Wilson95": [
+        0.6971863903176878,
+        0.7629178174876108
+      ],
+      "at_least12_Wilson_range": [
+        0.06111117803789359,
+        0.14949541623592824
+      ],
+      "Jeffreys_predictive_at_least12": 0.10054844889154126,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "H1_PURGED",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7126865671641791,
+      "n_model": 268,
+      "wins": 191,
+      "exact12": 0.06413308954069645,
+      "at_least12": 0.07637027246005013,
+      "all13": 0.012237182919353669,
+      "p_Wilson95": [
+        0.6558051661735398,
+        0.7635569152931951
+      ],
+      "at_least12_Wilson_range": [
+        0.03246713610139968,
+        0.1507039574070596
+      ],
+      "Jeffreys_predictive_at_least12": 0.08037780988937647,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "H2",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7429906542056075,
+      "n_model": 428,
+      "wins": 318,
+      "exact12": 0.09455673767737177,
+      "at_least12": 0.11558404018185026,
+      "all13": 0.02102730250447848,
+      "p_Wilson95": [
+        0.6995577890713016,
+        0.7821004578418651
+      ],
+      "at_least12_Wilson_range": [
+        0.0632618226671381,
+        0.18933639116588835
+      ],
+      "Jeffreys_predictive_at_least12": 0.11839391178444332,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "TAIL40",
+    "fully_covered": true,
+    "estimate": {
+      "p": 0.7455621301775148,
+      "n_model": 338,
+      "wins": 252,
+      "exact12": 0.09757334401880195,
+      "at_least12": 0.11956662013037449,
+      "all13": 0.021993276111572535,
+      "p_Wilson95": [
+        0.6965493045167791,
+        0.7890559247982288
+      ],
+      "at_least12_Wilson_range": [
+        0.06054414269946976,
+        0.20569872086471105
+      ],
+      "Jeffreys_predictive_at_least12": 0.12312776046479595,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "RECENT30_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7272727272727273,
+      "n_model": 66,
+      "wins": 48,
+      "exact12": 0.0776317799577965,
+      "at_least12": 0.09355624764144707,
+      "all13": 0.015924467683650568,
+      "p_Wilson95": [
+        0.6095777422224589,
+        0.8199665500441133
+      ],
+      "at_least12_Wilson_range": [
+        0.01496527862223411,
+        0.29194152852603295
+      ],
+      "Jeffreys_predictive_at_least12": 0.10986015045285683,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  },
+  {
+    "version": "BE_ALIGNED",
+    "cohort": "SELECTED_DESCRIPTIVE",
+    "period": "LIVE_WINDOW_REQUESTED",
+    "fully_covered": false,
+    "estimate": {
+      "p": 0.7358490566037735,
+      "n_model": 53,
+      "wins": 39,
+      "exact12": 0.08654866383539246,
+      "at_least12": 0.1050948060858337,
+      "all13": 0.018546142250441235,
+      "p_Wilson95": [
+        0.6041933558938148,
+        0.8356264608153632
+      ],
+      "at_least12_Wilson_range": [
+        0.013606768509882983,
+        0.3445605151188149
+      ],
+      "Jeffreys_predictive_at_least12": 0.12542843466830828,
+      "assumption": "conditional iid Bernoulli; not P(model correct), not adjusted for selection/correlation"
+    }
+  }
+]
