@@ -113,7 +113,7 @@ def match(signal,reference):
  return ('AMBIGUOUS' if len(near)>1 else 'DATA_GAP_WINDOW' if not START<=t<END else 'NOT_IN_SAVED_ARCHIVE'),None
 
 def validate_live_aggregates(source):
- allowed={'source','symbol','signal_ms','created_ms','entry_ms','exit_ms','entry_price','initial_stop_price','net_R','R_basis','pnl_basis','exits','runtime_strategy_sha256','scanner_sha256','stop_price_type','partial_rounding_known','schema_version'}
+ allowed={'source','symbol','signal_ms','created_ms','entry_ms','exit_ms','entry_price','initial_stop_price','net_R','R_basis','pnl_basis','exits','runtime_strategy_sha256','scanner_sha256','stop_price_type','partial_rounding_known','schema_version','side','signal_stop_price','funding_R','exit_reason'}
  exit_allowed={'time_ms','kind','price','fraction_of_initial_qty','net_R','fee_R','funding_R'}
  for r in source.get('rows',[]):
   if set(r)-allowed:raise ValueError('Unexpected live fields; whitelist aggregate export required')
@@ -125,14 +125,14 @@ def validate_live_aggregates(source):
    if r.get(key) is not None and (isinstance(r[key],bool) or not isinstance(r[key],(int,float)) or not math.isfinite(r[key])):raise ValueError('Invalid numeric live aggregate')
 
 def reconciliation(reference,old,new,out):
- source=json.loads((I/'LIVE_TRADES_AGGREGATES.json').read_text());validate_live_aggregates(source);dec=json.loads((I/'LIVE_DECISIONS_AGGREGATES.json').read_text());cards=json.loads((I/'SNAPSHOT_SIGNAL_CARDS.json').read_text());byid={r['id']:r for r in old};newid={r['id']:r for r in new};paired=[];cardpairs=[]
+ source=json.loads((I/'LIVE_TRADES_AGGREGATES.json').read_text());source.setdefault('rows',source.get('trades',[]));source.setdefault('status','SUPPLIED_B711017_AGGREGATES_WITH_HEURISTIC_EXIT_KINDS');validate_live_aggregates(source);dec=json.loads((I/'LIVE_DECISIONS_AGGREGATES.json').read_text());dec.setdefault('rows',dec.get('decisions',[]));dec.setdefault('coverage_complete',False);cards=json.loads((I/'SNAPSHOT_SIGNAL_CARDS.json').read_text());byid={r['id']:r for r in old};newid={r['id']:r for r in new};paired=[];cardpairs=[]
  for card in cards['rows']:
   state,r=match(card,reference);x=dict(symbol=card['symbol'],signal_ms=card.get('signal_ms'),created_ms=card.get('created_ms'),match_status=state,is_live_trade=False)
   if r:
    a=byid[r['id']];x.update(model_id=r['id'],OLD_status=a['status'],OLD_entry_ms=a.get('entry_ms'),OLD_net_R=a.get('net_R'),BE_ALIGNED_net_R=newid[r['id']].get('net_R'),model_fill_precedes_card_creation=a.get('entry_ms') is not None and a['entry_ms']<card['created_ms'])
   cardpairs.append(x)
  for live in source['rows']:
-  state,r=match(live,reference);x=dict(symbol=live['symbol'],signal_ms=live.get('signal_ms'),live_net_R=live.get('net_R'),match_status=state,R_basis=live.get('R_basis'),live_first_exit_kind=(live.get('exits') or [{}])[0].get('kind'),live_has_BE=any(e.get('kind')=='BE' for e in live.get('exits',[])))
+  state,r=match(live,reference);x=dict(symbol=live['symbol'],signal_ms=live.get('signal_ms'),live_net_R=live.get('net_R'),match_status=state,R_basis=live.get('R_basis'),live_first_exit_kind=(live.get('exits') or [{}])[0].get('kind'),live_has_BE=any(str(e.get('kind','')).lower() in ['be','breakeven'] for e in live.get('exits',[])))
   if r:
    model=byid[r['id']];corrected=newid[r['id']];x.update(model_id=r['id'],model_OLD=model,model_BE_ALIGNED=corrected,model_entry_ms=model.get('entry_ms'),model_first_exit_kind=(model.get('events') or [{}])[0].get('kind'),model_has_BE=any(e['kind']=='BE' for e in model.get('events',[])),live_entry_below_midpoint_limit=live.get('entry_price') is not None and live['entry_price']<r['limit'],model_fill_precedes_live_receipt=model.get('entry_ms') is not None and live.get('created_ms') is not None and model['entry_ms']<live['created_ms'])
   paired.append(x)

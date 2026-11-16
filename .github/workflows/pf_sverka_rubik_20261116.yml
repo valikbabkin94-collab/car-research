@@ -1,0 +1,179 @@
+name: PF targeted reconciliation then frozen20 Rubik sequential
+on:
+  push:
+    branches: [research/pf-live-vs-backtest]
+    paths: [.github/workflows/pf_sverka_rubik_20261116.yml]
+permissions: {contents: write, actions: read}
+concurrency:
+  group: pf-sverka-rubik-20261116
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - run: python research/pf_live_vs_backtest_20261116/audit.py --reconcile-only
+      - name: Only31 current cases, no annual replay
+        run: python research/pf_live_vs_backtest_20261116/case_audit.py
+      - name: Scan source artifacts before retaining
+        id: source_scan
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          s=importlib.util.spec_from_file_location('s','tools/scan_publication.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m);bad=[]
+          for p in Path('work/pf-case31').rglob('*'):
+           if p.is_file():bad+=m.inspect(str(p),p.read_bytes())
+          assert not bad,bad
+          PY
+          python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.source_scan.outcome == 'success'
+        with:
+          name: pf-targeted31-sources-and-report
+          path: |
+            work/pf-case31
+            research/pf_live_vs_backtest_20261116/RESULTS/CASE31
+          retention-days: 7
+          compression-level: 0
+      - name: Publish first report before next research stage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_live_vs_backtest_20261116/RESULTS research/pf_live_vs_backtest_20261116/CHECKPOINT.json research/pf_live_vs_backtest_20261116/OTCHET_DLYA_CLAUDE_CODEX_PF_LIVE_VS_BT_20261116.md
+          git commit -m 'research: publish13 live trades and18 decision cases with explicit proxy gaps before Rubik [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode();cmd=['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth]
+          subprocess.run(cmd+['fetch','origin','research/pf-live-vs-backtest'],check=True)
+          subprocess.run(['git','merge','--no-edit','FETCH_HEAD'],check=True)
+          subprocess.run(['python','tools/scan_publication.py'],check=True)
+          subprocess.run(cmd+['push','origin','HEAD:research/pf-live-vs-backtest'],check=True,stdout=subprocess.DEVNULL)
+          PY
+  rubik_train:
+    needs: reconcile
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      selection_sha: ${{ steps.publish.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: research/pf-rubik, persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pandas==2.2.3
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: source
+          run-id: '43874717889'
+          github-token: ${{ github.token }}
+      - name: Prepare fixed setups from cached H1 and PIT, no PnL
+        run: python research/pf_rubik_20261116/run.py prepare
+      - name: Collect only needed M1 months with resource checkpoint
+        continue-on-error: true
+        timeout-minutes: 45
+        run: python research/pf_rubik_20261116/run.py collect
+      - name: Scan all compressed source-cache content
+        id: source_scan
+        if: always()
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          s=importlib.util.spec_from_file_location('s','tools/scan_publication.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m);bad=[]
+          for p in Path('work/rubik').rglob('*'):
+           if p.is_file():bad+=m.inspect(str(p),p.read_bytes())
+          assert not bad,bad
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.source_scan.outcome == 'success'
+        with:
+          name: pf-rubik-m1-cache-before-pnl
+          path: work/rubik
+          retention-days: 7
+          compression-level: 0
+      - name: TRAIN only, checkpoint each completed profile
+        timeout-minutes: 25
+        run: python research/pf_rubik_20261116/run.py train
+      - name: Scan TRAIN results before retaining
+        id: train_scan
+        if: always()
+        run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.train_scan.outcome == 'success'
+        with:
+          name: pf-rubik-train-results-and-frozen-selection
+          path: |
+            research/pf_rubik_20261116/RESULTS/train
+            research/pf_rubik_20261116/TRAIN_SELECTION_FROZEN.json
+          retention-days: 7
+      - name: Commit frozen TRAIN winners before opening validation
+        id: publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_rubik_20261116/RESULTS/train research/pf_rubik_20261116/TRAIN_SELECTION_FROZEN.json
+          git commit -m 'research: freeze TRAIN Rubik family winners before H2 and tail metrics [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-rubik'],check=True,stdout=subprocess.DEVNULL)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('sha='+subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()+'\n')
+          PY
+  rubik_validation:
+    needs: rubik_train
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.rubik_train.outputs.selection_sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: source
+          run-id: '43874717889'
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with: {name: pf-rubik-m1-cache-before-pnl, path: work/rubik}
+      - name: Frozen H2 and TAIL40, BH across all63 tests
+        run: python research/pf_rubik_20261116/run.py validation
+      - run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pf-rubik-all-results-negatives-and-candidates
+          path: research/pf_rubik_20261116
+          retention-days: 7
+      - name: Publish full leaderboard and report, never merge main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_rubik_20261116
+          git commit -m 'research: publish all20 frozen Rubik variants, independent temporal checks and BH results [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-rubik'],check=True,stdout=subprocess.DEVNULL)
+          PY
