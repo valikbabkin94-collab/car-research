@@ -10,8 +10,8 @@ RULES={
  'github_credential':re.compile(rb'\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})\b'),
  'aws_credential':re.compile(rb'\bAKIA[A-Z0-9]{16}\b'),
  'private_key':re.compile(rb'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),
- 'secret_assignment':re.compile(rb'''(?i)(?:api[_-]?key|api[_-]?secret|secret[_-]?key|bot[_-]?token|chat[_-]?id|password)\s*[=:]\s*["']?[A-Za-z0-9:_-]{6,}'''),
- 'address_literal':re.compile(rb'\b(?:192\.168\.[0-9]{1,3}\.[0-9]{1,3}|193\.233\.[0-9]{1,3}\.[0-9]{1,3}|127\.0\.0\.1)\b'),
+ 'secret_assignment':re.compile(rb'''(?i)(?:api[_-]?key|api[_-]?secret|secret[_-]?key|client[_-]?secret|access[_-]?token|refresh[_-]?token|bot[_-]?token|token|chat[_-]?id|password)["']?\s*[=:]\s*["']?[A-Za-z0-9:_-]{6,}'''),
+ 'address_literal':re.compile(rb'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'),
 }
 BANNED=re.compile(r'(^|/)(fastpath|strategies|windows|acer_runtime|owner_[^/]*)(/|$)|(^|/)\.env(?:\.|$)')
 
