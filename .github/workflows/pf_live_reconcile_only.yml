@@ -1,0 +1,46 @@
+name: PF live aggregate reconciliation only, reuse completed history
+on:
+  push:
+    branches: [research/pf-live-vs-backtest]
+    paths:
+      - research/pf_live_vs_backtest_20261116/inputs/LIVE_TRADES_AGGREGATES.json
+      - research/pf_live_vs_backtest_20261116/inputs/LIVE_DECISIONS_AGGREGATES.json
+permissions: {contents: write}
+concurrency:
+  group: pf-live-backtest-audit
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python tools/scan_publication.py
+      - run: python research/pf_live_vs_backtest_20261116/audit.py --reconcile-only
+      - run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pf-live-reconciliation-only
+          path: |
+            research/pf_live_vs_backtest_20261116/RESULTS/RECONCILIATION.json
+            research/pf_live_vs_backtest_20261116/RESULTS/LIVE_VS_MODEL.csv
+            research/pf_live_vs_backtest_20261116/RESULTS/RECENT30_UNRECONCILED_MODEL_SIGNALS.jsonl.gz
+          retention-days: 7
+      - name: Publish reconciliation only, do not repeat history or change trading
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_live_vs_backtest_20261116/RESULTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: update PF live aggregate reconciliation without history replay [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-live-vs-backtest'],check=True,stdout=subprocess.DEVNULL)
+          PY

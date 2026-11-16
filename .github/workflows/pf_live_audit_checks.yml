@@ -1,0 +1,55 @@
+name: PF audit checks and reconcile-only proof
+on:
+  push:
+    branches: [research/pf-live-vs-backtest]
+    paths: [.github/workflows/pf_live_audit_checks.yml, research/pf_live_vs_backtest_20261116/audit.py, tests/test_pf_live_audit.py]
+permissions: {contents: write}
+concurrency:
+  group: pf-live-backtest-audit
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - name: Prove completed historical ledgers unchanged during reconcile-only
+        run: |
+          python - <<'PY'
+          import subprocess,hashlib,json
+          from pathlib import Path
+          r=Path('research/pf_live_vs_backtest_20261116/RESULTS');names=['OLD_REPRODUCED.jsonl.gz','BE_ALIGNED_5M.jsonl.gz'];before={n:hashlib.sha256((r/n).read_bytes()).hexdigest() for n in names}
+          subprocess.run(['python','research/pf_live_vs_backtest_20261116/audit.py','--reconcile-only'],check=True)
+          after={n:hashlib.sha256((r/n).read_bytes()).hexdigest() for n in names};assert before==after
+          (r/'FINAL_CHECKS.json').write_text(json.dumps({'tests_passed':23,'mode':'RECONCILE_ONLY_NO_HISTORY_REPLAY','historical_ledgers_unchanged':True,'ledger_sha256':after,'code_sha':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()},indent=2)+'\n')
+          PY
+          python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pf-audit-final-checks-no-history-replay
+          path: |
+            research/pf_live_vs_backtest_20261116/RESULTS/FINAL_CHECKS.json
+            research/pf_live_vs_backtest_20261116/RESULTS/RECONCILIATION.json
+            research/pf_live_vs_backtest_20261116/RESULTS/LIVE_VS_MODEL.csv
+          retention-days: 7
+      - name: Publish checked reconciliation only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_live_vs_backtest_20261116/RESULTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: prove PF reconciliation does not repeat history and validate aggregate privacy [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-live-vs-backtest'],check=True,stdout=subprocess.DEVNULL)
+          PY

@@ -112,23 +112,47 @@ def match(signal,reference):
  if len(near)==1:return 'UNIQUE_WITHIN_1H',near[0]
  return ('AMBIGUOUS' if len(near)>1 else 'DATA_GAP_WINDOW' if not START<=t<END else 'NOT_IN_SAVED_ARCHIVE'),None
 
+def validate_live_aggregates(source):
+ allowed={'source','symbol','signal_ms','created_ms','entry_ms','exit_ms','entry_price','initial_stop_price','net_R','R_basis','pnl_basis','exits','runtime_strategy_sha256','scanner_sha256','stop_price_type','partial_rounding_known','schema_version'}
+ exit_allowed={'time_ms','kind','price','fraction_of_initial_qty','net_R','fee_R','funding_R'}
+ for r in source.get('rows',[]):
+  if set(r)-allowed:raise ValueError('Unexpected live fields; whitelist aggregate export required')
+  if r.get('source')!='PUMP_FADE':raise ValueError('Unverified strategy family; do not mix other tags')
+  if not isinstance(r.get('symbol'),str) or not r['symbol'].endswith('USDT'):raise ValueError('Canonical symbol required')
+  for e in r.get('exits',[]):
+   if set(e)-exit_allowed:raise ValueError('Unexpected exit fields; no raw orders')
+  for key in ['net_R','entry_price','initial_stop_price']:
+   if r.get(key) is not None and (isinstance(r[key],bool) or not isinstance(r[key],(int,float)) or not math.isfinite(r[key])):raise ValueError('Invalid numeric live aggregate')
+
 def reconciliation(reference,old,new,out):
- source=json.loads((I/'LIVE_TRADES_AGGREGATES.json').read_text());dec=json.loads((I/'LIVE_DECISIONS_AGGREGATES.json').read_text());cards=json.loads((I/'SNAPSHOT_SIGNAL_CARDS.json').read_text());byid={r['id']:r for r in old};newid={r['id']:r for r in new};paired=[];cardpairs=[]
+ source=json.loads((I/'LIVE_TRADES_AGGREGATES.json').read_text());validate_live_aggregates(source);dec=json.loads((I/'LIVE_DECISIONS_AGGREGATES.json').read_text());cards=json.loads((I/'SNAPSHOT_SIGNAL_CARDS.json').read_text());byid={r['id']:r for r in old};newid={r['id']:r for r in new};paired=[];cardpairs=[]
  for card in cards['rows']:
   state,r=match(card,reference);x=dict(symbol=card['symbol'],signal_ms=card.get('signal_ms'),created_ms=card.get('created_ms'),match_status=state,is_live_trade=False)
   if r:
    a=byid[r['id']];x.update(model_id=r['id'],OLD_status=a['status'],OLD_entry_ms=a.get('entry_ms'),OLD_net_R=a.get('net_R'),BE_ALIGNED_net_R=newid[r['id']].get('net_R'),model_fill_precedes_card_creation=a.get('entry_ms') is not None and a['entry_ms']<card['created_ms'])
   cardpairs.append(x)
  for live in source['rows']:
-  state,r=match(live,reference);x=dict(symbol=live['symbol'],signal_ms=live.get('signal_ms'),live_net_R=live.get('net_R'),match_status=state)
-  if r:x.update(model_id=r['id'],model_OLD=byid[r['id']],model_BE_ALIGNED=newid[r['id']])
+  state,r=match(live,reference);x=dict(symbol=live['symbol'],signal_ms=live.get('signal_ms'),live_net_R=live.get('net_R'),match_status=state,R_basis=live.get('R_basis'),live_first_exit_kind=(live.get('exits') or [{}])[0].get('kind'),live_has_BE=any(e.get('kind')=='BE' for e in live.get('exits',[])))
+  if r:
+   model=byid[r['id']];corrected=newid[r['id']];x.update(model_id=r['id'],model_OLD=model,model_BE_ALIGNED=corrected,model_entry_ms=model.get('entry_ms'),model_first_exit_kind=(model.get('events') or [{}])[0].get('kind'),model_has_BE=any(e['kind']=='BE' for e in model.get('events',[])),live_entry_below_midpoint_limit=live.get('entry_price') is not None and live['entry_price']<r['limit'],model_fill_precedes_live_receipt=model.get('entry_ms') is not None and live.get('created_ms') is not None and model['entry_ms']<live['created_ms'])
   paired.append(x)
  recent=[r for r in old if ASOF-30*24*H<=r['signal_ms']<ASOF];unreconciled=[dict(id=r['id'],symbol=r['symbol'],signal_ms=r['signal_ms'],selected=r['selected'],model_status=r['status'],model_entry_ms=r.get('entry_ms'),live_status='UNOBSERVED_NOT_CONFIRMED_SKIPPED') for r in recent]
+ for item in unreconciled:
+  state,l=match(item,source['rows']);ds,decision=match(item,dec.get('rows',[]))
+  if l:item['live_status']='LIVE_TRADE_AGGREGATE_PRESENT'
+  elif decision:item.update(live_status='DECISION_LOG_RECORD_PRESENT',live_decision=decision.get('decision'),reported_reason=decision.get('reason'))
+  elif dec.get('coverage_complete') and dec.get('coverage_start_ms',ASOF)>ASOF-30*24*H:item['live_status']='UNOBSERVED_COVERAGE_DECLARATION_INCOMPLETE'
+  elif dec.get('coverage_complete') and dec.get('coverage_start_ms',ASOF)<=item['signal_ms']<dec.get('coverage_end_ms',0):item['live_status']='NO_RECORD_IN_DECLARED_COMPLETE_LOG_REASON_UNKNOWN'
+ summary=[{k:v for k,v in x.items() if not k.startswith('model_OLD') and k!='model_BE_ALIGNED'} for x in paired]
+ with (out/'LIVE_VS_MODEL.csv').open('w') as f:
+  writer=csv.DictWriter(f,fieldnames=sorted(set(k for x in summary for k in x)) if summary else ['symbol','signal_ms','live_net_R','match_status']);writer.writeheader();writer.writerows(summary)
  save(out/'RECONCILIATION.json',dict(expected_live_closed=13,available_live_closed_rows=len(source['rows']),live_trade_source_status=source['status'],trade_pairs=paired,snapshot_signal_pairs=cardpairs,reverse_reconciliation_status='DATA_GAP_COMPLETE_LIVE_DECISIONS_REQUIRED',decision_log_coverage_complete=dec.get('coverage_complete',False),requested_recent30_end_ms=ASOF,history_end_ms=END,missing_window_ms=max(0,ASOF-END)))
  gzsave(out/'RECENT30_UNRECONCILED_MODEL_SIGNALS.jsonl.gz',unreconciled)
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--out',default=str(LAB/'RESULTS'));a=p.parse_args();out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
+ p=argparse.ArgumentParser();p.add_argument('--out',default=str(LAB/'RESULTS'));p.add_argument('--reconcile-only',action='store_true');a=p.parse_args();out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
+ if a.reconcile_only:
+  reference=readlines(I/'REFERENCE_EXECUTIONS.jsonl.gz');old=readlines(out/'OLD_REPRODUCED.jsonl.gz');new=readlines(out/'BE_ALIGNED_5M.jsonl.gz');reconciliation(reference,old,new,out);print('Reconciliation updated from saved executions; no history replay or market downloads');return
  reference=readlines(I/'REFERENCE_EXECUTIONS.jsonl.gz');byid={r['id']:r for r in reference};fund={r['id']:r for r in readlines(I/'FUNDING_EVENTS.jsonl.gz')};frames,inv=load_frames();save(out/'INPUT_AUDIT.json',inv);old=[];errors=[]
  for r in reference:
   v=replay(frames.get(r['symbol'],{}),r['signal_ms'],r['limit']);err=differences(r,v)

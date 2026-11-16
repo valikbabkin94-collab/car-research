@@ -20,4 +20,9 @@ class AuditTests(unittest.TestCase):
   rows=[dict(symbol='ABCUSDT',signal_ms=t) for t in [2*a.H,3*a.H]];status,r=a.match(dict(symbol='ABCUSDT',created_ms=2*a.H+a.H//2),rows);self.assertEqual(status,'AMBIGUOUS');self.assertIsNone(r)
  def test_series_probability_and_partial_metric(self):
   p=a.series_probability(.5);self.assertAlmostEqual(p['at_least12'],14/8192);self.assertAlmostEqual(p['exact12'],13/8192);self.assertEqual(a.series_probability(1)['at_least12'],1);self.assertEqual(a.series_probability(0)['at_least12'],0)
+class AggregatePrivacyTests(unittest.TestCase):
+ def test_raw_account_fields_and_invalid_numbers_rejected(self):
+  with self.assertRaises(ValueError):a.validate_live_aggregates({'rows':[{'source':'PUMP_FADE','symbol':'JCTUSDT','balance':100}]})
+  with self.assertRaises(ValueError):a.validate_live_aggregates({'rows':[{'source':'PUMP_FADE','symbol':'JCTUSDT','net_R':float('nan')}]})
+  a.validate_live_aggregates({'rows':[{'source':'PUMP_FADE','symbol':'JCTUSDT','net_R':None,'exits':[]}]})
 if __name__=='__main__':unittest.main()

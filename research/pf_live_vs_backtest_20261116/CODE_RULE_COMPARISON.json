@@ -61,5 +61,8 @@
       "history": "all exit legs already summed",
       "status": "REPORTED_LIVE_LEDGER_NOT_YET_AVAILABLE"
     }
-  ]
+  ],
+  "model_parameters_equal_to_historical_reference": true,
+  "model_comparison": "semantic JSON equality, no model weights published; not runtime attestation per trade",
+  "model_canonical_sha256": "e3b37d4e72e7c3d9d797241ad962498a909e483abc6d27a0b7ed70f8e3d3cfb7"
 }
