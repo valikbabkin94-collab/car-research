@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.tmp
+.env
+.env.*
+/work/
+/metadata/
+/m15-*/
+*.sqlite
+
+/market/
+/results/
+/view/
+/checks/
+/parity/
+/report-input/
