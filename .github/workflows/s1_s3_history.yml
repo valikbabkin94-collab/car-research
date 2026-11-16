@@ -1,0 +1,83 @@
+name: S1 S2 S3 frozen historical proxy research
+on:
+  push:
+    branches: [research/s1-s3-history]
+    paths: [.github/workflows/s1_s3_history.yml, research/s1_s3_history_20261116/history.py, tests/test_s1_s3_history.py]
+  workflow_dispatch:
+permissions: {contents: write, actions: read}
+concurrency:
+  group: s1-s3-history-fixed-protocol
+  cancel-in-progress: false
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - name: Audit actual public sources before PnL
+        run: python research/s1_s3_history_20261116/history.py probe
+      - name: Exact announcement audit and bounded S2 proxy
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/history.py s2
+      - name: Reconstruct archive-wide closed H1 PIT, no 15m recollection
+        id: collect
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/history.py collect
+      - name: Frozen S1 same-fill universe comparison and S3 settled proxy replay
+        if: steps.collect.outcome == 'success'
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/history.py replay
+      - name: Save explicit results, gaps and resumable checkpoint
+        if: always()
+        run: python research/s1_s3_history_20261116/history.py report
+      - name: Prepare only compact public research outputs
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          src=Path('results/s1-s3-history');dst=Path('research/s1_s3_history_20261116/RESULTS');dst.mkdir(exist_ok=True)
+          for pattern in ['*_RESULTS.json','*_TRADES.json.gz','*_CONTROL_TRADES.json.gz','S3_SIGNALS.json.gz','CHECKPOINT.json','PIT_STATUS.json','SOURCE_AUDIT.json','H1_MANIFEST.json','COLLECTION_CHECKPOINT.json','REPLAY_CHECKPOINT.json','OTCHET*.md']:
+           for p in src.glob(pattern):shutil.copy2(p,dst/p.name)
+          PY
+          python tools/scan_publication.py
+      - name: Scan research artifact content including compressed sources
+        if: always()
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          sp=importlib.util.spec_from_file_location('s','tools/scan_publication.py');s=importlib.util.module_from_spec(sp);sp.loader.exec_module(s);bad=[]
+          for p in Path('results/s1-s3-history').rglob('*'):
+           if p.is_file():bad+=s.inspect(str(p),p.read_bytes())
+          assert not bad,bad
+          print('PASS recursive artifact content scan')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: results/s1-s3-history
+          compression-level: 0
+          retention-days: 7
+      - name: Publish scanned compact checkpoint to research branch only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'car-research-actions'
+          git config user.email 'car-research-actions@users.noreply.github.com'
+          git add research/s1_s3_history_20261116/RESULTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: save S1-S3 historical results and source gaps [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/s1-s3-history'],check=True,stdout=subprocess.DEVNULL)
+          PY
