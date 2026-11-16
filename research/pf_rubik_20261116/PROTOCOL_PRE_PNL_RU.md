@@ -1,0 +1,30 @@
+# PF Rubik: ровно20вариантов + контроль, до PnL
+
+Полная сетка и точные числа — CONFIG_FROZEN.json. Никаких добавлений по результатам. Период Aug1→Nov1 2026UTC,двекалендарныеполовины,последние40%. Переиспользуютсяготовые H1/PIT/fundingизActions43874717889;новыетолькоадресные1mархивы длянужныхмонет/месяцев,4worker,checkpoint/sourceSHA. Никаких15mповторныхвыгрузокRound4.
+
+## Важное отличие отLIVE
+ТЗодновременноназываетtop50PITиvariants.jsonфабрики,гдеPF_BASE=top200+modeltop50%score. ПервичноисполняемявныеновыеправилаТЗ: BinancePITtop50,rawPF(r24>=15%,отhigh7d<=-3%,RSI14<=65),безнеобъявленногоML. ЭтоисследовательскийPF_BASE,НЕтождественныйLIVE. SourceBybitиучётреальных13отдельно. ВсекандидатылишьPROMISINGдоотдельнойsame-venue/futureпроверки,неVALIDATED_LIVE. E4являетсяSHORT,нелонгом.
+
+## Причинность/геометрия
+ВсеH1закрыты,минимум170непрерывныхчасовдляbase/high7d,ATR14/RSI14Wilderсисторическимwarmup. Rankпо24закрытымH1quotevolumeизсохранённойполнойarchiveuniverse,включаяделистнутые. Наблюдение signal+122s поизмеренномубезPnLtimestamp,входначинаясследующегоцелого1m. Cooldown24hотsetupвсехвариантов,oneopensymbolкаждоговарианта;нетнепроверенногопортфельногоcap. ЛимитTTL8h(А2:6h),касаниереальных1m,SL-first,noTPentrybar,BEсо следующей1mshortentry*(1-.0011). Hold72h,кромеявныхE1/E2/C4. Нетсинтетическихсвечей/замены1mна5m.
+
+A1marketпосленаблюдения;A2limitнаmaxhighпоследних168closedH1;A3первыйизследующих8closedH1сclose<openпредыдущего,послеужеизвестногопика,entrymarketпослеconfirmclose+122s;A4limitclose*1.025.
+B1последнийизвестныйsettledfundingнормированныйк8h>=.0003;неpredictiveBybit.B2current24hbasevolume>=3*medianсемипредшествующихнеперекрывающихся24hсумм,нужны192H.B3RSI>=70усвечисмаксимальнымhighпоследних6H,RSIизвестентогда.B4BTCr24<=0.НедоступноеполеFEATURE_DATA_GAP,неfalsefilter.
+C1TP=1/2/3ATR(1h)отfill,50/30/20;C2послеTP1trailing1.5ATRизначальнофиксированногоATR,поbestlowдляSHORT,толькоследующая1m;C3одинTP4%,безостатка;C4TIME24hеслиTP1небыл,иначебазовый72h.
+D1SLзаmaxhigh24closedH1пампа+0.5%;D2SL1.5ATRотfill;D3SL8%;D4безBE. Невалидныйstop/targetотклоняется,неисправляетсяпоисходу.
+E1r24<=-15%top50;dumpcandle=lowestlowпоследних4H,reclaim=maxhigh4Hзаканчивающихсяdumpcandle;первыйизследующих8closedH1close>reclaim→market;SLподlowdump,TP1/2/3R50/30/20,48h,безBE.E2close>maxhighпредыдущих168H,r24>=15%,volume>=3*medianпредыдущих168H;marketпослезакрытия,SL4%,при+4%активироватьtrailing4%отbesthigh,наследующей1m,24h,безTP.E3полныйэпизодPFparent+flip:толькопослеSLдоTP1сразунеследующем1mopenLONGтемжеколичеством,stopуentryPF,TP+4%,timeдоисходного72hdeadline. ПубликоватьepisodeNиlegN;обязательноучитыватьlossродителя! Рискдочернейпозициидобавляется,невыдаётсязабесплатноеулучшение.E4base+funding<0,SHORT;сравнитьсB1.
+
+## Издержки/исходы
+Fee.055%taker(market/SL/time),.02%assumedmaker(restinglimit/TP),slippage5bpsmarket/SL/time,0limit/TP. Touchнеподтверждаетqueue;отдельнаяограниченностьреализма,неLIVEproof. Fundingреальныесуммыtimestamps/remaining/lastclosed1mprice,unknownне0. Rdenom=stopwidth+.0021,$5/R;дляE3нумерарparent,qtyflipтотже. MaxDDзакрытыйаддитивныйR,неMTMmargin-account;MFE/MAEна1mснеизвестнымвнутриминутнымпорядком.
+
+## Заморозка выбора/валидация
+Общийpurge81hпередконцомкаждогопериода:TRAINsignal<half-81h,H2signal>=halfи<end-81h,TAILsignal>=tailи<end-81h. Этоисключаетoutcome-dependentправуюцензуруодинаководляactual/control. Всеисключенияпубликуются. TRAINвычисляетсяпервым;победительсемейства=maxnetRсредиn>=30/fullfunding,дажееслионубыточен. Еслинетeligible—winnernull. ФайлвыборапубликуетсякоммитомДОрасчётаH2. НиоднойсменыпараметровпоH2/TAIL.
+Контроль:одинmirror-replayнаодинаковомactualentryдлякаждогоисполненногосигнала,ссимметричнымstop/TP/management,темижеfee.Никаких2047новыхторговыхпереборов:2047парныхперестановокactual/mirrorпоцелымUTCдням. Этоусловныйтествыборанаправления,нетестmakerqueueилиполнотыuniverse. Missingcontrolcoverageпоказать.BHпо21вариантамвкаждомпериодеиглобальнопо63,missingp=1. PromotionтолькозамороженномуTRAINwinner,PF>=1.3/net>0/n>=30вTRAIN,H2,TAIL;q_global<=.05,top3/net<=.5,controlcoverage>=.95. ВсёостальноеREJECTED/INCONCLUSIVE. Полныйрейтингбезсокрытияпровалов;нетобязательстванайтиприбыль.
+Конфигвбумагутолькопройденнымкандидатам,исследовательскийJSONсrequires_engine_support:никакогоизмененияработающейфабрики/автослияния.
+
+## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+Ровно20изменений,безподгонкипоудачномуисходу. Этаисторияужеиспользоваласьвдругихисследованиях,поэтомуположительныйрезультаттребуетновойбудущейпроверки. LIVEнетрогаем.
+
+Desktop Commander 0, Bybit-ключи 0, LIVE изменений 0
+
+ВсеA/B/C/D/E3/E4используютодинаковыеканоническиеbase-setuptimestampsс24hcooldownДОфильтров. ДобавлениеBфильтранесдвигаетисходныйentrysetupнановойчас. E1/E2своинезависимыесобытия. TRAINwinner/promotionтребуютнулевыхsource/featureDATA_GAP,а невыбораудобнойпокрытойчасти.

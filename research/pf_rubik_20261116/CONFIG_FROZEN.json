@@ -1,0 +1,442 @@
+{
+  "schema": 1,
+  "window_start_ms": 1785542400000,
+  "window_end_ms": 1793491200000,
+  "half_ms": 1789516800000,
+  "tail_ms": 1790311680000,
+  "purge_hours": 81,
+  "universe": "BINANCE_ARCHIVE_PIT_TOP50_24_CLOSED_H1_QUOTE_VOLUME",
+  "factory_baseline_equivalent": false,
+  "factory_difference": "factory PF_BASE top200 plus modeltop50percent; task explicitly requests top50 PIT, model unspecified; do not call this LIVE validation",
+  "model_filter": false,
+  "observation_delay_ms": 122000,
+  "cooldown_hours": 24,
+  "one_open_symbol_per_variant": true,
+  "ATR": "Wilder14closedH1",
+  "RSI": "Wilder14closedH1",
+  "controls": 2047,
+  "control_seed": 20261116,
+  "control_kind": "UTC-day blocked paired actual-versus-mirrored-direction, identical initial fills/geometry and fee modes; not execution or universe alpha proof",
+  "BH": "21 variants within eachperiod and global63 tests TRAIN/H2/TAIL40; missingp=1",
+  "selection": "max known netR within family on TRAIN only; n>=30 and completefunding; negative winners retained; frozen commit before validation",
+  "promotion": {
+    "n_each_period": 30,
+    "PF_each_period": 1.3,
+    "net_each_period_positive": true,
+    "q_global_max": 0.05,
+    "best3_share_net_max": 0.5,
+    "control_pair_coverage_min": 0.95
+  },
+  "risk_USD_per_R": 5,
+  "variants": [
+    {
+      "name": "PF_BASE",
+      "family": "CONTROL",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true
+    },
+    {
+      "name": "A1",
+      "family": "A",
+      "entry_type": "MARKET",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true
+    },
+    {
+      "name": "A2",
+      "family": "A",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 6,
+      "hold_hours": 72,
+      "move_be": true,
+      "limit_kind": "HIGH7"
+    },
+    {
+      "name": "A3",
+      "family": "A",
+      "entry_type": "MARKET",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "confirm_kind": "CLOSE_BELOW_PRIOR_OPEN"
+    },
+    {
+      "name": "A4",
+      "family": "A",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "entry_offset": 0.025
+    },
+    {
+      "name": "B1",
+      "family": "B",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "filter": "FUND_POS_8H_0003"
+    },
+    {
+      "name": "B2",
+      "family": "B",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "filter": "VOL24_3X_PRIOR7D_MEDIAN"
+    },
+    {
+      "name": "B3",
+      "family": "B",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "filter": "RSI_PEAK6H_GE70"
+    },
+    {
+      "name": "B4",
+      "family": "B",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "filter": "BTC_R24_LE0"
+    },
+    {
+      "name": "C1",
+      "family": "C",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "tp_kind": "ATR"
+    },
+    {
+      "name": "C2",
+      "family": "C",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": false,
+      "trail_atr": 1.5
+    },
+    {
+      "name": "C3",
+      "family": "C",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.04
+      ],
+      "weights": [
+        1.0
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true
+    },
+    {
+      "name": "C4",
+      "family": "C",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "time_if_no_tp_hours": 24
+    },
+    {
+      "name": "D1",
+      "family": "D",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "stop_kind": "PUMP_HIGH_005"
+    },
+    {
+      "name": "D2",
+      "family": "D",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "stop_kind": "ATR15"
+    },
+    {
+      "name": "D3",
+      "family": "D",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.08,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true
+    },
+    {
+      "name": "D4",
+      "family": "D",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": false
+    },
+    {
+      "name": "E1",
+      "family": "E",
+      "entry_type": "MARKET",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 48,
+      "move_be": true,
+      "setup": "DUMP_RECLAIM",
+      "side": 1,
+      "tp_kind": "R"
+    },
+    {
+      "name": "E2",
+      "family": "E",
+      "entry_type": "MARKET",
+      "stop_fraction": 0.04,
+      "tp_dist": [],
+      "weights": [],
+      "ttl_hours": 8,
+      "hold_hours": 24,
+      "move_be": false,
+      "setup": "PUMP_CONTINUATION",
+      "side": 1,
+      "trail_after_profit": 0.04,
+      "trail_fraction": 0.04
+    },
+    {
+      "name": "E3",
+      "family": "E",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "compound_flip": true
+    },
+    {
+      "name": "E4",
+      "family": "E",
+      "entry_type": "LIMIT",
+      "stop_fraction": 0.056,
+      "tp_dist": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ttl_hours": 8,
+      "hold_hours": 72,
+      "move_be": true,
+      "filter": "FUND_NEGATIVE",
+      "setup": "BASE"
+    }
+  ]
+}
