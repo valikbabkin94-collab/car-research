@@ -13,5 +13,16 @@
   "next": "Verify120 examples and parser precision; obtain anonymized SPECULANTKA export; then commit execution engine and run fixed controls, no old replay",
   "LIVE_changes": 0,
   "candidates_after_eligibility_and_cooldown": 149,
-  "review_status": "V1 120 redacted examples reviewed by Codex; failed cases corrected; independent review pending"
+  "review_status": "V1 120 redacted examples reviewed by Codex; failed cases corrected; independent review pending",
+  "saved_data_availability_checked": true,
+  "saved_data_summary": {
+    "cohort_n": 149,
+    "entry_available": 78,
+    "full_price_window": 76,
+    "full_funding": 92,
+    "both_price_funding": 68,
+    "cohort_sha256": "4bf788d3f2ff978ac9bae5f48ea09137f2b3a7a8659651fe7c7a570b20f6329c",
+    "PnL_calculated": false,
+    "selection_changed": false
+  }
 }
