@@ -1,0 +1,65 @@
+name: Channels v2 continue unfinished cases only, frozen policies
+on:
+  push:
+    branches: [research/channels-audit-v2]
+    paths: [.github/workflows/channels_audit_v2_continue.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  continue_only_unfinished:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: channels-audit-v2-verified-m1-cache-resume-only
+          path: work/market/m1
+          run-id: '43939043187'
+          github-token: ${{ github.token }}
+      - name: Extend only censored source windows, assert all closed and legacy unchanged
+        run: python research/channels_audit_v2_20261116/continue_unfinished.py
+      - name: Refresh claim compatibility from saved prices, no PnL
+        run: python research/channels_audit_v2_20261116/claim_review.py
+      - run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: channels-audit-v2-continuation-report-and-receipts
+          path: research/channels_audit_v2_20261116
+          retention-days: 7
+      - name: Retain only checksummed numerical cache
+        id: cache
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          import numpy as np
+          for p in Path('work/market/m1').glob('*.npz'):
+           assert hashlib.sha256(p.read_bytes()).hexdigest()==json.loads(p.with_suffix('.json').read_text())['parsed_sha256']
+           with np.load(p,allow_pickle=False) as z:
+            assert set(z.files)=={'bars'};a=z['bars'];assert a.dtype.kind=='f' and a.ndim==2 and a.shape[1]==5 and np.all(np.isfinite(a))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: steps.cache.outcome == 'success'
+        with:
+          name: channels-audit-v2-final-verified-m1-cache
+          path: work/market/m1
+          retention-days: 7
+          compression-level: 0
+      - name: Publish continuation with immutable completed outcomes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/channels_audit_v2_20261116
+          git commit -m 'research: continue unfinished author positions only, preserve all closed and legacy outcomes [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/channels-audit-v2'],check=True,stdout=subprocess.DEVNULL)
+          PY
