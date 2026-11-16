@@ -1,0 +1,54 @@
+name: S2 saved announcement source forensics only
+on:
+  push:
+    branches: [research/s1-s3-history]
+    paths: [.github/workflows/s1_s3_announcement_source_audit.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  source_audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: results/s1-s3-history
+          run-id: '43874717889'
+          github-token: ${{ github.token }}
+      - name: Retain two already fetched official article bodies, no PnL or collection
+        run: |
+          python - <<'PY'
+          import gzip,json,shutil
+          from pathlib import Path
+          out=Path('research/s1_s3_history_20261116/RESULTS/ANNOUNCEMENT_SOURCES');out.mkdir(exist_ok=True)
+          summary=[]
+          for p in Path('results/s1-s3-history/binance_announcements').glob('*.json.gz'):
+           shutil.copy2(p,out/p.name);d=json.load(gzip.open(p,'rt'));body=d['detail'].get('body');summary.append({'file':p.name,'detail_keys':sorted(d['detail']),'body_type':type(body).__name__,'body_prefix':str(body)[:10000]})
+          (out/'STRUCTURE.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+          print('Saved article bodies:',len(summary))
+          PY
+          python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: s2-saved-official-announcement-bodies
+          path: research/s1_s3_history_20261116/RESULTS/ANNOUNCEMENT_SOURCES
+          retention-days: 7
+      - name: Publish scanned source evidence only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/s1_s3_history_20261116/RESULTS/ANNOUNCEMENT_SOURCES
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: preserve already fetched S2 official article bodies for parser audit [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/s1-s3-history'],check=True,stdout=subprocess.DEVNULL)
+          PY
