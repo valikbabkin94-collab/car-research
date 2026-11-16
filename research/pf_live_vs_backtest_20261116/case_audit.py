@@ -55,7 +55,7 @@ def main():
   if live:
    gross=sum((1-e['price']/live['entry_price'])*e['fraction_of_initial_qty'] for e in live['exits'])/.0581
    r['live']={**live,'db_initial_stop_width_pct':100*(live['initial_stop_price']/live['entry_price']-1),'signal_stop_width_pct':100*(live['signal_stop_price']/live['entry_price']-1),'gross_from_rounded_exit_aggregates_R':gross,'implied_total_cost_R':gross+(live.get('funding_R') or 0)-live['net_R'],'exit_kind_is_heuristic':True}
-   r['live_entry_below_reference_limit']=live['entry_price']<limit if limit else None
+   r['live_entry_below_reference_limit']=bool(live['entry_price']<limit) if limit else None
   rows.append(r)
  save(out/'ALL31.json',rows)
  fields=['symbol','signal_ms','decision','live_net_R','live_stop_signal_pct','db_initial_stop_pct','model_status','model_entry_ms','model_first_exit','model_price_R','model_funding_R','model_net_R','old_status','reference_source','limit','venue']

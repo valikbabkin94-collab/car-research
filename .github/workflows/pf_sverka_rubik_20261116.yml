@@ -23,6 +23,7 @@ jobs:
       - name: Only31 current cases, no annual replay
         run: python research/pf_live_vs_backtest_20261116/case_audit.py
       - name: Scan source artifacts before retaining
+        if: always()
         id: source_scan
         run: |
           python - <<'PY'
