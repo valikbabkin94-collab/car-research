@@ -69,4 +69,17 @@ class SavedLedgerCorrectionTests(unittest.TestCase):
   new=h.reprice_saved_funding(old,bars,fund)
   self.assertEqual(new['events'],old['events']);self.assertEqual(new['price_net_R'],.2)
   self.assertAlmostEqual(new['net_R'],.205);self.assertEqual(new['pre_correction_net_R'],.21)
+class ActualPublicAnnouncementSchemaTests(unittest.TestCase):
+ def test_saved_child_tree_separates_settlement_and_new_order_ban(self):
+  import gzip,json,sys
+  sys.modules['history']=h
+  spec=importlib.util.spec_from_file_location('fallback',pathlib.Path(__file__).resolve().parents[1]/'research/s1_s3_history_20261116/binance_delisting_fallback.py');f=importlib.util.module_from_spec(spec);spec.loader.exec_module(f)
+  root=pathlib.Path(__file__).resolve().parents[1]/'research/s1_s3_history_20261116/RESULTS/ANNOUNCEMENT_SOURCES'
+  a=json.load(gzip.open(root/'c30e6891afa54651ba950f8af144f861.json.gz','rt'));r=f.parse(a['record'],a['detail'])
+  self.assertEqual(r['status'],'REJECTED_NEW_POSITIONS_DISABLED');self.assertEqual(r['symbols'],['MITOUSDT','PTBUSDT'])
+  self.assertLess(r['new_position_ban_ms'],r['publication_ms'])
+  a=json.load(gzip.open(root/'2f1a743334f044abbd82e34093c7b771.json.gz','rt'));r=f.parse(a['record'],a['detail'])
+  self.assertEqual(r['status'],'ELIGIBLE');self.assertEqual(r['symbols'],['1000000BOBUSDT','PROMPTUSDT','PUMPBTCUSDT'])
+  self.assertEqual(r['exit_deadline_ms'],int(h.dt.datetime(2026,10,4,9,tzinfo=h.dt.timezone.utc).timestamp()*1000))
+  self.assertGreater(r['document_last_update_ms'],(r['publication_ms']//h.B+1)*h.B)
 if __name__=='__main__':unittest.main()

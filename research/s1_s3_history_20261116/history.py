@@ -354,7 +354,7 @@ def s2(root):
 
 def report(root):
  root=Path(root);results={}
- for s in ['S1','S2','S3','S2_BINANCE','S3_FACTORY']:
+ for s in ['S1','S2','S3','S2_BINANCE','S3_FACTORY','S2_BINANCE_REPLAY']:
   p=root/(s+'_RESULTS.json');results[s]=json.loads(p.read_text()) if p.exists() else {'status':'NOT_COMPLETED'}
  write(root/'CHECKPOINT.json',dict(stage='RESULTS_SAVED_WITH_LIMITATIONS',results={s:d['status'] for s,d in results.items()},code_sha=__import__('subprocess').check_output(['git','rev-parse','HEAD'],text=True).strip(),protocol_commit='48c6061',profitability='NOT_CERTIFIED',round4_run_untouched=43842872790))
  lines=['# S1–S3 история: фактические результаты','', 'Только публичные архивы и исследовательские прокси. Результаты не являются доказательством доходности точной Bybit-фабрики.','', '|Сценарий/период|n|WR%|PF|netR|$ при $5/R|MaxDD R|Среднее часов|Top3/net|','|---|---:|---:|---:|---:|---:|---:|---:|---:|']

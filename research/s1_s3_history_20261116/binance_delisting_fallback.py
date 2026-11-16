@@ -20,28 +20,59 @@ def plain(obj):
   try:return plain(json.loads(obj))
   except (ValueError,TypeError):return re.sub('<[^>]+>',' ',obj)
  if isinstance(obj,dict):
-  return ' '.join(plain(v) for k,v in obj.items() if k in ['text','children','content','body','title'])
+  return ' '.join(plain(v) for k,v in obj.items() if k in ['text','child','children','content','body','title'])
  if isinstance(obj,list):return ' '.join(plain(v) for v in obj)
  return ''
 
 DATE=re.compile(r'\b(20\d{2})-(\d{2})-(\d{2})\s+(?:at\s+)?(\d{2}):(\d{2})(?::\d{2})?\s*\(?UTC\)?',re.I)
+def stamps(text):
+ result=set()
+ for m in DATE.finditer(text):
+  try:result.add(int(dt.datetime(*map(int,m.groups()),tzinfo=dt.timezone.utc).timestamp()*1000))
+  except ValueError:pass
+ return result
+
 def parse(record,detail):
  pub=record.get('releaseDate');text=' '.join((record['title']+' '+plain(detail.get('body',''))).split())
  if not isinstance(pub,(int,float)) or not h.START<=pub<h.END:return {'status':'REJECTED_PUBLICATION_WINDOW_OR_TIMESTAMP'}
+ if detail.get('publishDate') not in (None,pub):return {'status':'DATA_GAP_CONFLICTING_PUBLICATION_TIME'}
  if not re.search(r'Futures',text,re.I) or not re.search(r'delist',text,re.I) or not re.search(r'perpetual',text,re.I):return {'status':'REJECTED_NOT_FUTURES_PERPETUAL_DELISTING'}
  if re.search(r'temporar|migrat',text,re.I):return {'status':'REJECTED_TEMPORARY_OR_MIGRATION'}
- symbols=sorted(set(re.findall(r'\b[A-Z0-9]{2,30}USDT\b',text)));deadlines=set()
- for m in DATE.finditer(text):
-  context=text[max(0,m.start()-300):m.start()].lower()
-  if not any(x in context for x in ['delist','close all positions','automatic settlement','cease trading']):continue
-  try:deadlines.add(int(dt.datetime(*map(int,m.groups()),tzinfo=dt.timezone.utc).timestamp()*1000))
-  except ValueError:continue
+ # Binance distinguishes final settlement from earlier restrictions on new orders.
+ anchor=re.search(r'will close all positions and conduct an automatic settlement',text,re.I)
+ scope=text
+ if anchor:
+  scope=text[anchor.start():]
+  for marker in ['The contract(s) will be delisted after','Please Note:','Users are not allowed']:
+   pos=scope.lower().find(marker.lower())
+   if pos>=0:scope=scope[:pos]
+ symbols=sorted(set(re.findall(r'\b[A-Z0-9]{2,30}USDT\b',scope)))
+ deadlines=stamps(scope) if anchor else set()
+ if not anchor:
+  for m in DATE.finditer(scope):
+   if any(x in scope[max(0,m.start()-300):m.start()].lower() for x in ['delist','close all positions','automatic settlement','cease trading']):deadlines|=stamps(m[0])
  if not symbols or len(deadlines)!=1:return dict(status='DATA_GAP_UNAMBIGUOUS_SYMBOL_OR_DELIST_TIME',symbols=symbols,deadline_candidates=len(deadlines))
- end=next(iter(deadlines))-h.DAY;first=(int(pub)//h.B+1)*h.B
- return dict(status='ELIGIBLE' if first<end and first<=pub+h.H else 'REJECTED_LATE_OR_TOO_CLOSE',symbols=symbols,publication_ms=int(pub),exit_deadline_ms=end//h.B*h.B,revision_status='CURRENT_SNAPSHOT_ORIGINAL_REVISION_UNAVAILABLE')
+ end=next(iter(deadlines))-h.DAY;first=(int(pub)//h.B+1)*h.B;ban=None
+ match=re.search(r'Users are not allowed to open new non-reduce only orders.*?as below:',text,re.I)
+ if match:
+  block=text[match.end():]
+  for marker in ['Please note','During the final hour','Users are advised','In order to protect']:
+   j=block.lower().find(marker.lower())
+   if j>=0:block=block[:j]
+  candidates=stamps(block)
+  if len(candidates)!=1:return dict(status='DATA_GAP_UNAMBIGUOUS_NEW_POSITION_BAN',symbols=symbols)
+  ban=next(iter(candidates))
+ status='ELIGIBLE' if first<end and first<=pub+h.H else 'REJECTED_LATE_OR_TOO_CLOSE'
+ if ban is not None and first>=ban:status='REJECTED_NEW_POSITIONS_DISABLED'
+ return dict(status=status,symbols=symbols,publication_ms=int(pub),exit_deadline_ms=end//h.B*h.B,new_position_ban_ms=ban,revision_status='CURRENT_SNAPSHOT_ORIGINAL_REVISION_UNAVAILABLE',document_last_update_ms=detail.get('lastUpdateTime'),document_version=detail.get('version'))
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--out',default='results/s1-s3-history');a=p.parse_args();root=Path(a.out);http=h.HTTP(root);pages=[];events=[];errors=[];complete=False;seen=set();last=None
+ p=argparse.ArgumentParser();p.add_argument('--out',default='results/s1-s3-history');p.add_argument('--saved-only',action='store_true');a=p.parse_args();root=Path(a.out);http=h.HTTP(root);pages=[];events=[];errors=[];complete=False;seen=set();last=None
+ if a.saved_only:
+  previous=json.loads((root/'S2_BINANCE_RESULTS.json').read_text())
+  for event in previous['events']:
+   event=dict(event);d=h.gzread(root/'binance_announcements'/(event['record']['code']+'.json.gz'));event['parsed']=parse(event['record'],d['detail']);events.append(event)
+  execute_events(root,http,events,previous['pages'],previous['errors'],previous['catalog_period_complete']);return
  for page in range(1,101):
   try:
    raw=None
@@ -76,10 +107,15 @@ def main():
     except Exception as ex:errors.append(dict(article_code=r.get('code'),reason=type(ex).__name__+': '+str(ex)))
    if stamps and max(stamps)<h.START:complete=True;break
   except Exception as ex:errors.append(dict(page=page,reason=type(ex).__name__+': '+str(ex)));break
+ execute_events(root,http,events,pages,errors,complete)
+
+def execute_events(root,http,events,pages,errors,complete):
  trades=[];pairs=[];unique=set()
  for event in events:
   e=event['parsed']
-  if e.get('status')!='ELIGIBLE':continue
+  if e.get('status')!='ELIGIBLE':
+   for sym in e.get('symbols',[]):trades.append(dict(symbol=sym,signal_ms=event['record']['releaseDate'],status=e['status'],source_url=event['url']))
+   continue
   obs=e['publication_ms'];expiry=e['exit_deadline_ms']
   for sym in e['symbols']:
    if (sym,obs) in unique:continue
@@ -93,6 +129,6 @@ def main():
      if c.get('status')=='CLOSED':pairs.append([r['net_R'],c['net_R']])
    except Exception as ex:trades.append(dict(symbol=sym,signal_ms=obs,status='DATA_GAP_PRICE',reason=type(ex).__name__+': '+str(ex)))
  rng=h.random.Random(20261116);dist=[sum(p[rng.randrange(2)] for p in pairs) for _ in range(999)];actual=sum(a for a,b in pairs)
- result=dict(status='BINANCE_ONLY_DELIST_EVENT_PROXY_NOT_EXACT_BYBIT' if trades else 'INCONCLUSIVE_DATA_GAP_OR_NO_ELIGIBLE_EVENTS',tables=h.tables(trades),pages=pages,catalog_period_complete=complete,events=events,errors=errors,control=dict(kind='RANDOM_DIRECTION_SYMMETRIC_8_PERCENT_SAME_ENTRY_DEADLINE',paired_n=len(pairs),n=999,netR_distribution=dist,observed_short_R=actual,p_add_one=(1+sum(x>=actual for x in dist))/1000 if pairs else None))
- h.gzwrite(root/'S2_BINANCE_TRADES.json.gz',trades);h.write(root/'S2_BINANCE_RESULTS.json',result);print(json.dumps({k:v for k,v in result.items() if k in ['status','tables','catalog_period_complete']}))
+ result=dict(status='INCONCLUSIVE_ORIGINAL_REVISION_GAP_CURRENT_DOCUMENT_CONDITIONAL_PROXY',causal_closed_n=0,independent_eligible_announcements=sum(e['parsed'].get('status')=='ELIGIBLE' for e in events),tables=h.tables(trades),pages=pages,catalog_period_complete=complete,events=events,errors=errors,control=dict(kind='RANDOM_DIRECTION_SYMMETRIC_8_PERCENT_SAME_ENTRY_DEADLINE',paired_n=len(pairs),n=999,netR_distribution=dist,observed_short_R=actual,p_add_one=(1+sum(x>=actual for x in dist))/1000 if pairs else None))
+ h.gzwrite(root/'S2_BINANCE_REPLAY_TRADES.json.gz',trades);h.write(root/'S2_BINANCE_REPLAY_RESULTS.json',result);print(json.dumps({k:v for k,v in result.items() if k in ['status','tables','catalog_period_complete']}))
 if __name__=='__main__':main()
