@@ -1,0 +1,17 @@
+{
+  "phase": "MIGRATED_PUBLIC_COLLECTION_RUNNING",
+  "public_branch": "research/round4-cont",
+  "protocol_commit": "90086ce",
+  "pipeline_code_commit": "e95fb9e07cb71e12e79a9c1c108bad038f2e7bb7",
+  "pipeline_run": 43842872790,
+  "source_smoke_run": 43843327325,
+  "source_smoke": "PASS_2976_BARS_KNOWN_SOURCE_SHA",
+  "public_regression": "PASS",
+  "collector_shards": "RUNNING_FIRST_BOUNDED_PASS",
+  "new_original15m_PnL": "PENDING",
+  "N4_addressed_funding": "QUEUED_AFTER_G3",
+  "reference": "KNOWN_AGGREGATES_AND_ANCHOR_ONLY_FULL_OLD_MANIFEST_UNAVAILABLE",
+  "private_tokens_in_public_workflows": false,
+  "retention_days": 7,
+  "live_changes": 0
+}
