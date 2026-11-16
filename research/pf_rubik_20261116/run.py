@@ -26,9 +26,9 @@ def prepare(source,work):
   if d['config_sha256']!=sha((LAB/'CONFIG_FROZEN.json').read_bytes()):raise ValueError('PACKET_CONFIG_SHA_MISMATCH')
   return d
  ranks=np.load(Path(source)/'PIT_RANKS.npz',allow_pickle=False);idx={s:i for i,s in enumerate(ranks['symbols'])};ts=ranks['times'];rank=ranks['rank'];fund=Funding(source,work);frames={}
+ manifest=json.loads((Path(source)/'H1_MANIFEST.json').read_text())
  for p in (Path(source)/'h1').glob('*.json.gz'):
   r=gzread(p)
-  manifest=json.loads((Path(source)/'H1_MANIFEST.json').read_text())
   expected=manifest['files'].get(str(p.relative_to(Path(source))))
   if expected!=sha(p.read_bytes()):raise ValueError('H1_SOURCE_SHA_MISMATCH')
   if r['bars']:frames[r['symbol']]=np.asarray(r['bars'],dtype=float)
@@ -137,7 +137,7 @@ def calc(source,work,mode):
  periods=[('TRAIN',START,HALF-PURGE)] if mode=='train' else [('H2',HALF,END-PURGE),('TAIL40',TAIL,END-PURGE)]
  for label,lo,hi in periods:
   for v in CFG['variants']:
-   name=v['name'];rows=[];pairs=[];active={};packets=sorted([p for p in data['packets'] if p['name']==name and lo<=p['signal_ms']<hi],key=lambda p:(p['observed_ms'],p['symbol']))
+   name=v['name'];rows=[];pairs=[];active={};packets=sorted([p for p in data['packets'] if p['name']==name and lo<=p['signal_ms']<hi],key=lambda p:(p['symbol'],p['observed_ms']))
    for p in packets:
     if p.get('pre_status'):rows.append(dict(symbol=p['symbol'],signal_ms=p['signal_ms'],status=p['pre_status'],name=name));continue
     if active.get(p['symbol'],0)>p['observed_ms']:rows.append(dict(symbol=p['symbol'],signal_ms=p['signal_ms'],status='REJECTED_ALREADY_OPEN',name=name));continue

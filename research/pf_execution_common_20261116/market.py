@@ -1,5 +1,5 @@
 """Public archive IO only. Verified market data; no account/order endpoints."""
-import csv,gzip,hashlib,io,json,time,urllib.request,urllib.error,urllib.parse,zipfile,datetime as dt,threading
+import bisect,csv,gzip,hashlib,io,json,time,urllib.request,urllib.error,urllib.parse,zipfile,datetime as dt,threading
 from pathlib import Path
 import numpy as np
 M=60000;H=3600000;DAY=24*H
@@ -70,7 +70,7 @@ class Quotes:
    parts.append(np.load(p,allow_pickle=False)['bars'])
   if not parts:return np.empty((0,5))
   arr=np.concatenate(parts);arr=arr[np.argsort(arr[:,0],kind='stable')];_,index=np.unique(arr[:,0],return_index=True);arr=arr[np.sort(index)]
-  if len(self.cache)>=6:self.cache.pop(next(iter(self.cache)))
+  if len(self.cache)>=64:self.cache.pop(next(iter(self.cache)))
   self.cache[symbol]=arr;return arr
  def probe_rest(self,symbol,a,b):
   # Only unfinished current-day public candles. Never private exchange methods.
@@ -86,7 +86,7 @@ class Quotes:
    self.errors.append(dict(symbol=symbol,kind='REST_UNAVAILABLE',error='HTTP_'+str(e.code)));return None
   except Exception as e:self.errors.append(dict(symbol=symbol,kind='REST_UNAVAILABLE',error=type(e).__name__+': '+str(e)));return None
 class Funding:
- def __init__(self,root,quote_root):self.root=Path(root);self.http=HTTP(quote_root);self.cache={}
+ def __init__(self,root,quote_root):self.root=Path(root);self.http=HTTP(quote_root);self.cache={};self.index={}
  def get(self,symbol):
   if symbol in self.cache:return self.cache[symbol]
   p=self.root/'funding'/(symbol+'.json.gz');d=gzread(p) if p.exists() else dict(symbol=symbol,rows=[],coverage=[],errors=[])
@@ -105,10 +105,12 @@ class Funding:
    if lo<=cursor<hi:cursor=max(cursor,hi)
   return cursor>=b
  def latest(self,symbol,t):
-  rows=[x for x in self.get(symbol)['rows'] if int(x['ts'])<t and x.get('interval_hours') is not None]
-  if not rows:return None
-  r=max(rows,key=lambda x:int(x['ts']));hours=float(r['interval_hours'])
-  if hours<=0 or t-int(r['ts'])>hours*H:return None
+  if symbol not in self.index:
+   rows=sorted([x for x in self.get(symbol)['rows'] if x.get('interval_hours') is not None],key=lambda x:int(x['ts']));self.index[symbol]=([int(x['ts']) for x in rows],rows)
+  stamps,rows=self.index[symbol];k=bisect.bisect_left(stamps,t)-1
+  if k<0:return None
+  r=rows[k];hours=float(r['interval_hours'])
+  if hours<=0 or t-int(r['ts'])>hours*H or not self.known(symbol,int(r['ts']),t):return None
   return float(r['rate'])*8/hours
  def cash(self,symbol,r,quotes):
   if r['status']!='CLOSED' or not self.known(symbol,r['entry_ms'],r['exit_ms']):return None
