@@ -1,0 +1,37 @@
+{
+  "classification": "PUBLIC_MARKET_DATA_AND_SIMULATED_RESEARCH_EXECUTIONS_PLUS_TWO_WHITELISTED_SIGNAL_PLANS_NO_OWNER_BALANCES_OR_RAW_ORDERS",
+  "source_bybit_5m_commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+  "source_bybit_5m_blob": "9136107962e733a7fc2137bcc7193ddb57b18963",
+  "reference_research_source_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+  "runtime_code_snapshot_commit": "428e2f7c807c618bf112d7ff0e2e81cf4143b001",
+  "runtime_code_not_published": true,
+  "raw_private_ids_balances_keys_not_exported": true,
+  "rows": 2113,
+  "known_funding_rows": 1466,
+  "files": {
+    "LIVE_DECISIONS_AGGREGATES.json": {
+      "sha256": "3911f44c0f86c2fc273d7fd612491a2d9b9914f81a624acc685ba87bedec473e",
+      "bytes": 108
+    },
+    "FUNDING_EVENTS.jsonl.gz": {
+      "sha256": "bebe928727a7c71dab7f7377bbde2353072cdfa5f2069ce5449d31d78dee0abb",
+      "bytes": 36316
+    },
+    "SNAPSHOT_SIGNAL_CARDS.json": {
+      "sha256": "b625671d5d5465546263dfb74bc2159b38afd40596602eec84e932bce109d90f",
+      "bytes": 1521
+    },
+    "LIVE_TRADES_AGGREGATES.json": {
+      "sha256": "b6ae69e7ccec30a37474c65cbb77ee73da9b0dc99b36234bc612399f184830de",
+      "bytes": 136
+    },
+    "BYBIT_RESEARCH_5M.csv.gz": {
+      "sha256": "48bb2e205c55c0aa8d60926f3aaa771dc9ec6d8672803ee4c1b89902f4258a0f",
+      "bytes": 46943027
+    },
+    "REFERENCE_EXECUTIONS.jsonl.gz": {
+      "sha256": "e2dd2aae0d1a3f077522a293d31718f6ffe4a157d6e98332e1176c98826b5c37",
+      "bytes": 116202
+    }
+  }
+}

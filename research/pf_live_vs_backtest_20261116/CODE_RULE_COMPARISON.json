@@ -1,0 +1,65 @@
+{
+  "snapshot_commit": "428e2f7c807c618bf112d7ff0e2e81cf4143b001",
+  "snapshot_is_not_attestation_of_13_trade_runtime": true,
+  "private_bot_code_not_published": true,
+  "snapshot_source_hashes": {
+    "pf_audit_live_strategy.py": "b6d9c92fc2537866d006dc5be64f2bad274f4829a3218f949ff0bc5d298d8149",
+    "pf_audit_shadow_pump_fade.py": "f1bb13532694312a7e4da8e8ff174693fdd2f61c8b17b8d9f3dace5f70d4a164"
+  },
+  "rules": [
+    {
+      "item": "partial exits",
+      "history": "sum fraction-weighted TP1/TP2/BE",
+      "snapshot": "sum realized partial fills",
+      "status": "MODEL_ALREADY_COUNTS_PARTIALS_NOT_JUST_LAST_CLOSE"
+    },
+    {
+      "item": "BE price for short",
+      "history": "entry",
+      "snapshot_default": "entry*(1-0.0011)",
+      "status": "CONFIRMED_COMPONENT_DIFFERENCE_NOT_ACTUAL_13_TRADE_ATTESTATION"
+    },
+    {
+      "item": "universe vs model threshold",
+      "history_source": "RAW2113 and SELECTED recorded separately",
+      "snapshot": "top200 universe, top50 means model top50percent",
+      "status": "RAW_NOT_DIRECT_LIVE_COHORT"
+    },
+    {
+      "item": "entry limit",
+      "history": "fixed signalclose*1.013",
+      "snapshot": "zone low=mid*0.999, high=mid*1.003; refreshed limit uses book proposal and zone",
+      "status": "ENTRY_ELIGIBILITY_CAN_DIFFER_ACTUAL_ORDER_QUOTES_REQUIRED"
+    },
+    {
+      "item": "TP in entry bar",
+      "history": "disabled throughout first5m",
+      "snapshot": "after actual fill exchange orders/management can act inside same5m",
+      "status": "1M_OR_TICK_AND_ACTUAL_FILL_TIMES_REQUIRED"
+    },
+    {
+      "item": "stop activation after TP1",
+      "history": "next5m bar",
+      "snapshot": "after actual partial-fill detection and exchange update",
+      "status": "LATENCY_NEEDS_ACTUAL_EVENTS"
+    },
+    {
+      "item": "stop trigger mark versus last",
+      "history": "Bybit last OHLC",
+      "snapshot_actual": "not certified without sanitized runtime metadata",
+      "status": "DATA_GAP_PRICE_TYPE"
+    },
+    {
+      "item": "rounding minima dust",
+      "history": "ideal50/30/20 fractions",
+      "snapshot": "lot step and minimum remainder can change partial amounts",
+      "status": "NORMALIZED_LIVE_PARTIAL_FRACTIONS_REQUIRED"
+    },
+    {
+      "item": "live accounting",
+      "user_report": "realized_profit includes partial exits; close_profit_abs incomplete",
+      "history": "all exit legs already summed",
+      "status": "REPORTED_LIVE_LEDGER_NOT_YET_AVAILABLE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "purpose": "Read-only aggregate export prepared by authorized operator; no runtime access by Codex",
+  "expected_closed_count": 13,
+  "trade_required": ["source", "symbol", "signal_ms", "created_ms", "entry_ms", "exit_ms", "entry_price", "initial_stop_price", "net_R", "R_basis", "pnl_basis", "exits"],
+  "exit_fields": ["time_ms", "kind", "price", "fraction_of_initial_qty", "net_R", "fee_R", "funding_R"],
+  "decision_required": ["source", "symbol", "signal_ms", "created_ms", "decision", "reason", "coverage_start_ms", "coverage_end_ms"],
+  "decision_note": "All accepted, skipped, rejected, unfilled and cancelled decisions; complete past30days, not just winners",
+  "R_basis": "Derive normalized net from initial quantity and initial planned risk; quantities, balance and notional remain private",
+  "pnl_basis": "Use realized total including partial exits; distinguish funding/fees known vs unknown; do not substitute last-close-only result",
+  "optional_metadata": ["runtime_strategy_sha256", "scanner_sha256", "stop_price_type", "partial_rounding_known", "schema_version"],
+  "unknown_values": "null plus explicit status; never fabricate original snapshot, receipt or fee values",
+  "privacy": "Whitelist only; no raw account/order IDs, keys, balances, Telegram identifiers or host addresses",
+  "upload_target": "car-research research/pf-live-vs-backtest research/pf_live_vs_backtest_20261116/inputs/",
+  "state": "REQUEST_ONLY_NO_LIVE_ROWS_FABRICATED"
+}

@@ -1,0 +1,49 @@
+name: PF live versus saved history execution audit
+on:
+  push:
+    branches: [research/pf-live-vs-backtest]
+    paths: [.github/workflows/pf_live_backtest_audit.yml]
+permissions: {contents: write}
+concurrency:
+  group: pf-live-backtest-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - name: Exact OLD parity before frozen BE alignment, no data downloads
+        continue-on-error: true
+        run: python research/pf_live_vs_backtest_20261116/audit.py
+      - name: Scan source and all new result content including compressed ledgers
+        id: result_scan
+        if: always()
+        run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.result_scan.outcome == 'success'
+        with:
+          name: pf-live-history-parity-be-correction-and-data-gaps
+          path: research/pf_live_vs_backtest_20261116/RESULTS
+          retention-days: 7
+      - name: Publish checked results to isolated research branch only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_live_vs_backtest_20261116/RESULTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: preserve PF baseline parity, frozen BE alignment and live-data gaps [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-live-vs-backtest'],check=True,stdout=subprocess.DEVNULL)
+          PY

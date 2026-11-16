@@ -1,0 +1,67 @@
+{
+  "status": "TWO_SIGNAL_CARDS_NOT_CLOSED_LIVE_TRADES",
+  "snapshot_commit": "1ee7ed72d8924766e0aec0c403a56f029b86c0c5",
+  "snapshot_updated_ms": 1794422484810,
+  "rows": [
+    {
+      "source": "PUMP_FADE",
+      "symbol": "CRWVUSDT",
+      "side": "short",
+      "signal_ms": 1794405600000,
+      "created_ms": 1794405722332,
+      "expires_ms": 1794434522332,
+      "entry_low": 56.50935408,
+      "entry_high": 56.73561775999999,
+      "entry_mid": 56.56592,
+      "stop": 59.733611520000004,
+      "targets": [
+        55.378035679999996,
+        54.190151359999994,
+        53.00226704
+      ],
+      "tp_split": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "anchor": "fill",
+      "stop_pct": 5.6000000000000005,
+      "tp_pcts": [
+        2.1,
+        4.2,
+        6.3
+      ],
+      "max_hold_min": 4320
+    },
+    {
+      "source": "PUMP_FADE",
+      "symbol": "BLUAIUSDT",
+      "side": "short",
+      "signal_ms": 1794416400000,
+      "created_ms": 1794416522025,
+      "expires_ms": 1794445322025,
+      "entry_low": 0.007433044514999999,
+      "entry_high": 0.007462806454999998,
+      "entry_mid": 0.007440484999999999,
+      "stop": 0.00785715216,
+      "targets": [
+        0.0072842348149999995,
+        0.007127984629999999,
+        0.006971734445
+      ],
+      "tp_split": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "anchor": "fill",
+      "stop_pct": 5.6000000000000005,
+      "tp_pcts": [
+        2.1,
+        4.2,
+        6.3
+      ],
+      "max_hold_min": 4320
+    }
+  ]
+}
