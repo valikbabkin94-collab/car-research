@@ -52,4 +52,13 @@ class BinanceAnnouncementTests(unittest.TestCase):
   rec['releaseDate']='2026-08-01';self.assertEqual(f.parse(rec,detail)['status'],'REJECTED_PUBLICATION_WINDOW_OR_TIMESTAMP')
   rec['releaseDate']=h.START;detail['body']+=' Delisting at 2026-08-07 10:00 UTC.'
   self.assertEqual(f.parse(rec,detail)['status'],'DATA_GAP_UNAMBIGUOUS_SYMBOL_OR_DELIST_TIME')
+class FundingAmbiguityTests(unittest.TestCase):
+ def test_benefit_not_credited_after_possible_close_payer_stays_exposed(self):
+  events=[dict(kind='TP1',time_ms=h.B,fraction=.5)]
+  self.assertEqual(h.remaining_for_payment(events,h.B+1,1,-.001),.5)
+  self.assertEqual(h.remaining_for_payment(events,h.B+1,1,.001),1.)
+  self.assertEqual(h.remaining_for_payment(events,2*h.B,1,.001),.5)
+  events=[dict(kind='TIME',time_ms=h.B,fraction=1)]
+  self.assertEqual(h.remaining_for_payment(events,h.B,1,-.001),1.)
+  self.assertEqual(h.remaining_for_payment(events,h.B+1,1,-.001),0.)
 if __name__=='__main__':unittest.main()

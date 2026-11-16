@@ -17,7 +17,7 @@ def main():
     bars=h.window_bars(http,root,sym,obs,min(expiry+h.B,h.END));f=h.funding(http,root,sym);new=dict(r);new.update(h.simulate(bars,obs,1,r['stop'],expiry,f));new['symbol']=sym;new['overlap_correction']=True;r=new
    out.append(r)
    if r.get('status')!='CLOSED' or r.get('net_R') is None:continue
-   bars=h.window_bars(http,root,sym,obs,min(expiry+h.B,h.END));f=h.funding(http,root,sym);short=h.simulate(bars,obs,-1,2*r['entry']-r['stop'],expiry,f)
+   bars=h.window_bars(http,root,sym,obs,min(expiry+h.B,h.END));f=h.funding(http,root,sym);r=h.reprice_saved_funding(r,bars,f);out[-1]=r;short=h.simulate(bars,obs,-1,2*r['entry']-r['stop'],expiry,f)
    if short.get('status')=='CLOSED':pairs.append([r['net_R'],short['net_R']])
   except Exception as e:
    errors.append(dict(symbol=sym,signal_ms=obs,reason=type(e).__name__+': '+str(e)))

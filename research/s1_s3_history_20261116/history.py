@@ -203,9 +203,28 @@ def simulate(bars,signal,side,stop,expiry,fund,targets=True):
   if not first<t<=end:continue
   k=bisect.bisect_right(ts,t-B)-1
   if k<0 or bars[k][0]+B>t or t-(bars[k][0]+B)>B:p.update(status='FUNDING_MARK_UNKNOWN',net_R=None);return p
-  remaining=1.-sum(e['fraction'] for e in ev if e['time_ms']+B<=t)
+  remaining=remaining_for_payment(ev,t,side,float(payment['rate']))
   funding_return+=-side*remaining*float(payment['rate'])*bars[k][4]/o
  p.update(funding_R=funding_return/denom,net_R=(net+funding_return)/denom);return p
+
+def remaining_for_payment(events,t,side,rate):
+ pays=side*rate>0
+ return max(0.,1.-sum(e['fraction'] for e in events if (e['time_ms']<t if e['kind']=='TIME' or not pays else e['time_ms']+B<=t)))
+
+def reprice_saved_funding(r,bars,fund):
+ # Preserve already calculated fills/fees/slippage; correct only ambiguous funding quantity.
+ if r.get('status')!='CLOSED' or r.get('price_net_R') is None:return r
+ r=dict(r);r['pre_correction_net_R']=r.get('net_R');a=r['entry_ms'];end=r['exit_ms']
+ if not covered(fund,a,end):r.update(status='FUNDING_UNKNOWN',net_R=None);return r
+ ts=[x[0] for x in bars];cash=0.
+ for payment in fund['rows']:
+  t=int(payment['ts'])
+  if not a<t<=end:continue
+  k=bisect.bisect_right(ts,t-B)-1
+  if k<0 or bars[k][0]+B>t or t-(bars[k][0]+B)>B:r.update(status='FUNDING_MARK_UNKNOWN',net_R=None);return r
+  rate=float(payment['rate']);side=1 if r['direction']==1 else -1
+  cash+=-side*remaining_for_payment(r['events'],t,side,rate)*rate*bars[k][4]/r['entry']/r['risk_denominator']
+ r.update(funding_R=cash,net_R=r['price_net_R']+cash,funding_ordering='CONSERVATIVE_PAYER_VS_RECEIVER_SAME_BAR');return r
 
 def metrics(trades):
  closed=[t for t in trades if t.get('status')=='CLOSED' and t.get('net_R') is not None];v=[t['net_R'] for t in closed];positive=sum(x for x in v if x>0);negative=-sum(x for x in v if x<0);net=sum(v);peak=0.;equity=0.;dd=0.
