@@ -1,0 +1,12 @@
+{
+  "initial_unfinished_policy_cases": 38,
+  "continued_simulator_calls": 49,
+  "rounds": 3,
+  "newly_closed_cases": 26,
+  "remaining_unfinished_cases": 1,
+  "closed_trade_equality": "PASS_ALL_EXISTING_CLOSED_ROWS_UNCHANGED",
+  "legacy_equality": "PASS_NO_P4_P5_REPLAY",
+  "code_sha": "bc88185aa83ef8616eb52c9654c73de96d6d8316",
+  "selection": "ONLY_PREEXISTING_UNFINISHED_NO_RETURN_SELECTION",
+  "next": "Only source gaps, friend handle and new prospective observations"
+}

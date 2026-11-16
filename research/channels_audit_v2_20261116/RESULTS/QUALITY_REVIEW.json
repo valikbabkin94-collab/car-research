@@ -1,7 +1,7 @@
 {
   "criterion": "P1 unresolved_author_actions>0 excludes exact author outcome regardless of sign; conditional baseline retained separately",
-  "before_quality_sha256": "45ba0f7c035f03320008a89b4620d5a111bc05c5d4b1f63ab26e04c82700eaed",
-  "implementation": "metadata_only_no_fills_or_PnL_replay",
-  "changed_closed_rows": 74,
-  "code_sha": "c75ebfef7b157e558afd073feca826cb5fa1441a"
+  "before_quality_sha256": "e303a8e481467b2ee22dfaf8d701df92ad568a2d1ad1faf9bc5d8b3abf4472c0",
+  "changed_closed_rows": 76,
+  "implementation": "same_sign_independent_gate_after_continuing_only_unfinished",
+  "previous_quality_code_sha": "c75ebfef7b157e558afd073feca826cb5fa1441a"
 }

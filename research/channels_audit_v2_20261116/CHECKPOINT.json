@@ -1,6 +1,6 @@
 {
   "stage": "INITIAL_AUDIT_COMPLETE_WITH_EXPLICIT_GAPS",
-  "code_sha": "c75ebfef7b157e558afd073feca826cb5fa1441a",
+  "code_sha": "bc88185aa83ef8616eb52c9654c73de96d6d8316",
   "findings": {
     "original_signals": 2489,
     "channels": 45,
@@ -8,15 +8,15 @@
     "signals_with_any_linked_update": 351,
     "signals_with_actionable_linked_update": 116,
     "P1_statuses": {
-      "TRADE": 2033,
+      "TRADE": 2051,
       "DATA_GAP_ENTRY": 143,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 182,
-      "UNRESOLVED_AUTHOR_LOG": 74,
-      "CENSORED_NEEDS_EXTENSION": 44,
-      "DATA_GAP_HOLD_NEEDS_EXTENSION": 13
+      "UNRESOLVED_AUTHOR_LOG": 76,
+      "CENSORED_ASOF": 36,
+      "CENSORED_NEEDS_EXTENSION": 1
     },
     "P1_trades_author_closed": 7,
-    "matched5_signal_n": 1705,
+    "matched5_signal_n": 1718,
     "methodology_bias": "NOT_ESTABLISHED_NOT_ALL_EXECUTIONS_OR_FORWARD_AVAILABLE",
     "friend_channel": "BLOCKED_USERNAME_NOT_SUPPLIED",
     "forward": "NOT_STARTED_NO_FUTURE_OBSERVATION",
@@ -27,7 +27,6 @@
   "next": "Resolve friend handle, extend censored source gaps only, verify parser links then prospective forward; never rerun legacy",
   "LIVE_changes": 0,
   "quality_review_completed": true,
-  "TP_claims_compared_to_existing_prices": true,
-  "no_additional_PnL_replays": true,
-  "mirror_bias_audited": true
+  "continuation_completed": true,
+  "existing_closed_and_legacy_unchanged": true
 }
