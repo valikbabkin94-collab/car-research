@@ -1,0 +1,56 @@
+{
+  "kind": "CAUSAL_H1_OPPORTUNITY_AUDIT_NOT_PNL",
+  "counts": {
+    "FULL": {
+      "possible_before_unknown_Q": 1267,
+      "known_eligible_before_portfolio": 0,
+      "unknown_nonmeme": 1267,
+      "entry_or_stop_rejected": 920,
+      "funding_window_unknown": 343,
+      "funding_file_missing": 298
+    },
+    "NO_OWN_DECLINE": {
+      "possible_before_unknown_Q": 1300,
+      "known_eligible_before_portfolio": 0,
+      "unknown_nonmeme": 1300,
+      "entry_or_stop_rejected": 940,
+      "funding_window_unknown": 343,
+      "funding_file_missing": 298
+    },
+    "NO_REVERSAL": {
+      "possible_before_unknown_Q": 22125,
+      "known_eligible_before_portfolio": 0,
+      "unknown_nonmeme": 22125,
+      "entry_or_stop_rejected": 9561,
+      "funding_window_unknown": 5929,
+      "funding_file_missing": 4962
+    },
+    "NO_QUALITY": {
+      "possible_before_unknown_Q": 7948,
+      "known_eligible_before_portfolio": 2903,
+      "unknown_nonmeme": 0,
+      "entry_or_stop_rejected": 5045,
+      "funding_window_unknown": 4619,
+      "funding_file_missing": 3733
+    },
+    "NO_MEME": {
+      "possible_before_unknown_Q": 1267,
+      "known_eligible_before_portfolio": 347,
+      "unknown_nonmeme": 0,
+      "entry_or_stop_rejected": 920,
+      "funding_window_unknown": 343,
+      "funding_file_missing": 298
+    }
+  },
+  "universe_symbols": 701,
+  "verified_frames": 701,
+  "meme_asof": "MISSING_UNKNOWN_NOT_FALSE",
+  "funding_envelope_note": "File/month coverage only, individual payment/continuity/mark not yet audited; not net coverage proof",
+  "portfolio_replay": "NOT_RUN; no holding cap applied in opportunity counts",
+  "PnL_runs": 0,
+  "status": "PARTIAL_INPUT_FORENSICS_G3h_REPLAY_PENDING",
+  "window": [
+    1698796800000,
+    1794614400000
+  ]
+}

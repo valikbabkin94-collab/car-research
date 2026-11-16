@@ -1,0 +1,342 @@
+{
+  "L30_LONG_ONLY": {
+    "periods": {
+      "H1": {
+        "start_ms": 1698796800000,
+        "end_ms": 1746705600000,
+        "net_usdt": 1715.5074463372002,
+        "return_percent": 17.15507446337201,
+        "annualized_return_percent": 10.984426822478444,
+        "max_drawdown_percent": 9.73092137553837,
+        "daily_sharpe": 1.1919720265052738,
+        "best_month_fraction_net": 0.5952122825149002,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": false,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "H2_SOURCE_BOUNDED": {
+        "start_ms": 1746705600000,
+        "end_ms": 1793487600000,
+        "net_usdt": 18.013063085758404,
+        "return_percent": 0.15375401508015418,
+        "annualized_return_percent": 0.10362046597089947,
+        "max_drawdown_percent": 9.004691505721041,
+        "daily_sharpe": -0.025315081265680477,
+        "best_month_fraction_net": 21.675095328426696,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "TAIL40_SOURCE_BOUNDED": {
+        "start_ms": 1756287900000,
+        "end_ms": 1793487600000,
+        "net_usdt": -508.448722407451,
+        "return_percent": -4.1533246226875935,
+        "annualized_return_percent": -3.5322899358679494,
+        "max_drawdown_percent": 9.004691505721041,
+        "daily_sharpe": -0.46874626588463497,
+        "best_month_fraction_net": null,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "SOURCE_BOUNDED_FULL": {
+        "start_ms": 1698796800000,
+        "end_ms": 1793487600000,
+        "net_usdt": 1733.5205094229586,
+        "return_percent": 17.33520509422959,
+        "annualized_return_percent": 5.468444848448395,
+        "max_drawdown_percent": 9.73092137553837,
+        "daily_sharpe": 0.6629662404158077,
+        "best_month_fraction_net": 0.5890274140140204,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "PRIMARY_FULL": {
+        "status": "DATA_BLOCKED_CURRENT_MONTH_FUNDING",
+        "net_usdt": null,
+        "PF": null,
+        "end_required": 1794614400000,
+        "data_end": 1793487600000
+      }
+    },
+    "control": {
+      "n": 1000,
+      "mutable_sign_symbols": 0,
+      "status": "INSUFFICIENT_SIGN_VARIATION",
+      "one_sided_p": null,
+      "null_mean_net_usdt": 1733.5205094230246,
+      "holm4_p": 1
+    },
+    "cash": {
+      "fees": 76.84214994992465,
+      "slippage": 69.85649995447696,
+      "funding": 92.89864548946157
+    },
+    "execution_legs": 2168,
+    "weekly_decisions": 156,
+    "early_block": null,
+    "primary_status": "INCONCLUSIVE_NO_FULL_FUNDING",
+    "source_end": 1793487600000
+  },
+  "L30_LONG_SHORT": {
+    "periods": {
+      "H1": {
+        "start_ms": 1698796800000,
+        "end_ms": 1746705600000,
+        "net_usdt": 1187.7482296993494,
+        "return_percent": 11.877482296993502,
+        "annualized_return_percent": 7.66756841399252,
+        "max_drawdown_percent": 12.536687609319442,
+        "daily_sharpe": 0.752857921041552,
+        "best_month_fraction_net": 0.6048506603656073,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": false,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "H2_SOURCE_BOUNDED": {
+        "start_ms": 1746705600000,
+        "end_ms": 1793487600000,
+        "net_usdt": 451.06099242847085,
+        "return_percent": 4.031740643135584,
+        "annualized_return_percent": 2.7002741209638526,
+        "max_drawdown_percent": 9.527956047023844,
+        "daily_sharpe": 0.30086160448505306,
+        "best_month_fraction_net": 1.2184144494044609,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "TAIL40_SOURCE_BOUNDED": {
+        "start_ms": 1756287900000,
+        "end_ms": 1793487600000,
+        "net_usdt": 280.88831735502754,
+        "return_percent": 2.4730610444469114,
+        "annualized_return_percent": 2.092624459049075,
+        "max_drawdown_percent": 9.527956047023844,
+        "daily_sharpe": 0.2826851476891873,
+        "best_month_fraction_net": 1.9565756095257134,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "SOURCE_BOUNDED_FULL": {
+        "start_ms": 1698796800000,
+        "end_ms": 1793487600000,
+        "net_usdt": 1638.8092221278202,
+        "return_percent": 16.388092221278193,
+        "annualized_return_percent": 5.184150985391756,
+        "max_drawdown_percent": 12.536687609319442,
+        "daily_sharpe": 0.5627799238569984,
+        "best_month_fraction_net": 0.43837335754612905,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "PRIMARY_FULL": {
+        "status": "DATA_BLOCKED_CURRENT_MONTH_FUNDING",
+        "net_usdt": null,
+        "PF": null,
+        "end_required": 1794614400000,
+        "data_end": 1793487600000
+      }
+    },
+    "control": {
+      "n": 1000,
+      "mutable_sign_symbols": 112,
+      "status": "SOURCE_BOUNDED_DIAGNOSTIC",
+      "one_sided_p": 0.1088911088911089,
+      "null_mean_net_usdt": 450.53884474531435,
+      "holm4_p": 0.4355644355644356
+    },
+    "cash": {
+      "fees": 147.71213176574216,
+      "slippage": 134.2837561506747,
+      "funding": 120.15908587147393
+    },
+    "execution_legs": 3412,
+    "weekly_decisions": 156,
+    "early_block": null,
+    "primary_status": "INCONCLUSIVE_NO_FULL_FUNDING",
+    "source_end": 1793487600000
+  },
+  "L90_LONG_ONLY": {
+    "periods": {
+      "H1": {
+        "start_ms": 1698796800000,
+        "end_ms": 1746705600000,
+        "net_usdt": 1681.6861420452842,
+        "return_percent": 16.816861420452845,
+        "annualized_return_percent": 10.773419724608324,
+        "max_drawdown_percent": 8.662839915826904,
+        "daily_sharpe": 1.0906267097820452,
+        "best_month_fraction_net": 0.7589114828845825,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": false,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "H2_SOURCE_BOUNDED": {
+        "start_ms": 1746705600000,
+        "end_ms": 1793487600000,
+        "net_usdt": -459.3858797153516,
+        "return_percent": -3.9325305793134424,
+        "annualized_return_percent": -2.668229470997041,
+        "max_drawdown_percent": 9.450443285329479,
+        "daily_sharpe": -0.3094919182092225,
+        "best_month_fraction_net": null,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "TAIL40_SOURCE_BOUNDED": {
+        "start_ms": 1756287900000,
+        "end_ms": 1793487600000,
+        "net_usdt": -829.3126273827766,
+        "return_percent": -6.881341401951935,
+        "annualized_return_percent": -5.8650470347266115,
+        "max_drawdown_percent": 9.450443285329479,
+        "daily_sharpe": -0.8681255281897888,
+        "best_month_fraction_net": null,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "SOURCE_BOUNDED_FULL": {
+        "start_ms": 1698796800000,
+        "end_ms": 1793487600000,
+        "net_usdt": 1222.3002623299326,
+        "return_percent": 12.223002623299317,
+        "annualized_return_percent": 3.9152684454428766,
+        "max_drawdown_percent": 10.752898506883524,
+        "daily_sharpe": 0.47534604557008686,
+        "best_month_fraction_net": 1.0441386320029635,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "PRIMARY_FULL": {
+        "status": "DATA_BLOCKED_CURRENT_MONTH_FUNDING",
+        "net_usdt": null,
+        "PF": null,
+        "end_required": 1794614400000,
+        "data_end": 1793487600000
+      }
+    },
+    "control": {
+      "n": 1000,
+      "mutable_sign_symbols": 0,
+      "status": "INSUFFICIENT_SIGN_VARIATION",
+      "one_sided_p": null,
+      "null_mean_net_usdt": 1222.3002623298362,
+      "holm4_p": 1
+    },
+    "cash": {
+      "fees": 55.748513827032745,
+      "slippage": 50.68046711548428,
+      "funding": -113.64615880450381
+    },
+    "execution_legs": 1918,
+    "weekly_decisions": 156,
+    "early_block": null,
+    "primary_status": "INCONCLUSIVE_NO_FULL_FUNDING",
+    "source_end": 1793487600000
+  },
+  "L90_LONG_SHORT": {
+    "periods": {
+      "H1": {
+        "start_ms": 1698796800000,
+        "end_ms": 1746705600000,
+        "net_usdt": 965.7218384800017,
+        "return_percent": 9.657218384800025,
+        "annualized_return_percent": 6.25626121600884,
+        "max_drawdown_percent": 10.899307633219635,
+        "daily_sharpe": 0.6207435429526568,
+        "best_month_fraction_net": 1.286158738755624,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": false,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "H2_SOURCE_BOUNDED": {
+        "start_ms": 1746705600000,
+        "end_ms": 1793487600000,
+        "net_usdt": -452.033646801392,
+        "return_percent": -4.122242506782847,
+        "annualized_return_percent": -2.797840088724801,
+        "max_drawdown_percent": 12.236963717348825,
+        "daily_sharpe": -0.17668940243003523,
+        "best_month_fraction_net": null,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "TAIL40_SOURCE_BOUNDED": {
+        "start_ms": 1756287900000,
+        "end_ms": 1793487600000,
+        "net_usdt": -352.95904974166115,
+        "return_percent": -3.2480952210935055,
+        "annualized_return_percent": -2.7604637540724952,
+        "max_drawdown_percent": 12.236963717348825,
+        "daily_sharpe": -0.2657473361988176,
+        "best_month_fraction_net": null,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "SOURCE_BOUNDED_FULL": {
+        "start_ms": 1698796800000,
+        "end_ms": 1793487600000,
+        "net_usdt": 513.6881916786097,
+        "return_percent": 5.136881916786096,
+        "annualized_return_percent": 1.6822989181580095,
+        "max_drawdown_percent": 13.961767167847782,
+        "daily_sharpe": 0.21703686906311223,
+        "best_month_fraction_net": 2.4179484790362995,
+        "R": null,
+        "PF": "NA_PORTFOLIO_MTM_NOT_INDEPENDENT_CLOSED_TRADES",
+        "end_truncated": true,
+        "mark": "15m_open_MTM; funding previous_closed_15m_close_proxy"
+      },
+      "PRIMARY_FULL": {
+        "status": "DATA_BLOCKED_CURRENT_MONTH_FUNDING",
+        "net_usdt": null,
+        "PF": null,
+        "end_required": 1794614400000,
+        "data_end": 1793487600000
+      }
+    },
+    "control": {
+      "n": 1000,
+      "mutable_sign_symbols": 66,
+      "status": "SOURCE_BOUNDED_DIAGNOSTIC",
+      "one_sided_p": 0.4015984015984016,
+      "null_mean_net_usdt": 298.7743160431476,
+      "holm4_p": 1
+    },
+    "cash": {
+      "fees": 98.99287391596982,
+      "slippage": 89.99352174179072,
+      "funding": -68.85400242117545
+    },
+    "execution_legs": 3004,
+    "weekly_decisions": 156,
+    "early_block": null,
+    "primary_status": "INCONCLUSIVE_NO_FULL_FUNDING",
+    "source_end": 1793487600000
+  }
+}
