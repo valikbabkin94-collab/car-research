@@ -1,0 +1,12 @@
+{
+  "signals": 1385,
+  "processed": 1371,
+  "errors": [
+    {
+      "symbol": "TRXUSDT",
+      "signal_ms": 1793333820000,
+      "reason": "RANDOM_DIRECTION_PAIR_UNAVAILABLE",
+      "status": "CENSORED"
+    }
+  ]
+}

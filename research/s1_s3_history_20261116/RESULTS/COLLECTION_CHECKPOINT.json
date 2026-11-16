@@ -1,0 +1,5964 @@
+{
+  "completed": 923,
+  "total": 923,
+  "symbols": [
+    {
+      "symbol": "0GUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000000BOBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000BTTCUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000WHYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1000XUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "2ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "42USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "4USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "A2ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAOIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ABBVUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ACEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACNUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "ACTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ACXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ADAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ADBEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AERGOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AEROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AGPUUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "AGTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AI16ZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AKAMUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "AKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AKROUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AKTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALABUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPACAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPHAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ALTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMCUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "AMDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AMGNUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "AMZNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANCUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "ANETUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANTHROPICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ANTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "APEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "API3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APLDUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "APPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "APTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ARXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASMLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ASTSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AUDIOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "AUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AWEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AXTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "B2USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "B3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BABAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BABYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BACUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "BADGERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BARDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BBXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BCHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BDXNUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BEATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BERAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BICOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BILLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BITOUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLUEBIRDUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BLURUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BLZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BMNRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BNXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BONDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BREVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRKBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BSWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTCSTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BTSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BTWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BWETUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "BXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "BYDUSDT",
+      "rows": 1318,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "BZRXUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "BZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "C98USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CAPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CARVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CATIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CBRSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CEGUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "CELOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CELRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CFGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CFXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CHZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CIENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CKBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COCOSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "COHRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMMONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COPPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "COWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRCLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRMLUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CRMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRWDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CSCOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CSOPSAMSUNG2LUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CSOPSKHYNIX2LUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CTKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CTUSDT",
+      "rows": 737,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "CUDISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CVCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CVNAUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CVXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CXMTUSDT",
+      "rows": 1795,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "CYPHUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "CYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DASHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DDOGUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DGBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DJTUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "DKNGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DMCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DODOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOODUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DOSUSDT",
+      "rows": 1953,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "DOTECOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "DOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DRAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "DYMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EBAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EDUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EIDOUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ENSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EOSUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "EPICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EQTUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ERAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ESPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EULUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "EWZSUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "EWZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FHEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FIOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLEXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FOOTBALLUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "FORMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FRONTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "FTMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FTTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FWDIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "FXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GALAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GALUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "GASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GDXUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GEVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GHSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GIGADEVUSDT",
+      "rows": 2155,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GLWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GOATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GOOGLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GPROUSDT",
+      "rows": 1403,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "GPSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "rows": 2220,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GSUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GTLBUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "GUAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HANMIUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "HBARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIGHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIPPOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HK0625USDT",
+      "rows": 1462,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HK0700USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HK0992USDT",
+      "rows": 1318,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HK1810USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HNTUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOODUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOOKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HUTUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "HYUNDAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IBKRUSDT",
+      "rows": 255,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "IBMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ICXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDEXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ILVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INITUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INTWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "INXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IONQUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "IWMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JCTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JOEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JPMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JTOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "JUPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KEEPUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KEYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KGENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KITEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KLACUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KLAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KNCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KODEX200USDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KORUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KOUSDT",
+      "rows": 2079,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "KSMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "KUAISHOUUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "LABUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LENDUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "LEVERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LGELECTRONICSUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LINKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LITEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LITUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LLYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LOOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LRCXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LSKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "LYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "LYTEUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MARAUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "rows": 1455,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MASKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MATICUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MAVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MBLUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "MBOXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MCDUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MDBUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MDTUSDT",
+      "rows": 2199,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEITUANUSDT",
+      "rows": 1966,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MELIUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MEMEFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MERLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "METUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MEWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MILKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MINAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MINIMAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MITOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MLNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOONSHOTUSDT",
+      "rows": 952,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MPUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "MRKUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MRNAUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "MRVLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSFTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MSTUUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "MTLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MUUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MYROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "MYXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NATGASUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NAVERUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "NBISUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEIROETHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NEOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NETUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NFLXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NFPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NKEUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "NKNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NTRNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NULSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NUUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "NVDAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NVDLUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "NVOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OBOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OCEANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OGNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OKLOUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "OLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMNIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONDSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPENAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORBSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORCLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OURAUSDT",
+      "rows": 928,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "OUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OXTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "OXYUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PANWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PATHUSDT",
+      "rows": 1047,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PAYPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PDDUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PENGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PERPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PFEUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PHAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PHBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLTRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PONKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PONSUSDT",
+      "rows": 1338,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POPMARTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PORT3USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POWERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "POWRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PREDICTUSDT",
+      "rows": 160,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "PRLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROMPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PTBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUFFERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUMPBTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PYPLUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QCOMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QNTXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QUICKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "QUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RADUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAMUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "RAREUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RAYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RDDTUSDT",
+      "rows": 2079,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "RDNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RDWUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REEFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "REZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RIVNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RKLBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RLCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RLSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RONINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RSRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RUMUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RVNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "RVVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAMSUNGEMUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SAMSUNGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SANDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SECZUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "SEIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SFPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHAZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SHOPUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKATEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKDDUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SKHYNIXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKHYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKUUUSDT",
+      "rows": 1623,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SKYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLERFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SLXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMCIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMHUSDT",
+      "rows": 2271,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SMRUSDT",
+      "rows": 62,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "SNDKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNOWUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNPSUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "SNTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SONICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SONYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SOXSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPCXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SPYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SQDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SQQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SRMUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "SSVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STBLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STMUSDT",
+      "rows": 135,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "STMXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STORJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRAXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STRKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "STXXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SWELLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SXPUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "SXTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "SYSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TACUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TANSSIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TBTUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TEAMUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TEMUSDT",
+      "rows": 1551,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "TENCENTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "THETAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "THEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TMFUSDT",
+      "rows": 2315,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOKENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOMOUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "TONUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TQQQUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TREEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TROYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TRXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSLAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSLLUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TSMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TSTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TTWOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TWSTUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "TWTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TXNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "TZAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UBERUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UNFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UNHUSDT",
+      "rows": 783,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "UNITREEUSDT",
+      "rows": 1774,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "UNIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "URNMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USARUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USDBRLUSDT",
+      "rows": 970,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "USDCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USDEXUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USTCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USUALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "USUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UVXYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "UXLINKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VANAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VELODROMEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VFYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VICUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VIDTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VINEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VKTXUSDT",
+      "rows": 615,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "VOXELUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VRTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VSTUSDT",
+      "rows": 1811,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "VVVUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WALUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WAVESUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WCTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WDCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WETUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WIFUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WLDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WMTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WOOUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "WUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XANUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XAUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XBIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XCNUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XEMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XLEUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XLMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XMRUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XNYUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XOMUSDT",
+      "rows": 807,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "XPDUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPINUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPLUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XPTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XRPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XTZUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XVGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "XVSUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YALAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YBUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YFIIUSDT",
+      "rows": 0,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ]
+    },
+    {
+      "symbol": "YFIUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "YGGUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZCSHUSDT",
+      "rows": 471,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ]
+    },
+    {
+      "symbol": "ZECUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZENUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZHIPUUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "rows": 1894,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "ZILUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKJUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZKUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZMUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZRCUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZROUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "ZSUSDT",
+      "rows": 1430,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "哈基米USDT",
+      "rows": 1337,
+      "errors": [],
+      "absent_months": [
+        "2026-07",
+        "2026-08"
+      ]
+    },
+    {
+      "symbol": "币安人生USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    },
+    {
+      "symbol": "牛来USDT",
+      "rows": 1501,
+      "errors": [],
+      "absent_months": [
+        "2026-07"
+      ]
+    },
+    {
+      "symbol": "龙虾USDT",
+      "rows": 2400,
+      "errors": [],
+      "absent_months": []
+    }
+  ],
+  "pnl_runs": 0
+}

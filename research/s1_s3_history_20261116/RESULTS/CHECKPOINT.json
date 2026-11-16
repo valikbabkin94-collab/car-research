@@ -1,0 +1,12 @@
+{
+  "stage": "RESULTS_SAVED_WITH_LIMITATIONS",
+  "results": {
+    "S1": "PARTIAL_SAVED_SELECTED_EXECUTION_BINANCE_PIT_PROXY_NOT_NEW_EXACT_S1",
+    "S2": "INCONCLUSIVE_DATA_GAP",
+    "S3": "S3_SETTLED_BINANCE_PROXY_NOT_EXACT_TICKER_FACTORY"
+  },
+  "code_sha": "4c673bab72f8435945294d27c7e406f80649f4df",
+  "protocol_commit": "48c6061",
+  "profitability": "NOT_CERTIFIED",
+  "round4_run_untouched": 43842872790
+}
