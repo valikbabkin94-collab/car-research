@@ -1,0 +1,60 @@
+{
+  "classification": "PUBLIC_MARKET_ARCHIVES_AND_SIMULATED_RESEARCH_TRADES_ONLY",
+  "archive_catalog_prefixes": 923,
+  "symbols_with_H1": 892,
+  "H1_bars": 2025120,
+  "source_fetch_errors_H1": 0,
+  "PIT_status": "BINANCE_ARCHIVE_INDEX_PROXY_NOT_BYBIT_PIT_CERTIFICATE",
+  "funding_seeds_reused": 239,
+  "seed_manifest": "REUSED_FUNDING_MANIFEST.json",
+  "seed_public_manifest_mismatches": 0,
+  "funding_symbols_examined": 637,
+  "Bybit_announcements": {
+    "status": "DATA_GAP_ACCESS",
+    "error": "HTTP403 from public GitHub runner",
+    "attempts": "source audit and primary S2",
+    "VPN_or_key_used": false
+  },
+  "Binance_announcements": {
+    "pages": 2,
+    "rows": 100,
+    "futures_delist_articles": 2,
+    "current_index_period_covered": true,
+    "original_revision_gap": true,
+    "eligible_conditional_symbols": 3,
+    "entry_disabled_symbols": 2
+  },
+  "TradFi": "BYBIT_HISTORICAL_UNIVERSE_AND_PRICES_NOT_AVAILABLE_IN_USED_PUBLIC_ARCHIVES",
+  "Honor": "NOT_ACCESSED_GITHUB_ONLY_DOES_NOT_ESTABLISH_HONOR_ABSENCE",
+  "sources": [
+    {
+      "name": "historical source frames",
+      "path": "GitHub Actions43869713881 artifact s1-s3-history-inputs-results-checkpoint",
+      "bytes": 133118925,
+      "retention_days": 7,
+      "manifest": "RESULTS/H1_MANIFEST.json"
+    },
+    {
+      "name": "S1 simulated selected executions and funding",
+      "path": "../scenario_factory_20261116/inputs",
+      "quality": "partial old selected corpus; pre2026-08-30 model-selection leakage"
+    },
+    {
+      "name": "S2 exact saved public bodies",
+      "path": "RESULTS/ANNOUNCEMENT_SOURCES",
+      "quality": "current revision only; no causal first edition"
+    },
+    {
+      "name": "S2 saved5m and funding source inputs",
+      "path": "RESULTS/S2_INPUTS",
+      "manifest": "RESULTS/S2_INPUTS/MANIFEST.json",
+      "quality": "checksum verified; entry and exit quote identity checked; permanent compressed GitHub copy"
+    },
+    {
+      "name": "S3 all trades and controls",
+      "path": "RESULTS/S3_FACTORY_TRADES.json.gz",
+      "sha256": "c2b395566ed2c3a58ef574293758ca321bd6e039f01831352a252c19c034eaa4",
+      "quality": "all1346closed have funding coverage; exchange/prediction proxies remain"
+    }
+  ]
+}

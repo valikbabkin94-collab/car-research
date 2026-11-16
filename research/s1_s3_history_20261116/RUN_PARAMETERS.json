@@ -1,0 +1,51 @@
+{
+  "window_utc": [
+    "2026-08-01T00:00:00Z",
+    "2026-11-01T00:00:00Z"
+  ],
+  "warmup_utc": "2026-07-24T00:00:00Z",
+  "entry_timeframe": "5m",
+  "structure_timeframe": "closed 1h",
+  "rank": "past24 closed H1 quote turnover Binance USDT-M archive-wide",
+  "taker_per_leg": 0.00055,
+  "maker_per_leg_if_proven": 0.0002,
+  "primary_execution_fees": "taker; maker fills not certified",
+  "slippage_market_entry_stop_time": 0.0005,
+  "TP_slippage": 0,
+  "SL_first": true,
+  "TP_in_entry_bar": false,
+  "R_denominator": "initial stop width + 0.0021",
+  "USD_per_R": 5,
+  "S2": {
+    "stop": 0.08,
+    "entry": "first5m open strictly after exact publication",
+    "exit": "floor5m(delist UTC -24h)",
+    "entry_ban": "reject ordinary new positions if restriction already effective",
+    "causal_closed_n": 0
+  },
+  "S3": {
+    "indicative_history": "DATA_GAP",
+    "proxy": "last settled funding strictly before observation, actual interval normalization to8h",
+    "threshold_8h": -0.001,
+    "observation": "hour:17UTC",
+    "entry": "hour:20UTC",
+    "stop": "min24closedH1*(1-1e-8)",
+    "TP_R": [
+      1,
+      2,
+      3
+    ],
+    "fractions": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "BE": false,
+    "hold_hours": 48,
+    "cooldown_hours": 24,
+    "overlap": "allowed in factory-corresponding version"
+  },
+  "control_seed": 20261116,
+  "control_samples": 999,
+  "optimization_runs": 0
+}

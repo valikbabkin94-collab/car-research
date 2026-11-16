@@ -1,1 +1,26 @@
-{"stage":"PROTOCOL_FROZEN_BEFORE_PNL","pnl_runs":0,"factory_source_sha":"b6b2fef8d501cd6e40765838b325dc3dfba538f0","window_utc":["2026-08-01","2026-11-01"],"round4_run_untouched":43842872790,"next":"Actions public-source audit, PIT coverage, bounded proxy replay"}
+{
+  "stage": "AVAILABLE_PUBLIC_HISTORY_COMPLETED_NO_VALIDATED_EDGE",
+  "scenario_statuses": {
+    "S1_saved_cohort": "REJECTED_AS_ROBUST_EDGE_ON_COVERED_SAMPLE",
+    "S1_exact_Bybit_full": "INCONCLUSIVE",
+    "S3_settled_proxy": "REJECTED_AS_ROBUST_EDGE_ON_THIS_WINDOW",
+    "S3_exact_indicative_Bybit": "INCONCLUSIVE",
+    "S2": "INCONCLUSIVE_REVISION_AND_SAMPLE_GAPS"
+  },
+  "runs": {
+    "initial": 43869713881,
+    "factory_alignment_and_fallback": 43874717889,
+    "source_schema_audit": 43875475948,
+    "conditional_S2_replay": 43876572227,
+    "S2_source_retention_only": 43877169580
+  },
+  "all_runs_success": true,
+  "offline_tests": 16,
+  "optimization_runs": 0,
+  "round4_untouched": 43842872790,
+  "profitability_validated_count": 0,
+  "next": "Independent Claude audit; new independent original announcements/ticker snapshots/PIT sources; no retuning on observed tail",
+  "desktop_calls": 0,
+  "bybit_keys": 0,
+  "live_changes": 0
+}

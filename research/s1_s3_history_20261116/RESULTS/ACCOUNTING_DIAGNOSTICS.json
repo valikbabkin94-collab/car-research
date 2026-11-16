@@ -1,0 +1,202 @@
+{
+  "S1": {
+    "FULL": {
+      "n": 175,
+      "net_R": -4.260237179099928,
+      "mean_net_R": -0.024344212451999588,
+      "price_net_R": null,
+      "funding_R": null,
+      "best3_all_closed_sum_R": 1.7680938098155048,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 1.7680938098155048,
+      "source_ledger_sha256": "69ac25b890b34e381e80351d9b6a7d2f56afac4dd76152899614fd307fbc76bc"
+    },
+    "H1": {
+      "n": 79,
+      "net_R": -3.7547320123136254,
+      "mean_net_R": -0.04752825332042564,
+      "price_net_R": null,
+      "funding_R": null,
+      "best3_all_closed_sum_R": 1.7639401157568115,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 1.7639401157568115,
+      "source_ledger_sha256": "69ac25b890b34e381e80351d9b6a7d2f56afac4dd76152899614fd307fbc76bc"
+    },
+    "H2": {
+      "n": 96,
+      "net_R": -0.5055051667863024,
+      "mean_net_R": -0.00526567882069065,
+      "price_net_R": null,
+      "funding_R": null,
+      "best3_all_closed_sum_R": 1.7677791246509464,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 1.7677791246509464,
+      "source_ledger_sha256": "69ac25b890b34e381e80351d9b6a7d2f56afac4dd76152899614fd307fbc76bc"
+    },
+    "OOS40": {
+      "n": 79,
+      "net_R": 0.9379221787552119,
+      "mean_net_R": 0.011872432642471037,
+      "price_net_R": null,
+      "funding_R": null,
+      "best3_all_closed_sum_R": 1.7677791246509464,
+      "best3_all_closed_share_net": 1.8847823035777884,
+      "best1_share_net": 0.630368484319249,
+      "positive_top3_sum_R": 1.7677791246509464,
+      "source_ledger_sha256": "69ac25b890b34e381e80351d9b6a7d2f56afac4dd76152899614fd307fbc76bc"
+    }
+  },
+  "S3": {
+    "FULL": {
+      "n": 1012,
+      "net_R": 8.522663512398506,
+      "mean_net_R": 0.008421604261263345,
+      "price_net_R": -61.385233234821754,
+      "funding_R": 69.90789674722026,
+      "best3_all_closed_sum_R": 5.720055872115219,
+      "best3_all_closed_share_net": 0.6711582434052288,
+      "best1_share_net": 0.22800487951249385,
+      "positive_top3_sum_R": 5.720055872115219,
+      "source_ledger_sha256": "41df839771d57a8f8dd9f1ebd77d1d56f9a3a05cdabac1fd723b9d2c562fcbe7"
+    },
+    "H1": {
+      "n": 581,
+      "net_R": 1.6506057195528145,
+      "mean_net_R": 0.0028409736997466687,
+      "price_net_R": -41.96473282610623,
+      "funding_R": 43.61533854565904,
+      "best3_all_closed_sum_R": 5.720055872115219,
+      "best3_all_closed_share_net": 3.4654283602415408,
+      "best1_share_net": 1.1772701646740973,
+      "positive_top3_sum_R": 5.720055872115219,
+      "source_ledger_sha256": "41df839771d57a8f8dd9f1ebd77d1d56f9a3a05cdabac1fd723b9d2c562fcbe7"
+    },
+    "H2": {
+      "n": 431,
+      "net_R": 6.872057792845691,
+      "mean_net_R": 0.015944449635372834,
+      "price_net_R": -19.420500408715522,
+      "funding_R": 26.292558201561214,
+      "best3_all_closed_sum_R": 5.340865728103162,
+      "best3_all_closed_share_net": 0.7771857992322749,
+      "best1_share_net": 0.26194802696755465,
+      "positive_top3_sum_R": 5.340865728103162,
+      "source_ledger_sha256": "41df839771d57a8f8dd9f1ebd77d1d56f9a3a05cdabac1fd723b9d2c562fcbe7"
+    },
+    "OOS40": {
+      "n": 344,
+      "net_R": -23.427873519267056,
+      "mean_net_R": -0.06810428348624144,
+      "price_net_R": -42.97935312665552,
+      "funding_R": 19.551479607388462,
+      "best3_all_closed_sum_R": 5.217197155247237,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 5.217197155247237,
+      "source_ledger_sha256": "41df839771d57a8f8dd9f1ebd77d1d56f9a3a05cdabac1fd723b9d2c562fcbe7"
+    }
+  },
+  "S3_FACTORY": {
+    "FULL": {
+      "n": 1346,
+      "net_R": -4.664342590114641,
+      "mean_net_R": -0.0034653362482278166,
+      "price_net_R": -103.96562518013981,
+      "funding_R": 99.30128259002517,
+      "best3_all_closed_sum_R": 5.802117578256555,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 5.802117578256555,
+      "source_ledger_sha256": "c2b395566ed2c3a58ef574293758ca321bd6e039f01831352a252c19c034eaa4"
+    },
+    "H1": {
+      "n": 766,
+      "net_R": -9.114984596364414,
+      "mean_net_R": -0.011899457697603673,
+      "price_net_R": -70.2688424740702,
+      "funding_R": 61.15385787770579,
+      "best3_all_closed_sum_R": 5.784545578843586,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 5.784545578843586,
+      "source_ledger_sha256": "c2b395566ed2c3a58ef574293758ca321bd6e039f01831352a252c19c034eaa4"
+    },
+    "H2": {
+      "n": 580,
+      "net_R": 4.450642006249772,
+      "mean_net_R": 0.00767352070043064,
+      "price_net_R": -33.696782706069605,
+      "funding_R": 38.147424712319385,
+      "best3_all_closed_sum_R": 5.574555775347434,
+      "best3_all_closed_share_net": 1.2525284593816841,
+      "best1_share_net": 0.43071482325788757,
+      "positive_top3_sum_R": 5.574555775347434,
+      "source_ledger_sha256": "c2b395566ed2c3a58ef574293758ca321bd6e039f01831352a252c19c034eaa4"
+    },
+    "OOS40": {
+      "n": 454,
+      "net_R": -36.45174142217978,
+      "mean_net_R": -0.08029017934400833,
+      "price_net_R": -64.03421452973191,
+      "funding_R": 27.582473107552133,
+      "best3_all_closed_sum_R": 5.459761311694548,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 5.459761311694548,
+      "source_ledger_sha256": "c2b395566ed2c3a58ef574293758ca321bd6e039f01831352a252c19c034eaa4"
+    }
+  },
+  "S2_BINANCE_REPLAY": {
+    "FULL": {
+      "n": 3,
+      "net_R": 4.8278947589769725,
+      "mean_net_R": 1.609298252992324,
+      "price_net_R": 4.084623688562432,
+      "funding_R": 0.743271070414541,
+      "best3_all_closed_sum_R": 4.8278947589769725,
+      "best3_all_closed_share_net": 1.0,
+      "best1_share_net": 0.8078325459477111,
+      "positive_top3_sum_R": 5.82773564505478,
+      "source_ledger_sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92"
+    },
+    "H1": {
+      "n": 0,
+      "net_R": 0,
+      "mean_net_R": null,
+      "price_net_R": 0,
+      "funding_R": 0,
+      "best3_all_closed_sum_R": 0,
+      "best3_all_closed_share_net": null,
+      "best1_share_net": null,
+      "positive_top3_sum_R": 0,
+      "source_ledger_sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92"
+    },
+    "H2": {
+      "n": 3,
+      "net_R": 4.8278947589769725,
+      "mean_net_R": 1.609298252992324,
+      "price_net_R": 4.084623688562432,
+      "funding_R": 0.743271070414541,
+      "best3_all_closed_sum_R": 4.8278947589769725,
+      "best3_all_closed_share_net": 1.0,
+      "best1_share_net": 0.8078325459477111,
+      "positive_top3_sum_R": 5.82773564505478,
+      "source_ledger_sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92"
+    },
+    "OOS40": {
+      "n": 3,
+      "net_R": 4.8278947589769725,
+      "mean_net_R": 1.609298252992324,
+      "price_net_R": 4.084623688562432,
+      "funding_R": 0.743271070414541,
+      "best3_all_closed_sum_R": 4.8278947589769725,
+      "best3_all_closed_share_net": 1.0,
+      "best1_share_net": 0.8078325459477111,
+      "positive_top3_sum_R": 5.82773564505478,
+      "source_ledger_sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92"
+    }
+  }
+}

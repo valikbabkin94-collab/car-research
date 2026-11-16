@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files_scanned": 316,
+  "findings": [],
+  "scope": "all publishable files; recursive gzip/zip/npz; no matched values printed"
+}

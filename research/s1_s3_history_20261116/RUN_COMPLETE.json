@@ -1,0 +1,8 @@
+{
+  "stage_complete": "AVAILABLE_PUBLIC_HISTORY",
+  "all_requested_exact_models_complete": false,
+  "reason": "Exact Bybit PIT/TradFi, original announcement versions and historical indicative funding unavailable in used sources",
+  "checkpoint": "CHECKPOINT.json",
+  "report": "OTCHET_DLYA_CLAUDE_CODEX_S1_S3_HISTORY_20261116.md",
+  "handoff": "CLAUDE_HANDOFF_RU.md"
+}
