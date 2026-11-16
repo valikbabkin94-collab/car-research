@@ -1,0 +1,98 @@
+[
+  {
+    "cohort": "RAW",
+    "period": "H1",
+    "replicates": 1000,
+    "calendar_week_blocks": 26,
+    "observed_fee_saving_R": 5.3018891566265065,
+    "random_label_saving_mean": -0.030713112048192777,
+    "random_label_saving_p05": -1.827700120481928,
+    "random_label_saving_p95": 1.6998146385542168,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "RAW",
+    "period": "H2",
+    "replicates": 1000,
+    "calendar_week_blocks": 26,
+    "observed_fee_saving_R": 7.901643975903616,
+    "random_label_saving_mean": 0.019166634939759012,
+    "random_label_saving_p05": -2.593030602409639,
+    "random_label_saving_p95": 2.631638975903614,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "RAW",
+    "period": "TAIL40",
+    "replicates": 1000,
+    "calendar_week_blocks": 21,
+    "observed_fee_saving_R": 6.3489957831325325,
+    "random_label_saving_mean": -0.013025256626506025,
+    "random_label_saving_p05": -2.4128651807228922,
+    "random_label_saving_p95": 2.3693871686746997,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "RAW",
+    "period": "FULL",
+    "replicates": 1000,
+    "calendar_week_blocks": 52,
+    "observed_fee_saving_R": 13.203533132530124,
+    "random_label_saving_mean": 0.09095200361445784,
+    "random_label_saving_p05": -3.2756151204819286,
+    "random_label_saving_p95": 3.276058554216868,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "SELECTED_DESCRIPTIVE_MODEL_LEAKAGE",
+    "period": "H1",
+    "replicates": 1000,
+    "calendar_week_blocks": 26,
+    "observed_fee_saving_R": 2.385801807228916,
+    "random_label_saving_mean": -0.007579806024096394,
+    "random_label_saving_p05": -0.8491497590361448,
+    "random_label_saving_p95": 0.8563656024096383,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "SELECTED_DESCRIPTIVE_MODEL_LEAKAGE",
+    "period": "H2",
+    "replicates": 1000,
+    "calendar_week_blocks": 26,
+    "observed_fee_saving_R": 3.9185289156626513,
+    "random_label_saving_mean": -0.026527512048192783,
+    "random_label_saving_p05": -1.4084303614457834,
+    "random_label_saving_p95": 1.3182585542168674,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "SELECTED_DESCRIPTIVE_MODEL_LEAKAGE",
+    "period": "TAIL40",
+    "replicates": 1000,
+    "calendar_week_blocks": 21,
+    "observed_fee_saving_R": 3.114584939759037,
+    "random_label_saving_mean": 0.019648433734939772,
+    "random_label_saving_p05": -1.278047710843374,
+    "random_label_saving_p95": 1.246903975903615,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  },
+  {
+    "cohort": "SELECTED_DESCRIPTIVE_MODEL_LEAKAGE",
+    "period": "FULL",
+    "replicates": 1000,
+    "calendar_week_blocks": 52,
+    "observed_fee_saving_R": 6.304330722891568,
+    "random_label_saving_mean": -0.02866552530120482,
+    "random_label_saving_p05": -1.629738132530121,
+    "random_label_saving_p95": 1.567812469879518,
+    "p_value": null,
+    "interpretation": "PAIRED_ACCOUNTING_IDENTITY_NOT_EMPIRICAL_EXECUTION_OR_ALPHA_PROOF"
+  }
+]

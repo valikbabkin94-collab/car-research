@@ -1,0 +1,49 @@
+{
+  "max_variants_per_candidate": 2,
+  "actual_primary_variants_per_candidate": 1,
+  "candidates": [
+    {
+      "id": "S1",
+      "variant": "PF_WIDE",
+      "code": "PRIVATE_FACTORY_IMPLEMENTED",
+      "paper_started_by_codex": false,
+      "historical_status": "DATA_BLOCKED_EXACT_BYBIT_PIT200_PLUS_TRADFI_UNIVERSE",
+      "reason": "Saved5m PF opportunities do not reconstruct full historical union or additional TradFi outcomes"
+    },
+    {
+      "id": "S2",
+      "variant": "DELIST_SHORT",
+      "code": "PRIVATE_FACTORY_IMPLEMENTED",
+      "paper_started_by_codex": false,
+      "historical_status": "DATA_BLOCKED_EXACT_PUBLICATION_AND_REVISION_ARCHIVE",
+      "reason": "Task207 uses date-only and daily funding logic; not a first-hour source"
+    },
+    {
+      "id": "S3",
+      "variant": "FUND_SQUEEZE",
+      "code": "PRIVATE_FACTORY_IMPLEMENTED",
+      "paper_started_by_codex": false,
+      "historical_status": "DATA_BLOCKED_HISTORICAL_INDICATIVE_TICKER_FUNDING",
+      "reason": "Saved settled payments cannot replace historical ticker forecasts"
+    },
+    {
+      "id": "S4",
+      "variant": "G3_NOQ",
+      "code": "PRIVATE_FACTORY_IMPLEMENTED",
+      "paper_started_by_codex": false,
+      "historical_status": "REUSED_COMPLETED_G3H_DIAGNOSTIC_INCONCLUSIVE",
+      "source": "REUSED_G3_NOQ_RESULTS.json",
+      "reason": "98closed,+9.0166R,PF1.2287,negativeH1; forward observed latency explicitly measured"
+    },
+    {
+      "id": "S5",
+      "variant": "PF_MAKER_EXIT",
+      "code": "PRIVATE_PAIRED_FEE_VIEW_IMPLEMENTED",
+      "paper_started_by_codex": false,
+      "historical_status": "PAIRED_FEE_SENSITIVITY_DONE_NOT_VERIFIED_MAKER_EXECUTION",
+      "source": "S5_RESULTS/TABLES.json",
+      "promotion_blocked": "MAKER_FILL_NOT_VERIFIED"
+    }
+  ],
+  "profitability_proven": false
+}
