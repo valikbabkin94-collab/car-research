@@ -1,0 +1,44 @@
+{
+  "original_ledger_sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92",
+  "action": "SOURCE_RETENTION_REPAIR_ONLY_NO_PNL_REPLAY",
+  "public_sources_only": true,
+  "verified_entry_exit_quotes": 3,
+  "files": [
+    {
+      "file": "m5-1000000BOBUSDT-2026-10.json.gz",
+      "sha256": "e7d217684fb1377eb953578edee5d5a80bd44ee47d320a945713ea3d17bb998e",
+      "bytes": 46171,
+      "symbol": "1000000BOBUSDT"
+    },
+    {
+      "file": "funding-1000000BOBUSDT.json.gz",
+      "sha256": "42738034fa1c50c553ff24be96562809feb6316f627b901c174b748537078954",
+      "bytes": 3003,
+      "symbol": "1000000BOBUSDT"
+    },
+    {
+      "file": "m5-PROMPTUSDT-2026-10.json.gz",
+      "sha256": "f9df23107d34e7aa980b208e4d49b21706fdfbc9a4c8ecafcad805103c09a1cd",
+      "bytes": 44899,
+      "symbol": "PROMPTUSDT"
+    },
+    {
+      "file": "funding-PROMPTUSDT.json.gz",
+      "sha256": "e2365b4ed44bc6211c4d63fc9942ebabf611be70bf1b5fd64fc2d1d7c6c5dc35",
+      "bytes": 2140,
+      "symbol": "PROMPTUSDT"
+    },
+    {
+      "file": "m5-PUMPBTCUSDT-2026-10.json.gz",
+      "sha256": "3db29e17213b36008a37e27541dc529827ee8ae69145fbf0ea4a308b3a1cdf6c",
+      "bytes": 46753,
+      "symbol": "PUMPBTCUSDT"
+    },
+    {
+      "file": "funding-PUMPBTCUSDT.json.gz",
+      "sha256": "adec5765b79a7db51a7f15a7154075e8f4f91f909dc8ed456fb948a1a3ee65da",
+      "bytes": 3212,
+      "symbol": "PUMPBTCUSDT"
+    }
+  ]
+}
