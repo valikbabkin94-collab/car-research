@@ -1,0 +1,19 @@
+{
+  "source_sha256": "f4ecef5eef23d26c0a3204e140e8c0e6a6faea83874c2227d48bd51d134e8275",
+  "candidate_posts": 460,
+  "eligible_after_funnel": 149,
+  "reason_counts": {
+    "ELIGIBLE_FOR_REVIEW": 149,
+    "CONDITIONAL_SCENARIO": 27,
+    "LEGACY_AD_OR_OUTCOME_REQUIRES_REVIEW": 211,
+    "COOLDOWN_6H": 24,
+    "MULTIPLE_DIRECTIONS": 19,
+    "ASSET_CLASS_UNRESOLVED": 18,
+    "REPOST_OR_DUPLICATE": 43,
+    "REPEATED_TEXT": 1,
+    "LEGACY_NON_CRYPTO_INSTRUMENT": 1,
+    "AFTER_FROZEN_CUTOFF": 3
+  },
+  "profitability": "NOT_TESTED",
+  "selection": "No PnL accessed; old AD/outcome classes remain reviewable, not permanently deleted"
+}

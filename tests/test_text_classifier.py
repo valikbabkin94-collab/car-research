@@ -12,3 +12,9 @@ class TextTests(unittest.TestCase):
  def test_ads_not_signals(self):self.assertEqual(classify('Join our VIP group BTC LONG',{'BTC'})['label'],'OTHER')
  def test_direction_call(self):self.assertEqual(classify('Long LA market entry',{'LA'})['symbol'],'LAUSDT')
 if __name__=='__main__':unittest.main()
+
+class RegressionTests(unittest.TestCase):
+ def test_unicode_side(self):self.assertEqual(classify('EVAA 𝗦𝗛𝗢𝗥𝗧',set())['side'],'SHORT')
+ def test_profit_retrospective_not_new_signal(self):self.assertEqual(classify('CTSI Short has achieved target 200% Profit 200%',{'CTSI'})['label'],'REPORT')
+ def test_label_words_not_coins(self):self.assertEqual(classify('COIN $BTC Direction LONG Entry 100',{'BTC','COIN'})['symbol'],'BTCUSDT')
+ def test_short_term_is_not_short_side(self):self.assertNotIn('MULTIPLE_DIRECTIONS',classify('COIN $BTC Direction LONG Entry 100 Short term targets 110',{'BTC'})['flags'])
