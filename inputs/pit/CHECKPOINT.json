@@ -1,0 +1,11 @@
+{
+  "status": "HOURLY_PIT_COMPLETE_NOT_PNL",
+  "symbols": 924,
+  "ever_top150": 701,
+  "decision_hours": 26617,
+  "source_files": 31073,
+  "quote_turnover_only": true,
+  "Q_age_pending": true,
+  "funding_pending": true,
+  "next": "15m onlyEVER_TOP150; funding then economic results"
+}

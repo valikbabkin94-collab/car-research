@@ -1,0 +1,22 @@
+{
+  "source_run": 43743059934,
+  "source_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+  "symbols": 701,
+  "shard_symbols": [
+    351,
+    350
+  ],
+  "archives_per_shard": [
+    13449,
+    13390
+  ],
+  "old_artifact_sha256": {
+    "14181680111": "e14264b3fd0fb131520abb21bffce1ba4506fc9d5b5daa63f8e969271e01f14e",
+    "14181505697": "cb62b5d70d28688082152ad04643ffff7ea67e367a00865aec2ae513f12bb9ed"
+  },
+  "same_official_archive_anchor": {
+    "BTCUSDT-15m-2026-10": "4c146566bbff66b73f4058120be7d2188d7cef4d2fd7c0deab8308233de80b85"
+  },
+  "full_old_per_file_receipt_manifest": "UNAVAILABLE_DUE_PRIVATE_ARTIFACT_ACCESS_LIMIT",
+  "do_not_claim_full_row_sha_match_without_reference": true
+}

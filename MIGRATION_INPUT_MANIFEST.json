@@ -1,0 +1,172 @@
+[
+  {
+    "path": "research/web_ideas_20261114/unblock_20261114/resume_503/collect_priority1.py",
+    "origin_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+    "unchanged": true,
+    "classification": "RESEARCH_PUBLIC_MARKET_COLLECTOR",
+    "original_sha256": "c4acae74f1c05791b9dd5d4a0eadf9d7c32874800ace0afa1e0d1753cb3c5f26",
+    "published_sha256": "c4acae74f1c05791b9dd5d4a0eadf9d7c32874800ace0afa1e0d1753cb3c5f26"
+  },
+  {
+    "path": "research/web_ideas_20261114/unblock_20261114/resume_503/resilient_http.py",
+    "origin_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+    "unchanged": true,
+    "classification": "RESEARCH_PUBLIC_MARKET_COLLECTOR",
+    "original_sha256": "44a496d30e6268809a95e2ad10106d3f3f1ccd41b7b8a1256470d76fa2f3d895",
+    "published_sha256": "44a496d30e6268809a95e2ad10106d3f3f1ccd41b7b8a1256470d76fa2f3d895"
+  },
+  {
+    "path": "research/web_ideas_20261114/unblock_20261114/resume_503/seed_inputs.py",
+    "origin_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+    "unchanged": true,
+    "classification": "RESEARCH_PUBLIC_MARKET_COLLECTOR",
+    "original_sha256": "6c7c426e2d8c2234ab355b030dd112b1566a554b7da245d85ff99158703cf907",
+    "published_sha256": "6c7c426e2d8c2234ab355b030dd112b1566a554b7da245d85ff99158703cf907"
+  },
+  {
+    "path": "research/web_ideas_20261114/unblock_20261114/resume_503/test_network.py",
+    "origin_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+    "unchanged": true,
+    "classification": "RESEARCH_PUBLIC_MARKET_COLLECTOR",
+    "original_sha256": "503c63192cdc6f55fcc14ff8a80df8fb7ebee4b842e08dea980302bc1e19764c",
+    "published_sha256": "503c63192cdc6f55fcc14ff8a80df8fb7ebee4b842e08dea980302bc1e19764c"
+  },
+  {
+    "path": "research/web_ideas_20261114/unblock_20261114/resume_503/requirements.txt",
+    "origin_commit": "fd1f82c3018ef18877b666839790b8e7a337f4de",
+    "unchanged": true,
+    "classification": "RESEARCH_PUBLIC_MARKET_COLLECTOR",
+    "original_sha256": "eb26f69e6189ba6ca1e4e9753844c41493b80574d89555e01731ccdbedcbe7dc",
+    "published_sha256": "eb26f69e6189ba6ca1e4e9753844c41493b80574d89555e01731ccdbedcbe7dc"
+  },
+  {
+    "path": "research/round3_20261115/tools/audit_saved_inputs.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "7f7802eb111c6054749429bbaa084b3a7405e9438d0214da6d8811004d5defb5",
+    "published_sha256": "7f7802eb111c6054749429bbaa084b3a7405e9438d0214da6d8811004d5defb5"
+  },
+  {
+    "path": "research/round3_20261115/saved_input_audit_43742911716/R1_FROZEN_WEIGHTS.csv.gz",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "6326876ffd6d686e79656cce2a0b97f3790560d67f5dd4122b1ff329eec0b8fa",
+    "published_sha256": "6326876ffd6d686e79656cce2a0b97f3790560d67f5dd4122b1ff329eec0b8fa"
+  },
+  {
+    "path": "research/round4_20261115/C/PROTOCOL_C_PRE_PNL_RU.md",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "44115c15e80a862f5a21751a1c9aff19d24d40f293150cdd79c246c028608c9a",
+    "published_sha256": "44115c15e80a862f5a21751a1c9aff19d24d40f293150cdd79c246c028608c9a"
+  },
+  {
+    "path": "research/round4_20261115/C/extract_g3h.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "35d308558679db6d415351c951c8f5d86130f923eaf2879555142edd3d8408a9",
+    "published_sha256": "35d308558679db6d415351c951c8f5d86130f923eaf2879555142edd3d8408a9"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/extract_original_g3.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "96a3e70b8a0849b3ce3ad1905fb15d7c428318c2d94c67e9ad0f5aa4ffbecfec",
+    "published_sha256": "96a3e70b8a0849b3ce3ad1905fb15d7c428318c2d94c67e9ad0f5aa4ffbecfec"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/replay_g3h.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": false,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "91fe4944702788d6ee0c2f9f12909d4690ee34bf643ac1dcfe37d1a2bd531fe6",
+    "published_sha256": "9de8645b7bf31e1481a806d35f1ceaf3bcb446841070126d05c26934ab173d3b",
+    "portability_change": "Explicit certificate-seed view or selectable research timeframe/entry input; frozen trading thresholds unchanged"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/replay_r1h.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "d521acbc0066f7f800ec225cbdfba7a658802f22648a73e92fba855881790fda",
+    "published_sha256": "d521acbc0066f7f800ec225cbdfba7a658802f22648a73e92fba855881790fda"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/execution_guard.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "6289edc10a58214f2d64cf14205cff9826a2247a03fc2dbf4adb8a79fe8b56c8",
+    "published_sha256": "6289edc10a58214f2d64cf14205cff9826a2247a03fc2dbf4adb8a79fe8b56c8"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/restore_funding.py",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": false,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "7ab343875464cf511b3b4920cb2db2dedbd991d231fb1736ef5a1e52bfc5128d",
+    "published_sha256": "d7bc5782c79ac300f4ebfd0b9691f6e45ffff44a3f2f72948a37400ac0405b24",
+    "portability_change": "Explicit certificate-seed view or selectable research timeframe/entry input; frozen trading thresholds unchanged"
+  },
+  {
+    "path": "research/round4_20261115/C/continuation_20261116/COVERED_DIAGNOSTIC_RU.md",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "c0af9a9382b8dc13ddd0c229f77feb4f4c8ab3f883d68a2dff506848e5bfbbb5",
+    "published_sha256": "c0af9a9382b8dc13ddd0c229f77feb4f4c8ab3f883d68a2dff506848e5bfbbb5"
+  },
+  {
+    "path": "research/round4_20261115/neutral_20261116/N4_REQUIRED_FUNDING_PLAN.json",
+    "origin_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+    "unchanged": true,
+    "classification": "RESEARCH_ONLY_PUBLIC_MARKET",
+    "original_sha256": "e3d8c201666b3d184d918916d5ad39371c7c482edfebeb1e15cfcfef3f024bd0",
+    "published_sha256": "e3d8c201666b3d184d918916d5ad39371c7c482edfebeb1e15cfcfef3f024bd0"
+  },
+  {
+    "path": "inputs/pit/PIT_RANKS.npz",
+    "origin_run": 43715515306,
+    "classification": "BINANCE_PUBLIC_HISTORICAL_RANKS",
+    "original_sha256": "7369884264c348ea5e772c6f63a884308a88750cd48307a38d4b1f01359eb438",
+    "published_sha256": "7369884264c348ea5e772c6f63a884308a88750cd48307a38d4b1f01359eb438",
+    "unchanged": true
+  },
+  {
+    "path": "inputs/pit/EVER_TOP150.json",
+    "origin_run": 43715515306,
+    "classification": "BINANCE_PUBLIC_HISTORICAL_RANKS",
+    "original_sha256": "550d305c9547f8223e3cbb0f0876863d554673c46aa5bd68fbf0ee2fafa6ad4b",
+    "published_sha256": "550d305c9547f8223e3cbb0f0876863d554673c46aa5bd68fbf0ee2fafa6ad4b",
+    "unchanged": true
+  },
+  {
+    "path": "inputs/pit/shard0.json",
+    "origin_run": 43715515306,
+    "classification": "BINANCE_PUBLIC_HISTORICAL_RANKS",
+    "original_sha256": "2d552d8277c7de17703ff4d243787ca677041b033989d51666bf556073279341",
+    "published_sha256": "2d552d8277c7de17703ff4d243787ca677041b033989d51666bf556073279341",
+    "unchanged": true
+  },
+  {
+    "path": "inputs/pit/shard1.json",
+    "origin_run": 43715515306,
+    "classification": "BINANCE_PUBLIC_HISTORICAL_RANKS",
+    "original_sha256": "f97f98fe3a978ac6e67178f91297855f3856befef1a1cbd11696b25ddc3784d7",
+    "published_sha256": "f97f98fe3a978ac6e67178f91297855f3856befef1a1cbd11696b25ddc3784d7",
+    "unchanged": true
+  },
+  {
+    "path": "inputs/pit/CHECKPOINT.json",
+    "origin_run": 43715515306,
+    "classification": "BINANCE_PUBLIC_HISTORICAL_RANKS",
+    "original_sha256": "90ee0d03b9f96cc7056a9d14458407c60f1ed7176cf4bdfa94cd4df953385edf",
+    "published_sha256": "90ee0d03b9f96cc7056a9d14458407c60f1ed7176cf4bdfa94cd4df953385edf",
+    "unchanged": true
+  }
+]

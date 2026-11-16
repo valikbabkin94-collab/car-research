@@ -1,0 +1,195 @@
+{
+  "symbols": {
+    "ACEUSDT": [
+      [
+        1787443200000,
+        1788652800000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "ALCHUSDT": [
+      [
+        1746316800000,
+        1747526400000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "ASTRUSDT": [
+      [
+        1705190400000,
+        1706400000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "CFXUSDT": [
+      [
+        1712448000000,
+        1713657600000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1713657600000,
+        1714867200000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1753574400000,
+        1754784000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "DEGOUSDT": [
+      [
+        1775347200000,
+        1776556800000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "DOLOUSDT": [
+      [
+        1758412800000,
+        1759622400000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "EDENUSDT": [
+      [
+        1780185600000,
+        1781395200000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1781395200000,
+        1782604800000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "ENJUSDT": [
+      [
+        1777766400000,
+        1778976000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "FIDAUSDT": [
+      [
+        1780185600000,
+        1781395200000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1781395200000,
+        1782604800000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "IDUSDT": [
+      [
+        1712448000000,
+        1713657600000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "IMXUSDT": [
+      [
+        1703980800000,
+        1705190400000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "PERPUSDT": [
+      [
+        1705190400000,
+        1706400000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "PLAYUSDT": [
+      [
+        1780185600000,
+        1781395200000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "POWRUSDT": [
+      [
+        1705190400000,
+        1706400000000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1706400000000,
+        1707609600000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "PUMPBTCUSDT": [
+      [
+        1759622400000,
+        1760832000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "RESOLVUSDT": [
+      [
+        1765670400000,
+        1766880000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "RNDRUSDT": [
+      [
+        1716076800000,
+        1717286400000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1717286400000,
+        1718496000000,
+        "N4_SELECTED_PAIR"
+      ],
+      [
+        1720915200000,
+        1722124800000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "STEEMUSDT": [
+      [
+        1737849600000,
+        1739059200000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "THETAUSDT": [
+      [
+        1711238400000,
+        1712448000000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "TRADOORUSDT": [
+      [
+        1766880000000,
+        1768089600000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "UBUSDT": [
+      [
+        1778976000000,
+        1780185600000,
+        "N4_SELECTED_PAIR"
+      ]
+    ],
+    "ZRXUSDT": [
+      [
+        1712448000000,
+        1713657600000,
+        "N4_SELECTED_PAIR"
+      ]
+    ]
+  },
+  "note": "Selected formation pairs only, no replacement by funding coverage; no PnL selection",
+  "frozen_protocol": "61f4c7e"
+}

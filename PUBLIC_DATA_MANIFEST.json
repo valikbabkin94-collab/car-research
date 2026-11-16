@@ -1,0 +1,2924 @@
+[
+  {
+    "path": "inputs/funding/symbols/1000BONKUSDT.json.gz",
+    "sha256": "470763462893085025bdcadb5f80ddb58db991360963d890509392fe23accf3b",
+    "bytes": 40193,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000FLOKIUSDT.json.gz",
+    "sha256": "728fe54ea447305cd1f795cd409e0f4617765db6225546e91e7c57a4f56e62eb",
+    "bytes": 23527,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000LUNCUSDT.json.gz",
+    "sha256": "c8b43d1fa271324495de77d93e5804510a8aa66cc34c459985522765322b9002",
+    "bytes": 22033,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000PEPEUSDT.json.gz",
+    "sha256": "1cb1139e25e0d656b63f9ebb174def14e6e9fb7a05c87b4b56b602331f4d1680",
+    "bytes": 22373,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000RATSUSDT.json.gz",
+    "sha256": "cb21c90a0c80f049e33a587e634758193cc121a28f13a8254fb289f64d76b7f5",
+    "bytes": 40697,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000SATSUSDT.json.gz",
+    "sha256": "64bcfe15b5e52e1f8cc0dc81f07a7c1494d9d0f7f08f8ca9383726b2588d4d8c",
+    "bytes": 33158,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1000SHIBUSDT.json.gz",
+    "sha256": "575501c9fb898cef8b2269c9c119d3fb2c125ba8ba60fe8f93a385343d2085b8",
+    "bytes": 23148,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/1MBABYDOGEUSDT.json.gz",
+    "sha256": "0fb51bf94e51d7ffba848c7f09d1d3c86e72f819c79f303bc66c753f72a3d8b4",
+    "bytes": 27092,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AAVEUSDT.json.gz",
+    "sha256": "dd7a96a14699802b59ee49b774e938a639775e788d5643a6d18487fccf77901c",
+    "bytes": 22976,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ACEUSDT.json.gz",
+    "sha256": "487f2f253c72aefea7a6866268e5f2f64afd3f36450a43f79521c633dda1b570",
+    "bytes": 1361,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ADAUSDT.json.gz",
+    "sha256": "f27bf7f827db7667f6152573845814df5664ee761579df69d91918d848ee5de0",
+    "bytes": 22163,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AEVOUSDT.json.gz",
+    "sha256": "3f4bf11f649c7c72491e6537042d30e1a9c19f34fb26aeb1d85e5224cb748e23",
+    "bytes": 1764,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AGLDUSDT.json.gz",
+    "sha256": "cc09664254cd0aa2ed326416026156e7b4975ff26f4df3db68e464d051a0a928",
+    "bytes": 21675,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AI16ZUSDT.json.gz",
+    "sha256": "a9a4c37188282aed3cbcc447406d43b1858823686d4385096ac4b8ccbb063254",
+    "bytes": 10119,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AIAUSDT.json.gz",
+    "sha256": "e55b68870d0ca0193bcbea60ab7721ec555fb4252b7e5841e50905ef904340c1",
+    "bytes": 22485,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AIXBTUSDT.json.gz",
+    "sha256": "8255ccd057db7cb7fe200c87dd45485222d5568725458e9d355689b7d90a622d",
+    "bytes": 25460,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AKEUSDT.json.gz",
+    "sha256": "b6fa4dd1ae565f9b4d35c114f2dd337f35d5069986157852ce837334d6642f50",
+    "bytes": 16693,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ALPACAUSDT.json.gz",
+    "sha256": "4cc5bbace6ffaeddc01b652e2cccf75ecdb7783462df0e7187b721c17e9fbc7d",
+    "bytes": 13246,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ALTUSDT.json.gz",
+    "sha256": "565b01588d325e1b725c301d7dcdbeb6eeeab19e2c1a2d4118a520b223bd0961",
+    "bytes": 34760,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ANIMEUSDT.json.gz",
+    "sha256": "a6923b69ef014142614bb82cd91351ffff3174f3688064089dc8a499759a0a77",
+    "bytes": 1840,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/APEUSDT.json.gz",
+    "sha256": "6a05b21df01473989d820737c3245919e48e4e86e2c322d0359b336ded23d99f",
+    "bytes": 23251,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/API3USDT.json.gz",
+    "sha256": "24f3d276cd28a5d8f86c8c022fb62995edf28040226cfd5f21f2c7e7478ce042",
+    "bytes": 43301,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/APRUSDT.json.gz",
+    "sha256": "cb4eb148f2709041ba616ace091b3b2c9e30ec42a79c4d25d78696c2e528bc8d",
+    "bytes": 1684,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/APTUSDT.json.gz",
+    "sha256": "3de61809b5d81cf452d4cbcb2c7c49bca1416afabe030b18a07b514f86e67f7a",
+    "bytes": 23550,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ARBUSDT.json.gz",
+    "sha256": "231499b6d4dd93b70864efabbc5669b8aad73820b7dbe372f5bf7863cc784a59",
+    "bytes": 22734,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ARCUSDT.json.gz",
+    "sha256": "42a5d17225096787d58c6e5c3da66128b645c4017e34d737b8fa4e10f9313f5e",
+    "bytes": 25998,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ARIAUSDT.json.gz",
+    "sha256": "944f424bce558927422c668c5889aeb3b8b5b04005a547d3b70a8acbd09ee69d",
+    "bytes": 15772,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ARKUSDT.json.gz",
+    "sha256": "debbc97d74776dd61f3de828d8f8a3ee39db8b951d78a89d74514414090b685d",
+    "bytes": 33759,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ARPAUSDT.json.gz",
+    "sha256": "189b7b32127ca993c0d34b0138c3a9ed09e17321b3f3fdfa211d8b9d54634182",
+    "bytes": 1106,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ASTERUSDT.json.gz",
+    "sha256": "e76b8fa0caa7c410c17b9f05393647eb4dd4f276a042e762c53854c7d6f99db7",
+    "bytes": 15218,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AUCTIONUSDT.json.gz",
+    "sha256": "3d365c3a9bc315ea41f722b144ac8dbbff3b125865e97a28770e0a2efa0e19cd",
+    "bytes": 37104,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AVAXUSDT.json.gz",
+    "sha256": "a5ef73fa8a7c143a695bca173e692e50c4339f6f1e6dfd510d1289b63930c797",
+    "bytes": 23327,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AVNTUSDT.json.gz",
+    "sha256": "1a59de53edf10b3692f0f0d5d9458cbc5d1653d15605386b66002a54bc4e4b0a",
+    "bytes": 17176,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/AXSUSDT.json.gz",
+    "sha256": "068ee936fc3bf92999827cd0d354c21addba0443bbc6b86dabb6124b10125761",
+    "bytes": 30736,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BAKEUSDT.json.gz",
+    "sha256": "8aab92fa6e829c7b5c7a1c2e7bd7451f284b45562e77b0af436c88be725956b1",
+    "bytes": 12796,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BANANAS31USDT.json.gz",
+    "sha256": "85ca054157a6a18a534cebbf1c2a6540d2b81824698fd96f5e797ab1afacc133",
+    "bytes": 17454,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BANKUSDT.json.gz",
+    "sha256": "d762214383cc42911bfd9f4d9ef16773f63eba5f9a6f7b87fce0c243c872aa57",
+    "bytes": 18907,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BBUSDT.json.gz",
+    "sha256": "06e97a3b2c0c39b12d91ce5c78e329226bd46401e7673f5e1bc80f9a31307490",
+    "bytes": 30558,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BCHUSDT.json.gz",
+    "sha256": "b6b9c32aadbfc6dcdae11a9205a5215276d4f823d7722a40d1f505c44104ca72",
+    "bytes": 23980,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BDXNUSDT.json.gz",
+    "sha256": "a52d09fbfc5e3270c34be7710711fcc7dfd94e48a50e116187f7d9eac2a43b46",
+    "bytes": 1276,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BEATUSDT.json.gz",
+    "sha256": "a09ac40ba1daebb5a2eab23ba9b03d53e6ca64f8e8e5c6e82eb25f068ecdff9c",
+    "bytes": 17244,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BERAUSDT.json.gz",
+    "sha256": "146a54be2145e340bb69b1018bbd7105ae32bffca3fcf460bd42a564bf7fae0e",
+    "bytes": 27955,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BIGTIMEUSDT.json.gz",
+    "sha256": "55316226e71d144d11871d2dc86654a32b83fa2eea13b8b2ee03b35954248c5b",
+    "bytes": 36275,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BILLUSDT.json.gz",
+    "sha256": "30d927b80c5ee02c8339e5a99be7d5cf08a0b956d1743e8793ba28839d80716e",
+    "bytes": 1605,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BIOUSDT.json.gz",
+    "sha256": "f842e3862596aaf024ba8e9183902d18a43d0f16e0e1d47499b76cb3dae7004f",
+    "bytes": 33453,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BLURUSDT.json.gz",
+    "sha256": "ed4da487938f13ddc2128379c2473b81a2dc73f0cc3d320a841a45aa61b9d512",
+    "bytes": 26768,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BMTUSDT.json.gz",
+    "sha256": "2ee14e71f5d5056178d64594e0fa043e811512db7be0b091c60a309dab93edea",
+    "bytes": 1534,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BNBUSDT.json.gz",
+    "sha256": "9c9f18f1c78b490b3505d5c1a0e7436613c6f4642d39b2c72b68a384e4308dc0",
+    "bytes": 21192,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BNTUSDT.json.gz",
+    "sha256": "65cadd44e5dca44fa0718948dbb135b31db8fec9060a3bcdfcc003f27dd989b9",
+    "bytes": 20797,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BNXUSDT.json.gz",
+    "sha256": "bbe61ac899d6e02abd56a0b1873af2d69a1f0a58bd19faf5e5e71ae190c6075e",
+    "bytes": 12104,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BOMEUSDT.json.gz",
+    "sha256": "47625dfa2c1f96d38959b99bb1701dd539c52ef826c7cf377bc3bee0d63e43eb",
+    "bytes": 33587,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BONDUSDT.json.gz",
+    "sha256": "09e195e5ba9726cd45fd2006d846681cd12a36f628c996d00d128a560f0fbda9",
+    "bytes": 1636,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BRETTUSDT.json.gz",
+    "sha256": "eb8187ac4bd7960c385af92e9346964841a55e51325b2e7987f9a58b806162bb",
+    "bytes": 1633,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BRUSDT.json.gz",
+    "sha256": "8464957d848d299830b2b22bcc1e11fb5eadb1e69b658f2885e76923365d5b92",
+    "bytes": 2672,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BSBUSDT.json.gz",
+    "sha256": "d9bb6f9d01ca418cebcbdf611fb6788386885f68e5f7a7f10d44c2a2c92a06c6",
+    "bytes": 8725,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BTCUSDT.json.gz",
+    "sha256": "fd372a9403e90765aba39e1afac8573df4f6005ba7167aecf87533305a47fdb1",
+    "bytes": 23757,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/BZUSDT.json.gz",
+    "sha256": "f058c4ae59545a57727ff6a4c0ad5fea0bd41e0a5825e26896c82768a031dab6",
+    "bytes": 8965,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CBRSUSDT.json.gz",
+    "sha256": "9354f9116c827117509a974c03d33f1663033106f171a61654409c21f67b4060",
+    "bytes": 960,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CHESSUSDT.json.gz",
+    "sha256": "32f96836519db039f02ad73586afdd6bb4ae08a213dff1e0a7442af099060dd0",
+    "bytes": 1373,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CHIPUSDT.json.gz",
+    "sha256": "9b4034123850a19e512e23afd41b76264a5072ea249878414fad88a457be5e91",
+    "bytes": 8275,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CHZUSDT.json.gz",
+    "sha256": "3caf65674823a35e2456b7a2a1ead1adc97a65b58c3ab8c283fb4c336eb9497c",
+    "bytes": 1211,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CKBUSDT.json.gz",
+    "sha256": "46e7bf9a132bfecedb3a25b5ed90bec7d1d122025f700db4b62aece1008c8b88",
+    "bytes": 20316,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CLUSDT.json.gz",
+    "sha256": "12109b27aa8466f226605617bc5f2ca2aa7fa5c5e6869d1f4a31549c4501330b",
+    "bytes": 9065,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/COAIUSDT.json.gz",
+    "sha256": "fd49b4920e095d8303eb08bc09cbd03af65d893014a089681c46239cf2b08604",
+    "bytes": 18858,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/COSUSDT.json.gz",
+    "sha256": "e561ad6abcdbaf257e4c00ec506114d92d5bd0ede6ebd24752d6bbea07a55ebf",
+    "bytes": 1011,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CRCLUSDT.json.gz",
+    "sha256": "c22e83242d4a2fd567d58b94a24124737b23c679896d8d8e672ad776b86eca19",
+    "bytes": 1153,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CRVUSDT.json.gz",
+    "sha256": "6d10b5c86c34c596a39522a6a1ae8631ce25262b9e43d28af3f4af20f50defff",
+    "bytes": 19832,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/CYBERUSDT.json.gz",
+    "sha256": "553820368f5fc41dd0673f07020b4f23b2e1810ea84710f1dac5e1ba552d98df",
+    "bytes": 1453,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DASHUSDT.json.gz",
+    "sha256": "0604b479816cee93ed2ffe52669241a02949984cf4e32a7b4a78131009a5669f",
+    "bytes": 20158,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DOGEUSDT.json.gz",
+    "sha256": "59e2d84db073208378e8d4f5ab607399691cacb9dae0de4e8ee3797aea9dcdc6",
+    "bytes": 23362,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DOGSUSDT.json.gz",
+    "sha256": "f128556e0641b45cb8fd8f88bc6852b55bdb352d3471f6d1afad19722b7659d5",
+    "bytes": 25806,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DOTUSDT.json.gz",
+    "sha256": "70b1c8b195a0c05bfa1b0598a0cfa689e95026b58ec979dd4aa715ea32e1452e",
+    "bytes": 22414,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DRAMUSDT.json.gz",
+    "sha256": "e06d60f9980e9b5d7f2b2e10ea39668fd9d8936dde1b03c845f0f4cea923c0eb",
+    "bytes": 3835,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DYDXUSDT.json.gz",
+    "sha256": "a4b8b4944ec198a8b8caa616e32d74cc1d6798cbf7629d8bd48d2bde4467cb08",
+    "bytes": 19461,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/DYMUSDT.json.gz",
+    "sha256": "d58262209f70ac8c35e0358d68945dc3c7ff9cd2840f0d01717e0cd6d23a3bae",
+    "bytes": 1525,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ENAUSDT.json.gz",
+    "sha256": "74ef0f052cfc52b60cb796c7f92f7197f5bb75fba5600343052fac8224e06534",
+    "bytes": 37455,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ENSOUSDT.json.gz",
+    "sha256": "f5c18731d3ebe5b32a8be45c6dc91c9641b58f50db7a4631e567a8225b399989",
+    "bytes": 15970,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ENSUSDT.json.gz",
+    "sha256": "516e15f6c8d91a7524b35ff2cac4f754ece9d6eb6e149dcf9e0890eeb333ab63",
+    "bytes": 22124,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/EOSUSDT.json.gz",
+    "sha256": "ba4ced109816ea023e21c5968264ef4c3da5f8da6d21a0e9896b27640ebdb26f",
+    "bytes": 16563,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ETCUSDT.json.gz",
+    "sha256": "8a75eccea7c859bf9a761bf5c7fa81df4d18fb9344aa7a4657aff8ce7b1ac36f",
+    "bytes": 22102,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ETHFIUSDT.json.gz",
+    "sha256": "6b9e7f328406f333e4dfe496773b3ada82825b875c46cb7f99e6298931a51376",
+    "bytes": 34928,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ETHUSDT.json.gz",
+    "sha256": "6641cda705bc740efba4caac91c34dc3d2c061dbc28c875587cb28e7208b32c8",
+    "bytes": 23843,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FARTCOINUSDT.json.gz",
+    "sha256": "eb7083ac4e8053dbaba0648cfabe8737c117f3e83721b8c02164f4b3cfac1df5",
+    "bytes": 21818,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FETUSDT.json.gz",
+    "sha256": "8525b730b51d664357f3f0309d8bee2a42d3d9296573ff02fab59e8ea7d72b21",
+    "bytes": 22660,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FILUSDT.json.gz",
+    "sha256": "476199fb537f91e16b3f94bde3e83c827cc61308ab1bd5f2703c35dd0087fdd7",
+    "bytes": 21989,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FOLKSUSDT.json.gz",
+    "sha256": "d3e41950fcc7f1f265457d24acbfe3f7c1f5516204fcb507d487fda40190442e",
+    "bytes": 16793,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FRONTUSDT.json.gz",
+    "sha256": "1ae7179351e597f61e256fcb8a7e2f15ed2f93943be17f096a874cfb28335840",
+    "bytes": 15974,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FTMUSDT.json.gz",
+    "sha256": "cb1d46e58d2c0fe25250208809e0c5e0f375bf9fe8eb65d22e03c089ef200d08",
+    "bytes": 10191,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/FUNUSDT.json.gz",
+    "sha256": "4d3829be9b46bc7f5aeb11a66de94631fa73f75a27ffacb869a9459126833a8f",
+    "bytes": 16711,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GALAUSDT.json.gz",
+    "sha256": "ce0319900552a44b95b14eba4116d1a388239b13edb726cde28cd74c0aea2cd7",
+    "bytes": 21459,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GASUSDT.json.gz",
+    "sha256": "203e06de9ca4cc022dd42d23848e5bb058b6e7fe039aa0a7cb4598c3926095a6",
+    "bytes": 39173,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GIGGLEUSDT.json.gz",
+    "sha256": "a345eaab02440648d8d25b1e2418d77d9713163f0d20daa404f5a2d27d64ee63",
+    "bytes": 13162,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GMTUSDT.json.gz",
+    "sha256": "e5b7cd2e50c46f0e2c06c2c7dc91da964c976622fea999bd12a77e2d7baa94c9",
+    "bytes": 26446,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GOATUSDT.json.gz",
+    "sha256": "64f2d85f7ae2b99c41dc58abe77b7624261974ad8e89037d5f05ac324bad2519",
+    "bytes": 24843,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GPSUSDT.json.gz",
+    "sha256": "5ea04f56d9223cc99cfab9fdf2b582efedf490168319fcac20b7d5a29931857e",
+    "bytes": 1382,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GRIFFAINUSDT.json.gz",
+    "sha256": "c859afa00cc3d5ed9e3d7f89c7b02451f3bfb7b43dbcaabd7b7b2067f7ffa7a2",
+    "bytes": 1610,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GTCUSDT.json.gz",
+    "sha256": "8316f146c067a2a3c7004d61f49680b542390d5322041a24d55be9743f011a43",
+    "bytes": 1076,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/GUNUSDT.json.gz",
+    "sha256": "bac29b3ac4742e7ddd0b4306a8fa84f29718b76b83c46e6574e6b99341efba77",
+    "bytes": 20083,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HANAUSDT.json.gz",
+    "sha256": "29784fffcd87087e5faa511644917d6fdadb5df54bdd4e06ed403df15d151957",
+    "bytes": 4862,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HBARUSDT.json.gz",
+    "sha256": "0207e130c4fcdc6951e59e06d84bb654814136e22b3b41a513a9bd53f1f8f416",
+    "bytes": 22587,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HIFIUSDT.json.gz",
+    "sha256": "a964e820b5c44fd66531de8695d614c93a6c1f2d00cea5aabf7bbad13a5732d6",
+    "bytes": 22295,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HIGHUSDT.json.gz",
+    "sha256": "23ab3a92c17760d2eeca5873f50d26942bbec2ac00161ad5045b9f20723d1a5e",
+    "bytes": 17702,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HUSDT.json.gz",
+    "sha256": "e5782502d1f0534e03b4b8dbd00fbd0fac7c58618bbe7409c21e4d836b89959e",
+    "bytes": 22518,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HYPERUSDT.json.gz",
+    "sha256": "dff79a8880a78d819e15983613ecb3799e4cee804e15519e2ba482bcc06f7f93",
+    "bytes": 21620,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/HYPEUSDT.json.gz",
+    "sha256": "40753965bbe4f5e50b0134119bf029e16588ac6324933c345ea6f52c0389e72e",
+    "bytes": 19382,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ICPUSDT.json.gz",
+    "sha256": "5c619e6f190c6aff04fa5e41c6c6dadd5af666a058abcbe08da247125bd08cab",
+    "bytes": 22910,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/INJUSDT.json.gz",
+    "sha256": "17319eae671bdbf847f2022773eab31ec6aedcd7aa6edc94477583f210b504b5",
+    "bytes": 23354,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/IOUSDT.json.gz",
+    "sha256": "0616fb546996421c3c4e1cfc929bb66eb8f14fd2995d7791ce9d509f5adb08a1",
+    "bytes": 32793,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/IPUSDT.json.gz",
+    "sha256": "d0bd6c1e62137e170287aa09449797ca0433d6c6274f36255a44f3916151b8e0",
+    "bytes": 25266,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/JASMYUSDT.json.gz",
+    "sha256": "bcf61d8e14bbc22340f916a814f9a58c758470cf3eb582dbdd1f0550656636c5",
+    "bytes": 22961,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/JCTUSDT.json.gz",
+    "sha256": "d1644940025cc3daa6d074ec96150dbdf9f387893bbfd908e6cc0b88ba75763d",
+    "bytes": 1658,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/JUPUSDT.json.gz",
+    "sha256": "36e05e2d78329bfaa4c1deae92f3c571da920fd4eccdedecabb2c49ed4bc201e",
+    "bytes": 41168,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/KAITOUSDT.json.gz",
+    "sha256": "3c03f3adff8393fc80fa5eb710769890f39453f7a5d631b1c39bd9ee9b21e5ae",
+    "bytes": 25822,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/KORUUSDT.json.gz",
+    "sha256": "308bb6de99455d5b1282ed4e44fde7f2fea7ac76ffbcadbaee543f6b4140ba2d",
+    "bytes": 3252,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LABUSDT.json.gz",
+    "sha256": "cb6abd62ba96d205d7fba9e4d204a5863f0a1425442b1eed550e8fd15ed70fa0",
+    "bytes": 18166,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LAYERUSDT.json.gz",
+    "sha256": "6f5a2e05f513f6bcdbc0d43f8174b1510c1c79a6a17ea5bcaabf86588230a233",
+    "bytes": 38626,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LIGHTUSDT.json.gz",
+    "sha256": "e3340f97206ce0eafa3c352c35d40bf2086c76d40960049fcced7c16147de147",
+    "bytes": 16944,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LINEAUSDT.json.gz",
+    "sha256": "880cb6830d0a8b99dbe06793da1cc4f91886e427be5e9f8991b8af33c5685c99",
+    "bytes": 15871,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LINKUSDT.json.gz",
+    "sha256": "82523bd10108073cbfbf1619277ec8f0b7e91f5f3d4bc9886924c8590660e561",
+    "bytes": 22203,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LOOMUSDT.json.gz",
+    "sha256": "1fa01dc263bd6a82e4b74747618530829fde7afc0466f75e141c7198357b6425",
+    "bytes": 19661,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LPTUSDT.json.gz",
+    "sha256": "08e42335436fffbce8aa7e34d07602d1a0b1f9c5c529cb930c9d8afd844838c8",
+    "bytes": 48895,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LQTYUSDT.json.gz",
+    "sha256": "e57826f1a2810526d8d134b99910cf587fb217eb3a5b4d2df17a10d8ba4b5657",
+    "bytes": 20539,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LSKUSDT.json.gz",
+    "sha256": "b83d9a1edb2be01fcb9bdca3baeac32fe8b86f63518b31432b69a58458fdec1d",
+    "bytes": 3651,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LTCUSDT.json.gz",
+    "sha256": "9900041a4c7f1a87f103bbb0a0313ff199fa34f852577ddc8804c9169fdb8de6",
+    "bytes": 22712,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/LUNA2USDT.json.gz",
+    "sha256": "570fff55389b1938b714e95dfa17edec6739607eb01199ea7b076aa70b664288",
+    "bytes": 29976,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MAGMAUSDT.json.gz",
+    "sha256": "17720cf6f630106deb94abbb1c7dc1e80035d9bc2dd70c8afa7b68b9972ac02e",
+    "bytes": 367,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MANTAUSDT.json.gz",
+    "sha256": "8f3f3964322435d8cf5a32c98dad4f1b3305c0786010124d1adc496cc7025d0b",
+    "bytes": 35237,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MASKUSDT.json.gz",
+    "sha256": "c33bee2a7e88c39d2a5e20fb2018482fb239b194caf3a8d031d8a0da9962bc89",
+    "bytes": 33490,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MATICUSDT.json.gz",
+    "sha256": "128d438d009e4ff3ae9e9bb8762582dc251fe326bae3c2b13c384ff123c55d71",
+    "bytes": 16151,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MDTUSDT.json.gz",
+    "sha256": "339202fe9f6b4cb5dd0394012062061903a35309eb4bd6912e34fbbd74534038",
+    "bytes": 1860,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MEGAUSDT.json.gz",
+    "sha256": "97085aa6d2063cfe994b9c64415d571389f0c34f3e3e50d9fe76f062d1ea421f",
+    "bytes": 1920,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MELANIAUSDT.json.gz",
+    "sha256": "18ca63851d270cf2eb5ac3c5a46abe2fd90a3901bd3695a781f23ac888b9dcf4",
+    "bytes": 21566,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MEMEUSDT.json.gz",
+    "sha256": "509b3162535e31d29aa8d041825ef1824334600ef2e80a48168c7aa6406d3f42",
+    "bytes": 38466,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MEWUSDT.json.gz",
+    "sha256": "22337f2485ba954f25134e0028626b748127813671c015bdedc8c4fdca3a9bf4",
+    "bytes": 29351,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MOODENGUSDT.json.gz",
+    "sha256": "797f06449a87590bdeeafe378567d3faced788c5f334a653983f6290dd1a8338",
+    "bytes": 26874,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MOVEUSDT.json.gz",
+    "sha256": "622a2bc66673a18a6efd13c5162f4f3973f8a183d58afe485dfc48a6a4d2e468",
+    "bytes": 30553,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MRVLUSDT.json.gz",
+    "sha256": "d527f9981bcf03208720542e434fe7d7c6a3458314ac42be1be2683a5c31fed5",
+    "bytes": 3510,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MUBARAKUSDT.json.gz",
+    "sha256": "b5d0e0c2c53f92f7b2a2b5e0122ab10b68ac5881ca3e37cd0d0229023e3efdbf",
+    "bytes": 18843,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MUSDT.json.gz",
+    "sha256": "526e84cae0ec73bdb8c8e4519bb65cccd401a4e03a5ecf644834d1b7e31682f9",
+    "bytes": 24809,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MUUSDT.json.gz",
+    "sha256": "7060d437cd540455d2b48f755753c461b85c11c97aa2231481a3d0b9f2e109c5",
+    "bytes": 4786,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MYROUSDT.json.gz",
+    "sha256": "c5a04880e07cfb8576ae278d19e29d0d02f008c06f2c3e6fec9b4a7d01b065ec",
+    "bytes": 2198,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/MYXUSDT.json.gz",
+    "sha256": "7160157488e08c89bf451ed8fb5dcfa90e227e1e82c66b1e44197372b39aa971",
+    "bytes": 27613,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NEARUSDT.json.gz",
+    "sha256": "83b1711c99c801cda78512bb19ac5d46e3c96d835c6ccb6bdcf8e8e451857561",
+    "bytes": 22297,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NEIROETHUSDT.json.gz",
+    "sha256": "598fd08ad2d30dccfd2a0e66d1b69b423c14700ca50ae1f37e64113eda07a95a",
+    "bytes": 14462,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NEIROUSDT.json.gz",
+    "sha256": "f34a1dbf86fafa1d0515c34d66ed072f60f80e03853ea0fafae504205612ab11",
+    "bytes": 27366,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NEOUSDT.json.gz",
+    "sha256": "9d9c4d3d3313ee75a1c5ce0de01c74cd29b0559e31ecc9b0de1f85898ad5c977",
+    "bytes": 20925,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NIGHTUSDT.json.gz",
+    "sha256": "2fcdf7490b17d11f74bb7b04df01eac79da0c10aaa43c4452626d56585b08393",
+    "bytes": 12696,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NMRUSDT.json.gz",
+    "sha256": "e69b96d3dc05114dab7714b44de34ac32fca8d280d5b995163886c9dabcdcfd2",
+    "bytes": 39278,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/NOTUSDT.json.gz",
+    "sha256": "76857ff789487fbb752914cf453c8568820d9a774b1a56badc7ff3ff16b0ccaa",
+    "bytes": 30992,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/OMUSDT.json.gz",
+    "sha256": "11528fa7304ac2d047840579e682383ffa84f79bd02db1d5d6ad96e417866257",
+    "bytes": 30948,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ONDOUSDT.json.gz",
+    "sha256": "93dd69969bb4846c2bf958fc886b3baf0c96964c7bffd9e18679ed99d15b0c5b",
+    "bytes": 40007,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ONGUSDT.json.gz",
+    "sha256": "d20a8eeff76eafb6e02d6edb4b2e2e3cd7bd965f4b6f490e11ac2cb8ad88706a",
+    "bytes": 40800,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/OPGUSDT.json.gz",
+    "sha256": "fb2f98c27abb94f9fd7de6f1ef2808de46cf284ddae581823d930c5841ea00ca",
+    "bytes": 1749,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/OPUSDT.json.gz",
+    "sha256": "b4b61ced0e3d5eed519ae94cb2b93a766050b8389b6c348ca868541f05db56ee",
+    "bytes": 22676,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ORCAUSDT.json.gz",
+    "sha256": "2d8f74f7516be6e402375c3ca66d78d21265ca4dd0c91a3f232345b4d6655e4e",
+    "bytes": 33732,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ORDIUSDT.json.gz",
+    "sha256": "525e43e8e2978572abcb586fd5d5a329ee3078c32d83a08aa2e0889668f2aec6",
+    "bytes": 39850,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PAXGUSDT.json.gz",
+    "sha256": "393bdad6c0bb2d88727460e325478ed36cb83003ae8e578ccc32a8847fa9303a",
+    "bytes": 22977,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PENGUUSDT.json.gz",
+    "sha256": "53af17c7268d28ff850916342505495b9924a666c175dc247579304bbb888943",
+    "bytes": 26951,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PEOPLEUSDT.json.gz",
+    "sha256": "698d11750ea0dbb0e5c64e843e906bbfcca648fdb3909a182c86d189c4c0a866",
+    "bytes": 20886,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PIEVERSEUSDT.json.gz",
+    "sha256": "98ba83dd347ebc4623329b52049f2309c2c85c3672f5292723ae8df4199850b0",
+    "bytes": 14319,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PIPPINUSDT.json.gz",
+    "sha256": "24a2d8fa0cdbdbeb7de8a87068cb7babbfd8e65498f53b12a1939b5ed6018348",
+    "bytes": 37126,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PIXELUSDT.json.gz",
+    "sha256": "f796713775e1a3f0b55c834eedab376ba7367864f48b469fc9bd6d1aa440b598",
+    "bytes": 32761,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PNUTUSDT.json.gz",
+    "sha256": "ecf9d6259dc332b46772f5f7920268bd19f9f341602840f6466370e971acc69d",
+    "bytes": 26457,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/POLYXUSDT.json.gz",
+    "sha256": "b5710c9d99b0ffcc5b87a14023b1104f1da9cc5ac50d4033bc52ecd12092f2df",
+    "bytes": 39338,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PONSUSDT.json.gz",
+    "sha256": "887d5a85327c8b40873e31615ed38c02edbd70858faacf5ea99d3354dc4bf991",
+    "bytes": 1459,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/POPCATUSDT.json.gz",
+    "sha256": "4c8192522460309ab0548593995a42fc68deaafc6507008d26195c683d145aab",
+    "bytes": 26755,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/POWERUSDT.json.gz",
+    "sha256": "ef9aaebcd0e7e1d902fed35854d0492753d5183aa976c49f740710f49d223ad1",
+    "bytes": 16251,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/PUMPUSDT.json.gz",
+    "sha256": "806e3859912b9f4436e87e9898e308e6a4d5a95ac3e6edcd3b085d788d98cbdf",
+    "bytes": 20676,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/QNTUSDT.json.gz",
+    "sha256": "84353ffb781fdf32f13e2b3328c5c34b84dbcd4aa28d70da267748556f5ebba3",
+    "bytes": 22010,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/QUSDT.json.gz",
+    "sha256": "91b5a2dee2554910b3090e33a1453949a2452541ba3164a8539ff07b03c0d553",
+    "bytes": 1412,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RAREUSDT.json.gz",
+    "sha256": "37242475746569ba52a737d165841d69b0d1717fd5cc11748772d27ce4c7b939",
+    "bytes": 27802,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RAVEUSDT.json.gz",
+    "sha256": "f3cc6cddf226e98bea7e2c6a652d6f16b1d9df826de295ffcacd523712e897e6",
+    "bytes": 15098,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RAYSOLUSDT.json.gz",
+    "sha256": "a5e2758aea39405a1562c0b7276a4fac9e755d817817056971b5c79c58fcd632",
+    "bytes": 1608,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RECALLUSDT.json.gz",
+    "sha256": "987746b52560277f73517221baa0eb8079be615bf53ac3623f36ad3982366b70",
+    "bytes": 2623,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/REEFUSDT.json.gz",
+    "sha256": "aa7f23d5e66e7fff11b008b0191c2c5c15bde30ac6410b4d3cb5326f5b7e6607",
+    "bytes": 14526,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/REZUSDT.json.gz",
+    "sha256": "86f56747bc327db7301636dba7e0f0012babbcfd49fea950fd00c171f9d0f0dd",
+    "bytes": 1355,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RIVERUSDT.json.gz",
+    "sha256": "35365e6a7a8a5214206f9944180e3f578ac8163088b03d6c3c06afb02429ce25",
+    "bytes": 24028,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/RUNEUSDT.json.gz",
+    "sha256": "4f30a85459a7a64d163b89b316232ed9deb1392cde39a0644b8d74b698fa0717",
+    "bytes": 20335,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SAGAUSDT.json.gz",
+    "sha256": "de3444415fa707a71c27f673ef7d2be4454004b3e9cda6004dcb303be5408389",
+    "bytes": 29513,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SANDUSDT.json.gz",
+    "sha256": "4aa730c17f35478e0d1a44bab8672f65feab70995575749f0634f744b799ffd5",
+    "bytes": 22350,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SEIUSDT.json.gz",
+    "sha256": "7ec45257863768e6e332c9f4f64e60ce83f87939539fc3ea0c1f86c16bad166f",
+    "bytes": 24414,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SHELLUSDT.json.gz",
+    "sha256": "33de3b237a15b86c48d62c623ceb1b6bae655cca74cd6fc8a44ff5385731bed6",
+    "bytes": 1307,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SIRENUSDT.json.gz",
+    "sha256": "b2af7674e0b38c0dd04d12acc90935b26ba561d96d0424b2b84d342e48045783",
+    "bytes": 27468,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SKHYNIXUSDT.json.gz",
+    "sha256": "39955de4bd5be236059dbce05af02c637670d4b64fce9a931602f894df168d98",
+    "bytes": 5892,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SKHYUSDT.json.gz",
+    "sha256": "c3b03a77bcaa3f7f342a1e01846236b0c9aaeafc714783d5a3f8273b4f19e56d",
+    "bytes": 2626,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SKYAIUSDT.json.gz",
+    "sha256": "1dce5f7a803acc952d367f935ae6aa88facd657b0bef8cea8d3efe121f94d21a",
+    "bytes": 19235,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SNDKUSDT.json.gz",
+    "sha256": "a9f7d41a953f0b336c911f62aa681cccafd253b6cea43cfc8644d2e78bb11404",
+    "bytes": 4509,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SNXXUSDT.json.gz",
+    "sha256": "4d92e97798fecb6f018149117bd64abcbfa65f495cccca8902c137b8aea0d614",
+    "bytes": 2818,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SOLUSDT.json.gz",
+    "sha256": "9bdb7730f3a7bf8cde1512f221d501c9e11f864bf2b4c3e20b65d7230d8630cd",
+    "bytes": 24092,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SOMIUSDT.json.gz",
+    "sha256": "81d5d2a3422c5765cc96e1afa1e34e43c738fe0e9ace6bec3e35cd42807a6be6",
+    "bytes": 15343,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SOXLUSDT.json.gz",
+    "sha256": "b274772a49e899cdac4002341c96c8c5d27cea3f9ea84279dba3e083dbf3c37b",
+    "bytes": 3926,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SOXSUSDT.json.gz",
+    "sha256": "1278dd0b3a3c152673e701d9d5cd521032be18f0949601d829e91f14021825fc",
+    "bytes": 2555,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SPCXUSDT.json.gz",
+    "sha256": "f27470ebb1fd8ba96622688df0e080b62b2f779f6986d2e03d4c86c2305011b0",
+    "bytes": 3452,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SPKUSDT.json.gz",
+    "sha256": "0c046f016769bc797900ac7f662f6ce238fd8afd91433c30fd5f3cf3a8bbb5f2",
+    "bytes": 18780,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SPXUSDT.json.gz",
+    "sha256": "616efa815f5f1993a4533a33f8e5c4fc9489f6f984a8af9225ac6f5f658fe570",
+    "bytes": 1788,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/STOUSDT.json.gz",
+    "sha256": "11e6c138603ca93730eae9e910e1bae65db5fccc97f27f8278162e12789df1db",
+    "bytes": 19029,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/STRKUSDT.json.gz",
+    "sha256": "bad8e2a26cce9424934ad2fb5c81e02a744f5e3ea5944c713e92c135df84239e",
+    "bytes": 36537,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SUIUSDT.json.gz",
+    "sha256": "0639283a5ba045705cd38ca99b1a4fb917d795a3413d6654e4c15b8062d2d3de",
+    "bytes": 23736,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SUNUSDT.json.gz",
+    "sha256": "7bf0b24a8cc9338f74e24026b35823bb0173a258c9db0e08009f18554249e537",
+    "bytes": 27769,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SUSHIUSDT.json.gz",
+    "sha256": "67466339a4a03b4a0d4368265a6381abb17b899d72280ec64522f5c351fe48a2",
+    "bytes": 21105,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SWARMSUSDT.json.gz",
+    "sha256": "e8d66ccad9c2e9b9c7335582004a4c45de788f266b5cf83985836b24bf52dd94",
+    "bytes": 1779,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/SYNUSDT.json.gz",
+    "sha256": "43990e2d898776d25157fe06ec34c89a879cb4000bdd3fe04424e37527f7fcb9",
+    "bytes": 25794,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TAOUSDT.json.gz",
+    "sha256": "b2149faf789d1ea0bb2286b18fa5f35952a7ba5403110993ec22cc0b374e4e7d",
+    "bytes": 33271,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TIAUSDT.json.gz",
+    "sha256": "c52c37c06fd1557a3ac43e997a94d06a828d846c88f0e0cced19bb62ec27373b",
+    "bytes": 43174,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TNSRUSDT.json.gz",
+    "sha256": "6a4b016cbe204aa1dc8ee92566cdd3e8b4f21e539c5cdd21efed34091c8df686",
+    "bytes": 37297,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TONUSDT.json.gz",
+    "sha256": "f2d3194f750831204a1413c5a56fe6d7175b38dd8ea0bc8599dadfee627e24d9",
+    "bytes": 32556,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TRBUSDT.json.gz",
+    "sha256": "af8c08792ce15f9932ed014ed045cbbda84b3c283eef3ff3f6b47a9c8d6f1418",
+    "bytes": 36973,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TRUMPUSDT.json.gz",
+    "sha256": "8b80da5727fbfad18a4cf1e463eb3588d3f60924e4ecc6015f4a10c4a02a0758",
+    "bytes": 27747,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TRUTHUSDT.json.gz",
+    "sha256": "2e29fded01660d53fba0f08a4680f91d02c9220ad7afa470cdc7b08f387f2dec",
+    "bytes": 3113,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TRXUSDT.json.gz",
+    "sha256": "c22b11cde11f55779f52ab4229e7f62516197c0c1bbefb7c1ab1a2280c286ec2",
+    "bytes": 23308,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TSTUSDT.json.gz",
+    "sha256": "1a7b02d98963378999a7cb2bdcfa4506e7db863e5ec501c5bea7690d08be5c69",
+    "bytes": 18999,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TURBOUSDT.json.gz",
+    "sha256": "46db5efd506c470039a4ca80abc64f2a817059fbd171fba6eef6fa4ac14a28b8",
+    "bytes": 32745,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/TWTUSDT.json.gz",
+    "sha256": "c2e5f37c5fd98c331b5b4ce5da3d009004f9e4dfbfc975bd0e9512e501a67a65",
+    "bytes": 1444,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/UAIUSDT.json.gz",
+    "sha256": "8ccca9ab884f1c7da3fdeb218d788174fc44e916174f4fc292a15371044a3c84",
+    "bytes": 1607,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/UMAUSDT.json.gz",
+    "sha256": "08e5535b38516c255447f3b34f75eb3e76bfead32034b9272be09c80c9d3f86f",
+    "bytes": 35773,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/UNIUSDT.json.gz",
+    "sha256": "23d7ac2ccdc596ad57eb79e69489b27c3abc088087dbb9a79940790eb2b120a2",
+    "bytes": 22200,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/USELESSUSDT.json.gz",
+    "sha256": "a1731cc34466e9b47c51c1866adae58a1f89f9d4f5f7c715a1a013ded7c2a1a4",
+    "bytes": 1575,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/USUALUSDT.json.gz",
+    "sha256": "af11dc8151e78f07af04841de3e0f145260fb9590e806e6e1b4e567b67bd6009",
+    "bytes": 25291,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/USUSDT.json.gz",
+    "sha256": "da4a38b07220d2d975106a8a11f8750ac982c8d722fd06cd1dbd3749246c461b",
+    "bytes": 3017,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/UXLINKUSDT.json.gz",
+    "sha256": "2de3ca6fd96409f925abefa33ad7f4cad72eb19af1e45af5f950b7148d3b5c20",
+    "bytes": 14091,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/VELVETUSDT.json.gz",
+    "sha256": "8ab7e63dadbb746ae9757cf84d336c5464833f2fb26a9444a54759e9e4e11101",
+    "bytes": 17440,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/VINEUSDT.json.gz",
+    "sha256": "306bb380ebe8c7caeff403661a7ea61891e52d2f20f3f038afd332f92241db71",
+    "bytes": 14344,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/VIRTUALUSDT.json.gz",
+    "sha256": "8c99123d8a092f3ad883d10c763bd147179695ee074a926712de9c7ff7efb411",
+    "bytes": 28622,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/VOXELUSDT.json.gz",
+    "sha256": "47228ca0a7e89a014a13b0c15e1e554c1b353054823edfe1f37356392d9d70cc",
+    "bytes": 21596,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/VVVUSDT.json.gz",
+    "sha256": "50b46cbc1ea94cc9801213f44cd14f1c95d0efbbd2cdc875be0e6f9524b70e54",
+    "bytes": 1775,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/WCTUSDT.json.gz",
+    "sha256": "cb36eb6b61e49e263d55fcbc0576b265b2360da9a5ea0664cd44e543ba41caa9",
+    "bytes": 24708,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/WIFUSDT.json.gz",
+    "sha256": "f2da233c0300be746bf786569e22b9cce6cfa4c97aa1fa132c3bedc8ba2904d2",
+    "bytes": 37629,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/WLDUSDT.json.gz",
+    "sha256": "682d49186ef39ecc6a138301dc1a72bfd80620f6e18b10539b103d939135d8ad",
+    "bytes": 22643,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/WLFIUSDT.json.gz",
+    "sha256": "3af5e11047864c21545b995c220fef11952951ee92bec1e7144870f03f0be1e2",
+    "bytes": 15532,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XAGUSDT.json.gz",
+    "sha256": "f5122ef1c0fae41a3f8e6bdb9d206f10dd7d0bb36066f1698fd2f7247c36dc57",
+    "bytes": 11641,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XAIUSDT.json.gz",
+    "sha256": "2421579866b884fbcdbbe6bf123a04c43e4ee33e55a5d25910f944e769eab699",
+    "bytes": 35675,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XAUUSDT.json.gz",
+    "sha256": "62f836d474ee3e46638fd0fd380adbe8fa88bb6800a1b01567cf7c49b1bf9f2b",
+    "bytes": 12134,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XLMUSDT.json.gz",
+    "sha256": "ec17592548b7f1942f86728c7225e7cab1a8cb53bd8e76d734b65b3ce1f5f9e9",
+    "bytes": 23113,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XMRUSDT.json.gz",
+    "sha256": "645114955e11a65c0d53653104e615b4dd0c58e27b711905fd6c78695389e572",
+    "bytes": 19152,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XPLUSDT.json.gz",
+    "sha256": "349b81fbf8a9c11570e77daa89e8d051f3cce31b227a6ff8896d12a8dcb961ef",
+    "bytes": 15767,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/XRPUSDT.json.gz",
+    "sha256": "f6de588702509cc41fb5171104081c59b1b317552519505fc02346f9565aa131",
+    "bytes": 23376,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ZECUSDT.json.gz",
+    "sha256": "071dd2043634501aa97293ae181ed23fbe562828487040a51594e255ffa4a5c0",
+    "bytes": 21302,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/ZROUSDT.json.gz",
+    "sha256": "6c902e0d537c19207d8494dbf23830f36b2e886d82b62f46554928f8c579e5c2",
+    "bytes": 33071,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/funding/symbols/\u5e01\u5b89\u4eba\u751fUSDT.json.gz",
+    "sha256": "3ffb801afcbaf8928dc1edae2c9d211c9b83f02b36859877e6f25f37a4199633",
+    "bytes": 13906,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/0GUSDT_15m.json.gz",
+    "sha256": "1b1ea0340998d6c01961600d0aa6fe9b02cfa21803cc9e976775d368bc0d78ef",
+    "bytes": 1138,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000000BOBUSDT_15m.json.gz",
+    "sha256": "2788a2bb0f11550d7f033b16f7ed1154f2d5d5c8936d029ff55b74e6a14026a1",
+    "bytes": 1325,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000000MOGUSDT_15m.json.gz",
+    "sha256": "5a6c0c37881feeb7eee2da8dbb8e77a23905986584d947d36bf39c270eaaba45",
+    "bytes": 1770,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000BONKUSDT_15m.json.gz",
+    "sha256": "3c2df561a051a16bea99b8d904059b7c816ae1feac3262954c1bfbc35be06e23",
+    "bytes": 2505,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000CATUSDT_15m.json.gz",
+    "sha256": "bd87ad7565247b4aac267052797835b22863f20629c2398ddb7ec5de53c3da28",
+    "bytes": 1832,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000CHEEMSUSDT_15m.json.gz",
+    "sha256": "a62955be7f4767fa2cce88805674cbc2d9c22455d02ff0909391b736d57beb61",
+    "bytes": 1762,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000FLOKIUSDT_15m.json.gz",
+    "sha256": "101249371163f9bb70c1e31778b5739933d99aedf16ba7bfa3eb3b7032155ca4",
+    "bytes": 2901,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000LUNCUSDT_15m.json.gz",
+    "sha256": "e96955d0c3dcfa5fd50b4593b0d249f18d3e104dfd532c5201adb9112db7de19",
+    "bytes": 3386,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000PEPEUSDT_15m.json.gz",
+    "sha256": "689ff3ebf32b2dd1b44bd1c69a1f3f8b4cc7cb333a26dc37f8c7b35e35e9df3d",
+    "bytes": 2869,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000RATSUSDT_15m.json.gz",
+    "sha256": "86bc5cf7500de25978994eef3670d8f07eb1be326aefb4778cb21b5fb4bba64e",
+    "bytes": 2454,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000SATSUSDT_15m.json.gz",
+    "sha256": "9e050508e98a7dacbeb26ecdab7f8462e5fce79617bdc7c83e4631ec0f2d0187",
+    "bytes": 2447,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000SHIBUSDT_15m.json.gz",
+    "sha256": "65a56ae44b4315357fe2dc185921646e108421224e25efd8ae581b741b460fcf",
+    "bytes": 4393,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000XECUSDT_15m.json.gz",
+    "sha256": "282b986afcc60bc34bb701e0c8f2b6355cbdd1bb4f9f9f1fd53ebb8eff316121",
+    "bytes": 4146,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1000XUSDT_15m.json.gz",
+    "sha256": "10e416c797d08f9457ad63f4e11b888d4c5f53a2b4b5086bb6723437530ba864",
+    "bytes": 1763,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1INCHUSDT_15m.json.gz",
+    "sha256": "04a2f22b75826785c466aaadc2f57d53cbaa584b19820ae6aed83651bf0a1067",
+    "bytes": 4714,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/1MBABYDOGEUSDT_15m.json.gz",
+    "sha256": "25971248df9e4ae075c23f6aeb1b83fd87bc615bc1b35a9b42d89ab7159e0628",
+    "bytes": 1894,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/2ZUSDT_15m.json.gz",
+    "sha256": "8603f28a3bc900d6312995468511c6993c1575b842f5dad047845222834ce465",
+    "bytes": 1069,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/42USDT_15m.json.gz",
+    "sha256": "fcaeba3eb147fdd8bd9f77687382cd913e4fcbc28bb13495f1a374c2c5c0ff52",
+    "bytes": 1066,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/4USDT_15m.json.gz",
+    "sha256": "c6b9c9e05b5b2726d8aaf551aa4e2f4592a13914edc04c794c807aabbf9c7488",
+    "bytes": 1071,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/A2ZUSDT_15m.json.gz",
+    "sha256": "bada915c3d6ca4b13bb95bafdaca26f74918b045ff6d9b48bab37a2c54290af1",
+    "bytes": 1262,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AAOIUSDT_15m.json.gz",
+    "sha256": "2f4bb0c4acc4e31b4aef04056c74ad00e10c8dccf89a04989e6016316b30a475",
+    "bytes": 581,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AAPLUSDT_15m.json.gz",
+    "sha256": "996dc1b8b2de9aa7a87881f7d67aa2555a8ca44b0fdb7230573295013b496b01",
+    "bytes": 710,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AAVEUSDT_15m.json.gz",
+    "sha256": "dd4e0add2f411267f28bf827e6979964618b2ee84ec0b0a14e7bc427d2ae4f0c",
+    "bytes": 4852,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ACEUSDT_15m.json.gz",
+    "sha256": "a466e7aab9000720864493de7f7d37db5926b246428ad088e238908824ba9c9b",
+    "bytes": 2444,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ACHUSDT_15m.json.gz",
+    "sha256": "b9d24eda4e7496c5c569ac2a7c8026f6610b9f41706aa7639cc2c2f987c218bb",
+    "bytes": 3093,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ACTUSDT_15m.json.gz",
+    "sha256": "acebcbe1bc5fb477ac090d3d31eb3947ee255469832b9ac5bd3c1c21913836bc",
+    "bytes": 1761,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ACUUSDT_15m.json.gz",
+    "sha256": "021cf17278c9dbca32e7349f48cabc52e3ab2cdf93b7d27722d5ca2be906efda",
+    "bytes": 885,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ACXUSDT_15m.json.gz",
+    "sha256": "3cc8a2c4c0a3796b68dc94b6b70d8bb3ed5b4a0dbffd8b69f94c901975203c78",
+    "bytes": 1701,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ADAUSDT_15m.json.gz",
+    "sha256": "0f135ebe6bf2103143e76dcb0dc9c56f044fb24d6c3619d14e0b7ad1d57e29ad",
+    "bytes": 5382,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AERGOUSDT_15m.json.gz",
+    "sha256": "369117b687f1bb152640bef330f59e9a607f586e6f2045c3c24aa82bada0d38c",
+    "bytes": 1638,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AEROUSDT_15m.json.gz",
+    "sha256": "6e56b3f0789e096c1fdfe665e6c61fdd6b7c0d97210db7f3745fa7f2e9d5eab7",
+    "bytes": 1710,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AEVOUSDT_15m.json.gz",
+    "sha256": "de3b7fd68a9ebc0a989718e14f0b79b7d0d53b8b3db5d27199a3a4b6b70843c4",
+    "bytes": 2261,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AGIXUSDT_15m.json.gz",
+    "sha256": "99d4d6b0cce4b8cfb4fe9092b43da1062107e54a48a5b3d3c075eb7ead2a75c2",
+    "bytes": 3066,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AGLDUSDT_15m.json.gz",
+    "sha256": "4328b0d270bcc0f1a1af63a98e45416b45a00f60f66020865c2af7f99ef2ea21",
+    "bytes": 2745,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AGTUSDT_15m.json.gz",
+    "sha256": "fa79b23ea64a01aee887cabf099177a45bd0a7f06c6d889c9c7fae40ec1cbae3",
+    "bytes": 1389,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AI16ZUSDT_15m.json.gz",
+    "sha256": "1baa03a7bb0f6b117289b41e0ec7122b3f27723982f994c5ac4175dc22b4862c",
+    "bytes": 1635,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIAUSDT_15m.json.gz",
+    "sha256": "d2d1e4db718151a8c8f17cc812b4c3bc5ceb5c5c1f39ea041a14981ada11cf8a",
+    "bytes": 1135,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIGENSYNUSDT_15m.json.gz",
+    "sha256": "7b31bd4f4eea78619089064f8899355b1001d3693ac7ac68ef01644513c83426",
+    "bytes": 709,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AINUSDT_15m.json.gz",
+    "sha256": "280fbec818f20327550ea4159e61d7d65370855a04d9ce1c6574feba84342c81",
+    "bytes": 1269,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIOTUSDT_15m.json.gz",
+    "sha256": "d8e4baf621e60e188e371a11ffab3b4ef236f2905cbeba28251b349a555b7aa8",
+    "bytes": 1454,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIOUSDT_15m.json.gz",
+    "sha256": "bde67423f9718681b26278f1614a119bd73e2acd50ea329e7ee630a71319919f",
+    "bytes": 1203,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIUSDT_15m.json.gz",
+    "sha256": "3cf00e4644cc98c85438fea3003b4cd731d7dea78a47af789094d268286f2626",
+    "bytes": 2369,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AIXBTUSDT_15m.json.gz",
+    "sha256": "e64275a98781e1331feda2965a96ebc54365976dc0d83a7bde80db240a15db9b",
+    "bytes": 1689,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AKEUSDT_15m.json.gz",
+    "sha256": "68a726f7afbef1046ea2f5210f6a57150a783c50adfda9f416b1219b0e59d6bf",
+    "bytes": 1149,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALCHUSDT_15m.json.gz",
+    "sha256": "5d377a6c311a04f146ec07839ef34feff192e57e29452f43d7cb8e54897c09fb",
+    "bytes": 1628,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALGOUSDT_15m.json.gz",
+    "sha256": "cf701f13731c520ec8847e8aff448c2104f7a51c19dbb54f78c0a39298e17ef5",
+    "bytes": 5107,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALICEUSDT_15m.json.gz",
+    "sha256": "7d6de56d5636a0eefb9f940d50bddc8c016060627dd17c69d30413c4f718f454",
+    "bytes": 4544,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALLOUSDT_15m.json.gz",
+    "sha256": "b7660bbde2cb075c46cfe435c1156980916af0b35ba1a7f837ccedef8504f9e3",
+    "bytes": 1015,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALPACAUSDT_15m.json.gz",
+    "sha256": "9198636791139c87d5ab5ca54790353c53c419abea96edb75fcbb6b48d33cab5",
+    "bytes": 1930,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALPHAUSDT_15m.json.gz",
+    "sha256": "a2a52e193d1a9186b4f433644218e608f845f730a3fd695a9453d16d62a68708",
+    "bytes": 4795,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALPINEUSDT_15m.json.gz",
+    "sha256": "5e1b93ed0a0dacc8f8de9029837cf06b8dff6c88e11f372823e5784bf33e7abc",
+    "bytes": 1392,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ALTUSDT_15m.json.gz",
+    "sha256": "890d828196e5d865e432e1f70ab549a98a20ad593fd2014c0f09e4863c07f8eb",
+    "bytes": 2392,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AMBUSDT_15m.json.gz",
+    "sha256": "fbeade357b8e2b63c9dc92ca8b0d20a26d4344fc3f83a9146f21f1ed3cc590f4",
+    "bytes": 3010,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AMDUSDT_15m.json.gz",
+    "sha256": "e028c9c851902cc553dd6167c0f4ae0c33c2e5f98d70d296c6160c72c9b83e98",
+    "bytes": 642,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AMZNUSDT_15m.json.gz",
+    "sha256": "49192dcd698253dd7a4fbe2255b4752e700b5ca2edccd56ef80279924ba2f602",
+    "bytes": 830,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ANIMEUSDT_15m.json.gz",
+    "sha256": "df41d2c04b8cf92222725064804ff6515d920452ab0a2e9ad56849b1987b1b93",
+    "bytes": 1629,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ANKRUSDT_15m.json.gz",
+    "sha256": "40a59e185a75ee8f28fea2b32d67bf480b45d1a32a00939a7a40893ed4d34bc5",
+    "bytes": 4679,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ANTHROPICUSDT_15m.json.gz",
+    "sha256": "753e09cc45d6dedbf91233f9cc550e97cfabf579b07b9dc6bd33619b9aa57ac1",
+    "bytes": 589,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/APEUSDT_15m.json.gz",
+    "sha256": "633546997ae6884662f8111bc58ebfb823b925ba42acfa212f66693cb80e901f",
+    "bytes": 3790,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/API3USDT_15m.json.gz",
+    "sha256": "4c9d150a053d8c082d80783f59cddbe7e83b7956606eca3192a76a22b27466e6",
+    "bytes": 3848,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/APRUSDT_15m.json.gz",
+    "sha256": "aa4aa851b9e76cbfe2eca064c91b3ac80d0b0686eb2f56eb5d2c87d6e0eb536a",
+    "bytes": 1078,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/APTUSDT_15m.json.gz",
+    "sha256": "ba4e94679fb55a22dc7bfa28337a6ee784c72e82225391a329fce9ed4d289325",
+    "bytes": 3336,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARBUSDT_15m.json.gz",
+    "sha256": "ddfb0ee8ede892000b36ef9ae3641611f593c1664423708ac0d8412f1dcf7d94",
+    "bytes": 3013,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARCUSDT_15m.json.gz",
+    "sha256": "a24f044b9c15f71405b92dcf23c77d38e70b327e521c0c8edcb5143365a523c5",
+    "bytes": 1635,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARIAUSDT_15m.json.gz",
+    "sha256": "0163456ec96a1178200bc789793a7af17452b487c9ce6c905aca3478cf85cc1e",
+    "bytes": 1149,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARKMUSDT_15m.json.gz",
+    "sha256": "05b9ca75f5e034dbb71ecb82f676a7197d6e0af44f865e6ab2edc9d8a96a938d",
+    "bytes": 2762,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARKUSDT_15m.json.gz",
+    "sha256": "75272b8d23a75a0f97c95b08dfafc8b5bf70a37ad2901d3ff6d41bc86a1599ae",
+    "bytes": 2645,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARMUSDT_15m.json.gz",
+    "sha256": "2f4e691f7b4cef6e58afd0e7e99dbc65d4a3ec8fa91f7c3aeb3b407ea694a450",
+    "bytes": 640,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARPAUSDT_15m.json.gz",
+    "sha256": "8c558c37e132d495346707ea41f766abdf5535e1228a3b4da576c99220410c4d",
+    "bytes": 4097,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARUSDT_15m.json.gz",
+    "sha256": "6e60a574ce97b16fc692808f324a4adec776e4874717a6a2e4bf07f5f8f0fb48",
+    "bytes": 4146,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ARXUSDT_15m.json.gz",
+    "sha256": "ced5f0ce8d595d0d22675925e2a24165c343bb81acccb41a172e5fca4ff9bdd5",
+    "bytes": 581,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ASRUSDT_15m.json.gz",
+    "sha256": "9261e33ebff99545e63f21213d1075a1c3cfff561b022f9325af906686fdb72e",
+    "bytes": 1388,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ASTERUSDT_15m.json.gz",
+    "sha256": "d1f0ea911c72575c874da98f12d66da407df145bad42d782450080c94d00df2b",
+    "bytes": 1141,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ASTRUSDT_15m.json.gz",
+    "sha256": "a46fc223d9d7da4093646b4c4b0eb5eb25d70380da827b7f104499d0af8e84e2",
+    "bytes": 3074,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ATAUSDT_15m.json.gz",
+    "sha256": "58922327326956f1058c1815e432f114a33d15438e1df9b90d89bfbcaab542a2",
+    "bytes": 4225,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ATHUSDT_15m.json.gz",
+    "sha256": "f52bf8858d2323f359e4f0823e8127d4b25dbfcdf83860e86611564ca0430f26",
+    "bytes": 1452,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ATOMUSDT_15m.json.gz",
+    "sha256": "b8fc77f7edff26c836a7058e774c044dcf0b97108077f1f3a39909e5dc82a8fb",
+    "bytes": 5341,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ATUSDT_15m.json.gz",
+    "sha256": "7bbe2ec0808ea9f67724ca53ecf03fdd7c21261a0072c2433c425e0d0fb437d2",
+    "bytes": 1070,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AUCTIONUSDT_15m.json.gz",
+    "sha256": "83a67fc4dd9969a37414302c329e710452a6464826d40bfd69080ec5c3672026",
+    "bytes": 2443,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AUSDT_15m.json.gz",
+    "sha256": "ec65b6f48ff9484070d335010e85bbf2a9e13a354724b8a1bce6da14a3fea2d0",
+    "bytes": 1385,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AVAAIUSDT_15m.json.gz",
+    "sha256": "979986b64c88d2598611916301e4c73899bdcb5c0b9bd49de8c4bac86b049d76",
+    "bytes": 1636,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AVAUSDT_15m.json.gz",
+    "sha256": "336f4289d2941ef13bb1dee558bbe8cc8687c48422ecc86654d0fb137b10ff32",
+    "bytes": 1697,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AVAXUSDT_15m.json.gz",
+    "sha256": "7679941ad3329f1a69614d3263367095f313ae763d9eae939d78246fa3cb7524",
+    "bytes": 4908,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AVGOUSDT_15m.json.gz",
+    "sha256": "568f9765295a1050d720ab40b4eeed53d6135aa59cc5525bff4f963f496eace4",
+    "bytes": 712,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AVNTUSDT_15m.json.gz",
+    "sha256": "78a35883dd41a9589a16adcfabfb774ad240ea4e66de91ccedc7b79bd5c2fd8d",
+    "bytes": 1150,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AWEUSDT_15m.json.gz",
+    "sha256": "eea9e3817c14194d8d5cfe4f06f60100723dd1fdd85470273fc8b0b832906ea2",
+    "bytes": 1399,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AXLUSDT_15m.json.gz",
+    "sha256": "300945f9724fbefd8e9cd41e47aa0502dc348b33ed7ab1cec2f1472c499499b0",
+    "bytes": 2274,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AXSUSDT_15m.json.gz",
+    "sha256": "9fc493504b257fa1d3bd281fbe6253b283e1a23cfb793d9702022401d54ab705",
+    "bytes": 4793,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AXTIUSDT_15m.json.gz",
+    "sha256": "e5e2accbdac2c723f7ad4be7b1445e2ed3bdf50f4caac804477d4f1953768eab",
+    "bytes": 582,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/AZTECUSDT_15m.json.gz",
+    "sha256": "dc03a83e725673e5ca15051dcd47daf90a87e4eb7b0aaa81904917fde76fa204",
+    "bytes": 831,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/B2USDT_15m.json.gz",
+    "sha256": "e1208a78a8face5e4e9934481234b56926555e7d3bace951961d06d00776616f",
+    "bytes": 1381,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/B3USDT_15m.json.gz",
+    "sha256": "303513a26e626cb259efa5c227d7d5df0934cb4de5c289403daddfab0b375cf1",
+    "bytes": 1568,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BABAUSDT_15m.json.gz",
+    "sha256": "3b6dadbac4b75d5e47a46268405a81e893f63a2419adbb23855ac377e1d58e11",
+    "bytes": 703,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BABYUSDT_15m.json.gz",
+    "sha256": "ada25bddd5c83f8b73904c25cf554c5273211128b7553cc2e9d79035f7611ef5",
+    "bytes": 1458,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BADGERUSDT_15m.json.gz",
+    "sha256": "d384975fc3d04d29c6223ca46ba0e562730b09a67b083fdf45e7feafbef13206",
+    "bytes": 2506,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BAKEUSDT_15m.json.gz",
+    "sha256": "ee659229a4c13e59d67ad9a7a526f7d18bc9ec8891f3909d83ebee696e5e7f7d",
+    "bytes": 4416,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BANANAS31USDT_15m.json.gz",
+    "sha256": "ba79272aa16bfda28d5cb23254158d22b052de1fa3f6289bc3e78c2e56e85ce1",
+    "bytes": 1521,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BANANAUSDT_15m.json.gz",
+    "sha256": "9043156010dcb27b9286fd88a5befef2d4fe2f69b326c4f3bce64aea8e445087",
+    "bytes": 1943,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BANDUSDT_15m.json.gz",
+    "sha256": "25b9403090e8df2eff03b79f48c3fa17e85e6e96ee6830c96b82b35160690980",
+    "bytes": 5034,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BANKUSDT_15m.json.gz",
+    "sha256": "6334b94015113e87df69e730c8cf90be664989a6a6c24aa31c526e5b805da176",
+    "bytes": 1455,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BANUSDT_15m.json.gz",
+    "sha256": "919f5916acac984f415b1b8ddc8c5afaf814ccbf93836c08d2d5f0c38ae4326c",
+    "bytes": 1767,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BARDUSDT_15m.json.gz",
+    "sha256": "f743b6af149725cf985b9f59485af3784e2cc2d833fc5d006b663169a3187a63",
+    "bytes": 1142,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BASEDUSDT_15m.json.gz",
+    "sha256": "be9cf1876d627c12ab12ed32d3830d629d72a75b77df8878de490cbf8f8a392e",
+    "bytes": 769,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BASUSDT_15m.json.gz",
+    "sha256": "3e39aaa866ad055b8602c2e97affa37a01ce0767596194e7130ba3ef87dfb624",
+    "bytes": 1205,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BATUSDT_15m.json.gz",
+    "sha256": "b1f1ce5577f215907b6e464bd6443e89add998d1801ca8a539b163d4a7c826ea",
+    "bytes": 5329,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BBUSDT_15m.json.gz",
+    "sha256": "4e8329f1e72e4e1c946ceaa807cbd116b89e41c00878fe80bd493c10141a5b02",
+    "bytes": 2128,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BCHUSDT_15m.json.gz",
+    "sha256": "e9962b18ae350f53613fa19669ce47642463fde5be5a4843e416a99d0322e091",
+    "bytes": 5383,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BDXNUSDT_15m.json.gz",
+    "sha256": "24770b9f354bc5b3ec07e950d6d6506e3e44f8bedd11c172477792d7d1d411c2",
+    "bytes": 898,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BEAMXUSDT_15m.json.gz",
+    "sha256": "77ac63b1e78e47325afa8a1052b13fa2bd7e0d28a3847d0c574c81a560e1a695",
+    "bytes": 2515,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BEATUSDT_15m.json.gz",
+    "sha256": "e8c1387bea6779dee8adc5d676e0d0f7da58502b217ba9465c16492b81929bca",
+    "bytes": 1019,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BELUSDT_15m.json.gz",
+    "sha256": "1efd017dcbe5948fed3924cd274b158b61cc2ce100bad5dd97432b6bf7dd50c4",
+    "bytes": 4767,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BERAUSDT_15m.json.gz",
+    "sha256": "7c722bac5b3e33b5fbd293c0b54361de2c85bf0f2b27135b4444b1c1e18666fc",
+    "bytes": 1576,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BEUSDT_15m.json.gz",
+    "sha256": "f16e8abaccd26a3607e03fdd525f4e76f829a125776af57aadf7bf967556433f",
+    "bytes": 638,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BICOUSDT_15m.json.gz",
+    "sha256": "5db15ebff04e381b0233646a1435745403ba9e0a2403cef474aefe8d72bb4037",
+    "bytes": 2647,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BIDUSDT_15m.json.gz",
+    "sha256": "7afae803c18333690bb478b071704ff0a8f8c487a1d94c8ff01faf71689dfbe4",
+    "bytes": 1513,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BIGTIMEUSDT_15m.json.gz",
+    "sha256": "df0f19e92a5388163da7c081045706bbeea7fabd0b241c9a4c603f3d0bcc09cf",
+    "bytes": 2574,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BILLUSDT_15m.json.gz",
+    "sha256": "e4dacb3cb52c76488ab07297d8bb6c03f8944fab8694eef5d85bcce29799569b",
+    "bytes": 638,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BIOUSDT_15m.json.gz",
+    "sha256": "2e454a6e9bf106e344be56c8f25cd83566205d822e28e149c53d00529d7aacdf",
+    "bytes": 1642,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BIRBUSDT_15m.json.gz",
+    "sha256": "bff7d3beb3b027615f408d565ee255dd3af0459169cfe47777f489913a249113",
+    "bytes": 892,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BLESSUSDT_15m.json.gz",
+    "sha256": "f6cf44dd2c8fd4f4a9a00243a49a8c45237fdd775e87936e545cef9e35c50d9d",
+    "bytes": 1139,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BLUAIUSDT_15m.json.gz",
+    "sha256": "2b46e485693a0972ae92d93fea94da767a92a1a6a922320b40fb56fcd99b89bb",
+    "bytes": 1079,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BLURUSDT_15m.json.gz",
+    "sha256": "0605e03da6d114d2f26cc16382717fc9b5e80bc804698f3b611eed652ead582a",
+    "bytes": 2954,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BLZUSDT_15m.json.gz",
+    "sha256": "db31416506b1a6508c7d0bcf3aebb3bbb9688b12a0d80c5bab0b98f83fee8b4e",
+    "bytes": 4907,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BMNRUSDT_15m.json.gz",
+    "sha256": "29eda9c024ada1496da5d4fa8bcedba37651549aecc18cbd08fdacf54ca39b72",
+    "bytes": 584,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BMTUSDT_15m.json.gz",
+    "sha256": "f9778381de9a483b2c323fb01d8d8738e51f509ce0e18fec8faf4a107f94d39e",
+    "bytes": 1522,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BNBUSDT_15m.json.gz",
+    "sha256": "2049a99f00f5ba789ed486bb4bbf9c42a5f44b564dc9259ceab0309e7fd732e5",
+    "bytes": 5320,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BNCUSDT_15m.json.gz",
+    "sha256": "879bfa38d9b32cc50aeb8f1a7a7ea0c2fd6fdd0bf7b8115e9dd0a215f69180b8",
+    "bytes": 515,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BNTUSDT_15m.json.gz",
+    "sha256": "3559e18b2feaa90b564f479839cd656811ebee5a46c4ad7cd7d5ebd3d2a3da68",
+    "bytes": 2688,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BNXUSDT_15m.json.gz",
+    "sha256": "e86c4eb3d97232f220298b755d1966c44a13ca4ace9fa663e7d845f35709f7b8",
+    "bytes": 3697,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BOBUSDT_15m.json.gz",
+    "sha256": "2c8aa1d8a76d2ae9ff95006f6b09cf7102c4742e5119654bfaa5d3076b3d0dec",
+    "bytes": 1012,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BOMEUSDT_15m.json.gz",
+    "sha256": "3ab5511e145c8578df9e58293ae539278cc624a5a290d8a980a901a71ae69ac0",
+    "bytes": 2263,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BONDUSDT_15m.json.gz",
+    "sha256": "cef0b170a5b2f915953b2c20e0fed02f4a264f2e48ec620e041435ac23c4660c",
+    "bytes": 2560,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BRETTUSDT_15m.json.gz",
+    "sha256": "118ef67d92a144d4ee1b72147278ac8be5dd210c1e4a913daeafa7ad3db17281",
+    "bytes": 1949,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BREVUSDT_15m.json.gz",
+    "sha256": "30d7153baa0bce38188289e699789aa3aec841eb59eb06d0a244706ba017f80a",
+    "bytes": 954,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BROCCOLI714USDT_15m.json.gz",
+    "sha256": "73c3a1545792514b9f3577d5620e623bbde7b73d2da10f17ce6afc52091b92d7",
+    "bytes": 1527,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BROCCOLIF3BUSDT_15m.json.gz",
+    "sha256": "db5b83e82e5770bfb0e236a28e07d35067141b01993389b9ce2c3d16eb4e19a7",
+    "bytes": 1529,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BRUSDT_15m.json.gz",
+    "sha256": "dce677fd486e1daa741c65764d7ceb0a665e55ec72466880b3c49504d61ce717",
+    "bytes": 1506,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BSBUSDT_15m.json.gz",
+    "sha256": "4b2b8a251e9946ded2ba6b1206f227269651748794e82dcf7e11e6c5dd4f22a3",
+    "bytes": 764,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BSVUSDT_15m.json.gz",
+    "sha256": "a83a86d40ed90bc6db9aa3d848e1af75a552f859a88d6845fda829737a3c42b4",
+    "bytes": 2581,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BSWUSDT_15m.json.gz",
+    "sha256": "36f8cbf8a004fcabc7e6305da8e645278513bf2f0e970f444294431aa5eb5051",
+    "bytes": 1891,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BTCDOMUSDT_15m.json.gz",
+    "sha256": "9a2002a3d443652e15064b0d0b916aff986264006b17ce3ab92d4f3d25ca1d08",
+    "bytes": 4346,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BTCUSDT_15m.json.gz",
+    "sha256": "890bcea407d862682377adf21518eaf47a0852d6e698d37f19e0976acdb29747",
+    "bytes": 5385,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BTRUSDT_15m.json.gz",
+    "sha256": "ee541745cfa25b8e8fd53e9830e6cac363c36dccaad34c44364e5de042ed8dea",
+    "bytes": 1201,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BTWUSDT_15m.json.gz",
+    "sha256": "676a3ffba84c70e886d9b233c00d1275ea53557de9d6fbdbcb3c59662902fcf0",
+    "bytes": 580,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BULLAUSDT_15m.json.gz",
+    "sha256": "58c7cf75cf83bdab016189a9be67fb66b92104382b5413bd40531378827d832b",
+    "bytes": 1266,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BUSDT_15m.json.gz",
+    "sha256": "dec9b6158ade699c05ffb9f622d21da3a76539e0b3397fa433f31f4cc40b6d26",
+    "bytes": 1388,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/BZUSDT_15m.json.gz",
+    "sha256": "a0647a3e5ddd3d4d2691b237e65b8f3006d92172c62a39ae08f8df4b1ab2792f",
+    "bytes": 700,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/C98USDT_15m.json.gz",
+    "sha256": "964371b7e65864f72d4234374fb9a7eadc970e840f14a3d71d89f4ff89196319",
+    "bytes": 4220,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CAKEUSDT_15m.json.gz",
+    "sha256": "9bc5cec81ca579ac095558f2dcb2bd906a67d908d65a7447b797a9783dd6a963",
+    "bytes": 2513,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CAPUSDT_15m.json.gz",
+    "sha256": "62789f042b99308e445d5c2a9f2f3d5821d96eed1ff26febb76c17cb3da286d0",
+    "bytes": 578,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CATIUSDT_15m.json.gz",
+    "sha256": "c0cd8cfab0ab144819e89c391ad288001928864caa47758e483c4e68a399a3e5",
+    "bytes": 1896,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CBRSUSDT_15m.json.gz",
+    "sha256": "a64cc70e302f2d12af6952b71c7e35eda9a582283b686ce3c60d7f653a6d48fd",
+    "bytes": 637,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CCUSDT_15m.json.gz",
+    "sha256": "5262fa694e7e789ebd9dc6681093c580ef8d22eb9dd4b56ab78d72f92383ea75",
+    "bytes": 1070,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CELOUSDT_15m.json.gz",
+    "sha256": "64cbb2cdea821106f0a8521f14aa1134833059090b628c33605f0e1bfd7b9384",
+    "bytes": 4165,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CETUSUSDT_15m.json.gz",
+    "sha256": "975656aa0a4a7de2be068b90814f6a96db385bc442ad72c0bed79977f56ced44",
+    "bytes": 1769,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CFGUSDT_15m.json.gz",
+    "sha256": "9da0b38af23089bd1751b9d54bf2c4e275aa7f3b7051083f500ab4e243c4f2b5",
+    "bytes": 768,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CFXUSDT_15m.json.gz",
+    "sha256": "fab4b44be61b6e822b55f3073b15cbe111f713ab824a1b0d43ad8c625424d9b2",
+    "bytes": 3072,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CGPTUSDT_15m.json.gz",
+    "sha256": "f0241389990ba8041e362d7e1b3417db2454d75c9ab225644cca21e37553bafb",
+    "bytes": 1713,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CHESSUSDT_15m.json.gz",
+    "sha256": "ef072fe76dd6bbf2e4ddaa4a6e5265f9d9c6c72df7abf5142c55119a16ae7130",
+    "bytes": 1938,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CHILLGUYUSDT_15m.json.gz",
+    "sha256": "3b021f56ea1ba6a83cc83c651e5d471c158c7adb3acb66a8d4b45910870b93d8",
+    "bytes": 1758,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CHIPUSDT_15m.json.gz",
+    "sha256": "2aa15f969ca02e9a3b5a2d73558915578a585bec713326b4bba73f2653a2cb07",
+    "bytes": 708,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CHRUSDT_15m.json.gz",
+    "sha256": "1ff681e36c04dc0c66445921dcc852aa4cc3c186748bd462841643026f607fbc",
+    "bytes": 4537,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CHZUSDT_15m.json.gz",
+    "sha256": "f5e10777e9dea684eaba00f322b375b759018f326b1535c406a1117474a79d12",
+    "bytes": 4644,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CKBUSDT_15m.json.gz",
+    "sha256": "bf6db04fca3fef9049455f9542ed5248fe6b560244dfc4503e60ac2685254646",
+    "bytes": 3073,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CLANKERUSDT_15m.json.gz",
+    "sha256": "33d81506c11a0435f91489615318e9e9074bba9ce1f0a37b3eb7cd73a6f7230b",
+    "bytes": 1028,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CLOUSDT_15m.json.gz",
+    "sha256": "2d751f8dd669dd4c48176e11df37173d546629d4ceb66112ac75b98aea7c23c5",
+    "bytes": 1087,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CLUSDT_15m.json.gz",
+    "sha256": "f0586c800e75ff6e1be4ba3a0ec37549b173a164b561d76ca5f9259786c22ee4",
+    "bytes": 696,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COAIUSDT_15m.json.gz",
+    "sha256": "2926a3cff2b0085c012537586815b9d22c3b6994a2f9cdd0ea293c7fa500d9d2",
+    "bytes": 1139,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COINUSDT_15m.json.gz",
+    "sha256": "cde34037c1d89bde8d8a49613943610a8b560b4dbae1ea41bb85a143ae450c90",
+    "bytes": 829,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COLLECTUSDT_15m.json.gz",
+    "sha256": "3becb5ad5a182ef7280f12d7e15b2ff31d0438aafe68c924a12601293057e50b",
+    "bytes": 955,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COMBOUSDT_15m.json.gz",
+    "sha256": "4cbbae4a7e22645148619e3f742e22c65d1c0f8df2e495bf06e44a3f7d8744f6",
+    "bytes": 2794,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COMMONUSDT_15m.json.gz",
+    "sha256": "265faceb8a701a31a962d78c47ce4adc9760b86957d27bbfeda61d275111505a",
+    "bytes": 1076,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COMPUSDT_15m.json.gz",
+    "sha256": "50c8833d24422c90233bd0ede47e7cfa6a2be3d534b0f11a2f324a84c0a0df29",
+    "bytes": 5070,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COOKIEUSDT_15m.json.gz",
+    "sha256": "c616f1526a4787b04c27c3673d1bf898895592293d562788b5c6b6aa74ff3137",
+    "bytes": 1642,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COSUSDT_15m.json.gz",
+    "sha256": "39668b0657791e85085edde481b8510a835d60ed3b78b8fbbbe4b7181e3caeac",
+    "bytes": 1891,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COTIUSDT_15m.json.gz",
+    "sha256": "3d42fa9f3940f20ad83e0c3e72b9539381d84853c8920df6ab21cb169ccc9015",
+    "bytes": 4570,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/COWUSDT_15m.json.gz",
+    "sha256": "cb1809c67cc56db83e4fa88a6386e41fb45092ebb932354e00d8c586066eb700",
+    "bytes": 1767,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CRCLUSDT_15m.json.gz",
+    "sha256": "d3c1f2bf43c4c1faaff46b8176e0ccb1777a4d0aaac3ca5fc7286b63a1354847",
+    "bytes": 827,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CROSSUSDT_15m.json.gz",
+    "sha256": "0da5ae6c373f2707f7fe868788c1b6b7efa0ee983d9cb5b99e6c131e1c92817c",
+    "bytes": 1265,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CRVUSDT_15m.json.gz",
+    "sha256": "09f8651671bb229c60b87fefcf754f66280a02cf9701828d37df7bd8febce534",
+    "bytes": 4886,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CRWVUSDT_15m.json.gz",
+    "sha256": "b4366a8dcaf5db9f9ebef3f8de8cb410b61aa338b10543b5a30cb6c1610a1981",
+    "bytes": 648,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CSOPSKHYNIX2LUSDT_15m.json.gz",
+    "sha256": "59b0e95b54625052b017542c059ed2f014614338e291fc751976ecfe3a7a317e",
+    "bytes": 466,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CTSIUSDT_15m.json.gz",
+    "sha256": "752a771d796ac157c7a678d7ecc700f1bb482814c0b87ccac08aa46883d08d63",
+    "bytes": 4074,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CTUSDT_15m.json.gz",
+    "sha256": "095a3388cc59732f26b7ff5902fdb58529c59bc13d5a264d593cc9d76893f131",
+    "bytes": 314,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CUDISUSDT_15m.json.gz",
+    "sha256": "9012de24d5aae1d45e56053f36bf5f23cc1b9af41b337b1c0fafde8e1c94d895",
+    "bytes": 1202,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CUSDT_15m.json.gz",
+    "sha256": "a59b56e98d2e01c05586f1332dcdaca322af193b7406404ec4218ddc5a01da2a",
+    "bytes": 1261,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CVXUSDT_15m.json.gz",
+    "sha256": "c59e050f6a27a33638c75cbe89604c0dbd30d21cb0bd7416b95154054ef18738",
+    "bytes": 3393,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CYBERUSDT_15m.json.gz",
+    "sha256": "34b29a893c54d4219466ac478c03e7c47f0b120e690590e6cc6aa927e5a66289",
+    "bytes": 2691,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/CYSUSDT_15m.json.gz",
+    "sha256": "450e76c5ad2226c30231610633ce0bf188f78b2a801ced6b9d4eda4e92b72b9b",
+    "bytes": 957,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DAMUSDT_15m.json.gz",
+    "sha256": "cbb3e8e3aac71580cd901233a3f17b1b98d3f20893db418701b69aecb5ca98c3",
+    "bytes": 1205,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DARUSDT_15m.json.gz",
+    "sha256": "c578c2eabf1d413b7f9fa100d911bde266b25b49d369b54c2bff894dabd342a6",
+    "bytes": 3712,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DASHUSDT_15m.json.gz",
+    "sha256": "a0a4f09d6854ebfbb2e4c839b8980af2bac5f386c1aa9ff26bfa0f4427100b37",
+    "bytes": 5350,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DEEPUSDT_15m.json.gz",
+    "sha256": "062d67acf1af3ec24165779a20876b080b4bf2ec5e5f4c578b98e2190c3dcf1d",
+    "bytes": 1457,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DEGENUSDT_15m.json.gz",
+    "sha256": "9846c65388010e4c19a22bbd5a24bd406c015e6c3a8b9465fe33fab63948bd6b",
+    "bytes": 1765,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DEGOUSDT_15m.json.gz",
+    "sha256": "f426c49b361069f537cca6df8c135dc01a128c7c240ead5da8b6c62931368c07",
+    "bytes": 1705,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DELLUSDT_15m.json.gz",
+    "sha256": "9118ab028aae2c445d6202bdebab04d21d7b02bb3f986d8c0cb73d49d1bf4091",
+    "bytes": 577,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DENTUSDT_15m.json.gz",
+    "sha256": "467378f2aab2f62db90727e52a6b2a02a4fdc0b0719717e81c0aec610a242f55",
+    "bytes": 4539,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DEXEUSDT_15m.json.gz",
+    "sha256": "36e4256568ad3ece08dbc344bc0a30cfe2adc3445296c1f4e7ba9b91dd6b4ee1",
+    "bytes": 1715,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DFUSDT_15m.json.gz",
+    "sha256": "33649e6a0cfc94e4433e9a1e203099987bf9733f7de8d25481ce85ae35534e40",
+    "bytes": 1702,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DIAUSDT_15m.json.gz",
+    "sha256": "80c9276c47ead0d2521692a8d8cb8c69f4c72ed4aec9e3e775326ce4183c9da5",
+    "bytes": 1838,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DMCUSDT_15m.json.gz",
+    "sha256": "53083367e4bc8167a2ae85d680bc3dc794f115a53755df447842c40ba2239ec7",
+    "bytes": 1328,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DODOXUSDT_15m.json.gz",
+    "sha256": "087740ede9060f2e48027aca36060af702f31433cb7a2088ecf48514896aa00d",
+    "bytes": 2696,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DOGEUSDT_15m.json.gz",
+    "sha256": "70abf3e4677614415f9390267b2fee9e222d17a3f0ba6c650d6b7b2de5ef5d2f",
+    "bytes": 5056,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DOGSUSDT_15m.json.gz",
+    "sha256": "db48e94f0488490e9eb1c171de3796202629a8f24fb398a00a6c0e934bbb1e7e",
+    "bytes": 1961,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DOLOUSDT_15m.json.gz",
+    "sha256": "361397fa9fb6eb4f7caafb681e336a819e051b2691a7c2715ad97fd1906b1319",
+    "bytes": 1391,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DOODUSDT_15m.json.gz",
+    "sha256": "6201eec31067d85a013d22e73ada313ec07c4d1fa8d98eb2decd0706ec9cbd01",
+    "bytes": 1394,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DOTUSDT_15m.json.gz",
+    "sha256": "19204f4d50c4a35c0f3c9531f98e7055900eeecedf9067261f67c2327e3317fc",
+    "bytes": 4962,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DRAMUSDT_15m.json.gz",
+    "sha256": "edbb9fff59b56b1b37a618e541aef6b409326732d7e83386c3ee9d49f5d8df02",
+    "bytes": 645,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DRIFTUSDT_15m.json.gz",
+    "sha256": "801a23580890833d2f46b297833204fb5ee09546371b27e46fbed51dd60c1b85",
+    "bytes": 1767,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DUSDT_15m.json.gz",
+    "sha256": "6f244cd79e28de6f38cde533517043deb13cf763eda5f38a007c3eef61ea277b",
+    "bytes": 1625,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DUSKUSDT_15m.json.gz",
+    "sha256": "ba2ee72c0cc76e8b44a26df4570f00f72e133042eb1335a90ee8043313c27dcc",
+    "bytes": 3887,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DYDXUSDT_15m.json.gz",
+    "sha256": "8ca82a5c6071b6c19b605edd0a6ad6f21a2dbea91f203ba41601ae24d3b49d07",
+    "bytes": 4171,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/DYMUSDT_15m.json.gz",
+    "sha256": "780c00e89e4ffa6ed5e582c984ee45966de89d3a10ba14696509231e73732ee7",
+    "bytes": 2319,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EDENUSDT_15m.json.gz",
+    "sha256": "f367f6c0256a9c11de06225e17387c240bbf5e9af0f769c8bc13f6fa4be16b09",
+    "bytes": 1140,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EDGEUSDT_15m.json.gz",
+    "sha256": "a5193c56645708586a90bf9218a7cc09594a36e4abbfeef5a9fb658d7bd7b0d8",
+    "bytes": 772,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EDUUSDT_15m.json.gz",
+    "sha256": "40df9ab0a9c1ad119a30a37a7615c0387241eddbb26756e9e3252c22c5fd7f36",
+    "bytes": 2948,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EGLDUSDT_15m.json.gz",
+    "sha256": "177480e4e90467fadeac7e768314b6d5785b8abe950e682dac5af7248dcd74e2",
+    "bytes": 4924,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EIGENUSDT_15m.json.gz",
+    "sha256": "809fdcff109dab5eec5cb50e90febe65d29824a6496fe177409b64cb1937d8b7",
+    "bytes": 1823,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ELSAUSDT_15m.json.gz",
+    "sha256": "7242c174907f32140a60f0af35b7aa6a260c26baf9483750c82406f944433d01",
+    "bytes": 895,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ENAUSDT_15m.json.gz",
+    "sha256": "c504f7288bff1e9100d1e592c318dc26a88121f313a61ae633980cac9961285c",
+    "bytes": 2196,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ENJUSDT_15m.json.gz",
+    "sha256": "e473b665333ffda4cd6997b6ee6ae479d8cb312c1950281c487dd0f5998fc020",
+    "bytes": 4908,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ENSOUSDT_15m.json.gz",
+    "sha256": "e49d7f5d8013d489197084c5e76562307314541c91a8b782bea18ad1d88dbc76",
+    "bytes": 1085,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ENSUSDT_15m.json.gz",
+    "sha256": "636e45f087831918835b98fcd3aef02f7a944d48a4c81175dff5473cc5904327",
+    "bytes": 4029,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EOSUSDT_15m.json.gz",
+    "sha256": "e0a755921a2d7b84736595535bcd06cefad5643a0c06414b2a25fcb9c08453ea",
+    "bytes": 4355,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EPICUSDT_15m.json.gz",
+    "sha256": "3038d90006a2362c7615347659c9a76dd89492a17ede90da7b085970ca5e8e6e",
+    "bytes": 1527,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EPTUSDT_15m.json.gz",
+    "sha256": "8dd556897eeb87528044ab02dec17cdb47d37789620daeb92b54f1415df6da5a",
+    "bytes": 1449,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ERAUSDT_15m.json.gz",
+    "sha256": "65bc3023f5e21b0c858df69f710f218ad9fc045f07852860f50d2b234d5139a1",
+    "bytes": 1282,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ESPORTSUSDT_15m.json.gz",
+    "sha256": "607b6864a5b72604e97acb5d55199a2799c65ad74a3e16ad6e036d6ecf480952",
+    "bytes": 1274,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ESPUSDT_15m.json.gz",
+    "sha256": "4ebea4772cfecb0f8ef5e4fa5dab11eb9d975b1ea43d2b4bb63868d8f6233f3f",
+    "bytes": 834,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ETCUSDT_15m.json.gz",
+    "sha256": "af880fa76225baffea26c31e05125446161c83941fd978e03175a680824b2260",
+    "bytes": 5407,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ETHFIUSDT_15m.json.gz",
+    "sha256": "a7aa8305ac7659e43d0a89e9168d3708928adb2327d1cb5656e0f1b6c36fb92d",
+    "bytes": 2249,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ETHUSDT_15m.json.gz",
+    "sha256": "40bc7b4c2933c81df3330cb33b2427be67298f5a2cfd9517b9e061c3a4e0d0c0",
+    "bytes": 5409,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/ETHWUSDT_15m.json.gz",
+    "sha256": "7d4719843cbc93eb7a390722d1bf6589bdaf9555d15dd7d0eaeeddca7719eabb",
+    "bytes": 2526,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EULUSDT_15m.json.gz",
+    "sha256": "e24f490f8663ab09bc4d506d06c0c2ee9c6d24838b4350adf52fb5b44648aa83",
+    "bytes": 1081,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EVAAUSDT_15m.json.gz",
+    "sha256": "0a9d0bf38aca41eddf9fa2a40d5368bec185580d1a3521c2f167d74a9ec4f8a0",
+    "bytes": 1087,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/EWYUSDT_15m.json.gz",
+    "sha256": "440b389f0e9b0afa2d6cc396c660b8f42c14bff68cea2b13b19b21e53ff173da",
+    "bytes": 769,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FARTCOINUSDT_15m.json.gz",
+    "sha256": "e21b15548c1390b69ace375befcb6ef02814aac5c9e53cb9f1aec33d5dccb8e8",
+    "bytes": 1715,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FETUSDT_15m.json.gz",
+    "sha256": "ff304102e1d4e73dd997c12ffbb944157aae93694a689c5b02c178b0a8dad95f",
+    "bytes": 3133,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FFUSDT_15m.json.gz",
+    "sha256": "c5fa7f41357e85ac18f2d767d15b1ea14405da493687bb5bb754d7077b9ab159",
+    "bytes": 1130,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FHEUSDT_15m.json.gz",
+    "sha256": "10072da38c0d6d991ec1171bdaad79f8deeaf9616ed7fd8475d9f4cfd53db482",
+    "bytes": 1448,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FIDAUSDT_15m.json.gz",
+    "sha256": "b6550777a50434f6583360995a6587832bd1b3184f62bfd7c092333a13aebf4a",
+    "bytes": 1888,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/FIGHTUSDT_15m.json.gz",
+    "sha256": "18a6e766314b86ed6b2ff25ec5bdafd7c5f90880ea855aa96ad79b440681cfa9",
+    "bytes": 893,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/metadata/catalog_cache/PUMPBTCUSDT_15m.json.gz",
+    "sha256": "43aff2082b1cf2c5e0dbec0e5d6d34336a96fc5559d33678b0bb1a70a4a938f9",
+    "bytes": 1341,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/pit/CHECKPOINT.json",
+    "sha256": "90ee0d03b9f96cc7056a9d14458407c60f1ed7176cf4bdfa94cd4df953385edf",
+    "bytes": 284,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/pit/EVER_TOP150.json",
+    "sha256": "550d305c9547f8223e3cbb0f0876863d554673c46aa5bd68fbf0ee2fafa6ad4b",
+    "bytes": 8468,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/pit/PIT_RANKS.npz",
+    "sha256": "7369884264c348ea5e772c6f63a884308a88750cd48307a38d4b1f01359eb438",
+    "bytes": 6973432,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/pit/shard0.json",
+    "sha256": "2d552d8277c7de17703ff4d243787ca677041b033989d51666bf556073279341",
+    "bytes": 4262,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  },
+  {
+    "path": "inputs/pit/shard1.json",
+    "sha256": "f97f98fe3a978ac6e67178f91297855f3856befef1a1cbd11696b25ddc3784d7",
+    "bytes": 4206,
+    "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING"
+  }
+]
