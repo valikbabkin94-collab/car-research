@@ -1,0 +1,46 @@
+name: PF four preregistered causal equity switches on saved outcomes
+on:
+  push:
+    branches: [research/pf-equity-switch]
+    paths: [.github/workflows/pf_equity_switch.yml]
+permissions: {contents: write}
+concurrency:
+  group: pf-equity-switch
+  cancel-in-progress: false
+jobs:
+  saved_outcome_analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 matplotlib==3.10.3
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - name: Saved outcomes only, four rules and1000 permutations per corpus
+        run: python research/pf_equity_switch_20261116/run.py
+      - name: Check output publication
+        id: scan
+        if: always()
+        run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.scan.outcome == 'success'
+        with:
+          name: pf-equity-switch-results-code-and-checkpoint
+          path: research/pf_equity_switch_20261116
+          retention-days: 7
+      - name: Publish full results, never merge main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/pf_equity_switch_20261116
+          git commit -m 'research: publish all four causal switch outcomes, permutation controls and gaps [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/pf-equity-switch'],check=True,stdout=subprocess.DEVNULL)
+          PY
