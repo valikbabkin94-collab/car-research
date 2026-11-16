@@ -63,7 +63,11 @@ class Quotes:
   np.savez_compressed(dest,bars=arr);r.update(parsed_sha256=sha(dest.read_bytes()),bar_ms=M,first_ms=int(arr[0,0]) if len(arr) else None,last_ms=int(arr[-1,0]) if len(arr) else None);save(receipt,r);return r
  def load(self,symbol):
   if symbol in self.cache:return self.cache[symbol]
-  parts=[np.load(p,allow_pickle=False)['bars'] for p in sorted((self.root/'m1').glob(symbol+'-*.npz'))]
+  parts=[]
+  for p in sorted((self.root/'m1').glob(symbol+'-*.npz')):
+   receipt=p.with_suffix('.json')
+   if not receipt.exists() or json.loads(receipt.read_text()).get('parsed_sha256')!=sha(p.read_bytes()):raise ValueError('QUOTE_CACHE_SHA_MISMATCH')
+   parts.append(np.load(p,allow_pickle=False)['bars'])
   if not parts:return np.empty((0,5))
   arr=np.concatenate(parts);arr=arr[np.argsort(arr[:,0],kind='stable')];_,index=np.unique(arr[:,0],return_index=True);arr=arr[np.sort(index)]
   if len(self.cache)>=6:self.cache.pop(next(iter(self.cache)))

@@ -21,10 +21,16 @@ def indicators(q):
 
 def prepare(source,work):
  work=Path(work);dest=work/'PACKETS.json.gz'
- if dest.exists():return gzread(dest)
+ if dest.exists():
+  d=gzread(dest)
+  if d['config_sha256']!=sha((LAB/'CONFIG_FROZEN.json').read_bytes()):raise ValueError('PACKET_CONFIG_SHA_MISMATCH')
+  return d
  ranks=np.load(Path(source)/'PIT_RANKS.npz',allow_pickle=False);idx={s:i for i,s in enumerate(ranks['symbols'])};ts=ranks['times'];rank=ranks['rank'];fund=Funding(source,work);frames={}
  for p in (Path(source)/'h1').glob('*.json.gz'):
   r=gzread(p)
+  manifest=json.loads((Path(source)/'H1_MANIFEST.json').read_text())
+  expected=manifest['files'].get(str(p.relative_to(Path(source))))
+  if expected!=sha(p.read_bytes()):raise ValueError('H1_SOURCE_SHA_MISMATCH')
   if r['bars']:frames[r['symbol']]=np.asarray(r['bars'],dtype=float)
  btc={int(x[0]):x[4] for x in frames.get('BTCUSDT',[])};packets=[];counts=collections.Counter()
  for sym,q in sorted(frames.items()):
@@ -123,7 +129,11 @@ def metrics(rows):
  return dict(data_gap_n=sum('DATA_GAP' in r['status'] for r in rows),mean_hold_hours=float(np.mean([r.get('hold_hours',0) for r in known])) if known else None,opportunities=len(rows),n=len(v),closed_n=len(closed),unknown_funding_n=len(closed)-len(known),WR=100*float(np.mean(v>0)) if len(v) else None,PF=gain/loss if loss else None,netR=net,USD_at_5R=5*net,maxDD_R=dd,mean_R=net/len(v) if len(v) else None,best3_share_net=float(np.sort(v)[-3:].sum())/net if net>0 else None,episode_n=len(known),executed_legs_n=sum(r.get('legs_n',0) for r in known),statuses=dict(collections.Counter(r['status'] for r in rows)))
 
 def calc(source,work,mode):
- quote=Quotes(work);fund=Funding(source,work);data=prepare(source,work);results=LAB/'RESULTS'/mode;results.mkdir(parents=True,exist_ok=True);allrows=[];tables=[];control=[]
+ quote=Quotes(work);fund=Funding(source,work);data=prepare(source,work)
+ if mode=='validation':
+  locked=json.loads((LAB/'TRAIN_SELECTION_FROZEN.json').read_text())
+  if locked['config_sha256']!=sha((LAB/'CONFIG_FROZEN.json').read_bytes()) or locked['train_tables_sha256']!=sha((LAB/'RESULTS/train/TABLES.json').read_bytes()):raise ValueError('TRAIN_SELECTION_SHA_MISMATCH')
+ results=LAB/'RESULTS'/mode;results.mkdir(parents=True,exist_ok=True);allrows=[];tables=[];control=[]
  periods=[('TRAIN',START,HALF-PURGE)] if mode=='train' else [('H2',HALF,END-PURGE),('TAIL40',TAIL,END-PURGE)]
  for label,lo,hi in periods:
   for v in CFG['variants']:
@@ -163,7 +173,7 @@ def finalize():
  selection=json.loads((LAB/'TRAIN_SELECTION_FROZEN.json').read_text());candidates=[];leader=[]
  for v in CFG['variants']:
   rr=[r for r in rows if r['name']==v['name']];gates={x['period']:x['n']>=30 and x['unknown_funding_n']==0 and x['data_gap_n']==0 and x['PF'] is not None and x['PF']>=1.3 and x['netR']>0 and x['BH_global63_q']<=.05 and x['best3_share_net'] is not None and x['best3_share_net']<=.5 and x['control_coverage']>=.95 for x in rr};selected=selection['winners'].get(v['family'])==v['name'];passed=selected and len(gates)==3 and all(gates.values());status='PROMISING_PROXY_REQUIRES_INDEPENDENT_FUTURE_CHECK' if passed else 'INCONCLUSIVE' if any(x['n']<30 or x['unknown_funding_n'] or x['data_gap_n'] for x in rr) else 'REJECTED'
-  leader.append(dict(name=v['name'],family=v['family'],TRAIN_winner=selected,status=status,periods=rr,gates=gates))
+  leader.append(dict(name=v['name'],family=v['family'],TRAIN_winner=selected,status=status,selection_reason='FROZEN_TRAIN_WINNER' if selected else 'NOT_FROZEN_TRAIN_WINNER_DESCRIPTIVE_ONLY',periods=rr,gates=gates))
   if passed:candidates.append(dict(**v,paper_only=True,requires_execution_engine_support=True,not_live_ready=True,risk_USD=5,protocol='PF_RUBIK_20261116'))
  save(LAB/'STRATEGY_LEADERBOARD.json',leader);save(LAB/'PAPER_CANDIDATE_VARIANTS.json',candidates)
  lines=['# PF Rubik — все20вариантов и контроль','', 'Binance proxy; baseline literal top50PIT изТЗ,не factorytop200+ML. Все параметры заморожены до PnL. TRAIN выбор опубликован отдельным коммитом до H2. Полный рейтинг: STRATEGY_LEADERBOARD.json.','', '|Вариант|Период|n|WR%|PF|netR|$5/R|DD R|BH global q|Top3/net|','|---|---|---:|---:|---:|---:|---:|---:|---:|---:|']
