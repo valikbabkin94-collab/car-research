@@ -1,0 +1,22 @@
+{
+  "start_ms": 1762930800000,
+  "end_ms": 1794466800000,
+  "half_ms": 1778698800000,
+  "tail_ms": 1781852400000,
+  "R_denominator": 0.0581,
+  "taker_per_leg": 0.00055,
+  "maker_per_leg": 0.0002,
+  "slippage_per_leg": 0.0005,
+  "seed": 20261116,
+  "controls": 1000,
+  "models": [
+    "TAKER_REFERENCE",
+    "ASSUMED_MAKER_ENTRY_TP_ONLY"
+  ],
+  "maker_fill_verified": false,
+  "cohorts": [
+    "RAW",
+    "SELECTED_DESCRIPTIVE_MODEL_LEAKAGE"
+  ],
+  "control_kind": "paired weekly fee-label randomization, accounting sensitivity only, not alpha proof"
+}

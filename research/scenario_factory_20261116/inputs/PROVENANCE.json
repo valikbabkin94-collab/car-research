@@ -1,0 +1,12 @@
+{
+  "kind": "PUBLIC_MARKET_SIMULATED_EXECUTIONS_NOT_OWNER_BALANCES_OR_LIVE_LOGS",
+  "source_commit": "2d26379aec3b233fdbf2d1f09ba1589679d9a61b",
+  "venue": "Bybit5m research history; not1m forward fills",
+  "selected_model_cut": 1788079200000,
+  "source_sha256": {
+    "A_SIGNALS.jsonl.gz": "8467330e41642b7111719288b882600d91f9081bb07f3fb36a2dec515fe36fc4",
+    "A_FUNDING_LEDGER.jsonl.gz": "97982a345027a7ef44cb9f5427a44646d7dde6435d804611ac15fd11e65332db"
+  },
+  "no_real_trades": true,
+  "no_telegram_archives": true
+}
