@@ -1,0 +1,34 @@
+name: Original G3 15m public verified artifact resume
+on:
+  workflow_dispatch:
+    inputs:
+      public_source_run: {description: Successful PUBLIC pipeline run with m15-final artifacts, required: true}
+permissions: {contents: read, actions: read}
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pandas==2.2.3
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: m15-final-*
+          path: market
+          run-id: ${{ inputs.public_source_run }}
+          github-token: ${{ github.token }}
+      - run: |
+          python tools/finalize_market_data.py --root market/m15-final-0 --out parity --shard 0
+          python tools/finalize_market_data.py --root market/m15-final-1 --out parity --shard 1
+          python tools/require_complete.py
+          python tools/prepare_funding_view.py --source inputs/funding --out view
+          python research/round4_20261115/C/continuation_20261116/extract_original_g3.py --hourly market --pit inputs/pit --data view --out results
+          python tools/build_g3_funding_plan.py --opportunities results/G3_15M_OPPORTUNITIES_NOT_TRADES.jsonl.gz --out results/PLAN.json
+          python research/round4_20261115/C/continuation_20261116/restore_funding.py --plan results/PLAN.json --seed inputs/funding/symbols --out results/funding --deadline-seconds 1200
+          python research/round4_20261115/C/continuation_20261116/replay_g3h.py --hourly market --funding results/funding --opportunities results/G3_15M_OPPORTUNITIES_NOT_TRADES.jsonl.gz --out results/portfolio --interval 15m
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: original-G3-15m-results, path: results, retention-days: 7}

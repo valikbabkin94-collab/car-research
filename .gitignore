@@ -7,3 +7,10 @@ __pycache__/
 /metadata/
 /m15-*/
 *.sqlite
+
+/market/
+/results/
+/view/
+/checks/
+/parity/
+/report-input/
