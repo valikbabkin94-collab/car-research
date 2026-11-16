@@ -1,0 +1,56 @@
+name: Channels v2 metadata quality gate and saved-price claim audit only
+on:
+  push:
+    branches: [research/channels-audit-v2]
+    paths: [.github/workflows/channels_audit_v2_quality.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  quality_and_claims:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: channels-audit-v2-verified-m1-cache-resume-only
+          path: work/market/m1
+          run-id: '43939043187'
+          github-token: ${{ github.token }}
+      - name: Metadata-only gate, retain original counterfactual outcomes
+        run: python research/channels_audit_v2_20261116/quality_review.py
+      - name: Compare explicit author TP claims with existing closed-minute prices
+        run: python research/channels_audit_v2_20261116/claim_review.py
+      - name: Add actual claim and mirror integrity diagnostics
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('research/channels_audit_v2_20261116');r=p/'OTCHET_DLYA_CLAUDE_CODEX_CHANNELS_AUDIT_V2_20261116.md';s=r.read_text();c=json.loads((p/'RESULTS/TP_CLAIM_SUMMARY.json').read_text())['counts'];b=json.loads((p/'MIRROR_BIAS_AUDIT.json').read_text());v=json.loads((p/'PREVIOUS_METHOD_AUDIT.json').read_text())
+          extra='\n## Проверка заявлений по готовым ценам\n\n'+json.dumps(c,ensure_ascii=False)+'\n\nПроверены только явные номера TP в связанных отчётах. Совместимость касания не доказывает fill, размер позиции или доходность; отсутствие касания в Binance proxy не доказывает обман. Неизвестные номера и цены отдельно, публикационная минута исключена. Проценты месячной прибыли без капитала/плеча/полного списка исполнений не сопоставимы с R; найденные текстовым фильтром посты включают рекламу и не являются проверенными статистическими отчётами.\n\n## Важное уточнение прежнего вывода\n\nВ прежнем расчёте10каналов с ценовыми исходами и2331запись, а не45полных проверок. Классификатор отметил8225предторговых постов,2491полностью разобранный и830без стопа; это не8225доказанных полноценных сделок. Нет оснований называть45каналов убыточными.\n\n## Полнота зеркал\n\n'+json.dumps(b['mirror_statuses'],ensure_ascii=False)+';3886видимых редакций из69451поста;11354пропуска числовых слотов из80805. Эти пропуски не равны удалениям и не дают долю удалённых убытков. Даты и SHA источника в MIRROR_BIAS_AUDIT.json. Изображения с уровнями,VIP и исторические версии не восстановлены. Даже matched5 отбирает закрытые случаи и может зависеть от цензурирования длинных позиций; его нельзя считать полным результатом автора.\n'
+          s=s.replace('## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА',extra+'\n## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА');r.write_text(s)
+          ck=p/'CHECKPOINT.json';d=json.loads(ck.read_text());d.update(quality_review_completed=True,TP_claims_compared_to_existing_prices=True,no_additional_PnL_replays=True,mirror_bias_audited=True);ck.write_text(json.dumps(d,indent=2)+'\n')
+          PY
+      - run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: channels-audit-v2-quality-claims-report
+          path: research/channels_audit_v2_20261116
+          retention-days: 7
+      - name: Publish diagnostics without recalculating trades
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/channels_audit_v2_20261116
+          git commit -m 'research: gate unresolved author logs and validate numbered TP claims without PnL replay [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/channels-audit-v2'],check=True,stdout=subprocess.DEVNULL)
+          PY

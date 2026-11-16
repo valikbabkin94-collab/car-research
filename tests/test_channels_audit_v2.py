@@ -25,3 +25,21 @@ class AuditTests(unittest.TestCase):
  def test_single_tp_p2(self):
   s=self.signal();s['targets']=[105];r=simulate(self.bars(),s,'P2',4*M);self.assertTrue(r['single_tp_fallback']);self.assertEqual(r['status'],'TRADE');self.assertEqual(r['events'][0]['fraction'],1.)
 if __name__=='__main__':unittest.main()
+
+class QualityTests(unittest.TestCase):
+ def test_unknown_instruction_not_a_known_author_win_or_loss(self):
+  from quality_review import gate
+  a=[dict(policy='P1',status='TRADE',netR=v,unresolved_author_actions=1)for v in [2.,-2.]];b=gate(a)
+  self.assertTrue(all(r['status']=='UNRESOLVED_AUTHOR_LOG'and r['netR']is None for r in b));self.assertEqual([r['counterfactual_netR']for r in b],[2.,-2.]);self.assertEqual(a[0]['status'],'TRADE')
+ def test_quality_gate_preserves_other_policies(self):
+  from quality_review import gate
+  a=[dict(policy='P2',status='TRADE',netR=1.,unresolved_author_actions=3)];self.assertEqual(gate(a),a)
+
+class ClaimTests(unittest.TestCase):
+ def request(self):return dict(signal_pub=1,claim_pub=3*M+1,targets=[dict(index=1,price=110)],side='LONG')
+ def test_future_candle_cannot_validate_old_claim(self):
+  from claim_review import check_claim
+  q=np.array([[M,100,101,99,100],[2*M,100,101,99,100],[3*M,100,150,99,120]],float);r=check_claim(q,self.request());self.assertFalse(r['levels'][0]['market_touch'])
+ def test_missing_price_does_not_disprove_claim(self):
+  from claim_review import check_claim
+  q=np.array([[M,100,111,99,100]],float);self.assertEqual(check_claim(q,self.request())['verification'],'DATA_GAP_PROXY_PRICES')

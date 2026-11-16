@@ -1,0 +1,9 @@
+{
+  "old_channels_with_outcomes": 10,
+  "old_records": 2331,
+  "old_matched_records": 2108,
+  "old_classification_original_pretrade_posts": 8225,
+  "old_pretrade_no_stop_posts": 830,
+  "old_fully_parsed_posts": 2491,
+  "note": "Classification counts are posts, not verified complete trades;45-channel blanket rejection is unsupported."
+}

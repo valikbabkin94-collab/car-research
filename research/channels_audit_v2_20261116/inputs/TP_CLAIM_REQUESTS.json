@@ -1,0 +1,1268 @@
+[
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "551097e2e9445c5361d5b5a4599e21f69957cd131382cd6f7831d94d657b7334",
+    "claim_key": "baeb243d4687cb73a2dbd2e3b1dc0e16991e82a939ee959a8ee7eb415f8c5083",
+    "symbol": "BNBUSDT",
+    "side": "SHORT",
+    "signal_pub": 1649004751000,
+    "claim_pub": 1650572526000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "0c52f196d00fae68380d1232f0c17ab43c3a68c150a70fd4b208a7416f2d2ce3",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "551097e2e9445c5361d5b5a4599e21f69957cd131382cd6f7831d94d657b7334",
+    "claim_key": "6a497cf7b42ef274518c77fed07e2212fb108698792458679d11a2b50d99c9fa",
+    "symbol": "BNBUSDT",
+    "side": "SHORT",
+    "signal_pub": 1649004751000,
+    "claim_pub": 1651029913000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "c0fcbecaab114c41a8fb64ac5f58b98361864695b98ac2df479cb9a78a39e0bb",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "392209a06f49dd45573a4aee2b71b6bb8ef5a9899bd18cc8e8ee1e1efc0358fa",
+    "claim_key": "c4bc3312144b75568752ec8ae4887d54d14520b483f1a28b4e8749a6388ad6aa",
+    "symbol": "ETCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1675866218000,
+    "claim_pub": 1675963388000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "665f4e80a1a0a2048b182fc73d7ba4cfdb0b3d8304feb06498190a3cb0ea0cd1",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "392209a06f49dd45573a4aee2b71b6bb8ef5a9899bd18cc8e8ee1e1efc0358fa",
+    "claim_key": "64f0fe55d8a93abbaf6c1b7777df7ff02f2ff0598b916f88ce9afd7e90a7b232",
+    "symbol": "ETCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1675866218000,
+    "claim_pub": 1676137223000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "ae49f160ab721579fe8fc3cca0a9ba56844a6cbd406ec05a9f7b677aa5c75ff2",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "a2e3654bebaa1aee8ab08a063a89878e1e567debcf89fa3e7a01227f8ede8675",
+    "claim_key": "3adeaba3f067d833c0a08936379e7be98516e873faf8625118fd767c1043b40c",
+    "symbol": "ETCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1677147906000,
+    "claim_pub": 1677419112000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "929c1279b9f4d9e24862af33e08f0fe9b64fe9de07ccd4a7689402953f65edba",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "0537ee0763708e186f231de69e2c1872855f016f70cc2a67b1686ddfef1401db",
+    "claim_key": "cd0410992b5e5a467a99669bcfcf21e83a6d7220e9a73937a02b8180e7e36baa",
+    "symbol": "ETHUSDT",
+    "side": "SHORT",
+    "signal_pub": 1679573091000,
+    "claim_pub": 1679960415000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "45369245d19eabcee07cdfaca37623c0dee6d7bf0e296f05340c35564073222c",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "3659ae16ebdc81e5f4aec365b1b6e0e16a7c8a620a0c88e3ebb1ec3c729ebd86",
+    "claim_key": "44433cf3df07d50d0029c2bad08b9734bf45b7ffab2519fe5a5a9c6a1a6ff17d",
+    "symbol": "LTCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1679657729000,
+    "claim_pub": 1680190628000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "f9906a8ad53c681ca01d237fa6f59ccb1da5cb266b1d704829c043fad5824fa2",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "8fea20c2ab9e75d31e8b4eeabdfd7812be1e3e1001a034609cf347bbf0add854",
+    "claim_key": "4f1da37a4361de8a48fe81c2d03c3e8327cfd491c78e12c4191329aa78333d6b",
+    "symbol": "ETCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1682158450000,
+    "claim_pub": 1682778978000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "3af41d1a17ae5a2dd89af27fc3b39dbfad0a16be2552705a8966cc2d17953266",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "cdf73749455300c31ec450e5da0888369983d672d1578a46a856b2f0f170bf9d",
+    "claim_key": "8390e0e10c41af2918fbf1494c66ccbcc538be86ede729252ea2080a56a2bdae",
+    "symbol": "LTCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1683386396000,
+    "claim_pub": 1683550391000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "35dea25d5f0472444ec6e4ad26f5785c7c1b5224a3f0de6676df21578431f368",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "cdf73749455300c31ec450e5da0888369983d672d1578a46a856b2f0f170bf9d",
+    "claim_key": "f9b8f23bc42c5005f883e09e3d6226e0e962e0e275c3990ebb627468b90f6104",
+    "symbol": "LTCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1683386396000,
+    "claim_pub": 1683974907000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "013c4750ea6b18050986d62658be5ee51593ea67ac59bd82ebf40cb727bbb10b",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "8beb9d2d82ae9af6c70f1349ab15e79db5f60d50d3274327237689a363c2763c",
+    "claim_key": "8c3a47a0579e5d6c94bdc6b4ca7fb5056ca335148b2c60754ac166b9cb5500eb",
+    "symbol": "BTCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1689588019000,
+    "claim_pub": 1689769452000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "bd80b91ebe88c15ff556311628bd12b5b2c23f96fed9ef8afd44e880a26061aa",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "8b9476996c7eb4074f7605f60650ae8f4bba600e09eae936f0c2a1b383202ee5",
+    "claim_key": "5135f4030ea98026433bfa6f912fee7ec36a5209b28b1a704f1a735bae5278c7",
+    "symbol": "ETCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1689681958000,
+    "claim_pub": 1692627147000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "3b0f8c209bfa21e42c6ea142cf1e1fec08911f7201fe64908956d4b801cdd907",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "2ede33b3d54bc0084cd174c880e6dff4b0525f12322622304b625c9aa7232ac8",
+    "claim_key": "9dba9759ee554e41272e80df7fd7aef2f4f9964528d9d8a8c137004514fdf228",
+    "symbol": "JASMYUSDT",
+    "side": "SHORT",
+    "signal_pub": 1690703744000,
+    "claim_pub": 1692405048000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "aae3d4ca0c75cfd93575aac2610d9127cbf8e86f4e18fe28886c5ccdf814d1af",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "485e8f6e7033db848bf246804a823b0dff87ec3711d070a2d7456994c5747e52",
+    "claim_key": "6d8ae3a8e0e1b2fd32e9a664f68f84089a6ab24191786853b50ada468d49fda0",
+    "symbol": "BTCUSDT",
+    "side": "SHORT",
+    "signal_pub": 1692304793000,
+    "claim_pub": 1692310099000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "4d03321e0469daa4ce7775b6cf1c9f4e29c2560d29dc085dea7ac54d0c17c788",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "de239cf8b0e3a91e6ab330fdc5f3012586e736ea716b077f57ab4720f03655e7",
+    "claim_key": "fb85915d1a7d48cb0f7a09c0af9be5717ab703a1e33a386333e0fa6339edf594",
+    "symbol": "XRPUSDT",
+    "side": "SHORT",
+    "signal_pub": 1692974468000,
+    "claim_pub": 1694512887000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "0fff5b90abbee07632f3cf39bb023d2603a4df5808015014c9cf6051cba63bfe",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "172897daf4677558c2bc98e13b3979429a96048dead51c90c0d8c57d9df9b7e0",
+    "claim_key": "6c3a8c2a6a15367f7ad5c0656266c105dd6365aaea8cce98b43e7da153e1316a",
+    "symbol": "CRVUSDT",
+    "side": "LONG",
+    "signal_pub": 1746523771000,
+    "claim_pub": 1746623881000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "83ba092d53988cdd05f4697b85e9387b6f1e0ad31ff6a8b34c212500b6eb47d4",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "7cc71db8f2a0f65d3c72a816ef19a9a8c47af0431980964de12da058306ae80b",
+    "claim_key": "a75eb514d7bf25b96862a56655fec2e91f448de95ca4a517405ff5511a323203",
+    "symbol": "ETHUSDT",
+    "side": "SHORT",
+    "signal_pub": 1746608232000,
+    "claim_pub": 1746623844000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 1824.0
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "77c47172c58538c9b42f7bd68ca58f9e6cf9f5e34384ea6ac423a6696f27fd32",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "06d6c2da2f9a866d3dae9416a6ddb0fca9c75f50c5543ba8434768d32da21422",
+    "claim_key": "1741f68d62932cbab04fe28bdb9d68a901020759270aa8083902a6dc372cfaf4",
+    "symbol": "UNIUSDT",
+    "side": "SHORT",
+    "signal_pub": 1748889509000,
+    "claim_pub": 1748904243000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "7459bd3ae0b7f7f9a3944c596687809a3ec04688a43335cfb9448c21ef9acdc0",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "d9cf6989d127d85ba6e9a8cab5d9a6ec7d870fbff905dd9bb04c988e087d9f54",
+    "claim_key": "1cf49abec6fb718740c375c3725380143f8b3d3d1ab8a02fc22dfadd37b4f980",
+    "symbol": "SUIUSDT",
+    "side": "LONG",
+    "signal_pub": 1755078106000,
+    "claim_pub": 1755092642000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 4.0
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "44f039b67441229bb558b793095e7fc370708e0915c9ebe7b2ec6005f0903868",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "5b9a56c5a0f765ad595019042bffdd823477b3a68522958a65151b3d04ca4a38",
+    "claim_key": "fa2c8d09632e865b974b5825695cfa8181b2da45ce783f9e6eba80efd5dca2f9",
+    "symbol": "SUIUSDT",
+    "side": "LONG",
+    "signal_pub": 1773167546000,
+    "claim_pub": 1774166131000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "c36f6e9b9e611bbcdd420e98ba23348aa3c5b5814d75352c78c60b18e2689bf1",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "4f9087f23fcd7a119fea7d686d93daf502e60b1efff4202061262f25847fdac0",
+    "claim_key": "7661ceb39d595920f4f07a8e792e991ed6e5fb6260f9e6bf8ff76e93d6a62787",
+    "symbol": "ATOMUSDT",
+    "side": "LONG",
+    "signal_pub": 1773428603000,
+    "claim_pub": 1774108831000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "8316c72e35ca11db18ebee53fb9861c0266d5450831d7c146cba34be3aa78395",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "4f9087f23fcd7a119fea7d686d93daf502e60b1efff4202061262f25847fdac0",
+    "claim_key": "d9877cb3ef4cf9f6c0eb82ad7041c25fae77feb086ce43715aaa01a26a7a1255",
+    "symbol": "ATOMUSDT",
+    "side": "LONG",
+    "signal_pub": 1773428603000,
+    "claim_pub": 1774358081000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "ab92a848cef353ba88af7871b15d291a694b0640a4fa24ec8988e97dadc343da",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "eb7d18eb039c467fa3133d8111c608bc21d710ee613061c2d2f238fba1bbbb50",
+    "claim_key": "06c492b56ba3c3bc9e17336d9852c39785f881d4e6d1f0e49ddf20a3e2dcc96e",
+    "symbol": "XTZUSDT",
+    "side": "LONG",
+    "signal_pub": 1773843163000,
+    "claim_pub": 1774238783000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "7988d19912afa7d9849149cf2d11f40122b11e39f8510335c71797f28ed4b0b4",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "54bcd170f4cbee27ce157c7d40a655ab3c650faa61af8b926ccccd8a1defd459",
+    "claim_key": "75f436fd559d57e2e93ac788321c69208dab9608336e24f9ac75644fa5109d27",
+    "symbol": "AVAXUSDT",
+    "side": "LONG",
+    "signal_pub": 1774322314000,
+    "claim_pub": 1774408051000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "d97dda624e687617e2af531b4a6d9a11eda882436bc6908694e1571f29544a17",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "ade81801e9a3d191687cd0e02d90885e6a235d9ea5ea7b1935bc4b04b473620e",
+    "claim_key": "2136b93aedc66d00edd7dc204f9df02410ab2ee93879438cc373102ceb53964e",
+    "symbol": "ONDOUSDT",
+    "side": "LONG",
+    "signal_pub": 1774382158000,
+    "claim_pub": 1776054039000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "93b5879181f5c7a14797d70743ae8a2561a64648b22f6f55f5accfd2aff398ee",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "75071b452a4499705bf52b0c263e53a7d010aa7d53e0f2b6b05a8492bf4843c9",
+    "claim_key": "565f7b14e9ce8f321ba5e7a5160cd2e7c34bbb02eab090cf9f698a700f408c44",
+    "symbol": "DOTUSDT",
+    "side": "LONG",
+    "signal_pub": 1774462411000,
+    "claim_pub": 1774766471000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "49a9175348db9cee7664d1b92307a978d6f8bb5230b1de7d070de1667bfdd802",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "ae637970acf8800ebe10f5f3fcdca647c390dc5d7cc9ed4fe2a3d0bfc889c56b",
+    "claim_key": "958039751d12d0680dcb01d03db145627f54b67f287ed001d2f61b1ce31828c8",
+    "symbol": "XRPUSDT",
+    "side": "LONG",
+    "signal_pub": 1774797418000,
+    "claim_pub": 1775535104000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "8576205e7c904792fa0fc81f20dc77f03c382099d8a852d3a5d0a11ddc7137c6",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "3d9732138946a49ea901c66455f18692b8073b0711dee11976e493c7aa0abe05",
+    "claim_key": "66a97d2abfffc4fd93d449da634ab7c25f5ce7021246eecd876576427f21985b",
+    "symbol": "DASHUSDT",
+    "side": "LONG",
+    "signal_pub": 1780850884000,
+    "claim_pub": 1781146964000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "568d03fef1cdfcbd06efffaf126b6988d59e10a133253cd678087cdb35df952f",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "signal_key": "df281727d65299a8d74115697e638017b47b77ebfa27426ade2afe69051b0389",
+    "claim_key": "9a5942d78e948457f3c924993f42352549cc47665791364db5a661cd7d3cc8be",
+    "symbol": "TAOUSDT",
+    "side": "LONG",
+    "signal_pub": 1785935972000,
+    "claim_pub": 1787643742000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "8651703707d93b61c0a244696ce7028af072362449e22250d0aa50a551a58df7",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "signal_key": "1abfad4038e1d91e5d10ef4cdb01d9573c9afeb960dca8a096e386fd8e42066b",
+    "claim_key": "51a559e65171ea3a54238f02e08c1b9f017e0c0c1c32029bb8923b3feda31406",
+    "symbol": "IMXUSDT",
+    "side": "LONG",
+    "signal_pub": 1794190093000,
+    "claim_pub": 1794283288000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "493caf1565b0c022d2b0b75c9221a79d8540bfac7399bb2117e7b90d5ce6ce0d",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "signal_key": "aeb6d262cb31c2d2657008ffc1326a0aeaac3cc9ac3748d4b04ebfa221b2968d",
+    "claim_key": "389a7602690dc97338035b9797adf7db29ca91d2cbb02142f6fecf8265f32f8a",
+    "symbol": "DOTUSDT",
+    "side": "SHORT",
+    "signal_pub": 1794568023000,
+    "claim_pub": 1794576648000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "ed8925669dce8265cea5cdc7178aba17d8693c816cf383a11cd7d5d045994cd3",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "1b314d8915f0185426f6345d2ab7fa34f4f6f31ff4fbc6e05b285ebe1a259142",
+    "claim_key": "d7a04110148a0f09d5d940224e506448ec1c5af40dfdc76a139762d9d8c5eb62",
+    "symbol": "SOLUSDT",
+    "side": "LONG",
+    "signal_pub": 1773849287000,
+    "claim_pub": 1773855687000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 90.2
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "4c8e4e2baec529e7b877d18581088fa962da22aad71bda7676e28b4f86c948fe",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "1b314d8915f0185426f6345d2ab7fa34f4f6f31ff4fbc6e05b285ebe1a259142",
+    "claim_key": "f59cc06ccf277022abd6af385d4be3ec67bf608a130f3678043e0398a176c4a5",
+    "symbol": "SOLUSDT",
+    "side": "LONG",
+    "signal_pub": 1773849287000,
+    "claim_pub": 1773904811000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 90.2
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "557a200209127cb42bac18d38087f8e0dc39185fdc5e9af422becef6bc523cd3",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ad064a932172eff316a97d5ff03d0c77d3ff00001895d32a459c211cf95aa23e",
+    "claim_key": "7c9c53c38753ec7c445630b229a548234e41b8582e4ba624cf04ed53b86a4898",
+    "symbol": "COMPUSDT",
+    "side": "SHORT",
+    "signal_pub": 1774710039000,
+    "claim_pub": 1774751764000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "397e7376a30cb28f1f0665cc51b21e389bc6e05b7e8db236f998bd90671dba6e",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ad064a932172eff316a97d5ff03d0c77d3ff00001895d32a459c211cf95aa23e",
+    "claim_key": "20222e95a1910bd077857e390654a35fce826ce2514bff4ac7783e98a427de52",
+    "symbol": "COMPUSDT",
+    "side": "SHORT",
+    "signal_pub": 1774710039000,
+    "claim_pub": 1774782796000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "1950f4f932f50af0f9297bea2558092606cc619299a10db6eae6a2888d5c30ef",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "3c7cdf136c85d8e292f26d39e94ce4e6af0ea9e12a0d0042798cd92c9d4b1fa5",
+    "claim_key": "403790d1020d5a2505bbb2e20e4e23a2774bc7d722434941b2814fa7e78d2c87",
+    "symbol": "RESOLVUSDT",
+    "side": "LONG",
+    "signal_pub": 1775986191000,
+    "claim_pub": 1775988925000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "d74ac7b69f558137af450a1e7707356df96f6361e0b2551de9c8dc9aa26a9268",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "dd08dffcff5f6b5d8d3945690e3e45766de11710a01fde71d8276a9917da5d75",
+    "claim_key": "79b244dfe8e0e1aaf148703a5dd2e2a7327e2358185871379a0047a4ed6d9e0c",
+    "symbol": "APTUSDT",
+    "side": "LONG",
+    "signal_pub": 1776102132000,
+    "claim_pub": 1776127927000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "9f287e25fbe1e6dda7c9eea5c3bfe170abe0028affc87f5b11f4d26ef77e10bd",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "04e827b6fdb64ef7b502e80ae8924d7901cfb7425ed515a4408f325a7b5f8235",
+    "claim_key": "e3f6735c66b1d112ab24754a4e63b66e0f41bfc78cac42114d9cfdc4f1ac6247",
+    "symbol": "RENDERUSDT",
+    "side": "SHORT",
+    "signal_pub": 1776222671000,
+    "claim_pub": 1776238878000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "fa9b4919199f9c62560324d933b9cf8be03326998e0d2ec6d77a2287651da632",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "09d7bbfd9ce3ec6afb056198d4df9eeafdbe821b51081589a9bdece3376e7215",
+    "claim_key": "d192df41bc93ca8c24b3ffb99aa5580f389e36eab5de414cd67140bac5a549d1",
+    "symbol": "BTCUSDT",
+    "side": "LONG",
+    "signal_pub": 1776600918000,
+    "claim_pub": 1776604844000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "e61626bc34118626ad0296d50cc915932cc51f91ae8f7543e0449c77bbb81cf9",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "f65b0fcba79ebdc896129ffe1e5449b8968d9a6e082665cb72155b0bc8bdb0a5",
+    "claim_key": "a1378d7f87b538431f18c64a75d2f6bdb8a9dbeb81d878d9d3f667eaf780c3e8",
+    "symbol": "BTCUSDT",
+    "side": "LONG",
+    "signal_pub": 1776784720000,
+    "claim_pub": 1776825953000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "7424b4b4ec4eaf5379d4e07e9e6ed1ff93ca1d0d32c585442ce544d68c7cf560",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ccc8cd06f3e8a0da5404309ade972fffc877a77bdedf1c38a691e67e354f8bd5",
+    "claim_key": "1c1a406a8426a14a409f10dc8a95cf80b392f1fe354f0a2ece7c4e97ba7e1e2f",
+    "symbol": "RENDERUSDT",
+    "side": "LONG",
+    "signal_pub": 1777786329000,
+    "claim_pub": 1777860735000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "6f60865a73b005ff99fbc0c311af172a5bea43e3bca0cfd0f3e4ee5fdf062865",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "cba64e3e622a2d19db207a73f05df004990aa5f3faf5c15808e11631cdc570d7",
+    "claim_key": "44fb6711a000c429e79fec2a859df3b5302194feae9ea30f938d7a479dbe2bcb",
+    "symbol": "RENDERUSDT",
+    "side": "SHORT",
+    "signal_pub": 1779849076000,
+    "claim_pub": 1779867943000,
+    "targets": [
+      {
+        "index": 2,
+        "price": 2.1873
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "349b5b9f0ba112d0a772c554608d626d30c6953f45fdfae445fe8a8222d708b5",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "2a888e0d7c4f694b3e4aa5f4e3277f3b3f24d3eda5897a0f56423c5bae0fb0cb",
+    "claim_key": "eb54f855670ca99a0a6835e47a15340e124f2f3bb388b867427c239fc7a388e6",
+    "symbol": "STXUSDT",
+    "side": "LONG",
+    "signal_pub": 1783165040000,
+    "claim_pub": 1783169280000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.171528
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "849d436a96c455040939a58f4c0393adf94737ae3e13e32451b647f42ffb81d6",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "d925c7bf73fba585ebdefa2af9b0fe0e17125e6056a3172337c5b208ab2ab97e",
+    "claim_key": "5ef38763884695a79356f61756eb6e637da7735f0dffcd4f72adbd6db0df89f8",
+    "symbol": "STXUSDT",
+    "side": "LONG",
+    "signal_pub": 1783238191000,
+    "claim_pub": 1783271814000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.170288
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "a3f1e7ddad67d3d505389c1c33117faba935f182137b85bd18d6cd5914a4e87a",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "491fe70f84330b0005560a3319410faa6efb304e6517a1ad32d7cacd38999621",
+    "claim_key": "689f65e22b43e12be57cd44fe436b21d1e029958183439c264a9da6da439924c",
+    "symbol": "SENTUSDT",
+    "side": "LONG",
+    "signal_pub": 1785317288000,
+    "claim_pub": 1785341481000,
+    "targets": [
+      {
+        "index": 2,
+        "price": 0.012173
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "f1d2cf85ed3f0bc85d1b0ebe9848d401bfe457f11858307d22eff41782d09ba5",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "491fe70f84330b0005560a3319410faa6efb304e6517a1ad32d7cacd38999621",
+    "claim_key": "2b742232685abd67e7be020605a28ac28f839324e5a8050bd51926bbb5c764fb",
+    "symbol": "SENTUSDT",
+    "side": "LONG",
+    "signal_pub": 1785317288000,
+    "claim_pub": 1785345691000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "2b91e898deb061882baefa5912850186902029f93ad59d9417089afe299f68d5",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ef5b40a7619b87520d8cacf1c6c5f890a310d8dd33f6dd44ef46289ccbcf24b0",
+    "claim_key": "8740946ad86029f3a0a621c78aab6a77ce0845b13d50418cacb89f13cd3981f1",
+    "symbol": "ETHWUSDT",
+    "side": "LONG",
+    "signal_pub": 1785382175000,
+    "claim_pub": 1785403221000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.2368
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "ce274588d6534447c390f0acf9db0c20dde97e41dd2a3ba719ab09fd7a4b28b1",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "14d03979aa54bb1c1b23604800f1f00dba203b463fdd0bc7112403a75b76963d",
+    "claim_key": "d5559ed91997de0e179c78c38c0024d3961b9f81f9d4140cfeb7be592bafbe31",
+    "symbol": "CTKUSDT",
+    "side": "LONG",
+    "signal_pub": 1785465133000,
+    "claim_pub": 1785590909000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "8bb80c8bd36317c99f60740f72349d4ede991a71ddaadb0a014331650f766062",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ddb95dd9d4a3141a139b169d4aba7730376078c53b174bda8fecff39ac975f6c",
+    "claim_key": "0184f7421ad59cb48781b858a12d169b389515b55f502c7f3a4adfad7ea48654",
+    "symbol": "LAUSDT",
+    "side": "LONG",
+    "signal_pub": 1786939268000,
+    "claim_pub": 1787017520000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.050788
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "d8d86761524c05b12e3345b029a9b2cc1d8b01ea05bcde9a4e1d1b7dd6c7d25a",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ddb95dd9d4a3141a139b169d4aba7730376078c53b174bda8fecff39ac975f6c",
+    "claim_key": "3d4acb41b603cbaecc675adf80f52a8fad927d0be6d3d71c76bd0bac09f6d45f",
+    "symbol": "LAUSDT",
+    "side": "LONG",
+    "signal_pub": 1786939268000,
+    "claim_pub": 1787063553000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "a9364f79337cd4941310374fa2a9eb67ddce3d29467b6fe06cc8e0c4a8b98b2b",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "c4fe2338e6f0418ba043b50abb16e687d9b241f0750c98962971f4fc7c25b303",
+    "claim_key": "fc71d67ef159554372ac72ee299f075c81bae29306416ee327e411bf64bf9c7a",
+    "symbol": "XLMUSDT",
+    "side": "LONG",
+    "signal_pub": 1787063597000,
+    "claim_pub": 1787115739000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.156517
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "60a1b65fb5ba51ce81910a8cc16cdec38c2b072a427ac2a48f7813fc8ae70562",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "c4fe2338e6f0418ba043b50abb16e687d9b241f0750c98962971f4fc7c25b303",
+    "claim_key": "c6eb3e940c5be3fdeada1244be8e71e10c95d0e72110fb88315a212d4615c4a8",
+    "symbol": "XLMUSDT",
+    "side": "LONG",
+    "signal_pub": 1787063597000,
+    "claim_pub": 1787152516000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "a6b797fb49496a7d66b94ff34e54557dd6955c866823bb0834520d6f7c928cf9",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "7bdbf6dcc62a617a6d455ea4a889f00f7c12fcf32af55607c9a7f4d5ef843651",
+    "claim_key": "d35e0ef6d6a0731cbd85e67f55d8b9b72178e1f90651454ec155fe176801b71e",
+    "symbol": "LITUSDT",
+    "side": "LONG",
+    "signal_pub": 1787151824000,
+    "claim_pub": 1787152708000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 2.4
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "a0a40819c4f781d7a208fe1b93c599f1fe13ca688226946548b3fd439f48e4df",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "7bdbf6dcc62a617a6d455ea4a889f00f7c12fcf32af55607c9a7f4d5ef843651",
+    "claim_key": "95ca55cb487bdd21577dbf3cbafd5b2a6df3ca415351ce0ddd006e48a6f4254f",
+    "symbol": "LITUSDT",
+    "side": "LONG",
+    "signal_pub": 1787151824000,
+    "claim_pub": 1787184531000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "c9858f6a9af9f6d388f6f60f035e6d90238ce1a798506b1bb56a1b9d70e4d08b",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "bdfd976a57688afa924f2900a559c231e03c509b78a189865ced910d08f14d64",
+    "claim_key": "b1de3125679411502fe91f090d204e8c3d7bc0eae280b919919a94e3b0c6809d",
+    "symbol": "TIAUSDT",
+    "side": "LONG",
+    "signal_pub": 1787213276000,
+    "claim_pub": 1787234845000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "3f3155b8959b180b5e5e69fccd3a78c617c53370cf794d31d179f80d0402f0c6",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "242c44c0dad09a5bd4ce8a0c7762310207f189cf827161a796ccc4f7f1cf1fd4",
+    "claim_key": "180a8295b215fa15950b8d491106e5b20d7b4a9baed78eaf487cde515f46b145",
+    "symbol": "EGLDUSDT",
+    "side": "LONG",
+    "signal_pub": 1787227310000,
+    "claim_pub": 1787318603000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "dc310ba81fe271cb823caf48c1b51817214d3a5ef16cdd7922c411dc8960b2b7",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "aa121124263d8136c65f04dee8ca3bac8f08e80405239fa5ac65edd794250f69",
+    "claim_key": "095f86f7e821000b6a4dec1454e235e581b48b9fab647aaa85fdb7d045acc394",
+    "symbol": "ETHWUSDT",
+    "side": "LONG",
+    "signal_pub": 1787301109000,
+    "claim_pub": 1787370154000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "ab17d4ccd79ef88ea7c365d6e875ea2c20ebcb721824a400bb67196a350e8152",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "6eb3b7a2d0f908cf740a53e5237b3f805d627524f51b3f9e78889f6da5e7b6e4",
+    "claim_key": "dfa182ee6220de200fdfd96fbc55bedbf7178bdb3129e50a873295e81b03aa8d",
+    "symbol": "CTKUSDT",
+    "side": "LONG",
+    "signal_pub": 1787727690000,
+    "claim_pub": 1787758721000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.116477
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "7aa6a484f7b579369f46d16254ac09537543ff8881c33aa3b87f4f6d55623bb2",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "4e53e124587c5227d3e15fa47655a21a2bfb7bed8f0dc90e9be58ee4d50dd471",
+    "claim_key": "b47d15993bff025cdc4cad2032e3cc43aa626671ae9d4acfbf66bdde03a99699",
+    "symbol": "ETHWUSDT",
+    "side": "LONG",
+    "signal_pub": 1788572505000,
+    "claim_pub": 1788667232000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "5c35b0e55119f97fd00acb3249e83f3d1be52a9f66e600a8353fd37d20292958",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "8bbfe84636273c9f51fe043ecd1c32cccdb6dc828e9d7521eafc53f311870610",
+    "claim_key": "43883df0d6d1fc4b4c8bd09a8857a0899f3ffde47309e1596f0f57dbfdf0a800",
+    "symbol": "RANGEUSDT",
+    "side": "LONG",
+    "signal_pub": 1788865215000,
+    "claim_pub": 1789582200000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "59ff5bdcdc9df7bc9a1e207bf9e4c638fc8c7c573d3ba2e6a18f6bca37b3afa7",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ced0f61b1ec621aa5d4e043b574afb769fdff728f03ca66c4f2d26a2b8edf973",
+    "claim_key": "fcebd3d31f9d2fa0b70816ac9784b2fc7a5ea27672c3dd5ff2281f79a121a2cd",
+    "symbol": "CTKUSDT",
+    "side": "LONG",
+    "signal_pub": 1789177803000,
+    "claim_pub": 1789379482000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "f05e7428e66c2f3299bdf9f069c38920134fb0eb0615237cf7113efd50859016",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "33cef653824221ce6c79c79dc59abafcb8e93f7187fd7b0b57f66d57c7ffa805",
+    "claim_key": "a5b047f70ccb1cdf8c84c388d47c00b80a16df9a6d0dc3d2373170318ed88f2e",
+    "symbol": "0GUSDT",
+    "side": "LONG",
+    "signal_pub": 1789614033000,
+    "claim_pub": 1789633386000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.1992
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "723cea501c3abb18fbb60d1cd5c607d40c8d0c30927fed0baee26e8b5ce15cae",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "33cef653824221ce6c79c79dc59abafcb8e93f7187fd7b0b57f66d57c7ffa805",
+    "claim_key": "43527e549f1640f326acf62cc001c3de492f26f3c19c83a76fea1f7dada43898",
+    "symbol": "0GUSDT",
+    "side": "LONG",
+    "signal_pub": 1789614033000,
+    "claim_pub": 1789637153000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "8f148d1a46344f2d011a8679f14d119667f75681f8ec63f33617132945f8a11b",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "28c9ad5aa5be8b694acf8d79eaff63952ba8558151b70c5a7b12218e0bb73903",
+    "claim_key": "5beae073f75913dd6a0dbc52f026e298095edc5e9c94838d37c1f9b12162d323",
+    "symbol": "CTSIUSDT",
+    "side": "LONG",
+    "signal_pub": 1789702655000,
+    "claim_pub": 1789868573000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "1b5bf9e3ca5dd87eaba6bcc61be3d300e528eb958a672f196f8b6a737fecf01b",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "55a049474797db41d25ac2509aa772559c22c8a99fdda598d53cc4c51f10591c",
+    "claim_key": "5ec43d994faaf08f90f819a2d4c93a3f719c94791ca6efb855147ba8a7f6389a",
+    "symbol": "ZROUSDT",
+    "side": "LONG",
+    "signal_pub": 1789974989000,
+    "claim_pub": 1789986618000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 1.2154
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "c09e65123074973adf3b56c98b3b9428162e8ca55f0bf9ba9fa4cc497b2fb972",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "1bda7e8dd8945b5d59510fa08e27b4f6d51c55b92b16a4732d478437b970d697",
+    "claim_key": "e8e1cbe53d158a541c496d638dc56f1d0d5635e8373c5586dc8c4d5bcd3a5668",
+    "symbol": "TWTUSDT",
+    "side": "LONG",
+    "signal_pub": 1791187100000,
+    "claim_pub": 1791250725000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.580076
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "a0a723bfb8736fa5ae24be4bc94f9a8b213970b996a3b35e98fbb7e6a7e176f4",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "73e6366b5d1e8f33128fbae9200f1cc5e33ff334b9b4d88e3951be0d697ebb84",
+    "claim_key": "4d015f2d70189ace9f38b32a3c5395d7b5c284bf1bcce9c59f397b9f17702e9f",
+    "symbol": "DUSKUSDT",
+    "side": "LONG",
+    "signal_pub": 1792394427000,
+    "claim_pub": 1792396123000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.1215
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "ba425e1652059a54d972492a0c8b1201bebabcf1a62bf94c14a8432a27b0b95f",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "b23f7365a61b136010a490469270d9faf25dba0eff6b3af9d1a4d5af383cc010",
+    "claim_key": "0793e39974f900999b3a4aba7d0e3f04bfc50bff1a0d969bc8ee31bcf2e821e7",
+    "symbol": "1000BONKUSDT",
+    "side": "LONG",
+    "signal_pub": 1793159047000,
+    "claim_pub": 1793237547000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.00317
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "0e87441ed896ee8dfa0b0f567f8dc96255efc2ebc339a662b7938bc3c1d8ded0",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "TradingGainX",
+    "signal_key": "ab71c1a23aa9315a2353ef6791e4801bfad86d4c6d987b88510d6a59df6b7ecf",
+    "claim_key": "616e5a87de35a8d826b4a85ceb6e26170bd9fc11a2a708bc2a48c728ee5eed65",
+    "symbol": "ERAUSDT",
+    "side": "LONG",
+    "signal_pub": 1793866694000,
+    "claim_pub": 1793884178000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "af13fa37c6d87170ff86b2b103cf7a3038b8e9582376146e6372b70e597dfaeb",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "signal_key": "8b210e628259eacf168810728b4230779d5d5aa662b3246a0126c2b5f0da932d",
+    "claim_key": "115f69eb3151fa99924c5bb1193c956f4a55cd9d4c284815e85cf56532bf364f",
+    "symbol": "SKYAIUSDT",
+    "side": "SHORT",
+    "signal_pub": 1782659695000,
+    "claim_pub": 1783342401000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "3706d4a4f2ceb16107f36128950d0e44828db6d177c4cda46e65d7002d2ecca8",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "signal_key": "8a9e7ec3c5b2576a54365f0fc6e179fe31f56ac8dc9b69a8041a60ce66e8be7c",
+    "claim_key": "3485b8e34f12459d87c840a17f39a960cacb554240d9b08ecd2622d94ccdde3d",
+    "symbol": "TACUSDT",
+    "side": "SHORT",
+    "signal_pub": 1787829272000,
+    "claim_pub": 1788418634000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "83146903c6054a3f91bed5f87db33a192d64d8b076f936459dd5f1b4508d0d79",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "signal_key": "bf16da73d0b4ea9de6f4cc176956106f8faedee39310f306c52cf6d1081ef69c",
+    "claim_key": "c8aeb29b46c942823df38c7faa7764e7b5ee017b47a93e46c8300d987d2e2758",
+    "symbol": "SAGAUSDT",
+    "side": "LONG",
+    "signal_pub": 1789105132000,
+    "claim_pub": 1789478621000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "2919a5e2cb25c47207caccae546bb7ce084c335b6beb35e65ffb7a1360ff6003",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "signal_key": "1dfd27b6b22d176666c39c4df8cad4d7cdb7e13c22dd8c3ad34630ae590f9295",
+    "claim_key": "1c941c8adc2da3843f2f1bbc1e076883b8e7e9974e25b9fb8f7e42631566a57e",
+    "symbol": "RVNUSDT",
+    "side": "SHORT",
+    "signal_pub": 1789105281000,
+    "claim_pub": 1789479171000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "961791deef62a1ea77c6e70429edbd02ecb4825a26cc7d96a444c818e2b8730d",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "signal_key": "20a875d94bdbf200530cc9fd5c355876083cfb0edd7a0a62b0276b0481fd0e0f",
+    "claim_key": "a42a833c419dbda07902883b975c995e42ae9f595c7f73cea012a602702ff1b2",
+    "symbol": "BTWUSDT",
+    "side": "SHORT",
+    "signal_pub": 1791959681000,
+    "claim_pub": 1792841129000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "929e528d2034cc2f12f9b3cf11f8008081c83d7c6568f12e44a89d830247521a",
+    "original_or_update_edited": true
+  },
+  {
+    "channel": "learn2tradenews",
+    "signal_key": "86783df7e043f84715af86b9dd7a3260875d03bbc501c6c68533060b34606d91",
+    "claim_key": "d69dbb2404171c27987e8d1621904241947ba3833faefe1b4ceaf9f3e2a69c4c",
+    "symbol": "EURUSDT",
+    "side": "LONG",
+    "signal_pub": 1787749408000,
+    "claim_pub": 1788527029000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 1.1735
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "e936542cbcfaec3fcf11f9daa1c723813ec5cc9b90247949db456bdb157d92c1",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "learn2tradenews",
+    "signal_key": "dc7197d2d466f1c4e15b97d00d74ebf6b78644bc55cf2142463f82c0eac8e8ce",
+    "claim_key": "bfcb59da19c09c004ffa89f0e57b8a9281f730cce3e9990f510ee7ae69d76e85",
+    "symbol": "XAUUSDT",
+    "side": "LONG",
+    "signal_pub": 1787836051000,
+    "claim_pub": 1789736646000,
+    "targets": [
+      {
+        "index": 2,
+        "price": 4755.0
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "edcbeb5a72f85e6d8546f466d96ecf84269411fd2ba620ffa7c9ca05b552803a",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "4045f01e0275142544809450aa850875d2f4532140cc46bab792a8a8b9a9ea1f",
+    "claim_key": "ce98aa3abc5f1c3d0f0726b3cb58e14ba434dd11b03777128a937e54e11eaca4",
+    "symbol": "ETHWUSDT",
+    "side": "LONG",
+    "signal_pub": 1785382295000,
+    "claim_pub": 1785403359000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.2368
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "9875b827e4d753f76dcb19fe9f670a2290c32d5ddd33615cc42e5d82e4f0cace",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "6f88bd6a08eabe3e5ac9fc0af9f68947b6c2f2c7e6f76eb8d71d6a900b275cbb",
+    "claim_key": "360869851876852354e8f8b6f807ce21499d3e12a8077906f1cf7ad4626e06fe",
+    "symbol": "AUDCADUSDT",
+    "side": "SHORT",
+    "signal_pub": 1789444815000,
+    "claim_pub": 1789455430000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "2821ed95791ae875274486969d0e61bc0da9fff0dcb3eec83e1adf6bdca89f9e",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "c4dd91b89eaef583f02a474fe395cf06ffdd1403e31c0a862f05381d1c20d3c6",
+    "claim_key": "d1c16767c0491977762b0d9e3a3c7e9717829f94cfdc7f68c2c23665eee16969",
+    "symbol": "0GUSDT",
+    "side": "LONG",
+    "signal_pub": 1789617421000,
+    "claim_pub": 1789634611000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.1992
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "24c09540af6b2cb4e1f8affe982606b1cc03026895377dcfb1d248b44ea53b37",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "c4dd91b89eaef583f02a474fe395cf06ffdd1403e31c0a862f05381d1c20d3c6",
+    "claim_key": "a422486189410a0d2b721afec1976940c75647921dae058a51b5bcfa6879b258",
+    "symbol": "0GUSDT",
+    "side": "LONG",
+    "signal_pub": 1789617421000,
+    "claim_pub": 1789637282000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "dde881788e5af92fc86945760c9ca551219ffbaece98d0c8d611600d23b9d6c1",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "fd156077b5d20ad4242ac5e9603c7a41c7f1e549dfa87b0332bafda4ba316bcc",
+    "claim_key": "7041b1deb1d72297bf90c91a9ee65eab6df6a02246e094005acabde8f623cbe7",
+    "symbol": "ZROUSDT",
+    "side": "LONG",
+    "signal_pub": 1789979664000,
+    "claim_pub": 1789991981000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 1.2154
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "0eb1f63868c5b3b44394a2be16bccff80101578f3400687fe1514aefa0bf53e7",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "217cf22dfbd4eb901a2d19a5fb3a42a21add683cc7ca8b513e83ce0a52163d54",
+    "claim_key": "e0fda5df1713b1fda590bc184c884e427633f8b2874b2974d87bd2a3e7a04ee7",
+    "symbol": "EIGENUSDT",
+    "side": "LONG",
+    "signal_pub": 1790418889000,
+    "claim_pub": 1790422989000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "d2f430b94357a8b9b196fcc44a1a06b8387d04b05e5eef6b988d31097c1804d5",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "bb300b3a829e04b7c4e1370cea70c42d2d5fed070f8903bddfc474123a96c92b",
+    "claim_key": "884d4347f26115a0b61cef48dc1b98fa498865e3c6b3bda9d10a2cccd4d85d7a",
+    "symbol": "TWTUSDT",
+    "side": "LONG",
+    "signal_pub": 1791187263000,
+    "claim_pub": 1791252178000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.580076
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "adeda6987f01e0dfd22c5a0d622e7241e59bade95cd8c7cc96f7628f85d86380",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "cdb03172e69c1a3742f160505bd68352ded89f78db8efe5ac3e1f316c6faa26e",
+    "claim_key": "fc036eee239cc1bd00076b01439b7cd03064e03849a7849ba5abda004363344b",
+    "symbol": "DUSKUSDT",
+    "side": "LONG",
+    "signal_pub": 1792394869000,
+    "claim_pub": 1792396438000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.1215
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "a5ed7943bb9f135ee691eb41fc0316c0c6d050eff024a5131eefbd4aa24833c4",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "828b4851e84e354e8bf62b6f1803540605c32d3e25287d43ab2e6aa3c205c17d",
+    "claim_key": "05762dfcf4eb36b81b6c74076fe62b2364a25eb9f2769e69f600f8b740bd5199",
+    "symbol": "1000BONKUSDT",
+    "side": "LONG",
+    "signal_pub": 1793161122000,
+    "claim_pub": 1793251758000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 0.00317
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "e3ba43f406f16aaf0418cf3b146b087cc7d231d618a85efdc0d7231098aa3dab",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "main3commassignals",
+    "signal_key": "bed3f7df3ab3b0014b6e49b4724a0e6bd5740644bc3a31448444cbd18075caf3",
+    "claim_key": "612140e29d706ae52a13059f31f93a2c578600d5a0f6ae6184ddf8e4d699d222",
+    "symbol": "ETHUSDT",
+    "side": "SHORT",
+    "signal_pub": 1793611284000,
+    "claim_pub": 1793613085000,
+    "targets": [],
+    "status": "TP_INDEX_UNRESOLVED",
+    "source_text_sha256": "352e47997b86924c2d7fb868324082f3816dd1664d82726423d68d8609e1de39",
+    "original_or_update_edited": false
+  },
+  {
+    "channel": "safe_academy",
+    "signal_key": "fe1674b7eb4a495638a3690fba75494670c66d4ed2a86eb9424f60c25e64dcff",
+    "claim_key": "ca5df44088e7e2bb1d6d04ebd27901d373c67f3ce96a07d0b988f5de7e4ebb04",
+    "symbol": "GOLDUSDT",
+    "side": "SHORT",
+    "signal_pub": 1755617635000,
+    "claim_pub": 1755622644000,
+    "targets": [
+      {
+        "index": 1,
+        "price": 3320.0
+      }
+    ],
+    "status": "INDEX_RESOLVED",
+    "source_text_sha256": "43568990f6cf84939aa82fe066926e63fb9cc272ea40f6d63d4b506cd2fe5ef7",
+    "original_or_update_edited": false
+  }
+]

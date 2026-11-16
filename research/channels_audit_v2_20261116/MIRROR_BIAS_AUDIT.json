@@ -1,0 +1,198 @@
+{
+  "private_source_branch": "data/tg-mirrors-20261114",
+  "private_source_commit": "bf1211f617c1d0a9c086c67d97917e070bcfda0f",
+  "mirror_statuses": {
+    "DATA_BLOCKED": 6,
+    "MIRROR_END": 8,
+    "PAGE_LIMIT": 31
+  },
+  "visible_edited_posts": 3886,
+  "normalized_posts": 69451,
+  "missing_numerical_slots": 11354,
+  "numerical_slots": 80805,
+  "deleted_loss_rate": "NOT_ESTIMABLE",
+  "VIP_completeness": "UNKNOWN",
+  "periods": {
+    "AltcoinDaily_signaI": {
+      "first_utc": "2026-02-06T12:53:25+00:00",
+      "last_utc": "2026-11-12T19:10:23+00:00"
+    },
+    "BinanceKillersVipChannel": {
+      "first_utc": "2021-10-03T13:36:07+00:00",
+      "last_utc": "2026-11-14T12:04:57+00:00"
+    },
+    "Binance_Futures_Trades": {
+      "first_utc": "2026-11-04T14:41:42+00:00",
+      "last_utc": "2026-11-14T14:51:58+00:00"
+    },
+    "BitcoinBullet_official": {
+      "first_utc": "2026-03-09T12:35:30+00:00",
+      "last_utc": "2026-11-13T02:48:44+00:00"
+    },
+    "BullBearCrypto0": {
+      "first_utc": "2026-08-06T11:45:05+00:00",
+      "last_utc": "2026-11-14T10:31:56+00:00"
+    },
+    "Coin_Signals": {
+      "first_utc": "2025-11-13T15:41:53+00:00",
+      "last_utc": "2026-11-14T14:37:40+00:00"
+    },
+    "CryptoInnerCircle": {
+      "first_utc": "2025-07-12T16:14:06+00:00",
+      "last_utc": "2026-10-05T06:37:03+00:00"
+    },
+    "EveningTrader": {
+      "first_utc": null,
+      "last_utc": null
+    },
+    "OldmanScalping": {
+      "first_utc": "2026-10-16T11:39:41+00:00",
+      "last_utc": "2026-11-14T15:08:22+00:00"
+    },
+    "RavenSignalsPro": {
+      "first_utc": "2026-02-17T03:45:55+00:00",
+      "last_utc": "2026-11-13T20:09:02+00:00"
+    },
+    "Raven_signalst_pro": {
+      "first_utc": null,
+      "last_utc": null
+    },
+    "Teambuertrades": {
+      "first_utc": "2024-02-11T03:28:53+00:00",
+      "last_utc": "2024-02-19T04:53:00+00:00"
+    },
+    "TopCryptoFuturesSignals": {
+      "first_utc": "2026-08-06T23:05:41+00:00",
+      "last_utc": "2026-11-13T10:24:48+00:00"
+    },
+    "TradingGainX": {
+      "first_utc": "2026-01-23T16:59:05+00:00",
+      "last_utc": "2026-11-14T13:06:24+00:00"
+    },
+    "Whalesguide": {
+      "first_utc": "2025-08-09T12:37:19+00:00",
+      "last_utc": "2026-11-14T06:07:36+00:00"
+    },
+    "WolfxCrypto_VIP": {
+      "first_utc": "2026-05-16T16:41:42+00:00",
+      "last_utc": "2026-11-14T02:28:44+00:00"
+    },
+    "altsignals": {
+      "first_utc": "2026-03-06T03:24:53+00:00",
+      "last_utc": "2026-11-13T21:40:42+00:00"
+    },
+    "astronomer_zero": {
+      "first_utc": null,
+      "last_utc": null
+    },
+    "bitcoinbullets": {
+      "first_utc": "2026-04-17T12:00:04+00:00",
+      "last_utc": "2026-11-14T04:04:08+00:00"
+    },
+    "chainexsignals": {
+      "first_utc": "2026-04-25T12:23:02+00:00",
+      "last_utc": "2026-11-13T12:03:28+00:00"
+    },
+    "coin_sgnls_PRO": {
+      "first_utc": "2025-02-03T16:26:27+00:00",
+      "last_utc": "2026-11-13T16:33:31+00:00"
+    },
+    "coincodecap": {
+      "first_utc": "2026-05-16T07:37:06+00:00",
+      "last_utc": "2026-11-13T12:35:56+00:00"
+    },
+    "crusader_trades": {
+      "first_utc": "2024-03-19T09:49:05+00:00",
+      "last_utc": "2026-10-20T16:32:57+00:00"
+    },
+    "crypto_Winston": {
+      "first_utc": "2025-12-23T14:01:15+00:00",
+      "last_utc": "2026-11-13T17:24:51+00:00"
+    },
+    "crypto_signalsf": {
+      "first_utc": "2026-10-10T11:43:54+00:00",
+      "last_utc": "2026-11-14T14:23:54+00:00"
+    },
+    "cryptoclassics": {
+      "first_utc": "2026-08-27T08:47:37+00:00",
+      "last_utc": "2026-11-14T13:28:00+00:00"
+    },
+    "cryptoinsidebets": {
+      "first_utc": "2026-11-09T15:24:21+00:00",
+      "last_utc": "2026-11-14T12:25:13+00:00"
+    },
+    "cryptoninjas_trading_ann": {
+      "first_utc": null,
+      "last_utc": null
+    },
+    "cryptoroverytofficiaI": {
+      "first_utc": "2026-10-12T08:07:31+00:00",
+      "last_utc": "2026-11-14T14:31:34+00:00"
+    },
+    "cryptosignals0rg": {
+      "first_utc": "2024-10-31T14:57:20+00:00",
+      "last_utc": "2026-11-14T08:31:01+00:00"
+    },
+    "fatpigsignals": {
+      "first_utc": "2021-10-30T13:44:02+00:00",
+      "last_utc": "2026-10-12T15:01:27+00:00"
+    },
+    "fedrussianinsiders": {
+      "first_utc": "2026-04-18T05:23:51+00:00",
+      "last_utc": "2026-11-14T04:12:35+00:00"
+    },
+    "free_crypto_vip": {
+      "first_utc": "2026-07-13T15:42:18+00:00",
+      "last_utc": "2026-11-14T14:41:15+00:00"
+    },
+    "learn2tradectypto": {
+      "first_utc": "2026-05-23T06:04:50+00:00",
+      "last_utc": "2026-11-13T15:41:15+00:00"
+    },
+    "learn2tradenews": {
+      "first_utc": "2026-05-23T11:01:24+00:00",
+      "last_utc": "2026-11-14T08:37:56+00:00"
+    },
+    "main3commassignals": {
+      "first_utc": "2026-05-04T05:40:22+00:00",
+      "last_utc": "2026-11-12T07:35:01+00:00"
+    },
+    "ne_investor": {
+      "first_utc": "2020-08-06T23:45:44+00:00",
+      "last_utc": "2026-11-14T14:30:40+00:00"
+    },
+    "safe_academy": {
+      "first_utc": "2024-02-27T07:18:48+00:00",
+      "last_utc": "2026-11-13T22:09:42+00:00"
+    },
+    "sagesignals8": {
+      "first_utc": "2026-08-31T19:57:34+00:00",
+      "last_utc": "2026-11-14T14:52:10+00:00"
+    },
+    "tokenwhisperer_io": {
+      "first_utc": "2026-08-08T00:03:05+00:00",
+      "last_utc": "2026-11-14T14:30:08+00:00"
+    },
+    "traderosho": {
+      "first_utc": "2026-07-02T14:04:48+00:00",
+      "last_utc": "2026-11-14T14:20:20+00:00"
+    },
+    "universalcryptosignals": {
+      "first_utc": "2024-12-20T11:09:37+00:00",
+      "last_utc": "2026-03-25T13:50:19+00:00"
+    },
+    "wallstreetqueenofficial": {
+      "first_utc": "2026-02-04T15:11:51+00:00",
+      "last_utc": "2026-11-13T18:29:01+00:00"
+    },
+    "wolfoftrading": {
+      "first_utc": "2025-11-28T16:44:01+00:00",
+      "last_utc": "2026-11-12T12:53:40+00:00"
+    },
+    "wolfxsignals_freegroup": {
+      "first_utc": "2026-07-17T16:49:47+00:00",
+      "last_utc": "2026-11-14T10:46:15+00:00"
+    }
+  },
+  "limitations": "Numerical gaps are not deleted messages; MIRROR_END is not proof of original completeness; PAGE_LIMIT is truncated; image-only signals not reconstructable without image levels."
+}
