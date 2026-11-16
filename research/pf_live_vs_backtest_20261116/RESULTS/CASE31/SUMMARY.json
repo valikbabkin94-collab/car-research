@@ -1,0 +1,62 @@
+{
+  "trades_n": 13,
+  "wins": 12,
+  "sum_live_R": 4.6282,
+  "first_entry_ms": 1794431118000,
+  "last_exit_ms": 1794839581000,
+  "decision_n": 31,
+  "not_entered_n": 18,
+  "decision_coverage_complete": false,
+  "actual_loss_exit_move_pct": [
+    5.492289083761714
+  ],
+  "same_signal_cluster_symbols": [
+    "NBISUSDT",
+    "KORUUSDT",
+    "MVLLUSDT"
+  ],
+  "cluster_common_signal": true,
+  "cluster_R": 1.8439999999999999,
+  "preentry_return_correlation": [
+    [
+      1.0,
+      0.8393217369717121,
+      0.7707189124247443
+    ],
+    [
+      0.8393217369717121,
+      0.9999999999999999,
+      0.8454608922421173
+    ],
+    [
+      0.7707189124247444,
+      0.8454608922421174,
+      1.0
+    ]
+  ],
+  "correlation_symbol_order": [
+    "KORUUSDT",
+    "MVLLUSDT",
+    "NBISUSDT"
+  ],
+  "common_preentry_return_n": 168,
+  "probability_sensitivity": {
+    "p": 0.7313218390804598,
+    "iid_P_at_least12": 0.09886455218219811,
+    "perfect_correlation_triplet_P_at_least12": 0.14957900145933442,
+    "assumption": "Only triplet correlation changes; other10 iid; not estimated actual probability of luck"
+  },
+  "model_status_counts": {
+    "CLOSED": 20,
+    "NOFILL": 1,
+    "DATA_GAP_SIGNAL_REFERENCE": 7,
+    "DATA_GAP_M1": 2,
+    "OPEN_RIGHT_CENSORED": 1
+  },
+  "model_net_known_n": 0,
+  "funding_november_probe": "HTTPError: HTTP Error 404: Not Found",
+  "rest_host_blocked": true,
+  "initial_stop_policy": "5.6percent signal; DB initial fallback not attested active stop; no12percent change",
+  "model_validation": "INCONCLUSIVE_SAME_VENUE_AND_EXECUTION_GAPS",
+  "annual_replay_repeated": false
+}

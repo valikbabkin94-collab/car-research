@@ -1,0 +1,1269 @@
+{
+  "archive_receipts": [
+    {
+      "symbol": "AKEUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-13.zip",
+        "source_sha256": "28e6f70cd4956ec59998b2a7e9e9e010019d323fec33964b2a2124750c9e9941",
+        "rows": 1440,
+        "parsed_sha256": "8809413e1b510f9f4bdd656c54ac1c1c33200e2d0b1fdf652bd4b3fe177e5e30",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "AKEUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-14.zip",
+        "source_sha256": "b1a14943b1594acc581cffb03f1d07a7c6dafafd50b16d7e9df58cc60c8202a5",
+        "rows": 1440,
+        "parsed_sha256": "880a57adcae92a7c362140f7a706e4ac702390a69daa11d0fb703c532c608893",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "AKEUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-15.zip",
+        "source_sha256": "fa7c6d3f9733fd8568ae2a935bfd5992a8a1b220ddceb5a04fed31a21712d33f",
+        "rows": 1440,
+        "parsed_sha256": "e32a67b7d077905e6a95e304e76cf14300cba058931db45d4ea17db4c5e9f773",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "AKEUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "BARDUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BARDUSDT/1m/BARDUSDT-1m-2026-11-13.zip",
+        "source_sha256": "b47e2d80d562f35ef33adef5f75de4e1d9559c8197291130afc4d86b4c4f4875",
+        "rows": 1440,
+        "parsed_sha256": "4a4881f54adfabdc39dd8bff66f9cf27b0d622e3531ce1073a31a0d121d4b5fb",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "BARDUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BARDUSDT/1m/BARDUSDT-1m-2026-11-14.zip",
+        "source_sha256": "c479de8817f4c4ca3a29cdb6f18d0d56bc367dee4d8be523d4509c2fe9ff1c01",
+        "rows": 1440,
+        "parsed_sha256": "b188e83ab76b15f727cb534a1ca12952e8b93c37679f7ef60ad3a0cfd40d76b4",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "BARDUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BARDUSDT/1m/BARDUSDT-1m-2026-11-15.zip",
+        "source_sha256": "7845676f67980d6d90b75097a686a9df0800a6169f3f5bb94d251ee117ed5fac",
+        "rows": 1440,
+        "parsed_sha256": "3e9779a059f05df38fc2c1b281a1a747cac5b5354dc7c5fea9820ef6cfbc6a96",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "BARDUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BLUAIUSDT/1m/BLUAIUSDT-1m-2026-11-11.zip",
+        "source_sha256": "97ae6e7118b4869f47c60ebe93de8483789c07bc4efd1c59f010728cc9de0c53",
+        "rows": 1440,
+        "parsed_sha256": "308a05c809a5c49c7523dead691794767dd36c8bcf3d53efe71a9fa9dbafd9b2",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BLUAIUSDT/1m/BLUAIUSDT-1m-2026-11-12.zip",
+        "source_sha256": "2ec13702536e18ac5aa955ef5e04b7d81840a5629c91f81f7b01e1bd69e91df0",
+        "rows": 1440,
+        "parsed_sha256": "68908020d09985b35c0050973f658dc2955d23d56229517d949ea4d9c9e905c7",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BLUAIUSDT/1m/BLUAIUSDT-1m-2026-11-13.zip",
+        "source_sha256": "5c9bb847d6076952f1d068a2f1e161de2c3f45168c0a368484b5f65ad1c60783",
+        "rows": 1440,
+        "parsed_sha256": "2715a7471e3ec604a0d71c6c144009d75e6168de47aabb8355f4dfc546226e5d",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BLUAIUSDT/1m/BLUAIUSDT-1m-2026-11-14.zip",
+        "source_sha256": "502ecbf8c57d9fe9e82239c8e06e927a20b5a1d43fd01c4fdd8f6211fef30b6c",
+        "rows": 1440,
+        "parsed_sha256": "9c629d446bd372e8d7ebd9320351c92e2b705ecaec2d6a02e5f560f877ad9572",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BLUAIUSDT/1m/BLUAIUSDT-1m-2026-11-15.zip",
+        "source_sha256": "faf02a1f3d5aa4ceb8055a112768ce6d3fa6581935a3ae6e301f28f506a038fa",
+        "rows": 1440,
+        "parsed_sha256": "9c5d7046f364e9eb77a87be6827f89d4cb1581c4bbe6377f018820ff7dd0a92f",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "BMTUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BMTUSDT/1m/BMTUSDT-1m-2026-11-14.zip",
+        "source_sha256": "58ebbe7469b5a24dffbd702dff941e254f35849622ce67270ee1f0d1d16eeb6f",
+        "rows": 1440,
+        "parsed_sha256": "b1591e3fa48d086cc91d9eb0f0eb8c3d8e24ddbc84b177611c7d67bc544c4e22",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "BMTUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/BMTUSDT/1m/BMTUSDT-1m-2026-11-15.zip",
+        "source_sha256": "eb9dfdc90a942f238b80247ff827bd91baffd012f138cf70a36dda5432dd4512",
+        "rows": 1440,
+        "parsed_sha256": "170420965d21bf0400b4416b2168eb929ec1351c82588ad6531e4b0184155426",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "BMTUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/CRWVUSDT/1m/CRWVUSDT-1m-2026-11-11.zip",
+        "source_sha256": "59e8d23ad99583caaf63889fad6133479ad58365c8733f13bb03d2694e3c3aa8",
+        "rows": 1440,
+        "parsed_sha256": "22b6185a95be70fa1c4f28d8dcbb2deb6582a7e1b5a1b707b8d072e5c32d23d4",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/CRWVUSDT/1m/CRWVUSDT-1m-2026-11-12.zip",
+        "source_sha256": "50fa13fd5470f606fc17f0f04ff8cdfb1f561eceffbedb6e4e4b274f86b4b6e9",
+        "rows": 1440,
+        "parsed_sha256": "b276fce2d8a994d95227b324b58dac2e665e926d6a22f86d48abcde007731c5c",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/CRWVUSDT/1m/CRWVUSDT-1m-2026-11-13.zip",
+        "source_sha256": "4750a684cfebdd57124ba3cd86aacfe0ea339ab1af3df3e7d50ba604d08affec",
+        "rows": 1440,
+        "parsed_sha256": "7b41565e2cfc41fb9cdce12fd8bf1b1856b1bff6470ebc99c068e24f505e2b87",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/CRWVUSDT/1m/CRWVUSDT-1m-2026-11-14.zip",
+        "source_sha256": "be7fd42b2f946a1e9269eb01bbf2ddc1745760edec781adbe64323577d4712fc",
+        "rows": 1440,
+        "parsed_sha256": "3360f4fd57dcecd92df9d8d4c4e0c7901b0d8bf6502dd2d58307c6f1fbb9d31b",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "DRVUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "ERAUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ERAUSDT/1m/ERAUSDT-1m-2026-11-12.zip",
+        "source_sha256": "8ba3256a7c5a81584e2fec3fed5056f1388e22193c812c6aa6194a7edd1099ca",
+        "rows": 1440,
+        "parsed_sha256": "d38cf887025f61fb2342f566a3ff6144b1875a04055191310076708b42a4981a",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "ERAUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ERAUSDT/1m/ERAUSDT-1m-2026-11-13.zip",
+        "source_sha256": "287a0063b84241658f62388996988530641d74460e9b5d1d459d97ced6aa9607",
+        "rows": 1440,
+        "parsed_sha256": "b3877f98b26b79326e5ba06d8b4eca1b077d8656606a3362268a7d69e03c6f1a",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "ERAUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ERAUSDT/1m/ERAUSDT-1m-2026-11-14.zip",
+        "source_sha256": "0ae0ce30b4edcb55c02fcd93999cb2a02c54a44fef5aeba41abd5e0cb063abca",
+        "rows": 1440,
+        "parsed_sha256": "2afe716360d14c8a3b03e95ef50865656a5dd9c4085fbad2bd47d96543513fab",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "ERAUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ERAUSDT/1m/ERAUSDT-1m-2026-11-15.zip",
+        "source_sha256": "469edcafaca9dce1c633c2984580800c94f296624ae6dbc0ab133730f6dd3181",
+        "rows": 1440,
+        "parsed_sha256": "5a9d8fcd20a5e87fee0777fc4969e6598b97118dd10897903ee4d5c7b007dc70",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-14.zip",
+        "source_sha256": "47811a484c6235d9e3a14d57ffdbb817cb94dedc19529ae4a1dbe6474e3ebfd3",
+        "rows": 1440,
+        "parsed_sha256": "0c40e217272356623525455bd878c12f32948e4960d589e30c710f112ad9fabc",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-15.zip",
+        "source_sha256": "fdac97e716951823c0fa17d6f0b85d8677968e358771b876e632870740f639cc",
+        "rows": 1440,
+        "parsed_sha256": "f790d2d24ab96b7eaeeab6a8a9f81776f6f355718fb4b25ebb16af7d06bc3670",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "INITUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/INITUSDT/1m/INITUSDT-1m-2026-11-15.zip",
+        "source_sha256": "762bf153cd2c5760eb4eae40edda7d3d81489eae2012d21e82a51bca36ae396c",
+        "rows": 1440,
+        "parsed_sha256": "b6d003e23a65586189722a6740a49c3cb32b1f4af97e1d1d1a74d6301c02d061",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "INITUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2026-11-15.zip",
+        "source_sha256": "6cd3e210e3df4a80612bab7fbb42087e3176bde378bf93d6f7d57620cdd8e801",
+        "rows": 1440,
+        "parsed_sha256": "5d626602e1fd06371d0022f8c525995f154c1b1896561c1c153ba82095bf504f",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KAVAUSDT/1m/KAVAUSDT-1m-2026-11-15.zip",
+        "source_sha256": "75bc09eaa9551bec6b78e4934584c2158b713c48005ec8dc818a14c6e8082d15",
+        "rows": 1440,
+        "parsed_sha256": "1f14e7a9133971352637ffb427fff3d8dcce7b52eac645fe9f4e92ca8ba61aa7",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-11.zip",
+        "source_sha256": "4b301ae6121492d2a0593e7987f903fa35b48a4f817ea6afe941df8ce7650f39",
+        "rows": 1440,
+        "parsed_sha256": "93e7f92b260d5a67298de787c56a94dcb177fb0ab8fd49329a68d960b4880dde",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-12.zip",
+        "source_sha256": "4c69e65298025d66e658adc034f13d0a76d8dfa064c782e9f51a5c9aa0c712d1",
+        "rows": 1440,
+        "parsed_sha256": "b97a23e8aab6465d1c6fec26e2edd5c30cd62dd2b2ed28e904d4af6bc64acea4",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-13.zip",
+        "source_sha256": "0636a90616066ac0f8fa6df6257fcc48d6fd38fe8bf2a5d4b4e36517f8be3c0b",
+        "rows": 1440,
+        "parsed_sha256": "3e11e62b02da43f4df7d0d758d89a633f37b192315b3a0bf5215ef7f20021932",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-14.zip",
+        "source_sha256": "fabafa3859e7b4a4849d66669b7a7290cde42a304b9855f9318da44e4fb948f5",
+        "rows": 1440,
+        "parsed_sha256": "545c9c9a50eb8688923b65ca5a04ead1fd93fb243d821503f78392e98af7c8e8",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-15.zip",
+        "source_sha256": "937b95b7b2eb88085c40f805d8fd8758801237a15ac1906b1f370d450b207d6f",
+        "rows": 1440,
+        "parsed_sha256": "3fea5c8fe1d3acc98863348c4b3651e618757bed4ac219129bc3fca8feb3b028",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-12.zip",
+        "source_sha256": "c59a6a55a6e20deeee8a1fb07eec09f670dc51b712e2dd681206faf74a67ff36",
+        "rows": 1440,
+        "parsed_sha256": "51438d987b571d3bcc635342b8d69c31005e5110179512a9846bd69af53f18fa",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-13.zip",
+        "source_sha256": "ffe1ac0ef632f125b09626372b6254eba812984e3a428ea27aadbed762294548",
+        "rows": 1440,
+        "parsed_sha256": "f54d5706a7e6e1af1fb962898f2088cef1022573a764897817e6b845c6c3278a",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-14.zip",
+        "source_sha256": "d1cebaa35a465941af6f8ff6e38998c93cadfc6b2b8b02a81e0d1a68f34d224a",
+        "rows": 1440,
+        "parsed_sha256": "67c8ddef5ea85ce421fea57ba1be1144ef7bc122a1cbc0172fcd233454d3a94f",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-15.zip",
+        "source_sha256": "a0bad30386936d06cb092eb350fe6a4c4b5e90dda392cbf8865caf9db0fc8921",
+        "rows": 1440,
+        "parsed_sha256": "2509494b87e853e05a5b169c99fd38488db2d1f003e51814adbfcfdbb7b98f06",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MUUUSDT/1m/MUUUSDT-1m-2026-11-11.zip",
+        "source_sha256": "4a57f87c06be210f40f7e0ecf2903209ec5c5d395b5f76733c61cd54c90366f1",
+        "rows": 1440,
+        "parsed_sha256": "be923abb691782bcb60a1daa03ea0b64cd218b65739a72c9c973ddd1b5e9ac5a",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MUUUSDT/1m/MUUUSDT-1m-2026-11-12.zip",
+        "source_sha256": "9fb8abec3404bf99f836c032f6c92e879431368642ef6f29047db3824c55c996",
+        "rows": 1440,
+        "parsed_sha256": "d688cf6c4dfa4faed76a5dff5375d5490c778755702268d4846ae05a78c73345",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MUUUSDT/1m/MUUUSDT-1m-2026-11-13.zip",
+        "source_sha256": "35f116990c8b80a123c67c5951af629dc5953b34ae6ffe52cd4de38f5c60c3a3",
+        "rows": 1440,
+        "parsed_sha256": "f3f6cfdf4383711b96e54b7906bc9296b97fb37eac46b9576b4d64b179871001",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MUUUSDT/1m/MUUUSDT-1m-2026-11-14.zip",
+        "source_sha256": "39a7b8cbef132037b857d370f3b20a4766b86c93278e85c0340d34a998835219",
+        "rows": 1440,
+        "parsed_sha256": "f8dab95e5d860f3ed14987f2bc01488f90655650603f6af99c74346565facb76",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MUUUSDT/1m/MUUUSDT-1m-2026-11-15.zip",
+        "source_sha256": "651fb8785cd8c200ead793ad44b22e6179d63a89a42cd99463b1de5b66bb1617",
+        "rows": 1440,
+        "parsed_sha256": "06dc329df33dd2ce241547392fcd8530af79f5fe9693e9c7cd6e7b969f2a1a61",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MVLLUSDT/1m/MVLLUSDT-1m-2026-11-11.zip",
+        "source_sha256": "8b89ba05269b1196b6bc47721dc2474f6f29a02c884a82c90ef1218733f7f808",
+        "rows": 1440,
+        "parsed_sha256": "7fbbd01d014958628469d09a8017c59b58665d555195a8edb4ff4650d79320ed",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MVLLUSDT/1m/MVLLUSDT-1m-2026-11-12.zip",
+        "source_sha256": "5b5c406f1504008d5cff414198d2b0c7cf4fff707566633f55481e7c6611d6fc",
+        "rows": 1440,
+        "parsed_sha256": "dadaf262f4d4f4142a1ede4f647678f7857aa54d9961847f4546718bf3f37217",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MVLLUSDT/1m/MVLLUSDT-1m-2026-11-13.zip",
+        "source_sha256": "20524d7ae3f3be3a2a7da29f0a8df4375baad621adbc34a8a6746288ec4cfdb8",
+        "rows": 1440,
+        "parsed_sha256": "58244c33ddb88494e9c56c103fe9765266f4df954b76086c05495b9fa18a558a",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MVLLUSDT/1m/MVLLUSDT-1m-2026-11-14.zip",
+        "source_sha256": "0563c1b79b46c033e0cbf8f15acdce4dc45cd3d9d70c7ca1d6dc13ca611b8fee",
+        "rows": 1440,
+        "parsed_sha256": "9648b9eb129880fda961364e201054eac88f597cd4ba10b60ad96ebac30ae141",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/MVLLUSDT/1m/MVLLUSDT-1m-2026-11-15.zip",
+        "source_sha256": "9d2c7d486093b21162dccfa438aed3da7987f8417263a1765349bb02355a7a17",
+        "rows": 1440,
+        "parsed_sha256": "3551204aa3ab7432176e47a63bcbd40c17cb8092c75ee64fdc8a75625f0916a5",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/NBISUSDT/1m/NBISUSDT-1m-2026-11-11.zip",
+        "source_sha256": "c2a2a730222bd1269659d1b0b0a592ab75d337b40cc84453eecac70031568c18",
+        "rows": 1440,
+        "parsed_sha256": "4fbcdfe5a0a49efdf857b81d935eef771bfed0538bc3fd3b7b653257d6f01ace",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/NBISUSDT/1m/NBISUSDT-1m-2026-11-12.zip",
+        "source_sha256": "eeb0f2cbcf6d25b9295b2ecc765ecb8db09168d9bf0959aeeac1253eb0798119",
+        "rows": 1440,
+        "parsed_sha256": "0733bc80d936e5045131144f9b1d6b1c6c4e0e6f202b5a7511ebc6d1b46d9a53",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/NBISUSDT/1m/NBISUSDT-1m-2026-11-13.zip",
+        "source_sha256": "22b509313a2d6e74f6c0cd02ba17a144873413d78e0e2fb88cac7307dfdb885d",
+        "rows": 1440,
+        "parsed_sha256": "2ba6cd077941dd317f1bac3aa8eab1842dd3ad58ed4a9f4a9a0a222d58d82de2",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/NBISUSDT/1m/NBISUSDT-1m-2026-11-14.zip",
+        "source_sha256": "c51fda4f047ded096d96f67f979e9db24f1f25e805dfe1080ecb3dba86cf1c97",
+        "rows": 1440,
+        "parsed_sha256": "a63cf3ca6746ca5251380f6527e90c88ae84b824144b3f9c2bd36044ad100b4d",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/NBISUSDT/1m/NBISUSDT-1m-2026-11-15.zip",
+        "source_sha256": "a7427af8303a5cc3441eadbe6d1fb680ed2dc242ce0ed8df4168096046012bb3",
+        "rows": 1440,
+        "parsed_sha256": "06a8a03ac7a2ddde397f0470f47d3a2a11e125db893abb83f182a4b6a5a8989a",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "NESAUSDT",
+      "day": "2026-11-15",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "NESAUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "PLAYSOUTUSDT",
+      "day": "2026-11-13",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "PLAYSOUTUSDT",
+      "day": "2026-11-14",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "PLAYSOUTUSDT",
+      "day": "2026-11-15",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "PLAYSOUTUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "QUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-12.zip",
+        "source_sha256": "9c14e92daea2d41f407eb4e75a90889f3ee826102759708a1b8a2d2df9e81d1e",
+        "rows": 1440,
+        "parsed_sha256": "0424e8ae7a20a71aa09e0db9a4c920a2728ea695394c2f50ac650cdf2a2ab455",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "QUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-13.zip",
+        "source_sha256": "dc33c075406cd0d46d4a516c13f67359523130df4549d60d501b752c11403d4a",
+        "rows": 1440,
+        "parsed_sha256": "ea1f4ff30d76d7ed46301e367f381e57d2e093a29b798363b0f6621d9fa3de5e",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "QUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-14.zip",
+        "source_sha256": "620c19988b65c8c5f44fe8997ec091de67628a71e18abf482874a1365070f5fa",
+        "rows": 1440,
+        "parsed_sha256": "5946a58b2c96e2df1349c0d8da3a5553dc2c25be18ef9950c62b7f115f77ecc4",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "QUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-15.zip",
+        "source_sha256": "272f453000ad2e5597e91f17c8989af42fd6c8667a0b7b1cdd22d1fc3fe15e79",
+        "rows": 1440,
+        "parsed_sha256": "75214352e16388aefeecb86920742976ef7129abe5487333bf9d05306f5bf729",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SHELLUSDT/1m/SHELLUSDT-1m-2026-11-15.zip",
+        "source_sha256": "f4cae62fab30bd5bf0995c2870c48092f16230de353c9040093bc564f067ce5a",
+        "rows": 1440,
+        "parsed_sha256": "bf2cef88f6bf90b23295f6a676b7e0bb13adda3e45d063be5e3b859a026f44dd",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "SKRUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-11-11.zip",
+        "source_sha256": "4e29c158d58c04fb308e9a676054cb7d12c4b56d4eb3b16e0f1ebc8aed6fbb70",
+        "rows": 1440,
+        "parsed_sha256": "a178d355447e68ad96a0b8ee007efa905aae38e81f0dbccab4e9fbf1e86a01da",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-11-12.zip",
+        "source_sha256": "11719ce6a7917ed5d1e0a128d066d4d548eda32dd8641e623113350936d4efaa",
+        "rows": 1440,
+        "parsed_sha256": "24684c0438aeaf8fceb3514479c9e99da7addbbd1b2f6458bb0ca029933392de",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-11-13.zip",
+        "source_sha256": "aeca46813a33e6171b03ee4db35bffd790e985ebb3a089f30920dd96d8a58c90",
+        "rows": 1440,
+        "parsed_sha256": "4f5b84fc0d9770ae47709cbd63f92d674c148789e212a56443cdcab45f965ccb",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-11-14.zip",
+        "source_sha256": "506afeddd2ee4084f73d9d386913f64c1980ba658dfe20e1f64da2911659e6d1",
+        "rows": 1440,
+        "parsed_sha256": "a4c468ce9679ff2185b781d347e7bd2122001d558a0a848fc8e8c7a4dfcbf004",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-11-15.zip",
+        "source_sha256": "a583e4a653bc38c31d1234b010f9c81bd9a718f5f100d0d52e6fbf7a83fadaed",
+        "rows": 1440,
+        "parsed_sha256": "bfe1e9eab607596c9aa6bf7e38ac9ec6c64a47f789f8b0aea5baf070da8f0912",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-11-13.zip",
+        "source_sha256": "ecfc09d9ead912b7381b0d8fb1365699f3fa7a0d6e4fb244b73d9b14151dd90e",
+        "rows": 1440,
+        "parsed_sha256": "81d2a426650ef4b93e3e521cf3e9089b760dfebca81dd7ebd7a6920d16ef5592",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-11-14.zip",
+        "source_sha256": "25ece3a19a7712ff026f0951e8b55d407c2db90a998d4bac25d938ff827f69d7",
+        "rows": 1440,
+        "parsed_sha256": "62afcfe58fa5e29c1493ba1e02ff66a5d18912a080027be8c71e181e9fc88bb5",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-11-15.zip",
+        "source_sha256": "64e38436d7f972a8b5b7ed956b5a112e9ae7e444687ac7c3ccf1091898fe5187",
+        "rows": 1440,
+        "parsed_sha256": "c9129c26f225251a22f31253965dc229dbf0f8c4a84a812661445a2f60c82bb4",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOXLUSDT/1m/SOXLUSDT-1m-2026-11-11.zip",
+        "source_sha256": "c8c78398b8d7b2bbdc46151aae60a665dc0556712d0b03f04364380a7a96fe28",
+        "rows": 1440,
+        "parsed_sha256": "b3e47794fa1941bc809e9f80501809f7aaf2960803d4accaf525b18c50a147e1",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOXLUSDT/1m/SOXLUSDT-1m-2026-11-12.zip",
+        "source_sha256": "cb05df306a0990c315e4f8cc4d64b653f829a613dd5fad62c720ab24ee705b74",
+        "rows": 1440,
+        "parsed_sha256": "c3c115a8d76ee452544446773ad0b5c79f7b13ba62abd9977935b4de13821581",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOXLUSDT/1m/SOXLUSDT-1m-2026-11-13.zip",
+        "source_sha256": "f050454cd9c0e40735397f9bb7ed552db944174cc28ad4a038669c795c63f078",
+        "rows": 1440,
+        "parsed_sha256": "eb5a3ebba2a63c5b7db2e8cb2e174a6b8b763b5006c1653fe9da95d45e9e87b7",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOXLUSDT/1m/SOXLUSDT-1m-2026-11-14.zip",
+        "source_sha256": "d4e5d3974f8d4618309c352001e316c2011d1890210dc5b2fa2931ea3fbcc7af",
+        "rows": 1440,
+        "parsed_sha256": "7c402a173991ecc7095d368bccd095d6fd9c7d6d7aa420f1371b051a19b629fc",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/SOXLUSDT/1m/SOXLUSDT-1m-2026-11-15.zip",
+        "source_sha256": "589e619129b99de7f49b7cb29eaae8f8593d9a4e5234344ded40ccc6bf8dc69e",
+        "rows": 1440,
+        "parsed_sha256": "367b743d09bdacb06e4e9754dc33f2903f0f8be88f0029779ac0756bd4613a5d",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "TACUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/TACUSDT/1m/TACUSDT-1m-2026-11-14.zip",
+        "source_sha256": "84faab192ffd05f9547e68d1dc667951f43ef1d53e567969f60d4212593bea25",
+        "rows": 1440,
+        "parsed_sha256": "2cb92af67fc014a3c2ba3dd77b5f72517af67cd1f0cc9f0fc9e26eb8c3089254",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "TACUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/TACUSDT/1m/TACUSDT-1m-2026-11-15.zip",
+        "source_sha256": "9a0df6327b7acacabb7de3166f034a011babba2d27266c4cee6bb71a586d536c",
+        "rows": 1440,
+        "parsed_sha256": "4a8d8eb8e1e66f5ced7d3824297888d5b0dabaae53dfc49e1e2afd5a7771b68f",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "TACUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "VVVUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/VVVUSDT/1m/VVVUSDT-1m-2026-11-15.zip",
+        "source_sha256": "7eae631046adfe69a0ae4792692856ed030dcb55ade7b778643c581b294f579f",
+        "rows": 1440,
+        "parsed_sha256": "be1b5ceadef420584a7a1a164dcf6e9770246430b13acf05046b0bb89dae81b3",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "VVVUSDT",
+      "day": "2026-11-16",
+      "status": "DATA_GAP_ARCHIVE",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "XCNUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/XCNUSDT/1m/XCNUSDT-1m-2026-11-12.zip",
+        "source_sha256": "6d74af2235f8ae75525f2c5c3f5bea24a658e8e3284b0847b3688b2e22a57550",
+        "rows": 1440,
+        "parsed_sha256": "056ae7cefdbc4db3e0648bfd31dfc8f340f5cf45ec1deb777ca5f622e5ac2f5d",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "XCNUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/XCNUSDT/1m/XCNUSDT-1m-2026-11-13.zip",
+        "source_sha256": "1889565f8862b0932dee8ef37a0d82c7037c90932be87b1f8332dea3b7138456",
+        "rows": 1440,
+        "parsed_sha256": "1c173e825ecae0d1b4aa353ee0878a1b275e72d353e7324d4236847c8ef78609",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "XCNUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/XCNUSDT/1m/XCNUSDT-1m-2026-11-14.zip",
+        "source_sha256": "07527dbd66f2509d1f69d0f7d1d5059104610341663bd7ca47a2fb8935c24181",
+        "rows": 1440,
+        "parsed_sha256": "a112882c523c263d347a234b2313651adcb096960ffbad40ca2b7331734cb384",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "XCNUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/XCNUSDT/1m/XCNUSDT-1m-2026-11-15.zip",
+        "source_sha256": "4190e9cf36aa0828b205255df88ce137bf5b586b6f392a46fc550110f92ac213",
+        "rows": 1440,
+        "parsed_sha256": "7ef3a7b37472a5b6de95364162422e3abd871c696f34f40884d2b336c7cf51f2",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-11-11",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ZHONGJIUSDT/1m/ZHONGJIUSDT-1m-2026-11-11.zip",
+        "source_sha256": "b3caec8eecea224e62651032983adec536e137fd45eb4d797ecdb0286354b58d",
+        "rows": 1440,
+        "parsed_sha256": "ae32350b4b8e0a66eb4a92064942d40ce0110fab67c262854e08c8717e685684",
+        "bar_ms": 60000,
+        "first_ms": 1794355200000,
+        "last_ms": 1794441540000
+      }
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-11-12",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ZHONGJIUSDT/1m/ZHONGJIUSDT-1m-2026-11-12.zip",
+        "source_sha256": "019bec5b4496e7b5d5d88cc8c54b9592fb2af6fefdfbaa0f904fcde2a313e821",
+        "rows": 1440,
+        "parsed_sha256": "e28771f1f3e72c84a5fb8aad8ea2401744c26ca64a6b5e85fc080a5b05adf6de",
+        "bar_ms": 60000,
+        "first_ms": 1794441600000,
+        "last_ms": 1794527940000
+      }
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ZHONGJIUSDT/1m/ZHONGJIUSDT-1m-2026-11-13.zip",
+        "source_sha256": "fa869728b5bad5fe8bcbba1f9d6ce340eeadadce5598dca76ab9fb6843aeabc8",
+        "rows": 1440,
+        "parsed_sha256": "6595a417681ffb5ca7636ff93c93a59cf8a974a9d21abffe576e969e517720f4",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ZHONGJIUSDT/1m/ZHONGJIUSDT-1m-2026-11-14.zip",
+        "source_sha256": "2c90de5aa2a8e6cb0e7f8a561c139b4ad71fe6669e8aa6d6b87c71fe86ecd9c1",
+        "rows": 1440,
+        "parsed_sha256": "c4a0b298180530eb28af79c09c4287b141c816f1c10ab7b48fda5813deecc018",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/ZHONGJIUSDT/1m/ZHONGJIUSDT-1m-2026-11-15.zip",
+        "source_sha256": "c6ad5faccdd000af6b67e9338bc11052108dc50012b79b208df28098d694d843",
+        "rows": 1440,
+        "parsed_sha256": "2f3325bb9a99142355821e898aeff8b296484a44d8a3167cb594b4f4a75e75ea",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    }
+  ],
+  "errors": [
+    {
+      "symbol": "PLAYSOUTUSDT",
+      "reason": "NOT_IN_OLD_CATALOG_ACTUAL_ARCHIVE_STILL_REQUESTED"
+    },
+    {
+      "symbol": "NESAUSDT",
+      "reason": "NOT_IN_OLD_CATALOG_ACTUAL_ARCHIVE_STILL_REQUESTED"
+    },
+    {
+      "symbol": "DRVUSDT",
+      "reason": "NOT_IN_OLD_CATALOG_ACTUAL_ARCHIVE_STILL_REQUESTED"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "REST_UNAVAILABLE",
+      "error": "HTTP_451"
+    }
+  ]
+}
