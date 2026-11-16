@@ -29,6 +29,20 @@ S2: INCONCLUSIVE_DATA_GAP. Подробные источники/исключе�
 
 S3: S3_SETTLED_BINANCE_PROXY_NOT_EXACT_TICKER_FACTORY. Подробные источники/исключения/контроль: S3_RESULTS.json.
 
+|S2_BINANCE/main/FULL|0|NA|NA|0|0|0.0000|NA|NA|
+|S2_BINANCE/main/H1|0|NA|NA|0|0|0.0000|NA|NA|
+|S2_BINANCE/main/H2|0|NA|NA|0|0|0.0000|NA|NA|
+|S2_BINANCE/main/OOS40|0|NA|NA|0|0|0.0000|NA|NA|
+
+S2_BINANCE: INCONCLUSIVE_DATA_GAP_OR_NO_ELIGIBLE_EVENTS. Подробные источники/исключения/контроль: S2_BINANCE_RESULTS.json.
+
+|S3_FACTORY/main/FULL|1346|42.7935|0.9916|-4.6643|-23.3217|37.5225|28.9671|NA|
+|S3_FACTORY/main/H1|766|41.6449|0.9715|-9.1150|-45.5749|31.8678|28.8068|NA|
+|S3_FACTORY/main/H2|580|44.3103|1.0188|4.4506|22.2532|37.5225|29.1789|1.2525|
+|S3_FACTORY/main/OOS40|454|40.3084|0.8202|-36.4517|-182.2587|38.2975|28.3330|NA|
+
+S3_FACTORY: S3_SETTLED_FACTORY_OVERLAP_BINANCE_PROXY_NOT_LIVE_TICKER. Подробные источники/исключения/контроль: S3_FACTORY_RESULTS.json.
+
 ## Ограничения и независимая проверка
 S1: сохранённый прежний selected-корпус, не полный новый PUMP_FADE; top50 не настоящий фабричный BASE. До model cut2026-08-30 присутствует selection leakage. S3: settled funding Binance — известная после расчёта величина, не исторический live indicative ticker; строго раньше observation. S2: сегодняшние редакции объявлений не доказывают первоначальные версии. Binance цены/платежи не равны Bybit. Funding mark приближен закрытой5m ценой. OOS40 календарный, но сам по себе не независим от прежнего изучения корпуса. UNKNOWN не равен нулю. Смотреть все trades/status counts, каталог и checksum receipts.
 
