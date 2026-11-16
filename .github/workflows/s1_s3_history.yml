@@ -1,8 +1,5 @@
 name: S1 S2 S3 frozen historical proxy research
 on:
-  push:
-    branches: [research/s1-s3-history]
-    paths: [.github/workflows/s1_s3_history.yml, research/s1_s3_history_20261116/history.py, tests/test_s1_s3_history.py]
   workflow_dispatch:
 permissions: {contents: write, actions: read}
 concurrency:
@@ -48,6 +45,7 @@ jobs:
           PY
           python tools/scan_publication.py
       - name: Scan research artifact content including compressed sources
+        id: artifact_scan
         if: always()
         run: |
           python - <<'PY'
@@ -60,7 +58,7 @@ jobs:
           print('PASS recursive artifact content scan')
           PY
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: always() && steps.artifact_scan.outcome == 'success'
         with:
           name: s1-s3-history-inputs-results-checkpoint
           path: results/s1-s3-history

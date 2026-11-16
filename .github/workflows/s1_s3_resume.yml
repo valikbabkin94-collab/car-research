@@ -1,0 +1,95 @@
+name: S1 S3 resume missing only and S2 Binance source fallback
+on:
+  push:
+    branches: [research/s1-s3-history]
+    paths: [.github/workflows/s1_s3_resume.yml, research/s1_s3_history_20261116/RESUME_REQUEST.json]
+  workflow_dispatch:
+    inputs:
+      resume_run:
+        description: Completed prior S1-S3 run with compressed sources/checkpoint
+        required: true
+        default: '43869713881'
+permissions: {contents: write, actions: read}
+concurrency:
+  group: s1-s3-history-fixed-protocol
+  cancel-in-progress: false
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python tools/scan_publication.py
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: results/s1-s3-history
+          run-id: ${{ inputs.resume_run || '43869713881' }}
+          github-token: ${{ github.token }}
+      - name: Retry only missing or failed H1, skip completed PnL
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/resume_only_missing.py
+      - name: Correct S3 factory overlap correspondence, reuse existing completed trades
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/s3_factory_overlap.py
+      - name: Historical Binance announcement fallback, separately frozen
+        continue-on-error: true
+        run: python research/s1_s3_history_20261116/binance_delisting_fallback.py
+      - name: Preserve report and compact results
+        if: always()
+        run: |
+          python research/s1_s3_history_20261116/history.py report
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          src=Path('results/s1-s3-history');dst=Path('research/s1_s3_history_20261116/RESULTS');dst.mkdir(exist_ok=True)
+          for pattern in ['*_RESULTS.json','*_TRADES.json.gz','S3_SIGNALS.json.gz','CHECKPOINT.json','PIT_STATUS.json','SOURCE_AUDIT.json','H1_MANIFEST.json','COLLECTION_CHECKPOINT.json','REPLAY_CHECKPOINT.json','OTCHET*.md']:
+           for p in src.glob(pattern):shutil.copy2(p,dst/p.name)
+          PY
+          python tools/scan_publication.py
+      - name: Scan all archive content before upload
+        id: artifact_scan
+        if: always()
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          sp=importlib.util.spec_from_file_location('s','tools/scan_publication.py');s=importlib.util.module_from_spec(sp);sp.loader.exec_module(s);bad=[]
+          for p in Path('results/s1-s3-history').rglob('*'):
+           if p.is_file():bad+=s.inspect(str(p),p.read_bytes())
+          assert not bad,bad
+          print('PASS recursive artifact scan')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.artifact_scan.outcome == 'success'
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: results/s1-s3-history
+          compression-level: 0
+          retention-days: 7
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.artifact_scan.outcome == 'success'
+        with:
+          name: s1-s3-history-compact-results
+          path: research/s1_s3_history_20261116/RESULTS
+          retention-days: 7
+      - name: Publish scanned results only to research branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/s1_s3_history_20261116/RESULTS
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: save resumed S1-S3 and independent Binance delisting fallback [skip ci]'
+          python tools/scan_publication.py
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/s1-s3-history'],check=True,stdout=subprocess.DEVNULL)
+          PY

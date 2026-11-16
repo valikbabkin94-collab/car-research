@@ -27,4 +27,29 @@ class ReplayTests(unittest.TestCase):
  def test_metrics_drawdown_and_best3(self):
   rows=[dict(status='CLOSED',net_R=v,exit_ms=i,hold_hours=1) for i,v in enumerate([2,-1,-2,4])]
   m=h.metrics(rows);self.assertEqual(m['maxDD_R'],3);self.assertEqual(m['netR'],3);self.assertEqual(m['PF'],2);self.assertEqual(m['best3_share_net'],2)
+class PointInTimeTests(unittest.TestCase):
+ def test_future_volume_cannot_change_earlier_rank(self):
+  import tempfile, json
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);(root/'h1').mkdir()
+   h.write(root/'H1_MANIFEST.json',{'archive_catalog_size':2,'symbols':[{'symbol':'AAAUSDT','errors':[]},{'symbol':'BBBUSDT','errors':[]}]})
+   for sym,q in [('AAAUSDT',2),('BBBUSDT',1)]:
+    bars=[[h.WARM+i*h.H,100,101,99,100,1,q if i<30 else 10000 if sym=='BBBUSDT' else q] for i in range(32)]
+    h.gzwrite(root/'h1'/(sym+'.json.gz'),{'bars':bars})
+   _,idx,rank=h.make_ranks(root)
+   self.assertEqual(int(rank[idx['AAAUSDT'],29]),1)
+   self.assertEqual(int(rank[idx['BBBUSDT'],29]),2)
+   self.assertEqual(int(rank[idx['BBBUSDT'],30]),1)
+   self.assertEqual(int(rank[idx['AAAUSDT'],22]),0)
+class BinanceAnnouncementTests(unittest.TestCase):
+ def test_exact_release_and_single_deadline(self):
+  import sys
+  sys.modules['history']=h
+  spec=importlib.util.spec_from_file_location('fallback',pathlib.Path(__file__).resolve().parents[1]/'research/s1_s3_history_20261116/binance_delisting_fallback.py');f=importlib.util.module_from_spec(spec);spec.loader.exec_module(f)
+  rec={'title':'Binance Futures Will Delist ABCUSDT Perpetual','releaseDate':h.START}
+  detail={'body':'Binance Futures will close all positions and conduct automatic settlement at 2026-08-06 09:00 (UTC). ABCUSDT perpetual contracts will be delisted.'}
+  r=f.parse(rec,detail);self.assertEqual(r['status'],'ELIGIBLE');self.assertEqual(r['symbols'],['ABCUSDT'])
+  rec['releaseDate']='2026-08-01';self.assertEqual(f.parse(rec,detail)['status'],'REJECTED_PUBLICATION_WINDOW_OR_TIMESTAMP')
+  rec['releaseDate']=h.START;detail['body']+=' Delisting at 2026-08-07 10:00 UTC.'
+  self.assertEqual(f.parse(rec,detail)['status'],'DATA_GAP_UNAMBIGUOUS_SYMBOL_OR_DELIST_TIME')
 if __name__=='__main__':unittest.main()
