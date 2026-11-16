@@ -1,0 +1,17 @@
+[
+  {
+    "path": "inputs/CLASSIFIED_POSTS.json.gz",
+    "sha256": "7da962957050965248445f28d5b16feb55e2063aacdeee88628b9073340b6f09",
+    "bytes": 7958032
+  },
+  {
+    "path": "inputs/LEGACY_SPLITS.json",
+    "sha256": "ba16e1bce170d62714cb78f600833bed9cf5a4b383d3b88fab469bc00166fb6f",
+    "bytes": 2536
+  },
+  {
+    "path": "inputs/V2_TABLES.json",
+    "sha256": "93a80b1333a01c563b19f40632b8c0b904bb6599899592f94b45a9354d84198c",
+    "bytes": 1122292
+  }
+]

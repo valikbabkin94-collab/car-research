@@ -1,0 +1,605 @@
+[
+  {
+    "channel": "AltcoinDaily_signaI",
+    "posts": 2430,
+    "classes": {
+      "OTHER": 2000,
+      "SIGNAL": 295,
+      "UPDATE": 122,
+      "REPORT": 13
+    },
+    "text_signals_without_levels_previously_unparsed": 27,
+    "unconditional_unforwarded_candidates": 7,
+    "share_among_detected_signals": 0.09152542372881356,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "posts": 11194,
+    "classes": {
+      "OTHER": 5258,
+      "REPORT": 806,
+      "UPDATE": 4550,
+      "SIGNAL": 580
+    },
+    "text_signals_without_levels_previously_unparsed": 579,
+    "unconditional_unforwarded_candidates": 359,
+    "share_among_detected_signals": 0.9982758620689656,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "posts": 800,
+    "classes": {
+      "UPDATE": 680,
+      "SIGNAL": 102,
+      "REPORT": 18
+    },
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": 0.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "BitcoinBullet_official",
+    "posts": 539,
+    "classes": {
+      "OTHER": 382,
+      "SIGNAL": 69,
+      "UPDATE": 75,
+      "REPORT": 13
+    },
+    "text_signals_without_levels_previously_unparsed": 6,
+    "unconditional_unforwarded_candidates": 6,
+    "share_among_detected_signals": 0.08695652173913043,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "BullBearCrypto0",
+    "posts": 635,
+    "classes": {
+      "REPORT": 179,
+      "OTHER": 429,
+      "SIGNAL": 14,
+      "UPDATE": 13
+    },
+    "text_signals_without_levels_previously_unparsed": 8,
+    "unconditional_unforwarded_candidates": 2,
+    "share_among_detected_signals": 0.5714285714285714,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "Coin_Signals",
+    "posts": 788,
+    "classes": {
+      "SIGNAL": 242,
+      "OTHER": 485,
+      "REPORT": 19,
+      "UPDATE": 42
+    },
+    "text_signals_without_levels_previously_unparsed": 50,
+    "unconditional_unforwarded_candidates": 36,
+    "share_among_detected_signals": 0.2066115702479339,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "CryptoInnerCircle",
+    "posts": 800,
+    "classes": {
+      "OTHER": 735,
+      "REPORT": 6,
+      "UPDATE": 48,
+      "SIGNAL": 11
+    },
+    "text_signals_without_levels_previously_unparsed": 11,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "EveningTrader",
+    "posts": 0,
+    "classes": {},
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "OldmanScalping",
+    "posts": 755,
+    "classes": {
+      "REPORT": 111,
+      "OTHER": 529,
+      "SIGNAL": 78,
+      "UPDATE": 37
+    },
+    "text_signals_without_levels_previously_unparsed": 56,
+    "unconditional_unforwarded_candidates": 47,
+    "share_among_detected_signals": 0.717948717948718,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "RavenSignalsPro",
+    "posts": 641,
+    "classes": {
+      "OTHER": 410,
+      "UPDATE": 125,
+      "REPORT": 101,
+      "SIGNAL": 5
+    },
+    "text_signals_without_levels_previously_unparsed": 5,
+    "unconditional_unforwarded_candidates": 3,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "Raven_signalst_pro",
+    "posts": 0,
+    "classes": {},
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "Teambuertrades",
+    "posts": 3,
+    "classes": {
+      "OTHER": 3
+    },
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "TopCryptoFuturesSignals",
+    "posts": 800,
+    "classes": {
+      "SIGNAL": 20,
+      "OTHER": 542,
+      "UPDATE": 97,
+      "REPORT": 141
+    },
+    "text_signals_without_levels_previously_unparsed": 20,
+    "unconditional_unforwarded_candidates": 20,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "TradingGainX",
+    "posts": 778,
+    "classes": {
+      "OTHER": 358,
+      "SIGNAL": 79,
+      "UPDATE": 287,
+      "REPORT": 54
+    },
+    "text_signals_without_levels_previously_unparsed": 35,
+    "unconditional_unforwarded_candidates": 12,
+    "share_among_detected_signals": 0.4430379746835443,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "Whalesguide",
+    "posts": 796,
+    "classes": {
+      "SIGNAL": 472,
+      "OTHER": 286,
+      "UPDATE": 30,
+      "REPORT": 8
+    },
+    "text_signals_without_levels_previously_unparsed": 203,
+    "unconditional_unforwarded_candidates": 169,
+    "share_among_detected_signals": 0.4300847457627119,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "WolfxCrypto_VIP",
+    "posts": 671,
+    "classes": {
+      "OTHER": 112,
+      "UPDATE": 541,
+      "REPORT": 18
+    },
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "altsignals",
+    "posts": 795,
+    "classes": {
+      "OTHER": 744,
+      "SIGNAL": 18,
+      "UPDATE": 16,
+      "REPORT": 17
+    },
+    "text_signals_without_levels_previously_unparsed": 18,
+    "unconditional_unforwarded_candidates": 7,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "astronomer_zero",
+    "posts": 0,
+    "classes": {},
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "bitcoinbullets",
+    "posts": 799,
+    "classes": {
+      "REPORT": 29,
+      "UPDATE": 186,
+      "OTHER": 456,
+      "SIGNAL": 128
+    },
+    "text_signals_without_levels_previously_unparsed": 128,
+    "unconditional_unforwarded_candidates": 108,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "chainexsignals",
+    "posts": 634,
+    "classes": {
+      "OTHER": 104,
+      "SIGNAL": 97,
+      "UPDATE": 383,
+      "REPORT": 50
+    },
+    "text_signals_without_levels_previously_unparsed": 12,
+    "unconditional_unforwarded_candidates": 1,
+    "share_among_detected_signals": 0.12371134020618557,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "coin_sgnls_PRO",
+    "posts": 416,
+    "classes": {
+      "OTHER": 189,
+      "REPORT": 33,
+      "SIGNAL": 123,
+      "UPDATE": 71
+    },
+    "text_signals_without_levels_previously_unparsed": 62,
+    "unconditional_unforwarded_candidates": 25,
+    "share_among_detected_signals": 0.5040650406504065,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "coincodecap",
+    "posts": 800,
+    "classes": {
+      "OTHER": 582,
+      "SIGNAL": 98,
+      "REPORT": 85,
+      "UPDATE": 35
+    },
+    "text_signals_without_levels_previously_unparsed": 67,
+    "unconditional_unforwarded_candidates": 44,
+    "share_among_detected_signals": 0.6836734693877551,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "crusader_trades",
+    "posts": 2682,
+    "classes": {
+      "OTHER": 2428,
+      "UPDATE": 85,
+      "SIGNAL": 144,
+      "REPORT": 25
+    },
+    "text_signals_without_levels_previously_unparsed": 4,
+    "unconditional_unforwarded_candidates": 3,
+    "share_among_detected_signals": 0.027777777777777776,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "crypto_Winston",
+    "posts": 736,
+    "classes": {
+      "OTHER": 670,
+      "UPDATE": 22,
+      "SIGNAL": 18,
+      "REPORT": 26
+    },
+    "text_signals_without_levels_previously_unparsed": 7,
+    "unconditional_unforwarded_candidates": 4,
+    "share_among_detected_signals": 0.3888888888888889,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "crypto_signalsf",
+    "posts": 800,
+    "classes": {
+      "OTHER": 776,
+      "REPORT": 2,
+      "UPDATE": 20,
+      "SIGNAL": 2
+    },
+    "text_signals_without_levels_previously_unparsed": 2,
+    "unconditional_unforwarded_candidates": 2,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "cryptoclassics",
+    "posts": 702,
+    "classes": {
+      "OTHER": 684,
+      "SIGNAL": 12,
+      "REPORT": 2,
+      "UPDATE": 4
+    },
+    "text_signals_without_levels_previously_unparsed": 12,
+    "unconditional_unforwarded_candidates": 11,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "posts": 800,
+    "classes": {
+      "OTHER": 537,
+      "UPDATE": 253,
+      "REPORT": 10
+    },
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "cryptoninjas_trading_ann",
+    "posts": 0,
+    "classes": {},
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "cryptoroverytofficiaI",
+    "posts": 600,
+    "classes": {
+      "OTHER": 550,
+      "SIGNAL": 4,
+      "UPDATE": 32,
+      "REPORT": 14
+    },
+    "text_signals_without_levels_previously_unparsed": 4,
+    "unconditional_unforwarded_candidates": 2,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "posts": 7801,
+    "classes": {
+      "OTHER": 4799,
+      "UPDATE": 1607,
+      "SIGNAL": 865,
+      "REPORT": 530
+    },
+    "text_signals_without_levels_previously_unparsed": 445,
+    "unconditional_unforwarded_candidates": 379,
+    "share_among_detected_signals": 0.5144508670520231,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "fatpigsignals",
+    "posts": 799,
+    "classes": {
+      "OTHER": 714,
+      "REPORT": 61,
+      "SIGNAL": 10,
+      "UPDATE": 14
+    },
+    "text_signals_without_levels_previously_unparsed": 10,
+    "unconditional_unforwarded_candidates": 3,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "fedrussianinsiders",
+    "posts": 800,
+    "classes": {
+      "OTHER": 772,
+      "UPDATE": 23,
+      "REPORT": 3,
+      "SIGNAL": 2
+    },
+    "text_signals_without_levels_previously_unparsed": 2,
+    "unconditional_unforwarded_candidates": 2,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "free_crypto_vip",
+    "posts": 800,
+    "classes": {
+      "UPDATE": 485,
+      "SIGNAL": 263,
+      "REPORT": 43,
+      "OTHER": 9
+    },
+    "text_signals_without_levels_previously_unparsed": 18,
+    "unconditional_unforwarded_candidates": 18,
+    "share_among_detected_signals": 0.06844106463878327,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "learn2tradectypto",
+    "posts": 800,
+    "classes": {
+      "REPORT": 332,
+      "OTHER": 333,
+      "UPDATE": 111,
+      "SIGNAL": 24
+    },
+    "text_signals_without_levels_previously_unparsed": 6,
+    "unconditional_unforwarded_candidates": 4,
+    "share_among_detected_signals": 0.25,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "learn2tradenews",
+    "posts": 800,
+    "classes": {
+      "REPORT": 290,
+      "OTHER": 341,
+      "UPDATE": 139,
+      "SIGNAL": 30
+    },
+    "text_signals_without_levels_previously_unparsed": 9,
+    "unconditional_unforwarded_candidates": 6,
+    "share_among_detected_signals": 0.3,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "main3commassignals",
+    "posts": 655,
+    "classes": {
+      "UPDATE": 162,
+      "OTHER": 412,
+      "SIGNAL": 23,
+      "REPORT": 58
+    },
+    "text_signals_without_levels_previously_unparsed": 14,
+    "unconditional_unforwarded_candidates": 4,
+    "share_among_detected_signals": 0.6086956521739131,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "ne_investor",
+    "posts": 11378,
+    "classes": {
+      "OTHER": 9564,
+      "REPORT": 847,
+      "UPDATE": 649,
+      "SIGNAL": 318
+    },
+    "text_signals_without_levels_previously_unparsed": 307,
+    "unconditional_unforwarded_candidates": 230,
+    "share_among_detected_signals": 0.9654088050314465,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "safe_academy",
+    "posts": 9672,
+    "classes": {
+      "OTHER": 8624,
+      "REPORT": 194,
+      "UPDATE": 597,
+      "SIGNAL": 257
+    },
+    "text_signals_without_levels_previously_unparsed": 178,
+    "unconditional_unforwarded_candidates": 149,
+    "share_among_detected_signals": 0.6926070038910506,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "sagesignals8",
+    "posts": 800,
+    "classes": {
+      "OTHER": 794,
+      "UPDATE": 3,
+      "REPORT": 1,
+      "SIGNAL": 2
+    },
+    "text_signals_without_levels_previously_unparsed": 2,
+    "unconditional_unforwarded_candidates": 1,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "tokenwhisperer_io",
+    "posts": 800,
+    "classes": {
+      "OTHER": 790,
+      "REPORT": 3,
+      "SIGNAL": 3,
+      "UPDATE": 4
+    },
+    "text_signals_without_levels_previously_unparsed": 3,
+    "unconditional_unforwarded_candidates": 3,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "traderosho",
+    "posts": 796,
+    "classes": {
+      "OTHER": 486,
+      "UPDATE": 204,
+      "SIGNAL": 101,
+      "REPORT": 5
+    },
+    "text_signals_without_levels_previously_unparsed": 100,
+    "unconditional_unforwarded_candidates": 65,
+    "share_among_detected_signals": 0.9900990099009901,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "universalcryptosignals",
+    "posts": 80,
+    "classes": {
+      "OTHER": 48,
+      "REPORT": 8,
+      "UPDATE": 21,
+      "SIGNAL": 3
+    },
+    "text_signals_without_levels_previously_unparsed": 3,
+    "unconditional_unforwarded_candidates": 2,
+    "share_among_detected_signals": 1.0,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "wallstreetqueenofficial",
+    "posts": 782,
+    "classes": {
+      "OTHER": 655,
+      "UPDATE": 49,
+      "REPORT": 56,
+      "SIGNAL": 22
+    },
+    "text_signals_without_levels_previously_unparsed": 20,
+    "unconditional_unforwarded_candidates": 6,
+    "share_among_detected_signals": 0.9090909090909091,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "wolfoftrading",
+    "posts": 798,
+    "classes": {
+      "OTHER": 653,
+      "SIGNAL": 58,
+      "UPDATE": 65,
+      "REPORT": 22
+    },
+    "text_signals_without_levels_previously_unparsed": 47,
+    "unconditional_unforwarded_candidates": 25,
+    "share_among_detected_signals": 0.8103448275862069,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  },
+  {
+    "channel": "wolfxsignals_freegroup",
+    "posts": 496,
+    "classes": {
+      "OTHER": 393,
+      "UPDATE": 82,
+      "REPORT": 21
+    },
+    "text_signals_without_levels_previously_unparsed": 0,
+    "unconditional_unforwarded_candidates": 0,
+    "share_among_detected_signals": null,
+    "note": "Parser candidate posts, not verified independent trades; no missing levels invented"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "stage": "SOURCE_FORENSICS_COMPLETE_PNL_NOT_RUN",
+  "SPECULANTKA": "DATA_GAP_PRIVATE_BRANCH_404",
+  "signals_detected": 2383,
+  "candidate_missing_parsed_levels": 459,
+  "unconditional_unforwarded_candidates_before_dedup": 374,
+  "classification_provisional": true,
+  "v1_independent_manual_review": "PENDING_30_PER_CLASS_PACK_SAVED",
+  "T1_T2_T3_PnL": "NOT_RUN_INPUT_PRECISION_NOT_ESTABLISHED",
+  "T4": "NOT_AVAILABLE_NO_SPECULANTKA_EXPORT",
+  "funding": "NOT_VERIFIED_FOR_NEW_COHORT",
+  "profit_format_conclusion": "INCONCLUSIVE",
+  "next": "Verify120 examples and parser precision; obtain anonymized SPECULANTKA export; then commit execution engine and run fixed controls, no old replay",
+  "LIVE_changes": 0
+}
