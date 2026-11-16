@@ -1,0 +1,17 @@
+[
+  {
+    "path": "YEAR_BE_ALIGNED_5M.jsonl.gz",
+    "bytes": 149235,
+    "sha256": "101c6c4dbc7a33a0535ee6a2115a228e31bd629091a8aab2c91c4f495c304d7a"
+  },
+  {
+    "path": "RUBIK_TRAIN_ALL.json.gz",
+    "bytes": 831637,
+    "sha256": "50f548412c5bd095327622762b0c559817459f4872d14efd2a5cdff85d3e0ca0"
+  },
+  {
+    "path": "RUBIK_VALIDATION_ALL.json.gz",
+    "bytes": 1149849,
+    "sha256": "bd8d0d781abf2ce57937445c1a1118938cc0921c6813bb16721648dfdfdd25f7"
+  }
+]
