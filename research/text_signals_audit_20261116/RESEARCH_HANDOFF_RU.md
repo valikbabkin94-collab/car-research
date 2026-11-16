@@ -1,11 +1,13 @@
-# Handoff: незавершённый text signals audit
+# Handoff: text audit, этап продолжения
 
-Ветка research/text-signals-audit. Не путать source-forensics с PnL: новых T1–T3исходов НЕТ. SPECULANTKA private branch404,политикиT1–T4 не проверены. Примеры задания толькоtests.
+Исходный source-forensics32f48a5. Исправлениятаксономии ификс149—fa0b226. Availability Actions43956394373 SUCCESS,78entry/76fullprice/92fullfunding/68both. Full-text selfreview30:17textcall,3parsefailure,10mixed. ДанныеоценкиSEMANTIC_REVIEW_30;никакойнезависимойручнойсертификации!
 
-SOURCE_COVERAGE/CLASSIFIED_POSTS/REVIEW_PACK — классификация69451поста. V0ошибки сохранены, V1только provisional:2383SIGNAL,459missing parsed levels,374доdedup. Нераспознанные уровни не означают отсутствующие. ДоPnL надо установить precision иразделить условные/рекламные/прошедшие посты. Не запускать финансовый перебор на нынешнем черновом классификаторе. Pack120примеров требует независимой проверки,7юнит-тестов не доказывают качество.
+PilotдоPnLзакреплёнc0f642b,результатыcfa3b5bbb214ed80068b2afa879779daaa63543e;Actions43957001284 SUCCESS.17случаев×T2/T3=34attempts;по10priceclosed,8knownnet,2fundinggap,7entrygap. KnownpostkeysetsT2/T3равны. T2+1.88736255R/PF1.66472,T3−0.90679228R/PF0.68652,WR62.5%уобоих. Этоинженерныйpilot,не149/45matrix/стабильностьканала. ВсепараметрыиздоходностиНЕменялись.
 
-Для восстановления:normalize_sources.py читает старые parsed_posts и частный кэш нормализованных posts v2;если кэша нет,авторизованно восстановить толькоstudy_input posts из data/tg-mirrors-20261114 commitbf1211f617c1d0a9c086c67d97917e070bcfda0f сSHA-проверкой;HTML не распаковывать. Источники v2 и условия зеркал задокументированы в research/channels-audit-v2,commit99c7f56ce98355abfd6e70610b296f09d4b02f4d. Public содержит только очищенные фрагменты и формальные поля,без rawIDs/имён/ссылок.
+Проверятьrisk denominator=stopdistance,fee0.055%обе стороны,slip5bpsmarket,BEfeeoffset.11%,T2past24hзакрытыеcandles,T3fixed,SL-first,noTPentrybar,72h. Funding.cash реальныеsettledpayments,unknownNone,не0. НельзяпоказатьpriceRс10какnetRс17,нельзяподбиратьстоппоудачным8. Independenttemporal/random-time/BHещёНЕвыполнены. T1неимитироватьбезпроверенныхupdates7д,T4безэкспортаотсутствует. SPECULANTKA branch404поэтомуниприбыль,нисовпаденияPFнепроверены.
 
-Дальше продолжить работу по протоколу без старого replay:verify120cases,недостающиеуровниvsparsererror,7дlinks,дедуп/cooldown;получить SPECULANTKA export;зафиксироватьполитики/engineSHA до PnL. Реальные funding и случайное время на техжемонетах обязательны. T4 проценты не переводить вR/долларыи не считать строгой верхнейграницей. Не писать ДА/НЕТ о прибыльности без результата. Paper candidates[].Ничего не установлено,PR591/mainне менялись.
+ПроверитьNFKC/служебныеслова/short-term/ретроprofitкакнеoriginal.460missingparsedlevels—не460безSL/TP!149послефильтра—allcandidates,непроверенныесделки. Исключённые AD/update/mixedнеудалены,доступныCOHORT_EXCLUSIONSдлясемантическогопересмотра безPnL. Даты/ключи/коды/SHAвmanifest;sourcepublicledgerредактировандлязащитыконтактов. ИсходныйprivateGitHubsnapshotbf1211... икэшнормализованныхpostsизv2,HTMLнеиспользовать.
+
+Следующиешаги:независимоverify149,проверитьошибкупарсингаvsотсутствиецен;updates7д;недостающие1m/funding;зафиксироватьполныйengine/control/BH135передновымиPnL. Старые/v2контрольныеисходынепересчитывать. T2pilotнеповторятьипараметрынеподгонять. НовыефайлыSPECULANTKAпроверятьчерезGitHub,безTelegram-сессий/компьютероввладельца. Paper[],никакогоPR591/main/runtime.
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
