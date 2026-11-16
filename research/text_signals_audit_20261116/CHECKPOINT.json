@@ -24,5 +24,9 @@
     "cohort_sha256": "4bf788d3f2ff978ac9bae5f48ea09137f2b3a7a8659651fe7c7a570b20f6329c",
     "PnL_calculated": false,
     "selection_changed": false
-  }
+  },
+  "semantic_sample_full_text_reviewed": 30,
+  "semantic_sample_clear_directional_calls": 17,
+  "semantic_sample_level_parser_failures": 3,
+  "semantic_precision_not_extrapolated": true
 }

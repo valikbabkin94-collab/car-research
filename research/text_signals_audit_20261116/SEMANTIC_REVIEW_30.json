@@ -1,0 +1,228 @@
+{
+  "seed": 20261116,
+  "source": "149 candidate frozen cohort",
+  "review_type": "Self-review, not independent human verification",
+  "review_counts": {
+    "TEXT_DIRECTIONAL_CALL": 17,
+    "HIDDEN_VIP_LEVELS": 1,
+    "EXPLICIT_OR_RELATIVE_LEVELS_PARSER_FAILURE": 3,
+    "NEWS_FALSE_POSITIVE": 1,
+    "ANALYSIS_NOT_ENTRY": 1,
+    "PAST_REPORT_NOT_NEW_ENTRY": 2,
+    "MIXED_PLAN_AND_LATER_OUTCOME": 3,
+    "CONDITIONAL_REENTRY_CONTEXT": 1,
+    "ENTRY_UPDATE_NOT_CLEAR_ORIGINAL": 1
+  },
+  "rows": [
+    {
+      "sample_index": 0,
+      "post_key": "54a9a1ab232b7af21b36acd9f58e5338226a81d85f2bba959c904ddc75779b34",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 1,
+      "post_key": "fbd08228599fe7b825d637a36742a4e40cfc9c26598726bac4d5c00f5024e4ad",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 2,
+      "post_key": "4ad7ec78dfd25e807fce0d05f70b305b25e6b73c1cf5c6b99815574845957869",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 3,
+      "post_key": "d6fc1532134c1a7858ecad8868dabc98a3a739efc6c6e6d9dc09eaf5af99ae7f",
+      "review_label": "NEWS_FALSE_POSITIVE",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 4,
+      "post_key": "c81cc79bfebd407ce8950e4dba22540abc4546771eb1a44e088525c2dae5a072",
+      "review_label": "HIDDEN_VIP_LEVELS",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 5,
+      "post_key": "e22b900f39b91bc416dcc7c679aa9e0ddad2340ace1bd939835ab8e781ce37e3",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 6,
+      "post_key": "5eed168c624b8dd64f2c4191cce07e6ab1db94674211047ca4471471194bfac5",
+      "review_label": "ANALYSIS_NOT_ENTRY",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 7,
+      "post_key": "25d4610ed139a2e9a9c1b08980f84c79f0fcb0f497d088a4f666de032de56bb5",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 8,
+      "post_key": "971160d6d73aedf3e81ea695344d46b1ea7f2bf6f7ba2257211b21d0c66de364",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 9,
+      "post_key": "71d38dfceeb4b01bdd85732e0d75f5e0adeaf5a46ad6fc2a57a2cfdb6ee6e9e0",
+      "review_label": "PAST_REPORT_NOT_NEW_ENTRY",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 10,
+      "post_key": "fb9497328487225f3d79cb20f94b364001bb53e091c2de2a344862b67b83e45c",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 11,
+      "post_key": "1e8cfc6666595555fdcf6300f1c1ba29602fc44cb861c27c75332a18e0b9289b",
+      "review_label": "CONDITIONAL_REENTRY_CONTEXT",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 12,
+      "post_key": "a15b31179f1e238751e50d25572500e9434803131a7bcf1ad130383f32750b4a",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 13,
+      "post_key": "3238044207eb3a977d0560bcc427df0c8cda965e043bd7cbb61bf53d7174aa39",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 14,
+      "post_key": "88ebd537d1f69d25617a1beed9c31556b6bbed46d778ab7f81946d49560bc9be",
+      "review_label": "EXPLICIT_OR_RELATIVE_LEVELS_PARSER_FAILURE",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 15,
+      "post_key": "875a8099e4efc309068cc0449163ef4230a5f91314eeb13e8e2ab0f56d1820d7",
+      "review_label": "MIXED_PLAN_AND_LATER_OUTCOME",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 16,
+      "post_key": "fd6a9bc871a487c89de99ff8f0e77dbb9c01d51d1e08d090fd37a30eeea40926",
+      "review_label": "PAST_REPORT_NOT_NEW_ENTRY",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 17,
+      "post_key": "012d5dcc696bbfb6cff88da7e01b579277a66d3ccbe4806b669e2d799b33f42a",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 18,
+      "post_key": "1908433ed12339cc6a67fe269e70d8e155b400ffc75aeb5bc9f8edaf4de99377",
+      "review_label": "EXPLICIT_OR_RELATIVE_LEVELS_PARSER_FAILURE",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 19,
+      "post_key": "ae865fa1990e3c33f3a7d1a20010beaa173a55cb39f92b7226d57f67c4deb684",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 20,
+      "post_key": "317a452ed2f0b73c7eaadbbb98e9956948f8c0c0549445ff763d9db30bcf168b",
+      "review_label": "EXPLICIT_OR_RELATIVE_LEVELS_PARSER_FAILURE",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 21,
+      "post_key": "23bcbe6ea66e2df7f99fbcb1acd2c4fb4f86660a0f05c82a44928523e6945da8",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 22,
+      "post_key": "4316250c51ab78330b40d31146d33211539088e4e71d9c763dca012e46767c1a",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 23,
+      "post_key": "905c3efdfe40f41197ea8be8371b39fd09adfa38af0a2b3b7364f27dfca34ff0",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 24,
+      "post_key": "97c8e8b06c81346c558fbc1b70a29fba4e2e49073a92dbe5634273360eb6771c",
+      "review_label": "MIXED_PLAN_AND_LATER_OUTCOME",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 25,
+      "post_key": "b2ff6096105e4241efa5abd42becf2cb884ef8dd47d528472126b4e3e1d2f1cd",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 26,
+      "post_key": "399342615eacd20f2e028224da26aa1666a800876beee2bebc98bbbd392ba6a4",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 27,
+      "post_key": "b0fd73a2d33d8583f325346f79edf88356e9ecaebebbc269e772205123881b4d",
+      "review_label": "TEXT_DIRECTIONAL_CALL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 28,
+      "post_key": "a76cf267478cff0ddcce927ad7542252f13191b612246e9e77a05c743e02feb4",
+      "review_label": "ENTRY_UPDATE_NOT_CLEAR_ORIGINAL",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    },
+    {
+      "sample_index": 29,
+      "post_key": "07375d82f169dd9bba43a7b7dfdad6375f932d223310e31ab1d73b3645c0c52a",
+      "review_label": "MIXED_PLAN_AND_LATER_OUTCOME",
+      "reviewer": "CODEX_SELF_REVIEW_FULL_NORMALIZED_TEXT",
+      "PnL_seen": false
+    }
+  ]
+}
