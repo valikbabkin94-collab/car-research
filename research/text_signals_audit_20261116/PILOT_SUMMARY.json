@@ -1,0 +1,32 @@
+{
+  "sample_n": 17,
+  "policies": [
+    {
+      "policy": "T2",
+      "attempts": 17,
+      "price_closed_n": 10,
+      "net_known_n": 8,
+      "unknown_funding_n": 2,
+      "price_R_ex_funding_sum": 2.1004614112300617,
+      "net_R_known_subset_sum": 1.8873625475410296,
+      "net_WR_known_subset": 62.5,
+      "net_PF_known_subset": 1.664719539638951,
+      "status": "INCONCLUSIVE_ENGINEERING_PILOT_NOT_CHANNEL_SELECTION"
+    },
+    {
+      "policy": "T3",
+      "attempts": 17,
+      "price_closed_n": 10,
+      "net_known_n": 8,
+      "unknown_funding_n": 2,
+      "price_R_ex_funding_sum": -0.12671511211846245,
+      "net_R_known_subset_sum": -0.9067922835419199,
+      "net_WR_known_subset": 62.5,
+      "net_PF_known_subset": 0.6865198534528989,
+      "status": "INCONCLUSIVE_ENGINEERING_PILOT_NOT_CHANNEL_SELECTION"
+    }
+  ],
+  "T1": "NOT_RUN_AUTHOR_UPDATE_LINKING_NOT_VERIFIED",
+  "T4": "NO_SPECULANTKA_EXPORT",
+  "limitations": "Not all149,not the whole45 corpus; small self-reviewed random subset,not independent holdout; no statistical promotion; unknown funding not0; results never used to adjust classifier or parameters."
+}
