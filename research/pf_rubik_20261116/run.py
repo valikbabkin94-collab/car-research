@@ -132,6 +132,7 @@ def calc(source,work,mode):
  quote=Quotes(work);fund=Funding(source,work);data=prepare(source,work)
  if mode=='validation':
   locked=json.loads((LAB/'TRAIN_SELECTION_FROZEN.json').read_text())
+  if locked.get('driver_sha256')!=sha(Path(__file__).read_bytes()) or locked.get('engine_sha256')!=sha((LAB.parents[0]/'pf_execution_common_20261116/engine.py').read_bytes()):raise ValueError('FROZEN_CODE_SHA_MISMATCH')
   if locked['config_sha256']!=sha((LAB/'CONFIG_FROZEN.json').read_bytes()) or locked['train_tables_sha256']!=sha((LAB/'RESULTS/train/TABLES.json').read_bytes()):raise ValueError('TRAIN_SELECTION_SHA_MISMATCH')
  results=LAB/'RESULTS'/mode;results.mkdir(parents=True,exist_ok=True);allrows=[];tables=[];control=[]
  periods=[('TRAIN',START,HALF-PURGE)] if mode=='train' else [('H2',HALF,END-PURGE),('TAIL40',TAIL,END-PURGE)]
@@ -161,7 +162,7 @@ def calc(source,work,mode):
   winners={}
   for fam in 'ABCDE':
    eligible=[t for t in tables if t['family']==fam and t['n']>=30 and t['unknown_funding_n']==0 and t['data_gap_n']==0];winners[fam]=max(eligible,key=lambda t:(t['netR'],t['name']))['name'] if eligible else None
-  save(LAB/'TRAIN_SELECTION_FROZEN.json',dict(winners=winners,criterion=CFG['selection'],validation_opened=False,config_sha256=sha((LAB/'CONFIG_FROZEN.json').read_bytes()),train_tables_sha256=sha((results/'TABLES.json').read_bytes())))
+  save(LAB/'TRAIN_SELECTION_FROZEN.json',dict(winners=winners,criterion=CFG['selection'],validation_opened=False,driver_sha256=sha(Path(__file__).read_bytes()),engine_sha256=sha((LAB.parents[0]/'pf_execution_common_20261116/engine.py').read_bytes()),config_sha256=sha((LAB/'CONFIG_FROZEN.json').read_bytes()),train_tables_sha256=sha((results/'TABLES.json').read_bytes())))
  else:finalize()
 
 def bh(values):
@@ -180,14 +181,15 @@ def finalize():
   leader.append(dict(name=v['name'],family=v['family'],TRAIN_winner=selected,status=status,selection_reason='FROZEN_TRAIN_WINNER' if selected else 'NOT_FROZEN_TRAIN_WINNER_DESCRIPTIVE_ONLY',periods=rr,gates=gates))
   if passed:candidates.append(dict(**v,paper_only=True,requires_execution_engine_support=True,not_live_ready=True,risk_USD=5,protocol='PF_RUBIK_20261116'))
  save(LAB/'STRATEGY_LEADERBOARD.json',leader);save(LAB/'PAPER_CANDIDATE_VARIANTS.json',candidates)
- lines=['# PF Rubik — все20вариантов и контроль','', 'Binance proxy; baseline literal top50PIT изТЗ,не factorytop200+ML. Все параметры заморожены до PnL. TRAIN выбор опубликован отдельным коммитом до H2. Полный рейтинг: STRATEGY_LEADERBOARD.json.','', '|Вариант|Период|n|WR%|PF|netR|$5/R|DD R|BH global q|Top3/net|','|---|---|---:|---:|---:|---:|---:|---:|---:|---:|']
+ (LAB/'variants.jsonl').write_text(''.join(json.dumps(x,ensure_ascii=False,separators=(',',':'))+'\n' for x in candidates))
+ lines=['# PF Rubik — все 20 вариантов и контроль','', 'Binance proxy; baseline literal top50PIT изТЗ,не factorytop200+ML. Все параметры заморожены до PnL. TRAIN выбор опубликован отдельным коммитом до H2. Полный рейтинг: STRATEGY_LEADERBOARD.json.','', '|Вариант|Период|n|WR%|PF|netR|$5/R|DD R|BH global q|Top3/net|','|---|---|---:|---:|---:|---:|---:|---:|---:|---:|']
  for r in rows:
   def fmt(k):return 'NA' if r.get(k) is None else f'{r[k]:.4f}' if isinstance(r[k],float) else str(r[k])
   lines.append('|'+r['name']+'|'+r['period']+'|'+'|'.join(fmt(k) for k in ['n','WR','PF','netR','USD_at_5R','maxDD_R','BH_global63_q','best3_share_net'])+'|')
  lines+=['','## Победители TRAIN и судьба проверки',json.dumps(selection['winners'],ensure_ascii=False),'']
  for x in leader:
   if x['TRAIN_winner']:lines.append(x['name']+': '+x['status']+'; '+json.dumps(x['gates']))
- longs=[x for x in leader if x['name'] in ['E1','E2','E3']];lines+=['','## Лонг-зеркало','Пройденные long/flip кандидаты: '+', '.join(x['name'] for x in longs if x['status'].startswith('PROMISING')) if any(x['status'].startswith('PROMISING') for x in longs) else 'Устойчивое преимущество LONG/flip не подтверждено заданными проверками.','', '## Ограничения','Maker touch — предположение об очереди. Funding/1m gaps и все отказы сохранены. E3метрики по полному parent+flip эпизоду,legs_nотдельно; нельзя выбросить lossродителя. Общийpurge81hпередграницамификсировандоPnL. TAIL40пересекаетсясH2,этоне2независимыхтеста;периодужевиделидругиеисследования. Controls проверяют направление условно на фактических исполненных входах,не полноту LIVEuniverse/очередь/всюalpha. Кандидаты не установлены,совместимость фабрики отдельно.','', '## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА','Все20идейпоказаны,провалынескрыты. Положительныевариантытребуютотдельнойбудущейпроверки;прибыльнеобещается.','', 'Desktop Commander 0, Bybit-ключи 0, LIVE изменений 0']
+ longs=[x for x in leader if x['name'] in ['E1','E2','E3']];lines+=['','## Лонг-зеркало','Пройденные long/flip кандидаты: '+', '.join(x['name'] for x in longs if x['status'].startswith('PROMISING')) if any(x['status'].startswith('PROMISING') for x in longs) else 'Устойчивое преимущество LONG/flip не подтверждено заданными проверками.','', '## Ограничения','Maker touch — предположение об очереди. Funding/1m gaps и все отказы сохранены. E3метрики по полному parent+flip эпизоду,legs_nотдельно; нельзя выбросить lossродителя. Общийpurge81hпередграницамификсировандоPnL. TAIL40пересекаетсясH2,этоне2независимыхтеста;периодужевиделидругиеисследования. Controls проверяют направление условно на фактических исполненных входах,не полноту LIVEuniverse/очередь/всюalpha. Кандидаты не установлены,совместимость фабрики отдельно.','', '## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА','Все 20 идей показаны, провалы не скрыты. Положительные варианты требуют отдельной будущей проверки; прибыль не обещается.','', 'Desktop Commander 0, Bybit-ключи 0, LIVE изменений 0']
  (LAB/'OTCHET_DLYA_CLAUDE_CODEX_PF_RUBIK_20261116.md').write_text('\n'.join(lines)+'\n');save(LAB/'CHECKPOINT.json',dict(stage='MATRIX_COMPLETE',variant_count=21,parameter_optimization=False,TRAIN_frozen=True,candidates=len(candidates),next='Independent Claude audit; do not tune on viewedH2/TAIL',LIVE_changes=0))
 def main():
  p=argparse.ArgumentParser();p.add_argument('stage',choices=['prepare','collect','train','validation']);p.add_argument('--source',default='source');p.add_argument('--work',default='work/rubik');a=p.parse_args();Path(a.work).mkdir(parents=True,exist_ok=True)
