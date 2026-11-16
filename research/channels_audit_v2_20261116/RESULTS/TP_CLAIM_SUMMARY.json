@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "DATA_GAP_PROXY_PRICES": 2,
+    "MARKET_TOUCH_COMPATIBLE_NOT_FILL_PROOF": 23,
+    "NO_TOUCH_IN_COMPLETE_PROXY_WINDOW_NOT_FRAUD_PROOF": 2,
+    "TP_INDEX_UNRESOLVED": 60
+  },
+  "scope": "Only explicitly linked TP-reached messages with unambiguous numbered targets, full closed minutes after signal before claim",
+  "limitations": "Binance proxy, no actual author fill or position size, edited/deleted/VIP unknown, publication-minute touch excluded, not monthly return verification"
+}

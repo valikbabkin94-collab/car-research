@@ -1131,15 +1131,16 @@
     "policy": "P1",
     "signals": 541,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 476,
-    "WR": 14.915966386554622,
-    "PF": 0.7900227561195692,
-    "netR": -76.37315048891838,
-    "USD_at_5R": -381.8657524445919,
-    "maxDD_R": 138.73935225954773,
+    "n": 425,
+    "WR": 14.352941176470587,
+    "PF": 0.7397796000067848,
+    "netR": -83.33194921293243,
+    "USD_at_5R": -416.65974606466216,
+    "maxDD_R": 146.4221923984977,
     "statuses": {
-      "TRADE": 476,
+      "TRADE": 425,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 31,
+      "UNRESOLVED_AUTHOR_LOG": 51,
       "CENSORED_NEEDS_EXTENSION": 16,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 12,
       "DATA_GAP_ENTRY": 6
@@ -1230,14 +1231,15 @@
     "policy": "P1",
     "signals": 106,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 96,
-    "WR": 20.833333333333336,
-    "PF": 1.1156456627633493,
-    "netR": 5.659765571984996,
-    "USD_at_5R": 28.298827859924984,
-    "maxDD_R": 15.809110880339368,
+    "n": 75,
+    "WR": 17.333333333333336,
+    "PF": 1.0179599347264434,
+    "netR": 0.6187340740911349,
+    "USD_at_5R": 3.0936703704556745,
+    "maxDD_R": 14.69618556673732,
     "statuses": {
-      "TRADE": 96,
+      "TRADE": 75,
+      "UNRESOLVED_AUTHOR_LOG": 21,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 7,
       "DATA_GAP_ENTRY": 1,
       "CENSORED_NEEDS_EXTENSION": 1,
@@ -1327,15 +1329,16 @@
     "policy": "P1",
     "signals": 435,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 380,
-    "WR": 13.421052631578947,
-    "PF": 0.7393964530277383,
-    "netR": -82.03291606090336,
-    "USD_at_5R": -410.1645803045168,
-    "maxDD_R": 135.06615053774038,
+    "n": 350,
+    "WR": 13.714285714285715,
+    "PF": 0.7062455572869699,
+    "netR": -83.95068328702358,
+    "USD_at_5R": -419.7534164351179,
+    "maxDD_R": 137.96795398217583,
     "statuses": {
-      "TRADE": 380,
+      "TRADE": 350,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 30,
+      "UNRESOLVED_AUTHOR_LOG": 30,
       "CENSORED_NEEDS_EXTENSION": 15,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 5,
       "DATA_GAP_ENTRY": 5
@@ -1426,16 +1429,17 @@
     "policy": "P1",
     "signals": 217,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 168,
-    "WR": 15.476190476190476,
-    "PF": 0.9742420154412066,
-    "netR": -3.5532794638907284,
-    "USD_at_5R": -17.76639731945364,
-    "maxDD_R": 51.31293967432373,
+    "n": 157,
+    "WR": 15.92356687898089,
+    "PF": 0.9977786896840849,
+    "netR": -0.2834306456602249,
+    "USD_at_5R": -1.4171532283011246,
+    "maxDD_R": 51.12132755900015,
     "statuses": {
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 27,
-      "TRADE": 168,
+      "TRADE": 157,
       "CENSORED_NEEDS_EXTENSION": 13,
+      "UNRESOLVED_AUTHOR_LOG": 11,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 4,
       "DATA_GAP_ENTRY": 5
     }
@@ -1598,16 +1602,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 391,
+    "signals": 346,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 391,
-    "WR": 13.554987212276215,
-    "PF": 0.6804298972196994,
-    "netR": -96.02398889264717,
-    "USD_at_5R": -480.1199444632358,
-    "maxDD_R": 124.61516525107632,
+    "n": 346,
+    "WR": 12.427745664739884,
+    "PF": 0.5850909885873967,
+    "netR": -109.21458515273045,
+    "USD_at_5R": -546.0729257636523,
+    "maxDD_R": 137.62076539690557,
     "statuses": {
-      "TRADE": 391
+      "TRADE": 346
     }
   },
   {
@@ -1615,16 +1619,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 391,
+    "signals": 346,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 391,
-    "WR": 67.77493606138107,
-    "PF": 0.5112895864724194,
-    "netR": -50.57487477754128,
-    "USD_at_5R": -252.8743738877064,
-    "maxDD_R": 51.65477011865269,
+    "n": 346,
+    "WR": 68.4971098265896,
+    "PF": 0.5285706331808252,
+    "netR": -42.05117806070391,
+    "USD_at_5R": -210.25589030351955,
+    "maxDD_R": 44.53018633820804,
     "statuses": {
-      "TRADE": 391
+      "TRADE": 346
     }
   },
   {
@@ -1632,16 +1636,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 391,
+    "signals": 346,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 391,
-    "WR": 73.91304347826086,
-    "PF": 0.5150928351385544,
-    "netR": -49.7535481981794,
-    "USD_at_5R": -248.767740990897,
-    "maxDD_R": 50.40842268192008,
+    "n": 346,
+    "WR": 74.27745664739885,
+    "PF": 0.5472129126804538,
+    "netR": -40.02985575357963,
+    "USD_at_5R": -200.14927876789815,
+    "maxDD_R": 40.83444165227125,
     "statuses": {
-      "TRADE": 391
+      "TRADE": 346
     }
   },
   {
@@ -1649,16 +1653,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 391,
+    "signals": 346,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 391,
-    "WR": 61.125319693094625,
-    "PF": 0.6296287366312576,
-    "netR": -32.991789277826086,
-    "USD_at_5R": -164.95894638913043,
-    "maxDD_R": 38.01733684616316,
+    "n": 346,
+    "WR": 62.138728323699425,
+    "PF": 0.6444109471899615,
+    "netR": -26.84870343726334,
+    "USD_at_5R": -134.2435171863167,
+    "maxDD_R": 29.39068346785484,
     "statuses": {
-      "TRADE": 391
+      "TRADE": 346
     }
   },
   {
@@ -1666,16 +1670,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 391,
+    "signals": 346,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 391,
-    "WR": 40.92071611253197,
-    "PF": 0.766599325260314,
-    "netR": -40.48423457677185,
-    "USD_at_5R": -202.42117288385924,
-    "maxDD_R": 52.96915983488264,
+    "n": 346,
+    "WR": 40.17341040462428,
+    "PF": 0.7266401422233505,
+    "netR": -42.31673710825038,
+    "USD_at_5R": -211.5836855412519,
+    "maxDD_R": 51.0050993049664,
     "statuses": {
-      "TRADE": 391
+      "TRADE": 346
     }
   },
   {
@@ -1683,16 +1687,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P1",
-    "signals": 94,
+    "signals": 73,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 94,
-    "WR": 20.212765957446805,
-    "PF": 1.0314356820794413,
-    "netR": 1.5364576695639125,
-    "USD_at_5R": 7.682288347819562,
-    "maxDD_R": 15.809110880339368,
+    "n": 73,
+    "WR": 16.43835616438356,
+    "PF": 0.8980827116915259,
+    "netR": -3.504573828329951,
+    "USD_at_5R": -17.522869141649757,
+    "maxDD_R": 18.819493469158402,
     "statuses": {
-      "TRADE": 94
+      "TRADE": 73
     }
   },
   {
@@ -1700,16 +1704,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P2",
-    "signals": 94,
+    "signals": 73,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 94,
-    "WR": 84.04255319148936,
-    "PF": 0.9440572134128058,
-    "netR": -0.5251064554463962,
-    "USD_at_5R": -2.625532277231981,
-    "maxDD_R": 3.2564141755625124,
+    "n": 73,
+    "WR": 83.56164383561644,
+    "PF": 0.8168350918376428,
+    "netR": -1.527853345058853,
+    "USD_at_5R": -7.639266725294265,
+    "maxDD_R": 4.132815181711415,
     "statuses": {
-      "TRADE": 94
+      "TRADE": 73
     }
   },
   {
@@ -1717,16 +1721,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P3",
-    "signals": 94,
+    "signals": 73,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 94,
-    "WR": 90.42553191489363,
-    "PF": 0.9067787138031881,
-    "netR": -0.871949290060565,
-    "USD_at_5R": -4.359746450302825,
-    "maxDD_R": 3.548250353494314,
+    "n": 73,
+    "WR": 89.04109589041096,
+    "PF": 0.8028610574012331,
+    "netR": -1.6428721236060435,
+    "USD_at_5R": -8.214360618030218,
+    "maxDD_R": 4.343283907804575,
     "statuses": {
-      "TRADE": 94
+      "TRADE": 73
     }
   },
   {
@@ -1734,16 +1738,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P4",
-    "signals": 94,
+    "signals": 73,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 94,
-    "WR": 71.27659574468085,
-    "PF": 0.7707449768254063,
-    "netR": -1.7695087827411706,
-    "USD_at_5R": -8.847543913705852,
-    "maxDD_R": 3.597911679706873,
+    "n": 73,
+    "WR": 71.23287671232876,
+    "PF": 0.6388533047312979,
+    "netR": -2.461205338897322,
+    "USD_at_5R": -12.30602669448661,
+    "maxDD_R": 3.4516469782015573,
     "statuses": {
-      "TRADE": 94
+      "TRADE": 73
     }
   },
   {
@@ -1751,16 +1755,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P5",
-    "signals": 94,
+    "signals": 73,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 94,
-    "WR": 58.51063829787234,
-    "PF": 1.1383263807652835,
-    "netR": 3.1968615675329604,
-    "USD_at_5R": 15.984307837664801,
-    "maxDD_R": 4.183379360479732,
+    "n": 73,
+    "WR": 56.16438356164384,
+    "PF": 0.9749902823809349,
+    "netR": -0.5180833640696936,
+    "USD_at_5R": -2.5904168203484677,
+    "maxDD_R": 4.850863552594966,
     "statuses": {
-      "TRADE": 94
+      "TRADE": 73
     }
   },
   {
@@ -1768,16 +1772,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P1",
-    "signals": 297,
+    "signals": 273,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 297,
-    "WR": 11.447811447811448,
-    "PF": 0.6122435859642024,
-    "netR": -97.56044656221108,
-    "USD_at_5R": -487.80223281105543,
-    "maxDD_R": 117.96542067734214,
+    "n": 273,
+    "WR": 11.355311355311356,
+    "PF": 0.5380593309112409,
+    "netR": -105.7100113244005,
+    "USD_at_5R": -528.5500566220024,
+    "maxDD_R": 125.04321907816265,
     "statuses": {
-      "TRADE": 297
+      "TRADE": 273
     }
   },
   {
@@ -1785,16 +1789,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P2",
-    "signals": 297,
+    "signals": 273,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 297,
-    "WR": 62.62626262626263,
-    "PF": 0.4681208948617495,
-    "netR": -50.04976832209488,
-    "USD_at_5R": -250.2488416104744,
-    "maxDD_R": 51.65477011865269,
+    "n": 273,
+    "WR": 64.46886446886447,
+    "PF": 0.4988328912905167,
+    "netR": -40.52332471564506,
+    "USD_at_5R": -202.6166235782253,
+    "maxDD_R": 44.53018633820803,
     "statuses": {
-      "TRADE": 297
+      "TRADE": 273
     }
   },
   {
@@ -1802,16 +1806,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P3",
-    "signals": 297,
+    "signals": 273,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 297,
-    "WR": 68.68686868686868,
-    "PF": 0.47580466512513186,
-    "netR": -48.881598908118846,
-    "USD_at_5R": -244.40799454059425,
-    "maxDD_R": 50.408422681920094,
+    "n": 273,
+    "WR": 70.32967032967034,
+    "PF": 0.5206067715261642,
+    "netR": -38.38698362997359,
+    "USD_at_5R": -191.93491814986797,
+    "maxDD_R": 40.83444165227124,
     "statuses": {
-      "TRADE": 297
+      "TRADE": 273
     }
   },
   {
@@ -1819,16 +1823,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P4",
-    "signals": 297,
+    "signals": 273,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 297,
-    "WR": 57.91245791245792,
-    "PF": 0.616241075002467,
-    "netR": -31.222280495084917,
-    "USD_at_5R": -156.1114024754246,
-    "maxDD_R": 37.218984157307005,
+    "n": 273,
+    "WR": 59.70695970695971,
+    "PF": 0.6449623411185129,
+    "netR": -24.387498098366017,
+    "USD_at_5R": -121.93749049183009,
+    "maxDD_R": 28.759896740811996,
     "statuses": {
-      "TRADE": 297
+      "TRADE": 273
     }
   },
   {
@@ -1836,16 +1840,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P5",
-    "signals": 297,
+    "signals": 273,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 297,
-    "WR": 35.35353535353536,
-    "PF": 0.7094566777158791,
-    "netR": -43.6810961443048,
-    "USD_at_5R": -218.40548072152401,
-    "maxDD_R": 51.82393749309877,
+    "n": 273,
+    "WR": 35.8974358974359,
+    "PF": 0.688272199876427,
+    "netR": -41.79865374418068,
+    "USD_at_5R": -208.99326872090342,
+    "maxDD_R": 48.18295362962003,
     "statuses": {
-      "TRADE": 297
+      "TRADE": 273
     }
   },
   {
@@ -1853,16 +1857,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P1",
-    "signals": 101,
+    "signals": 95,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 101,
-    "WR": 11.881188118811881,
-    "PF": 0.7579956419358779,
-    "netR": -21.06592230026204,
-    "USD_at_5R": -105.32961150131021,
-    "maxDD_R": 36.19732214898898,
+    "n": 95,
+    "WR": 11.578947368421053,
+    "PF": 0.719781676746845,
+    "netR": -22.930024121963676,
+    "USD_at_5R": -114.65012060981837,
+    "maxDD_R": 39.08385809391337,
     "statuses": {
-      "TRADE": 101
+      "TRADE": 95
     }
   },
   {
@@ -1870,16 +1874,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P2",
-    "signals": 101,
+    "signals": 95,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 101,
-    "WR": 60.396039603960396,
-    "PF": 0.4555080409549754,
-    "netR": -19.187010961359935,
-    "USD_at_5R": -95.93505480679967,
-    "maxDD_R": 19.1985845327885,
+    "n": 95,
+    "WR": 58.94736842105262,
+    "PF": 0.42946073440684696,
+    "netR": -20.104265584585686,
+    "USD_at_5R": -100.52132792292844,
+    "maxDD_R": 20.115839156014257,
     "statuses": {
-      "TRADE": 101
+      "TRADE": 95
     }
   },
   {
@@ -1887,16 +1891,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P3",
-    "signals": 101,
+    "signals": 95,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 101,
-    "WR": 64.35643564356435,
-    "PF": 0.48427124746296035,
-    "netR": -18.158174961181953,
-    "USD_at_5R": -90.79087480590977,
-    "maxDD_R": 18.217680675467676,
+    "n": 95,
+    "WR": 62.10526315789474,
+    "PF": 0.4603419486169744,
+    "netR": -19.000696137296938,
+    "USD_at_5R": -95.00348068648469,
+    "maxDD_R": 19.060201851582665,
     "statuses": {
-      "TRADE": 101
+      "TRADE": 95
     }
   },
   {
@@ -1904,16 +1908,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P4",
-    "signals": 101,
+    "signals": 95,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 101,
-    "WR": 57.42574257425742,
-    "PF": 0.8982839201132896,
-    "netR": -2.0483430277769052,
-    "USD_at_5R": -10.241715138884526,
-    "maxDD_R": 6.36121856189869,
+    "n": 95,
+    "WR": 55.78947368421052,
+    "PF": 0.7934165758910715,
+    "netR": -4.0844845608965565,
+    "USD_at_5R": -20.422422804482782,
+    "maxDD_R": 6.636773770232018,
     "statuses": {
-      "TRADE": 101
+      "TRADE": 95
     }
   },
   {
@@ -1921,16 +1925,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P5",
-    "signals": 101,
+    "signals": 95,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 101,
-    "WR": 37.62376237623762,
-    "PF": 0.8502953352112823,
-    "netR": -6.718497521486614,
-    "USD_at_5R": -33.59248760743307,
-    "maxDD_R": 12.384808799636641,
+    "n": 95,
+    "WR": 35.78947368421053,
+    "PF": 0.7426407151059207,
+    "netR": -11.404918816511032,
+    "USD_at_5R": -57.024594082555154,
+    "maxDD_R": 16.322127772753667,
     "statuses": {
-      "TRADE": 101
+      "TRADE": 95
     }
   },
   {
@@ -2015,15 +2019,16 @@
     "policy": "P1",
     "signals": 504,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 442,
-    "WR": 14.705882352941178,
-    "PF": 0.794017598547661,
-    "netR": -70.38545554475475,
-    "USD_at_5R": -351.9272777237737,
-    "maxDD_R": 127.59497076457868,
+    "n": 397,
+    "WR": 14.357682619647354,
+    "PF": 0.7519161011259228,
+    "netR": -75.01686578184993,
+    "USD_at_5R": -375.0843289092496,
+    "maxDD_R": 132.0187029283495,
     "statuses": {
-      "TRADE": 442,
+      "TRADE": 397,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 31,
+      "UNRESOLVED_AUTHOR_LOG": 45,
       "CENSORED_NEEDS_EXTENSION": 16,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 11,
       "DATA_GAP_ENTRY": 4
@@ -2114,14 +2119,15 @@
     "policy": "P1",
     "signals": 87,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 79,
-    "WR": 18.9873417721519,
-    "PF": 1.023706389093672,
-    "netR": 0.9349275254252727,
-    "USD_at_5R": 4.674637627126364,
-    "maxDD_R": 13.227120584281412,
+    "n": 62,
+    "WR": 16.129032258064516,
+    "PF": 1.0110174437090587,
+    "netR": 0.29786079606341853,
+    "USD_at_5R": 1.4893039803170927,
+    "maxDD_R": 9.235271929553788,
     "statuses": {
-      "TRADE": 79,
+      "TRADE": 62,
+      "UNRESOLVED_AUTHOR_LOG": 17,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 6,
       "CENSORED_NEEDS_EXTENSION": 1,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1
@@ -2208,15 +2214,16 @@
     "policy": "P1",
     "signals": 417,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 363,
-    "WR": 13.774104683195592,
-    "PF": 0.7640494695278979,
-    "netR": -71.32038307018004,
-    "USD_at_5R": -356.6019153509002,
-    "maxDD_R": 124.35361754701708,
+    "n": 335,
+    "WR": 14.029850746268657,
+    "PF": 0.7264760729287213,
+    "netR": -75.31472657791338,
+    "USD_at_5R": -376.57363288956685,
+    "maxDD_R": 129.33199727306564,
     "statuses": {
-      "TRADE": 363,
+      "TRADE": 335,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 30,
+      "UNRESOLVED_AUTHOR_LOG": 28,
       "CENSORED_NEEDS_EXTENSION": 15,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 5,
       "DATA_GAP_ENTRY": 4
@@ -2307,16 +2314,17 @@
     "policy": "P1",
     "signals": 212,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 164,
-    "WR": 15.853658536585366,
-    "PF": 0.9980766497388036,
-    "netR": -0.25898751468637116,
-    "USD_at_5R": -1.2949375734318558,
-    "maxDD_R": 48.01864772511939,
+    "n": 154,
+    "WR": 16.233766233766232,
+    "PF": 1.0158097568143603,
+    "netR": 1.98145679226592,
+    "USD_at_5R": 9.9072839613296,
+    "maxDD_R": 48.856440121074,
     "statuses": {
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 27,
-      "TRADE": 164,
+      "TRADE": 154,
       "CENSORED_NEEDS_EXTENSION": 13,
+      "UNRESOLVED_AUTHOR_LOG": 10,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 4,
       "DATA_GAP_ENTRY": 4
     }
@@ -15216,14 +15224,15 @@
     "policy": "P1",
     "signals": 79,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 74,
-    "WR": 9.45945945945946,
-    "PF": 0.1952049957055157,
-    "netR": -58.43566862025372,
-    "USD_at_5R": -292.17834310126864,
-    "maxDD_R": 58.43566862025372,
+    "n": 72,
+    "WR": 9.722222222222223,
+    "PF": 0.20134112486413702,
+    "netR": -56.222804497818586,
+    "USD_at_5R": -281.1140224890929,
+    "maxDD_R": 56.222804497818586,
     "statuses": {
-      "TRADE": 74,
+      "TRADE": 72,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "CENSORED_NEEDS_EXTENSION": 4,
       "DATA_GAP_ENTRY": 1
     }
@@ -15309,14 +15318,15 @@
     "policy": "P1",
     "signals": 22,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 27.27272727272727,
-    "PF": 0.6211573593122284,
-    "netR": -6.806411266690531,
-    "USD_at_5R": -34.03205633345265,
-    "maxDD_R": 7.979625619323106,
+    "n": 21,
+    "WR": 28.57142857142857,
+    "PF": 0.6650452993742052,
+    "netR": -5.620770015679477,
+    "USD_at_5R": -28.103850078397382,
+    "maxDD_R": 6.793984368312054,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -15394,16 +15404,17 @@
     "policy": "P1",
     "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 1.9230769230769231,
-    "PF": 0.0551542595925803,
-    "netR": -51.62925735356319,
-    "USD_at_5R": -258.1462867678159,
-    "maxDD_R": 51.62925735356319,
+    "n": 51,
+    "WR": 1.9607843137254901,
+    "PF": 0.056210957122298684,
+    "netR": -50.6020344821391,
+    "USD_at_5R": -253.01017241069553,
+    "maxDD_R": 50.6020344821391,
     "statuses": {
-      "TRADE": 52,
+      "TRADE": 51,
       "CENSORED_NEEDS_EXTENSION": 4,
-      "DATA_GAP_ENTRY": 1
+      "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -15487,15 +15498,16 @@
     "policy": "P1",
     "signals": 32,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 30,
+    "n": 29,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -29.81474594230545,
-    "USD_at_5R": -149.07372971152725,
-    "maxDD_R": 29.814745942305453,
+    "netR": -28.787523070881367,
+    "USD_at_5R": -143.93761535440683,
+    "maxDD_R": 28.78752307088137,
     "statuses": {
-      "TRADE": 30,
+      "TRADE": 29,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
   },
@@ -15653,16 +15665,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 67,
+    "signals": 65,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 67,
-    "WR": 10.44776119402985,
-    "PF": 0.2170399404030421,
-    "netR": -51.130921590148915,
-    "USD_at_5R": -255.65460795074458,
-    "maxDD_R": 51.130921590148915,
+    "n": 65,
+    "WR": 10.76923076923077,
+    "PF": 0.22465234189336816,
+    "netR": -48.918057467713766,
+    "USD_at_5R": -244.59028733856883,
+    "maxDD_R": 48.91805746771378,
     "statuses": {
-      "TRADE": 67
+      "TRADE": 65
     }
   },
   {
@@ -15670,16 +15682,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 67,
+    "signals": 65,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 67,
-    "WR": 56.71641791044776,
-    "PF": 0.6231076518078433,
-    "netR": -11.065920464722284,
-    "USD_at_5R": -55.32960232361142,
-    "maxDD_R": 12.415964034648502,
+    "n": 65,
+    "WR": 56.92307692307692,
+    "PF": 0.6405195643292161,
+    "netR": -10.128475196297346,
+    "USD_at_5R": -50.64237598148673,
+    "maxDD_R": 11.478518766223562,
     "statuses": {
-      "TRADE": 67
+      "TRADE": 65
     }
   },
   {
@@ -15687,16 +15699,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 67,
+    "signals": 65,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 67,
-    "WR": 62.68656716417911,
-    "PF": 0.7019146912446549,
-    "netR": -8.626874936071692,
-    "USD_at_5R": -43.13437468035846,
-    "maxDD_R": 11.129923064516593,
+    "n": 65,
+    "WR": 63.07692307692307,
+    "PF": 0.7130154168785305,
+    "netR": -7.965348521656953,
+    "USD_at_5R": -39.82674260828476,
+    "maxDD_R": 9.94428181350554,
     "statuses": {
-      "TRADE": 67
+      "TRADE": 65
     }
   },
   {
@@ -15704,16 +15716,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 67,
+    "signals": 65,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 67,
-    "WR": 50.74626865671642,
-    "PF": 0.7732063760505531,
-    "netR": -6.091443577563804,
-    "USD_at_5R": -30.45721788781902,
-    "maxDD_R": 8.832178615477678,
+    "n": 65,
+    "WR": 50.76923076923077,
+    "PF": 0.8001998416306804,
+    "netR": -5.145787528604235,
+    "USD_at_5R": -25.728937643021176,
+    "maxDD_R": 8.60012348535541,
     "statuses": {
-      "TRADE": 67
+      "TRADE": 65
     }
   },
   {
@@ -15721,16 +15733,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 67,
+    "signals": 65,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 67,
-    "WR": 32.83582089552239,
-    "PF": 0.7702989958146024,
-    "netR": -9.495161579712073,
-    "USD_at_5R": -47.47580789856037,
-    "maxDD_R": 12.508558834712936,
+    "n": 65,
+    "WR": 33.84615384615385,
+    "PF": 0.8041473803832538,
+    "netR": -7.755191577947917,
+    "USD_at_5R": -38.77595788973959,
+    "maxDD_R": 11.693883636395496,
     "statuses": {
-      "TRADE": 67
+      "TRADE": 65
     }
   },
   {
@@ -15738,16 +15750,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P1",
-    "signals": 22,
+    "signals": 21,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 27.27272727272727,
-    "PF": 0.6211573593122284,
-    "netR": -6.806411266690531,
-    "USD_at_5R": -34.03205633345265,
-    "maxDD_R": 7.979625619323106,
+    "n": 21,
+    "WR": 28.57142857142857,
+    "PF": 0.6650452993742052,
+    "netR": -5.620770015679477,
+    "USD_at_5R": -28.103850078397382,
+    "maxDD_R": 6.793984368312054,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21
     }
   },
   {
@@ -15755,16 +15767,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P2",
-    "signals": 22,
+    "signals": 21,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 59.09090909090909,
-    "PF": 0.48728085957769157,
-    "netR": -4.985144623016129,
-    "USD_at_5R": -24.925723115080647,
-    "maxDD_R": 6.36237047229286,
+    "n": 21,
+    "WR": 61.904761904761905,
+    "PF": 0.5549532412940843,
+    "netR": -3.7995033720050757,
+    "USD_at_5R": -18.997516860025378,
+    "maxDD_R": 5.176729221281806,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21
     }
   },
   {
@@ -15772,16 +15784,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P3",
-    "signals": 22,
+    "signals": 21,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 63.63636363636363,
-    "PF": 0.4662464824412148,
-    "netR": -5.1731563694948175,
-    "USD_at_5R": -25.86578184747409,
-    "maxDD_R": 6.416023672134587,
+    "n": 21,
+    "WR": 66.66666666666666,
+    "PF": 0.5312330384346181,
+    "netR": -3.987515118483764,
+    "USD_at_5R": -19.93757559241882,
+    "maxDD_R": 5.230382421123533,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21
     }
   },
   {
@@ -15789,16 +15801,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P4",
-    "signals": 22,
+    "signals": 21,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 50.0,
-    "PF": 0.48182400009865134,
-    "netR": -4.986421614018445,
-    "USD_at_5R": -24.932108070092227,
-    "maxDD_R": 5.233529021425852,
+    "n": 21,
+    "WR": 52.38095238095239,
+    "PF": 0.544283830795872,
+    "netR": -3.8821216140184447,
+    "USD_at_5R": -19.410608070092223,
+    "maxDD_R": 4.129229021425852,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21
     }
   },
   {
@@ -15806,101 +15818,101 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P5",
-    "signals": 22,
+    "signals": 21,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 31.818181818181817,
-    "PF": 0.5351858499256308,
-    "netR": -6.41134674099964,
-    "USD_at_5R": -32.0567337049982,
-    "maxDD_R": 8.13294884955036,
-    "statuses": {
-      "TRADE": 22
-    }
-  },
-  {
-    "channel": "TradingGainX",
-    "cohort": "MATCHED5",
-    "period": "CAL_H2",
-    "policy": "P1",
-    "signals": 45,
-    "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 45,
-    "WR": 2.2222222222222223,
-    "PF": 0.06366508169188648,
-    "netR": -44.324510323458384,
-    "USD_at_5R": -221.62255161729192,
-    "maxDD_R": 44.3245103234584,
-    "statuses": {
-      "TRADE": 45
-    }
-  },
-  {
-    "channel": "TradingGainX",
-    "cohort": "MATCHED5",
-    "period": "CAL_H2",
-    "policy": "P2",
-    "signals": 45,
-    "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 45,
-    "WR": 55.55555555555556,
-    "PF": 0.6903567288826719,
-    "netR": -6.080775841706155,
-    "USD_at_5R": -30.403879208530775,
-    "maxDD_R": 8.466176108031052,
-    "statuses": {
-      "TRADE": 45
-    }
-  },
-  {
-    "channel": "TradingGainX",
-    "cohort": "MATCHED5",
-    "period": "CAL_H2",
-    "policy": "P3",
-    "signals": 45,
-    "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 45,
-    "WR": 62.22222222222222,
-    "PF": 0.8205760513152868,
-    "netR": -3.453718566576873,
-    "USD_at_5R": -17.268592832884366,
-    "maxDD_R": 6.01249953211588,
-    "statuses": {
-      "TRADE": 45
-    }
-  },
-  {
-    "channel": "TradingGainX",
-    "cohort": "MATCHED5",
-    "period": "CAL_H2",
-    "policy": "P4",
-    "signals": 45,
-    "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 45,
-    "WR": 51.11111111111111,
-    "PF": 0.9358885186942124,
-    "netR": -1.105021963545359,
-    "USD_at_5R": -5.525109817726795,
-    "maxDD_R": 8.441479534314976,
-    "statuses": {
-      "TRADE": 45
-    }
-  },
-  {
-    "channel": "TradingGainX",
-    "cohort": "MATCHED5",
-    "period": "CAL_H2",
-    "policy": "P5",
-    "signals": 45,
-    "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 45,
+    "n": 21,
     "WR": 33.33333333333333,
-    "PF": 0.8880391671865395,
-    "netR": -3.083814838712431,
-    "USD_at_5R": -15.419074193562155,
-    "maxDD_R": 12.329553638159652,
+    "PF": 0.5817618729659794,
+    "netR": -5.30704674099964,
+    "USD_at_5R": -26.5352337049982,
+    "maxDD_R": 7.028648849550359,
     "statuses": {
-      "TRADE": 45
+      "TRADE": 21
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "cohort": "MATCHED5",
+    "period": "CAL_H2",
+    "policy": "P1",
+    "signals": 44,
+    "status": "DIAGNOSTIC_EX_FUNDING",
+    "n": 44,
+    "WR": 2.272727272727273,
+    "PF": 0.06507723233557763,
+    "netR": -43.2972874520343,
+    "USD_at_5R": -216.4864372601715,
+    "maxDD_R": 43.2972874520343,
+    "statuses": {
+      "TRADE": 44
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "cohort": "MATCHED5",
+    "period": "CAL_H2",
+    "policy": "P2",
+    "signals": 44,
+    "status": "DIAGNOSTIC_EX_FUNDING",
+    "n": 44,
+    "WR": 54.54545454545454,
+    "PF": 0.6777181745391557,
+    "netR": -6.328971824292269,
+    "USD_at_5R": -31.644859121461344,
+    "maxDD_R": 8.714372090617166,
+    "statuses": {
+      "TRADE": 44
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "cohort": "MATCHED5",
+    "period": "CAL_H2",
+    "policy": "P3",
+    "signals": 44,
+    "status": "DIAGNOSTIC_EX_FUNDING",
+    "n": 44,
+    "WR": 61.36363636363637,
+    "PF": 0.7933477894480903,
+    "netR": -3.9778334031731877,
+    "USD_at_5R": -19.889167015865937,
+    "maxDD_R": 6.536614368712195,
+    "statuses": {
+      "TRADE": 44
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "cohort": "MATCHED5",
+    "period": "CAL_H2",
+    "policy": "P4",
+    "signals": 44,
+    "status": "DIAGNOSTIC_EX_FUNDING",
+    "n": 44,
+    "WR": 50.0,
+    "PF": 0.9266842684286588,
+    "netR": -1.2636659145857922,
+    "USD_at_5R": -6.3183295729289615,
+    "maxDD_R": 8.600123485355407,
+    "statuses": {
+      "TRADE": 44
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "cohort": "MATCHED5",
+    "period": "CAL_H2",
+    "policy": "P5",
+    "signals": 44,
+    "status": "DIAGNOSTIC_EX_FUNDING",
+    "n": 44,
+    "WR": 34.090909090909086,
+    "PF": 0.9090180348303688,
+    "netR": -2.4481448369482743,
+    "USD_at_5R": -12.24072418474137,
+    "maxDD_R": 11.693883636395496,
+    "statuses": {
+      "TRADE": 44
     }
   },
   {
@@ -15908,16 +15920,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P1",
-    "signals": 27,
+    "signals": 26,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 27,
+    "n": 26,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -27.11229262235195,
-    "USD_at_5R": -135.56146311175976,
-    "maxDD_R": 27.112292622351955,
+    "netR": -26.085069750927868,
+    "USD_at_5R": -130.42534875463934,
+    "maxDD_R": 26.08506975092787,
     "statuses": {
-      "TRADE": 27
+      "TRADE": 26
     }
   },
   {
@@ -15925,16 +15937,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P2",
-    "signals": 27,
+    "signals": 26,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 27,
-    "WR": 62.96296296296296,
-    "PF": 0.6888042306140739,
-    "netR": -3.5211076447499265,
-    "USD_at_5R": -17.605538223749633,
-    "maxDD_R": 8.466176108031052,
+    "n": 26,
+    "WR": 61.53846153846154,
+    "PF": 0.6668686502365341,
+    "netR": -3.769303627336041,
+    "USD_at_5R": -18.846518136680206,
+    "maxDD_R": 8.714372090617166,
     "statuses": {
-      "TRADE": 27
+      "TRADE": 26
     }
   },
   {
@@ -15942,16 +15954,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P3",
-    "signals": 27,
+    "signals": 26,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 27,
-    "WR": 62.96296296296296,
-    "PF": 0.9478211812574339,
-    "netR": -0.5903911802239913,
-    "USD_at_5R": -2.9519559011199563,
-    "maxDD_R": 6.0124995321158785,
+    "n": 26,
+    "WR": 61.53846153846154,
+    "PF": 0.9014998709548763,
+    "netR": -1.1145060168203063,
+    "USD_at_5R": -5.5725300841015315,
+    "maxDD_R": 6.536614368712193,
     "statuses": {
-      "TRADE": 27
+      "TRADE": 26
     }
   },
   {
@@ -15959,16 +15971,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P4",
-    "signals": 27,
+    "signals": 26,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 27,
-    "WR": 51.85185185185185,
-    "PF": 0.8244312081908447,
-    "netR": -2.0141303891900724,
-    "USD_at_5R": -10.070651945950361,
-    "maxDD_R": 8.441479534314976,
+    "n": 26,
+    "WR": 50.0,
+    "PF": 0.8106024476689403,
+    "netR": -2.172774340230505,
+    "USD_at_5R": -10.863871701152526,
+    "maxDD_R": 8.600123485355407,
     "statuses": {
-      "TRADE": 27
+      "TRADE": 26
     }
   },
   {
@@ -15976,16 +15988,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P5",
-    "signals": 27,
+    "signals": 26,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 27,
-    "WR": 33.33333333333333,
-    "PF": 0.7978927815359909,
-    "netR": -3.4155361801017707,
-    "USD_at_5R": -17.077680900508852,
-    "maxDD_R": 12.329553638159652,
+    "n": 26,
+    "WR": 34.61538461538461,
+    "PF": 0.8290780934269202,
+    "netR": -2.779866178337613,
+    "USD_at_5R": -13.899330891688065,
+    "maxDD_R": 11.693883636395496,
     "statuses": {
-      "TRADE": 27
+      "TRADE": 26
     }
   },
   {
@@ -16070,14 +16082,15 @@
     "policy": "P1",
     "signals": 79,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 74,
-    "WR": 9.45945945945946,
-    "PF": 0.1952049957055157,
-    "netR": -58.43566862025372,
-    "USD_at_5R": -292.17834310126864,
-    "maxDD_R": 58.43566862025372,
+    "n": 72,
+    "WR": 9.722222222222223,
+    "PF": 0.20134112486413702,
+    "netR": -56.222804497818586,
+    "USD_at_5R": -281.1140224890929,
+    "maxDD_R": 56.222804497818586,
     "statuses": {
-      "TRADE": 74,
+      "TRADE": 72,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "CENSORED_NEEDS_EXTENSION": 4,
       "DATA_GAP_ENTRY": 1
     }
@@ -16163,14 +16176,15 @@
     "policy": "P1",
     "signals": 22,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 22,
-    "WR": 27.27272727272727,
-    "PF": 0.6211573593122284,
-    "netR": -6.806411266690531,
-    "USD_at_5R": -34.03205633345265,
-    "maxDD_R": 7.979625619323106,
+    "n": 21,
+    "WR": 28.57142857142857,
+    "PF": 0.6650452993742052,
+    "netR": -5.620770015679477,
+    "USD_at_5R": -28.103850078397382,
+    "maxDD_R": 6.793984368312054,
     "statuses": {
-      "TRADE": 22
+      "TRADE": 21,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -16248,16 +16262,17 @@
     "policy": "P1",
     "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 1.9230769230769231,
-    "PF": 0.0551542595925803,
-    "netR": -51.62925735356319,
-    "USD_at_5R": -258.1462867678159,
-    "maxDD_R": 51.62925735356319,
+    "n": 51,
+    "WR": 1.9607843137254901,
+    "PF": 0.056210957122298684,
+    "netR": -50.6020344821391,
+    "USD_at_5R": -253.01017241069553,
+    "maxDD_R": 50.6020344821391,
     "statuses": {
-      "TRADE": 52,
+      "TRADE": 51,
       "CENSORED_NEEDS_EXTENSION": 4,
-      "DATA_GAP_ENTRY": 1
+      "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -16341,15 +16356,16 @@
     "policy": "P1",
     "signals": 32,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 30,
+    "n": 29,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -29.81474594230545,
-    "USD_at_5R": -149.07372971152725,
-    "maxDD_R": 29.814745942305453,
+    "netR": -28.787523070881367,
+    "USD_at_5R": -143.93761535440683,
+    "maxDD_R": 28.78752307088137,
     "statuses": {
-      "TRADE": 30,
+      "TRADE": 29,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
   },
@@ -16509,15 +16525,16 @@
     "policy": "P1",
     "signals": 81,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 75,
-    "WR": 33.33333333333333,
-    "PF": 1.2991040949740769,
-    "netR": 15.718324244377515,
-    "USD_at_5R": 78.59162122188758,
-    "maxDD_R": 13.342057877821873,
+    "n": 74,
+    "WR": 33.78378378378378,
+    "PF": 1.3266379897363307,
+    "netR": 16.80900864804723,
+    "USD_at_5R": 84.04504324023614,
+    "maxDD_R": 12.251373474152146,
     "statuses": {
-      "TRADE": 75,
+      "TRADE": 74,
       "CENSORED_NEEDS_EXTENSION": 2,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2
     }
@@ -16605,14 +16622,15 @@
     "policy": "P1",
     "signals": 59,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 32.142857142857146,
-    "PF": 1.2146839880171534,
-    "netR": 8.580242988040665,
-    "USD_at_5R": 42.901214940203324,
-    "maxDD_R": 13.342057877821873,
+    "n": 55,
+    "WR": 32.72727272727273,
+    "PF": 1.2487623705544098,
+    "netR": 9.67092739171039,
+    "USD_at_5R": 48.35463695855195,
+    "maxDD_R": 12.251373474152146,
     "statuses": {
-      "TRADE": 56,
+      "TRADE": 55,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1
     }
@@ -16959,16 +16977,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 71,
+    "signals": 70,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 71,
-    "WR": 33.80281690140845,
-    "PF": 1.3367691713756702,
-    "netR": 16.63749873890996,
-    "USD_at_5R": 83.1874936945498,
-    "maxDD_R": 11.24821163187698,
+    "n": 70,
+    "WR": 34.285714285714285,
+    "PF": 1.3669475033631084,
+    "netR": 17.728183142579688,
+    "USD_at_5R": 88.64091571289845,
+    "maxDD_R": 10.861020318996143,
     "statuses": {
-      "TRADE": 71
+      "TRADE": 70
     }
   },
   {
@@ -16976,16 +16994,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 71,
+    "signals": 70,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 71,
-    "WR": 77.46478873239437,
-    "PF": 1.3728795459168484,
-    "netR": 6.315885855031721,
-    "USD_at_5R": 31.579429275158603,
-    "maxDD_R": 4.559260989835757,
+    "n": 70,
+    "WR": 78.57142857142857,
+    "PF": 1.4673665330730439,
+    "netR": 7.406570258701447,
+    "USD_at_5R": 37.032851293507235,
+    "maxDD_R": 4.5592609898357574,
     "statuses": {
-      "TRADE": 71
+      "TRADE": 70
     }
   },
   {
@@ -16993,16 +17011,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 71,
+    "signals": 70,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 71,
-    "WR": 77.46478873239437,
-    "PF": 1.3670500290498566,
-    "netR": 6.2171446837202975,
-    "USD_at_5R": 31.08572341860149,
-    "maxDD_R": 4.439339395340136,
+    "n": 70,
+    "WR": 78.57142857142857,
+    "PF": 1.4611358058544401,
+    "netR": 7.307829087390022,
+    "USD_at_5R": 36.53914543695011,
+    "maxDD_R": 3.637567501360369,
     "statuses": {
-      "TRADE": 71
+      "TRADE": 70
     }
   },
   {
@@ -17010,16 +17028,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 71,
+    "signals": 70,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 71,
-    "WR": 71.83098591549296,
-    "PF": 1.5343414554154147,
-    "netR": 8.011102491638534,
-    "USD_at_5R": 40.055512458192666,
-    "maxDD_R": 4.239068445771158,
+    "n": 70,
+    "WR": 72.85714285714285,
+    "PF": 1.651137443695919,
+    "netR": 9.071620673456717,
+    "USD_at_5R": 45.35810336728359,
+    "maxDD_R": 3.7073068798685114,
     "statuses": {
-      "TRADE": 71
+      "TRADE": 70
     }
   },
   {
@@ -17027,16 +17045,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 71,
+    "signals": 70,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 71,
-    "WR": 46.478873239436616,
-    "PF": 1.195981430012107,
-    "netR": 5.65015542331191,
-    "USD_at_5R": 28.250777116559547,
-    "maxDD_R": 7.949646027630239,
+    "n": 70,
+    "WR": 47.14285714285714,
+    "PF": 1.2416559421931217,
+    "netR": 6.710673605130088,
+    "USD_at_5R": 33.55336802565044,
+    "maxDD_R": 7.94964602763024,
     "statuses": {
-      "TRADE": 71
+      "TRADE": 70
     }
   },
   {
@@ -17044,16 +17062,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P1",
-    "signals": 52,
+    "signals": 51,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 32.69230769230769,
-    "PF": 1.2580047373588017,
-    "netR": 9.499417482573119,
-    "USD_at_5R": 47.497087412865596,
-    "maxDD_R": 11.24821163187698,
+    "n": 51,
+    "WR": 33.33333333333333,
+    "PF": 1.2964083087931695,
+    "netR": 10.590101886242845,
+    "USD_at_5R": 52.95050943121423,
+    "maxDD_R": 10.157527228207256,
     "statuses": {
-      "TRADE": 52
+      "TRADE": 51
     }
   },
   {
@@ -17061,16 +17079,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P2",
-    "signals": 52,
+    "signals": 51,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 75.0,
-    "PF": 1.22605059769012,
-    "netR": 3.0938338444859856,
-    "USD_at_5R": 15.469169222429928,
-    "maxDD_R": 4.23990813915929,
+    "n": 51,
+    "WR": 76.47058823529412,
+    "PF": 1.3322158438147584,
+    "netR": 4.18451824815571,
+    "USD_at_5R": 20.92259124077855,
+    "maxDD_R": 3.7583029526482514,
     "statuses": {
-      "TRADE": 52
+      "TRADE": 51
     }
   },
   {
@@ -17078,16 +17096,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P3",
-    "signals": 52,
+    "signals": 51,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 75.0,
-    "PF": 1.2018766995578587,
-    "netR": 2.7629786069463256,
-    "USD_at_5R": 13.814893034731629,
-    "maxDD_R": 4.439339395340136,
+    "n": 51,
+    "WR": 76.47058823529412,
+    "PF": 1.3059486977775259,
+    "netR": 3.8536630106160503,
+    "USD_at_5R": 19.26831505308025,
+    "maxDD_R": 3.3486549916704123,
     "statuses": {
-      "TRADE": 52
+      "TRADE": 51
     }
   },
   {
@@ -17095,16 +17113,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P4",
-    "signals": 52,
+    "signals": 51,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 69.23076923076923,
-    "PF": 1.2977960879608719,
-    "netR": 3.6594930208308916,
-    "USD_at_5R": 18.29746510415446,
-    "maxDD_R": 4.239068445771158,
+    "n": 51,
+    "WR": 70.58823529411765,
+    "PF": 1.4203760629259068,
+    "netR": 4.720011202649075,
+    "USD_at_5R": 23.600056013245375,
+    "maxDD_R": 3.7073068798685114,
     "statuses": {
-      "TRADE": 52
+      "TRADE": 51
     }
   },
   {
@@ -17112,16 +17130,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P5",
-    "signals": 52,
+    "signals": 51,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 52,
-    "WR": 44.230769230769226,
-    "PF": 1.0739709772743566,
-    "netR": 1.6307481581185503,
-    "USD_at_5R": 8.153740790592751,
-    "maxDD_R": 7.044010703873882,
+    "n": 51,
+    "WR": 45.09803921568628,
+    "PF": 1.1282455230148787,
+    "netR": 2.691266339936732,
+    "USD_at_5R": 13.456331699683659,
+    "maxDD_R": 7.044010703873884,
     "statuses": {
-      "TRADE": 52
+      "TRADE": 51
     }
   },
   {
@@ -17376,15 +17394,16 @@
     "policy": "P1",
     "signals": 76,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 72,
-    "WR": 33.33333333333333,
-    "PF": 1.2825430369016415,
-    "netR": 14.267562904938714,
-    "USD_at_5R": 71.33781452469357,
-    "maxDD_R": 13.342057877821873,
+    "n": 71,
+    "WR": 33.80281690140845,
+    "PF": 1.3108562384857412,
+    "netR": 15.358247308608435,
+    "USD_at_5R": 76.79123654304217,
+    "maxDD_R": 12.251373474152146,
     "statuses": {
-      "TRADE": 72,
+      "TRADE": 71,
       "CENSORED_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 1,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2
     }
@@ -17472,14 +17491,15 @@
     "policy": "P1",
     "signals": 56,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 54,
-    "WR": 33.33333333333333,
-    "PF": 1.2805051616836052,
-    "netR": 10.634639274388032,
-    "USD_at_5R": 53.173196371940165,
-    "maxDD_R": 13.342057877821873,
+    "n": 53,
+    "WR": 33.9622641509434,
+    "PF": 1.3184345440072025,
+    "netR": 11.725323678057759,
+    "USD_at_5R": 58.6266183902888,
+    "maxDD_R": 12.251373474152146,
     "statuses": {
-      "TRADE": 54,
+      "TRADE": 53,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 1,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1
     }
@@ -34108,17 +34128,18 @@
     "policy": "P1",
     "signals": 1121,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 978,
-    "WR": 28.323108384458077,
-    "PF": 0.977397309258221,
-    "netR": -18.274978612432975,
-    "USD_at_5R": -91.37489306216487,
-    "maxDD_R": 84.30999502718672,
+    "n": 969,
+    "WR": 28.173374613003094,
+    "PF": 0.9777119928994672,
+    "netR": -17.905853180409025,
+    "USD_at_5R": -89.52926590204513,
+    "maxDD_R": 85.60958525918397,
     "statuses": {
       "DATA_GAP_ENTRY": 68,
-      "TRADE": 978,
+      "TRADE": 969,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 70,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 9,
       "CENSORED_NEEDS_EXTENSION": 4
     }
   },
@@ -34211,16 +34232,17 @@
     "policy": "P1",
     "signals": 1000,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 898,
-    "WR": 27.28285077951002,
-    "PF": 1.0356817104888474,
-    "netR": 25.6684390585403,
-    "USD_at_5R": 128.3421952927015,
+    "n": 892,
+    "WR": 27.242152466367713,
+    "PF": 1.0404460304256753,
+    "netR": 28.92980687891048,
+    "USD_at_5R": 144.6490343945524,
     "maxDD_R": 70.00730197059744,
     "statuses": {
-      "TRADE": 898,
+      "TRADE": 892,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 53,
       "DATA_GAP_ENTRY": 47,
+      "UNRESOLVED_AUTHOR_LOG": 6,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -34311,17 +34333,18 @@
     "policy": "P1",
     "signals": 121,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 80,
-    "WR": 40.0,
-    "PF": 0.5071324296686648,
-    "netR": -43.94341767097329,
-    "USD_at_5R": -219.71708835486646,
-    "maxDD_R": 54.96573222378808,
+    "n": 77,
+    "WR": 38.961038961038966,
+    "PF": 0.4684756781327157,
+    "netR": -46.83566005931949,
+    "USD_at_5R": -234.17830029659743,
+    "maxDD_R": 54.307277469758496,
     "statuses": {
       "DATA_GAP_ENTRY": 21,
-      "TRADE": 80,
+      "TRADE": 77,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 17,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 3,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -34414,17 +34437,18 @@
     "policy": "P1",
     "signals": 449,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 366,
-    "WR": 30.05464480874317,
-    "PF": 0.8571681152482035,
-    "netR": -45.353538042893575,
-    "USD_at_5R": -226.76769021446788,
-    "maxDD_R": 84.30999502718673,
+    "n": 359,
+    "WR": 29.805013927576603,
+    "PF": 0.8544306837642528,
+    "netR": -45.62210653291309,
+    "USD_at_5R": -228.11053266456543,
+    "maxDD_R": 85.60958525918397,
     "statuses": {
       "DATA_GAP_ENTRY": 45,
-      "TRADE": 366,
+      "TRADE": 359,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 35,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 7,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -34590,16 +34614,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 891,
+    "signals": 887,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 891,
-    "WR": 25.140291806958476,
-    "PF": 0.9481535744869364,
-    "netR": -38.20710346469432,
-    "USD_at_5R": -191.0355173234716,
-    "maxDD_R": 83.0820961470547,
+    "n": 887,
+    "WR": 25.140924464487036,
+    "PF": 0.9481350971158559,
+    "netR": -38.06078638949075,
+    "USD_at_5R": -190.30393194745375,
+    "maxDD_R": 82.06232077940763,
     "statuses": {
-      "TRADE": 891
+      "TRADE": 887
     }
   },
   {
@@ -34607,16 +34631,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 891,
+    "signals": 887,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 891,
-    "WR": 33.78226711560045,
-    "PF": 0.6382058893485234,
-    "netR": -69.17205517086867,
-    "USD_at_5R": -345.8602758543434,
-    "maxDD_R": 81.21822668192999,
+    "n": 887,
+    "WR": 33.82187147688839,
+    "PF": 0.6330528319062841,
+    "netR": -69.0257380956651,
+    "USD_at_5R": -345.12869047832555,
+    "maxDD_R": 81.07190960672645,
     "statuses": {
-      "TRADE": 891
+      "TRADE": 887
     }
   },
   {
@@ -34624,16 +34648,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 891,
+    "signals": 887,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 891,
-    "WR": 69.47250280583613,
-    "PF": 0.6012014298743691,
-    "netR": -71.99893645782527,
-    "USD_at_5R": -359.99468228912633,
-    "maxDD_R": 82.32908070460985,
+    "n": 887,
+    "WR": 69.67305524239008,
+    "PF": 0.5950960219250578,
+    "netR": -71.8526193826217,
+    "USD_at_5R": -359.2630969131085,
+    "maxDD_R": 82.18276362940628,
     "statuses": {
-      "TRADE": 891
+      "TRADE": 887
     }
   },
   {
@@ -34641,16 +34665,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 891,
+    "signals": 887,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 891,
-    "WR": 20.089786756453424,
-    "PF": 0.7518984380767794,
-    "netR": -42.90202759570991,
-    "USD_at_5R": -214.51013797854955,
-    "maxDD_R": 54.40335419080302,
+    "n": 887,
+    "WR": 19.84216459977452,
+    "PF": 0.7426014869041567,
+    "netR": -44.44685082106203,
+    "USD_at_5R": -222.23425410531013,
+    "maxDD_R": 55.583095705628814,
     "statuses": {
-      "TRADE": 891
+      "TRADE": 887
     }
   },
   {
@@ -34658,16 +34682,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 891,
+    "signals": 887,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 891,
-    "WR": 34.5679012345679,
-    "PF": 0.883102569661889,
-    "netR": -51.3643391569793,
-    "USD_at_5R": -256.8216957848965,
-    "maxDD_R": 70.74560071149631,
+    "n": 887,
+    "WR": 34.38556933483653,
+    "PF": 0.8799738127614914,
+    "netR": -52.61680725154672,
+    "USD_at_5R": -263.0840362577336,
+    "maxDD_R": 71.99806880606373,
     "statuses": {
-      "TRADE": 891
+      "TRADE": 887
     }
   },
   {
@@ -34675,16 +34699,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P1",
-    "signals": 835,
+    "signals": 833,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 835,
-    "WR": 24.67065868263473,
-    "PF": 0.9625045097756826,
-    "netR": -26.03058413166258,
-    "USD_at_5R": -130.1529206583129,
-    "maxDD_R": 83.0820961470547,
+    "n": 833,
+    "WR": 24.729891956782712,
+    "PF": 0.9653421772972586,
+    "netR": -23.98985621412638,
+    "USD_at_5R": -119.9492810706319,
+    "maxDD_R": 82.06232077940763,
     "statuses": {
-      "TRADE": 835
+      "TRADE": 833
     }
   },
   {
@@ -34692,16 +34716,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P2",
-    "signals": 835,
+    "signals": 833,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 835,
-    "WR": 33.89221556886228,
-    "PF": 0.6121853894694054,
-    "netR": -57.5888270373885,
-    "USD_at_5R": -287.9441351869425,
-    "maxDD_R": 63.16285260559751,
+    "n": 833,
+    "WR": 33.97358943577431,
+    "PF": 0.6207156786624443,
+    "netR": -55.548099119852296,
+    "USD_at_5R": -277.74049559926146,
+    "maxDD_R": 61.122124688061305,
     "statuses": {
-      "TRADE": 835
+      "TRADE": 833
     }
   },
   {
@@ -34709,16 +34733,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P3",
-    "signals": 835,
+    "signals": 833,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 835,
-    "WR": 71.97604790419162,
-    "PF": 0.5617082914119504,
-    "netR": -60.41570832434509,
-    "USD_at_5R": -302.07854162172544,
-    "maxDD_R": 64.27370662827734,
+    "n": 833,
+    "WR": 72.14885954381752,
+    "PF": 0.5701491568220846,
+    "netR": -58.374980406808895,
+    "USD_at_5R": -291.87490203404445,
+    "maxDD_R": 62.23297871074114,
     "statuses": {
-      "TRADE": 835
+      "TRADE": 833
     }
   },
   {
@@ -34726,16 +34750,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P4",
-    "signals": 835,
+    "signals": 833,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 835,
-    "WR": 18.562874251497004,
-    "PF": 0.680434834895092,
-    "netR": -45.384641965327084,
-    "USD_at_5R": -226.92320982663543,
-    "maxDD_R": 51.570130205327075,
+    "n": 833,
+    "WR": 18.487394957983195,
+    "PF": 0.6808402509631687,
+    "netR": -45.249175190679196,
+    "USD_at_5R": -226.24587595339597,
+    "maxDD_R": 51.32608443067918,
     "statuses": {
-      "TRADE": 835
+      "TRADE": 833
     }
   },
   {
@@ -34743,16 +34767,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P5",
-    "signals": 835,
+    "signals": 833,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 835,
-    "WR": 34.8502994011976,
-    "PF": 0.8811975924872206,
-    "netR": -47.43089379772884,
-    "USD_at_5R": -237.15446898864423,
-    "maxDD_R": 64.69037551166946,
+    "n": 833,
+    "WR": 34.81392557022809,
+    "PF": 0.8827489135730697,
+    "netR": -46.69207189229626,
+    "USD_at_5R": -233.46035946148132,
+    "maxDD_R": 64.97047460623686,
     "statuses": {
-      "TRADE": 835
+      "TRADE": 833
     }
   },
   {
@@ -34760,16 +34784,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P1",
-    "signals": 56,
+    "signals": 54,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 32.142857142857146,
-    "PF": 0.7148089118739214,
-    "netR": -12.176519333031754,
-    "USD_at_5R": -60.88259666515877,
-    "maxDD_R": 22.725643273058143,
+    "n": 54,
+    "WR": 31.48148148148148,
+    "PF": 0.6621874656692047,
+    "netR": -14.070930175364365,
+    "USD_at_5R": -70.35465087682182,
+    "maxDD_R": 21.682714115390752,
     "statuses": {
-      "TRADE": 56
+      "TRADE": 54
     }
   },
   {
@@ -34777,16 +34801,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P2",
-    "signals": 56,
+    "signals": 54,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 32.142857142857146,
-    "PF": 0.7287046203393724,
-    "netR": -11.583228133480185,
-    "USD_at_5R": -57.916140667400924,
-    "maxDD_R": 22.132352073506574,
+    "n": 54,
+    "WR": 31.48148148148148,
+    "PF": 0.6764311013932718,
+    "netR": -13.477638975812795,
+    "USD_at_5R": -67.38819487906397,
+    "maxDD_R": 21.089422915839187,
     "statuses": {
-      "TRADE": 56
+      "TRADE": 54
     }
   },
   {
@@ -34794,16 +34818,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P3",
-    "signals": 56,
+    "signals": 54,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 32.142857142857146,
-    "PF": 0.7287046203393724,
-    "netR": -11.583228133480185,
-    "USD_at_5R": -57.916140667400924,
-    "maxDD_R": 22.132352073506574,
+    "n": 54,
+    "WR": 31.48148148148148,
+    "PF": 0.6764311013932718,
+    "netR": -13.477638975812795,
+    "USD_at_5R": -67.38819487906397,
+    "maxDD_R": 21.089422915839187,
     "statuses": {
-      "TRADE": 56
+      "TRADE": 54
     }
   },
   {
@@ -34811,16 +34835,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P4",
-    "signals": 56,
+    "signals": 54,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 42.857142857142854,
-    "PF": 1.0803402828596362,
-    "netR": 2.482614369617168,
-    "USD_at_5R": 12.413071848085838,
-    "maxDD_R": 8.025678249999997,
+    "n": 54,
+    "WR": 40.74074074074074,
+    "PF": 1.0259641479518877,
+    "netR": 0.8023243696171681,
+    "USD_at_5R": 4.0116218480858405,
+    "maxDD_R": 8.689496539473678,
     "statuses": {
-      "TRADE": 56
+      "TRADE": 54
     }
   },
   {
@@ -34828,16 +34852,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P5",
-    "signals": 56,
+    "signals": 54,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 30.357142857142854,
-    "PF": 0.902042939905208,
-    "netR": -3.933445359250456,
-    "USD_at_5R": -19.66722679625228,
-    "maxDD_R": 13.970613328947387,
+    "n": 54,
+    "WR": 27.77777777777778,
+    "PF": 0.8524525944495566,
+    "netR": -5.924735359250457,
+    "USD_at_5R": -29.623676796252283,
+    "maxDD_R": 15.059513328947382,
     "statuses": {
-      "TRADE": 56
+      "TRADE": 54
     }
   },
   {
@@ -34845,16 +34869,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P1",
-    "signals": 319,
+    "signals": 316,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 319,
-    "WR": 26.01880877742947,
-    "PF": 0.9009847908158286,
-    "netR": -25.82160478822426,
-    "USD_at_5R": -129.1080239411213,
-    "maxDD_R": 58.33290867454391,
+    "n": 316,
+    "WR": 25.949367088607595,
+    "PF": 0.8968188487433758,
+    "netR": -26.695063080667733,
+    "USD_at_5R": -133.47531540333867,
+    "maxDD_R": 59.206366966987396,
     "statuses": {
-      "TRADE": 319
+      "TRADE": 316
     }
   },
   {
@@ -34862,16 +34886,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P2",
-    "signals": 319,
+    "signals": 316,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 319,
-    "WR": 31.347962382445143,
-    "PF": 0.5710400722918694,
-    "netR": -41.636412767437164,
-    "USD_at_5R": -208.1820638371858,
-    "maxDD_R": 48.13480674950521,
+    "n": 316,
+    "WR": 31.329113924050635,
+    "PF": 0.5525265430061361,
+    "netR": -42.50987105988065,
+    "USD_at_5R": -212.54935529940326,
+    "maxDD_R": 49.0082650419487,
     "statuses": {
-      "TRADE": 319
+      "TRADE": 316
     }
   },
   {
@@ -34879,16 +34903,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P3",
-    "signals": 319,
+    "signals": 316,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 319,
-    "WR": 64.26332288401254,
-    "PF": 0.5465394607879732,
-    "netR": -42.52485142088996,
-    "USD_at_5R": -212.62425710444978,
-    "maxDD_R": 49.15957383433054,
+    "n": 316,
+    "WR": 64.55696202531645,
+    "PF": 0.5268114486077435,
+    "netR": -43.39830971333343,
+    "USD_at_5R": -216.99154856666718,
+    "maxDD_R": 50.03303212677401,
     "statuses": {
-      "TRADE": 319
+      "TRADE": 316
     }
   },
   {
@@ -34896,16 +34920,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P4",
-    "signals": 319,
+    "signals": 316,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 319,
-    "WR": 22.570532915360502,
-    "PF": 0.7690942176377672,
-    "netR": -18.75992558283575,
-    "USD_at_5R": -93.79962791417874,
-    "maxDD_R": 25.28336479336202,
+    "n": 316,
+    "WR": 21.835443037974684,
+    "PF": 0.7470759961813627,
+    "netR": -20.548794582835747,
+    "USD_at_5R": -102.74397291417873,
+    "maxDD_R": 26.707152082835698,
     "statuses": {
-      "TRADE": 319
+      "TRADE": 316
     }
   },
   {
@@ -34913,16 +34937,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P5",
-    "signals": 319,
+    "signals": 316,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 319,
-    "WR": 35.42319749216301,
-    "PF": 0.886585184665816,
-    "netR": -19.081600103323485,
-    "USD_at_5R": -95.40800051661742,
-    "maxDD_R": 38.3173605188388,
+    "n": 316,
+    "WR": 35.12658227848101,
+    "PF": 0.8800794853027681,
+    "netR": -20.053969103323485,
+    "USD_at_5R": -100.26984551661742,
+    "maxDD_R": 39.2897295188388,
     "statuses": {
-      "TRADE": 319
+      "TRADE": 316
     }
   },
   {
@@ -35007,17 +35031,18 @@
     "policy": "P1",
     "signals": 1047,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 935,
-    "WR": 27.700534759358288,
-    "PF": 0.9775482673470114,
-    "netR": -17.547589567971237,
-    "USD_at_5R": -87.73794783985619,
-    "maxDD_R": 78.35867344327255,
+    "n": 929,
+    "WR": 27.556512378902042,
+    "PF": 0.9757605715020067,
+    "netR": -18.870333589988824,
+    "USD_at_5R": -94.35166794994413,
+    "maxDD_R": 80.70119283293718,
     "statuses": {
-      "TRADE": 935,
+      "TRADE": 929,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 62,
       "DATA_GAP_ENTRY": 45,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 6,
       "CENSORED_NEEDS_EXTENSION": 4
     }
   },
@@ -35110,16 +35135,17 @@
     "policy": "P1",
     "signals": 961,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 879,
-    "WR": 27.076222980659843,
-    "PF": 1.037836782749914,
-    "netR": 26.746080692590873,
-    "USD_at_5R": 133.73040346295437,
+    "n": 875,
+    "WR": 27.085714285714285,
+    "PF": 1.0417137808078905,
+    "netR": 29.35850821658689,
+    "USD_at_5R": 146.79254108293446,
     "maxDD_R": 69.44659488039625,
     "statuses": {
-      "TRADE": 879,
+      "TRADE": 875,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 49,
       "DATA_GAP_ENTRY": 31,
+      "UNRESOLVED_AUTHOR_LOG": 4,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -35210,17 +35236,18 @@
     "policy": "P1",
     "signals": 86,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 56,
-    "WR": 37.5,
-    "PF": 0.40695929655348484,
-    "netR": -44.293670260562116,
-    "USD_at_5R": -221.4683513028106,
-    "maxDD_R": 48.85597162964035,
+    "n": 54,
+    "WR": 35.18518518518518,
+    "PF": 0.35427192862704565,
+    "netR": -48.228841806575694,
+    "USD_at_5R": -241.14420903287848,
+    "maxDD_R": 51.532254757020276,
     "statuses": {
-      "TRADE": 56,
+      "TRADE": 54,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 13,
       "DATA_GAP_ENTRY": 14,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -35313,17 +35340,18 @@
     "policy": "P1",
     "signals": 401,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 335,
-    "WR": 29.253731343283583,
-    "PF": 0.8635722623465539,
-    "netR": -40.50639464426717,
-    "USD_at_5R": -202.53197322133585,
-    "maxDD_R": 78.35867344327256,
+    "n": 330,
+    "WR": 28.78787878787879,
+    "PF": 0.8546780434462641,
+    "netR": -42.8489140339318,
+    "USD_at_5R": -214.244570169659,
+    "maxDD_R": 80.7011928329372,
     "statuses": {
-      "TRADE": 335,
+      "TRADE": 330,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 31,
       "DATA_GAP_ENTRY": 32,
       "DATA_GAP_HOLD_NEEDS_EXTENSION": 1,
+      "UNRESOLVED_AUTHOR_LOG": 5,
       "CENSORED_NEEDS_EXTENSION": 2
     }
   },
@@ -37833,15 +37861,16 @@
     "policy": "P1",
     "signals": 96,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 90,
-    "WR": 30.0,
-    "PF": 0.6570896247712846,
-    "netR": -21.235996354505865,
-    "USD_at_5R": -106.17998177252932,
+    "n": 89,
+    "WR": 30.337078651685395,
+    "PF": 0.6683367677002675,
+    "netR": -20.193825611778344,
+    "USD_at_5R": -100.96912805889173,
     "maxDD_R": 24.995409489039417,
     "statuses": {
-      "TRADE": 90,
+      "TRADE": 89,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 3,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -38020,15 +38049,16 @@
     "policy": "P1",
     "signals": 44,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 39,
-    "WR": 33.33333333333333,
-    "PF": 0.720752856053158,
-    "netR": -7.619255872537796,
-    "USD_at_5R": -38.096279362688975,
+    "n": 38,
+    "WR": 34.21052631578947,
+    "PF": 0.7493758289454305,
+    "netR": -6.577085129810273,
+    "USD_at_5R": -32.88542564905136,
     "maxDD_R": 12.19870150728216,
     "statuses": {
-      "TRADE": 39,
+      "TRADE": 38,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -38117,15 +38147,16 @@
     "policy": "P1",
     "signals": 39,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 34,
-    "WR": 35.294117647058826,
-    "PF": 0.7942837620503238,
-    "netR": -4.750664378880269,
-    "USD_at_5R": -23.753321894401346,
+    "n": 33,
+    "WR": 36.36363636363637,
+    "PF": 0.831822870818274,
+    "netR": -3.7084936361527463,
+    "USD_at_5R": -18.54246818076373,
     "maxDD_R": 10.134953758079552,
     "statuses": {
-      "TRADE": 34,
+      "TRADE": 33,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -38287,16 +38318,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 83,
+    "signals": 82,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 83,
-    "WR": 28.915662650602407,
-    "PF": 0.606305197374161,
-    "netR": -22.74240948089671,
-    "USD_at_5R": -113.71204740448356,
+    "n": 82,
+    "WR": 29.268292682926827,
+    "PF": 0.6174445524293465,
+    "netR": -21.70023873816919,
+    "USD_at_5R": -108.50119369084595,
     "maxDD_R": 26.501822615430278,
     "statuses": {
-      "TRADE": 83
+      "TRADE": 82
     }
   },
   {
@@ -38304,16 +38335,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 83,
+    "signals": 82,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 83,
-    "WR": 53.01204819277109,
-    "PF": 0.32226043854883674,
-    "netR": -16.55680877946139,
-    "USD_at_5R": -82.78404389730696,
-    "maxDD_R": 17.759173098535374,
+    "n": 82,
+    "WR": 53.65853658536586,
+    "PF": 0.3225889974147071,
+    "netR": -16.531927229211593,
+    "USD_at_5R": -82.65963614605796,
+    "maxDD_R": 17.734291548285576,
     "statuses": {
-      "TRADE": 83
+      "TRADE": 82
     }
   },
   {
@@ -38321,16 +38352,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 83,
+    "signals": 82,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 83,
-    "WR": 63.85542168674698,
-    "PF": 0.32520590797055854,
-    "netR": -16.37763332947494,
-    "USD_at_5R": -81.8881666473747,
-    "maxDD_R": 17.680547071749796,
+    "n": 82,
+    "WR": 64.63414634146342,
+    "PF": 0.3253009676002903,
+    "netR": -16.370540971702866,
+    "USD_at_5R": -81.85270485851433,
+    "maxDD_R": 17.673454713977723,
     "statuses": {
-      "TRADE": 83
+      "TRADE": 82
     }
   },
   {
@@ -38338,16 +38369,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 83,
+    "signals": 82,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 83,
-    "WR": 33.734939759036145,
-    "PF": 0.16474995198790096,
-    "netR": -15.119914538620371,
-    "USD_at_5R": -75.59957269310186,
-    "maxDD_R": 15.318903184414037,
+    "n": 82,
+    "WR": 34.146341463414636,
+    "PF": 0.16480858550299682,
+    "netR": -15.113474344972367,
+    "USD_at_5R": -75.56737172486183,
+    "maxDD_R": 15.312462990766033,
     "statuses": {
-      "TRADE": 83
+      "TRADE": 82
     }
   },
   {
@@ -38355,16 +38386,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 83,
+    "signals": 82,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 83,
-    "WR": 46.98795180722892,
-    "PF": 0.46103268559638094,
-    "netR": -18.153646243598303,
-    "USD_at_5R": -90.76823121799151,
+    "n": 82,
+    "WR": 47.5609756097561,
+    "PF": 0.46198732531153247,
+    "netR": -18.084045981163086,
+    "USD_at_5R": -90.42022990581543,
     "maxDD_R": 19.423931480613177,
     "statuses": {
-      "TRADE": 83
+      "TRADE": 82
     }
   },
   {
@@ -38457,16 +38488,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P1",
-    "signals": 37,
+    "signals": 36,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 35.13513513513514,
-    "PF": 0.7801348246409675,
-    "netR": -5.542388591731591,
-    "USD_at_5R": -27.711942958657954,
+    "n": 36,
+    "WR": 36.11111111111111,
+    "PF": 0.8137785912577611,
+    "netR": -4.500217849004068,
+    "USD_at_5R": -22.50108924502034,
     "maxDD_R": 10.121834226475952,
     "statuses": {
-      "TRADE": 37
+      "TRADE": 36
     }
   },
   {
@@ -38474,16 +38505,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P2",
-    "signals": 37,
+    "signals": 36,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 56.75675675675676,
-    "PF": 0.3954191856241597,
-    "netR": -6.459446052754894,
-    "USD_at_5R": -32.297230263774466,
-    "maxDD_R": 6.978146887078795,
+    "n": 36,
+    "WR": 58.333333333333336,
+    "PF": 0.3963421965318683,
+    "netR": -6.434564502505097,
+    "USD_at_5R": -32.172822512525485,
+    "maxDD_R": 6.953265336828997,
     "statuses": {
-      "TRADE": 37
+      "TRADE": 36
     }
   },
   {
@@ -38491,16 +38522,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P3",
-    "signals": 37,
+    "signals": 36,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 67.56756756756756,
-    "PF": 0.4066938522114011,
-    "netR": -6.317646295991789,
-    "USD_at_5R": -31.588231479958946,
-    "maxDD_R": 6.515283218362657,
+    "n": 36,
+    "WR": 69.44444444444444,
+    "PF": 0.4069649157770322,
+    "netR": -6.310553938219716,
+    "USD_at_5R": -31.55276969109858,
+    "maxDD_R": 6.508190860590584,
     "statuses": {
-      "TRADE": 37
+      "TRADE": 36
     }
   },
   {
@@ -38508,16 +38539,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P4",
-    "signals": 37,
+    "signals": 36,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 29.72972972972973,
-    "PF": 0.12543886810437038,
-    "netR": -8.436410714203255,
-    "USD_at_5R": -42.182053571016276,
-    "maxDD_R": 8.672173057738176,
+    "n": 36,
+    "WR": 30.555555555555557,
+    "PF": 0.12552266994394146,
+    "netR": -8.429970520555251,
+    "USD_at_5R": -42.14985260277626,
+    "maxDD_R": 8.665732864090169,
     "statuses": {
-      "TRADE": 37
+      "TRADE": 36
     }
   },
   {
@@ -38525,16 +38556,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P5",
-    "signals": 37,
+    "signals": 36,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 45.94594594594595,
-    "PF": 0.5477303286622325,
-    "netR": -6.680653880507029,
-    "USD_at_5R": -33.403269402535145,
+    "n": 36,
+    "WR": 47.22222222222222,
+    "PF": 0.5503233573206714,
+    "netR": -6.611053618071809,
+    "USD_at_5R": -33.05526809035904,
     "maxDD_R": 8.222674768128366,
     "statuses": {
-      "TRADE": 37
+      "TRADE": 36
     }
   },
   {
@@ -38542,16 +38573,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P1",
-    "signals": 32,
+    "signals": 31,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 37.5,
-    "PF": 0.8727758116805511,
-    "netR": -2.673797098074065,
-    "USD_at_5R": -13.368985490370324,
+    "n": 31,
+    "WR": 38.70967741935484,
+    "PF": 0.9183135117683549,
+    "netR": -1.6316263553465422,
+    "USD_at_5R": -8.158131776732711,
     "maxDD_R": 9.629758146992849,
     "statuses": {
-      "TRADE": 32
+      "TRADE": 31
     }
   },
   {
@@ -38559,16 +38590,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P2",
-    "signals": 32,
+    "signals": 31,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 53.125,
-    "PF": 0.33829238412894136,
-    "netR": -6.348690569906629,
-    "USD_at_5R": -31.743452849533146,
-    "maxDD_R": 6.978146887078795,
+    "n": 31,
+    "WR": 54.83870967741935,
+    "PF": 0.33917197226959594,
+    "netR": -6.32380901965683,
+    "USD_at_5R": -31.619045098284147,
+    "maxDD_R": 6.953265336828997,
     "statuses": {
-      "TRADE": 32
+      "TRADE": 31
     }
   },
   {
@@ -38576,16 +38607,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P3",
-    "signals": 32,
+    "signals": 31,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 65.625,
-    "PF": 0.3939651097193563,
-    "netR": -5.792746838769846,
-    "USD_at_5R": -28.963734193849227,
-    "maxDD_R": 6.37726062214046,
+    "n": 31,
+    "WR": 67.74193548387096,
+    "PF": 0.39425764876609687,
+    "netR": -5.785654480997772,
+    "USD_at_5R": -28.92827240498886,
+    "maxDD_R": 6.370168264368386,
     "statuses": {
-      "TRADE": 32
+      "TRADE": 31
     }
   },
   {
@@ -38593,16 +38624,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P4",
-    "signals": 32,
+    "signals": 31,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 25.0,
-    "PF": 0.07676035050551597,
-    "netR": -8.548477224404841,
-    "USD_at_5R": -42.74238612202421,
-    "maxDD_R": 8.548477224404841,
+    "n": 31,
+    "WR": 25.806451612903224,
+    "PF": 0.07681377786858178,
+    "netR": -8.542037030756838,
+    "USD_at_5R": -42.71018515378419,
+    "maxDD_R": 8.542037030756838,
     "statuses": {
-      "TRADE": 32
+      "TRADE": 31
     }
   },
   {
@@ -38610,16 +38641,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P5",
-    "signals": 32,
+    "signals": 31,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 43.75,
-    "PF": 0.4805205774989338,
-    "netR": -6.907659022399198,
-    "USD_at_5R": -34.53829511199599,
+    "n": 31,
+    "WR": 45.16129032258064,
+    "PF": 0.48304894074585414,
+    "netR": -6.838058759963978,
+    "USD_at_5R": -34.19029379981989,
     "maxDD_R": 8.222674768128364,
     "statuses": {
-      "TRADE": 32
+      "TRADE": 31
     }
   },
   {
@@ -38704,15 +38735,16 @@
     "policy": "P1",
     "signals": 94,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 88,
-    "WR": 29.545454545454547,
-    "PF": 0.6214593146537581,
-    "netR": -23.04768605476123,
-    "USD_at_5R": -115.23843027380615,
+    "n": 87,
+    "WR": 29.88505747126437,
+    "PF": 0.6322819974041769,
+    "netR": -22.005515312033708,
+    "USD_at_5R": -110.02757656016854,
     "maxDD_R": 26.80709918929478,
     "statuses": {
-      "TRADE": 88,
+      "TRADE": 87,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 3,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -38891,15 +38923,16 @@
     "policy": "P1",
     "signals": 42,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 37,
-    "WR": 32.432432432432435,
-    "PF": 0.6406150995666811,
-    "netR": -9.430945572793162,
-    "USD_at_5R": -47.15472786396581,
+    "n": 36,
+    "WR": 33.33333333333333,
+    "PF": 0.6671086419983177,
+    "netR": -8.388774830065639,
+    "USD_at_5R": -41.9438741503282,
     "maxDD_R": 14.010391207537523,
     "statuses": {
-      "TRADE": 37,
+      "TRADE": 36,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -38988,15 +39021,16 @@
     "policy": "P1",
     "signals": 37,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 32,
-    "WR": 34.375,
-    "PF": 0.7023903401708959,
-    "netR": -6.562354079135637,
-    "USD_at_5R": -32.81177039567818,
+    "n": 31,
+    "WR": 35.483870967741936,
+    "PF": 0.73723465950841,
+    "netR": -5.520183336408111,
+    "USD_at_5R": -27.600916682040555,
     "maxDD_R": 11.94664345833492,
     "statuses": {
-      "TRADE": 32,
+      "TRADE": 31,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "CENSORED_NEEDS_EXTENSION": 3
     }
   },
@@ -41878,15 +41912,16 @@
     "policy": "P1",
     "signals": 44,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 41,
-    "WR": 9.75609756097561,
-    "PF": 0.20874318883478457,
-    "netR": -32.801506197009,
-    "USD_at_5R": -164.00753098504498,
-    "maxDD_R": 32.80150619700899,
+    "n": 39,
+    "WR": 10.256410256410255,
+    "PF": 0.21972445054963732,
+    "netR": -30.72969498082294,
+    "USD_at_5R": -153.64847490411472,
+    "maxDD_R": 30.729694980822945,
     "statuses": {
-      "TRADE": 41,
+      "TRADE": 39,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
@@ -42055,15 +42090,16 @@
     "policy": "P1",
     "signals": 34,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 31,
-    "WR": 9.67741935483871,
-    "PF": 0.18456773520871958,
-    "netR": -24.916295759432664,
-    "USD_at_5R": -124.58147879716333,
-    "maxDD_R": 27.389114055067374,
+    "n": 29,
+    "WR": 10.344827586206897,
+    "PF": 0.1979923888494098,
+    "netR": -22.84448454324661,
+    "USD_at_5R": -114.22242271623305,
+    "maxDD_R": 25.317302838881325,
     "statuses": {
-      "TRADE": 31,
+      "TRADE": 29,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
@@ -42147,14 +42183,15 @@
     "policy": "P1",
     "signals": 18,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 18,
-    "WR": 5.555555555555555,
-    "PF": 0.033920741631163015,
-    "netR": -19.88446226383722,
-    "USD_at_5R": -99.42231131918611,
-    "maxDD_R": 19.88446226383722,
+    "n": 17,
+    "WR": 5.88235294117647,
+    "PF": 0.03574194890546802,
+    "netR": -18.83568747350668,
+    "USD_at_5R": -94.1784373675334,
+    "maxDD_R": 18.835687473506685,
     "statuses": {
-      "TRADE": 18
+      "TRADE": 17,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -42682,15 +42719,16 @@
     "policy": "P1",
     "signals": 44,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 41,
-    "WR": 9.75609756097561,
-    "PF": 0.20874318883478457,
-    "netR": -32.801506197009,
-    "USD_at_5R": -164.00753098504498,
-    "maxDD_R": 32.80150619700899,
+    "n": 39,
+    "WR": 10.256410256410255,
+    "PF": 0.21972445054963732,
+    "netR": -30.72969498082294,
+    "USD_at_5R": -153.64847490411472,
+    "maxDD_R": 30.729694980822945,
     "statuses": {
-      "TRADE": 41,
+      "TRADE": 39,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
@@ -42859,15 +42897,16 @@
     "policy": "P1",
     "signals": 34,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 31,
-    "WR": 9.67741935483871,
-    "PF": 0.18456773520871958,
-    "netR": -24.916295759432664,
-    "USD_at_5R": -124.58147879716333,
-    "maxDD_R": 27.389114055067374,
+    "n": 29,
+    "WR": 10.344827586206897,
+    "PF": 0.1979923888494098,
+    "netR": -22.84448454324661,
+    "USD_at_5R": -114.22242271623305,
+    "maxDD_R": 25.317302838881325,
     "statuses": {
-      "TRADE": 31,
+      "TRADE": 29,
       "DATA_GAP_ENTRY": 1,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 1,
       "CENSORED_NEEDS_EXTENSION": 1
     }
@@ -42951,14 +42990,15 @@
     "policy": "P1",
     "signals": 18,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 18,
-    "WR": 5.555555555555555,
-    "PF": 0.033920741631163015,
-    "netR": -19.88446226383722,
-    "USD_at_5R": -99.42231131918611,
-    "maxDD_R": 19.88446226383722,
+    "n": 17,
+    "WR": 5.88235294117647,
+    "PF": 0.03574194890546802,
+    "netR": -18.83568747350668,
+    "USD_at_5R": -94.1784373675334,
+    "maxDD_R": 18.835687473506685,
     "statuses": {
-      "TRADE": 18
+      "TRADE": 17,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -44279,15 +44319,16 @@
     "policy": "P1",
     "signals": 127,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 102,
-    "WR": 37.254901960784316,
-    "PF": 0.7156290237567827,
-    "netR": -20.717470474117057,
-    "USD_at_5R": -103.58735237058528,
-    "maxDD_R": 23.031192268097815,
+    "n": 96,
+    "WR": 36.45833333333333,
+    "PF": 0.6604795642008591,
+    "netR": -23.602594697326232,
+    "USD_at_5R": -118.01297348663115,
+    "maxDD_R": 25.916316491307004,
     "statuses": {
-      "TRADE": 102,
+      "TRADE": 96,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 12,
+      "UNRESOLVED_AUTHOR_LOG": 6,
       "DATA_GAP_ENTRY": 13
     }
   },
@@ -44374,15 +44415,16 @@
     "policy": "P1",
     "signals": 81,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 68,
-    "WR": 42.64705882352941,
-    "PF": 0.8107048625989862,
-    "netR": -8.445635084043538,
-    "USD_at_5R": -42.22817542021769,
-    "maxDD_R": 15.517542775729156,
+    "n": 63,
+    "WR": 41.269841269841265,
+    "PF": 0.7045387316105954,
+    "netR": -12.55976608691374,
+    "USD_at_5R": -62.7988304345687,
+    "maxDD_R": 16.82278991075024,
     "statuses": {
-      "TRADE": 68,
+      "TRADE": 63,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 10,
+      "UNRESOLVED_AUTHOR_LOG": 5,
       "DATA_GAP_ENTRY": 3
     }
   },
@@ -44469,16 +44511,17 @@
     "policy": "P1",
     "signals": 46,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 34,
-    "WR": 26.47058823529412,
-    "PF": 0.5654056161753679,
-    "netR": -12.271835390073518,
-    "USD_at_5R": -61.35917695036759,
-    "maxDD_R": 17.515002118483213,
+    "n": 33,
+    "WR": 27.27272727272727,
+    "PF": 0.5911341424752262,
+    "netR": -11.0428286104125,
+    "USD_at_5R": -55.2141430520625,
+    "maxDD_R": 16.285995338822197,
     "statuses": {
-      "TRADE": 34,
+      "TRADE": 33,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
-      "DATA_GAP_ENTRY": 10
+      "DATA_GAP_ENTRY": 10,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -44564,15 +44607,16 @@
     "policy": "P1",
     "signals": 52,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 40,
-    "WR": 30.0,
-    "PF": 0.6412747287791913,
-    "netR": -11.259859776809467,
-    "USD_at_5R": -56.29929888404733,
-    "maxDD_R": 17.515002118483213,
+    "n": 38,
+    "WR": 28.947368421052634,
+    "PF": 0.5986168692245878,
+    "netR": -12.10552479202025,
+    "USD_at_5R": -60.527623960101245,
+    "maxDD_R": 16.285995338822197,
     "statuses": {
-      "TRADE": 40,
+      "TRADE": 38,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "DATA_GAP_ENTRY": 10
     }
   },
@@ -44732,16 +44776,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P1",
-    "signals": 91,
+    "signals": 85,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 91,
-    "WR": 35.16483516483517,
-    "PF": 0.6535131649231323,
-    "netR": -23.440180339689235,
-    "USD_at_5R": -117.20090169844617,
-    "maxDD_R": 25.888312765369637,
+    "n": 85,
+    "WR": 34.11764705882353,
+    "PF": 0.5906802881796278,
+    "netR": -26.32530456289842,
+    "USD_at_5R": -131.6265228144921,
+    "maxDD_R": 28.773436988578826,
     "statuses": {
-      "TRADE": 91
+      "TRADE": 85
     }
   },
   {
@@ -44749,16 +44793,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P2",
-    "signals": 91,
+    "signals": 85,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 91,
-    "WR": 49.45054945054945,
-    "PF": 0.4938587886626998,
-    "netR": -21.333921927453893,
-    "USD_at_5R": -106.66960963726947,
-    "maxDD_R": 22.112791371898332,
+    "n": 85,
+    "WR": 47.05882352941176,
+    "PF": 0.417356419882049,
+    "netR": -23.84243442213458,
+    "USD_at_5R": -119.2121721106729,
+    "maxDD_R": 24.621303866579016,
     "statuses": {
-      "TRADE": 91
+      "TRADE": 85
     }
   },
   {
@@ -44766,16 +44810,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P3",
-    "signals": 91,
+    "signals": 85,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 91,
-    "WR": 61.53846153846154,
-    "PF": 0.5577671708203458,
-    "netR": -18.47308428292207,
-    "USD_at_5R": -92.36542141461035,
-    "maxDD_R": 20.28645835699613,
+    "n": 85,
+    "WR": 60.0,
+    "PF": 0.4697079431730568,
+    "netR": -21.49978859780825,
+    "USD_at_5R": -107.49894298904125,
+    "maxDD_R": 23.313162671882306,
     "statuses": {
-      "TRADE": 91
+      "TRADE": 85
     }
   },
   {
@@ -44783,16 +44827,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P4",
-    "signals": 91,
+    "signals": 85,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 91,
-    "WR": 51.64835164835166,
-    "PF": 0.7721605020306147,
-    "netR": -7.70146045813657,
-    "USD_at_5R": -38.50730229068285,
-    "maxDD_R": 15.348295524877459,
+    "n": 85,
+    "WR": 51.76470588235295,
+    "PF": 0.8012411666112029,
+    "netR": -6.352152830191658,
+    "USD_at_5R": -31.760764150958288,
+    "maxDD_R": 15.189737896932543,
     "statuses": {
-      "TRADE": 91
+      "TRADE": 85
     }
   },
   {
@@ -44800,16 +44844,16 @@
     "cohort": "MATCHED5",
     "period": "ALL",
     "policy": "P5",
-    "signals": 91,
+    "signals": 85,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 91,
-    "WR": 36.26373626373626,
-    "PF": 0.6216538742031175,
-    "netR": -19.58651750914025,
-    "USD_at_5R": -97.93258754570125,
-    "maxDD_R": 25.6274750975238,
+    "n": 85,
+    "WR": 35.294117647058826,
+    "PF": 0.6380213575033225,
+    "netR": -17.85717666119859,
+    "USD_at_5R": -89.28588330599295,
+    "maxDD_R": 23.898134249582135,
     "statuses": {
-      "TRADE": 91
+      "TRADE": 85
     }
   },
   {
@@ -44817,16 +44861,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P1",
-    "signals": 62,
+    "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 62,
-    "WR": 41.935483870967744,
-    "PF": 0.8010608799751415,
-    "netR": -8.265787269422862,
-    "USD_at_5R": -41.32893634711431,
-    "maxDD_R": 15.324065741342833,
+    "n": 57,
+    "WR": 40.35087719298245,
+    "PF": 0.686124360557871,
+    "netR": -12.379918272293065,
+    "USD_at_5R": -61.899591361465326,
+    "maxDD_R": 16.777352727829207,
     "statuses": {
-      "TRADE": 62
+      "TRADE": 57
     }
   },
   {
@@ -44834,16 +44878,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P2",
-    "signals": 62,
+    "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 62,
-    "WR": 46.774193548387096,
-    "PF": 0.4771713505424149,
-    "netR": -15.285372388277919,
-    "USD_at_5R": -76.42686194138959,
-    "maxDD_R": 17.987153789657487,
+    "n": 57,
+    "WR": 42.10526315789473,
+    "PF": 0.3493313408332424,
+    "netR": -19.022891662619614,
+    "USD_at_5R": -95.11445831309807,
+    "maxDD_R": 19.994124817126053,
     "statuses": {
-      "TRADE": 62
+      "TRADE": 57
     }
   },
   {
@@ -44851,16 +44895,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P3",
-    "signals": 62,
+    "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 62,
-    "WR": 61.29032258064516,
-    "PF": 0.5082753797171542,
-    "netR": -14.207156433161561,
-    "USD_at_5R": -71.0357821658078,
-    "maxDD_R": 17.492123178506557,
+    "n": 57,
+    "WR": 57.89473684210527,
+    "PF": 0.36098074466159913,
+    "netR": -18.462867527708756,
+    "USD_at_5R": -92.31433763854378,
+    "maxDD_R": 19.10969751697914,
     "statuses": {
-      "TRADE": 62
+      "TRADE": 57
     }
   },
   {
@@ -44868,16 +44912,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P4",
-    "signals": 62,
+    "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 62,
-    "WR": 50.0,
-    "PF": 0.626872246734283,
-    "netR": -8.651350632687699,
-    "USD_at_5R": -43.25675316343849,
-    "maxDD_R": 15.037645481367571,
+    "n": 57,
+    "WR": 49.122807017543856,
+    "PF": 0.6231077821531127,
+    "netR": -8.492793004742786,
+    "USD_at_5R": -42.46396502371393,
+    "maxDD_R": 14.812882590264762,
     "statuses": {
-      "TRADE": 62
+      "TRADE": 57
     }
   },
   {
@@ -44885,16 +44929,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H1",
     "policy": "P5",
-    "signals": 62,
+    "signals": 57,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 62,
-    "WR": 38.70967741935484,
-    "PF": 0.6484185026783484,
-    "netR": -12.140192775720974,
-    "USD_at_5R": -60.700963878604874,
-    "maxDD_R": 18.665945087297352,
+    "n": 57,
+    "WR": 36.84210526315789,
+    "PF": 0.6514395799064566,
+    "netR": -11.601601927779312,
+    "USD_at_5R": -58.00800963889656,
+    "maxDD_R": 18.024306870934637,
     "statuses": {
-      "TRADE": 62
+      "TRADE": 57
     }
   },
   {
@@ -44902,16 +44946,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P1",
-    "signals": 29,
+    "signals": 28,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 29,
-    "WR": 20.689655172413794,
-    "PF": 0.4186427791086037,
-    "netR": -15.174393070266369,
-    "USD_at_5R": -75.87196535133185,
-    "maxDD_R": 19.43375979867607,
+    "n": 28,
+    "WR": 21.428571428571427,
+    "PF": 0.4393287367847746,
+    "netR": -13.945386290605352,
+    "USD_at_5R": -69.72693145302676,
+    "maxDD_R": 18.204753019015055,
     "statuses": {
-      "TRADE": 29
+      "TRADE": 28
     }
   },
   {
@@ -44919,16 +44963,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P2",
-    "signals": 29,
+    "signals": 28,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 29,
-    "WR": 55.172413793103445,
-    "PF": 0.5316366989233088,
-    "netR": -6.0485495391759825,
-    "USD_at_5R": -30.242747695879913,
-    "maxDD_R": 6.9258359904231375,
+    "n": 28,
+    "WR": 57.14285714285714,
+    "PF": 0.5875522185818431,
+    "netR": -4.819542759514965,
+    "USD_at_5R": -24.097713797574826,
+    "maxDD_R": 5.696829210762122,
     "statuses": {
-      "TRADE": 29
+      "TRADE": 28
     }
   },
   {
@@ -44936,16 +44980,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P3",
-    "signals": 29,
+    "signals": 28,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 29,
-    "WR": 62.06896551724138,
-    "PF": 0.6687892388599949,
-    "netR": -4.2659278497605095,
-    "USD_at_5R": -21.329639248802547,
-    "maxDD_R": 6.365171311589666,
+    "n": 28,
+    "WR": 64.28571428571429,
+    "PF": 0.7393377931209978,
+    "netR": -3.036921070099493,
+    "USD_at_5R": -15.184605350497463,
+    "maxDD_R": 5.1361645319286495,
     "statuses": {
-      "TRADE": 29
+      "TRADE": 28
     }
   },
   {
@@ -44953,16 +44997,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P4",
-    "signals": 29,
+    "signals": 28,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 29,
-    "WR": 55.172413793103445,
-    "PF": 1.0894763584135034,
-    "netR": 0.9498901745511297,
-    "USD_at_5R": 4.749450872755649,
-    "maxDD_R": 3.272104103068084,
+    "n": 28,
+    "WR": 57.14285714285714,
+    "PF": 1.2271151364855217,
+    "netR": 2.1406401745511285,
+    "USD_at_5R": 10.703200872755643,
+    "maxDD_R": 2.6438158752347825,
     "statuses": {
-      "TRADE": 29
+      "TRADE": 28
     }
   },
   {
@@ -44970,16 +45014,16 @@
     "cohort": "MATCHED5",
     "period": "CAL_H2",
     "policy": "P5",
-    "signals": 29,
+    "signals": 28,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 29,
-    "WR": 31.03448275862069,
-    "PF": 0.5680420914906301,
-    "netR": -7.446324733419276,
-    "USD_at_5R": -37.23162366709638,
-    "maxDD_R": 9.434153304847847,
+    "n": 28,
+    "WR": 32.142857142857146,
+    "PF": 0.6101909492498071,
+    "netR": -6.255574733419278,
+    "USD_at_5R": -31.277873667096394,
+    "maxDD_R": 8.243403304847847,
     "statuses": {
-      "TRADE": 29
+      "TRADE": 28
     }
   },
   {
@@ -44987,16 +45031,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P1",
-    "signals": 35,
+    "signals": 33,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 35,
-    "WR": 25.71428571428571,
-    "PF": 0.5158603763098493,
-    "netR": -14.16241745700232,
-    "USD_at_5R": -70.8120872850116,
-    "maxDD_R": 19.43375979867607,
+    "n": 33,
+    "WR": 24.242424242424242,
+    "PF": 0.4644512671547148,
+    "netR": -15.008082472213104,
+    "USD_at_5R": -75.04041236106552,
+    "maxDD_R": 18.204753019015055,
     "statuses": {
-      "TRADE": 35
+      "TRADE": 33
     }
   },
   {
@@ -45004,16 +45048,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P2",
-    "signals": 35,
+    "signals": 33,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 35,
-    "WR": 54.285714285714285,
-    "PF": 0.49510041493853346,
-    "netR": -7.58838497540395,
-    "USD_at_5R": -37.94192487701975,
-    "maxDD_R": 8.367254419848386,
+    "n": 33,
+    "WR": 54.54545454545454,
+    "PF": 0.5165031141610977,
+    "netR": -6.6724922983070405,
+    "USD_at_5R": -33.3624614915352,
+    "maxDD_R": 7.451361742751475,
     "statuses": {
-      "TRADE": 35
+      "TRADE": 33
     }
   },
   {
@@ -45021,16 +45065,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P3",
-    "signals": 35,
+    "signals": 33,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 35,
-    "WR": 62.857142857142854,
-    "PF": 0.6327150531557645,
-    "netR": -5.5023282873705295,
-    "USD_at_5R": -27.51164143685265,
-    "maxDD_R": 7.315702361444588,
+    "n": 33,
+    "WR": 63.63636363636363,
+    "PF": 0.6390817023329923,
+    "netR": -4.963377917965927,
+    "USD_at_5R": -24.816889589829636,
+    "maxDD_R": 6.776751992039986,
     "statuses": {
-      "TRADE": 35
+      "TRADE": 33
     }
   },
   {
@@ -45038,16 +45082,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P4",
-    "signals": 35,
+    "signals": 33,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 35,
-    "WR": 54.285714285714285,
-    "PF": 1.0224267477314366,
-    "netR": 0.2619110712110875,
-    "USD_at_5R": 1.3095553560554374,
-    "maxDD_R": 3.272104103068085,
+    "n": 33,
+    "WR": 54.54545454545454,
+    "PF": 1.1321974734768872,
+    "netR": 1.3864558080531904,
+    "USD_at_5R": 6.932279040265952,
+    "maxDD_R": 2.6438158752347825,
     "statuses": {
-      "TRADE": 35
+      "TRADE": 33
     }
   },
   {
@@ -45055,16 +45099,16 @@
     "cohort": "MATCHED5",
     "period": "HIST_LAST40",
     "policy": "P5",
-    "signals": 35,
+    "signals": 33,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 35,
-    "WR": 34.285714285714285,
-    "PF": 0.5154732324586001,
-    "netR": -9.719817205843746,
-    "USD_at_5R": -48.59908602921873,
-    "maxDD_R": 9.719817205843746,
+    "n": 33,
+    "WR": 33.33333333333333,
+    "PF": 0.5425405847852619,
+    "netR": -8.632114574264797,
+    "USD_at_5R": -43.160572871323986,
+    "maxDD_R": 8.6321145742648,
     "statuses": {
-      "TRADE": 35
+      "TRADE": 33
     }
   },
   {
@@ -45149,15 +45193,16 @@
     "policy": "P1",
     "signals": 124,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 99,
-    "WR": 36.36363636363637,
-    "PF": 0.7063482823417506,
-    "netR": -21.089254568596793,
-    "USD_at_5R": -105.44627284298397,
-    "maxDD_R": 23.1744619760042,
+    "n": 93,
+    "WR": 35.483870967741936,
+    "PF": 0.6499120182156444,
+    "netR": -23.974378791805986,
+    "USD_at_5R": -119.87189395902993,
+    "maxDD_R": 26.059586199213395,
     "statuses": {
-      "TRADE": 99,
+      "TRADE": 93,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 12,
+      "UNRESOLVED_AUTHOR_LOG": 6,
       "DATA_GAP_ENTRY": 13
     }
   },
@@ -45244,15 +45289,16 @@
     "policy": "P1",
     "signals": 78,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 65,
-    "WR": 41.53846153846154,
-    "PF": 0.7976718279383807,
-    "netR": -8.817419178523277,
-    "USD_at_5R": -44.08709589261639,
-    "maxDD_R": 15.660812483635544,
+    "n": 60,
+    "WR": 40.0,
+    "PF": 0.688190297552847,
+    "netR": -12.931550181393487,
+    "USD_at_5R": -64.65775090696744,
+    "maxDD_R": 16.96605961865663,
     "statuses": {
-      "TRADE": 65,
+      "TRADE": 60,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 10,
+      "UNRESOLVED_AUTHOR_LOG": 5,
       "DATA_GAP_ENTRY": 3
     }
   },
@@ -45339,16 +45385,17 @@
     "policy": "P1",
     "signals": 46,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 34,
-    "WR": 26.47058823529412,
-    "PF": 0.5654056161753679,
-    "netR": -12.271835390073518,
-    "USD_at_5R": -61.35917695036759,
-    "maxDD_R": 17.515002118483213,
+    "n": 33,
+    "WR": 27.27272727272727,
+    "PF": 0.5911341424752262,
+    "netR": -11.0428286104125,
+    "USD_at_5R": -55.2141430520625,
+    "maxDD_R": 16.285995338822197,
     "statuses": {
-      "TRADE": 34,
+      "TRADE": 33,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
-      "DATA_GAP_ENTRY": 10
+      "DATA_GAP_ENTRY": 10,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -45434,15 +45481,16 @@
     "policy": "P1",
     "signals": 52,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 40,
-    "WR": 30.0,
-    "PF": 0.6412747287791913,
-    "netR": -11.259859776809467,
-    "USD_at_5R": -56.29929888404733,
-    "maxDD_R": 17.515002118483213,
+    "n": 38,
+    "WR": 28.947368421052634,
+    "PF": 0.5986168692245878,
+    "netR": -12.10552479202025,
+    "USD_at_5R": -60.527623960101245,
+    "maxDD_R": 16.285995338822197,
     "statuses": {
-      "TRADE": 40,
+      "TRADE": 38,
       "REJECTED_MARKET_GEOMETRY_OR_STALE_TARGET": 2,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "DATA_GAP_ENTRY": 10
     }
   },
@@ -51229,14 +51277,15 @@
     "policy": "P1",
     "signals": 12,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 11,
-    "WR": 18.181818181818183,
-    "PF": 0.8172607944588299,
-    "netR": -1.7422512862727462,
-    "USD_at_5R": -8.711256431363731,
-    "maxDD_R": 8.448749251640708,
+    "n": 9,
+    "WR": 22.22222222222222,
+    "PF": 1.054886334483237,
+    "netR": 0.405413576678312,
+    "USD_at_5R": 2.02706788339156,
+    "maxDD_R": 7.3864210553563145,
     "statuses": {
-      "TRADE": 11,
+      "TRADE": 9,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "DATA_GAP_ENTRY": 1
     }
   },
@@ -51317,14 +51366,15 @@
     "policy": "P1",
     "signals": 6,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 5,
-    "WR": 40.0,
-    "PF": 2.411184726813352,
-    "netR": 4.560296813556321,
-    "USD_at_5R": 22.801484067781605,
+    "n": 4,
+    "WR": 50.0,
+    "PF": 3.63052392617413,
+    "netR": 5.645633480222988,
+    "USD_at_5R": 28.228167401114938,
     "maxDD_R": 2.1462011518116384,
     "statuses": {
-      "TRADE": 5,
+      "TRADE": 4,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 1
     }
   },
@@ -51405,14 +51455,15 @@
     "policy": "P1",
     "signals": 6,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 6,
+    "n": 5,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -6.302548099829069,
-    "USD_at_5R": -31.512740499145345,
-    "maxDD_R": 6.302548099829069,
+    "netR": -5.240219903544677,
+    "USD_at_5R": -26.201099517723385,
+    "maxDD_R": 5.240219903544677,
     "statuses": {
-      "TRADE": 6
+      "TRADE": 5,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -51490,14 +51541,15 @@
     "policy": "P1",
     "signals": 5,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 5,
+    "n": 4,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -5.278853953003672,
-    "USD_at_5R": -26.39426976501836,
-    "maxDD_R": 5.278853953003672,
+    "netR": -4.21652575671928,
+    "USD_at_5R": -21.082628783596398,
+    "maxDD_R": 4.21652575671928,
     "statuses": {
-      "TRADE": 5
+      "TRADE": 4,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -52025,14 +52077,15 @@
     "policy": "P1",
     "signals": 11,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 10,
-    "WR": 20.0,
-    "PF": 0.9197717359492015,
-    "netR": -0.6796527245468174,
-    "USD_at_5R": -3.3982636227340866,
-    "maxDD_R": 7.386150689914778,
+    "n": 8,
+    "WR": 25.0,
+    "PF": 1.2321399975857772,
+    "netR": 1.4680121384042408,
+    "USD_at_5R": 7.340060692021204,
+    "maxDD_R": 6.323822493630386,
     "statuses": {
-      "TRADE": 10,
+      "TRADE": 8,
+      "UNRESOLVED_AUTHOR_LOG": 2,
       "DATA_GAP_ENTRY": 1
     }
   },
@@ -52113,14 +52166,15 @@
     "policy": "P1",
     "signals": 6,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 5,
-    "WR": 40.0,
-    "PF": 2.411184726813352,
-    "netR": 4.560296813556321,
-    "USD_at_5R": 22.801484067781605,
+    "n": 4,
+    "WR": 50.0,
+    "PF": 3.63052392617413,
+    "netR": 5.645633480222988,
+    "USD_at_5R": 28.228167401114938,
     "maxDD_R": 2.1462011518116384,
     "statuses": {
-      "TRADE": 5,
+      "TRADE": 4,
+      "UNRESOLVED_AUTHOR_LOG": 1,
       "DATA_GAP_ENTRY": 1
     }
   },
@@ -52201,14 +52255,15 @@
     "policy": "P1",
     "signals": 5,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 5,
+    "n": 4,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -5.23994953810314,
-    "USD_at_5R": -26.1997476905157,
-    "maxDD_R": 5.23994953810314,
+    "netR": -4.177621341818748,
+    "USD_at_5R": -20.88810670909374,
+    "maxDD_R": 4.177621341818748,
     "statuses": {
-      "TRADE": 5
+      "TRADE": 4,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
@@ -52286,14 +52341,15 @@
     "policy": "P1",
     "signals": 4,
     "status": "DIAGNOSTIC_EX_FUNDING",
-    "n": 4,
+    "n": 3,
     "WR": 0.0,
     "PF": 0.0,
-    "netR": -4.216255391277743,
-    "USD_at_5R": -21.081276956388713,
-    "maxDD_R": 4.216255391277743,
+    "netR": -3.1539271949933507,
+    "USD_at_5R": -15.769635974966754,
+    "maxDD_R": 3.1539271949933507,
     "statuses": {
-      "TRADE": 4
+      "TRADE": 3,
+      "UNRESOLVED_AUTHOR_LOG": 1
     }
   },
   {
