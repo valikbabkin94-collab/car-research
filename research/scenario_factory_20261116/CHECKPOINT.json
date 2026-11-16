@@ -1,0 +1,15 @@
+{
+  "stage": "IMPLEMENTED_NOT_INSTALLED",
+  "private_code_sha": "b6b2fef8d501cd6e40765838b325dc3dfba538f0",
+  "private_offline_tests": 47,
+  "public_ci_run": 43860257646,
+  "public_ci_status": "success",
+  "new_forward_trades": 0,
+  "profitability": "NOT_PROVEN",
+  "round4_run": 43842872790,
+  "round4_last_status": "collect_1_in_progress",
+  "next": "Independent Claude audit; owner approval before paper installation; recover S1/S2/S3 source gaps",
+  "desktop_calls": 0,
+  "bybit_keys": 0,
+  "live_changes": 0
+}
