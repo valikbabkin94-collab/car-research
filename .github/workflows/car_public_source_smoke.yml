@@ -1,0 +1,20 @@
+name: Public market source known SHA anchor smoke
+on:
+  push:
+    branches: [research/round4-cont]
+    paths: [.github/workflows/car_public_source_smoke.yml]
+permissions: {contents: read}
+jobs:
+  public_source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pandas==2.2.3
+      - run: python tools/smoke_public_source.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: public-source-anchor-receipt, path: 'work/smoke/*.json', retention-days: 7}
