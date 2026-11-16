@@ -137,7 +137,11 @@ def calc(source,work,mode):
  periods=[('TRAIN',START,HALF-PURGE)] if mode=='train' else [('H2',HALF,END-PURGE),('TAIL40',TAIL,END-PURGE)]
  for label,lo,hi in periods:
   for v in CFG['variants']:
-   name=v['name'];rows=[];pairs=[];active={};packets=sorted([p for p in data['packets'] if p['name']==name and lo<=p['signal_ms']<hi],key=lambda p:(p['symbol'],p['observed_ms']))
+   name=v['name'];chunk=results/'chunks'/(label+'_'+name+'.json.gz');fingerprint=dict(config=sha((LAB/'CONFIG_FROZEN.json').read_bytes()),driver=sha(Path(__file__).read_bytes()),engine=sha((LAB.parents[0]/'pf_execution_common_20261116/engine.py').read_bytes()),sources=sha((Path(work)/'SOURCE_CHECKPOINT.json').read_bytes()) if (Path(work)/'SOURCE_CHECKPOINT.json').exists() else None)
+   if chunk.exists():
+    cached=gzread(chunk)
+    if cached['fingerprint']==fingerprint:tables.append(cached['stat']);control.append(cached['control']);allrows.extend(cached['rows']);print('REUSED_COMPLETE_PROFILE',label,name,flush=True);continue
+   rows=[];pairs=[];active={};packets=sorted([p for p in data['packets'] if p['name']==name and lo<=p['signal_ms']<hi],key=lambda p:(p['symbol'],p['observed_ms']))
    for p in packets:
     if p.get('pre_status'):rows.append(dict(symbol=p['symbol'],signal_ms=p['signal_ms'],status=p['pre_status'],name=name));continue
     if active.get(p['symbol'],0)>p['observed_ms']:rows.append(dict(symbol=p['symbol'],signal_ms=p['signal_ms'],status='REJECTED_ALREADY_OPEN',name=name));continue
@@ -151,7 +155,7 @@ def calc(source,work,mode):
    blocks=collections.defaultdict(float)
    for z in pairs:blocks[z['day']]+=z['actual_R']-z['mirror_R']
    delta=np.array(list(blocks.values()));observed=float(delta.sum());rng=np.random.default_rng(CFG['control_seed']+sum(map(ord,name+label)));null=(rng.choice([-1,1],size=(CFG['controls'],len(delta)))@delta) if len(delta) else np.array([]);pval=(1+int(np.sum(null>=observed)))/(len(null)+1) if len(null) and stat['n']>=5 else 1.
-   stat.update(control_p=pval,control_day_blocks=len(delta));tables.append(stat);control.append(dict(name=name,period=label,observed_delta_R=observed,p=pval,draws=len(null),null_delta_R=null.tolist(),pair_n=len(pairs)));allrows.extend(rows);print(mode,label,name,'n',stat['n'],'netR',round(stat['netR'],3),flush=True)
+   stat.update(control_p=pval,control_day_blocks=len(delta));tables.append(stat);ctrl=dict(name=name,period=label,observed_delta_R=observed,p=pval,draws=len(null),null_delta_R=null.tolist(),pair_n=len(pairs));control.append(ctrl);allrows.extend(rows);gzsave(chunk,dict(fingerprint=fingerprint,stat=stat,control=ctrl,rows=rows));print(mode,label,name,'n',stat['n'],'netR',round(stat['netR'],3),flush=True)
  gzsave(results/'ALL_TRADES.json.gz',allrows);save(results/'TABLES.json',tables);save(results/'CONTROLS.json',control);save(results/'CODE_AND_CONFIG.json',dict(config_sha256=sha((LAB/'CONFIG_FROZEN.json').read_bytes()),code_sha=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),mode=mode,source_checkpoint_sha=sha((Path(work)/'SOURCE_CHECKPOINT.json').read_bytes()) if (Path(work)/'SOURCE_CHECKPOINT.json').exists() else None))
  if mode=='train':
   winners={}
