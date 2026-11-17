@@ -1,0 +1,34 @@
+{
+  "task": "RECHECK_1M_20261118",
+  "stage": "PRE_NEW_PNL",
+  "source_pins": {
+    "audit_branch": "feat/tg-only-live-20261111",
+    "audit_blob": "bcb7dd0a731cec1ab3cbe2956ea64bc1a6bae4d6",
+    "dump": "836da46b018d3fa831815531db6009e7b667e89a",
+    "ideas": "d851889e0ef79aa473ff5695adf1967f2710eb2c",
+    "night": "8a18f841ec78811b3b47f14cd46e32acffcbae18",
+    "listings": "e54b0b8de1b606885c929acae5efc4f099ae91ec"
+  },
+  "universe": "Frozen original saved signals/trades only; no new scanning, aliases or extra successes. DUMP PRIMARY1141 original fills, preserve all records including missing minute quotes. Report RAW and frozen original TOP50; no logistic retraining.",
+  "models": [
+    "DUMP_RAW",
+    "DUMP_TOP50",
+    "IDEAS_A",
+    "IDEAS_B",
+    "IDEAS_C",
+    "LISTING_A5",
+    "LISTING_B10",
+    "NIGHT_SKIP_LOWVOL_LOWATR"
+  ],
+  "execution": "Only replace hourly ordering by real1m ordering; original signal/order geometry, stop/targets, exit fractions, BE and time horizon remain. Minute OHLC still not tick order: stop-first when simultaneous; entry-minute TP conservative if high may precede limit fill. Separate TP before/after entryminute ambiguity and BE re-touch flags. Require continuous minutes and real reachable original price; missing/nonlisted symbols explicit DATA_GAP, never substitute synthetic prices or other venue silently.",
+  "dump": "Original long limit / entry reference and original filled hour retained. Find original entry price reachable inside that hour; original fixed stop .056, TP .021/.042/.063, weights .5/.3/.2, BE after TP,72h from original hour, fixed flat cost .0021; signalR=(gross-.0021)/(.056+.0021). This is fixed-price execution-order audit, not regenerated fills. Funding primary original comparison excluding funding, additional actual-funding sensitivity if available and missing-rate0±.01%/8h flagged.",
+  "top50": "Frozen selected flags/score/threshold .6182651061924588; no fit on revised minute outcomes. Minute-H1 choose RAW vs TOP50 by netR among >=95% price coverage and n>=30, raw max also reported; H2 no reselect.",
+  "ideas": "A/B/C use exact original signals, next-hour entry,1.5ATR14 stop,50/25/25 at1/2/3R,BE24h,5.5bp fills,5bp entry/stop/time. Missing exact saved signals/code is DATA_BLOCKED; later different cohorts not substitutes.",
+  "night": "Fixed exclusion if volatility_30d_pct<=3.3569653056922872 AND atr14_1h_pct<=.9425751536145069. Apply original saved MGR_R and RANDOM_R to same deduplicated rows. This is skip-filter, not trade-in-lowvol regime. No new thresholds. Features strictly causal, exact saved dataset preferred; absent dataset DATA_BLOCKED.",
+  "listings": "Original protocol already 1m, H1 A5−.348R/trade,B10−.037R/trade. Reuse completed63/62 minute results, no new replay. Additional last40/control/BH only from saved per-trade rows; absent rows DATA_GAP, aggregates not fabricated into rows.",
+  "splits": "Original split boundaries and purge by source preserved. Last40 time cutoff=start+.6*(end-start), overlaps H2; native night original60/40 also explicit. Previously viewed H2 not fresh independent OOS.",
+  "random": "DUMP reuse frozen original matched one random time per original signal, same symbol/hour/half seeded20261113; use its frozen hour reference and same minute replay. No replacement random sample for failed/unsupported paths. Ideas/listings/night saved controls reused when present. Paired daily-cluster sign test9999 fixedseed20261118; unknown p=1 in BH family8, H2 and last40 separately.",
+  "promotion": "Only H1-chosen candidate, n>=30 each evaluated split, coverage>=.95, netR>0 PF>=1.3 both H1/H2 andlast40, positive excess and BHq<=.10, costs/funding stress no sign flip, top3 share<=.5, no material data ambiguity. At most PROMISING due old exposed history; variants enabled=false only. Otherwise REJECTED/INCONCLUSIVE/DATA_BLOCKED.",
+  "resources": "Actions only for market replay, reuse verified minute cache run44092086995. Bounded symbol shards; fixed profiles only. Preserve all negative outcomes, individual logs, manifests/SHA/checkpoints. No repeat successful jobs.",
+  "safety": "GitHub research only; no Desktop, exchange keys, orders, Telegram sessions, runtime/services/VPN/main merge."
+}
