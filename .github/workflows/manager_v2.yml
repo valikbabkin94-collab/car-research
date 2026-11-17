@@ -1,0 +1,60 @@
+name: CAR manager all scenarios v2 frozen grid
+on:
+  workflow_dispatch:
+  push:
+    branches: [research/manager-all-scenarios]
+    paths: [.github/workflows/manager_v2.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  manager_v2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      LAB_ASOF_MS: '1794919920000'
+      PIT_SOURCE_SHA: d3c667f95ee38ef8eae18214b14d94960846f5aa
+      LIVE_INPUT_SHA: 344bae6455571ca64ecf2709bf7b9edf8cfb71c2
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 numba==0.61.2
+      - name: Synthetic execution regression tests
+        run: PYTHONPATH=v2 python -m unittest discover -s v2/tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-code-results-checkpoints
+          run-id: '44092086995'
+          path: inputs_v1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          run-id: '43874717889'
+          path: source
+          github-token: ${{ github.token }}
+      - name: Frozen isolated study
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: v2/results
+        run: PYTHONPATH=v2 python -u -m lab.runner v2
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: manager-v2-results
+          path: v2/results
+          retention-days: 14
+      - name: Preserve own result and checkpoint without replacing parallel results
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: v2/results
+          LAB_BRANCH: research/manager-all-scenarios
+          LAB_ROOT: v2
+          LAB_PART: v2
+        run: python v2/publish_results.py
