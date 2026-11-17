@@ -21,6 +21,7 @@ class Data:
   for p in Path(metadata).rglob("DATA_INVENTORY.json"):
    for r in json.load(p.open()):
     if r["status"]=="AVAILABLE":manifest[r["symbol"]]=r["npz_sha256"]
+  if not files or not manifest:raise ValueError("NO_VERIFIED_CARRY_INPUTS")
   self.symbols=[p.stem for p in files];self.times=np.arange(ms("2025-10-01"),ms("2026-11-01")+H,H,dtype=np.int64);n=len(files);T=len(self.times);self.spot=np.full((n,T,4),np.nan);self.perp=np.full((n,T,4),np.nan);self.mark=np.full((n,T,4),np.nan);self.latest=np.full((T,n),np.nan);self.previous=self.latest.copy();self.avg72=self.latest.copy();self.fresh=np.zeros((T,n),bool);self.cover=np.zeros((T,n),bool);self.cashrate=np.zeros((T,n));self.hashes={};self.issues=[]
   for j,p in enumerate(files):
    digest=hashlib.sha256(p.read_bytes()).hexdigest()
@@ -44,13 +45,14 @@ class Data:
 def trade_return(q,S0,P0,S1,P1,fund,fees):return q*((S1-S0)+(P0-P1))+fund-fees
 
 def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
- start,end=PERIODS[period];si=int(np.searchsorted(d.times,start));ei=int(np.searchsorted(d.times,end));cash=100.;pos={};equity=[dict(time_ms=start,equity=100.)];events=[];trades=[];stats=dict(funding_cash=0.,positive_funding_cash=0.,negative_funding_cash=0.,spot_price_PnL=0.,perp_price_PnL=0.,fees=0.,slippage_cost=0.,liquidation_penalty=0.,margin_below50_episodes=0,proxy_liquidations=0,mark_proxy_hours=0,funding_unknown_position_hours=0,position_hours=0,order_filter_rejected=0,maker_missed=0,maker_unhedged_aborts=0,maker_touch_assumption=variant=="FC5");gap=None;nextid=0;minmargin=1.;min_equity_notional=1.;maxnav=100.;dd=0.;ddbound=0.;pending_abort=[];cooldown=set()
+ start,end=PERIODS[period];si=int(np.searchsorted(d.times,start));ei=int(np.searchsorted(d.times,end));cash=100.;pos={};equity=[dict(time_ms=start,equity=100.)];events=[];trades=[];stats=dict(funding_cash=0.,positive_funding_cash=0.,negative_funding_cash=0.,spot_price_PnL=0.,perp_price_PnL=0.,fees=0.,slippage_cost=0.,liquidation_penalty=0.,margin_below50_episodes=0,proxy_liquidations=0,mark_proxy_hours=0,funding_unknown_position_hours=0,position_hours=0,unknown_funding_abs_stress_USD=0.,basis_rejected=0,order_filter_rejected=0,maker_missed=0,maker_unhedged_aborts=0,maker_touch_assumption=variant=="FC5");gap=None;nextid=0;minmargin=1.;min_equity_notional=1.;maxnav=100.;dd=0.;ddbound=0.;pending_abort=[];cooldown=set();mark_proxy_seen=set()
  def quote(j,i,kind="spot"):
   return d.quote(kind,j,i)
  def mark(j,i):
   a=quote(j,i,"mark")
   if a is None:
-   a=quote(j,i,"perp");stats["mark_proxy_hours"]+=int(a is not None)
+   a=quote(j,i,"perp")
+   if a is not None and(j,i)not in mark_proxy_seen:stats["mark_proxy_hours"]+=1;mark_proxy_seen.add((j,i))
   return a
  def total(i,field=0):
   value=cash
@@ -88,7 +90,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
    if quote(j,i)is None or quote(j,i,"perp")is None:
     gap=dict(time_ms=t,symbol=d.symbols[j],reason="HELD_LEG_PRICE_GAP");break
    stats["position_hours"]+=1
-   if not d.cover[i,j]or not d.fresh[i,j]:stats["funding_unknown_position_hours"]+=1
+   if not d.cover[i,j]or not d.fresh[i,j]:stats["funding_unknown_position_hours"]+=1;stats["unknown_funding_abs_stress_USD"]+=p["q"]*quote(j,i,"perp")[0]*.0001/8
    if p["px"]is None and i>p["entry_i"]:
     a=mark(j,i);rate=d.cashrate[i,j]
     if a is not None and rate:
@@ -141,7 +143,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
   for j in open_candidates:
    if cash<=0 or per_slot<=0:break
    s=quote(j,i);pp=quote(j,i,"perp")
-   if variant=="FC6"and abs(pp[0]/s[0]-1)>.001:continue
+   if variant=="FC6"and abs(pp[0]/s[0]-1)>.001:stats["basis_rejected"]+=1;continue
    maker=variant=="FC5";sf=.001;pf=.0002 if maker else .00055;ps=quote(j,i-1)if maker else None;pprev=quote(j,i-1,"perp")if maker else None
    if maker and(ps is None or pprev is None):continue
    se=ps[3]if maker else s[0]*(1+slip);pe=pprev[3]if maker else pp[0]*(1-slip);budget=min(cash,per_slot);q=budget/(se*(1+sf)+pe/leverage+pe*pf)
