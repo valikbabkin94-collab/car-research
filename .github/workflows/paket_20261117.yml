@@ -1,0 +1,20 @@
+name: CAR parallel research package 20261117
+on:
+  push:
+    branches: [research/paket-20261117]
+    paths: [.github/workflows/paket_20261117.yml]
+permissions: {contents: write}
+jobs:
+  part4_unlocks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - run: python research/paket_20261117/part4_unlocks/audit.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paket-part4-unlock-audit
+          path: research/paket_20261117/part4_unlocks
+          retention-days: 14
