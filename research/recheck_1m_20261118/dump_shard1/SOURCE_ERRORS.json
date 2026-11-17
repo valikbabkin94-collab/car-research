@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-11-03",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-11-04",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-11-05",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-11-06",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AXISUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "DNAUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "DNAUSDT",
+    "period": "2026-11-02",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "DNAUSDT",
+    "period": "2026-11-03",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "DNAUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]
