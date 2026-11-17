@@ -6,7 +6,21 @@
     "2026-11-01T00:00:00Z"
   ],
   "warmup": "2025-10-01",
-  "split": "calendar midpoint of fixed period, last40% starts at60% elapsed",
+  "split": {
+    "H1": [
+      "2025-11-01",
+      "2026-05-01"
+    ],
+    "H2": [
+      "2026-05-01",
+      "2026-11-01"
+    ],
+    "LAST40": [
+      "2026-06-08",
+      "2026-11-01"
+    ],
+    "monthly": "H1/H2 six complete months; LAST40 full calendar monthsJuly-October for mean/median/worst, partialJune shown separately; net includes whole146days"
+  },
   "capital_USDT": 100,
   "variants": {
     "FC1": "two last settled8h-normalized rates >=0.0003; exit latest<0.0001 or168h",
@@ -29,13 +43,13 @@
     ],
     "four_orders_per_full_cycle": true
   },
-  "funding": "Cash uses actual raw rate and actual payout interval; normalized per8h ONLY for decisions. Signals only from payout timestamps strictly before decision hour, no forecast rates/future quotes. New fills cannot claim current-hour payment; existing hedges paid first. Funding retained in short isolated wallet until close, negative funding charged.",
+  "funding": "Cash uses actual raw rate and actual payout interval; normalized per8h ONLY for decisions. Signals only from payout timestamps strictly before decision hour, no forecast rates/future quotes. New fills cannot claim current-hour payment; existing hedges paid first. Funding retained in short isolated wallet until close, negative funding charged. Decision cutoff strictly ts<current hour, so same-hour just-settled rate not available before next hour. Payout bucket floor(ts/1h) applied only to pre-existing positions before new fills; new position cannot collect payment in its entry hour.",
   "valuation": "Spot tradeOHLC, perp tradeOHLC for real basis entry/exit, perp historical markOHLC for funding and isolated-margin risk. Funding mark proxy hourlyopen at payout bucket; flagmissingmark. Full combined MTM hourly plus conservative lowspot/highperp envelope, not exact tick drawdown.",
   "margin": "L1 andL2 separately. Report event count margin equity<50% of initial short collateral, equity/notional ratio separately. MMR0.5% illustrative, stress1%; liquidation at proxy barrier or adverse gap, perp fee+0.5% liquidation penalty, spot flatten next available hourOpen; no cash transfer from unrealised spot profit. Unknown historical liquidation brackets flagged, no execution-ready claim.",
   "data": "Historicalspot/perp S3 catalogue including delisted; exact same USDT symbol only, contract-multiplier mismatches DATA_GAP. Reuse savedfunding artifact43874717889 SHA2c16f80aec090a547ef96020135cbd842dc549741878de3c50acdcdc8041e30d; extend only missing coverage. No synthetic price history; source SHA/CHECKSUM checked. No current symbol snapshot used for historicaluniverse.",
   "missing": "A held leg without real price causes DATA_GAP/censored affected returns, no fabricated fill/forwardfilled tradable price. No unknown funding treated as verified0; actual known cash plus uncertainty log; validity needs>=99% position-hour price and funding coverage. Histories before listing naturally unavailable. No post-outcome universe selection.",
   "small_balance": "Continuous-quantity economic model. Independently audit hypothetical minnotional5/10/25/100 and minimum collateral; historical Bybit lot/minnotional filters missing, do not claim executable100USDT. Exact Bybit fee tier, transfers, collateral haircuts/ADL not assumed known.",
-  "selection": "Freeze winner by H1 netROI atL1 baselinecost among six, including negative cases; no switching by H2. L2 is capital-efficiency/margin comparison, not independent edge. All six H2/last40 shown as diagnostic, only frozen winner qualifies. H1 is liquidated/charged4tradecosts at segmentend; H2 and last40 startflat with100 and historicalwarmup. Last40 overlapsH2, not independent replication.",
+  "selection": "Freeze winner by H1 netROI atL1 baselinecost among six, including negative cases; no switching by H2. L2 is capital-efficiency/margin comparison, not independent edge. All six H2/last40 shown as diagnostic, only frozen winner qualifies. H1 is liquidated/charged4tradecosts at segmentend; H2 and last40 startflat with100 and historicalwarmup. Last40 overlapsH2, not independent replication. FULL12months continuous100 is descriptive, not OOS; validation decision frozen before H2 jobs.",
   "worth": "Economic opinion threshold declaredbeforePnL: winner H2 mean>=1USD/mo per100,median>0,worst>=-5USD and both H2/last40 netpositive,no proxyliquidation, adversecost netpositive. FC5 touch-only evidence or missinglot constraints prevents live-worth claim; recommend paper only at most. Annualized return is extrapolation, not guarantee.",
   "output": [
     "DATA_INVENTORY",
