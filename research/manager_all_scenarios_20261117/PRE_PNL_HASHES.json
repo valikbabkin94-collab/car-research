@@ -1,0 +1,12 @@
+{
+  "run.py": "bf8bf3eddc2cd6af944ce34cb1732be902b3057ce68ed5cb662053b9b7e5c9f5",
+  "engine.py": "30bed5a619f7432478e152defd2324ae1049c3bf32984e86cfd42cf450baa378",
+  "ENTRIES.json.gz": "1f92405785b7478755aa7cf89ac23f5d841986b3a02f73cae6367b4c80c21f0d",
+  "EXCLUDED_INPUTS.json.gz": "b099fd343ac2312bb2926ea6554a65f7129f87acea8592f994c16dd344f720c2",
+  "EXPERIMENT_GRID.json": "5951b5597140bbb5e1171bac8b9f4853e50620af0ab65a47098d2cf4d9235aa4",
+  "PROTOCOL_PRE_PNL_RU.md": "e7abf4994c48c8c9e4f25645631f7a6c3bd8d2bf3e92615c7e20f6b30adb3aa0",
+  "SOURCE_MANIFEST.json": "4c38a486fad894a636c77e1ed47ef012f3e2fe4821189e111d24747a16a8ea30",
+  "vendor/pure_manager.py": "c4041a2d90c964a9d18ae9391dfc5570cebd5f034a9f242cc3c04abf513e6537",
+  "vendor/PROVENANCE.json": "c15cdf5940a08d1b15838781c288856dbded85c2ba3b800c8fa1c64c52e7d7cb",
+  "vendor/market.py": "4facab0b68cae860f5d20fe6e84fde3e3650581ad647efe1ff28b784a95a06e8"
+}

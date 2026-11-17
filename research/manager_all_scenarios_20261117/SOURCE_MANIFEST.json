@@ -1,0 +1,137 @@
+[
+  {
+    "name": "PF_BASE",
+    "branch": "research/pf-live-vs-backtest",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/RESULTS/BE_ALIGNED_5M.jsonl.gz",
+    "sha256": "101c6c4dbc7a33a0535ee6a2115a228e31bd629091a8aab2c91c4f495c304d7a",
+    "bytes": 149235,
+    "local": "PF_BASE.gz"
+  },
+  {
+    "name": "RUBIK_TRAIN",
+    "branch": "research/pf-rubik",
+    "commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "path": "research/pf_rubik_20261116/RESULTS/train/ALL_TRADES.json.gz",
+    "sha256": "50f548412c5bd095327622762b0c559817459f4872d14efd2a5cdff85d3e0ca0",
+    "bytes": 831637,
+    "local": "RUBIK_TRAIN.gz"
+  },
+  {
+    "name": "RUBIK_H2",
+    "branch": "research/pf-rubik",
+    "commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "path": "research/pf_rubik_20261116/RESULTS/validation/ALL_TRADES.json.gz",
+    "sha256": "bd8d0d781abf2ce57937445c1a1118938cc0921c6813bb16721648dfdfdd25f7",
+    "bytes": 1149849,
+    "local": "RUBIK_H2.gz"
+  },
+  {
+    "name": "S1",
+    "branch": "research/s1-s3-history",
+    "commit": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+    "path": "research/s1_s3_history_20261116/RESULTS/S1_TRADES.json.gz",
+    "sha256": "69ac25b890b34e381e80351d9b6a7d2f56afac4dd76152899614fd307fbc76bc",
+    "bytes": 15711,
+    "local": "S1.gz"
+  },
+  {
+    "name": "S2",
+    "branch": "research/s1-s3-history",
+    "commit": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+    "path": "research/s1_s3_history_20261116/RESULTS/S2_BINANCE_REPLAY_TRADES.json.gz",
+    "sha256": "1e79d45b8882408c23f8812824153f7eb68b0b2bdd9b6f68bb70eb2e92949a92",
+    "bytes": 746,
+    "local": "S2.gz"
+  },
+  {
+    "name": "S3",
+    "branch": "research/s1-s3-history",
+    "commit": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+    "path": "research/s1_s3_history_20261116/RESULTS/S3_TRADES.json.gz",
+    "sha256": "41df839771d57a8f8dd9f1ebd77d1d56f9a3a05cdabac1fd723b9d2c562fcbe7",
+    "bytes": 147308,
+    "local": "S3.gz"
+  },
+  {
+    "name": "CHANNEL_P1",
+    "branch": "research/channels-audit-v2",
+    "commit": "99c7f56ce98355abfd6e70610b296f09d4b02f4d",
+    "path": "research/channels_audit_v2_20261116/RESULTS/ALL_POLICY_TRADES.json.gz",
+    "sha256": "1f6629615f3edb45a3cf539496f0ff8b0f6a3b150dbf581038da3f1525bf80b7",
+    "bytes": 817093,
+    "local": "CHANNEL_P1.gz"
+  },
+  {
+    "name": "TEXT",
+    "branch": "research/text-signals-audit",
+    "commit": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+    "path": "research/text_signals_audit_20261116/FULL_RESULTS/ALL_TRADES.json.gz",
+    "sha256": "9e94111202f45e0b1762adc9158e11a4d8534c178cc7d96e0e7db32f9b078f52",
+    "bytes": 124489,
+    "local": "TEXT.gz"
+  },
+  {
+    "name": "TEXT_PLANS",
+    "branch": "research/text-signals-audit",
+    "commit": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+    "path": "research/text_signals_audit_20261116/inputs/FULL_374_PLANS.json.gz",
+    "sha256": "0073b6b3bd41263703c45efc1e2989de54e4d4d24059c6f865230071ba51788b",
+    "bytes": 28352,
+    "local": "TEXT_PLANS.gz"
+  },
+  {
+    "name": "SPEC",
+    "branch": "research/text-signals-audit",
+    "commit": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+    "path": "research/text_signals_audit_20261116/speculantka_v1/RESULTS/ALL_TRADES.json.gz",
+    "sha256": "b48b7e45f6722b1ae3d99ab12ab32cf38ad44681268a8d9719f8f774d04cf239",
+    "bytes": 241927,
+    "local": "SPEC.gz"
+  },
+  {
+    "name": "G3",
+    "branch": "research/round4-cont",
+    "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "path": "reports/run-43842872790/artifacts/G3_15M/NO_QUALITY_TRADES.jsonl.gz",
+    "sha256": "16857701b0620406c8d4d67f0d775c878a8d9885c3f055262848c47eadee4c0a",
+    "bytes": 439418,
+    "local": "G3.gz"
+  },
+  {
+    "name": "L30_LONG_ONLY",
+    "branch": "research/round4-cont",
+    "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "path": "reports/run-43842872790/artifacts/R1_15M/L30_LONG_ONLY_EXECUTIONS.csv.gz",
+    "sha256": "143f9aa7c0d19b9f73861ed8cb98483a2dff289e177d9a7456cab3bb94c838e9",
+    "bytes": 80905,
+    "local": "L30_LONG_ONLY.gz"
+  },
+  {
+    "name": "L30_LONG_SHORT",
+    "branch": "research/round4-cont",
+    "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "path": "reports/run-43842872790/artifacts/R1_15M/L30_LONG_SHORT_EXECUTIONS.csv.gz",
+    "sha256": "ed0ea4325b8bf28601ef71689b498d24408d31a203995ce32b956af7aa4fa996",
+    "bytes": 127246,
+    "local": "L30_LONG_SHORT.gz"
+  },
+  {
+    "name": "L90_LONG_ONLY",
+    "branch": "research/round4-cont",
+    "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "path": "reports/run-43842872790/artifacts/R1_15M/L90_LONG_ONLY_EXECUTIONS.csv.gz",
+    "sha256": "11054ddb82b44eff05822371b150b00d9cea34936082e30c6abe6d5a2335c8e6",
+    "bytes": 71967,
+    "local": "L90_LONG_ONLY.gz"
+  },
+  {
+    "name": "L90_LONG_SHORT",
+    "branch": "research/round4-cont",
+    "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "path": "reports/run-43842872790/artifacts/R1_15M/L90_LONG_SHORT_EXECUTIONS.csv.gz",
+    "sha256": "28b027a7c708fb3d6cd90141aa5159734ae1367fe710f3530bd180e0f6f7add0",
+    "bytes": 112206,
+    "local": "L90_LONG_SHORT.gz"
+  }
+]

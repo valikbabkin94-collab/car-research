@@ -1,0 +1,32 @@
+{
+  "version": "MANAGER_ALL_V1",
+  "step0_R_price_fraction": 0.01,
+  "controls": 200,
+  "random_seed": 20261117,
+  "edge_gate_train_only": true,
+  "managers": {
+    "X0": "immutable native reference; not selectable without exact original replay",
+    "X1": "AST reused CAR manager, 1.5ATR14 H1,50/25/25,BE at entry,24h",
+    "X2": "X1 + extracted giveback .5 after TP1 and >=1 manager R",
+    "X3": "SL1%,TP1.5%",
+    "X4": "SL1%,50% TP1%,remaining1ATRtrail",
+    "X5": "1.5ATR trailing from entry",
+    "X6": "SL1%,time4h",
+    "X7": "SL1%,time24h",
+    "X8": "SL1%,TP.5%",
+    "X9": "SL2%,TP2%"
+  },
+  "mirrors": [
+    "X1",
+    "X3",
+    "X6",
+    "X7"
+  ],
+  "taKer": 0.00055,
+  "maker": 0.0002,
+  "market_slip": 0.0005,
+  "source_rows": 9935,
+  "actual_scenarios": 35,
+  "missing_scenarios": 10,
+  "purge_train_hours": 72
+}

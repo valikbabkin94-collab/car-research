@@ -1,0 +1,10 @@
+{
+  "private_repo": "valikbabkin94-collab/Crypto-Auto-Radar",
+  "ref": "feat/tg-only-live-20261111",
+  "commit": "785023289ba7395fe0ca2c3f44215e7a16955198",
+  "source_sha256": {
+    "current_manager_mode.py": "2bba4c843b5fe5abdc0c3e3ff4d680968ca2f591f74e8cfc9fdcce2efabc13ee",
+    "current_CarFastPathV1.py": "14bb19cff0bdecdc65618e12437a1612eaeb7f2043dfdcfe01850b023c718167"
+  },
+  "extraction": "AST verbatim atr_from_closed_hours, geometry assignments, _desired_stop, _reversal_exit only; PureManager stubs command list empty and BE delay true; manager branch currently immediate BE and 24h cap. No runtime imports/network/order code."
+}
