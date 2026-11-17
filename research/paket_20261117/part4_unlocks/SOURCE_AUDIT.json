@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-11-17T16:30:15.146609+00:00",
+  "sources": [
+    {
+      "url": "https://api.llama.fi/emissions",
+      "status": "UNAVAILABLE",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://api.github.com/repos/DefiLlama/emissions-adapters",
+      "status": "UNAVAILABLE",
+      "error": "HTTPError"
+    }
+  ],
+  "additional_verified_statuses": [
+    {
+      "url": "https://api.llama.fi/emissions",
+      "http_status": 402
+    },
+    {
+      "url": "https://api.github.com/repos/DefiLlama/emissions-adapters",
+      "http_status": 404
+    }
+  ],
+  "searches": [
+    {
+      "query": "org%3ADefiLlama+emissions",
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "results": []
+    },
+    {
+      "query": "historical+token+unlocks",
+      "sha256": "64ed932c5519fca5bac939ce158d30e4ea697db59e7f9e86ee0f1490bf30ef64",
+      "results": [
+        {
+          "repository": "44qxv7xkfd-source/woocalc",
+          "description": "WOO Token Unlock Calculator - Calculate sell amounts based on historical WOO-USD prices"
+        },
+        {
+          "repository": "officialhulk40-coder/Unlock-Pressure",
+          "description": "Strategy Skill for spotting token unlock events that may create near-term sell pressure. It is fixture-backed: the CLI reads local unlock schedules, token supply, quote, volume, and historical price-path evidence; classifies the pressure levelemits a reviewable strategy card; and replays the top event against fixture prices."
+        }
+      ]
+    }
+  ]
+}

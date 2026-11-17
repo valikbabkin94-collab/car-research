@@ -1,0 +1,14 @@
+{
+  "status": "DATA_BLOCKED_PUBLIC_ACCESS_AND_NO_VALIDATED_PIT_INPUT",
+  "PnL_run": false,
+  "reason": "Llama endpoint HTTP402, queried adapter repository HTTP404. Search returned a single-token calculator and a fixture-backed skill, not a validated market-wide PIT unlock ledger. This does not prove no such archive exists.",
+  "required_fields": [
+    "symbol",
+    "unlock_time_utc",
+    "unlocked_amount",
+    "historical_supply",
+    "first_known_utc",
+    "source_url",
+    "source_commit_or_snapshot_sha"
+  ]
+}
