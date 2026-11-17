@@ -1,0 +1,201 @@
+name: PF HEDGED six frozen models H1 then validation and controls
+on:
+  push:
+    branches: [research/pf-hedged]
+    paths: [.github/workflows/pf_hedged_models.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    strategy:
+      fail-fast: false
+      matrix: {shard: [0, 1, 2, 3]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/pf_hedged_20261117 python -m pytest -q research/pf_hedged_20261117/test_hedge.py
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pfh-assets*
+          run-id: '44169150415'
+          path: assets
+          github-token: ${{ github.token }}
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pfh-source-inventory*
+          run-id: '44169150415'
+          path: metadata
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: pfh-paths${{ matrix.shard }}
+          run-id: '44171887648'
+          path: paths/shard${{ matrix.shard }}
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: carrymarks
+          github-token: ${{ github.token }}
+          merge-multiple: true
+      - name: Calculate frozen train only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODEL_PHASE: train
+          MODEL_SHARD: ${{ matrix.shard }}
+        run: PYTHONPATH=research/pf_hedged_20261117 python -u research/pf_hedged_20261117/run_model.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: train_shard${{ matrix.shard }}
+          path: research/pf_hedged_20261117/train_shard${{ matrix.shard }}
+          retention-days: 90
+      - name: Publish research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/train_shard${{ matrix.shard }}
+        run: python research/pf_hedged_20261117/publish.py
+      - name: Persist already completed short paths without recalculation
+        run: |
+          mkdir -p research/pf_hedged_20261117/paths_shard${{ matrix.shard }}
+          cp paths/shard${{ matrix.shard }}/* research/pf_hedged_20261117/paths_shard${{ matrix.shard }}/
+          cp research/pf_hedged_20261117/train_shard${{ matrix.shard }}/RECOVERED_PATH_CHECKPOINT.json research/pf_hedged_20261117/paths_shard${{ matrix.shard }}/CHECKPOINT.json
+      - name: Publish research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/paths_shard${{ matrix.shard }}
+        run: python research/pf_hedged_20261117/publish.py
+  test:
+    needs: select
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    strategy:
+      fail-fast: false
+      matrix: {shard: [0, 1, 2, 3]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/pf_hedged_20261117 python -m pytest -q research/pf_hedged_20261117/test_hedge.py
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pfh-assets*
+          run-id: '44169150415'
+          path: assets
+          github-token: ${{ github.token }}
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pfh-source-inventory*
+          run-id: '44169150415'
+          path: metadata
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: pfh-paths${{ matrix.shard }}
+          run-id: '44171887648'
+          path: paths/shard${{ matrix.shard }}
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: carrymarks
+          github-token: ${{ github.token }}
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: pfh-selection
+          path: selection
+          github-token: ${{ github.token }}
+      - name: Calculate frozen test only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODEL_PHASE: test
+          MODEL_SHARD: ${{ matrix.shard }}
+        run: PYTHONPATH=research/pf_hedged_20261117 python -u research/pf_hedged_20261117/run_model.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test_shard${{ matrix.shard }}
+          path: research/pf_hedged_20261117/test_shard${{ matrix.shard }}
+          retention-days: 90
+      - name: Publish research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/test_shard${{ matrix.shard }}
+        run: python research/pf_hedged_20261117/publish.py
+  select:
+    needs: train
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/pf_hedged_20261117 python -m pytest -q research/pf_hedged_20261117/test_hedge.py
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: train_shard*
+          path: model
+          github-token: ${{ github.token }}
+      - env: {AGG_PHASE: select}
+        run: PYTHONPATH=research/pf_hedged_20261117 python research/pf_hedged_20261117/aggregate.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pfh-selection
+          path: research/pf_hedged_20261117/selection
+          retention-days: 90
+      - name: Publish research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/selection
+        run: python research/pf_hedged_20261117/publish.py
+  final:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/pf_hedged_20261117 python -m pytest -q research/pf_hedged_20261117/test_hedge.py
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: train_shard*
+          path: model
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: test_shard*
+          path: model
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: pfh-selection
+          path: selection
+          github-token: ${{ github.token }}
+      - env: {AGG_PHASE: final}
+        run: PYTHONPATH=research/pf_hedged_20261117 python research/pf_hedged_20261117/aggregate.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pfh-final
+          path: research/pf_hedged_20261117/final
+          retention-days: 90
+      - name: Publish research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/final
+        run: python research/pf_hedged_20261117/publish.py
