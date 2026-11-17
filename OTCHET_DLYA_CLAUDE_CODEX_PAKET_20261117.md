@@ -98,3 +98,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part2_new_listing -->
+
+<!-- part3_liq_wick -->
+## part3_liq_wick
+
+{"part": "part3_liq_wick", "code_sha": "2690eefd603c90d7351224f2df4796b4d3a1b752", "asof": 1794919920000, "status": "COMPLETE_WITH_DATA_GAPS", "events": 22440, "winner": "WL0", "candidates": 0, "no_live_changes": true}
+
+[Отчёт и журналы](research/paket_20261117/part3_liq_wick/REPORT_RU.md). Код и сетка: `2690eefd603c90d7351224f2df4796b4d3a1b752`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /part3_liq_wick -->
