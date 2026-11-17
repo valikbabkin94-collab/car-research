@@ -1,0 +1,66 @@
+name: PF H2-only continuation from completed54H1
+on:
+  workflow_dispatch:
+  push:
+    branches: [research/paket-20261117]
+    paths: [.github/workflows/pf_coverage_resume.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  resume_pf_h2_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      LAB_ASOF_MS: '1794919920000'
+      PIT_SOURCE_SHA: d3c667f95ee38ef8eae18214b14d94960846f5aa
+      LIVE_INPUT_SHA: 344bae6455571ca64ecf2709bf7b9edf8cfb71c2
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 numba==0.61.2
+      - name: Synthetic execution regression tests
+        run: PYTHONPATH=research/paket_20261117 python -m unittest discover -s research/paket_20261117/tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-code-results-checkpoints
+          run-id: '44092086995'
+          path: inputs_v1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          run-id: '43874717889'
+          path: source
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: paket-part6_pf_exits
+          run-id: '44134160121'
+          path: previous_results
+          github-token: ${{ github.token }}
+      - name: Continue only skipped H2 from saved H1
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/paket_20261117/part6_coverage_fix
+        run: RESUME_KIND=pf PYTHONPATH=research/paket_20261117 python -u research/paket_20261117/continue_coverage.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paket-part6-coverage-resume
+          path: research/paket_20261117/part6_coverage_fix
+          retention-days: 14
+      - name: Preserve own result and checkpoint without replacing parallel results
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/paket_20261117/part6_coverage_fix
+          LAB_BRANCH: research/paket-20261117
+          LAB_ROOT: research/paket_20261117
+          LAB_PART: part6_coverage_fix
+        run: python research/paket_20261117/publish_results.py
