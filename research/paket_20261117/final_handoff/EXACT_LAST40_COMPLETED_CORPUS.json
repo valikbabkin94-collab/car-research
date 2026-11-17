@@ -1,0 +1,29 @@
+{
+  "variant": "WL0",
+  "period": "LAST40_EXACT_COMPLETED_CORPUS_H2_ONLY",
+  "n": 11390,
+  "WR": 39.71027216856892,
+  "PF": 0.9262124694755461,
+  "netR": -415.32068772988384,
+  "USD_at_5risk": -2076.6034386494193,
+  "maxDD_R": 618.883713276162,
+  "top3_share": null,
+  "netR_adverse": -417.40922324450975,
+  "status_counts": {
+    "1": 11390,
+    "0": 1
+  },
+  "funding_unknown_n": 5767,
+  "excessR": 107.79674687815596,
+  "p": 0.2967,
+  "BH_q": 1.0,
+  "control_coverage": 0.9568042142230027,
+  "calendar_start_ms": 1637914920000,
+  "calendar_end_ms": 1794857160000,
+  "last40_cut_ms": 1732080264000,
+  "frozen_original_cut_ms": 1745381544000,
+  "original_H1_end_ms": 1733355600000,
+  "train_overlap_excluded": 32,
+  "selection_unchanged": true,
+  "prices_not_replayed": true
+}

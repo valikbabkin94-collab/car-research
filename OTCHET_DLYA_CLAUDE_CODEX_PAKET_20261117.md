@@ -210,3 +210,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part3_complete -->
+
+<!-- final_handoff -->
+## final_handoff
+
+{"status": "AVAILABLE_RESEARCH_COMPLETE_WITH_EXPLICIT_DATA_BLOCKERS", "code_sha": "b00ea89eb79bd594f8edfd68acb9dab52dad20eb", "new_validated_strategies": 0, "paper_candidates": 0, "owner_installed": false, "live_changes": 0, "blocked": ["Full Oleg author archive/zones/SL/TP", "44 live entry prices not confirmed Binance proxy", "Validated public PIT unlock calendar", "Windows OWNER CI billing"], "original_successful_profiles_recomputed": false, "methodology_changes_documented": true}
+
+[Отчёт и журналы](research/paket_20261117/final_handoff/REPORT_RU.md). Код и сетка: `b00ea89eb79bd594f8edfd68acb9dab52dad20eb`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /final_handoff -->

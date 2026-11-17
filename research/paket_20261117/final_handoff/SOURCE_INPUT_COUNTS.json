@@ -1,0 +1,13 @@
+{
+  "all_input_policy_rows": 46252,
+  "unique_key_rows": 46252,
+  "explanation": "Rows are policy-specific potential entries, not a count of closed trades. Multiple timing/side policies may derive from the same event.",
+  "original_inputs": 22440,
+  "current_daily_inputs": 1055,
+  "resource_shards": {
+    "0": 5536,
+    "1": 5376,
+    "2": 5281,
+    "3": 6564
+  }
+}

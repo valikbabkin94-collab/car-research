@@ -1,0 +1,16 @@
+{
+  "status": "AVAILABLE_RESEARCH_COMPLETE_WITH_EXPLICIT_DATA_BLOCKERS",
+  "code_sha": "b00ea89eb79bd594f8edfd68acb9dab52dad20eb",
+  "new_validated_strategies": 0,
+  "paper_candidates": 0,
+  "owner_installed": false,
+  "live_changes": 0,
+  "blocked": [
+    "Full Oleg author archive/zones/SL/TP",
+    "44 live entry prices not confirmed Binance proxy",
+    "Validated public PIT unlock calendar",
+    "Windows OWNER CI billing"
+  ],
+  "original_successful_profiles_recomputed": false,
+  "methodology_changes_documented": true
+}
