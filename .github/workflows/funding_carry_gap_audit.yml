@@ -1,0 +1,33 @@
+name: FUNDING CARRY identify held-leg source gap no new PnL
+on:
+  push:
+    branches: [research/funding-carry]
+    paths: [.github/workflows/funding_carry_gap_audit.yml]
+permissions: {contents: write}
+jobs:
+  inspect_saved_ledgers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - name: Identify censored positions from saved ledger, no replay
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,gzip,datetime
+          B=Path("research/funding_carry_20261117");out=B/"gap_audit";out.mkdir(exist_ok=True);rows=[]
+          for p in (B/"results/train").glob("*/H1_L1_BASE"):
+           summary=json.load((p/"SUMMARY.json").open())
+           if summary["status"]=="COMPLETE":continue
+           ledger=json.loads(gzip.decompress((p/"LEDGER_AND_TRADES.json.gz").read_bytes()));closed={t["id"]for t in ledger["trades"]};opens=[e for e in ledger["events"]if e["event"]=="OPEN_PAIR"and e["trade"]not in closed]
+           rows.append(dict(variant=summary["variant"],gap=summary["gap"],held_open_events=opens,last_events=ledger["events"][-8:]))
+          (out/"GAP_POSITION_PROOF.json").write_text(json.dumps(rows,indent=2)+"\n")
+          (out/"CHECKPOINT.json").write_text(json.dumps(dict(status="SAVED_GAP_AUDIT_NO_PNL",live_changes=0))+"\n")
+          print(json.dumps([dict(variant=r["variant"],gap=r["gap"],symbols=[e["symbol"]for e in r["held_open_events"]])for r in rows]))
+          PY
+      - name: Save evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/funding_carry_20261117/gap_audit
+        run: python research/funding_carry_20261117/publish.py
