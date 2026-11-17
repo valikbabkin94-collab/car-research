@@ -3,7 +3,7 @@ import unittest,sys,importlib.util
 from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
-P=Path(__file__).resolve().parents[1];sys.path.insert(0,str(P));from engine import simulate,atr_at,MAN
+P=Path(__file__).resolve().parents[1];sys.path.insert(0,str(P));from engine_v1_1 import simulate,atr_at,MAN
 from execute_v1_1 import features,periods,label,edge_tables,symbol_groups
 from vendor.pure_manager import geometry
 class ManagerLabTests(unittest.TestCase):
@@ -11,6 +11,8 @@ class ManagerLabTests(unittest.TestCase):
  def entry(self,t=0):return dict(key='0'*64,scenario='TEST',symbol='X',entry_ms=t,entry=100.,side=1,entry_type='MARKET')
  def test_every_symbol_group_consumed_before_next(self):
   rows=[dict(self.entry(),symbol=x,key=str(i))for i,x in enumerate(['B','A','B','C','A'])];groups=list(symbol_groups(rows));self.assertEqual(sum(len(g)for s,g in groups),len(rows));self.assertEqual([s for s,g in groups],['A','B','C']);self.assertEqual([len(g)for s,g in groups],[2,2,1])
+ def test_manager_atr_uses_original_publication_snapshot(self):
+  q=self.quotes();pub=15*3600000;entry=17*3600000;q[900:1020,2]=102.;r=simulate(q,dict(self.entry(entry),signal_ms=pub),'X1');self.assertAlmostEqual(r['atr'],.2)
  def test_time_exit_preserves_entry_and_fees(self):
   r=simulate(self.quotes(),self.entry(),'X6');self.assertEqual(r['status'],'CLOSED');self.assertEqual(r['entry'],100.);self.assertEqual(r['exit_ms'],4*3600000);self.assertAlmostEqual(r['price_R'],-.21)
  def test_stop_before_tp_on_ambiguous_bar(self):

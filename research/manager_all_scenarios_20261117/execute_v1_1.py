@@ -1,10 +1,10 @@
 """Frozen-entry edge study, train-only gates and exit selection, pure GitHub offline run."""
-import json,gzip,hashlib,time,datetime as dt,collections,concurrent.futures as cf,subprocess,sys
+import os,json,gzip,hashlib,time,datetime as dt,collections,concurrent.futures as cf,subprocess,sys
 from pathlib import Path
 import numpy as np
 from scipy.ndimage import maximum_filter1d,minimum_filter1d
 from vendor.market import Quotes,Funding,save,month_list,M,H,DAY
-from engine import simulate
+from engine_v1_1 import simulate
 P=Path(__file__).resolve().parent;OUT=P/'RESULTS';SEED=20261117;HOURS=[1,4,24,72];MANAGERS=['X'+str(i)for i in range(1,10)];MIRRORS=['X1','X3','X6','X7'];MISSING=['G3h','R2','R5','ALT_CLONE','ALTCOIN','SCALP_C10','Yoda','Pirates','Oleg','CAR_MAIN_R9']
 def read(p):return json.loads(gzip.decompress(p.read_bytes()))if p.suffix=='.gz'else json.loads(p.read_text())
 def gz(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(gzip.compress(json.dumps(x,allow_nan=False).encode(),mtime=0))
@@ -95,7 +95,7 @@ def step0(entries,quotes,splits):
    cr,cm,ca=features(q,times,cp,side)
    for i,e in enumerate(g):
     compatible=bool(len(q)and e['entry_ms']%M==0 and (lambda k:k<len(q)and q[k,0]==e['entry_ms']and q[k,3]<=e['entry']<=q[k,2])(int(np.searchsorted(q[:,0],e['entry_ms']))))
-    r=dict(key=e['key'],scenario=e['scenario'],entry_ms=e['entry_ms'],side=side,compatible=compatible,returns=ret[i].tolist(),mfe_R=mfe[i].tolist(),mae_R=mae[i].tolist(),control_mean=np.nanmean(cr[i],axis=0).tolist(),control_valid=np.isfinite(cr[i]).sum(0).tolist(),control_mfe_valid=np.isfinite(cm[i]).sum(0).tolist(),control_mfe_mean=np.nanmean(cm[i],axis=0).tolist(),control_mae_mean=np.nanmean(ca[i],axis=0).tolist(),inverse_returns=(-ret[i]).tolist(),inverse_mfe_R=mae[i].tolist(),inverse_mae_R=mfe[i].tolist());obs.append(clean(r));control[e['key']]=dict(e,entry_ms=int(times[i,0]),entry=float(cp[i,0])if np.isfinite(cp[i,0])else 0.,native_events=[])
+    r=dict(key=e['key'],scenario=e['scenario'],entry_ms=e['entry_ms'],side=side,compatible=compatible,returns=ret[i].tolist(),mfe_R=mfe[i].tolist(),mae_R=mae[i].tolist(),control_mean=np.nanmean(cr[i],axis=0).tolist(),control_valid=np.isfinite(cr[i]).sum(0).tolist(),control_mfe_valid=np.isfinite(cm[i]).sum(0).tolist(),control_mfe_mean=np.nanmean(cm[i],axis=0).tolist(),control_mae_mean=np.nanmean(ca[i],axis=0).tolist(),inverse_returns=(-ret[i]).tolist(),inverse_mfe_R=mae[i].tolist(),inverse_mae_R=mfe[i].tolist());obs.append(clean(r));control[e['key']]=dict(e,signal_ms=int(times[i,0])-(e['entry_ms']-e['signal_ms']),entry_ms=int(times[i,0]),entry=float(cp[i,0])if np.isfinite(cp[i,0])else 0.,native_events=[])
     storage[e['scenario']].append((e['key'],times[i],cr[i].astype('f4'),cm[i].astype('f4'),ca[i].astype('f4')))
   quotes.cache.pop(sy,None);print('EDGE_FEATURES',sy,'entries',len(group),flush=True)
  for sc,records in storage.items():
@@ -190,5 +190,5 @@ def report(entries,gate,selection,tables,candidates):
   if r['train_winner']and r['period']in ['H1','H2','LAST40']and r['kind']==('MIRROR'if gate[r['scenario']]=='АНТИ_КРАЙ'else'ORIGINAL'):lines.append('|'+r['scenario']+'|'+r['manager']+'|'+r['period']+'|'+'|'.join(str(r[k])for k in ['n','WR','PF','netR','USD_at_5risk','maxDD_R','BH_q','top3_share_net'])+'|')
  lines+=['', 'Полная таблица всех разрешённых и неисполненных слотов X0–X9, зеркал и causal-confluence: RESULTS/MANAGER_TABLES.json. Неисполненные слоты не являются нулевыми PnL; n=0,p=1. X0 сохранён отдельно как несопоставимый нативный контроль и не участвовал в выборе нового победителя. Последние40% пересекают H2. Корпус ранее известен, это ретроспективная проверка, не новый forward.','', '## ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА','', 'Сначала сравнили цену после старых входов со случайным временем той же монеты (200 повторов). Выходы разрешены только для edge первой половины; зеркала — для anti-edge. Плохие/неполные исходники не превращались в новые исполненные сделки. Текущие слова ШУМ при недостатке цен не означают доказанное отсутствие эффекта. Все цены/отказы/неопределённости и отрицательные варианты сохранены. variants.json содержит только прошедших зафиксированные условия, по умолчанию выключенных; включение бумаги/торговли не выполнялось.','', 'Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0. Main не изменён.']
  (P/'OTCHET_DLYA_CLAUDE_CODEX_MANAGER_ALL_SCENARIOS_20261117.md').write_text('\n'.join(lines)+'\n')
-ASOF=int(time.time()*1000)//M*M;CODE_SHA=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+ASOF=int(os.environ.get('CAR_RESEARCH_ASOF_MS',int(time.time()*1000)//M*M));CODE_SHA=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
 if __name__=='__main__':main()
