@@ -1,0 +1,20 @@
+name: FUNDING CARRY accounting and causality regressions
+on:
+  push:
+    branches: [research/funding-carry]
+    paths: [.github/workflows/funding_carry_tests.yml]
+permissions: {contents: read}
+jobs:
+  synthetic_tests_not_pnl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Verify syntax and synthetic accounting; no historical profits
+        run: |
+          python -m compileall -q research/funding_carry_20261117
+          PYTHONPATH=research/funding_carry_20261117 python -m unittest discover -s research/funding_carry_20261117 -p test_engine.py -v
