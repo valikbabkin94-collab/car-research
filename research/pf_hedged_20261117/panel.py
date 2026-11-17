@@ -14,11 +14,16 @@ class Data:
   for j,p in enumerate(files):
    digest=hashlib.sha256(p.read_bytes()).hexdigest();assert manifest.get(p.stem)==digest,"ASSET_SHA_MISMATCH";self.hashes[p.stem]=digest;z=np.load(p,allow_pickle=False);q=z["quotes"];ix=((q[:,0]-self.start)//F).astype(int);ok=(ix>=0)&(ix<T);self.q[j,ix[ok]]=q[ok,1];self.crypto[j]=bool(z["crypto"]);self.type_status.append(str(z["type_status"]));f=z["funding"];known=np.zeros(T,bool)
    for lo,hi in z["coverage"]:known|=(self.times>=lo)&(self.times+F<=hi)
-   self.unknown[j]=np.cumsum(~known,dtype=np.int32);self.missing[j]=np.cumsum(~np.isfinite(self.q[j]),dtype=np.int32)
+   self.unknown[j]=np.r_[0,np.cumsum(~known[:-1],dtype=np.int32)];self.missing[j]=np.cumsum(~np.isfinite(self.q[j]),dtype=np.int32)
    event=np.zeros(T,bool);event[288:]=np.isfinite(self.q[j,288:])&np.isfinite(self.q[j,:-288])&(self.q[j,288:]/self.q[j,:-288]>=1.15);self.lastpump[j]=np.maximum.accumulate(np.where(event,np.arange(T,dtype=np.int32),-1))
    ft=f[:,0]if len(f)else np.empty(0);rate=f[:,2]if len(f)else np.empty(0);qi=np.searchsorted(q[:,0],ft,side="right")-1 if len(q)else np.full(len(ft),-1);good=qi>=0;values=np.zeros(len(ft));bad=np.ones(len(ft),bool)
    if len(q):
     ids=np.maximum(qi,0);good&=(ft-q[ids,0])<=F;values[good]=rate[good]*q[ids[good],1];bad[good]=False
+   markfile=Path("carrymarks")/(p.stem+".npz")
+   if markfile.exists()and len(ft):
+    mq=np.load(markfile,allow_pickle=False)["mark"];mi=np.searchsorted(mq[:,0],ft,side="right")-1 if len(mq)else np.full(len(ft),-1);mg=mi>=0
+    if len(mq):
+     ids=np.maximum(mi,0);mg&=(ft-mq[ids,0])<H;values[mg]=rate[mg]*mq[ids[mg],1];bad[mg]=False
    at=np.searchsorted(self.times+1000,ft,side="left");valid=(at>=0)&(at<T);cash=np.zeros(T);np.add.at(cash,at[valid],values[valid]);self.fc[j]=np.cumsum(cash);self.rawfund.append((ft,np.r_[0,np.cumsum(np.where(values>0,values,0))],np.r_[0,np.cumsum(np.where(values<0,values,0))],np.r_[0,np.cumsum(bad,dtype=np.int32)]))
   raw=github("inputs/pit/PIT_RANKS.npz","d3c667f95ee38ef8eae18214b14d94960846f5aa");z=np.load(io.BytesIO(raw),allow_pickle=False);self.pt=z["decision_ms"];self.ranks=z["rank"];self.ps=[ALIASES.get(str(s),str(s))for s in z["symbols"]]
  def ix(self,t):return int((int(t)-self.start)//F)
