@@ -1,0 +1,112 @@
+[
+  {
+    "period": "H1",
+    "variant": "WL0",
+    "n": 1728,
+    "WR": 54.166666666666664,
+    "PF": 1.4810148445790354,
+    "netR": 322.4429565272327,
+    "USD_at_5risk": 1612.2147826361634,
+    "maxDD_R": 104.25280471896343,
+    "top3_share": 0.014635187307314314,
+    "netR_adverse": 322.17162556515694,
+    "status_counts": {
+      "1": 1728
+    },
+    "funding_unknown_n": 620,
+    "not_used_for_reselection": true
+  },
+  {
+    "period": "H1",
+    "variant": "WL1",
+    "n": 1663,
+    "WR": 52.85628382441371,
+    "PF": 1.1038252094823378,
+    "netR": 72.60060887256964,
+    "USD_at_5risk": 363.0030443628482,
+    "maxDD_R": 155.92797183764932,
+    "top3_share": 0.07053207424921652,
+    "netR_adverse": 72.31050181915322,
+    "status_counts": {
+      "1": 1663
+    },
+    "funding_unknown_n": 603,
+    "not_used_for_reselection": true
+  },
+  {
+    "period": "H1",
+    "variant": "WS0",
+    "n": 711,
+    "WR": 36.28691983122363,
+    "PF": 0.6783568172062321,
+    "netR": -125.01433182571378,
+    "USD_at_5risk": -625.0716591285689,
+    "maxDD_R": 134.66916152809932,
+    "top3_share": null,
+    "netR_adverse": -125.14331505499081,
+    "status_counts": {
+      "1": 711
+    },
+    "funding_unknown_n": 281,
+    "not_used_for_reselection": true
+  },
+  {
+    "period": "H1",
+    "variant": "WS1",
+    "n": 676,
+    "WR": 36.3905325443787,
+    "PF": 0.6209264291245742,
+    "netR": -149.4284866059336,
+    "USD_at_5risk": -747.142433029668,
+    "maxDD_R": 153.17363443241578,
+    "top3_share": null,
+    "netR_adverse": -149.55919432128394,
+    "status_counts": {
+      "1": 676
+    },
+    "funding_unknown_n": 272,
+    "not_used_for_reselection": true
+  },
+  {
+    "period": "H2",
+    "variant": "WL0",
+    "n": 11390,
+    "WR": 39.71027216856892,
+    "PF": 0.9262124694755461,
+    "netR": -415.32068772988384,
+    "USD_at_5risk": -2076.6034386494193,
+    "maxDD_R": 618.883713276162,
+    "top3_share": null,
+    "netR_adverse": -417.40922324450975,
+    "status_counts": {
+      "1": 11390,
+      "0": 1
+    },
+    "funding_unknown_n": 5767,
+    "excessR": 107.79674753954512,
+    "p": 0.2967,
+    "control_coverage": 0.9568042142230027,
+    "BH_q": 1.0
+  },
+  {
+    "period": "LAST40",
+    "variant": "WL0",
+    "n": 10935,
+    "WR": 39.789666209419295,
+    "PF": 0.9344316007564862,
+    "netR": -352.51048353719534,
+    "USD_at_5risk": -1762.5524176859767,
+    "maxDD_R": 508.34359715087027,
+    "top3_share": null,
+    "netR_adverse": -354.5097618605715,
+    "status_counts": {
+      "1": 10935,
+      "0": 1
+    },
+    "funding_unknown_n": 5514,
+    "excessR": 113.72972964259928,
+    "p": 0.2809,
+    "control_coverage": 0.9565614997713763,
+    "BH_q": 1.0
+  }
+]

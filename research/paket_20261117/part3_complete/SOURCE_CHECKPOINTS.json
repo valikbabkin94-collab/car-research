@@ -1,0 +1,61 @@
+[
+  {
+    "code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737",
+    "status": "SOURCE_SHARD_COMPLETE",
+    "shard": 0,
+    "assigned": 404,
+    "source_success": 404,
+    "new_events": 5536,
+    "H1_recomputed": false,
+    "successful_profiles_recomputed": false,
+    "candidates": 0,
+    "no_live_changes": true
+  },
+  {
+    "code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737",
+    "status": "SOURCE_SHARD_COMPLETE",
+    "shard": 1,
+    "assigned": 404,
+    "source_success": 404,
+    "new_events": 5376,
+    "H1_recomputed": false,
+    "successful_profiles_recomputed": false,
+    "candidates": 0,
+    "no_live_changes": true
+  },
+  {
+    "code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737",
+    "status": "SOURCE_SHARD_COMPLETE",
+    "shard": 2,
+    "assigned": 404,
+    "source_success": 404,
+    "new_events": 5281,
+    "H1_recomputed": false,
+    "successful_profiles_recomputed": false,
+    "candidates": 0,
+    "no_live_changes": true
+  },
+  {
+    "code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737",
+    "status": "SOURCE_SHARD_COMPLETE",
+    "shard": 3,
+    "assigned": 404,
+    "source_success": 404,
+    "new_events": 6564,
+    "H1_recomputed": false,
+    "successful_profiles_recomputed": false,
+    "candidates": 0,
+    "no_live_changes": true
+  },
+  {
+    "code_sha": "9bc2581f8764cfafc626756ac352bf5cbd294f98",
+    "asof": 1794919920000,
+    "status": "COMPLETE_DAILY_SOURCE_COMPLETION_WITH_REMAINING_GAPS",
+    "new_events": 1055,
+    "new_frozen_rule_H2": 285,
+    "winner": "WL0",
+    "candidates": 0,
+    "successful_profiles_recomputed": false,
+    "no_live_changes": true
+  }
+]
