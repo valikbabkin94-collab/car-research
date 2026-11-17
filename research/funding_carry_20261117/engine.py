@@ -60,6 +60,11 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
    sp=p["sx"]if p["sx"]is not None else s[field]
    pp=p["px"]if p["px"]is not None else m[2 if field==2 else field]
    value+=p["q"]*sp+p["margin"]+p["fund"]+p["q"]*(p["pe"]-pp)-p["exitfees"]
+  for a in pending_abort:
+   j=a["j"];v=quote(j,i,a["leg"])
+   if v is None:return None
+   px=v[2 if field==2 and a["leg"]=="spot"else 1 if field==2 else field]
+   value+=a["reserved"]+a["q"]*(px-a["price"])*(1 if a["leg"]=="spot"else-1)
   return value
  def exit_leg(p,leg,price,fee,t,kind):
   key="sx"if leg=="spot"else"px"
@@ -163,8 +168,11 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
     if below and not p["below50"]:stats["margin_below50_episodes"]+=1
     p["below50"]=below;barrier=(p["margin"]+p["fund"]+p["q"]*p["pe"])/(p["q"]*(1+mmr))
     if mk[1]>=barrier:
-     px=max(pp[0],barrier)*(1+slip);exit_leg(p,"perp",px,.00055,t+H-1,"MMR_PROXY_LIQUIDATION");penalty=p["q"]*px*.005;p["exitfees"]+=penalty;stats["liquidation_penalty"]+=penalty;stats["proxy_liquidations"]+=1;p["liquidated"]=True;p["close_reason"]="PROXY_LIQUIDATION_SPOT_UNWIND_NEXT_HOUR";events.append(dict(time_ms=t+H-1,trade=p["id"],symbol=d.symbols[j],event="LIQUIDATION_PROXY",mark_barrier=barrier,assumed_perp_fill=px,inside_trade_hour_bounds=bool(pp[2]<=px/(1+slip)<=pp[1]),penalty=penalty))
+     px=max(pp[0],barrier)*(1+slip);stats["slippage_cost"]+=p["q"]*max(pp[0],barrier)*slip;exit_leg(p,"perp",px,.00055,t+H-1,"MMR_PROXY_LIQUIDATION");penalty=p["q"]*px*.005;p["exitfees"]+=penalty;stats["liquidation_penalty"]+=penalty;stats["proxy_liquidations"]+=1;p["liquidated"]=True;p["close_reason"]="PROXY_LIQUIDATION_SPOT_UNWIND_NEXT_HOUR";events.append(dict(time_ms=t+H-1,trade=p["id"],symbol=d.symbols[j],event="LIQUIDATION_PROXY",mark_barrier=barrier,assumed_perp_fill=px,inside_trade_hour_bounds=bool(pp[2]<=px/(1+slip)<=pp[1]),penalty=penalty))
   if gap:break
+  for a in pending_abort:
+   v=quote(a["j"],i,a["leg"])
+   if v is not None:bound+=a["reserved"]+a["q"]*((v[2]-a["price"])if a["leg"]=="spot"else(a["price"]-v[1]))
   ddbound=max(ddbound,(maxnav-bound)/maxnav*100 if maxnav>0 else 0.)
   if i==ei-1:
    for j in list(pos):market_close(j,i,end-1,"FIXED_PERIOD_TERMINAL_CASHOUT",terminal=True)
