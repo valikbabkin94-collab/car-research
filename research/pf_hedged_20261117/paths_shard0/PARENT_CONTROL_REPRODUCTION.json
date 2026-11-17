@@ -1,0 +1,1255 @@
+[
+  {
+    "key": "53cd0f8f7bd3472cfb4f812a6d4512a11f86d113b8b467a9223ecd5da64d16d8",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "380ff476cce546e87de24bbf2f15171a61b15b90b8681160b2229465522924f9",
+    "compared": 200,
+    "max_old_netR_error": 9.099447240146219e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "13b93611d361c8b2cf5013ce78107f88a05b015ad7df0b21da6a3a038097ff4f",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0233316e9aff61256259f97976e457261315fdd2bc48af3a6227580924a88362",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "02c3f7329bddf05762365a080352e5da09806e801ee11a4bb77aea829b351c8a",
+    "compared": 200,
+    "max_old_netR_error": 1.1653802278743797e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "34bc1c3fe6144d0e6edb5475d667ac6923968d048219c4eceb8c5c5f8972e976",
+    "compared": 200,
+    "max_old_netR_error": 1.0881769663129148e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "98fd2aeaeb07251f5b1d2c2c889acdec64ae9e1913c681dce03fc14fca00e135",
+    "compared": 200,
+    "max_old_netR_error": 1.0211940715265655e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "20df089c52d5b7084dd002917315795570695db462e71115a95a86b472aa9ad1",
+    "compared": 200,
+    "max_old_netR_error": 1.1405778543860379e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "9d5f91919cf9c8f46cb86cc0c43b9b6b2af698e3c5f239e499a9e4e35a5c6210",
+    "compared": 200,
+    "max_old_netR_error": 1.1201308192099191e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c012a0e0ce8ebeefa836f863f475f6d94b853f80d9b0e78fe2621d8bc7067e19",
+    "compared": 200,
+    "max_old_netR_error": 1.1629937546331348e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "70ee3f96a96b4a7f30b18c55e14cb10769d363585fccbbc09ef179324294e6f6",
+    "compared": 200,
+    "max_old_netR_error": 1.0983665532648956e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2089c59e8cf947a9e254e44dfe20dd54bcd7eaef5aa553282ffd72eaa8b85174",
+    "compared": 200,
+    "max_old_netR_error": 1.027814495735413e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b81c6aa596da99c5972d8f2f0de45d8995c3cb14a7d8958c5cae7ecf4eb5ca6d",
+    "compared": 200,
+    "max_old_netR_error": 1.1311450487383468e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "987fb9dfe6f88062d7e9427684f0815c29787b1de51a6951e96da9536f884ceb",
+    "compared": 200,
+    "max_old_netR_error": 1.1474739425310077e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "8bb1ef951adaa4f0439218479482ba48046dedd71d0a95aa654bf5757bae9e0c",
+    "compared": 200,
+    "max_old_netR_error": 1.1688374090823572e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5974d3d61575566e24dc10944a0ad775624a6bae86175a60c2d8a3e20a6e3ee6",
+    "compared": 200,
+    "max_old_netR_error": 1.0053453314284866e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "62313db8f834b4ee8a33cd4215978e0b371d9b5ecbb7f5c5839dbe1934d03ae0",
+    "compared": 200,
+    "max_old_netR_error": 7.536062529567289e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d038efecd1919567b2d1e0a27048a9607031136926ef0f4ab48e1163a755abf0",
+    "compared": 200,
+    "max_old_netR_error": 9.375450860105161e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2961fc58a71bd0add02b8b50bafdc8624ae19660bfd394eaf781a90362574b68",
+    "compared": 200,
+    "max_old_netR_error": 9.408846457503728e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d1e9975b1e45eb91e337eafe7bc1417d1b08f9a9e73325ece98b43421150fde5",
+    "compared": 200,
+    "max_old_netR_error": 1.1434196123261131e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ab0931f8997346e160bbe173622305b4a7cb1861420f2f86f75f869b0ceb886f",
+    "compared": 200,
+    "max_old_netR_error": 1.1751466111320497e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "85a0648a29d83fbd330ef9841210c5df4989ee210ee5ff1e28f0dd792014bd84",
+    "compared": 200,
+    "max_old_netR_error": 1.1865710281000474e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "13dd8ec0929f9bd625ed6728b56d5b582a435588367cb1640191f61609a80be5",
+    "compared": 200,
+    "max_old_netR_error": 1.128927871185681e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d06cc17c5043cbaaabd740566c715d904c80ae7c8d75b3beec0b844af22ba87a",
+    "compared": 200,
+    "max_old_netR_error": 1.1568840951881043e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6277bee5bb2bcdc33adb06aaf04f70f2f00eac1129f8aa402bbf950c256f0e5a",
+    "compared": 200,
+    "max_old_netR_error": 9.120421129438228e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "072e10c58e5917b4da1257c0e6309576cd0df7124bcbbbe1a3d2547469882967",
+    "compared": 200,
+    "max_old_netR_error": 1.1669554966786677e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b03641288418c5cab4dee860390e2c7d74265637cdefa86f4f8c3b0070fe5c4f",
+    "compared": 200,
+    "max_old_netR_error": 1.0456730992203234e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0476df912b832abbfc5a023328df1f11386299b6d4cdef64076a581e7605ed5a",
+    "compared": 200,
+    "max_old_netR_error": 1.1896740614858459e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "81099c6b6ac1a58201ab83019d4ca896ef4a2809116cccc48239936a23d085bf",
+    "compared": 200,
+    "max_old_netR_error": 1.0597391320033012e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "021459cfe8396991a23543259bf56ab04e47f112850f449c83022b231a064dd2",
+    "compared": 200,
+    "max_old_netR_error": 7.04752198821268e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "194a336ff869a10dc18e100bbd872d5d65c54aeb362efcaeca7a9a0081687489",
+    "compared": 200,
+    "max_old_netR_error": 7.345076191711541e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "411f048a1abdc51cfbaaa1b68fa349926616f8212922c7f7ccee2b4578f44a18",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "bf60e0c40008163f1c20fd529ac46fe47cacd9aef60e84b73ec5dc228b12292c",
+    "compared": 200,
+    "max_old_netR_error": 9.942563217180123e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "bb2ed2af50bcbe869003b9398f8ce9b50e688ed7f48d36561135f435f162374a",
+    "compared": 200,
+    "max_old_netR_error": 1.0652651516451783e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2a945381c6cff3402f55d6adc1a2b3506331a1cac622c46100e61707522c5977",
+    "compared": 200,
+    "max_old_netR_error": 9.200617157034685e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0a61d2be4c765bba9b1bf496bee2c0023387b68bb4d207a7abe977487fe53df7",
+    "compared": 200,
+    "max_old_netR_error": 1.1765408558517265e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4710f086b10c4d77bfca1346aacbb2feed0bab4e59de6c09642d2c088156e78a",
+    "compared": 200,
+    "max_old_netR_error": 1.1116910059172369e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a354a77ee66bebdb98599bd53bf8b9126b636431d120870712df39640acc0162",
+    "compared": 200,
+    "max_old_netR_error": 1.068342858623339e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "fd91dfdf57b80f3148b156496298a5911a143237dd627592d1eda9f594a78155",
+    "compared": 200,
+    "max_old_netR_error": 1.068342858623339e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b6f59d93842ec63f06409fa0dd7e735d1bcfc7526026a3f23f17b89cf8137770",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ee0299e6dea1c5d9c968a7f6bd6529492203176b37ddc3579badb1e3dc9a6379",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "61aadaf40182249f0f7827086413cf1cab9b53843947e08eaea0f5fde2db07a2",
+    "compared": 200,
+    "max_old_netR_error": 1.1533165000798817e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "618088d65116e7c932487e309e9e81089d2f1e1817faec976bb9a0e5578ac9f9",
+    "compared": 200,
+    "max_old_netR_error": 1.1587398462964416e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "86a513e30df4513d3f17b53ca1f54121f0f23ca94016a48492633780ce81ea8e",
+    "compared": 200,
+    "max_old_netR_error": 1.0526739169236521e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "30d3b073dbc62824dac64420f8eec142fca15f401389518bbb6e47468e052e8b",
+    "compared": 200,
+    "max_old_netR_error": 9.324688221568067e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3b49184b62bfce3fd738a8ac126966b16a50dc8b214c4ae389f6b906bc734089",
+    "compared": 200,
+    "max_old_netR_error": 1.0119499860294923e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e9e4bfcdba8d84651f8c51a77effc8ab4a909fe1168bba27d982c858162e9883",
+    "compared": 200,
+    "max_old_netR_error": 9.133984768538994e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5829bb8f00d55a8fb32ba3b3b2d8f8c0a1ca6a3bb18ff2de98fed9d0f6918f00",
+    "compared": 200,
+    "max_old_netR_error": 7.57560925102041e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d3952dec34e61f7e93bfcb58abe2eaeac70d4a3178dfb33bd0f7e2ae0b92c5aa",
+    "compared": 200,
+    "max_old_netR_error": 1.0022061402992222e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4ab1c95f0e1f33e9752aec845a3d2b2476e0e83c01599c06f53c09084e251de3",
+    "compared": 200,
+    "max_old_netR_error": 1.0956994334065939e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6e7ffec8f07997859c7adda1234b0fd4243fdc4d5173e8aa905d6497512118d7",
+    "compared": 200,
+    "max_old_netR_error": 1.1543892330934113e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "dfaaba679f8b6e6f79dd0a0850bf9208fd34c7bea3fa89e71e602139cdc005fe",
+    "compared": 200,
+    "max_old_netR_error": 3.106253698703654e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f90a08d55e275ad608d4f6b8dd2200bce85684f855bf073b3fea85bfc3fc6031",
+    "compared": 200,
+    "max_old_netR_error": 5.349193443748845e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4be0373327d5d695b92623a8cdc659e16d40c3fb1b7797fcc1d37a1ef5a81d37",
+    "compared": 200,
+    "max_old_netR_error": 3.106253698703654e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "fdd71dbbece7f9ad1e4607ae2fe1bc6d2614d4345643974f5152fe47c06bf458",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4edec3bbb9ab31b59613bef378fb4e291f02e71e3d6761452c5ac3ef576ee0f9",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "bea3df07f8613f501f10997b33633df0366fe3ed3cced7a9624a9ec542b60e3e",
+    "compared": 200,
+    "max_old_netR_error": 1.1268870192537861e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "90072cfb5d906536b34b9a68b89fbf3ffab139d9c68df7019418aff869a443e9",
+    "compared": 200,
+    "max_old_netR_error": 8.013213603774716e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0b4e1001f694b54c04bb45b2e1b99da56f5a3bda053f8b51003d4fcb47b71799",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "efb754c123133d14d4976047e81581517b5264e211006fc3c5886cac7674eec6",
+    "compared": 200,
+    "max_old_netR_error": 5.5945896804132644e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "fd619f954050ef3526b192c378e00399e89c825ceeabe50e09457eed8154d4e4",
+    "compared": 200,
+    "max_old_netR_error": 1.01280658526548e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3d3fc4daff9f907f77904c20fbf9d8d1049e07bdb8629924d052a85538cd9d49",
+    "compared": 200,
+    "max_old_netR_error": 9.397201417016277e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "37850f3fb8e131e589c939620de98e79082607d76d1316848765aec9e31ed19c",
+    "compared": 200,
+    "max_old_netR_error": 6.163963073291256e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a19ad91158fde60858c7640ce8013442c5718713e41c8bfa991d9fa1dbb09511",
+    "compared": 200,
+    "max_old_netR_error": 1.1219897189107542e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e1cab2f2ce24dab51c04840ad94f619742140d6409387269036b02303434fb00",
+    "compared": 200,
+    "max_old_netR_error": 1.063124011047023e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "cc4ab1616098b16b749a0c6b48a95b5b8d05f5ac7b7af4f9948efbe2c333ca51",
+    "compared": 200,
+    "max_old_netR_error": 7.326155282427749e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "226c4251d34e62f8c03da107163114bae6e8f6fbbe222bcbbb8174e6b68a28dd",
+    "compared": 200,
+    "max_old_netR_error": 9.914059573290501e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7fe8ba92007eab3bf723b0570ab94fe5320f42ab95852ba63b9bd45962d3b1d6",
+    "compared": 200,
+    "max_old_netR_error": 9.168013237470518e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c61b5d666a88d383490d7352749e1fa4886924633f57af334c8d0de493ce0b9e",
+    "compared": 200,
+    "max_old_netR_error": 9.351671970136977e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c9a093ee67920f35143bf5767324385b8996a3671469d7531878a91d618d5579",
+    "compared": 200,
+    "max_old_netR_error": 1.0109297665650274e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "63b0b7b2dbc7a9acca1ff14758b033393f4811cf046d0d61bda55a01add62456",
+    "compared": 200,
+    "max_old_netR_error": 1.041510078181318e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e327cb7f1dc722565ff7047db5aaf88863fabb84f69da0d462878325377ba1c1",
+    "compared": 200,
+    "max_old_netR_error": 9.946737655752713e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "34b028a2879da646b11a261cc4ae7741ffb934697179b73e60b04865c412e60c",
+    "compared": 200,
+    "max_old_netR_error": 1.1741856065228262e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d13011c1700492125dc2d60bb03e7e0c763f2afb4147b4f8b83ab82ad5aabd4c",
+    "compared": 200,
+    "max_old_netR_error": 8.401551943038044e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3f490bc059a18a041c49c4cb07b911bd81785e67ba0d468c9b240e615c3d7a70",
+    "compared": 200,
+    "max_old_netR_error": 9.541638057442015e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4fc618fb0cac2456588323d1b2aa9b9a27951e65086f0df2bf95f2749b402860",
+    "compared": 200,
+    "max_old_netR_error": 1.0172429654176085e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f0450dfe8ccda40c71a872edb3db6ccf2871341d5567515a42c96bfe87294478",
+    "compared": 200,
+    "max_old_netR_error": 1.005221323957528e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "fa264d4ff85affd3c5aeb260d5507159dda87f04d9e157841d0c3d723e3e68c6",
+    "compared": 200,
+    "max_old_netR_error": 1.0955994333983199e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "568568e93339f5caf5aa1cda768a1db84855949d1ea2489ea0309b55b79d0ead",
+    "compared": 200,
+    "max_old_netR_error": 1.0991426302453533e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6ecb45014078e2f01cc725585cd03a63b1f8a87a29bd3f7974c00a7d196d3f9b",
+    "compared": 200,
+    "max_old_netR_error": 1.1882882766656166e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e7beba905fba012d04e342a356f3fa1d58f186ca0fa817e49317fb7bb989953d",
+    "compared": 200,
+    "max_old_netR_error": 1.1576774161525805e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "20d73fd93c2c7df928229600e7e9fe853a8f56fb63d4d8d9ef49845668161b91",
+    "compared": 200,
+    "max_old_netR_error": 1.080925335905647e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6a387da2907235889b7acae59deb4b9ff9b05ca1d63aea3987617eb8101fcb40",
+    "compared": 200,
+    "max_old_netR_error": 1.141730949782982e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b76d15f6e1a816607b29c742e822cb521ac9983e6baaab7c9920b434bf2aaa9a",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "55f07ea4008d3ab8eb107e929d67351cd40a96c7afccc2c514faf0e14804b546",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "8ca8be987f7410d5115908dcdfd944b250b3fb69cd95ee12450bea9d0f0afb36",
+    "compared": 200,
+    "max_old_netR_error": 5.255862056685601e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "00ab2e1c1ab28eb7ba0c28f44c4963cbd358a9ee97175027b3e7b86559990547",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2dcbe3e388c7d71f66da18201a6a174ef3498c9d7ca2f016c7d32b49a28f480f",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "9deb2eb61d79eeacd516f2e25277fc617e4ed69be8ad8e5c1cee4a7830275945",
+    "compared": 200,
+    "max_old_netR_error": 5.738143271649676e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "408a06b751893d36f8d4630e178332d51ce82449027e3165e1af1a7b17f6c2e7",
+    "compared": 200,
+    "max_old_netR_error": 5.1947613988190255e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a335e97b93c4514b532a1438857973b74d58299929130676c7af6ee95796101c",
+    "compared": 200,
+    "max_old_netR_error": 3.817649085746666e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6ce258a360980f5c77305b416b54664144b71e955ecc4f05f2611ae46d3d799a",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "9e24f9cbed6bfddaba4ef41a11d521245353bf6c6b97e0faf4576a66dbbb9793",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a6f6fbc80bd8d0cfad027ae547615bdf3df835ea5358023e2393e27b21d279de",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "8c0444e0095d1116b4f6b7bd4e763aa582ffb916de0bd2956ed530d78ef7503b",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "9fa25efe146b00b0eb2fab121dd93fe5aab31d46d17210b0703e1347fa4e6385",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3b26e7021d8687b0877584cc90bf5805ffdacde937c71d20626722304e828100",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "92e9dfa3ab7cb0b9efb4e32eb22f1655d6659ee6bd6b88db39404a385395d0ad",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "bcd1b91f7f675d14bb5613f881d3c00dfbc0266df3f58c31613e3f2e58792b41",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "1bcefa21d1b8229509ba78872259d682cbc953b1ba0b771cb602aea950f74f4d",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "97011a5df413f375ca6cd195b8b4d5fd0e486e6acf74188c8ba14e0ad4e40a0f",
+    "compared": 200,
+    "max_old_netR_error": 4.8395653262645055e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a683dec7521a2cd4e7fcef2a3628ab7afe15aea2bd232cdca3b39947702b1bb5",
+    "compared": 200,
+    "max_old_netR_error": 1.1203099647971726e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0f4e5d480fd28311dd8f1a6b89d41995308a3eba5b0610f058a8e2eabc8f9f42",
+    "compared": 200,
+    "max_old_netR_error": 1.178000501589338e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7f1033a1b63233174e3e229756c60cb751a454bad6e31ca4bcef5a7481adca46",
+    "compared": 200,
+    "max_old_netR_error": 1.1579275849271653e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2939a4faf12e33a1f3fc65a9e723786a0e9724070402ac5b39e13bbe695f6430",
+    "compared": 200,
+    "max_old_netR_error": 9.977666159954879e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e3196cff72eeef5989fe28e5a2545a02d923bc91b3a38067c176c4bc2fb5ee8d",
+    "compared": 200,
+    "max_old_netR_error": 1.1281980238919687e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "1118d0cb08d90bf5271369f95d5961dd3cb48c89ac6680d6df9412322252fe37",
+    "compared": 200,
+    "max_old_netR_error": 8.793337524792832e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "fa250c62ece2c47a20d20f5092394cf5210697e671c8926052fb1b462af0ff35",
+    "compared": 200,
+    "max_old_netR_error": 5.623397880683001e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c638b9ac719b1b787d582787668cd92021ebe81f8437803e6c3e62f8245ad60b",
+    "compared": 200,
+    "max_old_netR_error": 1.0026675001384433e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "9d7ea0cc264d3b2eed8f422a2a5f6329ea052eb67dff74acef5b1716ec075ccd",
+    "compared": 200,
+    "max_old_netR_error": 1.104483060565542e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "211b91136c46286ea45c948e0bb6270975be05dbfd970bf4bc1a39b8580f887f",
+    "compared": 200,
+    "max_old_netR_error": 1.1896060447824652e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2d1f6df04690ae125ee6ef2df3c6704e23b5aba8d5bc3d0f761afb93ab6d65df",
+    "compared": 200,
+    "max_old_netR_error": 1.0313834764019703e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "45802f0ae2bcbd0cb58ec4c1029434763645795836f97efe3ff84be8afcb4839",
+    "compared": 200,
+    "max_old_netR_error": 1.1540384914354718e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f5d9a066ffe30f8e769a025a7fa57af2c0f2259272b09ec739752ace83b9e408",
+    "compared": 200,
+    "max_old_netR_error": 5.8458871299293946e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6e8bf706e77cfd261c0c4babfa7a7a584be86c3fa7c49c5a6f2d143be29da632",
+    "compared": 200,
+    "max_old_netR_error": 4.7630909882911965e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3895b6672b3d31a3e21b1744a9000ceb542579976a4080828044bda0581bc4eb",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5309d1ac4dff1dc71a9597b273c303f965a30dd5a0cf2baf05ce1f24ffda5685",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5da57a6f810a1d8ea3dd58a90c3e410a80fc34c4efe53822fa108fe9147d0610",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c7afb2b6c85c772bf0fc1d32362a303fc5436ccc78d3a92e628a990e7b2bd79d",
+    "compared": 200,
+    "max_old_netR_error": 8.132271034355654e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "51b1e4c1dcc3089f7368aba7b7a4d1eea1ad5ae79a48d349822f14bf91eac516",
+    "compared": 200,
+    "max_old_netR_error": 5.828334148638703e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5097180d30354256ba952c48635f401f889d0902f63d9164eed4fbc939d2e30d",
+    "compared": 200,
+    "max_old_netR_error": 5.7645110684845235e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "8737112f8d0869aa3ce86481eac398af06f41985813a6651aaee51ad84284a78",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3d437abf7b42529b5fae878f54d056f0a68c5f4f5964eeedaa1cdfba800a0a61",
+    "compared": 200,
+    "max_old_netR_error": 1.0792433124962031e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ab465955e3f0b62efe09a466d2876fd616e79f8ba0af40891782c24c888e7acd",
+    "compared": 200,
+    "max_old_netR_error": 1.1273695887936697e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "676142c509dc324aeb0fe74a5156cac7404119c333dfa41817eb025e7ecc5a97",
+    "compared": 200,
+    "max_old_netR_error": 4.660980801318715e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f14850207f96879082a685be96ca130c28676d1a1a2e2b66a64f89d5ba6733af",
+    "compared": 200,
+    "max_old_netR_error": 1.1103010022495141e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2a410631de7f5612e7f78a5c6b1e36b74847a30773cf89790ddbba6380978f2c",
+    "compared": 200,
+    "max_old_netR_error": 9.464059225194887e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ab2ad8ee87b563b46bac6cabf5bb76976d69caa6841979fde9a837a8ddb7957a",
+    "compared": 200,
+    "max_old_netR_error": 1.1239298691734234e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "37fa05716cd0ac23cb7eb9c3d57422c7c378996bc248a7d57cc037ff8c1f12d9",
+    "compared": 200,
+    "max_old_netR_error": 6.17510731437676e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "86a5f9f6a67e8d8b237132372cc90b824b45af7a9427bfe4a27b628a27f17a47",
+    "compared": 200,
+    "max_old_netR_error": 1.0556009222284501e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7882e053b1d9606989c171c5a45266f15ae30b1daf27b1f6d913e3876a316b15",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "82855a1e57e5427f8618c8758a9911d990ad2356e30c8e4761ed6e1e2b8d068d",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a30987f9316970f47aa967d70d5b7a80877b03cec5e99c7a635b90abb7ff47e0",
+    "compared": 200,
+    "max_old_netR_error": 5.3481855388781696e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c21de6800dff7a5475e9fec31e2c7fa58016f6efc7f1a06ab4eaf285876bc82f",
+    "compared": 200,
+    "max_old_netR_error": 1.1023768919926624e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0f227d7838400afeaca6a81c6c027f7bba0201a95aceee87ff38511f5862586a",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "af11ca87db67cb5154a3302f6c065db230ff216391bb96f32af057fb52a7223d",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "1854f618a81e986288a6e4c6c41e2ad1184ad88e5b8565b6de5a41f3d255d7e7",
+    "compared": 200,
+    "max_old_netR_error": 1.1577903702431058e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "23cdb362dbbd159195f6870ba0a40da3dfc1be65dd6f9af28a7340e044852217",
+    "compared": 200,
+    "max_old_netR_error": 8.708452137184963e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "3a5fa0c3a0501d7590fbde09d2895fcef72f866482f7ca002167350a9c70cdb1",
+    "compared": 200,
+    "max_old_netR_error": 1.151023987233657e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "6d81161e6d29df63d564a6d58edb3c19f5b96cbe7d4eb98ad9ff963cd333e79d",
+    "compared": 200,
+    "max_old_netR_error": 9.667843459126857e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "5ff93d46a70e4885c15c8b49da07f4e9eb7eef73513bf4cff9e18e9e026bc541",
+    "compared": 200,
+    "max_old_netR_error": 1.0874835387753023e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "542578dae6ff7c116431c1882a5c7c7d78dd8b4e91d85d69b7f4044cefb26b33",
+    "compared": 200,
+    "max_old_netR_error": 1.0951707940520805e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0430d03b784b382473737d2512d67b60b76564c1d1b30a2a32dd4ef09f9ae74d",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ad18447477d277aa0eb0c0e1c0dbb099134a55d1542013b0d4f9db607df4ff9c",
+    "compared": 200,
+    "max_old_netR_error": 3.106253698703654e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e5a952c40418b5bd01a9eb175bfe0db1042af10eaf90070fab2e8efe9f9350f8",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "dea3afdf9fe486f2e18e45c13760c9cf0cb36e5d4f34c283a19fca5f6460ba9f",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b0e5531db38243b4d30bc768ccd289f30942147887446a49bc62e35629753596",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "98805847178471eb02ca171755c90070450ad6d0ad237aa27f027cd2892849ac",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "199360ebea08176064ed962fa0b30a04a34c80c9f8cc0aa66b5dbf7ecc4ca307",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4eb57aea0d9011f84560db6dfd19b7011e932de199194e179e7ef29f90d42acb",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e8ef1302fa10c6b1614b5169debac43b2d3dbb05c03ef7c165f32cc8dd1e741c",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "27f59c56db99d3d048de0b077a293c805f27feda8a280d41e4042de12ea2c324",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4b71b273c90621cadbcaa3680612b5c67acb1cf514b6c19ba72253c24bb14eba",
+    "compared": 200,
+    "max_old_netR_error": 1.0256555471599427e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "90d87d926cdb9feff20f402b3a1f5f5b03536c2b057bb43b1fe8af282fb670c7",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "01b3c5d9b6ea0f59e46360f3a19e46137e94d27525b8b3ded9570e543c791db2",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "a3ebaa1b648bccdd6b0fe6f43fa0b68a264d0a713292c4b98a2401ff865fc94e",
+    "compared": 200,
+    "max_old_netR_error": 1.0031228958595761e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ea81fd68ecf223c8bda03f402f36245ba6e32ad8ec45c84fea6e329044baef93",
+    "compared": 200,
+    "max_old_netR_error": 1.1606453487189583e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7040e77e3a57c54a563bff6f8158fc1c21c1bc519f7b9443089b2db7672bc50d",
+    "compared": 200,
+    "max_old_netR_error": 1.1555700929477553e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b233117f59e6480b45c141659b5d7f0edbe864ed09ff144d719d6e832e1b704d",
+    "compared": 200,
+    "max_old_netR_error": 8.239941795551431e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "c8d47ef3655ed8a9c6faa226744625ff2060da6bd01e93e0b11c34ce3dfb6598",
+    "compared": 200,
+    "max_old_netR_error": 1.1134883859398315e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "036026ec5fa4319a39aa179b194b08f6bdab43eff3bd324d1cf0b1c7b69e468d",
+    "compared": 200,
+    "max_old_netR_error": 1.0898409597004388e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f42689365c84c4b2c100c6e62d45db00c4f81718ecc6bceb54a83ddaa4977e17",
+    "compared": 200,
+    "max_old_netR_error": 9.486464991326216e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7551c4a3a23053e2de0c2fd261400129d7c2ea51e7c2203db1fd4a5896faa888",
+    "compared": 200,
+    "max_old_netR_error": 1.1553683121334757e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b29599ed4bf6995623b33993fc1efb276032f2d1b50e2b1a18d4614b39169e56",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "bf4d426c3937b19d192f8682ec50510c01d9be6ca5a81013376ac84af549dee5",
+    "compared": 200,
+    "max_old_netR_error": 1.1028640711785442e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "96f7981798e6cddb5a40c89963c7a23e0be1875a25fecfd577d3ea4022d1da73",
+    "compared": 200,
+    "max_old_netR_error": 1.0475819456345903e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "0d75c0b1eb29e7cf119f9ae262caa53320e3dca7b6b81dcc95a34adf22f0aa16",
+    "compared": 200,
+    "max_old_netR_error": 5.1183387750342035e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "4fb2101b5f695149ef9731323a62eba6e319f0c71b201e0d3008a6b74bab4bba",
+    "compared": 200,
+    "max_old_netR_error": 5.476550013483461e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "43365772c69129cffda7ed9db633c54f7007455f0e2df97857ad2fd662f68cb0",
+    "compared": 200,
+    "max_old_netR_error": 1.0861789334626337e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "e5952e8469c26078ad10a2728a75754177d820d7507ceca03426138d38dc06a2",
+    "compared": 200,
+    "max_old_netR_error": 1.1487880868799039e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "7f3811bd95f007cf61dccc9d17a2126b1337e2cf57a1de932482451c10dab83d",
+    "compared": 200,
+    "max_old_netR_error": 1.1815882583476878e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "b50b4be5d380b722e060a9b21cdc207e3b5144e28dd20a185750f833003f20b8",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "f1f042b47328f42d54aec06bc8151e2898ef8a83d800df355d8fc5fc0f90e334",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "969918b6e7156c98a48ab2abb6cbaaae9bf3e423292e4021db5c1cdbbceed1ff",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "42b38a9f2668002811c12e1059d81708395862626a20659a97c482e1a6e7e851",
+    "compared": 200,
+    "max_old_netR_error": 1.1194137217174216e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "d29f498e52718f647ed2ce3c9dc0a96c90a7f45149910bb238a28622248fa088",
+    "compared": 200,
+    "max_old_netR_error": 1.1592651016911759e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "ff40b508f0b6962cd30bec70823faa976ed24181d6bb890af9a6f2b2f4b63a2f",
+    "compared": 200,
+    "max_old_netR_error": 7.193939977057084e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "30d521451ea678ea5c0ee71d8f6829d00cd2b4e55257d90b15ec61a1c80f91bd",
+    "compared": 200,
+    "max_old_netR_error": 3.106253299023365e-08,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  },
+  {
+    "key": "2c2c159a8e3ad96e5533931332f4e56ad54d5dc54dfd68d30fce31c734f32a8b",
+    "compared": 200,
+    "max_old_netR_error": 1.173535562060124e-07,
+    "finite_old": 200,
+    "finite_reconstructed": 200
+  }
+]
