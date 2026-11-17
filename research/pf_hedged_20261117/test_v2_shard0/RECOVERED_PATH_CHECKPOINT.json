@@ -1,0 +1,8 @@
+{
+  "status": "RECOVERED_WITHOUT_RESIMULATION",
+  "source_run": 44171887648,
+  "n": 404,
+  "parent_checks": 179,
+  "max_old_control_netR_error": 1.1896740614858459e-07,
+  "path_sha256": "7c7fdd4816429d8b084bdf2fae35311dd769ee518b41e6a413594620087a4962"
+}
