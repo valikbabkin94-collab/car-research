@@ -1,0 +1,10 @@
+{
+  "part": "part1_oleg_fix",
+  "code_sha": "2690eefd603c90d7351224f2df4796b4d3a1b752",
+  "asof": 1794919920000,
+  "status": "DATA_GAP_FULL_OLEG_ARCHIVE",
+  "available_OLEG": 13,
+  "available_STYLE": 3,
+  "candidates": 0,
+  "no_live_changes": true
+}

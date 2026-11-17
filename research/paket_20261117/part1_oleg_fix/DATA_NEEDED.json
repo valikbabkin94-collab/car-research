@@ -1,0 +1,22 @@
+{
+  "missing": "Complete normalized Oleg signal history, author entry zones/SL/TP and source chronology",
+  "searched_sources": [
+    "feat/tg-only-live-20261111",
+    "research/codex-direction-new14-oleg-20261110",
+    "feat/manager-author-zone-20261114",
+    "data/tg-mirrors-20261114"
+  ],
+  "found": "oleg_main_study.py/oleg_style_study.py are tools reading an external Honor archive, not the archive itself",
+  "required_fields": [
+    "published_utc",
+    "first_observed_utc",
+    "symbol",
+    "side",
+    "entry_low",
+    "entry_high",
+    "stop",
+    "targets",
+    "updates_time",
+    "revision_vintage"
+  ]
+}
