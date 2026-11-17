@@ -140,3 +140,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part2_source_completion -->
+
+<!-- part3_resource_shard1 -->
+## part3_resource_shard1
+
+{"code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737", "status": "SOURCE_SHARD_COMPLETE", "shard": 1, "assigned": 404, "source_success": 404, "new_events": 5376, "H1_recomputed": false, "successful_profiles_recomputed": false, "candidates": 0, "no_live_changes": true}
+
+[Отчёт и журналы](research/paket_20261117/part3_resource_shard1/REPORT_RU.md). Код и сетка: `804d96aaabe5a0cba60d29d5339a5279cabfc737`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /part3_resource_shard1 -->

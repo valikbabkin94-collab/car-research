@@ -1,0 +1,12 @@
+[
+  {
+    "symbol": "MARSCOINUSDT",
+    "date": "2026-08-31",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SLXUSDT",
+    "date": "2026-05-31",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]

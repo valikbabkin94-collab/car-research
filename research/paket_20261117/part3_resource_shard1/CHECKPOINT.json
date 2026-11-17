@@ -1,0 +1,12 @@
+{
+  "code_sha": "804d96aaabe5a0cba60d29d5339a5279cabfc737",
+  "status": "SOURCE_SHARD_COMPLETE",
+  "shard": 1,
+  "assigned": 404,
+  "source_success": 404,
+  "new_events": 5376,
+  "H1_recomputed": false,
+  "successful_profiles_recomputed": false,
+  "candidates": 0,
+  "no_live_changes": true
+}
