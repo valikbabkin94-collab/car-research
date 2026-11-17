@@ -1,66 +1,31 @@
 {
-  "stage": "TEXT_TAXONOMY_REPAIRED_DATA_AUDITED_AND_17_CASE_PILOT_COMPLETE",
-  "SPECULANTKA": "DATA_GAP_PRIVATE_BRANCH_404",
-  "signals_detected": 2132,
-  "candidate_missing_parsed_levels": 460,
-  "unconditional_unforwarded_candidates_before_dedup": 376,
-  "classification_provisional": true,
-  "v1_independent_manual_review": "PENDING_30_PER_CLASS_PACK_SAVED",
-  "T1_T2_T3_PnL": "T2_T3_17_CASE_ENGINEERING_PILOT_ONLY_FULL_MATRIX_NOT_RUN",
-  "T4": "DATA_GAP_SPECULANTKA_EXPORT",
-  "funding": "NOT_VERIFIED_FOR_NEW_COHORT",
-  "profit_format_conclusion": "INCONCLUSIVE",
-  "next": "Review remaining149 semantics, link7day updates, extend missing prices/funding, preregister full execution/controls/BH before full45-channel matrix",
-  "LIVE_changes": 0,
-  "candidates_after_eligibility_and_cooldown": 149,
-  "review_status": "V1 120 redacted examples reviewed by Codex; failed cases corrected; independent review pending",
-  "saved_data_availability_checked": true,
-  "saved_data_summary": {
-    "cohort_n": 149,
-    "entry_available": 78,
-    "full_price_window": 76,
-    "full_funding": 92,
-    "both_price_funding": 68,
-    "cohort_sha256": "4bf788d3f2ff978ac9bae5f48ea09137f2b3a7a8659651fe7c7a570b20f6329c",
-    "PnL_calculated": false,
-    "selection_changed": false
+  "stage": "FULL374_AUDIT_COMPLETE_WITH_EXPLICIT_PRICE_GAPS",
+  "summary": {
+    "original_records": 374,
+    "distinct_fresh_signals": 345,
+    "classifier_rejections": 26,
+    "exact_duplicates": 3,
+    "frequency_filter_exclusions": 0,
+    "policy_records": 1122,
+    "random_records": 1035,
+    "no_entry_unique": 27,
+    "other_missing_policy_rows": 2,
+    "closest_channel": "Whalesguide",
+    "minimum_additional_unique_completed_signals_needed": 29,
+    "missing_by_best_period": {
+      "H1": 0,
+      "H2": 13,
+      "LAST40": 29
+    },
+    "all_BH_q_one": true,
+    "paper_candidates": 0,
+    "conclusion": "INSUFFICIENT_EVIDENCE_OF_PROFITABLE_FORMAT",
+    "funding_unknown_assumption": "0 with +/-0.01percent per8h sensitivity",
+    "bybit_public_host_status": "HTTP_403_PUBLIC_HOST_BLOCKED",
+    "execution_snapshot_commit": "074abc76e2bf7bfb3f5b7759f43cd63b12d2ffc2"
   },
-  "semantic_sample_full_text_reviewed": 30,
-  "semantic_sample_clear_directional_calls": 17,
-  "semantic_sample_level_parser_failures": 3,
-  "semantic_precision_not_extrapolated": true,
-  "T1": "NOT_RUN_UPDATES_LINKING_UNVERIFIED",
-  "full_task_complete": false,
-  "pilot_summary": {
-    "sample_n": 17,
-    "policies": [
-      {
-        "policy": "T2",
-        "attempts": 17,
-        "price_closed_n": 10,
-        "net_known_n": 8,
-        "unknown_funding_n": 2,
-        "price_R_ex_funding_sum": 2.1004614112300617,
-        "net_R_known_subset_sum": 1.8873625475410296,
-        "net_WR_known_subset": 62.5,
-        "net_PF_known_subset": 1.664719539638951,
-        "status": "INCONCLUSIVE_ENGINEERING_PILOT_NOT_CHANNEL_SELECTION"
-      },
-      {
-        "policy": "T3",
-        "attempts": 17,
-        "price_closed_n": 10,
-        "net_known_n": 8,
-        "unknown_funding_n": 2,
-        "price_R_ex_funding_sum": -0.12671511211846245,
-        "net_R_known_subset_sum": -0.9067922835419199,
-        "net_WR_known_subset": 62.5,
-        "net_PF_known_subset": 0.6865198534528989,
-        "status": "INCONCLUSIVE_ENGINEERING_PILOT_NOT_CHANNEL_SELECTION"
-      }
-    ],
-    "T1": "NOT_RUN_AUTHOR_UPDATE_LINKING_NOT_VERIFIED",
-    "T4": "NO_SPECULANTKA_EXPORT",
-    "limitations": "Not all149,not the whole45 corpus; small self-reviewed random subset,not independent holdout; no statistical promotion; unknown funding not0; results never used to adjust classifier or parameters."
-  }
+  "old_v2_and_pilots_not_replayed": true,
+  "SPECULANTKA_not_waited": true,
+  "remaining": "Price access gaps,additional independent observations;no paper deployment",
+  "LIVE_changes": 0
 }

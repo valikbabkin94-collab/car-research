@@ -1,0 +1,24 @@
+{
+  "original_records": 374,
+  "distinct_fresh_signals": 345,
+  "classifier_rejections": 26,
+  "exact_duplicates": 3,
+  "frequency_filter_exclusions": 0,
+  "policy_records": 1122,
+  "random_records": 1035,
+  "no_entry_unique": 27,
+  "other_missing_policy_rows": 2,
+  "closest_channel": "Whalesguide",
+  "minimum_additional_unique_completed_signals_needed": 29,
+  "missing_by_best_period": {
+    "H1": 0,
+    "H2": 13,
+    "LAST40": 29
+  },
+  "all_BH_q_one": true,
+  "paper_candidates": 0,
+  "conclusion": "INSUFFICIENT_EVIDENCE_OF_PROFITABLE_FORMAT",
+  "funding_unknown_assumption": "0 with +/-0.01percent per8h sensitivity",
+  "bybit_public_host_status": "HTTP_403_PUBLIC_HOST_BLOCKED",
+  "execution_snapshot_commit": "074abc76e2bf7bfb3f5b7759f43cd63b12d2ffc2"
+}
