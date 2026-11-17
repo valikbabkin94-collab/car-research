@@ -1,0 +1,63 @@
+{
+  "code_sha": "5b290e403d1a185a1518eb48695d949dc4f86773",
+  "asof": 1794919920000,
+  "kind": "v2",
+  "status": "COMPLETE_WITH_DATA_GAPS",
+  "candidates": 0,
+  "H1_recomputed": false,
+  "changed": [
+    {
+      "case": "E2",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "E3",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "E3_FROZEN_FLIP",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "E4",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "G3",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "PF_BASE",
+      "status": "RESUMED_H2_ONLY"
+    },
+    {
+      "case": "R1_L30_LONG_ONLY",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "R1_L30_LONG_SHORT",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "R1_L90_LONG_ONLY",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "R1_L90_LONG_SHORT",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "S3",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "SPECULANTKA",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    },
+    {
+      "case": "TEXT_Whalesguide",
+      "status": "ALREADY_COMPLETE_NO_RECOMPUTE"
+    }
+  ],
+  "no_live_changes": true
+}

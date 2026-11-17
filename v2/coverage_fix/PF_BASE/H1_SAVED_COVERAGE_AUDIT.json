@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "X1",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 588,
+    "coverage_of_price_confirmed": 0.9949238578680203,
+    "netR": -33.9214209317773
+  },
+  {
+    "variant": "X2",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 588,
+    "coverage_of_price_confirmed": 0.9949238578680203,
+    "netR": -34.99960322514583
+  },
+  {
+    "variant": "X3",
+    "H1_rows": 1468,
+    "price_confirmed": 1182,
+    "n_closed": 1182,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -260.1927848375161
+  },
+  {
+    "variant": "X4",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 591,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -160.4903517163699
+  },
+  {
+    "variant": "X5",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 591,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -15.582519298147353
+  },
+  {
+    "variant": "X6",
+    "H1_rows": 1468,
+    "price_confirmed": 1182,
+    "n_closed": 1182,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -458.15308906999843
+  },
+  {
+    "variant": "X7",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 591,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -240.70348476371586
+  },
+  {
+    "variant": "X8",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 591,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -110.32592022335031
+  },
+  {
+    "variant": "X9",
+    "H1_rows": 734,
+    "price_confirmed": 591,
+    "n_closed": 591,
+    "coverage_of_price_confirmed": 1.0,
+    "netR": -37.942338496441046
+  }
+]
