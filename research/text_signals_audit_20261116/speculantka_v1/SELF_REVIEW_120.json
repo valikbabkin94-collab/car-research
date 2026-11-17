@@ -1,0 +1,853 @@
+{
+  "seed": 20261117,
+  "n": 120,
+  "rows": [
+    {
+      "post_key": "f0be95046f774bf849e85cb775051451d4ae7eda0528c01e5751bbcf9d76ccdc",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "366e1cb73616772cde3f4b3e00c4ba43f1e0fce6592827e6304566c10ec4daed",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "94dcf9276fb0c2322d31c224a2107ad9bae72a265dde4c2c44da999f719d5887",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "3d9cbc3493e093e14935e40870a8725b82d6277fef1cb36e0c41618552d8d127",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "22d08d759d8ba80a1a0d2519db87f017e190eba44552b96de291b8e97a2243bf",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "dac70e36a16ff163bf29d3be3457789e8e34c4f1b44d885dc2702e65d4ac89b3",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "27be71d0a35c46db8eab6c9d3bb1affb21c3f8b8046e46393d82e35fe3fd38cd",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "03516466535a8919a06266c1500bbd04704756dd06b156ddfc13b27c317b5455",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "56531ac9852c2e06276743407af6917a3f63c3b6b592a6258a5d6ae4f3ea1835",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "0a3a6c4caa68f1fdc1558d386a264ba532db9c3e24932ee6f3e5e989c9a45835",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "7d714f7b3c7ae70c5f54e434e22a77e0e9cf1096022cf4be0078b9d1adec7fdc",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6489d2530b37becc52473c75b96ad86bccf06deac6cb568aacc2df0cc4e4194d",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "c30bf6f7263d56d7e6cde37abd8d6ba816d5c9bef9feccf72486c0a3f9c05dbf",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "b0e2be445671e5234fb19fb57cbebd27732230f1cf26d80d4d37930218156067",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "06d2535a7569f24d8a4b93fcd3ae89ef932fc4530cd5fa6fc2faaaf2ca97f80d",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2ded4fe5a486728500a0b06e080b8ac6139b043137a018cc225703491f407b67",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "cfbcb0c97297b24adedb0dd38bfd8e182b1844bc6e425b4161920b230adaa989",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "c3afdda06bd084fe8a3f5b73cde44078eddf80dbe2261d19cd49a294aaac481e",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "12d94249a7bf00f0dff8e8a3d9caad87d5f513d08f00cfe0e011b6f6b0f5f77c",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f2e7677c2b47e3ccdb5aa9fe839d171551bdeee22e31eae9c7e35fd8d9f9b93f",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "74661a82b881fbc029d18d4afa9c70cff8afd8cb8d2056ea3bad5f55d351472d",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "5d6b71c5ca36cbdc5ccdc410f3894b8570c0ce66b130f2439cc51da66bec9d10",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "d991f94d89b892a57517a3a7e54f231190cd20ad8648b1300284ff32ef5ace31",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "85d307d045936d95f29fd7da14a0e61ff89f534aa29ac19e423f42f8a0339e56",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "cb5b6a35e38a2e8c574a27d323b8e83f422db8689b90d26fceeb3c20eae36887",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "0c03519f83abe49fe0dd93165ca7205b13a1a395750d0cc2e33ce4b790dc97d1",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f6cc91c553b535c565180cad2abc36b2dd09896f3f69c38f403766bbad0899eb",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a2a4bab5fb2addf8349e497d1e5f0ed5c06064993816c5302769fbf16c01f8a7",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "547fc4213d7bc9fef500188c8f51554142337d4922488a2f38ec019e78f9688c",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2403bf549bee0f5c416f2284bada49c50c03784c5588614bb6ccf6fb76dce2b7",
+      "parser_label": "SIGNAL",
+      "self_review_label": "SIGNAL",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "355752ed7d53d49705e517fecdddf1d3698c0faa502e30900b66cd3bf202df0a",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "89f95788519e11dde764eda3ccfd02d8ba24b6f1f43e99bf6efb91ec734f23f2",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "c37ec1b7a39a1ee2862610ece56841439264a431a0efe70b96b892ad698c91f5",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "891337d0d6382abee5c10ed889c826c2813b09a0f1e40499d4fc34ee5f669e43",
+      "parser_label": "UPDATE",
+      "self_review_label": "REPORT",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f81a919f7028acac934fa1e2eb658145f0d51964bd8957c7268872b12beeb082",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "e7bddc0294d8cf1cdf9f1c246396516b45606651ee1aed53e15f2fb60213d68b",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "1bc334bc2a304da97e988973c79c9d1f297b0eea5a35ff69e2f841d8988dec55",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "ea193d25150cdb70608794dee04fa7fb170d657c89daa45a0e369980dd0cb87c",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "0f2c7c2c354bf43df778ec2441ce8af3cc59ac28717c6719eee531749433f9c9",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "797d2340a5d9ed4d18a0861bf856cb4d63b9c6c04305959ebda95f1707ac4254",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "9b3a2df5455f83c56d24e60c5fb8490a34ee251eab9097ae043c296bbbfc5f00",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "c11bcf46740c0ab902daad8fd0743ec0bc2f55ddd4ea3dcc9c726d197bf21a98",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "1077eb6261f55007517e5a6284fe4736b1b1ab8683327db9e8893379ed8c4815",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "fc369d6802cac4be40fd123d342b8f032be2df188ade98c5ae03cbb37193ce18",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "563d0cf19cdec28ea2f5a94b03673b29d246070c1db723163c9edf9289ab3ccf",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "93155423b370c28e15e57ad280cac646fefa18cb4f8df811bd4a70d5cec5417b",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "7451a6fea8d908781383e8970ce46da0876e00349fd9885f1ec4da2740f2b75b",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2756d9b13612149a9e46d770d615f018f152416f1122fa35589ddb879301d76e",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "84a4a36f985ad79c7183f7f86e5348a0c0cadf8faba749e76eda49d096ed71dc",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "4cf97dd969aadb81f9c25ec1842040f41bfa33e043b9100543e370a1dc812fc5",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a01dbd81c37fbaf24a395834a931af3c322fa4bee1d904ee821c2f3b32ea0041",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "59966e26d88fac9dd33a46b817243eaa5a291b38c50d1d481f22ef231d5abd83",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "7c99fbfc4833b4391782909962fdebef27190fbc5e0fb8ed65b69578d5cdc05d",
+      "parser_label": "UPDATE",
+      "self_review_label": "REPORT",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f1b5b26a64aee6124367a3f17d51c4b3a8f1b9cb96490534bf7d7f526775333d",
+      "parser_label": "UPDATE",
+      "self_review_label": "REPORT",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6ace53d5d86444a94e251070a1cc80a8e33019f0e6bbfa301184b193b37bc087",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a3e5113ee44d39e9ebc6531eddbb65f00845f1c1bf2a07e3dd080df35f1491db",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6834a235c4ee22321a98e4c33b34745531d716c0a6223fbcccd3b67b7ab42ba1",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "cde695b0f6128e53d3a4c9ccd8cc4e09d232ab2073d92d1e73486b886bc4f1f1",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "aeed9f57e4c13edce56ce1d0ed4500f1fece07102ca86ce6ec1c841b41e1a1be",
+      "parser_label": "UPDATE",
+      "self_review_label": "UPDATE",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "5841701c1305da4e193600e463cf5d7a35e3ca610012a184692934ad54cf5341",
+      "parser_label": "UPDATE",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2bcbe5a0e92a7d32fb047c66af1acb06dd9cc43d282911236b8568309c1f80ee",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "7c5c1c3e20d7e19c6c448673abf1527ced26d4268d217e448a6156816ba8511e",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "771917d8806a84a3d55e7cc7832702c6d2e222a71737d3660b7109f01758e5f0",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "d46deb5432a9dc5d08c77cc8bb3a09b6a34af441238db8f8c4d1f9b2e456d40e",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "d8b6770c1d5e31810639613e891bc8e1d951c1d5747757d7c9c517d95339385e",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2ff1a4164a4a79daadee2ad14ba7fd738409533dd046e7a534d42fa65dbe3169",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "54140d70b18e797ad533e3fb1cc954adbc315befdb5c564eec787c1c32b1ece6",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2740ec789b96b9f5d40166e5dfcca0833fdfb2e41ffe2536841ee5623e2401f8",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "43c9b346076ff923b69cf82edd638a3dd48bbdcf1d1674a6968738479d7b9f57",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f584c91c620d144cbdbab6a9818892ce1fcbfbca8d1cde685d29eb5c9d000ec3",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "b73aac11e76ce5fca8584f46a5b52aaf7dfb7d5d6d5333bccba4d8961a95c200",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "1e9a72ebbafcad5b90861ae0e5d5d6d26ec0ef38c8c8209beeb656eaa1c25b64",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2e17c4801d53416f16aba96a8e6750a0ba4c2bec50ff311ca35962b85e12f2ea",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a0c42d4eb1bd8c61c9365e2202ab99a13cb52ba6da77f7c738c13e4458cbcc94",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "1d218ed20d478e255e80c7a07a05197b4bb41f3ea39d4b77c4fbda842f04cf2d",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "26bb2ce535a02a036db536d5bb6c4697003353d93b4faac57cb9cfedbe1dec59",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f7e62355ac86a48c9ed81b4ebb8f02b6ac78a8c8a3719a3da2b46f0c11caaf86",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "5721e43fc281879d7ac4a85132698539e8f09f0c7f061f0174ef3cc9c3b6a29a",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "9075b3cfaa8cc93e85b06eaa9b49853574328c54c8b9b0f31cde30295f5fbe2c",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "7cfd34c716c17445013f1a51fa45ecf02fb157dc49e5edcd3e14bce8f51423da",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2cd02101480897dfd159df5cd93aacd83e104764d91881e073c96b6b02831ab0",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2e81c09a00fa75c1fceb85bd382d108792b763a2d68c5627cf4f38d9cb23507c",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "de496c56ecdf90b3df31be79513933ec34d8c5a8439bf565f02f68f1f2f1897b",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a890645d01a5ba7523e5587ea2273a351fca0804c7778f7cea05381996594168",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "0f43e9d042131758f5d86109c54a9380a3c5b5d4b375774934fdb6660bcbd098",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "bb12cf7bbb1e754a6e3746767025176f19393b81e5fa3a7ddb5bc221bbd7de3d",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a6e57f8e55922977b75534af2f13576d8857d3fad1c5a489ca7ec3ff404dd865",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "116ffb3ff646001683e2e12ddd29d5b3fab1a42fcd2a2ba84de70063d99f15a6",
+      "parser_label": "REPORT",
+      "self_review_label": "OTHER",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "10f812a713bd5ecffebf617e45d2cb81a2ff4c49c17517cea8a9ec48044d0fac",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "eeb26b334dee6b17279c2048db963ecbe44153cb6f8e0b766b6e1e3ab6960fb5",
+      "parser_label": "REPORT",
+      "self_review_label": "REPORT",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "a890f441ee385430f9c9a3c47ee3c85a9343317b728876c9021baf1f716fc8a2",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "71a52aed04b23642816e5f30c81b16fe5d49ee31db36cb2e5aedaf86859e295e",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6962b0d514a7c39f594ae6f16f4f875b9ee8bbf6c32ee4b2488e9386627ce074",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "4db393a0ab59c589bef3570c07a74927e43bf75cec942622e0d4a910818bbcde",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "ca1a2f82dba28312000a5c8af33ee474ea84e8495d808712e546ee00c9e756f3",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "8fe86af42977f1497ae015949434aae0dec68949629ba46d87cdcd498c40471c",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "376e544420bbae119ca8e6595945870f89db13072f3309a7f5a5088f75147a8f",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "2525c4817ab96adcc809dfb211159fcbd44c6abc8b6cfcbf2bebd7eba92c89f6",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "86ed15b2160689d82229697927f1368d571cc8c9fc87a34a69f151da6ed7b28f",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "4eddc07ee7b9a3a4a4e64ee4fd295ff5922ed9348c8702b6b1d445218eaf357e",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "8f0358844937d6118d551a9fa56cae52674320894d3a123fe624cd9fa9d2bd61",
+      "parser_label": "OTHER",
+      "self_review_label": "REPORT",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "49b72eb20c309ab49ad85bfc738f2d42ae52bfed2caa684494d79f1dc306b28f",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "750aeeac46b76efbb31ec50f37aa8bf4f5dcdd5bae1e347c8d9e41027366fe3c",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "b27bf198cb69ef5534730519be38c12413b0647157e62819313ca75477deeab3",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6fc23ea60e18ced5c52a6de2a4ee1f01936129da613e10b03435528c7dab7891",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "c7433804cc9823efd99f0f6dfb3f28d2a9f89bfd767bdf29da865f045cd93b2f",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "5922953e6d1c0630def7887caa14cfe8d4f0dcc31d3e58790ce015abf38d1b7e",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "6b1b1573a8d9d409ab7bf797a4d6e9c9f1f2cbd52e25f4197bdc975ca4484c38",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "8336d9c4b0d8a5afd2ca552bb77e5ead0702f60dc4bc583fc3677c70591ebfde",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "ae28528d00e5e0b515bccac152de5f105dc682e6c57d38ca2372c8c791621c7a",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "3d9eb49cf5c9b97cec8c5f7f7948614f1ff0a644c90671ca1aee9ec1064d491d",
+      "parser_label": "OTHER",
+      "self_review_label": "REPORT",
+      "agreement": false,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "633af8d13fffff5c90e67047373d69c524c94a0c21b93a789bb821a0c3538052",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "d29d3b9b46e88289736022d8c880c9a57bb7ffa6f8a4a5c1a02b653f7d5db561",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "406c5cef1406f4163c974d5ee792246aa2ddbe5efeef1b2ea3f91783d052889a",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "9ec53dc1b76cc2f752a1a17dbc7f43d5f721e9812269788428c2a8df4c82ef85",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "fe47d6b07a01e6e7d4166f17137975505cbb847f3d8c9cc56a3e927350ffa7a7",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "f2b823ed429fc622c83a88a3f6b9ce1313bc6c49cae58c53af3e035a4e1803a8",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "5ce06a6ed78bda9bd2abe19f4058d18b1d145d31f5b51b840c38447648cfdf93",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "3868fd082c5e8ad28591cd45169e40ae5501e50de5867d7604a5fa4f6eda168f",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    },
+    {
+      "post_key": "e3acaa76b67cd2e842fc388965c0ac0b5ececd2c269ab7d57728085043dbfb8e",
+      "parser_label": "OTHER",
+      "self_review_label": "OTHER",
+      "agreement": true,
+      "review_scope": "AI contextual excerpt review <=450 characters, not independent human certification"
+    }
+  ],
+  "agreement": {
+    "SIGNAL": 30,
+    "UPDATE": 20,
+    "REPORT": 21,
+    "OTHER": 28
+  },
+  "note": "Full trade quantities and chart contents not manually certified. Taxonomy false positives retained; no outcome-based overrides. High SIGNAL precision in excerpt sample does not establish recall."
+}

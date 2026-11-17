@@ -1,0 +1,20 @@
+{
+  "post_n": 6443,
+  "edited_n": 5977,
+  "edit_delay_seconds_median": 15,
+  "edit_delay_seconds_max": 8556686,
+  "date_min": 1735836603,
+  "date_max": 1794901471,
+  "missing_reply_targets": 19,
+  "id_span_holes": 1196,
+  "id_holes_note": "Internal sequence gaps do not prove deleted losing trades; images or nonexported messages may explain gaps.",
+  "forwarded_n": 248,
+  "media_n": 3147,
+  "no_text_n": 714,
+  "signal_direction_counts": {
+    "LONG": 352,
+    "SHORT": 263
+  },
+  "numeric_grids": 2,
+  "grid_mentions_without_range": 1
+}
