@@ -10,7 +10,7 @@ def atr_at(q,t):
  if len(v)!=900 or np.any(np.diff(v[:,0])!=M):raise ValueError('ATR_H1_DATA_GAP')
  z=v.reshape(15,60,5);bars=np.column_stack((z[:,0,0],z[:,0,1],z[:,:,2].max(1),z[:,:,3].min(1),z[:,-1,4]));return atr_from_closed_hours(bars.tolist(),t)['atr']
 def simulate(q,e,manager,mirror=False):
- t=e['entry_ms'];entry=e['entry'];side=e['side']*(-1 if mirror else 1);base=dict(key=e['key'],scenario=e['scenario'],manager=manager,mirror=mirror,entry_ms=t,entry=entry,side=side,status='DATA_GAP',net_R=None,events=[])
+ t=e['entry_ms'];entry=e['entry'];side=e['side']*(-1 if mirror else 1);base=dict(key=e['key'],scenario=e['scenario'],symbol=e['symbol'],manager=manager,mirror=mirror,entry_ms=t,entry=entry,side=side,status='DATA_GAP',net_R=None,events=[])
  k=int(np.searchsorted(q[:,0],t))if len(q)else 0
  if t%M or k>=len(q)or q[k,0]!=t:return dict(base,reason='NO_EXACT_ENTRY_MINUTE')
  if not q[k,3]<=entry<=q[k,2]:return dict(base,reason='FROZEN_ENTRY_OUTSIDE_BINANCE_1M_RANGE')

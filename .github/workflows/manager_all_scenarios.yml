@@ -1,4 +1,4 @@
-name: Fixed-entry manager all scenarios full audit v1.1 coverage verified
+name: Fixed-entry manager all scenarios full audit v1.1 coverage and accounting verified
 on:
   push:
     branches: [research/manager-all-scenarios]
@@ -46,6 +46,8 @@ jobs:
           sys.path.insert(0,'research/manager_all_scenarios_20261117')
           runpy.run_path('research/manager_all_scenarios_20261117/execute_v1_1.py',run_name='__main__')
           PY
+      - name: Verify complete outputs and write Claude handoff
+        run: python research/manager_all_scenarios_20261117/finalize.py
       - name: Scan research publication
         if: always()
         id: scan
