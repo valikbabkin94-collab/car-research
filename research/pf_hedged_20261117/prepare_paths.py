@@ -51,6 +51,7 @@ def main():
      if ix<len(q)and q[ix,0]==t0:nulls[k]=simulate(q,int(t0),float(q[ix,1]),-1,plan,ft,fr,cov)
    if e["key"]in oldnull:
     old=np.array(oldnull[e["key"]],float);good=(nulls[:,0]==1)&np.isfinite(old);mismatch=float(np.max(np.abs(nulls[good,1]-old[good])))if np.any(good)else None;checks.append(dict(key=e["key"],compared=int(np.sum(good)),max_old_netR_error=mismatch,finite_old=int(np.isfinite(old).sum()),finite_reconstructed=int(np.sum(nulls[:,0]==1))))
+    if not np.array_equal(np.isfinite(old),nulls[:,0]==1):raise ValueError("PARENT_CONTROL_VALIDITY_MASK_MISMATCH:"+e["key"])
     if mismatch is not None and mismatch>5e-5:raise ValueError("PARENT_CONTROL_REPRODUCTION_MISMATCH:"+e["key"]+":"+str(mismatch))
   control.append(nulls)
   if n%40==0:print("FIXED_PATHS",shard,n,"/",len(entries),flush=True)
