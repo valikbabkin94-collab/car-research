@@ -1,0 +1,3586 @@
+[
+  {
+    "symbol": "INUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/INUSDT/1m/INUSDT-1m-2026-10.zip",
+    "source_sha256": "bc7985a412800a7bee1348ce2d98374c22f56fcdf72e8a89af64b06e8dac54ed",
+    "rows": 44640,
+    "parsed_sha256": "3e0d2230f2e46825266f2fe4529cf26f8726871687f59b0f51d30730c5e4020e"
+  },
+  {
+    "symbol": "IOSTUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/IOSTUSDT/1m/IOSTUSDT-1m-2026-09.zip",
+    "source_sha256": "1fe5ffc86a87f7597ca7498fce78ab4229f920d913ac567f2246bf39f96b6148",
+    "rows": 43200,
+    "parsed_sha256": "772b264d3cfe4102f200355bf5ca9170a3ff6460f40c6bba7cf684160f501777"
+  },
+  {
+    "symbol": "IOTAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/IOTAUSDT/1m/IOTAUSDT-1m-2026-08.zip",
+    "source_sha256": "29e26281b2d95c28822727472536269d805f2f690424beed71dc811fbcb1979b",
+    "rows": 44640,
+    "parsed_sha256": "0ee4ecc1a2c57e2e86968ebfada622edb1a869ca98ccebd980f9876a19c4b5e6"
+  },
+  {
+    "symbol": "IOTXUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/IOTXUSDT/1m/IOTXUSDT-1m-2024-06.zip",
+    "source_sha256": "0a3fe886b3bd96777225bb66bb4ad9bcea23024b53fd3eeaa1858858567b37d1",
+    "rows": 43200,
+    "parsed_sha256": "80e629946de8bfd0f37e73ab7a8d7d52aa9114aa4a4cf68ad5d90ac60be7445a"
+  },
+  {
+    "symbol": "IOTXUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/IOTXUSDT/1m/IOTXUSDT-1m-2025-10.zip",
+    "source_sha256": "7b305ef8b280982abac485f7e7b6b58815974ff1dbe15a5cca3e142da2f347df",
+    "rows": 44640,
+    "parsed_sha256": "2eb9f4eccef74b74799224878ce7cfbee8547f6542d030322a17c22d89bf554f"
+  },
+  {
+    "symbol": "IOTXUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/IOTXUSDT/1m/IOTXUSDT-1m-2026-10.zip",
+    "source_sha256": "f74b3f92c0dccacd8bb683d3c3c3cca34559664ea2d57f6ea504e05cfe8d8b4d",
+    "rows": 44640,
+    "parsed_sha256": "977e7e87ac5fff864787ada33b59a671d43bb4fd26bedac4f062206c736dd06c"
+  },
+  {
+    "symbol": "IPUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/IPUSDT/1m/IPUSDT-1m-2025-03.zip",
+    "source_sha256": "bf580493f8e81338400bb1f189bd3903170209448d2b08d110433e6ed9c703fe",
+    "rows": 44640,
+    "parsed_sha256": "b55c4a2857b465655f5d4f580c8b5482db3de47b5ff1d131772a313b239facf1"
+  },
+  {
+    "symbol": "IPUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/IPUSDT/1m/IPUSDT-1m-2025-11.zip",
+    "source_sha256": "ee4053eeedbdc80aeee145a875de50377d755ca23f1570f441c430877fa9e747",
+    "rows": 43200,
+    "parsed_sha256": "1b3fffc14cae73ac5d263a50575b1b59d562e2a7e9e04cefffa46d919bbefa7f"
+  },
+  {
+    "symbol": "IPUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/IPUSDT/1m/IPUSDT-1m-2026-03.zip",
+    "source_sha256": "08b6b24ce623d39978c88a454f90d576427b6c0d8cd6f530d92fe26e91412a5e",
+    "rows": 44640,
+    "parsed_sha256": "de2616ea89c9c7490ac89f2db7244b6be516cbdb365b198f915ac009efa3a1aa"
+  },
+  {
+    "symbol": "IRYSUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/IRYSUSDT/1m/IRYSUSDT-1m-2026-04.zip",
+    "source_sha256": "622244508c7134eda88b18f88ad5305f31f2dee4d66b68f1cd1f5e4351a9e7db",
+    "rows": 43200,
+    "parsed_sha256": "bce223dc8cd8eada16b6a051a116583cf8fb4446464fc084c1ce66e9aea192d2"
+  },
+  {
+    "symbol": "JASMYUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/JASMYUSDT/1m/JASMYUSDT-1m-2024-03.zip",
+    "source_sha256": "5b4e9891f233a5fb06897c5edf3b65ee53c8d5f4fefbf1133927588617aa13f9",
+    "rows": 44640,
+    "parsed_sha256": "edc07559b2c81c576bec490c1ee4ca7e6f399266b1c25ab634d41a8943f797ac"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/JCTUSDT/1m/JCTUSDT-1m-2025-12.zip",
+    "source_sha256": "85be69058da1bc800af413eaaabdbe5a3da3253616f0a3fb6eb147ce911ad350",
+    "rows": 44640,
+    "parsed_sha256": "3b23bccefc123546255abadb7007cf16172ee310a0574dcb9016a02abee31ddf"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/JCTUSDT/1m/JCTUSDT-1m-2026-05.zip",
+    "source_sha256": "0985664b030bf792e9bfca84e7c7fde0d73365bfa621b7203e6ca2ab9d40b332",
+    "rows": 44640,
+    "parsed_sha256": "b3d333d8da5d201d32b684d06f0a46c349841649e2a54f551963755e1f70a465"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/JCTUSDT/1m/JCTUSDT-1m-2026-09.zip",
+    "source_sha256": "be19ab7d0b10b29fbcc739b46c3f1d41b8511113aa3a227ac9de463fce13444b",
+    "rows": 43200,
+    "parsed_sha256": "a738b4fd73e44612aab553a9db740577495dfe7cc44dce8038764a518eef7284"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2025-07.zip",
+    "source_sha256": "ab0071148aa7f96ad1c46ec507e1e8e6c18e0cee09100556158cf91e18869631",
+    "rows": 44640,
+    "parsed_sha256": "613f2450ac1ab2abcda6295f99ae534769b83154dabe6684581ddf2c0fa50121"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2025-12.zip",
+    "source_sha256": "feacb902e03216429020fa070538a44ee7633aa4986b9ab977f6259067f8d3bf",
+    "rows": 44640,
+    "parsed_sha256": "a4b2167707a6b76064b92615f7632d51c2a712b6f234e8d06608f67b320c92f5"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2026-04.zip",
+    "source_sha256": "654b0b98d77fa1ddd7e66001df5017fed20b430537b57d8979a0e8951ec26637",
+    "rows": 43200,
+    "parsed_sha256": "ff090830cd4007a73dcf84447b34ce8646069adffa46993845fa9cf32895f5e2"
+  },
+  {
+    "symbol": "JOEUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/JOEUSDT/1m/JOEUSDT-1m-2024-07.zip",
+    "source_sha256": "9792a116fc8ad0a1a7681599ee1afa5cb05a4dd42c60c4a9a5dc6157f630f24f",
+    "rows": 44640,
+    "parsed_sha256": "3bb4b991b1377aadc9de44a2791b3b9193f4f66720ec802603a52e4097bce24b"
+  },
+  {
+    "symbol": "JTOUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/JTOUSDT/1m/JTOUSDT-1m-2024-04.zip",
+    "source_sha256": "50bb2c01d809978a8081282fb7bc9c4e436e6e6c06f111f8c2807502856dd247",
+    "rows": 43200,
+    "parsed_sha256": "db84b6d7d7ca2cabd2043ddc5cf87cc5c8d3f2a99e26e66fabacdbf776d42ebc"
+  },
+  {
+    "symbol": "JTOUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/JTOUSDT/1m/JTOUSDT-1m-2025-09.zip",
+    "source_sha256": "23353a0bb5056bb94508c99d647933a1d3e56fc7de2d70c9d0a01dbeac6f4d57",
+    "rows": 43200,
+    "parsed_sha256": "b4a8106758a417d0337170d257840e2a62b6deb42ee58f1f47e4f86002dd3df6"
+  },
+  {
+    "symbol": "JUPUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/JUPUSDT/1m/JUPUSDT-1m-2024-06.zip",
+    "source_sha256": "c52d3c8c4805622f8da1fb812c5a578f70bc3654f899acbb32483bc4aa04412c",
+    "rows": 43200,
+    "parsed_sha256": "1fa698aaf620ac6124c5a0aa216425bb37a1e451f6cf56fcac7d41b220de76c2"
+  },
+  {
+    "symbol": "JUPUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/JUPUSDT/1m/JUPUSDT-1m-2025-11.zip",
+    "source_sha256": "2999ef5d181db52abdfd645081a396405d519a3a296bcd681edecf638070f409",
+    "rows": 43200,
+    "parsed_sha256": "ccd14268fe34bf419df0f3ce2576faac58b2c2d28903902aa238e308343d6ba0"
+  },
+  {
+    "symbol": "KAITOUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/KAITOUSDT/1m/KAITOUSDT-1m-2025-03.zip",
+    "source_sha256": "987d64d91e3306b17c481d3dcde6b4052be7acf56f9931b69f8bfc66caf2b54b",
+    "rows": 44640,
+    "parsed_sha256": "10f1cf97a4cccdf79105d46aacda11d0124251ae4c3e01c8152cf5577b3f9139"
+  },
+  {
+    "symbol": "KAITOUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/KAITOUSDT/1m/KAITOUSDT-1m-2026-08.zip",
+    "source_sha256": "1e1c1c965959e3bc955c19de2d88302d771583081b1c547d29e70411d362132e",
+    "rows": 44640,
+    "parsed_sha256": "ee6ef2fc08f06137bb4cbf9b31d6a5c2adae23aa67a91a977e6c141f6942d9a6"
+  },
+  {
+    "symbol": "KATUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/KATUSDT/1m/KATUSDT-1m-2026-10.zip",
+    "source_sha256": "3146d4f0f78b3a45fad6950950346e2405b1fbde7349217954cce5f9dd895163",
+    "rows": 44640,
+    "parsed_sha256": "c9e4e5c0fd42eed8b7ef96aaf6e14dd141e9403e8c57d97e0953b6d5b05adb54"
+  },
+  {
+    "symbol": "KDAUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/KDAUSDT/1m/KDAUSDT-1m-2025-10.zip",
+    "source_sha256": "8d4f2d990d274e2dd2f86c7af0da04b6e0805e1593e6423f41325a5ee6db43b2",
+    "rows": 44640,
+    "parsed_sha256": "2888d6d6f5d1f9baabf5c4b8d8b84f6c3417ab47739d640fcde4c13cf54a8574"
+  },
+  {
+    "symbol": "KERNELUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/KERNELUSDT/1m/KERNELUSDT-1m-2026-09.zip",
+    "source_sha256": "0d89d39ad1bad9acbc85c39e447cc503f74783593081393a1729508e68758091",
+    "rows": 43200,
+    "parsed_sha256": "c804df6421f902738b3e197b029ee039343b1a470edbfb2e92733348ae26b03c"
+  },
+  {
+    "symbol": "KGENUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/KGENUSDT/1m/KGENUSDT-1m-2025-12.zip",
+    "source_sha256": "44cb9c78c6a64cdffc5ada35ff5d888098a9ebf074200e32cb6f018a27f5684e",
+    "rows": 44640,
+    "parsed_sha256": "0dbc255190785d7a4fbf2fafc66d6e79762f085fa8d7cfeaa02a34d4bd402e62"
+  },
+  {
+    "symbol": "KITEUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/KITEUSDT/1m/KITEUSDT-1m-2026-02.zip",
+    "source_sha256": "377b5a381b1c656c54cad14783ba55eab1ceaed7b5d433c575e21d039f8be382",
+    "rows": 40320,
+    "parsed_sha256": "63d962325db294fb9009dee3ad9b619f376db34be36e033e4a76c0959a1b75a5"
+  },
+  {
+    "symbol": "KMNOUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/KMNOUSDT/1m/KMNOUSDT-1m-2026-08.zip",
+    "source_sha256": "aa5989e8d086b5d18b693a4c4242fa1a16a53a99bd90f427ce236ad4173f2b1e",
+    "rows": 44640,
+    "parsed_sha256": "ca325e849e758d02ce2217d0029e1c6ba31be49506a1750371962251bd5510a0"
+  },
+  {
+    "symbol": "KOMAUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/KOMAUSDT/1m/KOMAUSDT-1m-2025-02.zip",
+    "source_sha256": "db7185823f85cf8af7ce362d016723a88e054daf12edbe0dd03c00ad2bd50d75",
+    "rows": 40320,
+    "parsed_sha256": "3632f8d903759c4f72768bf42bb290b81bed973dd2b37169761abf082db55bad"
+  },
+  {
+    "symbol": "KOMAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/KOMAUSDT/1m/KOMAUSDT-1m-2026-08.zip",
+    "source_sha256": "e30ba442a3c7f198c332d416bfbfa78b5c349635d4a7212e637cac6c5f9c0b32",
+    "rows": 44640,
+    "parsed_sha256": "a231eab53214a2e29952f252eab5e5932438908352415eda51353b524da384fc"
+  },
+  {
+    "symbol": "LABUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/LABUSDT/1m/LABUSDT-1m-2025-11.zip",
+    "source_sha256": "60723845fcfba5ff3f52c4dfa0793990fd93b3efa946920be99a8728585414c8",
+    "rows": 43200,
+    "parsed_sha256": "cff7d7001d74066b2f8ccac90cacdb607070656ef5fbf25c773e0a9e3455bbcc"
+  },
+  {
+    "symbol": "LABUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/LABUSDT/1m/LABUSDT-1m-2026-04.zip",
+    "source_sha256": "bdc1348ca86f50c84aa7d9ffc086980e39ad6b4fe613ead242cf1ab232fda9ea",
+    "rows": 43200,
+    "parsed_sha256": "9e2265aa51f3d95ff520a6954911974a9cbfb424a8f7de6a2d890fbcad636edc"
+  },
+  {
+    "symbol": "LABUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/LABUSDT/1m/LABUSDT-1m-2026-08.zip",
+    "source_sha256": "0f7c521bcc48d55c8885ddde06bf7112cdbc0bbdccb362198b729e434442a3c2",
+    "rows": 44640,
+    "parsed_sha256": "8d36439f1ed05f8b51003ee01f14eb96ee8af5e89c69e6c9e6ba0298050427f0"
+  },
+  {
+    "symbol": "LAUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/LAUSDT/1m/LAUSDT-1m-2026-07.zip",
+    "source_sha256": "56022a2fdfd866d029a74b3bb9cc1f956aee39e77a85a300f23a83b14536445f",
+    "rows": 44640,
+    "parsed_sha256": "00cf67953a81c93924d45176ef4f59fe0c5756c4c72378dac383767310e5f0c6"
+  },
+  {
+    "symbol": "LAYERUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/LAYERUSDT/1m/LAYERUSDT-1m-2025-03.zip",
+    "source_sha256": "1c0a91a923367d269c66b1d867048d15fc5ca0da3ceda189c0d4788e07a83d76",
+    "rows": 44640,
+    "parsed_sha256": "7d96480a1db8aeafc7c5ccc37fb8cdd1868a11179180d503796ada7eb546aa3f"
+  },
+  {
+    "symbol": "LDOUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/LDOUSDT/1m/LDOUSDT-1m-2024-06.zip",
+    "source_sha256": "4d5aeb8bef5fe80b8f88dbbd8764cea16d78fde4b43adb9f77cba904d6136470",
+    "rows": 43200,
+    "parsed_sha256": "93a09322c2b3d7d3ee26210d290b42129174c52306f4c431ad681ef97339e009"
+  },
+  {
+    "symbol": "LDOUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/LDOUSDT/1m/LDOUSDT-1m-2025-08.zip",
+    "source_sha256": "dc6b05c8b8243507127147ffb318d90a34b80be9213b8b76c654a6760588ba61",
+    "rows": 44640,
+    "parsed_sha256": "8aa63620de96abbe74dfed2bf17fa1b1e0c87df5987ea16628cd51fd83eea96f"
+  },
+  {
+    "symbol": "LDOUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/LDOUSDT/1m/LDOUSDT-1m-2026-08.zip",
+    "source_sha256": "aac2f4d0e0bb806be73ee2be68453e767d3f26984bd18da4b619644e17bad4a9",
+    "rows": 44640,
+    "parsed_sha256": "5637a96a1dca3a73bdc9a3496d0de1b286c64a83c79aec422e5c0b59a2ddf653"
+  },
+  {
+    "symbol": "LEVERUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/LEVERUSDT/1m/LEVERUSDT-1m-2025-06.zip",
+    "source_sha256": "b4e53a91c84b2113b56dad185dbd6af251f551f322c45900b3850576fe1937f7",
+    "rows": 43200,
+    "parsed_sha256": "de25e4d5f1025659bdd1b321194f2aa208e3f9844bc2286e7cf550bed0d1e0fc"
+  },
+  {
+    "symbol": "LIGHTUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/LIGHTUSDT/1m/LIGHTUSDT-1m-2025-12.zip",
+    "source_sha256": "304a9179143e7c06e556153bef9027e39d7bc372cd811332850cba246f400612",
+    "rows": 44640,
+    "parsed_sha256": "41ea4fd28c3bd360f1893d88b24da5b81bce1ac06d14239ce722104d30439d51"
+  },
+  {
+    "symbol": "LIGHTUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/LIGHTUSDT/1m/LIGHTUSDT-1m-2026-09.zip",
+    "source_sha256": "0b800f80d325977989a45f8ddb3a03f9cdb47b730a48ad051c69e5ee157188f1",
+    "rows": 43200,
+    "parsed_sha256": "227229acc70f8196ea108b12e1a231626071457a5820785da429ae4aa0bbc4e0"
+  },
+  {
+    "symbol": "LINAUSDT",
+    "month": "2024-01",
+    "key": "data/futures/um/monthly/klines/LINAUSDT/1m/LINAUSDT-1m-2024-01.zip",
+    "source_sha256": "e3823cb839a978778849ceb215ff091c640aa37109b8bcba8dee68de3e86aba1",
+    "rows": 44640,
+    "parsed_sha256": "dba2e9af2d93c196f07087e994f798dbd943edc8da40fa26f375f120fe21f38b"
+  },
+  {
+    "symbol": "LINKUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/LINKUSDT/1m/LINKUSDT-1m-2023-11.zip",
+    "source_sha256": "591c2f684483a162146c1e312ffb447a45fea38f159b737ada4a31bb6a743ab5",
+    "rows": 43200,
+    "parsed_sha256": "8cb29a840143e185d5f2d7880971dbaece82e667805a0405cf0e09140fb00477"
+  },
+  {
+    "symbol": "LINKUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/LINKUSDT/1m/LINKUSDT-1m-2024-08.zip",
+    "source_sha256": "321d1a4fd137fe5c6460c021f8123bbff7f62ba970d61d162686636b6a6c774a",
+    "rows": 44640,
+    "parsed_sha256": "600a1fae458317f3375de5d7b15a2afca8bbbe29b89dd9e6e9b9d2155c3f93ff"
+  },
+  {
+    "symbol": "LINKUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/LINKUSDT/1m/LINKUSDT-1m-2025-10.zip",
+    "source_sha256": "073db49356b1fbad4f93e04abffc39e0223c4f2cd92d04c60ce6849e35a85d52",
+    "rows": 44640,
+    "parsed_sha256": "cdd38a60eff5f60074fdb395d21faa4b2449e5b84afce19e88d208e48c320838"
+  },
+  {
+    "symbol": "LISTAUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/LISTAUSDT/1m/LISTAUSDT-1m-2024-08.zip",
+    "source_sha256": "53fcc3270b2b408d112eabfc5a85fdbaedbce4ef3dedc621b11e46d3f11b8983",
+    "rows": 44640,
+    "parsed_sha256": "d0d768c3757106cab8c9ddf1928ca3395b618e2f47819ed80dedd712400606ab"
+  },
+  {
+    "symbol": "LITUSDT",
+    "month": "2024-01",
+    "key": "data/futures/um/monthly/klines/LITUSDT/1m/LITUSDT-1m-2024-01.zip",
+    "source_sha256": "3be8132965ebd4811406613f402b29a6948a2dc18e95048f8cacb1a7cffad073",
+    "rows": 44640,
+    "parsed_sha256": "1020e64604f626973adaa01ca1578fb24c4af742a13069f8c853fbf338ab56c6"
+  },
+  {
+    "symbol": "LITUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/LITUSDT/1m/LITUSDT-1m-2026-08.zip",
+    "source_sha256": "d406fe2b1b8f9c8aeac342d4dce430c680befca8ba62811e687e92f1d67b6f77",
+    "rows": 44640,
+    "parsed_sha256": "5b41f22e0e9137c07775c933ff501820166535d5f8f32aadca2b7653858be7e3"
+  },
+  {
+    "symbol": "LPTUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/LPTUSDT/1m/LPTUSDT-1m-2024-04.zip",
+    "source_sha256": "93a462d3556cbb2beaf793cf79ca10dd6a7eb3a68e49e8786954b3ece65394ee",
+    "rows": 43200,
+    "parsed_sha256": "4b686e276cd1696208bd7b08b58a38b54d9261d366b384c4e54973c1038b8357"
+  },
+  {
+    "symbol": "LPTUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/LPTUSDT/1m/LPTUSDT-1m-2025-06.zip",
+    "source_sha256": "f4eb88969b4f6fbc0a156a1bf5a840a533d69a5cec752d775231614216bb3cdc",
+    "rows": 43200,
+    "parsed_sha256": "017533220b1a6967dfebd070a4c8f1c9873c0430cf19aecb134159a2edc53333"
+  },
+  {
+    "symbol": "LQTYUSDT",
+    "month": "2023-10",
+    "key": "data/futures/um/monthly/klines/LQTYUSDT/1m/LQTYUSDT-1m-2023-10.zip",
+    "source_sha256": "7f11e7fcf7548ab9e7538fd567411d125e7730a617cd6604bf8d8831c388014b",
+    "rows": 44640,
+    "parsed_sha256": "f09b79d57f1ad616f802de8dd421cd540a47db34f0bf5555ef2e8c5497d661be"
+  },
+  {
+    "symbol": "LRCUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/LRCUSDT/1m/LRCUSDT-1m-2024-03.zip",
+    "source_sha256": "36521d3295582472afeeb16648c0114114142098a7e8fb7539400cb9d8b0ab4a",
+    "rows": 44640,
+    "parsed_sha256": "747edc25953ac3b762307522cb1c8921d6b3cb8bf6d77173d69c193443a1b706"
+  },
+  {
+    "symbol": "LSKUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/LSKUSDT/1m/LSKUSDT-1m-2026-08.zip",
+    "source_sha256": "2ee8082f895d91db51f37cae49ddd58b3189b76ec20e9697108fc4ca02372491",
+    "rows": 44640,
+    "parsed_sha256": "ab5ee88acbd6868a89149d8388222fb705f92d62eb69ea572c4a8e292b21d844"
+  },
+  {
+    "symbol": "LTCUSDT",
+    "month": "2023-06",
+    "key": "data/futures/um/monthly/klines/LTCUSDT/1m/LTCUSDT-1m-2023-06.zip",
+    "source_sha256": "62e74c3e7619a8452c73f14d3ada70be4f5c925d8c3426df9d79d29762c79312",
+    "rows": 43200,
+    "parsed_sha256": "163547ca48808b0cc00855e62486ff8c70ebb76ba9130695c5340f84690669de"
+  },
+  {
+    "symbol": "LTCUSDT",
+    "month": "2024-05",
+    "key": "data/futures/um/monthly/klines/LTCUSDT/1m/LTCUSDT-1m-2024-05.zip",
+    "source_sha256": "ce1043e2016946acb2edaee7048a35a05dc45a62cb3351e07015931715d1d439",
+    "rows": 44640,
+    "parsed_sha256": "fd4b1f5f51c7ca1b594ec9e6e753f31294b6bb4088395b7159f90938a064303f"
+  },
+  {
+    "symbol": "LTCUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/LTCUSDT/1m/LTCUSDT-1m-2025-10.zip",
+    "source_sha256": "0d7fb9b5e4092a799f613c840785df094fa6609bb2d893c35de473978acae9f5",
+    "rows": 44640,
+    "parsed_sha256": "663a22e306746f6cbe471ed2a752d1fdf13cbdf59336a0563cce2f0575515c16"
+  },
+  {
+    "symbol": "LUMIAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/LUMIAUSDT/1m/LUMIAUSDT-1m-2026-08.zip",
+    "source_sha256": "29eff0baccb1458d90ebd84b627bf3532ec9126b34a7c21c53957cc41eb16806",
+    "rows": 44640,
+    "parsed_sha256": "7d6134ea5e646554ae37307fa53f2fee2e10b06fd9cf2aadb5e6fb5ce252841e"
+  },
+  {
+    "symbol": "LUNA2USDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/LUNA2USDT/1m/LUNA2USDT-1m-2025-11.zip",
+    "source_sha256": "7a95d2f8ec0ef11b16b329456831cad9baeb3101cd099eb2defcceee32d47966",
+    "rows": 43200,
+    "parsed_sha256": "81cb0f2740d1b112fd76fdab0eff0c17f7cbaecc286d0e6a42fd85fff5e4c4c8"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/LYNUSDT/1m/LYNUSDT-1m-2026-01.zip",
+    "source_sha256": "cf8bb82009db94bf48b797638a7030e04387935864ba77a99a0f871511568eaf",
+    "rows": 44640,
+    "parsed_sha256": "021fee8c99bc8f3a207de74a24eff09886a2c86917ca201dd00aba46ebe8d112"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/LYNUSDT/1m/LYNUSDT-1m-2026-05.zip",
+    "source_sha256": "67fb0d0a321c823dac53c379f1debbd98aa9260bd009ba81b276debcc5dc73db",
+    "rows": 44640,
+    "parsed_sha256": "773a52b01bd0cd6df648b866f04a1c5d61a53f92b08bf8caa974f7cbd4a43bde"
+  },
+  {
+    "symbol": "MAGICUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MAGICUSDT/1m/MAGICUSDT-1m-2026-08.zip",
+    "source_sha256": "c072c1cb9cdab0f96cd3f4f7df772033ee8e317553ef604ad119390a725892b1",
+    "rows": 44640,
+    "parsed_sha256": "c63b64c7b9291b04c4058bb85ab45e99cb3109bcd3a9c427380b6fff37a9497c"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-03.zip",
+    "source_sha256": "82b31946fa44b586b3f28d9ac239530e9cbdc2f94e9df6bdeb47b68da171b1bb",
+    "rows": 44640,
+    "parsed_sha256": "b1fdbccac6cd9cab0a9b7c4261d3b1955955163838ba053d5c4af8cf4fe57dbf"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-07.zip",
+    "source_sha256": "ec96a81433d05816089029c4d6945cc327faf8b708f340ae477c039c7224e6f1",
+    "rows": 44640,
+    "parsed_sha256": "3202f62fec63d36020c2f424db059fe8b2bb5561573f8164971c31f394ff1654"
+  },
+  {
+    "symbol": "MANAUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/MANAUSDT/1m/MANAUSDT-1m-2024-12.zip",
+    "source_sha256": "e4cd87ea831b037898ef2a4af40a0de6e0a2a4a59f372ede98354b327fb73f7a",
+    "rows": 44640,
+    "parsed_sha256": "2f108287f364fbc0e6fa267e2ab4b234fc597501525d5ac68535dc84e9fc5491"
+  },
+  {
+    "symbol": "MANTAUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/MANTAUSDT/1m/MANTAUSDT-1m-2024-06.zip",
+    "source_sha256": "f3f570d67721cc878bd94f28b4cad4f333f606ab557da27c65e29f3ce5426fb3",
+    "rows": 43200,
+    "parsed_sha256": "c260cac0535593a46c659daf0b43452a02f8f2c7ef519070f71f9149709a8759"
+  },
+  {
+    "symbol": "MARSCOINUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/MARSCOINUSDT/1m/MARSCOINUSDT-1m-2026-10.zip",
+    "source_sha256": "d74fdf01df142ba34428ec956ca5785af1de958fbda4903fda402dabdecfb376",
+    "rows": 44640,
+    "parsed_sha256": "41a91f3d55ee60c00da17ff430e4a820bc645b37cc348530ade567e7e03809e2"
+  },
+  {
+    "symbol": "MASKUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/MASKUSDT/1m/MASKUSDT-1m-2025-03.zip",
+    "source_sha256": "3534e80aceef6f2a33c7ec0517be1961ae5075d959aeb75d0970395c596c76a9",
+    "rows": 44640,
+    "parsed_sha256": "adc828d23f1ea03a0318afe31a51690a41ae4238bd2588afde4c879d6cd22672"
+  },
+  {
+    "symbol": "MATICUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/MATICUSDT/1m/MATICUSDT-1m-2023-11.zip",
+    "source_sha256": "12c18b74926b0d5b69c99c6bad6184490f329b01c95f9e6000a522693714936e",
+    "rows": 43200,
+    "parsed_sha256": "38b209aa43f2074344d3a9f244cca5f1def435a09bec26a74c5b68c6d8e4b591"
+  },
+  {
+    "symbol": "MATICUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/MATICUSDT/1m/MATICUSDT-1m-2024-03.zip",
+    "source_sha256": "1a8ccdecc8a316d5a009e66b263e986c34f6314e6b4cf3925d5ae8767615ab64",
+    "rows": 44640,
+    "parsed_sha256": "88ace38b7c04269b8654c66b19503d6282d007898bc55000982f6bd24a641f96"
+  },
+  {
+    "symbol": "MAVIAUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/MAVIAUSDT/1m/MAVIAUSDT-1m-2024-08.zip",
+    "source_sha256": "214a29efbf98e7b5decad4b69a693fd0774b7717f63713886264aaa4b28c97ca",
+    "rows": 44640,
+    "parsed_sha256": "79447e8516492071815ea06efd8f6ac66c4c2f4be83bd943165456e21a842f63"
+  },
+  {
+    "symbol": "MAVIAUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/MAVIAUSDT/1m/MAVIAUSDT-1m-2026-03.zip",
+    "source_sha256": "8a397daa851d3962fc469c4c1a06d8d43e9e70fbc6c42d516303d99dc63d751c",
+    "rows": 44640,
+    "parsed_sha256": "e844cb4ccecefc73e20082f123005ba2169af8aa22d57b537359d46ccfb37f3c"
+  },
+  {
+    "symbol": "MAVUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/MAVUSDT/1m/MAVUSDT-1m-2025-08.zip",
+    "source_sha256": "bff1ac02aaa9d2188f1edc44767cb945ed10e4b2d36fdf436037d4d4fea74087",
+    "rows": 44640,
+    "parsed_sha256": "114db37cc67768b1d7776bd5f4932c8fba36f289b6bfcef2b853144385caef4f"
+  },
+  {
+    "symbol": "MDTUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/MDTUSDT/1m/MDTUSDT-1m-2024-04.zip",
+    "source_sha256": "416e515a87dc53fc0f9d46743c63e9293bcbbbc11de59bfddcc5c9e234697043",
+    "rows": 43200,
+    "parsed_sha256": "ccd45da83e61dfc1489b79b9e0984d795fd5b2395b72202df871a271a364b758"
+  },
+  {
+    "symbol": "MELANIAUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/MELANIAUSDT/1m/MELANIAUSDT-1m-2025-03.zip",
+    "source_sha256": "8ef96d7c57fb5a8e533b0affbe51791f7733af5114b479d9298e2f43ca7359c4",
+    "rows": 44640,
+    "parsed_sha256": "ae54150b4f66ee9ff2b28c4ae90ba415cd860a7e13c7468180fdcb9772b7732c"
+  },
+  {
+    "symbol": "MELANIAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MELANIAUSDT/1m/MELANIAUSDT-1m-2026-08.zip",
+    "source_sha256": "54d326396cfadebdf15fe4a29188624dcc37bef38e2d5a3f6de0e550c35d9cf9",
+    "rows": 44640,
+    "parsed_sha256": "fadea8f9abe9e2d9859d65ff71789a349d6e4c9a8f8a992462120e20dd9a2993"
+  },
+  {
+    "symbol": "MEMEUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/MEMEUSDT/1m/MEMEUSDT-1m-2025-10.zip",
+    "source_sha256": "09e4012ea9ff193615f9fb5867c64cb363c2a873a6a07f1a16d99892f2b85840",
+    "rows": 44640,
+    "parsed_sha256": "649a36d112b2cc310f86935b6ef690c88011e87318a4dff280562ab6f9175450"
+  },
+  {
+    "symbol": "MERLUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/MERLUSDT/1m/MERLUSDT-1m-2026-02.zip",
+    "source_sha256": "7811b2ca18c762df5498c3b2901282a1bbbc78e65888c2d3ef7a788a243f82e0",
+    "rows": 40320,
+    "parsed_sha256": "580c61922ef77b9214ca5b30c44c7baff10a10a8b92de4a32e1ee8ac400c0f55"
+  },
+  {
+    "symbol": "METUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/METUSDT/1m/METUSDT-1m-2026-04.zip",
+    "source_sha256": "5086b78043d7cd38599c351eaad6069bd844f26dfdd20cb987a57a7408127273",
+    "rows": 43200,
+    "parsed_sha256": "9afa2363462a0e10ca7335751b16fbf2409a07fae1c9153592c1dcbe04eb97e0"
+  },
+  {
+    "symbol": "MEWUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/MEWUSDT/1m/MEWUSDT-1m-2024-07.zip",
+    "source_sha256": "c83cda3fed6f34f373adcdaed6cb84ebb3bb133065cb5cc688bc1b2e9f0181cb",
+    "rows": 44640,
+    "parsed_sha256": "37e7d86da592dc54f761205bbc708ff2314ebeaf8c7477d69cf30f06d142a78c"
+  },
+  {
+    "symbol": "MEWUSDT",
+    "month": "2024-11",
+    "key": "data/futures/um/monthly/klines/MEWUSDT/1m/MEWUSDT-1m-2024-11.zip",
+    "source_sha256": "5103c0e28a9176c31afc4b7062f2dc66279e409eb34851fbacd6b0ef12285e37",
+    "rows": 43200,
+    "parsed_sha256": "d2215facbca40c286fcd4b360f86f8653940eec4130f5b44e322e22863ca5d30"
+  },
+  {
+    "symbol": "MINAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MINAUSDT/1m/MINAUSDT-1m-2026-08.zip",
+    "source_sha256": "1a6c7fe6247133181e1c9ff6ede9c050358efe0b65be85b7f6a6890cf565d2b1",
+    "rows": 44640,
+    "parsed_sha256": "e04c4c18790a17cd2492a11d77816b7b32e57314980c32e29b714d54f93e4921"
+  },
+  {
+    "symbol": "MITOUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/MITOUSDT/1m/MITOUSDT-1m-2026-09.zip",
+    "source_sha256": "f443041ea4cfee88bb16ad1259c8bde6ded11a6b973d9347d783798df9520512",
+    "rows": 43200,
+    "parsed_sha256": "0fe0006a65a0a5f26a12816aa3a814e2c1d449a422f6dcc1a64296f1840fd24e"
+  },
+  {
+    "symbol": "MKRUSDT",
+    "month": "2024-11",
+    "key": "data/futures/um/monthly/klines/MKRUSDT/1m/MKRUSDT-1m-2024-11.zip",
+    "source_sha256": "ce7ecd183147de96f2f001ea782fd9c700d88a1ff091673e6702374b10ec4fa5",
+    "rows": 43200,
+    "parsed_sha256": "d49a8b6e5e5c747fe95d48ea7e7bb3f08d46f4f4438a5ab4a9a1c2840b87e081"
+  },
+  {
+    "symbol": "MMTUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/MMTUSDT/1m/MMTUSDT-1m-2025-11.zip",
+    "source_sha256": "16b68e20e53e217f728a76b1b3f78a9bdff734ccf37398f441390d90fc0ab4fb",
+    "rows": 38160,
+    "parsed_sha256": "152d6401d92270455df7e1c03cf30f1219de67cf4501444e97743f026a7dbda0"
+  },
+  {
+    "symbol": "MMTUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MMTUSDT/1m/MMTUSDT-1m-2026-08.zip",
+    "source_sha256": "49f4842412bae53b55e15b5de0f06e4224ca4a15f823096f8330c8261afb11e4",
+    "rows": 44640,
+    "parsed_sha256": "9e9497c2e5c9e9506188e672bcec8807b81591c45e7019ae2ed8c8aabf9b78b7"
+  },
+  {
+    "symbol": "MONUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/MONUSDT/1m/MONUSDT-1m-2026-01.zip",
+    "source_sha256": "76fda1a145cbca85cd5c6289c9120d5c2c98c5b0332657d1038e92068ee9c7b4",
+    "rows": 44640,
+    "parsed_sha256": "969ad58b06adf3efe6d2d94d67bac0b4f06ac0268c3e0871d9e70dfd97b52557"
+  },
+  {
+    "symbol": "MOODENGUSDT",
+    "month": "2024-11",
+    "key": "data/futures/um/monthly/klines/MOODENGUSDT/1m/MOODENGUSDT-1m-2024-11.zip",
+    "source_sha256": "1aecbc93dfefaa781ad1b7b3d8b872c93bf7714018a7c90916ed8a5420f1e9f6",
+    "rows": 43200,
+    "parsed_sha256": "358bf3f8cb32b6a4e76d6661781bcd29a9bb1f838e8091ee9e6371a621090bd4"
+  },
+  {
+    "symbol": "MOODENGUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/MOODENGUSDT/1m/MOODENGUSDT-1m-2025-05.zip",
+    "source_sha256": "4892e5b0b633a45b5877d57dab85b017457ba3442f75d92511bb9f151100ad30",
+    "rows": 44640,
+    "parsed_sha256": "6460e817b875c84edaf1f193136e0d2209d3ddd23ff72c87074d63884fa8ce27"
+  },
+  {
+    "symbol": "MORPHOUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MORPHOUSDT/1m/MORPHOUSDT-1m-2026-08.zip",
+    "source_sha256": "760b912824881155cb4a7b9a5433c7470a30051d8f25c992ecd67d8accbe95e1",
+    "rows": 44640,
+    "parsed_sha256": "cacae20066b87cc8c63e54b9200273149f50fbb3fb5ea59fe464d103ebc150cc"
+  },
+  {
+    "symbol": "MOVEUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/MOVEUSDT/1m/MOVEUSDT-1m-2025-05.zip",
+    "source_sha256": "4ec0ee6d74840366e0f79ba754682b1085cf482da5d49e2f2fbc4ee642e2f0fa",
+    "rows": 44640,
+    "parsed_sha256": "e249b85c195626502a70c730718611ab2dd6069c1a815d49c37f4a6829790223"
+  },
+  {
+    "symbol": "MOVRUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/MOVRUSDT/1m/MOVRUSDT-1m-2026-04.zip",
+    "source_sha256": "ae86e8f34d3adc703fe883fbe546e62fc2d70b412672286d565e3e8e934cd063",
+    "rows": 43200,
+    "parsed_sha256": "bbdd0ccc53b8fda6cf309fafef3dc846a73134a420b7d9dfb1f218c2671be8e0"
+  },
+  {
+    "symbol": "MRVLUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MRVLUSDT/1m/MRVLUSDT-1m-2026-08.zip",
+    "source_sha256": "dfbad9e50750cf51639ae275dcb86105bca8e9eae119844a568091ab0c808dd5",
+    "rows": 44640,
+    "parsed_sha256": "6fb63631ef1cd1e2a0146640dfefc0a6dcf5d89e13de70e9c3630067fa151133"
+  },
+  {
+    "symbol": "MTLUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/MTLUSDT/1m/MTLUSDT-1m-2025-09.zip",
+    "source_sha256": "3493083e30a0629507007d577b01b14412a9803358813bb62b3a23ed2e2b6eee",
+    "rows": 43200,
+    "parsed_sha256": "89b16bd8fbffcd1ecf4f16303ea46a255c19ebb9c6e429d53a107ebe63f392d9"
+  },
+  {
+    "symbol": "MUBARAKUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/MUBARAKUSDT/1m/MUBARAKUSDT-1m-2025-05.zip",
+    "source_sha256": "d6bf267cf665042e3983e778060785efb1145b2041572d23dc87d66c4933d0ba",
+    "rows": 44640,
+    "parsed_sha256": "2738ec699df299343c023e272b17937651916f904da0e6b9e1f2dce3b880b6c7"
+  },
+  {
+    "symbol": "MUBARAKUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/MUBARAKUSDT/1m/MUBARAKUSDT-1m-2026-08.zip",
+    "source_sha256": "0ebe06871f9cb5161220c829790f967618d29412ee43ba1ea408c96bbfc481fc",
+    "rows": 44640,
+    "parsed_sha256": "d35853d72f3e91565d942b2ef562bb518d8d12e3445b3ee671d48a38218c4a2f"
+  },
+  {
+    "symbol": "MUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/MUSDT/1m/MUSDT-1m-2025-10.zip",
+    "source_sha256": "09b4f518bae7005206aff6dde427b47d7f69d2fde55a0208d0ac894850286613",
+    "rows": 44640,
+    "parsed_sha256": "f86903bf9ba0a87cc0fbc51a9d7e5da178a30bcfded946ee084bf1edb9a5d5b4"
+  },
+  {
+    "symbol": "MUUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/MUUSDT/1m/MUUSDT-1m-2026-05.zip",
+    "source_sha256": "a2529b8ec12450fdf49534703ebc367884a519a53a13faf6bb448b9377f671a5",
+    "rows": 44640,
+    "parsed_sha256": "edc9e5f64d9b18314e6c993b18be4626cc6dd0a5b0a08bd81a5cbddc9f929e2d"
+  },
+  {
+    "symbol": "MYROUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/MYROUSDT/1m/MYROUSDT-1m-2024-06.zip",
+    "source_sha256": "3a51c3d219818fa14982bec9af358e1805fee02514998a6617603fa2b1a25195",
+    "rows": 43200,
+    "parsed_sha256": "8185990cf3f06f033865a90c9edf1bd5cee7164b6db13444e52261ff34fc5f07"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/MYXUSDT/1m/MYXUSDT-1m-2025-07.zip",
+    "source_sha256": "bb66b1788f38892aa14f417ab042c7ab140c73dc83f7d2517443b5cf5a3ea8e2",
+    "rows": 44640,
+    "parsed_sha256": "35abc7c00d34b8182637c9ccd288b0baeb99cbf63501fee7ccec21ce473d7463"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/MYXUSDT/1m/MYXUSDT-1m-2025-11.zip",
+    "source_sha256": "1ffa805e000e35c94e83266560f8fdd9173e9b64121906a99db5582a25027d01",
+    "rows": 43200,
+    "parsed_sha256": "708dfc4f5f22004f0adeccb3fc8d7bf2ec182eeaa555dd28214ee6ecf23a6da6"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/MYXUSDT/1m/MYXUSDT-1m-2026-03.zip",
+    "source_sha256": "d14978a49909f20862c45ca4ee62bed43f2f25ff6e11599f17deb8d2bca393a1",
+    "rows": 44640,
+    "parsed_sha256": "1adb4bab7b09cea6b75b7a3e6cc87b1a863b8f277d6680912dce87d80157df6f"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/MYXUSDT/1m/MYXUSDT-1m-2026-07.zip",
+    "source_sha256": "d56aef5f3c1f20d9924659f2aba60a23c8f9d367558d833c70d62fcd0344e410",
+    "rows": 44640,
+    "parsed_sha256": "b7fdc31b3288dd8edfd29df09674488e8c87c00a40bc456bc6ac5a184fb1aca6"
+  },
+  {
+    "symbol": "NAORISUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/NAORISUSDT/1m/NAORISUSDT-1m-2026-03.zip",
+    "source_sha256": "9b82162bfb3448f653edb71131264b327f331b723fd25e2fb8315e7800dfb11a",
+    "rows": 44640,
+    "parsed_sha256": "7f4b115a41432564af8192362caf534a45dd68900122f64bcd41ff19ba8f5d53"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/NEARUSDT/1m/NEARUSDT-1m-2024-03.zip",
+    "source_sha256": "494b6b0c2d2323c71ea6108696eeea8dd3b3673ff22138ec41dc26dfc9c3a15e",
+    "rows": 44640,
+    "parsed_sha256": "1b0d8155311232fe8e46e0c535f0228ed6247ad6fdf3528de700094d3e08f8d4"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/NEARUSDT/1m/NEARUSDT-1m-2025-01.zip",
+    "source_sha256": "aeb0d0794ce7fe129b0d1fabdde62b508ccac9678ea12bcd8b40b4e3d7fc5d4c",
+    "rows": 44640,
+    "parsed_sha256": "7a83ff5c571b0929efe87a55147af40defa3c9476b511d5799a9b1e3cad9f2b3"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/NEARUSDT/1m/NEARUSDT-1m-2026-06.zip",
+    "source_sha256": "39ea4b16815c63c051da8900e5d0c6cee92bbb59d51c03c8c3f82853527fe54d",
+    "rows": 43200,
+    "parsed_sha256": "e04f40c76d611db503e4d4cb2a7e633218dce8673b4b5304d58f11ea0eadd622"
+  },
+  {
+    "symbol": "NEIROETHUSDT",
+    "month": "2024-10",
+    "key": "data/futures/um/monthly/klines/NEIROETHUSDT/1m/NEIROETHUSDT-1m-2024-10.zip",
+    "source_sha256": "a6ca59351c130e495391d968952420a0b4eff5916b252cb8edc2d237c2381118",
+    "rows": 44640,
+    "parsed_sha256": "aa668e6a776cbba63453f43b16586abc518445bcd69a33d602194a65f1df3c69"
+  },
+  {
+    "symbol": "NEIROETHUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/NEIROETHUSDT/1m/NEIROETHUSDT-1m-2025-04.zip",
+    "source_sha256": "913c1aebb8da707f9a3578badf7baf7c308cc29047a4dd20acff4573617ed16f",
+    "rows": 43200,
+    "parsed_sha256": "b2d59475931391d10f1e65068bbd5dea4357737b7e9c1d99c51b7e3f5121a16c"
+  },
+  {
+    "symbol": "NEIROETHUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/NEIROETHUSDT/1m/NEIROETHUSDT-1m-2025-08.zip",
+    "source_sha256": "7dfecb2aa4aa529380ad1286d3ae6523f84e462c913472b6624e986c136c60a0",
+    "rows": 44640,
+    "parsed_sha256": "c5fffb12dc518be9209610568e8f20a89a03539d7c361627996d79afe70a070e"
+  },
+  {
+    "symbol": "NEIROUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/NEIROUSDT/1m/NEIROUSDT-1m-2024-12.zip",
+    "source_sha256": "ad4a9befce0e9ecb905f1601a98f11e17707d93114e8bdd4d000c106e3104030",
+    "rows": 44640,
+    "parsed_sha256": "4c9905a32ec42a1803d5774b409ca9adf29e799309384b7f82a8001b66fdc4c5"
+  },
+  {
+    "symbol": "NEIROUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/NEIROUSDT/1m/NEIROUSDT-1m-2025-05.zip",
+    "source_sha256": "4ed35758200e163e499794e76cc7f8c72b2c6e037d91a5d5de3b77d6f825bf64",
+    "rows": 44640,
+    "parsed_sha256": "66485373883edf7a7638ea0beb8bd7d0c0c490b0fc5b736c8c1ba29d3984ebec"
+  },
+  {
+    "symbol": "NEOUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/NEOUSDT/1m/NEOUSDT-1m-2023-11.zip",
+    "source_sha256": "6c6aeb6f4cb40e434fef4160d945217c5d30a41bf87c76d9483703dbe1c41422",
+    "rows": 43200,
+    "parsed_sha256": "1eb7fae7cc3b638fc28384713793627115dc0fa84f81f614976517a97cdab04b"
+  },
+  {
+    "symbol": "NEOUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/NEOUSDT/1m/NEOUSDT-1m-2025-09.zip",
+    "source_sha256": "2c5e0aec13991058c6012f89cacb1d75b84ecdb775a81e54d183e01057a2d2d5",
+    "rows": 43200,
+    "parsed_sha256": "3c8367d45f2a0dd70de0bcd52ec14df205345bc40a873d5cf7df590660e32395"
+  },
+  {
+    "symbol": "NFPUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/NFPUSDT/1m/NFPUSDT-1m-2024-04.zip",
+    "source_sha256": "9a79bea082050b37ce589f2864bc23c4f590ca7504d57a6fe247f773388d4677",
+    "rows": 43200,
+    "parsed_sha256": "df649ca2ac9e27baf426ff9f12204f1eb9bf0094a39216acd184939e7cf3b70d"
+  },
+  {
+    "symbol": "NIGHTUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/NIGHTUSDT/1m/NIGHTUSDT-1m-2025-12.zip",
+    "source_sha256": "e11d58aa2702bc8a6798b63b0358341fec8ebb308dc481abc86fc612a46a1704",
+    "rows": 31020,
+    "parsed_sha256": "e6eefd44f8813ce4cdafb6d32d59f573e09f5f6627b2fd5b521071cde386c630"
+  },
+  {
+    "symbol": "NIGHTUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/NIGHTUSDT/1m/NIGHTUSDT-1m-2026-10.zip",
+    "source_sha256": "722527cfcb0a00c74bfe2efaa7671393d45c020a0e1c7a8429f93f604bf92f10",
+    "rows": 44640,
+    "parsed_sha256": "ec93650d581876ce2063c3e603528d47ec2fab1e13bbdf7377624ee7bdfcb58b"
+  },
+  {
+    "symbol": "NILUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/NILUSDT/1m/NILUSDT-1m-2026-06.zip",
+    "source_sha256": "3d90e65a0bb0af103ebcffd271f3bf2cfd023500adc881aeee202387ba170425",
+    "rows": 43200,
+    "parsed_sha256": "6063723f193411456cd9fe4e8e38b640e1a81bd7d2c6c7fd9c2e07c4f75156a8"
+  },
+  {
+    "symbol": "NMRUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/NMRUSDT/1m/NMRUSDT-1m-2025-09.zip",
+    "source_sha256": "79f4c9e200005b076bb17c10d6befe0a3da470a48d0306451ffcfb59cdeee0c5",
+    "rows": 43200,
+    "parsed_sha256": "eb0ffaa8b21293704b072b65a54f4ee662288586a2b761ba0be8e6f9ecd10fa5"
+  },
+  {
+    "symbol": "NOMUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/NOMUSDT/1m/NOMUSDT-1m-2026-08.zip",
+    "source_sha256": "e027e7d5502ae22fc59804911f2fece5ab85002bbda660c904c91b35b9243865",
+    "rows": 44640,
+    "parsed_sha256": "7d9b9ac83d2729f60506644dd1f7f307b661470259d7ddf73ed49061855b8b67"
+  },
+  {
+    "symbol": "NOTUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/NOTUSDT/1m/NOTUSDT-1m-2024-07.zip",
+    "source_sha256": "e7ad1f7a1369592bef566cfae6c2cd9c137f696d1665a31263f3a3a9d9e39f69",
+    "rows": 44640,
+    "parsed_sha256": "e66e09503d543d1c430c27f1206d4e91477ca7d859139d98a16e1a08698e5760"
+  },
+  {
+    "symbol": "NTRNUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/NTRNUSDT/1m/NTRNUSDT-1m-2024-02.zip",
+    "source_sha256": "085ccddc47a28c76fbb7415528b59e0662e4f7ae24b239dcd8e46d8089703ded",
+    "rows": 41760,
+    "parsed_sha256": "28d2a8178a2bf74b2bb4d9c394b8bbe0221dcc8d6ae372ec7887a8c1ee23e274"
+  },
+  {
+    "symbol": "OBOLUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/OBOLUSDT/1m/OBOLUSDT-1m-2025-07.zip",
+    "source_sha256": "b1c2ad00c92a2d3e59be4df64bab2623898842c2380e3fcee7272e1f9532575f",
+    "rows": 44640,
+    "parsed_sha256": "d17347176d4d3addbd967c0d741790de42abee954ecf5ad79d4086591871e2ba"
+  },
+  {
+    "symbol": "OGNUSDT",
+    "month": "2024-01",
+    "key": "data/futures/um/monthly/klines/OGNUSDT/1m/OGNUSDT-1m-2024-01.zip",
+    "source_sha256": "828c907864e6d17c7bb9da5716c24f443ec6522350e01102cccfc214473fb769",
+    "rows": 44640,
+    "parsed_sha256": "c554fb501b69dd4a672bb59a6ad8c7fa080519ef21364d206aaa39565b33d2b0"
+  },
+  {
+    "symbol": "OGUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/OGUSDT/1m/OGUSDT-1m-2025-09.zip",
+    "source_sha256": "69e45dc7f99b756e0d28044f8446cad34e2b7c873274e2399ffc03c782f4ac6f",
+    "rows": 43200,
+    "parsed_sha256": "157de738297b682255e014f3a9494a21007f339e57420aac52c8bcd93315e578"
+  },
+  {
+    "symbol": "OMNIUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/OMNIUSDT/1m/OMNIUSDT-1m-2024-08.zip",
+    "source_sha256": "35c99f10e2f76a0c0917ac74ab9193af61494b25ab669f6349cf6547994f99f2",
+    "rows": 44640,
+    "parsed_sha256": "1ed45fee3b5df4fdc734aefd9a3c35708b33cdd394038a9712dc10d1e583719f"
+  },
+  {
+    "symbol": "OMNIUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/OMNIUSDT/1m/OMNIUSDT-1m-2025-08.zip",
+    "source_sha256": "956684b81d6b23e8a4e371fdcfc16a2a722eaff15d28208e8fdfc0dcb1fe7b1c",
+    "rows": 44640,
+    "parsed_sha256": "f25e25919d14ed5ffea8c55dd38937381ae6c2d8ca78fb62a10a72c6c1cbe5e0"
+  },
+  {
+    "symbol": "OMUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/OMUSDT/1m/OMUSDT-1m-2025-04.zip",
+    "source_sha256": "21b7924dc59352fb8f0493c7de0818a0171567ad7b19edced1315fe00522e46c",
+    "rows": 43200,
+    "parsed_sha256": "a78381c36d70d7c98ef51fcfa416db17c4ee31b6c9dcc827bcc1b308188f570e"
+  },
+  {
+    "symbol": "ONDOUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/ONDOUSDT/1m/ONDOUSDT-1m-2024-03.zip",
+    "source_sha256": "7c8d6dd8417dc851bf4ebe7453ac8dfdd634b6752d7e0c3e28ef3e87665facf0",
+    "rows": 44640,
+    "parsed_sha256": "6a5862a800f2f8d2a17b43827678aed8b2ffd1e67e99b14be8afcd6b3ce4d1e1"
+  },
+  {
+    "symbol": "ONDOUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/ONDOUSDT/1m/ONDOUSDT-1m-2025-02.zip",
+    "source_sha256": "b322258394c87039df191927470e79c6cdaba8dd44bba02ca8ef52c0b4098709",
+    "rows": 40320,
+    "parsed_sha256": "fe2051b17d2071681df794823a18cc58065af68d01981b83d7e67181299a4acc"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/ONEUSDT/1m/ONEUSDT-1m-2024-08.zip",
+    "source_sha256": "3cfc73418b309a1345b67478f5e6d2d8479dab7431a3ff6204528b92427c46d4",
+    "rows": 44640,
+    "parsed_sha256": "f876b6e7c1598ab8dab388f203d5c690f39c5bfe54483fdac0e908d25c1ac3af"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/ONEUSDT/1m/ONEUSDT-1m-2026-09.zip",
+    "source_sha256": "2eed35cc5a5b0f5c763ee29cae26d96dad456d155c8524a5deef654b8ff48bfd",
+    "rows": 43200,
+    "parsed_sha256": "6a5b594851c69665c784d8aa584bd4c114e896a9fbdb7e4a83ae29b713335ce8"
+  },
+  {
+    "symbol": "ONGUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/ONGUSDT/1m/ONGUSDT-1m-2026-08.zip",
+    "source_sha256": "d55e45ab7704f9e2c2e3242060a8e6d9925a1a242c015db31194be869a8470ce",
+    "rows": 44640,
+    "parsed_sha256": "d2262c60e2d98e6df71f6f2a271e602dc89f7b05e5d3957df38c23b8d38a2fad"
+  },
+  {
+    "symbol": "ONTUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/ONTUSDT/1m/ONTUSDT-1m-2026-04.zip",
+    "source_sha256": "66ae918e452de4e9beb3919886b2007060a20a2b53d5ba182910f445aabddf10",
+    "rows": 43200,
+    "parsed_sha256": "6836884c467a7aca93c1856b148e0aa96b9a4a6342fa6b43c6db791800187dea"
+  },
+  {
+    "symbol": "ONUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/ONUSDT/1m/ONUSDT-1m-2026-07.zip",
+    "source_sha256": "f72465e825a560f7ed425ddbdb54d4830ec833bb6f3147d9d610899da81c52d2",
+    "rows": 44640,
+    "parsed_sha256": "780fa8131b0810c6b60d1b06f73697ae91681c9a12a20050cc6679f2180a48ae"
+  },
+  {
+    "symbol": "OPENUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/OPENUSDT/1m/OPENUSDT-1m-2026-01.zip",
+    "source_sha256": "08d518af2bfcb250a5b106b0c11fec6049d348dd1faed3b5490b46e894f8a152",
+    "rows": 44640,
+    "parsed_sha256": "1c5c4006fecd97ed20349e69b993f9ae7bbd27b358450057b6f53b675ca8c228"
+  },
+  {
+    "symbol": "OPUSDT",
+    "month": "2023-07",
+    "key": "data/futures/um/monthly/klines/OPUSDT/1m/OPUSDT-1m-2023-07.zip",
+    "source_sha256": "c60d77d18e3940fda454b2226c9cdc884c3bcd697a90e6d493e83e4e40029c5d",
+    "rows": 44640,
+    "parsed_sha256": "5d8689424f2d8cb59643348b75bfafa9c5f08ca0e08e7728e7795e5f14217f24"
+  },
+  {
+    "symbol": "OPUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/OPUSDT/1m/OPUSDT-1m-2024-03.zip",
+    "source_sha256": "9943d36ff9f0ac62b99a81080090deb9ccfac127ae0aeb3b4ce813b37df4df05",
+    "rows": 44640,
+    "parsed_sha256": "9d777678bbd537fcea550354f46812a500e34945f751b1908d333145edf7b185"
+  },
+  {
+    "symbol": "OPUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/OPUSDT/1m/OPUSDT-1m-2025-10.zip",
+    "source_sha256": "07912f2f2744ae1282ea115f7d00998bc9856c2d515cb39434516ca2cd9b20c4",
+    "rows": 44640,
+    "parsed_sha256": "ff56734e2efaf1a653568b489447547311acb127205c9cc35b826831e8adfac3"
+  },
+  {
+    "symbol": "ORCAUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/ORCAUSDT/1m/ORCAUSDT-1m-2025-04.zip",
+    "source_sha256": "ea6d3157ddb1b4e2e51699b963bdedcb2c8ab319b9598570b4f4030ff1e046b9",
+    "rows": 43200,
+    "parsed_sha256": "f046f6f2f4ebb345a92b2deefc879ddbc94bc4c9e410e6a17cbb71f15055f033"
+  },
+  {
+    "symbol": "ORCAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/ORCAUSDT/1m/ORCAUSDT-1m-2026-08.zip",
+    "source_sha256": "45aabe296ded3477a6bbbbd0cba6c9702eb9a9a98df4e7dda549dd6c8cf4103d",
+    "rows": 44640,
+    "parsed_sha256": "b61095f1f4f12a3e9dbf83d93c2f941ddf93c0282f418a8e4ddbe7abb7cff016"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "month": "2023-12",
+    "key": "data/futures/um/monthly/klines/ORDIUSDT/1m/ORDIUSDT-1m-2023-12.zip",
+    "source_sha256": "ea981980d1829137f13b1507b833256828e7c716b5bb2ad97df55745811b4f5d",
+    "rows": 44640,
+    "parsed_sha256": "c223fc5dc6fefafd77d047dc4da3f4f13968cf1e3cce70b1ba7ae7a791194449"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/ORDIUSDT/1m/ORDIUSDT-1m-2024-04.zip",
+    "source_sha256": "2b5b1cfb4fd22be181119ae4e20abac38e7efc7ef87b593fd864861fafbf19a4",
+    "rows": 43200,
+    "parsed_sha256": "2598c7592fc503427d832ea0442906b5b5e770d6e0baf893b7c78055305abd5a"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/ORDIUSDT/1m/ORDIUSDT-1m-2024-08.zip",
+    "source_sha256": "1b2b5be78b34cdd3ea59c06aa972ec323da8796847429df02be4ffce894f4b9b",
+    "rows": 44640,
+    "parsed_sha256": "eedd8e10f23c4dcac06fe8828e01a4a73d43118bcb9d34c595572484d6b32ff0"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/ORDIUSDT/1m/ORDIUSDT-1m-2025-09.zip",
+    "source_sha256": "d79e28c79abe842b8352f804f9b4ba99790d9d586975f26a7e678bf230b694a7",
+    "rows": 43200,
+    "parsed_sha256": "ba72cbf59dbe733e32eb605cf56260f9ec2f647f6776aff63ae7c7e79f636eab"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/ORDIUSDT/1m/ORDIUSDT-1m-2026-04.zip",
+    "source_sha256": "8a509ec026ea28feb9280287c1aee7f5455387af0c79b99624cdde9eabb5e8c2",
+    "rows": 43200,
+    "parsed_sha256": "23ede9e1e4ba34704309ec5af48640f79cf2baed2a02cd0934e2eb883d5faaae"
+  },
+  {
+    "symbol": "OUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/OUSDT/1m/OUSDT-1m-2026-09.zip",
+    "source_sha256": "e6f799ad08aa3939e9877987f7619cd8e015672399205d6a7e3f0164cf687c89",
+    "rows": 43200,
+    "parsed_sha256": "1ebaa4c5b3d332b608a2c4fcb8d8680a699a875d1ec1ded58ad2e722bb5bda48"
+  },
+  {
+    "symbol": "PARTIUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/PARTIUSDT/1m/PARTIUSDT-1m-2025-12.zip",
+    "source_sha256": "b57c14e53bbf094d6843aff06f297375498a0a40bb9de84a64eb151d7f0dcde1",
+    "rows": 44640,
+    "parsed_sha256": "bd1ef9aee24edbf9af254a4349d446e97c0fb9fece71d0a6389d3ebee9e21ae2"
+  },
+  {
+    "symbol": "PARTIUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/PARTIUSDT/1m/PARTIUSDT-1m-2026-06.zip",
+    "source_sha256": "4c89cda922c450bc2694a5b02eaa8b981f89dfda03ee76dae56671f5aed840fa",
+    "rows": 43200,
+    "parsed_sha256": "6132c399138f4d719ae1b85dc12585b2a14d2e1837f369376a9209cd89b8a167"
+  },
+  {
+    "symbol": "PENDLEUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/PENDLEUSDT/1m/PENDLEUSDT-1m-2024-06.zip",
+    "source_sha256": "4dfeebd76175721d5eb0d808e24432480c13cc864e473addb33b18a8d975eaa1",
+    "rows": 43200,
+    "parsed_sha256": "a35d6e35b1dad9fcfd6fb60ed8cab11d4a031d63603f053ce6f9b2644c355af8"
+  },
+  {
+    "symbol": "PENGUUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/PENGUUSDT/1m/PENGUUSDT-1m-2025-02.zip",
+    "source_sha256": "0ca2fe885c386e5c6c69d6f750578b98c30645a6e0fa5876eca093a0aa226ddc",
+    "rows": 40320,
+    "parsed_sha256": "cb135a9c212dc0be497474a368ebbfcbc5f187e1afa5549d38dd203b64c0248a"
+  },
+  {
+    "symbol": "PENGUUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/PENGUUSDT/1m/PENGUUSDT-1m-2026-05.zip",
+    "source_sha256": "1c1668c7855f88b705a07d088464b51323803994dbefe2e2b17a341e27521841",
+    "rows": 44640,
+    "parsed_sha256": "bff4c2ef3be8cc3cf09dfdf8e9d2440c43c35b50642a1eac54271e597acbf451"
+  },
+  {
+    "symbol": "PEOPLEUSDT",
+    "month": "2024-05",
+    "key": "data/futures/um/monthly/klines/PEOPLEUSDT/1m/PEOPLEUSDT-1m-2024-05.zip",
+    "source_sha256": "15d1328de841846e55f5b3be2f7b7bd9e6f68c4b0e2838a33a2971802eb6152b",
+    "rows": 44640,
+    "parsed_sha256": "676efa7bc018f54ad297fbd2606dc47441a01fd1c1888f449872d31608fbcdbb"
+  },
+  {
+    "symbol": "PEOPLEUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/PEOPLEUSDT/1m/PEOPLEUSDT-1m-2026-08.zip",
+    "source_sha256": "ca1ae0c4789a91343e2b3c85d19056a4888b92b2e5c544d51cc4fa6cca7816bf",
+    "rows": 44640,
+    "parsed_sha256": "e97f9677649db2a6ee78695241c3cb5d7380ec19319d0f5fb14d82f5e48dfd50"
+  },
+  {
+    "symbol": "PERPUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/PERPUSDT/1m/PERPUSDT-1m-2025-04.zip",
+    "source_sha256": "ebac677f80b752793e8404136b8984f3d4eb90cde8127f84c1c55caf9c263dbc",
+    "rows": 43200,
+    "parsed_sha256": "d7f29f3a4996d1317f677d690651f0516bc9619ab73a75097216f28513f34bdd"
+  },
+  {
+    "symbol": "PHAUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/PHAUSDT/1m/PHAUSDT-1m-2026-08.zip",
+    "source_sha256": "e50fe62f27f788a2bd9d3defa057caae397f8d81c4ad421160df658d31d19a33",
+    "rows": 44640,
+    "parsed_sha256": "b5a9730911345006f7e822a2d5e93362c241caba2ebd489e5a785e2de23bdafd"
+  },
+  {
+    "symbol": "PIEVERSEUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/PIEVERSEUSDT/1m/PIEVERSEUSDT-1m-2025-12.zip",
+    "source_sha256": "0b76fd81930576c9c33f93e588c663f70654d4da8381a84f0a73e1416edf09fe",
+    "rows": 44640,
+    "parsed_sha256": "86f615b70042d31949c596670903c07447d9735f2fada245d7c37b29af0f3d10"
+  },
+  {
+    "symbol": "PIEVERSEUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/PIEVERSEUSDT/1m/PIEVERSEUSDT-1m-2026-05.zip",
+    "source_sha256": "198f32a7aaa29ebd82494e8904fbc2a5b32fa9861db0b205b9b81a5206ee7d57",
+    "rows": 44640,
+    "parsed_sha256": "cbef4c531361d928bf5a390cdc6278d970c8762079373e4c0a594a49f3e8e8d1"
+  },
+  {
+    "symbol": "PIEVERSEUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/PIEVERSEUSDT/1m/PIEVERSEUSDT-1m-2026-09.zip",
+    "source_sha256": "aaf09af8a4e004cd5c6d6c9d723a01f317809dcd3ae57cf748da2def08d51e7b",
+    "rows": 43200,
+    "parsed_sha256": "964b108852e00b23aadfb7a5e87e5cab66d6c13c48a972eeb027cf3f24f0d8bf"
+  },
+  {
+    "symbol": "PIPPINUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/PIPPINUSDT/1m/PIPPINUSDT-1m-2025-06.zip",
+    "source_sha256": "a35de64f6d828214f4efe6c8ffc087a907ff79e9b803fb3c2605b73d0b9f0d01",
+    "rows": 43200,
+    "parsed_sha256": "16bbba9ee57c0c13dabef4a11001891dedf9799addaa0c6ebcd1c570d1f4c5f2"
+  },
+  {
+    "symbol": "PIPPINUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/PIPPINUSDT/1m/PIPPINUSDT-1m-2026-02.zip",
+    "source_sha256": "013427de4acd05e1c2aaf8c389f16c672af64d2642d975faafdd52b073447d8c",
+    "rows": 40320,
+    "parsed_sha256": "a44c6bcce1913e0d65c95c68a6eb6d16d56477b000934509db9543b94ff9a668"
+  },
+  {
+    "symbol": "PIXELUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/PIXELUSDT/1m/PIXELUSDT-1m-2024-03.zip",
+    "source_sha256": "04a7376b9cb4c533b7f92ccee68905fe53a6caa40513daac288b498647813c22",
+    "rows": 44640,
+    "parsed_sha256": "1bdc468900d53ff2a288ea4432fb61b15b7ad7fa462113efa7500c92a25ab315"
+  },
+  {
+    "symbol": "PIXELUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/PIXELUSDT/1m/PIXELUSDT-1m-2026-03.zip",
+    "source_sha256": "5f05ad7b26ed4c6c71ca2bb97bb74f467f0ca63d521ed2f13147d56505ce7f4a",
+    "rows": 44640,
+    "parsed_sha256": "e8731deba16182113e8024bd82af0d49c4102d9048f3412cbdccc6f233bbd366"
+  },
+  {
+    "symbol": "PLAYUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/PLAYUSDT/1m/PLAYUSDT-1m-2026-03.zip",
+    "source_sha256": "2891746e55141cb9511f1ece5af18a4e740e78e25a143e7f066bba85e4dff4f4",
+    "rows": 44640,
+    "parsed_sha256": "9bec928e18bfa652c7626b05a6b67a1ad935c977c906416f3dea2906427edc03"
+  },
+  {
+    "symbol": "PLUMEUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/PLUMEUSDT/1m/PLUMEUSDT-1m-2025-11.zip",
+    "source_sha256": "23486dae698d86b3a6a5785cf08473b3c5b97da33495016082164deb0eb8c82b",
+    "rows": 43200,
+    "parsed_sha256": "bb349df434b78e73b808cd1fa898d819265fe2bb85fd6d29e777a51cd01f3ede"
+  },
+  {
+    "symbol": "PNUTUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/PNUTUSDT/1m/PNUTUSDT-1m-2025-02.zip",
+    "source_sha256": "fe15ca1e4a64daf98ef704a1506546239583986ec5e7f89e42bfb888240685ce",
+    "rows": 40320,
+    "parsed_sha256": "50073510efc28e08738a12b59fb03eb33b3e10421018f522673a0d67037a74ad"
+  },
+  {
+    "symbol": "POLUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/POLUSDT/1m/POLUSDT-1m-2026-08.zip",
+    "source_sha256": "e258f6939066e34567f4d60bfab7002b71734789125ecb3d45291cc7010e6e07",
+    "rows": 44640,
+    "parsed_sha256": "2f6e8634fa47cdcb417430480b5be153bd9d1f338fc8838046b034ec2510513a"
+  },
+  {
+    "symbol": "PONSUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/PONSUSDT/1m/PONSUSDT-1m-2026-10.zip",
+    "source_sha256": "8d7e94dbb12f54bd11aef814815097c60ead3808b7f1865447cc74f34255a117",
+    "rows": 44640,
+    "parsed_sha256": "cb03d9876a28c99769446ff9cfb64c5ae760d46f5dd537918439849e508c6113"
+  },
+  {
+    "symbol": "POPCATUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/POPCATUSDT/1m/POPCATUSDT-1m-2025-01.zip",
+    "source_sha256": "ef078d8a319681058aeb17d6814dff25741079d31df4fe1f6642237eb67b8ffe",
+    "rows": 44640,
+    "parsed_sha256": "49c988caf8e9a15f4395317274b1ddd8b06d8c923665cde5e3c49808faceffb0"
+  },
+  {
+    "symbol": "POPCATUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/POPCATUSDT/1m/POPCATUSDT-1m-2025-11.zip",
+    "source_sha256": "0f3063e52c0245ffa6fc0bea0cb4a31e81edb772597b0071ea93d12282a7adca",
+    "rows": 43200,
+    "parsed_sha256": "3fb4284d30b0f6f159036045d31c4b271ade4b6ef21e999305298dbb0e7c0a2e"
+  },
+  {
+    "symbol": "PORTALUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/PORTALUSDT/1m/PORTALUSDT-1m-2025-05.zip",
+    "source_sha256": "3842158918706b71f246289bcb5dc9788d04d3e907fd0030bae977d0f46dc0b3",
+    "rows": 44640,
+    "parsed_sha256": "0a42597e3190b2dc9968333754fe8f069a117616031e3666bb63b56e2689d7c4"
+  },
+  {
+    "symbol": "POWERUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/POWERUSDT/1m/POWERUSDT-1m-2025-12.zip",
+    "source_sha256": "a7d7f1945041e48594aff67f442ea59d720f855f437b2f458e79d53448d16e06",
+    "rows": 36900,
+    "parsed_sha256": "798be144e765079ddd1b16d9d87de9a4f755e0b08ab9380681e9c699546dc430"
+  },
+  {
+    "symbol": "POWERUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/POWERUSDT/1m/POWERUSDT-1m-2026-04.zip",
+    "source_sha256": "ff5e2999035b745feea8334cd784641f1236fb89e6084cccab5d9d3b2720fec0",
+    "rows": 43200,
+    "parsed_sha256": "1a66f8321710c6182cac75725b94356f34db53959c08278e353a027bbb65ea15"
+  },
+  {
+    "symbol": "POWRUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/POWRUSDT/1m/POWRUSDT-1m-2026-08.zip",
+    "source_sha256": "b988ee33313171cf44d7308e1b43aacba693ccddbfc7a5c10b10d392d8e79db4",
+    "rows": 44640,
+    "parsed_sha256": "1ac4e1ba73f1bde7fac6badbd5224b7771586c4f9fd77dff7b5f14b1049d38eb"
+  },
+  {
+    "symbol": "PRLUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/PRLUSDT/1m/PRLUSDT-1m-2026-06.zip",
+    "source_sha256": "6d7181044af941bdee8956874cc32bb59da133dc1e25c37fe42f6989397dca23",
+    "rows": 43200,
+    "parsed_sha256": "164f10c36929cf800db811ad7d4578150d71385b3b6224b191fc785f6aa41d79"
+  },
+  {
+    "symbol": "PROMPTUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/PROMPTUSDT/1m/PROMPTUSDT-1m-2025-08.zip",
+    "source_sha256": "a9ee27aa8f269b15548b1bf7254be60a3c9be571269fab810fa7c695fafd1f24",
+    "rows": 44640,
+    "parsed_sha256": "458b008e8e55358caaf142ee88302b68353fabfcd2a35347c14b199ff813ace8"
+  },
+  {
+    "symbol": "PROMUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/PROMUSDT/1m/PROMUSDT-1m-2026-07.zip",
+    "source_sha256": "7b7c859187d4054cbe27ba0f4cdeab7ca99e4c39c12a2236cbdd1389772ec0d8",
+    "rows": 44640,
+    "parsed_sha256": "41e33e425cb1f5bb457d2cb4f564afb18dbffa9f660e3151dc2eccd213e365e7"
+  },
+  {
+    "symbol": "PROVEUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/PROVEUSDT/1m/PROVEUSDT-1m-2026-09.zip",
+    "source_sha256": "9dc8bf9cb206c03c4bbb2dee394c7132940f5b197e163f7b79a2121fdbc033d4",
+    "rows": 43200,
+    "parsed_sha256": "8daec05292006c2e3d66fb8580909b14d9b13f888facdeb67f18f0ea4316f305"
+  },
+  {
+    "symbol": "PTBUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/PTBUSDT/1m/PTBUSDT-1m-2026-03.zip",
+    "source_sha256": "526cd12e6c56b24230a01cc807381c727f849d027c94b63534801f1d22269d7a",
+    "rows": 44640,
+    "parsed_sha256": "0088dfcca3b0331480078ae96e22fa311b0a92d28bde06250565444a99306b2b"
+  },
+  {
+    "symbol": "PUFFERUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/PUFFERUSDT/1m/PUFFERUSDT-1m-2025-12.zip",
+    "source_sha256": "7c187ef166de83ef463fe2a182d6e27561b3aae27686222378d61e75f707eae3",
+    "rows": 44640,
+    "parsed_sha256": "7ca022e987d1bf624443078096e902c4336ff22dc00779ae795fe6b660eb2012"
+  },
+  {
+    "symbol": "PUMPUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/PUMPUSDT/1m/PUMPUSDT-1m-2025-08.zip",
+    "source_sha256": "8cf273b76a9e0a96e8eab89c6ee69d4cf4de653c502579cefc0d4f1e69fa9e73",
+    "rows": 44640,
+    "parsed_sha256": "9aca32e4667b3ecfece6190a00629fab2b086a2276544d0399065ad3f88fcaa9"
+  },
+  {
+    "symbol": "PUMPUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/PUMPUSDT/1m/PUMPUSDT-1m-2025-12.zip",
+    "source_sha256": "637a6dd25108e85b063761c9ee6959a165160a989330109ba91ee1176af27c59",
+    "rows": 44640,
+    "parsed_sha256": "4525e2f1b0c596e1c5f26efdb3bc7091efd500b2a9baa59ab09a42f1025f1cf1"
+  },
+  {
+    "symbol": "PUMPUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/PUMPUSDT/1m/PUMPUSDT-1m-2026-09.zip",
+    "source_sha256": "cf4710ba54dbdf005bd11e58598b812c40795184fd634be5f4b409249afb80b6",
+    "rows": 43200,
+    "parsed_sha256": "e414b12b6bc775a7320d531a18030cf333973c425ad850cdcadbbfba71d0502c"
+  },
+  {
+    "symbol": "PYTHUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/PYTHUSDT/1m/PYTHUSDT-1m-2026-09.zip",
+    "source_sha256": "fe786f5b42fda9bdde8fdf377c70c61d2c06bf3ffbdf13daf34391b7d1250ce6",
+    "rows": 43200,
+    "parsed_sha256": "713e787d89fa5448b6e7f52505d2e58cf69d2c756e34d565ff4560305da90bf7"
+  },
+  {
+    "symbol": "QTUMUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/QTUMUSDT/1m/QTUMUSDT-1m-2026-08.zip",
+    "source_sha256": "6827d0489836e1fc9a6f77c4503030e845ec37a461247dd4c5df8927fac7f75a",
+    "rows": 44640,
+    "parsed_sha256": "93125d7cf9a4e25540eb4be5686de5f6a9e7c1f3f05c21508083724cc04b91ef"
+  },
+  {
+    "symbol": "QUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/QUSDT/1m/QUSDT-1m-2026-01.zip",
+    "source_sha256": "6fa7503a95323b528cfaa251528dd6e5f57f82c39507bcb966fffc3b6b54420f",
+    "rows": 44640,
+    "parsed_sha256": "341c299437bb9446948e9134c7a224e74919640a5e7a616ef2e2d2f980515e4c"
+  },
+  {
+    "symbol": "QUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/QUSDT/1m/QUSDT-1m-2026-05.zip",
+    "source_sha256": "667e2fa68e8fcf94be63ed56a0b627388b4f321d74190fe013bbb9774a5f7951",
+    "rows": 44640,
+    "parsed_sha256": "5143b43b1943c8f1f746cbc4be8256143d596df6fed786014173f11401038b94"
+  },
+  {
+    "symbol": "QUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/QUSDT/1m/QUSDT-1m-2026-09.zip",
+    "source_sha256": "32ceabbb3bc3ccb8c03fd158328dc17717336cc08cf51d09ef271dd5dde3d9d9",
+    "rows": 43200,
+    "parsed_sha256": "8879d576e02adfae8cf96d6cda2f04f14f75aaa26bf200bff16935f39e8bbb71"
+  },
+  {
+    "symbol": "RAREUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/RAREUSDT/1m/RAREUSDT-1m-2026-08.zip",
+    "source_sha256": "188c3d6b72a039e3ddf0b29d3dc6bd3b92481bb3bf6fc395d17e7284b45dc8b7",
+    "rows": 44640,
+    "parsed_sha256": "fecaf675b42e4a5a9e326b1b7df59cce4863dcb73ccaba8534a91359dc0cbd60"
+  },
+  {
+    "symbol": "RAVEUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/RAVEUSDT/1m/RAVEUSDT-1m-2026-02.zip",
+    "source_sha256": "070835fb131f5f4b1019c707708ef4c8ff68c9a793f2061c35c968861445467f",
+    "rows": 40320,
+    "parsed_sha256": "ff8857af041f92760c75c97988beee726b7945b0c8f413c81051c76c8e1b4c91"
+  },
+  {
+    "symbol": "RAYSOLUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/RAYSOLUSDT/1m/RAYSOLUSDT-1m-2025-02.zip",
+    "source_sha256": "5956eb23dff1bf7e400b94a90bf2a9019f891a784f9a3eb4090492893c29a17a",
+    "rows": 40320,
+    "parsed_sha256": "9af1d6dc8a5b6ba1bcec3e81f254d06b1f70bd708dc3e69c060c7646bcf25fd2"
+  },
+  {
+    "symbol": "REDUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/REDUSDT/1m/REDUSDT-1m-2025-04.zip",
+    "source_sha256": "ecbcb1e4652c2b6eca8447b1e5e9a0f3eb7794cf074b7060781f4ec9c4b945a6",
+    "rows": 43200,
+    "parsed_sha256": "c6fa24010e342b23ae478f3d07a3a4a209d3b7edcda0e548c36b3f7ef466605e"
+  },
+  {
+    "symbol": "REDUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/REDUSDT/1m/REDUSDT-1m-2026-09.zip",
+    "source_sha256": "b2ef6ad07edb400869da07d3db2ad72c4c26e0cd430e47828fdd6db485670990",
+    "rows": 43200,
+    "parsed_sha256": "f1821e8d2fec1185e0c40d8854da00924c8408007bf6d023f82d779ee9960a78"
+  },
+  {
+    "symbol": "RENDERUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/RENDERUSDT/1m/RENDERUSDT-1m-2024-08.zip",
+    "source_sha256": "4684f19c7f2941c013a97e4a90b910a0ca3a8e3e0b0c9d0b88f68afc79443aa2",
+    "rows": 44640,
+    "parsed_sha256": "70afd431eea94aaa9e04e8083f8698ccdcdd974bbf3d860490019086dd7ce97b"
+  },
+  {
+    "symbol": "RESOLVUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/RESOLVUSDT/1m/RESOLVUSDT-1m-2026-01.zip",
+    "source_sha256": "ede131ea78f11dcddfe2877ca1f74c4baba50507cdd9f27953735bee44f1d243",
+    "rows": 44640,
+    "parsed_sha256": "bf430da75616bce8fc88f0400f636e0cada12dc5d962cc93cd0b7f9865ae860c"
+  },
+  {
+    "symbol": "REUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/REUSDT/1m/REUSDT-1m-2026-06.zip",
+    "source_sha256": "baf4d028023b18245f2363d2951e99594cb52dc9c1a0ebbcfc637c49e2d9e217",
+    "rows": 17880,
+    "parsed_sha256": "30a6350a569501a984dfd324096bfdbc6543fd19c1826ef41c599f2d68ce8ec4"
+  },
+  {
+    "symbol": "REZUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/REZUSDT/1m/REZUSDT-1m-2024-06.zip",
+    "source_sha256": "dbcb98c049cc5e8e924e031bc9ae14acd20521564ca2ecc352e1da2871936651",
+    "rows": 43200,
+    "parsed_sha256": "3a6b2c9f413e315d60d7f61ca6be4d0530920a4a85a0c81c70475fada5769824"
+  },
+  {
+    "symbol": "REZUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/REZUSDT/1m/REZUSDT-1m-2025-03.zip",
+    "source_sha256": "ed1e48d8eabdc44b999f17ae8b57182de264e118b4bd61cc25e882763df760fa",
+    "rows": 44640,
+    "parsed_sha256": "2ce994f166330cf5db7919f9c9f4878076833bfdc71604edad508841e0a5ab45"
+  },
+  {
+    "symbol": "REZUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/REZUSDT/1m/REZUSDT-1m-2025-08.zip",
+    "source_sha256": "7a2cfc962d53285ab837622a757388c86d62cfc72542aad02f5bcd42cc9b6ea0",
+    "rows": 44640,
+    "parsed_sha256": "b12e7a336f915a85b3c2e19ac1405d960751f75ddf507d35ecbbbc3f7126b931"
+  },
+  {
+    "symbol": "RIFUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/RIFUSDT/1m/RIFUSDT-1m-2026-06.zip",
+    "source_sha256": "3c18b677d9f3141e41976d883467fe12a76dffa02bd88b560a22a67c3ced3627",
+    "rows": 43200,
+    "parsed_sha256": "a403a089ddfcf993ef831ce9c0bfaeb15a6e17788ecd8ca143130e96a3b36f95"
+  },
+  {
+    "symbol": "RIVERUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/RIVERUSDT/1m/RIVERUSDT-1m-2025-12.zip",
+    "source_sha256": "bdbd2ed9d8f8b7f1fc5eb67af9105150f890d382c9170ede1930887f2d3f2d61",
+    "rows": 44640,
+    "parsed_sha256": "b56cd2876edd3d1fb582d338c244b74c094eb229229b9cc7488b76bc610cf989"
+  },
+  {
+    "symbol": "RIVERUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/RIVERUSDT/1m/RIVERUSDT-1m-2026-04.zip",
+    "source_sha256": "48f97573caecd53aa295a6f33a2b1be28951f4ae3a482e5a44cf3ea42a5251ea",
+    "rows": 43200,
+    "parsed_sha256": "955132e76e7377022ac5d052f290e900a587f4fa065cda5db21a2be7a788d8cf"
+  },
+  {
+    "symbol": "RIVERUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/RIVERUSDT/1m/RIVERUSDT-1m-2026-09.zip",
+    "source_sha256": "0f1f43acdd30a601ac354fd1bce0044bbdba6761dc13097727d5ea32585f9ade",
+    "rows": 43200,
+    "parsed_sha256": "4ff4142aed63b18de64e2e8ad7c270d2152240302356bae3b087e9c738fa31f4"
+  },
+  {
+    "symbol": "RLCUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/RLCUSDT/1m/RLCUSDT-1m-2025-03.zip",
+    "source_sha256": "b218c9a04e92b39e0eb8ef9f30c69178c054c318edb2c266f9ac24853dd512cb",
+    "rows": 44640,
+    "parsed_sha256": "edd2929d09096d5f48af16bcbada6290a22e025b55a61b1b93591b562a745220"
+  },
+  {
+    "symbol": "RONINUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/RONINUSDT/1m/RONINUSDT-1m-2026-03.zip",
+    "source_sha256": "2d32b8a0d62dbb72513721dd3586961f5b78c65253102330d49f299542f7b0d4",
+    "rows": 44640,
+    "parsed_sha256": "36a89f8f1841f311c2e0abae2d8cb632f47a3165e3b309eb1df4df270d2b3a19"
+  },
+  {
+    "symbol": "RSRUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/RSRUSDT/1m/RSRUSDT-1m-2024-12.zip",
+    "source_sha256": "4db1e468fa24f75e3d9257d34ac936fce9c88ba80e6aaa95950e9baa949057ac",
+    "rows": 44640,
+    "parsed_sha256": "17f6cc0fbf45ae38555f040befdf2321d97a710ff179fdf67118464f0dfa8be7"
+  },
+  {
+    "symbol": "RUNEUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/RUNEUSDT/1m/RUNEUSDT-1m-2024-08.zip",
+    "source_sha256": "19dd5e588249895cff3a074b5f4b947e2f59a30fb04254fafc77e10d6870f5ef",
+    "rows": 44640,
+    "parsed_sha256": "00e867e9a950f92ea48dc436513e7de299155a9da1f3eee739619ce8c69945eb"
+  },
+  {
+    "symbol": "RVNUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/RVNUSDT/1m/RVNUSDT-1m-2026-09.zip",
+    "source_sha256": "99427f6ef52c64c9783a43df9361a9b921f66800d6e523c7ac977e84c6fae2d9",
+    "rows": 43200,
+    "parsed_sha256": "c904a7bf53e821bb18608b01629baae26abd0d552774dc7eda69a5d531c71675"
+  },
+  {
+    "symbol": "RVVUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/RVVUSDT/1m/RVVUSDT-1m-2026-01.zip",
+    "source_sha256": "bc705a64963903a5efbd935e7d0a5a3e76b06b052a30f7734afdf9348ecfc77a",
+    "rows": 44640,
+    "parsed_sha256": "1d12d29a8c5ef04d7b35cdd76ac355ee472ac190ca8fb86bf77c417bf1c0485a"
+  },
+  {
+    "symbol": "SAGAUSDT",
+    "month": "2024-10",
+    "key": "data/futures/um/monthly/klines/SAGAUSDT/1m/SAGAUSDT-1m-2024-10.zip",
+    "source_sha256": "07c7a2653d59a85101eeed07c1abe4a11377ddef48ec4c8a203bd7f899858a49",
+    "rows": 44640,
+    "parsed_sha256": "20c9a7acba6999bc4a887399db3e9b4b6f1f33be95b8c9e06051ae122904fb4e"
+  },
+  {
+    "symbol": "SAGAUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/SAGAUSDT/1m/SAGAUSDT-1m-2026-09.zip",
+    "source_sha256": "98b584a540d99a989c20600fa1a659bed9018733a78e6ddb43d3560c2128f862",
+    "rows": 43200,
+    "parsed_sha256": "9d6800114cf018e54c663cd37775122ce7c5b05bb66eee1612384ba798f5bc8e"
+  },
+  {
+    "symbol": "SAHARAUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/SAHARAUSDT/1m/SAHARAUSDT-1m-2026-05.zip",
+    "source_sha256": "0287adb32993ad82ebbe56944fecdb2846117bcabe2e3186dd325fa0267e851d",
+    "rows": 44640,
+    "parsed_sha256": "3567152c1614c3b88415b904a42c3681bf807d3d15439418bdb616cc47da40df"
+  },
+  {
+    "symbol": "SANDUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/SANDUSDT/1m/SANDUSDT-1m-2025-01.zip",
+    "source_sha256": "8a073c0fa8cab66a9a0add278d78db102efe60d81099c10a9911439af4a4bed9",
+    "rows": 44640,
+    "parsed_sha256": "2f0e0bbddef0208afe54fc2d38ea8a605e564f1082df2056acf24ff5e32cf35a"
+  },
+  {
+    "symbol": "SAPIENUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/SAPIENUSDT/1m/SAPIENUSDT-1m-2025-09.zip",
+    "source_sha256": "ca3995fc8d41a5bd694be9dd1e9f3a6733dc432fdb9814453375f21e6fd8b2b2",
+    "rows": 43200,
+    "parsed_sha256": "783cd7dc7dd2220ddf0295d45c2c5b6e498eecbba6eff5f913fcbfce807e9a7e"
+  },
+  {
+    "symbol": "SCRUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/SCRUSDT/1m/SCRUSDT-1m-2026-09.zip",
+    "source_sha256": "d9bb48dfbb3f90b6c79de14df21de3b80adde3e151f9894c779f18bdf4249dc9",
+    "rows": 43200,
+    "parsed_sha256": "f64b2edcd2ea5ea7ccb7b2baa749bb449b2fb22b4f3285b60c8a15b993947018"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/SEIUSDT/1m/SEIUSDT-1m-2024-02.zip",
+    "source_sha256": "55153c3a3bceaead689bdd0baebbb1e17cb739aa4a6eb5e72e02563461cdf4a1",
+    "rows": 41760,
+    "parsed_sha256": "8fc92a5d18d3d9713ac4f3f0bc2403f73f9a592db0a7f28fccc4d820788b8719"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/SEIUSDT/1m/SEIUSDT-1m-2025-11.zip",
+    "source_sha256": "a5cbc9ec46651313dc492fe1ba9fea653e52b2cc433303c4598c3ec8f033b878",
+    "rows": 43200,
+    "parsed_sha256": "600fbd97dd7786614685310a4c299c0c58f2f63c23ad9f8b234b979b5dc59927"
+  },
+  {
+    "symbol": "SHELLUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/SHELLUSDT/1m/SHELLUSDT-1m-2025-04.zip",
+    "source_sha256": "561bdb94060da507bd2230422389b1d3c520b8f7fb3cb2e964d978af0f34e4de",
+    "rows": 43200,
+    "parsed_sha256": "f796a62db5b776181b781b46f7e60e3672f585a490445b8031669572c2cbe612"
+  },
+  {
+    "symbol": "SIGNUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/SIGNUSDT/1m/SIGNUSDT-1m-2026-03.zip",
+    "source_sha256": "fd0c7692998e6b5495671ffa319b2aa52bfc5536b444767a5c1e34fbf40a4bf1",
+    "rows": 44640,
+    "parsed_sha256": "35edc3b8579a220138762e06ae9be845afa034e987b3bf736b46da75eaed138d"
+  },
+  {
+    "symbol": "SIRENUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/SIRENUSDT/1m/SIRENUSDT-1m-2026-02.zip",
+    "source_sha256": "60f3d9ad639da106515ccf33e1e7a3fde2e0cece5b292a70defd4998b1abd6c1",
+    "rows": 40320,
+    "parsed_sha256": "524c97d7678ef8f6d4dde357c2d4fa4d2ae46f1a433eaff57cd2c0e5018de131"
+  },
+  {
+    "symbol": "SIRENUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/SIRENUSDT/1m/SIRENUSDT-1m-2026-06.zip",
+    "source_sha256": "cea97ccee94e69be95a4ee04e4a32ef973a46b58f80b7de6a8cd91628829a84b",
+    "rows": 43200,
+    "parsed_sha256": "bb964c7874edd9bef1185b0757c4426f8cec27c908756dd383b69f6556d2535c"
+  },
+  {
+    "symbol": "SKHYNIXUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/SKHYNIXUSDT/1m/SKHYNIXUSDT-1m-2026-07.zip",
+    "source_sha256": "1dcd27d3493919bc677867981d1401323b39677fa2a7a353750be88cc589a99c",
+    "rows": 44640,
+    "parsed_sha256": "5568fbc31990be5691a024612a9f99e0711d1d23a6fd389313cd0eadb5a906fa"
+  },
+  {
+    "symbol": "SKYAIUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/SKYAIUSDT/1m/SKYAIUSDT-1m-2025-07.zip",
+    "source_sha256": "883838db48ff1d0ddd3680e36980e80f541d4b6a58a08ac9b512783edb6e8774",
+    "rows": 44640,
+    "parsed_sha256": "8ca7c432139f47c0c598a5a0a9b991884557ca2d7b0a970ecf01d09309bb769a"
+  },
+  {
+    "symbol": "SKYAIUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/SKYAIUSDT/1m/SKYAIUSDT-1m-2026-07.zip",
+    "source_sha256": "6346c0164c95b5fa2edcea189cda931c82c3ae6064ed5097dbb935d085c1120b",
+    "rows": 44640,
+    "parsed_sha256": "74855bed3f6ee8528b847df5f3c9e634f76cd9b761a33c50eab7927982ec4823"
+  },
+  {
+    "symbol": "SLXUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/SLXUSDT/1m/SLXUSDT-1m-2026-07.zip",
+    "source_sha256": "ceb56d29e3030670f03f4306e85fd6c7c2bd9488fb3048fbc2810aadd8cc532e",
+    "rows": 44640,
+    "parsed_sha256": "2b1981d9deb955e2a5e7865f94a36a4ebf13df43583bff13e88c78367d256481"
+  },
+  {
+    "symbol": "SNDKUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/SNDKUSDT/1m/SNDKUSDT-1m-2026-07.zip",
+    "source_sha256": "f33abba439536196eab789176b38eb7e3bc9eb4a45e7c844252a57f37edc99eb",
+    "rows": 44640,
+    "parsed_sha256": "ccea1d3e5db51baaff3a1fa387b05a9f7721494efc147069a0a8f9d44e0aa738"
+  },
+  {
+    "symbol": "SNXXUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/SNXXUSDT/1m/SNXXUSDT-1m-2026-09.zip",
+    "source_sha256": "d4af338aa38e235bc20ecf90e8c2434693ccf68c77e13b322b1a64b5ddf9f623",
+    "rows": 43200,
+    "parsed_sha256": "3cc62264818e935be95132810023539b07f06752a14ca077e820d1b9f722eead"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2023-11.zip",
+    "source_sha256": "f01ab6905a199359bdd3e630246f3d12fdb30368a57894356b7ce01374de6179",
+    "rows": 43200,
+    "parsed_sha256": "076efcbee6f086679f9857fa3c75e20f8953d793fb0ff1641d352eba9b15dd74"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2024-04.zip",
+    "source_sha256": "e19eed213f5030153fd5e28c8b8cd14c8e05a93cfd5a28f15a68066e458dd414",
+    "rows": 43200,
+    "parsed_sha256": "3be28f6d7a8f6aae5ea3c438094ea4c590c72122803db0e3a0d0bbe1c521f203"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2024-12.zip",
+    "source_sha256": "631fd8d38ebc10376e985bc232f64a388a8ae50ffeb588098c4bcf39de45e05e",
+    "rows": 44640,
+    "parsed_sha256": "6274da65c820bc02c48f69b684cf4e18a514f0d649a9ec5ee2048e6cdbff5767"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2025-09.zip",
+    "source_sha256": "389290c0c468d168ea3b327d926e273aa9de639249e5101f443360eda4456b4e",
+    "rows": 43200,
+    "parsed_sha256": "16c903f18ee2239deed720e0bb8ac18a539208de4c0d5de1d5c65c3f308822e0"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2026-08.zip",
+    "source_sha256": "0d895f66c4c07969845decf7d8e8752b0d8cb5409ca737b7b48c8751d4fd6f1f",
+    "rows": 44640,
+    "parsed_sha256": "3418369e0ca1711030d4f01216c522675a2347bea8e456679635fc6062477118"
+  },
+  {
+    "symbol": "SOMIUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/SOMIUSDT/1m/SOMIUSDT-1m-2025-09.zip",
+    "source_sha256": "44a4b6ff4e256272dcf1b6e0c3fee9b495370f65532038848e4e88604456bd08",
+    "rows": 43200,
+    "parsed_sha256": "424039c437ef0cd14b158e6668a07ba6c6374a69339b749a8348ccc1291ff73f"
+  },
+  {
+    "symbol": "SOMIUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SOMIUSDT/1m/SOMIUSDT-1m-2026-08.zip",
+    "source_sha256": "c0e9fbf6bf35c915ec5269e72aac06da839507af4fc290d08ca4fe104a65727f",
+    "rows": 44640,
+    "parsed_sha256": "e6647a88ee33c9d67a240be3cbb7643ce5bf0693929ae57ae74fb9d178360356"
+  },
+  {
+    "symbol": "SOONUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/SOONUSDT/1m/SOONUSDT-1m-2025-11.zip",
+    "source_sha256": "55c1fbc8a4c0cbaab8a89fd4014c920a3a4e6971b45bf2addda0f92861315b13",
+    "rows": 43200,
+    "parsed_sha256": "f255c83f0c7d0f3d3765e704c621e0ec9331213291c5d62f2d0a4226d5b942b6"
+  },
+  {
+    "symbol": "SOONUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SOONUSDT/1m/SOONUSDT-1m-2026-08.zip",
+    "source_sha256": "c18b74d3f17ffc5d7e6176052404336b7121346c8f7dc82aa83c109ee7c06c9c",
+    "rows": 44640,
+    "parsed_sha256": "4cdcf1e5d4c0758e6e9dc8dea84961e6280188d15a7c53986bfe69fed4e4611c"
+  },
+  {
+    "symbol": "SOPHUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-10.zip",
+    "source_sha256": "0556094919b307761e04a31e6046a130cb3c2deaaa5d02c0a0ee4da68b413a1f",
+    "rows": 44640,
+    "parsed_sha256": "d22c38943cf950c726a497478f441734fd15185bac1106219178787d8ffaf227"
+  },
+  {
+    "symbol": "SPCXUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/SPCXUSDT/1m/SPCXUSDT-1m-2026-07.zip",
+    "source_sha256": "ac3a21a0afb0ef1ef5914008c6da41d075533f75ce5fa4995df2a56f1c32bab1",
+    "rows": 44640,
+    "parsed_sha256": "c8b1127f038190127f755bf0e0bb64384b0d9ec7f229a8e99a58b8b79862020c"
+  },
+  {
+    "symbol": "SPKUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/SPKUSDT/1m/SPKUSDT-1m-2025-08.zip",
+    "source_sha256": "72b0ceac0fdcea23cffc60f54cd7e44da4d9b66966f3934d646f7bd56fc1be8c",
+    "rows": 44640,
+    "parsed_sha256": "5dd6264fbd4d8b38d3d357b69b65a0ecc9ace8e6f021f4bc93c423772d4e68c2"
+  },
+  {
+    "symbol": "SPORTFUNUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SPORTFUNUSDT/1m/SPORTFUNUSDT-1m-2026-08.zip",
+    "source_sha256": "efa35d8234bbdb10bbaac35372b3c9719d9d77a863d1cf1a0361143455b8313b",
+    "rows": 44640,
+    "parsed_sha256": "a6990c5dfaa2d3991e3bd9db410f5d5b276dda3cd6d1f1bdb00790db7c3a792d"
+  },
+  {
+    "symbol": "SPXUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/SPXUSDT/1m/SPXUSDT-1m-2025-07.zip",
+    "source_sha256": "42e4d4eb088826464df2cf17c49c741de7421a78052252b4434230172488f97c",
+    "rows": 44640,
+    "parsed_sha256": "722ea139fc0441d8b63ed7949141d3af06215ae51693ed28795ac39b53cdbc69"
+  },
+  {
+    "symbol": "SPXUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SPXUSDT/1m/SPXUSDT-1m-2026-08.zip",
+    "source_sha256": "d2caf562b342113d75d45eb83415b6c3b6f4ed86aae1c90265fea60a7ec625c6",
+    "rows": 44640,
+    "parsed_sha256": "955ee82ccf1a2ccae1522d33633231f52dd15d9c1eb020c88fb01766e6a09565"
+  },
+  {
+    "symbol": "SSVUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/SSVUSDT/1m/SSVUSDT-1m-2024-03.zip",
+    "source_sha256": "d86e0b77e332301a6ec35c809069b02615f8c8868e3dcbcd6599de8117906ef4",
+    "rows": 44640,
+    "parsed_sha256": "09aea2c86e17ce778172406e1a1af804c7aac3aa3696b29a9df88428081588dd"
+  },
+  {
+    "symbol": "SSVUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/SSVUSDT/1m/SSVUSDT-1m-2024-08.zip",
+    "source_sha256": "90cd6868015dc00ff8d84e86d35a204ca5db846fd4e800707ee848223c4e8665",
+    "rows": 44640,
+    "parsed_sha256": "9170280e408401cd0bf911f284cf6310bf6990a390711ba0fc38bc2eabe064ab"
+  },
+  {
+    "symbol": "STABLEUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/STABLEUSDT/1m/STABLEUSDT-1m-2026-01.zip",
+    "source_sha256": "b74f94cae3c89b0f1aed898793ceac5ff068f1e11faee01ff776819933662fc6",
+    "rows": 44640,
+    "parsed_sha256": "019bbb3f4413df86706027725227a6f53ad99730638b1e776ebbd856900541ab"
+  },
+  {
+    "symbol": "STBLUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/STBLUSDT/1m/STBLUSDT-1m-2025-11.zip",
+    "source_sha256": "8ad8b55a0dc5c326cf44f5e888298b7655770c5ef24d476f9dfb65a2cea254c6",
+    "rows": 43200,
+    "parsed_sha256": "5ccaaa032777980b1568a17d875b755b2f0e4572d3b9d52fd0435f2b09502242"
+  },
+  {
+    "symbol": "STGUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/STGUSDT/1m/STGUSDT-1m-2026-05.zip",
+    "source_sha256": "6dea5d5b1037b3caafd91bd76cd79570de57858bccb7f69e2dbfc77a80d345ae",
+    "rows": 44640,
+    "parsed_sha256": "ddd68b205d1eb31e588bbe801b4133aa7a0bc9c378224e88f2630e11640aba5f"
+  },
+  {
+    "symbol": "STORJUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/STORJUSDT/1m/STORJUSDT-1m-2024-07.zip",
+    "source_sha256": "5be9eacb2a5d7a7bde939d58ceb49eb52e6591a8b56781d842cbc503695d1d15",
+    "rows": 44640,
+    "parsed_sha256": "c8615b817a80c264e0bcee18de274b5f03bca82ee0b7611f0416e054bb0798d2"
+  },
+  {
+    "symbol": "STOUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/STOUSDT/1m/STOUSDT-1m-2026-03.zip",
+    "source_sha256": "bc598578d1484b54c90b04748114e29d5eeb9fc3f2b0d3bee7e803e9a620e2ff",
+    "rows": 44640,
+    "parsed_sha256": "909383f889bdb9e00f11b9987121d5ee2b44a3085c0f944adea69b3eb47705ca"
+  },
+  {
+    "symbol": "STRKUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/STRKUSDT/1m/STRKUSDT-1m-2025-11.zip",
+    "source_sha256": "c6c4cbfc9a59881553da5fe1e665b27ff11d3a94771ffd3b429138fc0a2a38fc",
+    "rows": 43200,
+    "parsed_sha256": "39bf88a19361d56e9ccca66048f872b78a64e4a961c267d4972ba190de380173"
+  },
+  {
+    "symbol": "STXUSDT",
+    "month": "2023-12",
+    "key": "data/futures/um/monthly/klines/STXUSDT/1m/STXUSDT-1m-2023-12.zip",
+    "source_sha256": "95fb8b606a4dd4ea0216537d31b82bc77f638512244794ba72a69c32ac03a4f6",
+    "rows": 44640,
+    "parsed_sha256": "840b5b6012c14f932802d8e2c5869d5638122a934d753fa2357272511794c857"
+  },
+  {
+    "symbol": "STXUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/STXUSDT/1m/STXUSDT-1m-2026-07.zip",
+    "source_sha256": "987d5929c32b8b989916ea6c97c06fd61e79d944546618a7b05834fcd5c22b02",
+    "rows": 44640,
+    "parsed_sha256": "cb2b8a6af13d6db7fd6c1c39aef6e0cd070b1ab88a2c5bc969e473e1b2109c9c"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/SUIUSDT/1m/SUIUSDT-1m-2024-04.zip",
+    "source_sha256": "fc2ea01a8baaa32662aa7e132a610eece78ebc1d9a75e7da52ad5fa2cae05114",
+    "rows": 43200,
+    "parsed_sha256": "b282ed7ee7b9aa1b58ea06afd8e0db5aaeeb003aa1255db9ae94c1eb6fd0592d"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/SUIUSDT/1m/SUIUSDT-1m-2025-02.zip",
+    "source_sha256": "a0a5609980b72d4ba72b7032a2be5463e7c0c0ffaadec6b23bce49a529ad5e15",
+    "rows": 40320,
+    "parsed_sha256": "48ab6ef8279826bac21660b80cceff1e91890f78855259377368355339079ee3"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/SUIUSDT/1m/SUIUSDT-1m-2025-10.zip",
+    "source_sha256": "da9fe5c0213cc3176b2fdb521306b664badfa077eeb8dd8e307f8a98c03a29bc",
+    "rows": 44640,
+    "parsed_sha256": "c9447abc6806910e60a01c9406fa259ea23687b5460b71d682ecb16544777cf0"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/SUIUSDT/1m/SUIUSDT-1m-2026-08.zip",
+    "source_sha256": "fe8a4da680892fa7a4c0a997407d7cbe04452b2a02b099ed203b4e2ab1f66b7a",
+    "rows": 44640,
+    "parsed_sha256": "77fe4844038c09b7cf03431e0921e0d164dc17699029d9c137e7b7e645250b79"
+  },
+  {
+    "symbol": "SUPERUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/SUPERUSDT/1m/SUPERUSDT-1m-2024-02.zip",
+    "source_sha256": "9d75e629031be6e42b8dd11a094a8b768ce2f757639b07f9889bfa312ce2b901",
+    "rows": 41760,
+    "parsed_sha256": "a14288baa140464fdc643ede14d18729c92bc281ae8dc7e94f10df4478b19268"
+  },
+  {
+    "symbol": "SUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/SUSDT/1m/SUSDT-1m-2025-02.zip",
+    "source_sha256": "54a1ef9da018fda8e5ea76936c2907a77622aea8805bcfc8c81c747b043a5b21",
+    "rows": 40320,
+    "parsed_sha256": "05597e3ca80dc3c027cafb488c6d394d827e6d245aba376c2fb1b60fabeecf7b"
+  },
+  {
+    "symbol": "SUSHIUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/SUSHIUSDT/1m/SUSHIUSDT-1m-2024-04.zip",
+    "source_sha256": "11f66cab3efce4a805ce2fbe9506a8853e2139f94ea9138e0af86549d0420caa",
+    "rows": 43200,
+    "parsed_sha256": "2c12905f3064fe83a3226ba06d2940ad4f6c202ed7ec186a0e2b1b4d2903c41d"
+  },
+  {
+    "symbol": "SWARMSUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/SWARMSUSDT/1m/SWARMSUSDT-1m-2025-02.zip",
+    "source_sha256": "8d26f12999fca81812eae0471aec944321e1da728c7a47f8672dd213a84fc438",
+    "rows": 40320,
+    "parsed_sha256": "1ee672f22939224a0fd00ef43a9b8f36f6bcb7e82690c9018e3e9ec0ea459091"
+  },
+  {
+    "symbol": "SWARMSUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/SWARMSUSDT/1m/SWARMSUSDT-1m-2026-04.zip",
+    "source_sha256": "a551b595851a4b35a38b9d8324cfc6186b86a1c244020b2c4dee4187e313f937",
+    "rows": 43200,
+    "parsed_sha256": "ef92c6fac16c6995f8aa4407fd40416729e2fd57a1efcfa3e897cda48e770a7d"
+  },
+  {
+    "symbol": "SWARMSUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/SWARMSUSDT/1m/SWARMSUSDT-1m-2026-09.zip",
+    "source_sha256": "08aa62ffa7f6c79bdcb0065a8978a7180ee68b37b0a96825ebde1ab03bc422dd",
+    "rows": 43200,
+    "parsed_sha256": "a5f1ff8bbb36f3105b3aa68cdc462e55c3e7e34eb60666bb9b0a130f049ea9fb"
+  },
+  {
+    "symbol": "SYNUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/SYNUSDT/1m/SYNUSDT-1m-2025-11.zip",
+    "source_sha256": "80afa430d8149a9d7fffd12b59286f41d452c6975f48ce258ff141dd744ee188",
+    "rows": 43200,
+    "parsed_sha256": "b4787dc17143ef1eab3ab2e956e84d2dc3696abe65f331192478c040002b23c7"
+  },
+  {
+    "symbol": "SYNUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/SYNUSDT/1m/SYNUSDT-1m-2026-06.zip",
+    "source_sha256": "69f2e6f22b312557fce7428940d6d88664e71b6499844bc211987eb0367f137e",
+    "rows": 43200,
+    "parsed_sha256": "ffbfa99070c84c77fa896df84459b12c6f46b9606a31aa9b81244187996fc1c5"
+  },
+  {
+    "symbol": "SYNUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/SYNUSDT/1m/SYNUSDT-1m-2026-10.zip",
+    "source_sha256": "6bd87ece3a9f3aebab2315926d55cfeddcede1727b7b6bdd3a75bd685074a7a8",
+    "rows": 44640,
+    "parsed_sha256": "45a3142a16da94fd51b21c37f5d5a5959a49d2ff9e3b879069122286a8211d3b"
+  },
+  {
+    "symbol": "TACUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/TACUSDT/1m/TACUSDT-1m-2026-04.zip",
+    "source_sha256": "c1203afef4a94c1c4b45eb82a8cbac0c6a51e5ae27904b5ed9d954a0de53cbe5",
+    "rows": 43200,
+    "parsed_sha256": "2d97ae3234debaedca80438411cb033ea1ed1c6af1384148745b17ac3586ff26"
+  },
+  {
+    "symbol": "TACUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/TACUSDT/1m/TACUSDT-1m-2026-09.zip",
+    "source_sha256": "99be3a5bacf4fca9d0364c132e3f0b201897da445820a6cb231f64f0c6fef4a5",
+    "rows": 43200,
+    "parsed_sha256": "3ba81942f489f583e47039948c8bb726081b6f5007abe3c0310bd58ba8a499a2"
+  },
+  {
+    "symbol": "TAGUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/TAGUSDT/1m/TAGUSDT-1m-2026-10.zip",
+    "source_sha256": "624e9093d8b1599de56d6ef2209ff506d5df4fdaba5d2b6000d2ac329a404455",
+    "rows": 44640,
+    "parsed_sha256": "186e3500e3c6e21058ec7219055bdaf0e0bca4f988558ebdf689b91ec9d7414e"
+  },
+  {
+    "symbol": "TAKEUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/TAKEUSDT/1m/TAKEUSDT-1m-2026-02.zip",
+    "source_sha256": "d12976032459ce4caba52fd4f65e2b26b88d9d155673b3176f31879e02fab01d",
+    "rows": 40320,
+    "parsed_sha256": "76a67895c83a208aeebcd4ebd5bd694a620de86d244fa49560ca7dc1bb05a4d7"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/TAOUSDT/1m/TAOUSDT-1m-2024-07.zip",
+    "source_sha256": "3e5df670f788250d8cd89b61152437839b86ee7ca3393cf2fe29f951365bb0b9",
+    "rows": 44640,
+    "parsed_sha256": "2520b5ce4e00a1f6be4c569e44fe7c23df566d0e46566e8beeaad7ccc523da3f"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/TAOUSDT/1m/TAOUSDT-1m-2025-01.zip",
+    "source_sha256": "80f7e72afa1d78bb3419505e7f4cbd2d2d62ad2c33342a87a01344f36ea3ad01",
+    "rows": 44640,
+    "parsed_sha256": "ea0fdbc54bbf8c52fdc6abf988fa87b117336aca3942f621ef083c436810578b"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/TAOUSDT/1m/TAOUSDT-1m-2025-06.zip",
+    "source_sha256": "f6b1e7aee6dd6c6413c1ee5485d4cc7088f74ba00549280303571d38fc4b98d3",
+    "rows": 43200,
+    "parsed_sha256": "bd25f5e5a5ae3413bc0a86c3098da2afffe147f9f0c7bc07afec0c6e8b88e761"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/TAOUSDT/1m/TAOUSDT-1m-2026-02.zip",
+    "source_sha256": "975da9159af6a515b24cdbd09adf781961f6cd5fb6e60cf568ecb7a493cd513d",
+    "rows": 40320,
+    "parsed_sha256": "518d84afd29444ca2ce2f8e4b5dc6c6ae1d29454520d0aab677dc0113c24c382"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/TAOUSDT/1m/TAOUSDT-1m-2026-10.zip",
+    "source_sha256": "bc8c1491275b935dcf23ea5282ac521bd085453d5f46084bdd1dbbf2915277d4",
+    "rows": 44640,
+    "parsed_sha256": "2626ea550d191b795c844feab5ed54115345f3a0da73f451d9b109939aa5aadd"
+  },
+  {
+    "symbol": "TAUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/TAUSDT/1m/TAUSDT-1m-2025-11.zip",
+    "source_sha256": "0d46c661d972d69a279b6191c73559e48fc4b5406636d5913667ccd8f9156912",
+    "rows": 43200,
+    "parsed_sha256": "4c42d9b160d3a6db7a4791d597b95e15217a6bb4310ad055709d9981ad037351"
+  },
+  {
+    "symbol": "TAUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/TAUSDT/1m/TAUSDT-1m-2026-03.zip",
+    "source_sha256": "1cdc74ac92841b0966ef2479b9bff38a688acd70119b2f12c29161425b69439d",
+    "rows": 44640,
+    "parsed_sha256": "81c2101e1afb7eabfc987aca4593fc94650c1ff5f94393fb9f94b9d14feda65a"
+  },
+  {
+    "symbol": "TAUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/TAUSDT/1m/TAUSDT-1m-2026-07.zip",
+    "source_sha256": "d1b1c1f77b8e7cb2d053ac0d8e2f1644e83243a251a9465509f21b560edf4fa4",
+    "rows": 44640,
+    "parsed_sha256": "d24a1acf80e5c7bf27ffdc1e53f566845899fc325084844d04d82a5532f14d4b"
+  },
+  {
+    "symbol": "THEUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/THEUSDT/1m/THEUSDT-1m-2025-01.zip",
+    "source_sha256": "cf1ae4909471e0b25810fb7a5e79120331ef9c6b01a1d39eb9869ab7a8817c53",
+    "rows": 44640,
+    "parsed_sha256": "53e3aa12c9b16f5ff9709a886a87f6ed75144befcf518f3131ca2ca15683e3ae"
+  },
+  {
+    "symbol": "THEUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/THEUSDT/1m/THEUSDT-1m-2026-07.zip",
+    "source_sha256": "f91921d72c4ee83ad4b9f5691b639d6372ffcd450474cd7faa438d9118b28f19",
+    "rows": 44640,
+    "parsed_sha256": "f7eb97f304f2f43aa04d121cbf5bd67641c71a809a604367096ff2db658119a9"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/TIAUSDT/1m/TIAUSDT-1m-2024-06.zip",
+    "source_sha256": "a8a542e54a658978fe883daae4b0fb2b5c4a6a3f75da8b746490d0a1b663a8d1",
+    "rows": 43200,
+    "parsed_sha256": "2ee450a594ac9858b9d86340dcc5990f0890d16bfac44f97d9e34200829c3997"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "month": "2024-10",
+    "key": "data/futures/um/monthly/klines/TIAUSDT/1m/TIAUSDT-1m-2024-10.zip",
+    "source_sha256": "48705cba8f76e5c0c89688cae3c469d96529081e4b2e7943846338f9117df299",
+    "rows": 44640,
+    "parsed_sha256": "2934a4170b82e985508cd2690b6a236ec30c68c9747f7bbc40d4fc9ed347948f"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/TIAUSDT/1m/TIAUSDT-1m-2025-03.zip",
+    "source_sha256": "7204afac7aa358a7ccb5eb6c9d50ccaeeb3f3c8988997d7df1103c1ac84abb29",
+    "rows": 44640,
+    "parsed_sha256": "b5e8a115070f3b5c322521a2ffceacaa0ceca541e44b4876e0fe84123c74f4c6"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/TIAUSDT/1m/TIAUSDT-1m-2025-10.zip",
+    "source_sha256": "fe5676c6d8f759ba416b540d6ad59c50256c37ad80467832c1541486741365a6",
+    "rows": 44640,
+    "parsed_sha256": "c367b8293700ccff50dbf96829091b10e1421a0d715f72106c6ed6bd635bf7c0"
+  },
+  {
+    "symbol": "TLMUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/TLMUSDT/1m/TLMUSDT-1m-2026-08.zip",
+    "source_sha256": "06612a0ffb453b684f4f0589ecdb556a0c6bfa008de75397ca41c37053b72c20",
+    "rows": 44640,
+    "parsed_sha256": "0c5375fc4f443317d97913cfb56bf1bcd0928bc8f71a808964fd61c83ede691e"
+  },
+  {
+    "symbol": "TNSRUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/TNSRUSDT/1m/TNSRUSDT-1m-2025-11.zip",
+    "source_sha256": "2fcbe170cf045b8c32758294a056ba1acf8b35391a5caa9134637e7448f7191f",
+    "rows": 43200,
+    "parsed_sha256": "c7f550f72d2565665f8fbb0eeff44d62193ec2dc6031b1185fa9ce3f7a6977ea"
+  },
+  {
+    "symbol": "TOKENUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/TOKENUSDT/1m/TOKENUSDT-1m-2024-03.zip",
+    "source_sha256": "464db874e782de26e35c150c09bf7a751ac5fb037f4acddc6c22fd9d87025e79",
+    "rows": 44640,
+    "parsed_sha256": "848d7cb850500a9559b0ded2d80a8e1b40f7997d5a509af86a2635b7880896af"
+  },
+  {
+    "symbol": "TOMOUSDT",
+    "month": "2023-07",
+    "key": "data/futures/um/monthly/klines/TOMOUSDT/1m/TOMOUSDT-1m-2023-07.zip",
+    "source_sha256": "50082ba5cdb859fa082cc38197d6e3d824650a96316520f41089eafaf3b9255f",
+    "rows": 44640,
+    "parsed_sha256": "8959342de5bc625f17d9152b3887b472d16a80aa41c75770f77ffd85a29d4a7f"
+  },
+  {
+    "symbol": "TONUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/TONUSDT/1m/TONUSDT-1m-2024-04.zip",
+    "source_sha256": "0b9db888b2b6c7670a68fa8c5390087f1348b48d1ddddeff7cb4c28519fdb452",
+    "rows": 43200,
+    "parsed_sha256": "c881be45aaee9d668665c80fb4c15a01cbc9604b294aabccca3f3c786c421aa3"
+  },
+  {
+    "symbol": "TONUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/TONUSDT/1m/TONUSDT-1m-2026-05.zip",
+    "source_sha256": "18bc585d39e5bd2a07e90d33854e4f04902fc10f63263748ff4d18b99a68c30f",
+    "rows": 44640,
+    "parsed_sha256": "51bb2455c1326734c1f4fdba29e91bcba1dbcf74aa23d50e00190b05f49388b2"
+  },
+  {
+    "symbol": "TRADOORUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/TRADOORUSDT/1m/TRADOORUSDT-1m-2026-01.zip",
+    "source_sha256": "0aa42eb6cfee735c8fb69df2b316e302d1b6c0107f6096561aca8ecb238296db",
+    "rows": 44640,
+    "parsed_sha256": "67514fc5f14b714fb3fac31f1f5993f298e35f90e885e17b7a909ef4c5fde780"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "month": "2023-10",
+    "key": "data/futures/um/monthly/klines/TRBUSDT/1m/TRBUSDT-1m-2023-10.zip",
+    "source_sha256": "043f0410a793ec73f33a7f30059291b39975e1adff8df06a64ca89aeb67fa584",
+    "rows": 44640,
+    "parsed_sha256": "a53320b880292375bda184613de28aaff5c692926a28e78131c6acfa679123ec"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/TRBUSDT/1m/TRBUSDT-1m-2024-02.zip",
+    "source_sha256": "5435e786c6384d9b953371dba6c88913b414f17a0744696636a0b6e033d8521d",
+    "rows": 41760,
+    "parsed_sha256": "f8d7ca30849f60edce7e191a195d81a95375b2bc7dd0c4421de02f8d06400459"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/TRBUSDT/1m/TRBUSDT-1m-2024-08.zip",
+    "source_sha256": "e5e63f3581f5d2ad4df9a67b0bd5342f462e046d73b71bfb26a944664f453bbb",
+    "rows": 44640,
+    "parsed_sha256": "da1134905455ced3726b8ba440610e0057bb55e2d3135b56abfd472a1398d84d"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/TRBUSDT/1m/TRBUSDT-1m-2025-11.zip",
+    "source_sha256": "4bd4b7e1f51a530d7912e30ea3fe925de22d7dbbbe56db6112aedfeaf86bf8a1",
+    "rows": 43200,
+    "parsed_sha256": "a9f7ab64b2c51aeff158ce844ec0b6bdedb40b08b3f121a0dadca5403d6bf17f"
+  },
+  {
+    "symbol": "TREEUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/TREEUSDT/1m/TREEUSDT-1m-2026-10.zip",
+    "source_sha256": "098ebe0e00b9448bf2675c1822dfbdf000241ba96cbe645e9d6ec74d069ab4e8",
+    "rows": 44640,
+    "parsed_sha256": "0bc1b1084aad4fc79ab263ff783de4e4ef59354997c0475180d1de996c365cd2"
+  },
+  {
+    "symbol": "TRIAUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/TRIAUSDT/1m/TRIAUSDT-1m-2026-07.zip",
+    "source_sha256": "51e14a061d3cb190d9fdfa5c8f065809c887ad172ab2b5fcb4ca6debd8b925ae",
+    "rows": 44640,
+    "parsed_sha256": "990cf1b2ef5ff2f8869258be2c22e8df72c98ba4d67937ede9e2ee79d88eca63"
+  },
+  {
+    "symbol": "TROYUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/TROYUSDT/1m/TROYUSDT-1m-2024-12.zip",
+    "source_sha256": "437627ac251b6eac573d516e3d6d948f76ce90e9daaf32b30194242ab157230d",
+    "rows": 44640,
+    "parsed_sha256": "0f575b35195b12be9d67e1b2e01b2e019cd6f87e464f74b224375b458b76727e"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "month": "2025-02",
+    "key": "data/futures/um/monthly/klines/TRUMPUSDT/1m/TRUMPUSDT-1m-2025-02.zip",
+    "source_sha256": "adc0b1805c1004878df311ea578dec21833870446b2145058f4a937df4e54a2c",
+    "rows": 40320,
+    "parsed_sha256": "bcf4951e13efcd1c177952472344c3276d7d8ff0d204a6038a1f2d076e86e056"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/TRUMPUSDT/1m/TRUMPUSDT-1m-2025-06.zip",
+    "source_sha256": "6e082fe389b32b5ae0fd6247780c3bbd1b9f87e1a2f9ef7b1daf8e8336064510",
+    "rows": 43200,
+    "parsed_sha256": "70ed81f1287fc3695172164f0777e77e8b8e9a928ca4bb12526c6df5214f75a9"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/TRUMPUSDT/1m/TRUMPUSDT-1m-2025-11.zip",
+    "source_sha256": "521525f202562dd692fcb5fa77f3bddea33fd4d2fa3d16d30a581782bcb454ff",
+    "rows": 43200,
+    "parsed_sha256": "991fd5ef61515748cc31dc7599209f97a9110d23e4fd0bb8d741f0b102a30132"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/TRUMPUSDT/1m/TRUMPUSDT-1m-2026-06.zip",
+    "source_sha256": "cacfdfd0e25584ddc9725e8f7b8c256c4356b3bd6ba7e817038bbe9fae790c07",
+    "rows": 43200,
+    "parsed_sha256": "75a2364925e584cfbb3549b646b539f1d9494c3de64bb1f79aa9d8a29067addd"
+  },
+  {
+    "symbol": "TRUTHUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/TRUTHUSDT/1m/TRUTHUSDT-1m-2025-11.zip",
+    "source_sha256": "a2279ea79c902c83a918ad5dd3a3a0012057d97c831270b8594dac02f836f678",
+    "rows": 43200,
+    "parsed_sha256": "e749058d727c61cb54286cdad5b999b55279161f5585c4ce8e98a2ac705e48f2"
+  },
+  {
+    "symbol": "TRUTHUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/TRUTHUSDT/1m/TRUTHUSDT-1m-2026-06.zip",
+    "source_sha256": "5910f76c4ddc6c741c8622f9f39540bd954d549b704e5210f190c320b92251c4",
+    "rows": 43200,
+    "parsed_sha256": "ce6846c6f5d289c66f13a6e3bb535c0769fe71fa511e279cc08df1fb5b7236c2"
+  },
+  {
+    "symbol": "TRUUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/TRUUSDT/1m/TRUUSDT-1m-2024-07.zip",
+    "source_sha256": "be1990e9659132ba24588298a1fc4a68900df65e3f88b527dc5435d332b16f5c",
+    "rows": 44640,
+    "parsed_sha256": "cc36d9259667c62da26f5b380ccbfd02053f82d816045390c8a1fd2954b762ee"
+  },
+  {
+    "symbol": "TSTUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/TSTUSDT/1m/TSTUSDT-1m-2025-03.zip",
+    "source_sha256": "75f8a5efe5284d56f1e2a2d6a8122d544e7858b92f54bbbaca635a0084501f3d",
+    "rows": 44640,
+    "parsed_sha256": "0393cd7d6cd8c4aed6a5a8efcfeafd9c7bda63f0af7c0ce6fbdfdd24bb67636a"
+  },
+  {
+    "symbol": "TSTUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/TSTUSDT/1m/TSTUSDT-1m-2026-07.zip",
+    "source_sha256": "7f6b2b822e08e1d68c4c37ca8beeec01f38f2fa1aec79dce68b4efa11169ed8b",
+    "rows": 44640,
+    "parsed_sha256": "d5ad4ef47999539f6fb2ffa6d7627e161dfc54b4d35ac53d965cd4f1b4ea14fa"
+  },
+  {
+    "symbol": "TURBOUSDT",
+    "month": "2024-10",
+    "key": "data/futures/um/monthly/klines/TURBOUSDT/1m/TURBOUSDT-1m-2024-10.zip",
+    "source_sha256": "b5638061d833215c603198dbc62d1264a35a10657c3fc996fb7249d85052dbd0",
+    "rows": 44640,
+    "parsed_sha256": "671eaddfe83a3583d84022f6bd4887aaf1ecf7f7dc33681aa89941d78d64a756"
+  },
+  {
+    "symbol": "TUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/TUSDT/1m/TUSDT-1m-2026-09.zip",
+    "source_sha256": "40d7ff6115e70f5cc3a03986bf297e82ad0dafd97e4dfb1bb2b8905e4e09add4",
+    "rows": 43200,
+    "parsed_sha256": "a49375409c00ee6dc256afd628aa20d79919620dea19274b5998330d15da0607"
+  },
+  {
+    "symbol": "TUTUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/TUTUSDT/1m/TUTUSDT-1m-2026-08.zip",
+    "source_sha256": "caf753e4c594943da8f08cc7af5d28816fff7b606a9da81ed12e2c3171840ba6",
+    "rows": 44640,
+    "parsed_sha256": "8ebf528c60b2a8715ccc4184ee008c69f20dede0cde5e67f549e3ffdbe86e0ce"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/UAIUSDT/1m/UAIUSDT-1m-2025-12.zip",
+    "source_sha256": "88fa490907b8e87d95a1bc5d748771116269d9eb032f0704a49f6278d43d7d9a",
+    "rows": 44640,
+    "parsed_sha256": "b1e44c1f87928e0211b682f7e4aeda5573b73042d72aff089d8bb00c8db04163"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/UAIUSDT/1m/UAIUSDT-1m-2026-04.zip",
+    "source_sha256": "b3d4af4b999f556411a29744ddcdef77696335fcdf6a7e8c5faa3516b8b29d63",
+    "rows": 43200,
+    "parsed_sha256": "5fa682482a7cd4137c7bc3e958fb88431bee74be02e34c9cea719a6d40f87a5d"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/UAIUSDT/1m/UAIUSDT-1m-2026-08.zip",
+    "source_sha256": "9a95c188a4152a8c3ba17b96d3cedb9bcc5e7a755ece3afc31f4832a3932d4aa",
+    "rows": 44640,
+    "parsed_sha256": "06f671340944a42f1a75e3b5f3f0d7925c16b8f163ed6dce245d26fc196444bb"
+  },
+  {
+    "symbol": "UBUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/UBUSDT/1m/UBUSDT-1m-2025-11.zip",
+    "source_sha256": "40054abbd9aa9f13bf3f8c6824fdb4523a728347da14bf23e170ab16e6f2b138",
+    "rows": 43200,
+    "parsed_sha256": "126fbc1dec446ec1d44a07bcf4a4ebcf92859f1f6879970c713821efc1c8efdb"
+  },
+  {
+    "symbol": "UBUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/UBUSDT/1m/UBUSDT-1m-2026-07.zip",
+    "source_sha256": "a472f12d3a41baddd0bc2bde23888e1aef4a8fdbe1053754c3273049c0bc04fc",
+    "rows": 44640,
+    "parsed_sha256": "cb5632668041dbf9212bfc8ace546707326f0eb936ff9be1bfe55e4a0708c901"
+  },
+  {
+    "symbol": "UMAUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/UMAUSDT/1m/UMAUSDT-1m-2024-02.zip",
+    "source_sha256": "bbf2d305153b99a92bf6224c6294f138813c05f08813120e41126bc1d4b2f21c",
+    "rows": 41760,
+    "parsed_sha256": "7c434322f19cf909969234b9c8053d1d16a03eeb7bdc4752cc758964a2948db9"
+  },
+  {
+    "symbol": "UMAUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/UMAUSDT/1m/UMAUSDT-1m-2025-09.zip",
+    "source_sha256": "5065af30e9684b0f15e9595a388175a88cf931242cdd0686709e23c539e6e198",
+    "rows": 43200,
+    "parsed_sha256": "2c4faa5032b74ec8240ddc302bd4d83066c897848dc5970ba04b8d7d918ebb8b"
+  },
+  {
+    "symbol": "UNFIUSDT",
+    "month": "2024-05",
+    "key": "data/futures/um/monthly/klines/UNFIUSDT/1m/UNFIUSDT-1m-2024-05.zip",
+    "source_sha256": "025b85c41901760c842326f6837300f8eed8e7e8eec09071ad9aa307024803ab",
+    "rows": 44640,
+    "parsed_sha256": "fb2197f3489a8548411885bd623eeda3fa0436221d3319610d52789b3ff6052f"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/UNIUSDT/1m/UNIUSDT-1m-2024-03.zip",
+    "source_sha256": "962abd7f28a534634030ba118e22ac5e4545505a8c28fd08338855af96cd9131",
+    "rows": 44640,
+    "parsed_sha256": "49a374171cbf191be4003c76f45615ccc41bc8b1b892a607c073f4d372c7a791"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/UNIUSDT/1m/UNIUSDT-1m-2025-01.zip",
+    "source_sha256": "dc63cbdadadf37928f73b1c40063023cf1f436261a4b6c5d86cf3a9fffc949e5",
+    "rows": 44640,
+    "parsed_sha256": "8cb63dd91a6020c4eded6bd3f4c8c08f67c9a8a37cb505fe67db59f3e06ae201"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/UNIUSDT/1m/UNIUSDT-1m-2025-08.zip",
+    "source_sha256": "09ad1295e6003b7c26f1e2190b1ffe1993a8bc9eb141d37e0d566acea8873d1c",
+    "rows": 44640,
+    "parsed_sha256": "57094de5e77c66c9dc242351f709417d0fdd07958d8cff9f6350449763b53d52"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/UNIUSDT/1m/UNIUSDT-1m-2025-12.zip",
+    "source_sha256": "89338f961ad5262b7e9cb85bf98606f59ea1e50a0ff710d328e46590beea35c3",
+    "rows": 44640,
+    "parsed_sha256": "eeeb8c269eb6f167b4ca783d45552acfe6d0f66db8a084d053ee5c5184f77409"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/UNIUSDT/1m/UNIUSDT-1m-2026-09.zip",
+    "source_sha256": "3a060bdaef33706a41f58cb6bf8d14ef3a58ed3752d017aa1dd3f647595178d2",
+    "rows": 43200,
+    "parsed_sha256": "c6c5101b3eabb67058a73e2810ff20a7aaef2c4caadc711f06a030d2936d91ad"
+  },
+  {
+    "symbol": "USELESSUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/USELESSUSDT/1m/USELESSUSDT-1m-2025-11.zip",
+    "source_sha256": "07bccb15a3e01fa1c0498e854f7b7b618196783feec737d4a6033d60f1768092",
+    "rows": 43200,
+    "parsed_sha256": "252ad2abbf3db1c8919af2d67f74da63af77d0a84d4b34371d870d3b95aa5838"
+  },
+  {
+    "symbol": "USELESSUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/USELESSUSDT/1m/USELESSUSDT-1m-2026-08.zip",
+    "source_sha256": "c2855754372b959392dc00aedb379f28e318e137d88a70998bd939349296dabc",
+    "rows": 44640,
+    "parsed_sha256": "42964a4b4683546197c0437dc9873b95aa36cf3185e4ee7637b9ffda3f7e1603"
+  },
+  {
+    "symbol": "USUALUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/USUALUSDT/1m/USUALUSDT-1m-2025-07.zip",
+    "source_sha256": "282cf913ef2e20c57b816ed9c6e19a0452d013945b38e7adf3ab172d4243e95b",
+    "rows": 44640,
+    "parsed_sha256": "3074df0c5e65a4cad20693e472735663fe526b5a21c4a0159ee5f59f9a3b7923"
+  },
+  {
+    "symbol": "USUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/USUSDT/1m/USUSDT-1m-2026-04.zip",
+    "source_sha256": "e231256602de4980d627cd912b14f267035b116a56a57250fdb2ecaef8943b4e",
+    "rows": 43200,
+    "parsed_sha256": "f6e44ee5ba95d14ca763d89a1deaa9e3932a0131b7f016e0c65fa0bb0c39e148"
+  },
+  {
+    "symbol": "USUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/USUSDT/1m/USUSDT-1m-2026-08.zip",
+    "source_sha256": "dde7fc1a89b658c7c06aebcda18687cc1a1fd751d59522de28077a3637a9ee51",
+    "rows": 44640,
+    "parsed_sha256": "43a64e28d5378df64ba95df9111d8c0db8ed7bcc05ec2d9a6ff3941b0a1e1d18"
+  },
+  {
+    "symbol": "UXLINKUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/UXLINKUSDT/1m/UXLINKUSDT-1m-2025-01.zip",
+    "source_sha256": "91dc688062e8efe3144bd51672e6752122d390ead995a16f2476ec018c625c83",
+    "rows": 44640,
+    "parsed_sha256": "5c600bcaf96f728acd5a953fe9c8fd9287eaaf84e28cc40ad3dce070217f5940"
+  },
+  {
+    "symbol": "VANAUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/VANAUSDT/1m/VANAUSDT-1m-2026-02.zip",
+    "source_sha256": "9deb2739c1c61f6b73bcad2bf4d41672264ae9f8015e71575f2c545b5f3376b8",
+    "rows": 40320,
+    "parsed_sha256": "f213092f90d52192519c099b615a85e087d800055c7589d374cc5bd715b2fd1d"
+  },
+  {
+    "symbol": "VANRYUSDT",
+    "month": "2026-04",
+    "key": "data/futures/um/monthly/klines/VANRYUSDT/1m/VANRYUSDT-1m-2026-04.zip",
+    "source_sha256": "adc5ebaf7d4e730434c4118c560f5d632cdfecc3f9f93bcea4be2c7255a17f0f",
+    "rows": 43200,
+    "parsed_sha256": "7ed6776f6839c21a18bb8ac48f583b6be93ed69ad2149c0e35f0f7bbf12bb597"
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/VELVETUSDT/1m/VELVETUSDT-1m-2025-10.zip",
+    "source_sha256": "593ee76aef1f00be0453d3a591616199b8213d472e98823fe47879005c339d2f",
+    "rows": 44640,
+    "parsed_sha256": "f60d05f71b6ba83cf5b3d66e61dc1f1ad4f116ddf1ccf28697d3ec180bf59e08"
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/VELVETUSDT/1m/VELVETUSDT-1m-2026-09.zip",
+    "source_sha256": "d2dbee4871a7eafc06235706f1fa4c4a7cb776330b435057c3a3a78d6bb7fdbf",
+    "rows": 43200,
+    "parsed_sha256": "3c6417e6fba5c3959f413da872013ad72dce017858ca1bca91f63c7604f21b5d"
+  },
+  {
+    "symbol": "VICUSDT",
+    "month": "2026-07",
+    "key": "data/futures/um/monthly/klines/VICUSDT/1m/VICUSDT-1m-2026-07.zip",
+    "source_sha256": "d39cca7a94bb8c0b6b0c86570be7db4d45fa1e62d403a8ecf97c58d57b979b8f",
+    "rows": 44640,
+    "parsed_sha256": "3e4d9985191bd4f3f99a4980bef43c475f3f7327e0fcbb31c21f704f022aee30"
+  },
+  {
+    "symbol": "VINEUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/VINEUSDT/1m/VINEUSDT-1m-2025-04.zip",
+    "source_sha256": "78f2cf8df01b5fa01e56d23fe72fbc6fcebcd183e676ef7e8ecdef120ae01142",
+    "rows": 43200,
+    "parsed_sha256": "0676e994c7d0d16c2568df6d19859675a4933d76df61e331b4b53d45cea96dbe"
+  },
+  {
+    "symbol": "VINEUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/VINEUSDT/1m/VINEUSDT-1m-2025-10.zip",
+    "source_sha256": "c0201f8c7c1c55c78fa5f75a21f81a8520b3921c937253a47acd08915283fe16",
+    "rows": 44640,
+    "parsed_sha256": "329af4ed19d31efd01e4f60ccefd68cfb5c9a98765224af4e27e368e19ca0e41"
+  },
+  {
+    "symbol": "VIRTUALUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/VIRTUALUSDT/1m/VIRTUALUSDT-1m-2025-06.zip",
+    "source_sha256": "c75ce0f948e3f93121db7e35452b5cad42f3287266617c9bd3e83d2848be2da2",
+    "rows": 43200,
+    "parsed_sha256": "658c401e0658cef711131d14358c717ff78fd7215bfcc6ec984c856648785d3e"
+  },
+  {
+    "symbol": "VOXELUSDT",
+    "month": "2025-04",
+    "key": "data/futures/um/monthly/klines/VOXELUSDT/1m/VOXELUSDT-1m-2025-04.zip",
+    "source_sha256": "428b6529c49605fd4151b45f65ba7f56c2c987588632f3f5023c2de5b152fe39",
+    "rows": 43200,
+    "parsed_sha256": "b7fd257b678f5fae0de84c44dcd6a3385dc40adcb2a5659f7d53757e89b1c3e5"
+  },
+  {
+    "symbol": "VTHOUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/VTHOUSDT/1m/VTHOUSDT-1m-2026-10.zip",
+    "source_sha256": "aae9f3baca198060c0c7d3f69e20ae6820b583f3e7bb4f0a9c757e082df9a6fc",
+    "rows": 44640,
+    "parsed_sha256": "7c151bfb39c4286f6f439f4be86141c4498b2589676dd4d671252e2a8f731112"
+  },
+  {
+    "symbol": "VVVUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/VVVUSDT/1m/VVVUSDT-1m-2026-06.zip",
+    "source_sha256": "dcdcecd798f88cd782503fc73ea22d43fb1d83aa5842a73fbc9fde09724d150f",
+    "rows": 43200,
+    "parsed_sha256": "5fcca46a21cc3b27ec6850725d32f591f11d03385aaab22afd4ab626b550bb61"
+  },
+  {
+    "symbol": "WALUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/WALUSDT/1m/WALUSDT-1m-2025-11.zip",
+    "source_sha256": "0e28b6321b53e997e3ccbd4f1f449bd0f7f7094ac2f63026e8544c698b6784aa",
+    "rows": 43200,
+    "parsed_sha256": "22b06a1d976f3adb962b31a0296219120dabbde600f4365a6e6ced84da6f2c0a"
+  },
+  {
+    "symbol": "WAVESUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/WAVESUSDT/1m/WAVESUSDT-1m-2024-03.zip",
+    "source_sha256": "8e426af87df7ea880c5e3aede9e802fdb7c4cb7107067f144b2563708d22d795",
+    "rows": 44640,
+    "parsed_sha256": "722ca32da118d5522cab8e0db4a6c29cd720ea1979b5a30c3886d0a66232d9df"
+  },
+  {
+    "symbol": "WCTUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/WCTUSDT/1m/WCTUSDT-1m-2025-05.zip",
+    "source_sha256": "98759cf23cea6605be6c62ce210c53cbadc970d73fb026478d344ed74b9558cd",
+    "rows": 44640,
+    "parsed_sha256": "49cd19576943b647363eddf71c1c46c2eebc93450e08b238437a4ee6d4d2006c"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2024-04.zip",
+    "source_sha256": "df5fb7142480b6004a5a44e5561bbf5d6ada2bb8de32f5d39ba170de1971e350",
+    "rows": 43200,
+    "parsed_sha256": "c7ae4bee91cc38dd4e285bd765d5118a076a1aaa314f7affefc102bc03d7a244"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2024-08.zip",
+    "source_sha256": "a9273b74828601fd99415cf0738558b98b2930ff94e7c87683bd49db6ea920e4",
+    "rows": 44640,
+    "parsed_sha256": "ad4e805b5e53c83057668ac97923022a6e5c0b08f41bb3fcfb821e9fd28c5155"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2025-01.zip",
+    "source_sha256": "1ae26aad52ba29a943e858dce13c21f89b2b1f5f7d375c187caee9a801fda8dd",
+    "rows": 44640,
+    "parsed_sha256": "8b1b787ab98545daf8f20169de49dc4ec7739d29ada038879dedd2008afbdb92"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2025-06",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2025-06.zip",
+    "source_sha256": "3eb20f1261325f63de9812200ae1bd0d6f32ce1d97677b31870a18417179ded9",
+    "rows": 43200,
+    "parsed_sha256": "94852189fcb9cfa6f171ccbbed67ea00bbb05fe5cf20c4a2ce204623e013abc8"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2025-11.zip",
+    "source_sha256": "f2e429e508d6da7a493c0b0da955781979cd0a097abdbf826faf5748ea05cb6f",
+    "rows": 43200,
+    "parsed_sha256": "c72c3af99e4c28d7bc297e6a63404f53407a0bb9be0848b5ec33c8c312a95bfa"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/WIFUSDT/1m/WIFUSDT-1m-2026-05.zip",
+    "source_sha256": "f18b8d1a76173a14c0445150445d1bbabc07dc9430f748590b50690700ebf732",
+    "rows": 44640,
+    "parsed_sha256": "a5e1037c8f2c385f0ca7e3a7b3e446cfb4f81ae3c168ee962ee404f97f3ed946"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2024-02",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2024-02.zip",
+    "source_sha256": "1adb9f5963dbc6d06b9c0d9b3a0e3d0b5377f1c135b6cc6b9e448ba246c7098a",
+    "rows": 41760,
+    "parsed_sha256": "1e5f8f2135eabcbd2d837200696c15fccfa46f547fc8bd6b0c717981273f06f7"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2024-06.zip",
+    "source_sha256": "328790b86cbea3540d3bc26518a5f829672b485da033eabf20ac2a219abf821d",
+    "rows": 43200,
+    "parsed_sha256": "b7b69480f64d47e5803ea5a6e62f966c36156318fb34fceb4220e4e29961feb1"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2025-01.zip",
+    "source_sha256": "7561b1efc03f44d6d95eb0d6998f3332be2d10898dd96b3595bfbe78f5b174fe",
+    "rows": 44640,
+    "parsed_sha256": "cb3bd1181f8dbff38b33b4b1cf2b468efc2ee8df6dc18c20268de95b527c2de7"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2025-05",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2025-05.zip",
+    "source_sha256": "04075414d8a3453db77b8616a5b01c0436be2c23b14f07738ea600af5ce688bb",
+    "rows": 44640,
+    "parsed_sha256": "e47570364d432944712cafe81ccee17702863f71fb5f2f072cf7fbf966fc839d"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2025-10.zip",
+    "source_sha256": "f1de56390924b4a82bb488a21759da5fb491a68706583fc716b5e0157e05af93",
+    "rows": 44640,
+    "parsed_sha256": "5ec4d8627c898f64d8806bcc6f760ceebc3fc6c06a42494bb9ea331d156e2dd9"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2026-03.zip",
+    "source_sha256": "03edbe77057bdcf84c54e3a7b8816a3476ee7f7b440b840c34669791cf952d18",
+    "rows": 44640,
+    "parsed_sha256": "959d480eff51b5fd4041140c71a8b65406b51dda44e760ac2860e44d04486ef1"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/WLDUSDT/1m/WLDUSDT-1m-2026-08.zip",
+    "source_sha256": "974f397400359ec157ea7a2a28c1eb6e7bbccda1de4fe574067e6b7abec728e8",
+    "rows": 44640,
+    "parsed_sha256": "86996be2254b810dd980ecab63fd6b50bd21c10ac1ec382b3a4195802eec2954"
+  },
+  {
+    "symbol": "WLFIUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/WLFIUSDT/1m/WLFIUSDT-1m-2025-10.zip",
+    "source_sha256": "9bea5faeb4d7d99599f593e25f32c0cb08a7d80398bf1392479076fd943a5038",
+    "rows": 44640,
+    "parsed_sha256": "e179918367d52503eb946ca43bd8b3cc57a5d891f033dfffc317ebfa557fa76e"
+  },
+  {
+    "symbol": "WLFIUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/WLFIUSDT/1m/WLFIUSDT-1m-2026-03.zip",
+    "source_sha256": "f8cf8a08b1360c8810a6d1c605bb732b44568f47f710cf72cc7f478617a35e31",
+    "rows": 44640,
+    "parsed_sha256": "e47ca94043d710db00cd6bf80c7c8c6dbed936fd820cb04b939ba6adcde337a5"
+  },
+  {
+    "symbol": "WOOUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/WOOUSDT/1m/WOOUSDT-1m-2023-11.zip",
+    "source_sha256": "2fa81c59ef7c23734f578d85b09e5713e42aad5fbba372354294c8a469436bb1",
+    "rows": 43200,
+    "parsed_sha256": "c614c0615f104bc243c6d926e1bbf2c2775a355ffaeab60b6aa730433524161c"
+  },
+  {
+    "symbol": "WUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/WUSDT/1m/WUSDT-1m-2024-06.zip",
+    "source_sha256": "e5d70b7359e1953b9fcf0c089d09e9db2fc9b6d686cb78ffa70b84ba011c044c",
+    "rows": 43200,
+    "parsed_sha256": "9c22e8f4aeddc9c467d6d94333ef73bafc54fd62ded402de732ed886041d228b"
+  },
+  {
+    "symbol": "XAIUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/XAIUSDT/1m/XAIUSDT-1m-2026-08.zip",
+    "source_sha256": "1bb7ccd15f17e17adf781811f1d201c5d5fe4c31dc4ae837c53b0b11a486392f",
+    "rows": 44640,
+    "parsed_sha256": "200720fd7482472281c94ac9e480169aa7c2f6d7b3318419b08ae503786f93c9"
+  },
+  {
+    "symbol": "XANUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/XANUSDT/1m/XANUSDT-1m-2026-03.zip",
+    "source_sha256": "482e3220cfca573ba49c47a39d68e0027017055acc4cee04c68deffe9b2999df",
+    "rows": 44640,
+    "parsed_sha256": "f57c7ab5383588eece5cb80fefd43bffc6644f7b74775765b863639784e4763c"
+  },
+  {
+    "symbol": "XANUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/XANUSDT/1m/XANUSDT-1m-2026-08.zip",
+    "source_sha256": "59fe352c9873a102441fe93d139dc3017d61b93f5189c629344eb3f1eb8f0b33",
+    "rows": 44640,
+    "parsed_sha256": "918702bd6f3b17c82fbe9cbf40b3288f6e0ef8299cd05a166190756fe9cfc059"
+  },
+  {
+    "symbol": "XCNUSDT",
+    "month": "2025-11",
+    "key": "data/futures/um/monthly/klines/XCNUSDT/1m/XCNUSDT-1m-2025-11.zip",
+    "source_sha256": "423fd6948120501bc9b4fc97d178719ff5cb77de6d7526ae229d97d2f172de84",
+    "rows": 43200,
+    "parsed_sha256": "040770da86d5afbb4e6a06f99fa5af47d09e57e7ac0443d960fd88c6a73be86d"
+  },
+  {
+    "symbol": "XLMUSDT",
+    "month": "2024-12",
+    "key": "data/futures/um/monthly/klines/XLMUSDT/1m/XLMUSDT-1m-2024-12.zip",
+    "source_sha256": "47881a1736e6c2e8b7f1c156639e495eae1a7b147959aeeeaea094eca7c3f5c8",
+    "rows": 44640,
+    "parsed_sha256": "224b6cec0767f1112edf05f17f4fd2e24cf8ce446c2d9e3ba4d883670b9f9e59"
+  },
+  {
+    "symbol": "XLMUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/XLMUSDT/1m/XLMUSDT-1m-2026-06.zip",
+    "source_sha256": "fa657c9066f74ebec28af3b7dce07bcab87433d577298e4bf4bdb4918740a805",
+    "rows": 43200,
+    "parsed_sha256": "8d926f85f73d48b4c77de7fcf6f1fb8f25656dbf8810b5c44c9fe589c133c9c3"
+  },
+  {
+    "symbol": "XNYUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/XNYUSDT/1m/XNYUSDT-1m-2025-10.zip",
+    "source_sha256": "668202c850934fd33dabbe2c3a65a0057cf4cc6352f4c01cb42fe04d4d3fbafb",
+    "rows": 44640,
+    "parsed_sha256": "3b25c904f07613eb88cfc4ceed4511281abb7a57fa23d55ceaf253b39076fc79"
+  },
+  {
+    "symbol": "XPLUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/XPLUSDT/1m/XPLUSDT-1m-2025-09.zip",
+    "source_sha256": "b1a62f3ca15f5248dc0f13f8e1879f7cb85dc4ddbd49d389cee8551d1a53744d",
+    "rows": 43200,
+    "parsed_sha256": "f90701651a1efe585d3f73926a3a36f0ab8969f9064dc0e1aa6733a30a10e5ad"
+  },
+  {
+    "symbol": "XPLUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/XPLUSDT/1m/XPLUSDT-1m-2026-01.zip",
+    "source_sha256": "d8ab6e6851b0e7f6a0bf763120f2c67aa7b4f1211d8e6e31c6356beb93ed5eac",
+    "rows": 44640,
+    "parsed_sha256": "2983e74e04f2894d60dd3b1c6d85e5199b00abe2db1fae9a97e492a936d7cae8"
+  },
+  {
+    "symbol": "XPLUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/XPLUSDT/1m/XPLUSDT-1m-2026-09.zip",
+    "source_sha256": "64ed95be6d683e46a3508cb6ff2cc2824c2ca6bb0f3700a982c1b5d5a10d0c94",
+    "rows": 43200,
+    "parsed_sha256": "71579dbe623396337ff360d3d47de5bb6ce7209940089008e903c4bb894f9271"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "month": "2023-11",
+    "key": "data/futures/um/monthly/klines/XRPUSDT/1m/XRPUSDT-1m-2023-11.zip",
+    "source_sha256": "b817ca0a6478d73cfd50dfc224aab84ec7f15ed0129795c3df2c39e6ce08cc99",
+    "rows": 43200,
+    "parsed_sha256": "6f288a9d9f99ae287eebc0b498dbed23b0927a54a43f5c7909065e6e8fe580ca"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "month": "2024-03",
+    "key": "data/futures/um/monthly/klines/XRPUSDT/1m/XRPUSDT-1m-2024-03.zip",
+    "source_sha256": "01fa94527d6b7af23ab08bb72e1d11f6e4a6b822f4291fdd14fb292128eddada",
+    "rows": 44640,
+    "parsed_sha256": "a7c1a2142056711546de69d8d52590bf45ed9bcb556903be8f1cb5d34528fd4d"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "month": "2024-07",
+    "key": "data/futures/um/monthly/klines/XRPUSDT/1m/XRPUSDT-1m-2024-07.zip",
+    "source_sha256": "fa9522c88de7568fc2ca39dac841800fb7fd5b0d077a49c9db103483bdab7318",
+    "rows": 44640,
+    "parsed_sha256": "6b8a5c5d0de8d0fcb9e906f47d61a7da8be8e36f46b01e56778f5d606700aa72"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "month": "2025-03",
+    "key": "data/futures/um/monthly/klines/XRPUSDT/1m/XRPUSDT-1m-2025-03.zip",
+    "source_sha256": "5354c5b2168ba9ebce28fee3c45a65ad4d3722c3cede41c53aef164bd68d119b",
+    "rows": 44640,
+    "parsed_sha256": "f8534e854ca32d1be1b3e644ebe86e6d4568d9142743cea7d33c6c5515abe370"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/XRPUSDT/1m/XRPUSDT-1m-2026-08.zip",
+    "source_sha256": "e4108def774c3daf34c1639d0a0a0ad5a4addc35df4cf927b493fc887c242854",
+    "rows": 44640,
+    "parsed_sha256": "d331d7b93794c902208f5155a3dd20a98d02227fec84a17cafa6e8cebae2f90b"
+  },
+  {
+    "symbol": "XVGUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/XVGUSDT/1m/XVGUSDT-1m-2024-04.zip",
+    "source_sha256": "f4aa1507015dcac87153ce6ffd48b161f6e0ff2300c0c86caae5da5d350945f1",
+    "rows": 43200,
+    "parsed_sha256": "e7f460b0fbd0e6dfdd856d175e0a2e95200baa8fb14db4954e4723042a62ce0f"
+  },
+  {
+    "symbol": "YBUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/YBUSDT/1m/YBUSDT-1m-2026-01.zip",
+    "source_sha256": "2d954e19888297e0167a16c6d9c412e7e03a3fcd6535f50c716371fc47b3c877",
+    "rows": 44640,
+    "parsed_sha256": "9b7729c654f0d1be7ad2949be526a1db70e05fa54a991a4f25a3f46f4cbc1cef"
+  },
+  {
+    "symbol": "YFIUSDT",
+    "month": "2025-08",
+    "key": "data/futures/um/monthly/klines/YFIUSDT/1m/YFIUSDT-1m-2025-08.zip",
+    "source_sha256": "d725528afc4af11780b5932e9b1a1210e003cf7b419919d11c831af39a46ca06",
+    "rows": 44640,
+    "parsed_sha256": "6290050610a52a32a6fcf9f97ae678f69a2e927c90b56d5daa44b1ee2482ef59"
+  },
+  {
+    "symbol": "YGGUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/YGGUSDT/1m/YGGUSDT-1m-2024-04.zip",
+    "source_sha256": "8eb0de3a9694721bf8b26e079831277ed3c014e52d4c08e4c21087aa75fd7ba8",
+    "rows": 43200,
+    "parsed_sha256": "a30522b91eb21899736a916a3d4401bf442bb55a0db65a42e08d86ca47bb3875"
+  },
+  {
+    "symbol": "ZAMAUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/ZAMAUSDT/1m/ZAMAUSDT-1m-2026-01.zip",
+    "source_sha256": "1c3d756c32657cc595fc10df064b12ef22196d5b0e7adbc99764ace9db168378",
+    "rows": 32580,
+    "parsed_sha256": "22b8a9b5ae86f04c7992435641e2b11d877bc90e625e735f28dacdc9e4dd9c72"
+  },
+  {
+    "symbol": "ZAMAUSDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/ZAMAUSDT/1m/ZAMAUSDT-1m-2026-09.zip",
+    "source_sha256": "c7f8bde92e64e5ac6a0e8c5b0bcd88c9a7e61aec9324b701fbba842f5bd691c3",
+    "rows": 43200,
+    "parsed_sha256": "0674cdbdbabea2fd28c0e9ddb7c10700df31fb35f7fbbe4da4101d2c8f092573"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "month": "2025-01",
+    "key": "data/futures/um/monthly/klines/ZECUSDT/1m/ZECUSDT-1m-2025-01.zip",
+    "source_sha256": "1f798a22a04a243a1d6d54b28bf819823c05ad513fc68a023145417851e50688",
+    "rows": 44640,
+    "parsed_sha256": "3c1240f7933227b242280982cba680d0224d8efd4909789fb2745385c48e690d"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "month": "2025-12",
+    "key": "data/futures/um/monthly/klines/ZECUSDT/1m/ZECUSDT-1m-2025-12.zip",
+    "source_sha256": "705ced666d339302afacead8b0406c73d43b104faac376e934c5bac89e86e015",
+    "rows": 44640,
+    "parsed_sha256": "4f0d1017baaf8c2f1eae1496b9ab7c70ac6705234e8a4bb09690ee021f31233b"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "month": "2026-06",
+    "key": "data/futures/um/monthly/klines/ZECUSDT/1m/ZECUSDT-1m-2026-06.zip",
+    "source_sha256": "546bad483cc108d671f826b95d4b51ce18a91be75599f67e7ddb0519620fd3e1",
+    "rows": 43200,
+    "parsed_sha256": "caec66f84522b6b255004f83fc19f5eb3d7accb6d61a17c71f9e5571f3dcf503"
+  },
+  {
+    "symbol": "ZENUSDT",
+    "month": "2024-06",
+    "key": "data/futures/um/monthly/klines/ZENUSDT/1m/ZENUSDT-1m-2024-06.zip",
+    "source_sha256": "aae9f533cf7e99f4a313dabebcc1aeb8a94a94e505a6ef2c0e155ec626b96057",
+    "rows": 43200,
+    "parsed_sha256": "d836b605d37a043a7c6d6210330e0f977221fba8669e4e5ef97fd174ac37836a"
+  },
+  {
+    "symbol": "ZENUSDT",
+    "month": "2025-10",
+    "key": "data/futures/um/monthly/klines/ZENUSDT/1m/ZENUSDT-1m-2025-10.zip",
+    "source_sha256": "63e01e2d232af54e324d4c141fe53bbeb9f7e9534d97b83a75d95262bdff91e9",
+    "rows": 44640,
+    "parsed_sha256": "89f754ea9e59b04f75f05b94d844d8f744335e97658874b341bbe93d957af4a3"
+  },
+  {
+    "symbol": "ZENUSDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/ZENUSDT/1m/ZENUSDT-1m-2026-08.zip",
+    "source_sha256": "89f7cfb8460506a45fa115af6299cf23dde4a75aeb5d95d4717bcab0b16c1005",
+    "rows": 44640,
+    "parsed_sha256": "4123fb43dcaf19eb26b4998710abfadc951a712e1bec0d98cc5a35fea4bef509"
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/ZEREBROUSDT/1m/ZEREBROUSDT-1m-2025-09.zip",
+    "source_sha256": "10e7b368551e7936ecc8c906468491b20a00e56ef83a7e70ad8f235b4c016abd",
+    "rows": 43200,
+    "parsed_sha256": "25d63f0a148534c217477ea70d46c9937e2276245be26893d0607d7c0ca2e4bb"
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "month": "2026-05",
+    "key": "data/futures/um/monthly/klines/ZEREBROUSDT/1m/ZEREBROUSDT-1m-2026-05.zip",
+    "source_sha256": "b8e9de8912dd3b33a90b138abda841e179574a5da5473b90e96707a159cfb7ec",
+    "rows": 44640,
+    "parsed_sha256": "11def1e71148fb70dad271c82662090df5a2263349de58a7fa8edce099de98b1"
+  },
+  {
+    "symbol": "ZETAUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/ZETAUSDT/1m/ZETAUSDT-1m-2024-08.zip",
+    "source_sha256": "a6f449afd469e31ef3388ee903dcfc02a57e1c4fa681ab2214ee04c1b9d00970",
+    "rows": 44640,
+    "parsed_sha256": "7b09aa5d65d961e74c953c50f4c0b76dfa7a0cd626c7610f40784411b5ad0b2e"
+  },
+  {
+    "symbol": "ZILUSDT",
+    "month": "2024-11",
+    "key": "data/futures/um/monthly/klines/ZILUSDT/1m/ZILUSDT-1m-2024-11.zip",
+    "source_sha256": "9ad45b5c41802f960d68bf4da1cbc45e3165f55bea0c0acd78cedb8fe7de0a40",
+    "rows": 43200,
+    "parsed_sha256": "4a7b5364944b4f0348e281fe0e126d15e3c26ccbaa1ce56bf26f49a454d8648e"
+  },
+  {
+    "symbol": "ZILUSDT",
+    "month": "2026-10",
+    "key": "data/futures/um/monthly/klines/ZILUSDT/1m/ZILUSDT-1m-2026-10.zip",
+    "source_sha256": "9d6c9bbaf894dc6196286065cd0e32609ca3858910e842e6f3f68185d4b9981a",
+    "rows": 44640,
+    "parsed_sha256": "5eca7db0d4a2cf41d89139ed4be2b1bf52edca9aeb4596b19a37227856ab97b5"
+  },
+  {
+    "symbol": "ZKJUSDT",
+    "month": "2025-07",
+    "key": "data/futures/um/monthly/klines/ZKJUSDT/1m/ZKJUSDT-1m-2025-07.zip",
+    "source_sha256": "a44dc3d704d0c429b761334d585f7d2e43a2e8ee4297ebec2fd5d17b8dcdc1f0",
+    "rows": 44640,
+    "parsed_sha256": "e1a59ad4e58181fac7565634c928de012df8229e5da013015b02dc1b36ace02c"
+  },
+  {
+    "symbol": "ZKPUSDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/ZKPUSDT/1m/ZKPUSDT-1m-2026-02.zip",
+    "source_sha256": "ec649e9451c39df609801c6de3a92e70f0e55a637b42cc8596ecc45d7be2d63d",
+    "rows": 40320,
+    "parsed_sha256": "e8fc1d2657a95c41e39825559c74f422e51476117c2986a7d3920ed4d4f4a24e"
+  },
+  {
+    "symbol": "ZKUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/ZKUSDT/1m/ZKUSDT-1m-2025-09.zip",
+    "source_sha256": "64e63d29f6d8b78c07fe63a9ec3caae91d7db74608c7bd8a016b1d3dc5bd4398",
+    "rows": 43200,
+    "parsed_sha256": "270a802e77cd63c9f2f3c9424b6cdb1d5ecd204847abc6af8477f2d1eb58e945"
+  },
+  {
+    "symbol": "ZKUSDT",
+    "month": "2026-01",
+    "key": "data/futures/um/monthly/klines/ZKUSDT/1m/ZKUSDT-1m-2026-01.zip",
+    "source_sha256": "39d50709157171e23d87c8026fe7649dda3e7c547f20499ce4b7199007b11724",
+    "rows": 44640,
+    "parsed_sha256": "addbb470c846dba09a286e934cb5ed5de790bc35d9fafd77218ea0b19ed03f3b"
+  },
+  {
+    "symbol": "ZORAUSDT",
+    "month": "2025-09",
+    "key": "data/futures/um/monthly/klines/ZORAUSDT/1m/ZORAUSDT-1m-2025-09.zip",
+    "source_sha256": "dca16ec82ccdb0f861dcca851bad4c4e823c195a2542b6b328d7612acb2edec9",
+    "rows": 43200,
+    "parsed_sha256": "84e615e8d79c882d7dbb8e9776652b0422375928257034d50ce000e8b4669655"
+  },
+  {
+    "symbol": "ZROUSDT",
+    "month": "2024-08",
+    "key": "data/futures/um/monthly/klines/ZROUSDT/1m/ZROUSDT-1m-2024-08.zip",
+    "source_sha256": "38f92c3c4cfed8d1d98439d951663f9ea908b50c225c0b3332800fc46155beae",
+    "rows": 44640,
+    "parsed_sha256": "2ec66e8c846c475c1c01413823c8408394e885860a820ea137f0aa5c284d680d"
+  },
+  {
+    "symbol": "ZROUSDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/ZROUSDT/1m/ZROUSDT-1m-2026-03.zip",
+    "source_sha256": "3c968b60fbdd827762d9ecd2cdd64796f8f8e71c351c3d673ea2a0700fc525b9",
+    "rows": 44640,
+    "parsed_sha256": "6f4f5a44e2ce4ff8c2bf4137dec963f50f521bc4409db26adc5f27f120ec1ace"
+  },
+  {
+    "symbol": "ZRXUSDT",
+    "month": "2024-04",
+    "key": "data/futures/um/monthly/klines/ZRXUSDT/1m/ZRXUSDT-1m-2024-04.zip",
+    "source_sha256": "88d165ad3fbfd339d865ef9de2ffb6e81c9d765e207787c21ff7320cfd2b0f42",
+    "rows": 43200,
+    "parsed_sha256": "f35e307796eb1e90e967bc4e21fb4cf092f3b4853c75ba4d08de5d5dfb653a71"
+  },
+  {
+    "symbol": "币安人生USDT",
+    "month": "2026-03",
+    "key": "data/futures/um/monthly/klines/币安人生USDT/1m/币安人生USDT-1m-2026-03.zip",
+    "source_sha256": "6c88a153d527047360b7ff002445f4daedc1f102494e37d85774d9da20f833ef",
+    "rows": 44640,
+    "parsed_sha256": "fdc7b5ce872bc5721c2089828740f302190386bced212b43e9d924a3bec05a3c"
+  },
+  {
+    "symbol": "我踏马来了USDT",
+    "month": "2026-02",
+    "key": "data/futures/um/monthly/klines/我踏马来了USDT/1m/我踏马来了USDT-1m-2026-02.zip",
+    "source_sha256": "bef24e54af462a9c3a57e6042487d92996827e154c32ba32e3e4d50124c58162",
+    "rows": 40320,
+    "parsed_sha256": "8999bfe6b9b3da95962bc17c0b4c0d8baacb9175074a1bfcad0cd1a78ecd0624"
+  },
+  {
+    "symbol": "牛来USDT",
+    "month": "2026-08",
+    "key": "data/futures/um/monthly/klines/牛来USDT/1m/牛来USDT-1m-2026-08.zip",
+    "source_sha256": "287c2676e3a481571480629dee1f5f691307c3e5d4a6c84b240c5788cf8ec329",
+    "rows": 2190,
+    "parsed_sha256": "2a25fd063cc6ae8e5718f38df2e95daa1d1b6062e18c2e6c79901d0e7705dbc4"
+  },
+  {
+    "symbol": "龙虾USDT",
+    "month": "2026-09",
+    "key": "data/futures/um/monthly/klines/龙虾USDT/1m/龙虾USDT-1m-2026-09.zip",
+    "source_sha256": "8c02e8ebd49c32225f8fccb017bb75677b6992d3b966c29190b477ddf28c4b55",
+    "rows": 43200,
+    "parsed_sha256": "1e7552e74a9794c1cd601d72aee2bad2bae1167de7a50d82ecf82fd6ea95933b"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "day": "2025-06-30",
+    "key": "data/futures/um/daily/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2025-06-30.zip",
+    "source_sha256": "bfc48cc1f3d38e1402f241a271ec174488c5a46d122334ac01db16af32a2349e",
+    "rows": 1440,
+    "parsed_sha256": "a1e4dda07ace6edc42785ca4c8ed13e88aba1b90ad7af5d1a6c5389c6c59d47c"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "day": "2025-11-30",
+    "key": "data/futures/um/daily/klines/JELLYJELLYUSDT/1m/JELLYJELLYUSDT-1m-2025-11-30.zip",
+    "source_sha256": "e1888fedf659734694c24cba1efb2ccead1fbe3aa55df3c3587f6d9c0bbfd069",
+    "rows": 1440,
+    "parsed_sha256": "115196e4391b1774682099958188d4d094478c79f28d9898570e5488b1babcba"
+  },
+  {
+    "symbol": "KOMAUSDT",
+    "day": "2026-07-31",
+    "key": "data/futures/um/daily/klines/KOMAUSDT/1m/KOMAUSDT-1m-2026-07-31.zip",
+    "source_sha256": "5e98c3721c4aad36066fd4f06553756b1ff8e186fbe60646c9454890557118d5",
+    "rows": 1440,
+    "parsed_sha256": "3693fdd96a75374f7ca44175688df3b1d4161ebb31c47642ddc0b293c85e9a8e"
+  },
+  {
+    "symbol": "LABUSDT",
+    "day": "2025-10-31",
+    "key": "data/futures/um/daily/klines/LABUSDT/1m/LABUSDT-1m-2025-10-31.zip",
+    "source_sha256": "b5645d838c5126ea1faba05a3985f175f1dafd010bfba89f976c28f58cbfd802",
+    "rows": 1440,
+    "parsed_sha256": "d418dd3d8b99d151457a8252f316e3580a1a51653eb59bfb7af2f567f7f289cd"
+  },
+  {
+    "symbol": "LABUSDT",
+    "day": "2026-07-31",
+    "key": "data/futures/um/daily/klines/LABUSDT/1m/LABUSDT-1m-2026-07-31.zip",
+    "source_sha256": "26fd22d37607bc7ce7995c59ebab1e4befa9af1557591516a21091a073bd6679",
+    "rows": 1440,
+    "parsed_sha256": "b99083422c609561b8f89365c1349040d4b666291ce1af2474ab156c3e03972d"
+  },
+  {
+    "symbol": "LQTYUSDT",
+    "day": "2023-09-30",
+    "key": "data/futures/um/daily/klines/LQTYUSDT/1m/LQTYUSDT-1m-2023-09-30.zip",
+    "source_sha256": "c82bb8a1d80e9cd5622ffa37cc60e8f56839f8b896c30e723bcf1be059ed2afb",
+    "rows": 1440,
+    "parsed_sha256": "f86402f14e7fcce0cf2470655eebc9d73fa8424090f3b74870c4ee33b1f04d6f"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "day": "2026-02-28",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-02-28.zip",
+    "source_sha256": "76ce179db8c6b9fda00bfeb12366211143f17cc08e6345ad6534074baf0904bf",
+    "rows": 1440,
+    "parsed_sha256": "b0f34dec9a87f83076f2cfa118170b52a79ca9b6213874a69243f8a2776bde4e"
+  },
+  {
+    "symbol": "MOVEUSDT",
+    "day": "2025-04-30",
+    "key": "data/futures/um/daily/klines/MOVEUSDT/1m/MOVEUSDT-1m-2025-04-30.zip",
+    "source_sha256": "37c3aa9572853bd373195f4fdb2b1bada0b71e5dba205679ff92b8690cc76f26",
+    "rows": 1440,
+    "parsed_sha256": "c0e99cbbae41bbfc2a6970ecc635c23695bdad592738af5844c626e5e5015e35"
+  },
+  {
+    "symbol": "MUSDT",
+    "day": "2025-09-30",
+    "key": "data/futures/um/daily/klines/MUSDT/1m/MUSDT-1m-2025-09-30.zip",
+    "source_sha256": "f7a2888cb6bd7710a1a1405278092eb7dc22b238d8554dc476ed4f836b3656df",
+    "rows": 1440,
+    "parsed_sha256": "bb1bad25b0ca39bb902e1c906046696ce13b8b668207f31e83d912a8bb487e7c"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "day": "2025-06-30",
+    "key": "data/futures/um/daily/klines/MYXUSDT/1m/MYXUSDT-1m-2025-06-30.zip",
+    "source_sha256": "ab183cce34114d4a32f77389572d456a6d5a48792961539358441e51f394471c",
+    "rows": 1440,
+    "parsed_sha256": "e5167525c584da379e9a24989aaf01b16ab2e6ebde283e4abaae7ca02c63a967"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "day": "2025-10-31",
+    "key": "data/futures/um/daily/klines/MYXUSDT/1m/MYXUSDT-1m-2025-10-31.zip",
+    "source_sha256": "55ef7593fca3001e968f23206c53df5482fd08d46c52f3a83498fc3bc53ab2ca",
+    "rows": 1440,
+    "parsed_sha256": "326072b0cb3a1a14e983feeca372c8943a4aa583811ff0df8accdce68c1baded"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "day": "2026-02-28",
+    "key": "data/futures/um/daily/klines/MYXUSDT/1m/MYXUSDT-1m-2026-02-28.zip",
+    "source_sha256": "e684d9d1b67080baa6cf737fc9fbe030a88562a60f879e52d043c48eafb219dc",
+    "rows": 1440,
+    "parsed_sha256": "3fdc6d2025b8831830fc3d2afbe3e848510702a9da35964edab5b6f8af6396ce"
+  },
+  {
+    "symbol": "NEIROETHUSDT",
+    "day": "2024-09-30",
+    "key": "data/futures/um/daily/klines/NEIROETHUSDT/1m/NEIROETHUSDT-1m-2024-09-30.zip",
+    "source_sha256": "ca29fd29e45a23704f3683c515047a6e2e24f967d80a916555589890c5317712",
+    "rows": 1440,
+    "parsed_sha256": "b07620346cf78b66f1a89060b91320a987e6057402831ddad73f8203c09c9259"
+  },
+  {
+    "symbol": "ONDOUSDT",
+    "day": "2024-02-29",
+    "key": "data/futures/um/daily/klines/ONDOUSDT/1m/ONDOUSDT-1m-2024-02-29.zip",
+    "source_sha256": "ac556d910bcef3135cc326244ec6e037909c9a797bca8f845dc55ad553039dc7",
+    "rows": 1440,
+    "parsed_sha256": "0fd2ea306341dd77fb989e1cb8d0432a457f4790e18872b3aa469296ce9da0a9"
+  },
+  {
+    "symbol": "ONTUSDT",
+    "day": "2026-03-31",
+    "key": "data/futures/um/daily/klines/ONTUSDT/1m/ONTUSDT-1m-2026-03-31.zip",
+    "source_sha256": "59ef472ab05ca7847fe972005144e3757e5628bdb37f8f24f946fca3fe9bea52",
+    "rows": 1440,
+    "parsed_sha256": "6bf8ab024d1d5e6bf63b0906f9a3fec23160c7352af8d3ad54ca96fdc91395af"
+  },
+  {
+    "symbol": "ORCAUSDT",
+    "day": "2025-03-31",
+    "key": "data/futures/um/daily/klines/ORCAUSDT/1m/ORCAUSDT-1m-2025-03-31.zip",
+    "source_sha256": "4095d1e817067b2cf5f4f39c14d786d3217daf67444a891a951023aa794ff964",
+    "rows": 1440,
+    "parsed_sha256": "e36a778bde7522a767b6ca41d3fbcf0d8baa4bf05a2a8d19aad0465815be6145"
+  },
+  {
+    "symbol": "PIPPINUSDT",
+    "day": "2026-01-31",
+    "key": "data/futures/um/daily/klines/PIPPINUSDT/1m/PIPPINUSDT-1m-2026-01-31.zip",
+    "source_sha256": "3028496fdc7f0425c6486a3f8ca13bd0825d304fe7df4df554c7010070f6986b",
+    "rows": 1440,
+    "parsed_sha256": "736bfc3bab00764ffc75d576e089c6b60384b1a7025c66c3f3781faf96530ba6"
+  },
+  {
+    "symbol": "POWERUSDT",
+    "day": "2026-03-31",
+    "key": "data/futures/um/daily/klines/POWERUSDT/1m/POWERUSDT-1m-2026-03-31.zip",
+    "source_sha256": "8423790b0faec72ea41d7df950056a387c27ef58ac4aee62730d10d520467670",
+    "rows": 1440,
+    "parsed_sha256": "1f933926a103d8f64ddfd30e80008c29df2206c37adc77b2cf0be0016466f398"
+  },
+  {
+    "symbol": "QUSDT",
+    "day": "2025-12-31",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2025-12-31.zip",
+    "source_sha256": "b6f6b8be47d822e8ed2b0fcac9e2f2465236569c85344026cedf2f9063edb563",
+    "rows": 1440,
+    "parsed_sha256": "5605a49e63ddee22420c7a5b0e29aa300f0e06575b86b158caf25d847afef6dd"
+  },
+  {
+    "symbol": "RVVUSDT",
+    "day": "2025-12-31",
+    "key": "data/futures/um/daily/klines/RVVUSDT/1m/RVVUSDT-1m-2025-12-31.zip",
+    "source_sha256": "e9974c3cf2b7a6d021880e24a160b8cdc775410e6fc7eede2317e4c99c7b9dcf",
+    "rows": 1440,
+    "parsed_sha256": "e46d4cac79d7953aedcc2a1853684d70165f96ba69e9875480a2ba644d4f2f7a"
+  },
+  {
+    "symbol": "SLXUSDT",
+    "day": "2026-06-30",
+    "key": "data/futures/um/daily/klines/SLXUSDT/1m/SLXUSDT-1m-2026-06-30.zip",
+    "source_sha256": "2c3d84cb9d11e370055c48a4f51912abf9f71eea0e05416c269e5c34b3279476",
+    "rows": 1440,
+    "parsed_sha256": "b01850e923b399fbda6d97ca3924caec92f39e1f8987d97f09b73cd15d15d6f5"
+  },
+  {
+    "symbol": "SOMIUSDT",
+    "day": "2025-08-31",
+    "key": "data/futures/um/daily/klines/SOMIUSDT/1m/SOMIUSDT-1m-2025-08-31.zip",
+    "source_sha256": "127f70e0b11dfd983b8db9b5bcde0dd8c901174cbed2fc6faf9b0bb37e3077dc",
+    "rows": 1440,
+    "parsed_sha256": "c0957bbbee9a78770a49134dbdb5d20e2dceacdfa46f0f18975ed241e400c69a"
+  },
+  {
+    "symbol": "SPCXUSDT",
+    "day": "2026-06-30",
+    "key": "data/futures/um/daily/klines/SPCXUSDT/1m/SPCXUSDT-1m-2026-06-30.zip",
+    "source_sha256": "2fa7b7783a79cd3c67f63a5c1ee39b6589882098116aed5421a04eca52ebba46",
+    "rows": 1440,
+    "parsed_sha256": "66a25955f2baf2fe409850153b999755eb1bdd1717d2761f61a822dd8debf5d1"
+  },
+  {
+    "symbol": "STABLEUSDT",
+    "day": "2025-12-31",
+    "key": "data/futures/um/daily/klines/STABLEUSDT/1m/STABLEUSDT-1m-2025-12-31.zip",
+    "source_sha256": "ce8630a93fc61299658379492a72c03f6f4f6af7c3e6541175103216a239a3ac",
+    "rows": 1440,
+    "parsed_sha256": "3aac81483c8aa5de672b6483b3d79937ab0ac85233200447893f0794f69f1485"
+  },
+  {
+    "symbol": "THEUSDT",
+    "day": "2026-06-30",
+    "key": "data/futures/um/daily/klines/THEUSDT/1m/THEUSDT-1m-2026-06-30.zip",
+    "source_sha256": "a16f905cf4f917087595479f0cd6031c8e87cf2aecfce28740aac82ddc60e23f",
+    "rows": 1440,
+    "parsed_sha256": "9a76cb59cf6223f5aca79350a35a7afc19203b96a18f1af5e8fc5953d17b582f"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "day": "2025-02-28",
+    "key": "data/futures/um/daily/klines/TIAUSDT/1m/TIAUSDT-1m-2025-02-28.zip",
+    "source_sha256": "30a3fb8e887f8c386bb3d599117167cdd565d63ba3eed03d257340e208973a4c",
+    "rows": 1440,
+    "parsed_sha256": "a77d635d0f6a6ff148f614f5ad175daed87c1a9d9de2024fa74f3b9e1c924c06"
+  },
+  {
+    "symbol": "TLMUSDT",
+    "day": "2026-07-31",
+    "key": "data/futures/um/daily/klines/TLMUSDT/1m/TLMUSDT-1m-2026-07-31.zip",
+    "source_sha256": "6aff181d4edce43b6ed263e4a5042a911750d33f6c98e7f9c5f09a8189d3bdd9",
+    "rows": 1440,
+    "parsed_sha256": "268e33cb5cba8cad665aef172447c6ef3a8dc5d8880d4ef3084562c43ba73e29"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "day": "2024-07-31",
+    "key": "data/futures/um/daily/klines/TRBUSDT/1m/TRBUSDT-1m-2024-07-31.zip",
+    "source_sha256": "f7c373318af3afd85e879a76e2a433b6ccda7395044a8d04cc8a8d77229dd4c8",
+    "rows": 1440,
+    "parsed_sha256": "20600681ca80384cbdd197c4793436b51dd20816992552498592f893865fa2f5"
+  },
+  {
+    "symbol": "TURBOUSDT",
+    "day": "2024-09-30",
+    "key": "data/futures/um/daily/klines/TURBOUSDT/1m/TURBOUSDT-1m-2024-09-30.zip",
+    "source_sha256": "2ead5ca6e24fefa5ea22a5b75ef244136e7c4bef46247537df864c80fcb10b97",
+    "rows": 1440,
+    "parsed_sha256": "b8179ad2755d27b74d3528e858f5ab3b3675e619ee911bb0a01c002c45f00ae2"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "day": "2025-11-30",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2025-11-30.zip",
+    "source_sha256": "175af73598734bf840bf608c7b52186a11d95fd0974cc156a2e62904b01e2eea",
+    "rows": 1440,
+    "parsed_sha256": "b5216a3f3168bf835db4affb3a363d424590515ecd742527bd8a9cd92035e6b8"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "day": "2026-07-31",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-07-31.zip",
+    "source_sha256": "6bca852104da71156752ff6f16a7e01eae94519d7a9c5f10ffda04cef27b8bfe",
+    "rows": 1440,
+    "parsed_sha256": "f69b219783677b6034698a043e4d761ff37fdc7e8ea25919d15ab754964e3691"
+  },
+  {
+    "symbol": "USUSDT",
+    "day": "2026-07-31",
+    "key": "data/futures/um/daily/klines/USUSDT/1m/USUSDT-1m-2026-07-31.zip",
+    "source_sha256": "8e1654bd1cd6c8273906fc32f653a910c8c8148d3aed7641a5a29788a39c00a2",
+    "rows": 1440,
+    "parsed_sha256": "7af64dd5586e39ad8f1805c45151b0470864ec7e04ae98bae23d9d426ee87f66"
+  },
+  {
+    "symbol": "VICUSDT",
+    "day": "2026-06-30",
+    "key": "data/futures/um/daily/klines/VICUSDT/1m/VICUSDT-1m-2026-06-30.zip",
+    "source_sha256": "f33ec829232e1c7574892854137a9acec3c51313cc27e0828e40fde41e840b61",
+    "rows": 1440,
+    "parsed_sha256": "bc7e02ade2876f897da2dc6ed78284cda116ef56db72e13dc8950c5b01693b16"
+  },
+  {
+    "symbol": "VINEUSDT",
+    "day": "2025-03-31",
+    "key": "data/futures/um/daily/klines/VINEUSDT/1m/VINEUSDT-1m-2025-03-31.zip",
+    "source_sha256": "2977e51dd7fbd3dd56dc5cdf2cb6dc2348e8937bed8c6426b388f326f8046f66",
+    "rows": 1440,
+    "parsed_sha256": "baa80bdc7e6e2cf403b15e751ca8e28a825c94021f399082488f428cf6b9366e"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "day": "2024-12-31",
+    "key": "data/futures/um/daily/klines/WLDUSDT/1m/WLDUSDT-1m-2024-12-31.zip",
+    "source_sha256": "b01da2aa941a9d4a973830fcb1d1dfec62d0f85147af1c14b5da530c754b2711",
+    "rows": 1440,
+    "parsed_sha256": "1e3e23578d69e16bcd60dcb70d47b3bdd106993811578146894c9651f69983aa"
+  },
+  {
+    "symbol": "XVGUSDT",
+    "day": "2024-03-31",
+    "key": "data/futures/um/daily/klines/XVGUSDT/1m/XVGUSDT-1m-2024-03-31.zip",
+    "source_sha256": "cff60029857c30ff4f4119bff87df2ea3ed05be4ac8129b686c94dddbb0c902b",
+    "rows": 1440,
+    "parsed_sha256": "0ea7a595bb814c85a4d0e0fed41614e3cb1190481dcfe05288e93e163db4e987"
+  },
+  {
+    "symbol": "YFIUSDT",
+    "day": "2025-07-31",
+    "key": "data/futures/um/daily/klines/YFIUSDT/1m/YFIUSDT-1m-2025-07-31.zip",
+    "source_sha256": "ab3fb61a4e40454806948d15a3ce113b73d9c08efe76e8d24605f94e1e386372",
+    "rows": 1440,
+    "parsed_sha256": "a4a5d26968e0d60434e472323c00932d717c3ff87323266e03c6b19eca6efc09"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "day": "2025-11-30",
+    "key": "data/futures/um/daily/klines/ZECUSDT/1m/ZECUSDT-1m-2025-11-30.zip",
+    "source_sha256": "b7735139de59ddea2f75850b204c6cdfa2d7ce40afcb3cebffc16f9da7e1ad2f",
+    "rows": 1440,
+    "parsed_sha256": "b16cd9dd381df5025a2ce78c99af24a60fb0b153660e3dbcfd5081336ead216e"
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "day": "2026-04-30",
+    "key": "data/futures/um/daily/klines/ZEREBROUSDT/1m/ZEREBROUSDT-1m-2026-04-30.zip",
+    "source_sha256": "ef16135b959292c6f070637ef4c3f2c5320c86fdf994d60298764ac6cabfb0e6",
+    "rows": 1440,
+    "parsed_sha256": "e7af38115777c89e688a923ed489357ca3d6822b5a486bffaf57de5ca73962a9"
+  },
+  {
+    "symbol": "ZKJUSDT",
+    "day": "2025-06-30",
+    "key": "data/futures/um/daily/klines/ZKJUSDT/1m/ZKJUSDT-1m-2025-06-30.zip",
+    "source_sha256": "aa9bbc4184d8609619deec33c0f3c62b29b1428fee067506b0b0ab5dc05fa7dc",
+    "rows": 1440,
+    "parsed_sha256": "32044041f1adee17c5fbf5952bda0def74627cec1048476903578f21f1976598"
+  },
+  {
+    "symbol": "ZKPUSDT",
+    "day": "2026-01-31",
+    "key": "data/futures/um/daily/klines/ZKPUSDT/1m/ZKPUSDT-1m-2026-01-31.zip",
+    "source_sha256": "fc38dfc51a882ca86ab850496eb30c697f9ff95c62b99c74dafc429cb0877563",
+    "rows": 1440,
+    "parsed_sha256": "ac52aeaf31209a08685ade1fd037380545d7bf305e7541320bdbf0ac66249aa1"
+  },
+  {
+    "symbol": "ZRXUSDT",
+    "day": "2024-03-31",
+    "key": "data/futures/um/daily/klines/ZRXUSDT/1m/ZRXUSDT-1m-2024-03-31.zip",
+    "source_sha256": "3b90e7c0ad5e86fad851cc0a6bccef9f69341632f4466563cb325e112bf01352",
+    "rows": 1440,
+    "parsed_sha256": "8e96d35637de35ca0c0bee3816d61fb3569c4ba4aefd5acc564fb72446c4795b"
+  },
+  {
+    "symbol": "我踏马来了USDT",
+    "day": "2026-01-31",
+    "key": "data/futures/um/daily/klines/我踏马来了USDT/1m/我踏马来了USDT-1m-2026-01-31.zip",
+    "source_sha256": "6c3f1e4db3aa06225270c1d03142334e828b1b476be3b79f69e83ed598c093cb",
+    "rows": 1440,
+    "parsed_sha256": "c57bf0089dea1d3f2bf05c54399358ce05e6fe3e271faa9f92749d525f2fad38"
+  },
+  {
+    "symbol": "龙虾USDT",
+    "day": "2026-08-31",
+    "key": "data/futures/um/daily/klines/龙虾USDT/1m/龙虾USDT-1m-2026-08-31.zip",
+    "source_sha256": "21b61e5de5c2c581d1bf7cddadab9cd920aaee8b0240da7c018407982d92e4aa",
+    "rows": 1440,
+    "parsed_sha256": "e431b9c7bec8bb4d318f17c3f341a72dd3d88415ff25b344f032c1aa094908cd"
+  }
+]
