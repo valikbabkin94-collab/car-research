@@ -1,0 +1,107 @@
+name: Complete only public-source gaps without replaying finished profiles
+on:
+  workflow_dispatch:
+  push:
+    branches: [research/paket-20261117]
+    paths: [.github/workflows/public_source_completion.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  source_completion:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {source: listing, part: part2_source_completion, input_artifact: paket-part2_new_listing}
+          - {source: wick, part: part3_source_completion, input_artifact: paket-part3_liq_wick}
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      LAB_ASOF_MS: '1794919920000'
+      PIT_SOURCE_SHA: d3c667f95ee38ef8eae18214b14d94960846f5aa
+      LIVE_INPUT_SHA: 344bae6455571ca64ecf2709bf7b9edf8cfb71c2
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 numba==0.61.2
+      - name: Synthetic execution regression tests
+        run: PYTHONPATH=research/paket_20261117 python -m unittest discover -s research/paket_20261117/tests -v
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-code-results-checkpoints
+          run-id: '44092086995'
+          path: inputs_v1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          run-id: '43874717889'
+          path: source
+          github-token: ${{ github.token }}
+      - name: Record reused source paths so only new data are saved again
+        run: |
+          python - <<'PY_BASE'
+          import json
+          from pathlib import Path
+          Path('BASE_CACHE_PATHS.json').write_text(json.dumps([str(p.relative_to('work/market')) for p in Path('work/market').rglob('*.npz')]))
+          PY_BASE
+      - name: Await original saved artifacts, never rerun successful jobs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run watch 44134160121 --exit-status --interval 30 -R valikbabkin94-collab/car-research
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ matrix.input_artifact }}
+          run-id: '44134160121'
+          path: previous_results
+          github-token: ${{ github.token }}
+      - name: Complete missing public sources with fixed previous H1 choice
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/paket_20261117/${{ matrix.part }}
+        run: SOURCE_COMPLETION=${{ matrix.source }} PYTHONPATH=research/paket_20261117 python -u research/paket_20261117/complete_public_source_gaps.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paket-${{ matrix.part }}
+          path: research/paket_20261117/${{ matrix.part }}
+          retention-days: 14
+      - name: Verify public numerical source cache
+        if: always()
+        run: |
+          python - <<'PY_CACHE'
+          import json,hashlib,shutil
+          from pathlib import Path
+          previous=set(json.load(open('BASE_CACHE_PATHS.json')))
+          for p in Path('work/market').rglob('*.npz'):
+           rel=p.relative_to('work/market')
+           if str(rel) in previous:continue
+           meta=p.with_suffix('.json')
+           assert meta.exists() and json.load(meta.open())['parsed_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+           target=Path('new_public_sources')/rel;target.parent.mkdir(parents=True,exist_ok=True)
+           shutil.copy2(p,target);shutil.copy2(meta,target.with_suffix('.json'))
+          Path('new_public_sources').mkdir(exist_ok=True)
+          shutil.copy2('BASE_CACHE_PATHS.json','new_public_sources/BASE_CACHE_PATHS.json')
+          PY_CACHE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sources-${{ matrix.part }}
+          path: new_public_sources
+          compression-level: 0
+          retention-days: 14
+      - name: Preserve own result and checkpoint without replacing parallel results
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/paket_20261117/${{ matrix.part }}
+          LAB_BRANCH: research/paket-20261117
+          LAB_ROOT: research/paket_20261117
+          LAB_PART: ${{ matrix.part }}
+        run: python research/paket_20261117/publish_results.py
