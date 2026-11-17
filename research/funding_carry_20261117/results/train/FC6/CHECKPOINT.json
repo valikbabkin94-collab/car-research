@@ -1,0 +1,9 @@
+{
+  "status": "STAGE_COMPLETE",
+  "stage": "train",
+  "variant": "FC6",
+  "n_profiles": 2,
+  "code_sha": "76d47472d203c6d44d5ad4924dd813afeb70bd11",
+  "engine_fingerprint": "1e546ca35d56bd372c85d54c89b506451cf7de38cdda37b72c10d546cd176491",
+  "live_changes": 0
+}
