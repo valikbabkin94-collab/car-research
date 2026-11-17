@@ -1,0 +1,98 @@
+[
+  {
+    "month": "2025-11",
+    "start_ms": 1761955200000,
+    "end_ms": 1764547200000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -1.2967936608324067
+  },
+  {
+    "month": "2025-12",
+    "start_ms": 1764547200000,
+    "end_ms": 1767225600000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -1.6596078843288353
+  },
+  {
+    "month": "2026-01",
+    "start_ms": 1767225600000,
+    "end_ms": 1769904000000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.9971583994892228
+  },
+  {
+    "month": "2026-02",
+    "start_ms": 1769904000000,
+    "end_ms": 1772323200000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.5805340640094983
+  },
+  {
+    "month": "2026-03",
+    "start_ms": 1772323200000,
+    "end_ms": 1775001600000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.6942826908841226
+  },
+  {
+    "month": "2026-04",
+    "start_ms": 1775001600000,
+    "end_ms": 1777593600000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -1.3193467921800561
+  },
+  {
+    "month": "2026-05",
+    "start_ms": 1777593600000,
+    "end_ms": 1780272000000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -1.1633590967890655
+  },
+  {
+    "month": "2026-06",
+    "start_ms": 1780272000000,
+    "end_ms": 1782864000000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.6286439683867542
+  },
+  {
+    "month": "2026-07",
+    "start_ms": 1782864000000,
+    "end_ms": 1785542400000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.4603723975763643
+  },
+  {
+    "month": "2026-08",
+    "start_ms": 1785542400000,
+    "end_ms": 1788220800000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": 0.31477034830990647
+  },
+  {
+    "month": "2026-09",
+    "start_ms": 1788220800000,
+    "end_ms": 1790812800000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -1.038547931909335
+  },
+  {
+    "month": "2026-10",
+    "start_ms": 1790812800000,
+    "end_ms": 1793491200000,
+    "complete_calendar_month": true,
+    "observed": true,
+    "profit_USD": -0.827521224934415
+  }
+]
