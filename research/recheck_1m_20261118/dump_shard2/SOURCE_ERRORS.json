@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "SKYAI1USDT",
+    "period": "2026-06",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SKYAI1USDT",
+    "period": "2026-07",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SKYAI1USDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SKYAI1USDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SKYAI1USDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]
