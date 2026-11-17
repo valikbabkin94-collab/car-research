@@ -1,0 +1,19 @@
+{
+  "tests": 12,
+  "passed": 12,
+  "covered": [
+    "causal_5m_entry",
+    "partial_remaining_size",
+    "time_exit_5m",
+    "both_legs_fees",
+    "long_funding_sign",
+    "short_funding_boundaries",
+    "missing_prices",
+    "small_pump_cohort",
+    "exact_time_PIT_cache",
+    "BH6",
+    "short_vs_hedge_coverage"
+  ],
+  "environment": "isolated local Python, no exchange interfaces",
+  "no_real_orders": true
+}

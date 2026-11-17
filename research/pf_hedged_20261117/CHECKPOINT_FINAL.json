@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_REJECTED_6_OF_6",
+  "resume": "No pending PF_HEDGED calculations. Claude independent audit only; no parameter tuning on H2.",
+  "results_commit": "ca4f12935528d561dba9f9e605bd26bd1632e0fa",
+  "code_sha": "9100003c81d2b2c6b0bec0a49fcbb9653faded98",
+  "actions_run": 44174898120,
+  "live_changes": 0
+}
