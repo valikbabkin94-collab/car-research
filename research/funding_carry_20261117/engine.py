@@ -44,7 +44,7 @@ class Data:
 def trade_return(q,S0,P0,S1,P1,fund,fees):return q*((S1-S0)+(P0-P1))+fund-fees
 
 def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
- start,end=PERIODS[period];si=int(np.searchsorted(d.times,start));ei=int(np.searchsorted(d.times,end));cash=100.;pos={};equity=[dict(time_ms=start,equity=100.)];events=[];trades=[];stats=dict(funding_cash=0.,spot_price_PnL=0.,perp_price_PnL=0.,fees=0.,slippage_cost=0.,liquidation_penalty=0.,margin_below50_episodes=0,proxy_liquidations=0,mark_proxy_hours=0,funding_unknown_position_hours=0,position_hours=0,order_filter_rejected=0,maker_missed=0,maker_unhedged_aborts=0,maker_touch_assumption=variant=="FC5");gap=None;nextid=0;minmargin=1.;min_equity_notional=1.;maxnav=100.;dd=0.;ddbound=0.;pending_abort=[];cooldown=set()
+ start,end=PERIODS[period];si=int(np.searchsorted(d.times,start));ei=int(np.searchsorted(d.times,end));cash=100.;pos={};equity=[dict(time_ms=start,equity=100.)];events=[];trades=[];stats=dict(funding_cash=0.,positive_funding_cash=0.,negative_funding_cash=0.,spot_price_PnL=0.,perp_price_PnL=0.,fees=0.,slippage_cost=0.,liquidation_penalty=0.,margin_below50_episodes=0,proxy_liquidations=0,mark_proxy_hours=0,funding_unknown_position_hours=0,position_hours=0,order_filter_rejected=0,maker_missed=0,maker_unhedged_aborts=0,maker_touch_assumption=variant=="FC5");gap=None;nextid=0;minmargin=1.;min_equity_notional=1.;maxnav=100.;dd=0.;ddbound=0.;pending_abort=[];cooldown=set()
  def quote(j,i,kind="spot"):
   return d.quote(kind,j,i)
  def mark(j,i):
@@ -87,7 +87,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
    if p["px"]is None and i>p["entry_i"]:
     a=mark(j,i);rate=d.cashrate[i,j]
     if a is not None and rate:
-     payment=p["q"]*a[0]*rate;p["fund"]+=payment;stats["funding_cash"]+=payment;events.append(dict(time_ms=t,trade=p["id"],symbol=d.symbols[j],event="FUNDING",raw_rate=rate,mark_proxy=a[0],cash=payment))
+     payment=p["q"]*a[0]*rate;p["fund"]+=payment;stats["funding_cash"]+=payment;stats["positive_funding_cash"]+=max(0.,payment);stats["negative_funding_cash"]+=min(0.,payment);events.append(dict(time_ms=t,trade=p["id"],symbol=d.symbols[j],event="FUNDING",raw_rate=rate,mark_proxy=a[0],cash=payment))
    if p.get("abort_next")or p.get("liquidated"):
     if not market_close(j,i,t,p.get("close_reason","UNHEDGED_ABORT")):gap=dict(time_ms=t,symbol=d.symbols[j],reason="NO_REAL_CLOSE_PRICE");break
     closed_this_hour.add(j)
@@ -99,7 +99,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
    if v is None:gap=dict(time_ms=t,symbol=d.symbols[j],reason="UNHEDGED_ABORT_PRICE_GAP");break
    if a["leg"]=="spot":px=v[0]*(1-slip);pnl=q*(px-a["price"]);fee=q*px*.001
    else:px=v[0]*(1+slip);pnl=q*(a["price"]-px);fee=q*px*.00055
-   cash+=a["reserved"]+pnl-fee;stats["fees"]+=fee;stats["slippage_cost"]+=q*v[0]*slip;events.append(dict(time_ms=t,symbol=d.symbols[j],event="UNHEDGED_ABORT_CLOSE",price=px,net=pnl-a["entryfee"]-fee));pending_abort.remove(a);closed_this_hour.add(j)
+   cash+=a["reserved"]+pnl-fee;stats["spot_price_PnL"if a["leg"]=="spot"else"perp_price_PnL"]+=pnl;stats["fees"]+=fee;stats["slippage_cost"]+=q*v[0]*slip;events.append(dict(time_ms=t,symbol=d.symbols[j],event="UNHEDGED_ABORT_CLOSE",price=px,net=pnl-a["entryfee"]-fee));pending_abort.remove(a);closed_this_hour.add(j)
   if gap:break
   tradable=np.array([quote(j,i)is not None and quote(j,i,"perp")is not None for j in range(len(d.symbols))]);eligible=tradable&d.fresh[i]&d.cover[i]&np.isfinite(d.latest[i])
   if variant in["FC3","FC6"]:
@@ -147,7 +147,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
     if not(st and pt):
      stats["maker_missed"]+=1
      if st or pt:
-      leg="spot"if st else"perp";price=se if st else pe;fee=q*price*(sf if st else pf);cash-=reserved;cash-=fee;stats["fees"]+=fee;pending_abort.append(dict(due=i+1,j=j,leg=leg,price=price,q=q,reserved=reserved,entryfee=fee));stats["maker_unhedged_aborts"]+=1
+      leg="spot"if st else"perp";price=se if st else pe;fee=q*price*(sf if st else pf);cash-=reserved;stats["fees"]+=fee;pending_abort.append(dict(due=i+1,j=j,leg=leg,price=price,q=q,reserved=reserved-fee,entryfee=fee));stats["maker_unhedged_aborts"]+=1
      continue
    cash-=reserved;stats["fees"]+=entryfee
    if not maker:stats["slippage_cost"]+=q*(s[0]+pp[0])*slip
@@ -170,7 +170,7 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
    for j in list(pos):market_close(j,i,end-1,"FIXED_PERIOD_TERMINAL_CASHOUT",terminal=True)
    # Emergency unwind of one-legged entry attempted in the final bar, real final close only.
    for a in list(pending_abort):
-    v=quote(a["j"],i,a["leg"]);px=v[3]*(1-slip if a["leg"]=="spot"else 1+slip);pnl=a["q"]*(px-a["price"])*(1 if a["leg"]=="spot"else-1);fee=a["q"]*px*(.001 if a["leg"]=="spot"else .00055);cash+=a["reserved"]+pnl-fee;stats["fees"]+=fee;pending_abort.remove(a)
+    v=quote(a["j"],i,a["leg"]);px=v[3]*(1-slip if a["leg"]=="spot"else 1+slip);pnl=a["q"]*(px-a["price"])*(1 if a["leg"]=="spot"else-1);fee=a["q"]*px*(.001 if a["leg"]=="spot"else .00055);cash+=a["reserved"]+pnl-fee;stats["spot_price_PnL"if a["leg"]=="spot"else"perp_price_PnL"]+=pnl;stats["fees"]+=fee;pending_abort.remove(a)
    nav=cash
   else:nav=total(i+1)
   if nav is None:gap=dict(time_ms=t+H,reason="NEXT_MARK_UNAVAILABLE");break
@@ -184,5 +184,6 @@ def simulate(d,variant,leverage,period,slip=.0005,mmr=.005,min_notional=0):
  a=dt.datetime.fromtimestamp(start/1000,dt.timezone.utc).replace(day=1)
  while int(a.timestamp()*1000)<end:
   b=(a.replace(day=28)+dt.timedelta(days=4)).replace(day=1);l=max(start,int(a.timestamp()*1000));r=min(end,int(b.timestamp()*1000));full=l==int(a.timestamp()*1000)and r==int(b.timestamp()*1000);available=l in lookup and r in lookup;monthly.append(dict(month=a.strftime("%Y-%m"),start_ms=l,end_ms=r,complete_calendar_month=full,observed=available,profit_USD=lookup[r]-lookup[l]if available else None));a=b
- full=[r["profit_USD"]for r in monthly if r["complete_calendar_month"]and r["observed"]];days=(equity[-1]["time_ms"]-start)/DAY;final=equity[-1]["equity"];summary=dict(variant=variant,leverage=leverage,period=period,status=status,gap=gap,net_USD=final-100,return_pct=final-100,annualized_simple_pct=(final-100)*365/days if days else None,annualized_geometric_pct=100*((final/100)**(365/days)-1)if days and final>0 else None,monthly_mean_USD=float(np.mean(full))if full else None,monthly_median_USD=float(np.median(full))if full else None,worst_month_USD=float(min(full))if full else None,full_observed_months=len(full),n_closed_pairs=len(trades),maxDD_hourly_pct=dd,maxDD_intrahour_envelope_pct=ddbound,min_short_margin_remaining_ratio=minmargin,min_short_equity_to_current_notional=min_equity_notional,fees_over_positive_funding=stats["fees"]/stats["funding_cash"]if stats["funding_cash"]>0 else None,liquidation_mmr_assumption=mmr,continuous_quantity_model=True,Bybit_filters_available=False,**stats)
+ full=[r["profit_USD"]for r in monthly if r["complete_calendar_month"]and r["observed"]];days=(equity[-1]["time_ms"]-start)/DAY;final=equity[-1]["equity"];summary=dict(variant=variant,leverage=leverage,period=period,status=status,gap=gap,net_USD=final-100,return_pct=final-100,annualized_simple_pct=(final-100)*365/days if days else None,annualized_geometric_pct=100*((final/100)**(365/days)-1)if days and final>0 else None,monthly_mean_USD=float(np.mean(full))if full else None,monthly_median_USD=float(np.median(full))if full else None,worst_month_USD=float(min(full))if full else None,full_observed_months=len(full),n_closed_pairs=len(trades),maxDD_hourly_pct=dd,maxDD_intrahour_envelope_pct=ddbound,min_short_margin_remaining_ratio=minmargin,min_short_equity_to_current_notional=min_equity_notional,fees_over_positive_funding=stats["fees"]/stats["positive_funding_cash"]if stats["positive_funding_cash"]>0 else None,liquidation_mmr_assumption=mmr,continuous_quantity_model=True,Bybit_filters_available=False,**stats)
+ summary["cash_reconciliation_error"]=(final-100)-(stats["spot_price_PnL"]+stats["perp_price_PnL"]+stats["funding_cash"]-stats["fees"]-stats["liquidation_penalty"]) if status=="COMPLETE"else None
  return dict(summary=finite(summary),monthly=monthly,trades=finite(trades),events=finite(events),equity=finite(equity))
