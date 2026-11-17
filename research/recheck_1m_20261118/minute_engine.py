@@ -7,7 +7,7 @@ def replay(q,r,optimistic_entry_minute=False,delayed_new_BE=False):
  a=int(r['entry_ms']);end=a+72*H;entry=float(r['entry']);ts=q[:,0];i=int(np.searchsorted(ts,a));j=int(np.searchsorted(ts,end));bars=q[i:j]
  if len(bars)!=4320 or bars[0,0]!=a or bars[-1,0]+M!=end or np.any(np.diff(bars[:,0])!=M):return dict(status='DATA_GAP_MINUTES',available=len(bars),required=4320)
  touch=np.flatnonzero((bars[:60,3]<=entry)&(bars[:60,2]>=entry))
- if not len(touch):return dict(status='DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED',original_entry=entry)
+ if not len(touch):return dict(status='DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED',unreached_reference_price=entry)
  k=int(touch[0]);et=int(bars[k,0]);remaining=1.;stop=entry*(1-STOP);targets=entry*np.array([1.021,1.042,1.063]);weights=[.5,.3,.2];tp=0;gross=0.;events=[];ambig_entry=False;ambig_BE=False;simultaneous=False
  for ix in range(k,len(bars)):
   t,o,hi,lo,c=bars[ix];t=int(t);newentry=ix==k

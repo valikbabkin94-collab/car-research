@@ -21,3 +21,6 @@ def test_original_price_not_reachable_is_gap():
  q,r=fixture();q[:,1:]=110.;assert replay(q,r)['status']=='DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED'
 def test_unchanged_flat_cost_and_r():
  q,r=fixture();v=replay(q,r);assert abs(v['R']+COST/DEN)<1e-12
+
+def test_gap_metadata_merges_into_original_trade_row():
+ q,r=fixture();q[:,1:]=110.;v=replay(q,r);row=dict(original_entry=r['entry'],**v);assert row['status']=='DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED'

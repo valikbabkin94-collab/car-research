@@ -1,0 +1,9 @@
+{
+  "failed_run": 44187340109,
+  "error": "TypeError: dict() got multiple values for keyword argument 'original_entry' in gap metadata merge",
+  "fix": "Rename gap-only diagnostic field; execution rules unchanged. Regression test added.",
+  "finished_profiles_replayed": 0,
+  "cache_reused_from_failed_run": true,
+  "new_cache_upload_only": true,
+  "partial_symbol_results_now_saved": true
+}

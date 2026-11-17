@@ -1,4 +1,4 @@
-name: Recheck fixed old DUMP trades on minute chronology
+name: Recheck minute audit recovery of input-gap row metadata
 on:
   push:
     branches: [research/recheck-1m-20261118]
@@ -20,8 +20,8 @@ jobs:
       - run: PYTHONPATH=research/recheck_1m_20261118 python -m pytest -q research/recheck_1m_20261118/test_minute_engine.py
       - uses: actions/download-artifact@v4
         with:
-          name: manager-all-verified-market-cache
-          run-id: '44092086995'
+          name: recheck-1m-verified-cache${{ matrix.shard }}
+          run-id: '44187340109'
           path: work/market/m1
           github-token: ${{ github.token }}
       - name: Replay only fixed old entries on verified minute bars
@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: recheck-1m-verified-cache${{ matrix.shard }}
-          path: work/market/m1
+          path: new_market_cache
           retention-days: 30
       - env:
           GH_TOKEN: ${{ github.token }}
@@ -67,3 +67,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           LAB_OUTPUT: research/recheck_1m_20261118/final
         run: python research/recheck_1m_20261118/publish.py
+
+# Recovery: original_entry metadata collision fixed; no completed replay is repeated.
