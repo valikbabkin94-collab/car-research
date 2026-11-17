@@ -21,9 +21,9 @@ jobs:
       - run: python tools/scan_publication.py
       - uses: actions/download-artifact@v4
         with:
-          name: speculantka-verified-market-cache
+          name: manager-all-verified-market-cache
           path: work/market/m1
-          run-id: '44053896214'
+          run-id: '44087096459'
           github-token: ${{ github.token }}
       - uses: actions/download-artifact@v4
         with:
@@ -31,9 +31,21 @@ jobs:
           path: source
           run-id: '43874717889'
           github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-code-results-checkpoints
+          path: prior_run
+          run-id: '44087096459'
+          github-token: ${{ github.token }}
       - name: Complete fixed input audit, no new signal searches
         timeout-minutes: 85
-        run: python research/manager_all_scenarios_20261117/run.py
+        run: |
+          python - <<'PY'
+          import os,json,runpy,sys
+          os.environ['CAR_RESEARCH_ASOF_MS']=str(json.load(open('prior_run/RESULTS/PARAMS.json'))['asof'])
+          sys.path.insert(0,'research/manager_all_scenarios_20261117')
+          runpy.run_path('research/manager_all_scenarios_20261117/execute_v1_1.py',run_name='__main__')
+          PY
       - name: Scan research publication
         if: always()
         id: scan
