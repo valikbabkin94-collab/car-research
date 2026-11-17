@@ -1,0 +1,15 @@
+{
+  "code_sha": "61130fcdae2d2ea944a4c5a3af406fc1d30e362c",
+  "winner": "X6",
+  "mirror_winner": "X7",
+  "train_only": true,
+  "train_rows_sha256": "226b35a109fd6b498351925f1e8b134763980a853dd9fa7823db536ae02c0f5c",
+  "splits": [
+    1754775360000,
+    1774662330000,
+    1778639724000,
+    1794549300000
+  ],
+  "n_H1": 97,
+  "n_H2": 47
+}

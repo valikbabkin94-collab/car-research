@@ -1,0 +1,278 @@
+[
+  {
+    "period": "H1",
+    "variant": "X1",
+    "mirror": false,
+    "n": 475,
+    "WR": 53.26315789473684,
+    "PF": 1.0491378928229516,
+    "netR": 11.753176055680484,
+    "USD_at_5risk": 58.76588027840242,
+    "maxDD_R": 62.187266169849934,
+    "top3_share": 0.44260617111426837,
+    "netR_adverse": 11.306315940837742,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 94,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X2",
+    "mirror": false,
+    "n": 475,
+    "WR": 53.26315789473684,
+    "PF": 1.002259232239454,
+    "netR": 0.540380401671797,
+    "USD_at_5risk": 2.701902008358985,
+    "maxDD_R": 60.04258766973324,
+    "top3_share": 9.615025553025971,
+    "netR_adverse": 0.2678648072678098,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 69,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": false,
+    "n": 475,
+    "WR": 43.57894736842105,
+    "PF": 0.8778928036218748,
+    "netR": -39.590563057957596,
+    "USD_at_5risk": -197.95281528978796,
+    "maxDD_R": 89.84482590716684,
+    "top3_share": null,
+    "netR_adverse": -39.85552139129082,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 42,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X4",
+    "mirror": false,
+    "n": 475,
+    "WR": 47.1578947368421,
+    "PF": 0.7863497858270964,
+    "netR": -58.628688883479185,
+    "USD_at_5risk": -293.1434444173959,
+    "maxDD_R": 103.79343931983418,
+    "top3_share": null,
+    "netR_adverse": -58.73153263347911,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 37,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X5",
+    "mirror": false,
+    "n": 475,
+    "WR": 35.578947368421055,
+    "PF": 0.9035073137402979,
+    "netR": -19.069830465460964,
+    "USD_at_5risk": -95.34915232730482,
+    "maxDD_R": 55.92889561118604,
+    "top3_share": null,
+    "netR_adverse": -19.238210781575404,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 53,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": false,
+    "n": 475,
+    "WR": 28.842105263157897,
+    "PF": 0.9190959866980823,
+    "netR": -31.141383094312694,
+    "USD_at_5risk": -155.70691547156346,
+    "maxDD_R": 146.94448104216661,
+    "top3_share": null,
+    "netR_adverse": -31.221799760979348,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 34,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": false,
+    "n": 475,
+    "WR": 14.526315789473685,
+    "PF": 0.9260712804140353,
+    "netR": -36.13466316995333,
+    "USD_at_5risk": -180.67331584976665,
+    "maxDD_R": 128.924461860196,
+    "top3_share": null,
+    "netR_adverse": -37.629809003286695,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 78,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X8",
+    "mirror": false,
+    "n": 475,
+    "WR": 67.78947368421052,
+    "PF": 0.6523362076007562,
+    "netR": -64.35606199421375,
+    "USD_at_5risk": -321.78030997106873,
+    "maxDD_R": 73.1832619942133,
+    "top3_share": null,
+    "netR_adverse": -64.3796453275469,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 33,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X9",
+    "mirror": false,
+    "n": 475,
+    "WR": 53.26315789473684,
+    "PF": 0.971033563618497,
+    "netR": -7.0738919718150015,
+    "USD_at_5risk": -35.36945985907501,
+    "maxDD_R": 69.49011459948025,
+    "top3_share": null,
+    "netR_adverse": -7.444121138481695,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 58,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": true,
+    "n": 475,
+    "WR": 14.526315789473685,
+    "PF": 0.9260712804140353,
+    "netR": -36.13466316995333,
+    "USD_at_5risk": -180.67331584976665,
+    "maxDD_R": 128.924461860196,
+    "top3_share": null,
+    "netR_adverse": -37.629809003286695,
+    "status_counts": {
+      "1": 475
+    },
+    "funding_unknown_n": 78,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H2",
+    "variant": "X1",
+    "mirror": false,
+    "n": 428,
+    "WR": 53.50467289719626,
+    "PF": 0.9761812081340268,
+    "netR": -5.302963857267834,
+    "USD_at_5risk": -26.51481928633917,
+    "maxDD_R": 43.803572777430475,
+    "top3_share": null,
+    "netR_adverse": -6.373388162975548,
+    "status_counts": {
+      "1": 428
+    },
+    "funding_unknown_n": 176,
+    "control_n": 426,
+    "control_coverage": 0.9953271028037384,
+    "excessR": -0.3483950970049639,
+    "p": 0.5076,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "LAST40",
+    "variant": "X1",
+    "mirror": false,
+    "n": 342,
+    "WR": 51.75438596491229,
+    "PF": 0.8921015766399233,
+    "netR": -19.916464860431674,
+    "USD_at_5risk": -99.58232430215837,
+    "maxDD_R": 43.80357277743049,
+    "top3_share": null,
+    "netR_adverse": -20.73196072895196,
+    "status_counts": {
+      "1": 342
+    },
+    "funding_unknown_n": 135,
+    "control_n": 340,
+    "control_coverage": 0.9941520467836257,
+    "excessR": -12.241025651635477,
+    "p": 0.6372,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "H2",
+    "variant": "X7",
+    "mirror": true,
+    "n": 428,
+    "WR": 15.42056074766355,
+    "PF": 0.5080809516922163,
+    "netR": -211.30810832730492,
+    "USD_at_5risk": -1056.5405416365247,
+    "maxDD_R": 211.7748103552811,
+    "top3_share": null,
+    "netR_adverse": -214.45835832730447,
+    "status_counts": {
+      "1": 428
+    },
+    "funding_unknown_n": 147,
+    "control_n": 428,
+    "control_coverage": 1.0,
+    "excessR": -56.62885250460322,
+    "p": 0.8402,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "R1_L30_LONG_SHORT"
+  },
+  {
+    "period": "LAST40",
+    "variant": "X7",
+    "mirror": true,
+    "n": 342,
+    "WR": 16.95906432748538,
+    "PF": 0.5287803828229308,
+    "netR": -159.2928834495854,
+    "USD_at_5risk": -796.4644172479269,
+    "maxDD_R": 159.7595854775618,
+    "top3_share": null,
+    "netR_adverse": -161.9455292829185,
+    "status_counts": {
+      "1": 342
+    },
+    "funding_unknown_n": 123,
+    "control_n": 342,
+    "control_coverage": 1.0,
+    "excessR": -39.425266943223455,
+    "p": 0.7632,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "R1_L30_LONG_SHORT"
+  }
+]

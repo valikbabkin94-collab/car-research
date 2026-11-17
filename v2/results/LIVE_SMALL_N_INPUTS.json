@@ -1,0 +1,2436 @@
+{
+  "n": 97,
+  "sources": {
+    "OLEG": 13,
+    "SCALP_C10": 16,
+    "OLEG_STYLE": 3,
+    "CAR_MAIN_LIMIT": 16,
+    "RS1M": 2,
+    "ALT_CLONE": 14,
+    "YODA": 3,
+    "PIRATES": 1,
+    "OLEG_CLONE": 8,
+    "PUMP_SHORT": 3,
+    "ALTCOIN": 1,
+    "PUMP_FADE": 15,
+    "ALTCOIN_MGR": 1,
+    "BK_MGR": 1
+  },
+  "status": "Full X0-X9 replay independently in parallel Part7; source-risk audit there; no emergency stop used as1R",
+  "inputs": [
+    {
+      "source": "OLEG",
+      "coin": "PENGU",
+      "side": "short",
+      "open": "2026-10-23 14:54:42.227037",
+      "close": "2026-10-23 21:25:03.493000",
+      "entry": 0.008073,
+      "initial_stop": 0.009673,
+      "stop_pct": 0.19819,
+      "exit_reason": "reversal_candles",
+      "exits": [
+        {
+          "t": "2026-10-23 21:21:38.718000",
+          "price": 0.007825,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-23 21:25:03.493000",
+          "price": 0.007856,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.272
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "AVA",
+      "side": "long",
+      "open": "2026-10-23 22:38:28.715901",
+      "close": "2026-10-23 22:46:25.437000",
+      "entry": 0.4222,
+      "initial_stop": 0.3424,
+      "stop_pct": 0.18901,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-23 22:46:25.437000",
+          "price": 0.41563611,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.093
+    },
+    {
+      "source": "OLEG_STYLE",
+      "coin": "ARK",
+      "side": "long",
+      "open": "2026-10-24 00:16:08.522482",
+      "close": "2026-10-24 01:01:14.785000",
+      "entry": 0.21131,
+      "initial_stop": 0.18128,
+      "stop_pct": 0.14211,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 00:49:59.588000",
+          "price": 0.21585,
+          "frac": 0.3291,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 01:01:14.785000",
+          "price": 0.22311,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.585
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "IN",
+      "side": "long",
+      "open": "2026-10-24 00:19:51.646798",
+      "close": "2026-10-24 00:49:29.897000",
+      "entry": 0.03518,
+      "initial_stop": 0.03175,
+      "stop_pct": 0.0975,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 00:23:07.629000",
+          "price": 0.03624,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 00:49:29.897000",
+          "price": 0.03646,
+          "frac": 1.0082,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.662
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "DOS",
+      "side": "long",
+      "open": "2026-10-24 01:15:25.793928",
+      "close": "2026-10-24 01:21:02.356000",
+      "entry": 0.269,
+      "initial_stop": 0.2424,
+      "stop_pct": 0.09888,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 01:21:02.356000",
+          "price": 0.26349959,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.229
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "BLEND",
+      "side": "long",
+      "open": "2026-10-24 02:20:23.971803",
+      "close": "2026-10-24 02:36:34.386000",
+      "entry": 0.06403,
+      "initial_stop": 0.05769,
+      "stop_pct": 0.09902,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 02:36:34.386000",
+          "price": 0.06218593,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.312
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "M",
+      "side": "long",
+      "open": "2026-10-24 10:32:51.873080",
+      "close": "2026-10-24 10:46:23.291000",
+      "entry": 1.097,
+      "initial_stop": 0.9884,
+      "stop_pct": 0.099,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 10:46:23.291000",
+          "price": 1.0658,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.301
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "LIT",
+      "side": "short",
+      "open": "2026-10-24 12:15:20.050059",
+      "close": "2026-10-24 18:27:01.485000",
+      "entry": 3.0994,
+      "initial_stop": 3.4062,
+      "stop_pct": 0.09899,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 18:27:01.485000",
+          "price": 3.1692,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.235
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "CRV",
+      "side": "short",
+      "open": "2026-10-24 12:19:57.717717",
+      "close": "2026-10-25 00:34:34.341000",
+      "entry": 0.3542,
+      "initial_stop": 0.3892,
+      "stop_pct": 0.09881,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 14:16:49.307000",
+          "price": 0.3474,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-25 00:34:34.341000",
+          "price": 0.3542,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.181
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "LIGHT",
+      "side": "long",
+      "open": "2026-10-24 12:43:42.427943",
+      "close": "2026-10-24 12:59:48.075000",
+      "entry": 0.28107,
+      "initial_stop": 0.25325,
+      "stop_pct": 0.09898,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 12:55:09.996000",
+          "price": 0.2895,
+          "frac": 0.9714,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 12:59:48.075000",
+          "price": 0.28061,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.262
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "XRP",
+      "side": "short",
+      "open": "2026-10-24 12:47:17.801742",
+      "close": "2026-10-24 18:33:24.136000",
+      "entry": 1.2862,
+      "initial_stop": 1.4135,
+      "stop_pct": 0.09897,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 14:16:10.449000",
+          "price": 1.2722,
+          "frac": 2.4873,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 15:25:39.608000",
+          "price": 1.2553,
+          "frac": 1.4873,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 18:33:24.136000",
+          "price": 1.2847,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.611
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "ZEC",
+      "side": "short",
+      "open": "2026-10-24 12:52:05.321572",
+      "close": "2026-10-24 16:58:08.157000",
+      "entry": 1163.35,
+      "initial_stop": 1278.52,
+      "stop_pct": 0.099,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 14:15:41.527000",
+          "price": 1141.435,
+          "frac": 2.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 14:16:49.716000",
+          "price": 1123.9,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 16:58:08.157000",
+          "price": 1161.48,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.712
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "WLD",
+      "side": "short",
+      "open": "2026-10-24 13:20:22.557427",
+      "close": "2026-10-24 14:18:56.947000",
+      "entry": 0.4695,
+      "initial_stop": 0.5159,
+      "stop_pct": 0.09883,
+      "exit_reason": "no_exchange_stop",
+      "exits": [
+        {
+          "t": "2026-10-24 14:16:47.613000",
+          "price": 0.4577,
+          "frac": 0.9965,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 14:18:56.947000",
+          "price": 0.4602,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.44
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "IN",
+      "side": "long",
+      "open": "2026-10-24 13:46:38.794314",
+      "close": "2026-10-24 14:34:14.015000",
+      "entry": 0.03442,
+      "initial_stop": 0.03102,
+      "stop_pct": 0.09878,
+      "exit_reason": "reversal_trend_weak",
+      "exits": [
+        {
+          "t": "2026-10-24 14:06:30.906000",
+          "price": 0.03546,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 14:34:14.015000",
+          "price": 0.03347,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.01
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "ORDER",
+      "side": "long",
+      "open": "2026-10-24 13:49:13.711255",
+      "close": "2026-10-24 14:10:08.593000",
+      "entry": 0.07269,
+      "initial_stop": 0.0655,
+      "stop_pct": 0.09891,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 14:10:08.593000",
+          "price": 0.069,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.52
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "ERA",
+      "side": "long",
+      "open": "2026-10-24 13:52:47.595131",
+      "close": "2026-10-25 00:21:19.161000",
+      "entry": 0.09133,
+      "initial_stop": 0.06125,
+      "stop_pct": 0.32936,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-25 00:21:19.161000",
+          "price": 0.07699,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.482
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "DASH",
+      "side": "short",
+      "open": "2026-10-24 14:30:23.985976",
+      "close": "2026-10-24 18:31:00.188000",
+      "entry": 50.28,
+      "initial_stop": 55.26,
+      "stop_pct": 0.09905,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 15:17:40.818000",
+          "price": 48.91,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 18:31:00.188000",
+          "price": 50.2,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.276
+    },
+    {
+      "source": "OLEG",
+      "coin": "AERO",
+      "side": "long",
+      "open": "2026-10-24 14:56:03.834543",
+      "close": "2026-10-26 15:16:01.886000",
+      "entry": 0.7025,
+      "initial_stop": 0.5635,
+      "stop_pct": 0.19786,
+      "exit_reason": "author_close",
+      "exits": [
+        {
+          "t": "2026-10-26 15:16:01.886000",
+          "price": 0.68819865,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.109
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "M",
+      "side": "long",
+      "open": "2026-10-24 15:49:34.866979",
+      "close": "2026-10-30 17:28:33.152000",
+      "entry": 0.9554,
+      "initial_stop": 0.6402,
+      "stop_pct": 0.32991,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-27 15:14:51.284000",
+          "price": 1.0661,
+          "frac": 1.5,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-29 21:50:12.824000",
+          "price": 1.1335,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-30 17:28:33.152000",
+          "price": 0.9562,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 1.059
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "VVV",
+      "side": "short",
+      "open": "2026-10-24 16:00:34.874954",
+      "close": "2026-10-24 16:56:27.551000",
+      "entry": 23.883,
+      "initial_stop": 26.247,
+      "stop_pct": 0.09898,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 16:22:49.649000",
+          "price": 23.431,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-24 16:56:27.551000",
+          "price": 23.85685714,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.188
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "AKE",
+      "side": "short",
+      "open": "2026-10-24 16:08:34.276528",
+      "close": "2026-10-24 16:19:30.905000",
+      "entry": 0.028949,
+      "initial_stop": 0.034679,
+      "stop_pct": 0.19793,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 16:19:30.905000",
+          "price": 0.031595,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.473
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "LIGHT",
+      "side": "long",
+      "open": "2026-10-24 16:47:33.859863",
+      "close": "2026-10-24 17:24:31.686000",
+      "entry": 0.27707,
+      "initial_stop": 0.24965,
+      "stop_pct": 0.09896,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 17:24:31.686000",
+          "price": 0.26147,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.577
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "BCH",
+      "side": "short",
+      "open": "2026-10-24 16:50:25.943766",
+      "close": "2026-10-25 17:43:08.761000",
+      "entry": 272.76,
+      "initial_stop": 299.76,
+      "stop_pct": 0.09899,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-25 17:43:08.761000",
+          "price": 280.32833333,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.294
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "UNI",
+      "side": "short",
+      "open": "2026-10-24 17:00:39.662547",
+      "close": "2026-10-24 23:33:11.426000",
+      "entry": 6.665,
+      "initial_stop": 7.324,
+      "stop_pct": 0.09887,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 23:33:11.426000",
+          "price": 6.881,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.342
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "DOOD",
+      "side": "short",
+      "open": "2026-10-24 18:05:36.976141",
+      "close": "2026-10-25 05:23:53.913000",
+      "entry": 0.001495,
+      "initial_stop": 0.00168,
+      "stop_pct": 0.12375,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-25 05:23:53.913000",
+          "price": 0.00159,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.526
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "GRASS",
+      "side": "short",
+      "open": "2026-10-24 18:17:41.442016",
+      "close": "2026-10-24 23:31:28.170000",
+      "entry": 0.6283,
+      "initial_stop": 0.6974,
+      "stop_pct": 0.10998,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 23:31:28.170000",
+          "price": 0.66112,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.481
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "STRK",
+      "side": "short",
+      "open": "2026-10-24 21:00:56.813553",
+      "close": "2026-10-26 15:21:21.496000",
+      "entry": 0.04652,
+      "initial_stop": 0.05112,
+      "stop_pct": 0.09888,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-25 08:54:14.194000",
+          "price": 0.04527,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-26 15:21:21.496000",
+          "price": 0.04645,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.275
+    },
+    {
+      "source": "CAR_MAIN_LIMIT",
+      "coin": "BTW",
+      "side": "long",
+      "open": "2026-10-24 21:04:39.612867",
+      "close": "2026-10-24 22:26:00.561000",
+      "entry": 1.76457,
+      "initial_stop": 1.58988,
+      "stop_pct": 0.099,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-24 22:26:00.561000",
+          "price": 1.71006,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.319
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "LIGHT",
+      "side": "long",
+      "open": "2026-10-24 22:18:33.448237",
+      "close": "2026-10-25 00:20:15.745000",
+      "entry": 0.30354,
+      "initial_stop": 0.27349,
+      "stop_pct": 0.099,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-24 23:42:31.051000",
+          "price": 0.31265,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-25 00:20:15.745000",
+          "price": 0.29403,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.029
+    },
+    {
+      "source": "OLEG_STYLE",
+      "coin": "LIGHT",
+      "side": "long",
+      "open": "2026-10-25 03:01:18.198337",
+      "close": "2026-10-25 03:57:56.116000",
+      "entry": 0.28577,
+      "initial_stop": 0.19147,
+      "stop_pct": 0.32999,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-25 03:45:49.873000",
+          "price": 0.29349,
+          "frac": 0.3333,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-25 03:57:56.116000",
+          "price": 0.2855165,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.021
+    },
+    {
+      "source": "RS1M",
+      "coin": "LYN",
+      "side": "long",
+      "open": "2026-10-25 06:27:22.084915",
+      "close": "2026-10-25 07:23:04.075000",
+      "entry": 0.01381,
+      "initial_stop": 0.01245,
+      "stop_pct": 0.09848,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-25 07:23:04.075000",
+          "price": 0.01339,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.316
+    },
+    {
+      "source": "RS1M",
+      "coin": "BTW",
+      "side": "long",
+      "open": "2026-10-25 06:29:32.799879",
+      "close": "2026-10-25 06:48:29.141000",
+      "entry": 1.83182,
+      "initial_stop": 1.6518,
+      "stop_pct": 0.09827,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-25 06:48:29.141000",
+          "price": 1.76304,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.402
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "LIGHT",
+      "side": "long",
+      "open": "2026-10-25 07:07:30.320603",
+      "close": "2026-10-25 08:43:22.158000",
+      "entry": 0.29156,
+      "initial_stop": 0.2627,
+      "stop_pct": 0.09898,
+      "exit_reason": "reversal_trend_weak",
+      "exits": [
+        {
+          "t": "2026-10-25 08:00:42.966000",
+          "price": 0.30031,
+          "frac": 0.9706,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-25 08:43:22.158000",
+          "price": 0.30398,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.708
+    },
+    {
+      "source": "OLEG",
+      "coin": "QNT",
+      "side": "short",
+      "open": "2026-10-26 12:33:38.324771",
+      "close": "2026-10-26 18:01:06.255000",
+      "entry": 222.5,
+      "initial_stop": 259.21,
+      "stop_pct": 0.16499,
+      "exit_reason": "reversal_candles",
+      "exits": [
+        {
+          "t": "2026-10-26 17:40:27.176000",
+          "price": 206.51,
+          "frac": 0.8889,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-26 18:01:06.255000",
+          "price": 204.91,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.859
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "DOOD",
+      "side": "long",
+      "open": "2026-10-26 16:19:43.443329",
+      "close": "2026-10-26 16:25:08.603000",
+      "entry": 0.002083,
+      "initial_stop": 0.001877,
+      "stop_pct": 0.0989,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-26 16:22:37.374000",
+          "price": 0.00215,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-26 16:25:08.603000",
+          "price": 0.002083,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.309
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "US",
+      "side": "long",
+      "open": "2026-10-26 23:03:43.275263",
+      "close": "2026-10-26 23:10:35.531000",
+      "entry": 0.00556,
+      "initial_stop": 0.00488,
+      "stop_pct": 0.1223,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-26 23:08:51.882000",
+          "price": 0.00568,
+          "frac": 0.9873,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-26 23:10:35.531000",
+          "price": 0.00556,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.161
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "JCT",
+      "side": "long",
+      "open": "2026-10-27 02:03:22.550526",
+      "close": "2026-10-27 02:08:45.458000",
+      "entry": 0.007635,
+      "initial_stop": 0.00669,
+      "stop_pct": 0.12377,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 02:08:45.458000",
+          "price": 0.00717,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.503
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "JCT",
+      "side": "long",
+      "open": "2026-10-27 02:54:19.498333",
+      "close": "2026-10-27 02:56:21.246000",
+      "entry": 0.008409,
+      "initial_stop": 0.007577,
+      "stop_pct": 0.09894,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 02:56:21.246000",
+          "price": 0.008032,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.468
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "DOOD",
+      "side": "long",
+      "open": "2026-10-27 05:42:43.736875",
+      "close": "2026-10-27 05:56:13.473000",
+      "entry": 0.002441,
+      "initial_stop": 0.0022,
+      "stop_pct": 0.09873,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-27 05:56:13.473000",
+          "price": 0.002315,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.531
+    },
+    {
+      "source": "YODA",
+      "coin": "PENGU",
+      "side": "short",
+      "open": "2026-10-27 09:03:04.603240",
+      "close": "2026-10-27 16:57:54.297000",
+      "entry": 0.007421,
+      "initial_stop": 0.008155,
+      "stop_pct": 0.09891,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 16:57:54.297000",
+          "price": 0.007742,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.452
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "SIREN",
+      "side": "long",
+      "open": "2026-10-27 09:03:06.627455",
+      "close": "2026-10-28 07:26:43.797000",
+      "entry": 0.02348,
+      "initial_stop": 0.01884,
+      "stop_pct": 0.19761,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 17:10:54.232000",
+          "price": 0.02397,
+          "frac": 2.48,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-28 06:59:54.010000",
+          "price": 0.02447,
+          "frac": 1.48,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-28 07:26:43.797000",
+          "price": 0.02496,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.897
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "1000TAG",
+      "side": "long",
+      "open": "2026-10-27 09:10:04.092133",
+      "close": "2026-10-27 10:16:25.613000",
+      "entry": 0.6675,
+      "initial_stop": 0.5354,
+      "stop_pct": 0.1979,
+      "exit_reason": "tp3_final",
+      "exits": [
+        {
+          "t": "2026-10-27 09:11:02.907000",
+          "price": 0.6891,
+          "frac": 2.0,
+          "type": "market"
+        },
+        {
+          "t": "2026-10-27 09:28:08.198000",
+          "price": 0.6961,
+          "frac": 1.3333,
+          "type": "market"
+        },
+        {
+          "t": "2026-10-27 10:16:25.613000",
+          "price": 0.7105,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.907
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "GRASS",
+      "side": "long",
+      "open": "2026-10-27 09:18:49.357359",
+      "close": "2026-10-27 19:47:38.731000",
+      "entry": 0.6848,
+      "initial_stop": 0.6001,
+      "stop_pct": 0.12369,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 15:11:41.851000",
+          "price": 0.6994,
+          "frac": 2.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 16:57:42.920000",
+          "price": 0.7153,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 19:47:38.731000",
+          "price": 0.7279,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.187
+    },
+    {
+      "source": "PIRATES",
+      "coin": "XLM",
+      "side": "long",
+      "open": "2026-10-27 10:33:51.405892",
+      "close": "2026-11-07 20:47:37.974000",
+      "entry": 0.1671,
+      "initial_stop": 0.1258,
+      "stop_pct": 0.24716,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-07 20:47:37.974000",
+          "price": 0.15,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.42
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "TRIA",
+      "side": "long",
+      "open": "2026-10-27 11:08:26.577086",
+      "close": "2026-10-27 12:49:42.781000",
+      "entry": 0.002937,
+      "initial_stop": 0.002574,
+      "stop_pct": 0.1236,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 11:30:58.498000",
+          "price": 0.002999,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 12:49:42.781000",
+          "price": 0.002947,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.185
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "ELSA",
+      "side": "long",
+      "open": "2026-10-27 12:03:48.186580",
+      "close": "2026-10-28 01:16:44.061000",
+      "entry": 0.08247,
+      "initial_stop": 0.07227,
+      "stop_pct": 0.12368,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-28 01:16:44.061000",
+          "price": 0.07781,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.468
+    },
+    {
+      "source": "OLEG",
+      "coin": "TRIA",
+      "side": "short",
+      "open": "2026-10-27 12:49:56.729508",
+      "close": "2026-10-28 09:46:57.162000",
+      "entry": 0.00295,
+      "initial_stop": 0.003923,
+      "stop_pct": 0.32983,
+      "exit_reason": "author_close",
+      "exits": [
+        {
+          "t": "2026-10-28 09:46:57.162000",
+          "price": 0.003077,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.135
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "NIGHT",
+      "side": "long",
+      "open": "2026-10-27 14:03:54.214161",
+      "close": "2026-10-27 23:05:19.260000",
+      "entry": 0.03949,
+      "initial_stop": 0.03461,
+      "stop_pct": 0.12358,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 19:11:01.101000",
+          "price": 0.04032,
+          "frac": 2.2,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 21:05:52.610000",
+          "price": 0.0412,
+          "frac": 1.2,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 23:05:19.260000",
+          "price": 0.04198,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.278
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "APR",
+      "side": "long",
+      "open": "2026-10-27 15:48:53.375934",
+      "close": "2026-10-27 15:50:20.636000",
+      "entry": 0.0501,
+      "initial_stop": 0.0452,
+      "stop_pct": 0.0978,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 15:50:20.636000",
+          "price": 0.0482,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.403
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "EVAA",
+      "side": "long",
+      "open": "2026-10-27 15:48:55.928799",
+      "close": "2026-10-28 11:12:34.257000",
+      "entry": 0.6853,
+      "initial_stop": 0.5497,
+      "stop_pct": 0.19787,
+      "exit_reason": "dust_close",
+      "exits": [
+        {
+          "t": "2026-10-27 15:55:18.906000",
+          "price": 0.6997,
+          "frac": 63.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 16:09:40.170000",
+          "price": 0.7141,
+          "frac": 38.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-27 16:17:26.984000",
+          "price": 0.7285,
+          "frac": 25.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-28 11:12:34.257000",
+          "price": 1.3606,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 27.154
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "SENT",
+      "side": "long",
+      "open": "2026-10-27 17:38:19.707674",
+      "close": "2026-10-29 02:46:19.720000",
+      "entry": 0.022104,
+      "initial_stop": 0.019369,
+      "stop_pct": 0.12373,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-29 02:46:19.720000",
+          "price": 0.0208561,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.467
+    },
+    {
+      "source": "SCALP_C10",
+      "coin": "APR",
+      "side": "long",
+      "open": "2026-10-27 19:59:41.271628",
+      "close": "2026-10-27 20:30:04.395000",
+      "entry": 0.0475,
+      "initial_stop": 0.0429,
+      "stop_pct": 0.09684,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-27 20:30:04.395000",
+          "price": 0.0456,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.428
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "SOON",
+      "side": "long",
+      "open": "2026-10-27 20:07:59.402129",
+      "close": "2026-10-28 04:35:12.054000",
+      "entry": 0.306,
+      "initial_stop": 0.2682,
+      "stop_pct": 0.12353,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-28 02:33:19.594000",
+          "price": 0.3124,
+          "frac": 0.9655,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-28 04:35:12.054000",
+          "price": 0.3064,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.162
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "UNITREE",
+      "side": "long",
+      "open": "2026-10-28 09:06:43.358278",
+      "close": "2026-10-30 01:54:03.540000",
+      "entry": 98.91,
+      "initial_stop": 86.67,
+      "stop_pct": 0.12375,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-10-30 01:36:21.972000",
+          "price": 100.99,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-30 01:54:03.540000",
+          "price": 98.98,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.439
+    },
+    {
+      "source": "OLEG_STYLE",
+      "coin": "PTB",
+      "side": "long",
+      "open": "2026-10-28 09:35:57.150495",
+      "close": "2026-10-28 10:22:45.782000",
+      "entry": 0.0001576,
+      "initial_stop": 0.0001264,
+      "stop_pct": 0.19797,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-28 10:16:33.320000",
+          "price": 0.0001619,
+          "frac": 0.3333,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-28 10:22:45.782000",
+          "price": 0.00015722,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.028
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "GRASS",
+      "side": "long",
+      "open": "2026-10-28 09:54:56.660755",
+      "close": "2026-10-28 20:29:55.531000",
+      "entry": 0.7221,
+      "initial_stop": 0.6327,
+      "stop_pct": 0.12381,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-28 20:29:55.531000",
+          "price": 0.6831,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.447
+    },
+    {
+      "source": "ALT_CLONE",
+      "coin": "HUMA",
+      "side": "long",
+      "open": "2026-10-28 10:07:55.511947",
+      "close": "2026-10-29 06:35:59.996000",
+      "entry": 0.02789,
+      "initial_stop": 0.02444,
+      "stop_pct": 0.1237,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-29 05:58:56.040000",
+          "price": 0.02848,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-29 06:35:59.996000",
+          "price": 0.02792,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.17
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "BEAT",
+      "side": "short",
+      "open": "2026-10-28 16:07:55.718063",
+      "close": "2026-10-28 18:35:53.251000",
+      "entry": 0.08263,
+      "initial_stop": 0.09285,
+      "stop_pct": 0.12368,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-28 18:35:53.251000",
+          "price": 0.08724,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.464
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "BANK",
+      "side": "short",
+      "open": "2026-10-28 16:29:13.236923",
+      "close": "2026-10-29 17:12:48.735000",
+      "entry": 0.02761,
+      "initial_stop": 0.03102,
+      "stop_pct": 0.12351,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-10-29 01:22:24.633000",
+          "price": 0.02703,
+          "frac": 2.1429,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-29 11:57:04.085000",
+          "price": 0.02645,
+          "frac": 1.2857,
+          "type": "limit"
+        },
+        {
+          "t": "2026-10-29 17:12:48.735000",
+          "price": 0.02758,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.789
+    },
+    {
+      "source": "PUMP_SHORT",
+      "coin": "BEAM",
+      "side": "short",
+      "open": "2026-10-30 14:09:39.026375",
+      "close": "2026-11-01 06:15:38.754000",
+      "entry": 0.005203,
+      "initial_stop": 0.0069182,
+      "stop_pct": 0.32966,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-01 06:15:38.754000",
+          "price": 0.0058249,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.369
+    },
+    {
+      "source": "PUMP_SHORT",
+      "coin": "AIO",
+      "side": "short",
+      "open": "2026-11-03 17:13:50.793786",
+      "close": "2026-11-05 08:06:49.333000",
+      "entry": 0.03717,
+      "initial_stop": 0.04943,
+      "stop_pct": 0.32984,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-05 08:06:49.333000",
+          "price": 0.04164,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.366
+    },
+    {
+      "source": "PUMP_SHORT",
+      "coin": "CLANKER",
+      "side": "short",
+      "open": "2026-11-04 20:41:36.788537",
+      "close": "2026-11-04 22:17:55.957000",
+      "entry": 24.502,
+      "initial_stop": 32.587,
+      "stop_pct": 0.32997,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-04 22:17:55.957000",
+          "price": 19.602,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.604
+    },
+    {
+      "source": "YODA",
+      "coin": "TAO",
+      "side": "short",
+      "open": "2026-11-05 16:06:22.626012",
+      "close": "2026-11-05 23:19:23.351000",
+      "entry": 217.2,
+      "initial_stop": 288.84,
+      "stop_pct": 0.32983,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-05 23:08:20.208000",
+          "price": 214.7,
+          "frac": 2.5,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-05 23:10:06.792000",
+          "price": 213.8,
+          "frac": 1.5,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-05 23:19:23.351000",
+          "price": 211.9,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.202
+    },
+    {
+      "source": "OLEG",
+      "coin": "ICNT",
+      "side": "short",
+      "open": "2026-11-05 16:48:30.917717",
+      "close": "2026-11-06 07:06:17.730000",
+      "entry": 0.2201,
+      "initial_stop": 0.2927,
+      "stop_pct": 0.32985,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-06 07:06:17.730000",
+          "price": 0.2537,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.465
+    },
+    {
+      "source": "OLEG",
+      "coin": "BEAM",
+      "side": "short",
+      "open": "2026-11-07 12:49:05.951301",
+      "close": "2026-11-12 03:27:17.392000",
+      "entry": 0.0039844,
+      "initial_stop": 0.0052992,
+      "stop_pct": 0.32999,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 03:27:17.392000",
+          "price": 0.0045513,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.436
+    },
+    {
+      "source": "ALTCOIN",
+      "coin": "PNUT",
+      "side": "long",
+      "open": "2026-11-07 23:18:37.794309",
+      "close": "2026-11-08 14:18:11.261000",
+      "entry": 0.0346,
+      "initial_stop": 0.02319,
+      "stop_pct": 0.32977,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-08 14:18:11.261000",
+          "price": 0.03314,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.132
+    },
+    {
+      "source": "YODA",
+      "coin": "TAO",
+      "side": "short",
+      "open": "2026-11-10 18:40:56.157775",
+      "close": "2026-11-11 15:34:37.144000",
+      "entry": 217.93,
+      "initial_stop": 289.84,
+      "stop_pct": 0.32997,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-11 15:34:37.144000",
+          "price": 224.21,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.092
+    },
+    {
+      "source": "OLEG",
+      "coin": "EDGE",
+      "side": "short",
+      "open": "2026-11-10 18:40:59.769718",
+      "close": "2026-11-11 07:05:10.168000",
+      "entry": 0.3906,
+      "initial_stop": 0.5194,
+      "stop_pct": 0.32975,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-11 04:33:17.788000",
+          "price": 0.3737,
+          "frac": 0.9091,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 07:05:10.168000",
+          "price": 0.3559,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.386
+    },
+    {
+      "source": "OLEG",
+      "coin": "GRAM",
+      "side": "short",
+      "open": "2026-11-11 11:18:29.724725",
+      "close": "2026-11-12 18:26:14.089000",
+      "entry": 1.189,
+      "initial_stop": 1.581,
+      "stop_pct": 0.32969,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-12 18:26:14.089000",
+          "price": 1.188,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.002
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "CAP",
+      "side": "short",
+      "open": "2026-11-11 13:17:08.593747",
+      "close": "2026-11-13 11:01:22.542000",
+      "entry": 0.10119,
+      "initial_stop": 0.13457,
+      "stop_pct": 0.32987,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-13 11:01:22.542000",
+          "price": 0.10677,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.172
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "NBIS",
+      "side": "short",
+      "open": "2026-11-11 21:05:18.350653",
+      "close": "2026-11-11 23:12:46.080000",
+      "entry": 156.5,
+      "initial_stop": 175.79,
+      "stop_pct": 0.12326,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-11 22:29:07.400000",
+          "price": 153.21,
+          "frac": 2.2,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 22:31:34.081000",
+          "price": 149.93,
+          "frac": 1.2,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 23:12:46.080000",
+          "price": 146.64,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.276
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "KORU",
+      "side": "short",
+      "open": "2026-11-11 21:06:55.591156",
+      "close": "2026-11-12 00:12:34.065000",
+      "entry": 8.63,
+      "initial_stop": 9.69,
+      "stop_pct": 0.12283,
+      "exit_reason": "dust_close",
+      "exits": [
+        {
+          "t": "2026-11-11 22:28:19.754000",
+          "price": 8.45,
+          "frac": 202.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 22:54:53.540000",
+          "price": 8.27,
+          "frac": 121.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 00:11:15.810000",
+          "price": 8.09,
+          "frac": 81.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 00:12:34.065000",
+          "price": 8.12,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 117.142
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "MVLL",
+      "side": "short",
+      "open": "2026-11-11 21:07:03.042585",
+      "close": "2026-11-11 23:00:17.024000",
+      "entry": 12.37,
+      "initial_stop": 13.9,
+      "stop_pct": 0.12369,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-11 22:28:26.226000",
+          "price": 12.11,
+          "frac": 2.431,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 22:31:49.065000",
+          "price": 11.85,
+          "frac": 1.4483,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 23:00:17.024000",
+          "price": 11.59,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.415
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "SNXX",
+      "side": "short",
+      "open": "2026-11-11 23:03:33.759596",
+      "close": "2026-11-11 23:28:54.735000",
+      "entry": 4.31,
+      "initial_stop": 4.84,
+      "stop_pct": 0.12297,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-11 23:07:57.173000",
+          "price": 4.22,
+          "frac": 2.4908,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 23:13:33.288000",
+          "price": 4.13,
+          "frac": 1.4908,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-11 23:28:54.735000",
+          "price": 4.3,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.948
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "SIREN",
+      "side": "short",
+      "open": "2026-11-12 04:11:02.287337",
+      "close": "2026-11-12 08:30:45.774000",
+      "entry": 0.02764,
+      "initial_stop": 0.03311,
+      "stop_pct": 0.1979,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 06:06:17.771000",
+          "price": 0.02706,
+          "frac": 0.9968,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 08:30:45.774000",
+          "price": 0.02759,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.107
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "NIGHT",
+      "side": "short",
+      "open": "2026-11-12 06:22:24.263286",
+      "close": "2026-11-12 08:25:27.960000",
+      "entry": 0.04641,
+      "initial_stop": 0.05215,
+      "stop_pct": 0.12368,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 08:25:27.960000",
+          "price": 0.04762,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.222
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "Q",
+      "side": "short",
+      "open": "2026-11-12 07:11:53.254565",
+      "close": "2026-11-12 13:10:16.150000",
+      "entry": 0.02779,
+      "initial_stop": 0.03123,
+      "stop_pct": 0.12379,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 07:52:32.632000",
+          "price": 0.02721,
+          "frac": 2.4231,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 11:23:06.201000",
+          "price": 0.02662,
+          "frac": 1.4231,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 13:10:16.150000",
+          "price": 0.02604,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.375
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "B2",
+      "side": "short",
+      "open": "2026-11-12 08:25:47.031936",
+      "close": "2026-11-12 10:49:49.781000",
+      "entry": 0.4538,
+      "initial_stop": 0.5099,
+      "stop_pct": 0.12362,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 09:01:59.329000",
+          "price": 0.4443,
+          "frac": 2.375,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 09:10:52.739000",
+          "price": 0.4347,
+          "frac": 1.375,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 10:49:49.781000",
+          "price": 0.4252,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.35
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "AVGO",
+      "side": "short",
+      "open": "2026-11-12 08:31:52.258490",
+      "close": "2026-11-12 13:51:15.423000",
+      "entry": 353.83,
+      "initial_stop": 397.61,
+      "stop_pct": 0.12373,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-12 13:09:45.866000",
+          "price": 346.4,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 13:51:15.423000",
+          "price": 353.25,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.183
+    },
+    {
+      "source": "OLEG_CLONE",
+      "coin": "BEAM",
+      "side": "short",
+      "open": "2026-11-12 11:13:39.478023",
+      "close": "2026-11-12 21:28:48.380000",
+      "entry": 0.0044457,
+      "initial_stop": 0.0049958,
+      "stop_pct": 0.12374,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-12 19:38:46.700000",
+          "price": 0.0043519,
+          "frac": 0.95,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 21:28:48.380000",
+          "price": 0.0044416,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.16
+    },
+    {
+      "source": "OLEG",
+      "coin": "USELESS",
+      "side": "short",
+      "open": "2026-11-12 12:33:42.378122",
+      "close": "2026-11-13 01:07:52.970000",
+      "entry": 0.12332,
+      "initial_stop": 0.14766,
+      "stop_pct": 0.19737,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-13 01:07:52.970000",
+          "price": 0.13475,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.481
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "ERA",
+      "side": "short",
+      "open": "2026-11-12 13:09:54.762845",
+      "close": "2026-11-12 14:18:41.120000",
+      "entry": 0.09835,
+      "initial_stop": 0.11038,
+      "stop_pct": 0.12232,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-12 13:32:32.932000",
+          "price": 0.09628,
+          "frac": 2.496,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 13:46:11.551000",
+          "price": 0.09422,
+          "frac": 1.496,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 14:18:41.120000",
+          "price": 0.09209,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.385
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "MAGMA",
+      "side": "short",
+      "open": "2026-11-12 14:04:40.961957",
+      "close": "2026-11-12 14:32:04.831000",
+      "entry": 0.3255,
+      "initial_stop": 0.3657,
+      "stop_pct": 0.1235,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-12 14:24:19.681000",
+          "price": 0.3177,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-12 14:32:04.831000",
+          "price": 0.3252,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.189
+    },
+    {
+      "source": "ALTCOIN_MGR",
+      "coin": "MON",
+      "side": "short",
+      "open": "2026-11-12 19:13:20.670895",
+      "close": "2026-11-13 19:13:33.547000",
+      "entry": 0.01738,
+      "initial_stop": 0.01904,
+      "stop_pct": 0.09551,
+      "exit_reason": "time_exit",
+      "exits": [
+        {
+          "t": "2026-11-13 02:17:33.338000",
+          "price": 0.01681,
+          "frac": 1.9979,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-13 03:51:21.882000",
+          "price": 0.01624,
+          "frac": 0.9986,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-13 19:13:33.547000",
+          "price": 0.01651,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 1.815
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "AKE",
+      "side": "short",
+      "open": "2026-11-13 06:03:59.584714",
+      "close": "2026-11-13 06:11:05.646000",
+      "entry": 0.003332,
+      "initial_stop": 0.00374,
+      "stop_pct": 0.12245,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-13 06:06:31.337000",
+          "price": 0.003262,
+          "frac": 2.4259,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-13 06:06:32.167000",
+          "price": 0.003192,
+          "frac": 1.4444,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-13 06:11:05.646000",
+          "price": 0.003327,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.846
+    },
+    {
+      "source": "OLEG",
+      "coin": "JCT",
+      "side": "long",
+      "open": "2026-11-13 14:51:10.106196",
+      "close": "2026-11-13 17:29:59.458000",
+      "entry": 0.002047,
+      "initial_stop": 0.001035,
+      "stop_pct": 0.49438,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-13 16:51:19.018000",
+          "price": 0.002174,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-13 17:29:59.458000",
+          "price": 0.002443,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.507
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "SOPH",
+      "side": "short",
+      "open": "2026-11-13 22:02:57.120444",
+      "close": "2026-11-14 00:58:22.959000",
+      "entry": 0.001755,
+      "initial_stop": 0.001972,
+      "stop_pct": 0.12365,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-14 00:36:59.249000",
+          "price": 0.001718,
+          "frac": 2.499,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-14 00:37:57.950000",
+          "price": 0.001681,
+          "frac": 1.499,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-14 00:58:22.959000",
+          "price": 0.001758,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.897
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "BMT",
+      "side": "short",
+      "open": "2026-11-14 03:12:03.385078",
+      "close": "2026-11-14 04:49:07.599000",
+      "entry": 0.024076,
+      "initial_stop": 0.028842,
+      "stop_pct": 0.19796,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-14 03:32:35.492000",
+          "price": 0.02357,
+          "frac": 0.9995,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-14 04:49:07.599000",
+          "price": 0.02405817,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.102
+    },
+    {
+      "source": "BK_MGR",
+      "coin": "ARB",
+      "side": "long",
+      "open": "2026-11-14 03:48:00.062467",
+      "close": "2026-11-14 14:25:15.322000",
+      "entry": 0.14092,
+      "initial_stop": 0.12726,
+      "stop_pct": 0.09693,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-14 14:25:15.322000",
+          "price": 0.13745,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.274
+    },
+    {
+      "source": "OLEG",
+      "coin": "KITE",
+      "side": "short",
+      "open": "2026-11-14 13:07:57.561143",
+      "close": "2026-11-15 20:25:01.824000",
+      "entry": 0.12861,
+      "initial_stop": 0.16044,
+      "stop_pct": 0.24749,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-15 20:25:01.824000",
+          "price": 0.14305,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.46
+    },
+    {
+      "source": "OLEG",
+      "coin": "AERO",
+      "side": "long",
+      "open": "2026-11-15 10:26:09.132031",
+      "close": "2026-11-16 01:02:10.544000",
+      "entry": 0.4442,
+      "initial_stop": 0.3814,
+      "stop_pct": 0.14138,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-16 01:02:10.544000",
+          "price": 0.4149,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.475
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "JELLYJELLY",
+      "side": "short",
+      "open": "2026-11-15 17:09:08.638608",
+      "close": "2026-11-16 05:02:28.029000",
+      "entry": 0.04289,
+      "initial_stop": 0.0482,
+      "stop_pct": 0.12381,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-16 00:11:39.387000",
+          "price": 0.04199,
+          "frac": 2.4903,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 01:34:51.690000",
+          "price": 0.04109,
+          "frac": 1.4935,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 05:02:28.029000",
+          "price": 0.03983,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 1.482
+    },
+    {
+      "source": "OLEG",
+      "coin": "BEAM",
+      "side": "short",
+      "open": "2026-11-16 12:09:22.540780",
+      "close": "2026-11-17 10:31:28.000000",
+      "entry": 0.0041519,
+      "initial_stop": 0.0049719,
+      "stop_pct": 0.1975,
+      "exit_reason": "tp_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-16 14:59:55.454000",
+          "price": 0.004003,
+          "frac": 0.9583,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-17 10:31:28.000000",
+          "price": 0.0037927,
+          "frac": 1.0,
+          "type": "limit"
+        }
+      ],
+      "net_R": 0.595
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "JCT",
+      "side": "short",
+      "open": "2026-11-16 12:09:30.661923",
+      "close": "2026-11-16 13:09:39.534000",
+      "entry": 0.00245,
+      "initial_stop": 0.002752,
+      "stop_pct": 0.12327,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-16 12:35:40.884000",
+          "price": 0.002388,
+          "frac": 2.48,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 12:36:10.014000",
+          "price": 0.002347,
+          "frac": 1.48,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 13:09:39.534000",
+          "price": 0.002449,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.931
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "SPACE",
+      "side": "short",
+      "open": "2026-11-16 14:04:59.660358",
+      "close": "2026-11-16 14:33:01.181000",
+      "entry": 0.003307,
+      "initial_stop": 0.003716,
+      "stop_pct": 0.12368,
+      "exit_reason": "stop_on_exchange_panel",
+      "exits": [
+        {
+          "t": "2026-11-16 14:33:01.181000",
+          "price": 0.00348863,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": -0.451
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "AXIS",
+      "side": "short",
+      "open": "2026-11-16 17:05:00.034830",
+      "close": "2026-11-16 21:48:31.242000",
+      "entry": 0.095,
+      "initial_stop": 0.1067,
+      "stop_pct": 0.12316,
+      "exit_reason": "stoploss_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-16 17:31:11.383000",
+          "price": 0.093,
+          "frac": 2.472,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 18:09:19.205000",
+          "price": 0.091,
+          "frac": 1.48,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-16 21:48:31.242000",
+          "price": 0.0949,
+          "frac": 1.0,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.906
+    },
+    {
+      "source": "PUMP_FADE",
+      "coin": "HUMA",
+      "side": "short",
+      "open": "2026-11-17 05:04:46.664366",
+      "close": "2026-11-17 06:00:39.954000",
+      "entry": 0.00895,
+      "initial_stop": 0.01005,
+      "stop_pct": 0.12291,
+      "exit_reason": "sold_on_exchange",
+      "exits": [
+        {
+          "t": "2026-11-17 05:18:12.553000",
+          "price": 0.00875,
+          "frac": 1.6667,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-17 05:19:38.542000",
+          "price": 0.00857,
+          "frac": 1.0,
+          "type": "limit"
+        },
+        {
+          "t": "2026-11-17 06:00:39.954000",
+          "price": 0.0094,
+          "frac": 0.6667,
+          "type": "market"
+        }
+      ],
+      "net_R": 0.356
+    }
+  ]
+}

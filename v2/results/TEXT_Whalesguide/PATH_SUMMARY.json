@@ -1,0 +1,20 @@
+[
+  {
+    "unit": "R_1_PERCENT",
+    "decisive_actual": 147,
+    "P_MFE_first": 0.5102040816326531,
+    "decisive_controls": 29399,
+    "P_control": 0.526990713969863,
+    "censored_not_failures": true,
+    "diagnostic_not_gate": true
+  },
+  {
+    "unit": "R_ATR_STOP",
+    "decisive_actual": 147,
+    "P_MFE_first": 0.6190476190476191,
+    "decisive_controls": 29286,
+    "P_control": 0.5510141364474493,
+    "censored_not_failures": true,
+    "diagnostic_not_gate": true
+  }
+]

@@ -1,0 +1,4562 @@
+[
+  {
+    "edited": false,
+    "entry": 0.04615,
+    "entry_ms": 1769363820000,
+    "entry_type": "MARKET",
+    "key": "cfce222f4660386d7f985c29a742ee9c594832708f088c53f537155feebeceb2",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.045180849999999995,
+        "time_ms": 1769368740000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.046099234999999995,
+        "time_ms": 1769389500000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1769363759000,
+    "source": "TEXT",
+    "symbol": "ACXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.08972,
+    "entry_ms": 1760395620000,
+    "entry_type": "MARKET",
+    "key": "fda43e8888f72b7814b6b41a03390489eeb070dde11f55ad69a451177f8d7ee5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.08783587999999999,
+        "time_ms": 1760406900000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.08595175999999999,
+        "time_ms": 1760410860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.08406764,
+        "time_ms": 1760417460000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760395502000,
+    "source": "TEXT",
+    "symbol": "AIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.4932,
+    "entry_ms": 1777218420000,
+    "entry_type": "MARKET",
+    "key": "90a992a41791946e81632828a9a918a1a562232428be04c7ddcc33a25e1cba9f",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.4828428,
+        "time_ms": 1777249320000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.4927,
+        "time_ms": 1777254600000
+      }
+    ],
+    "native_net_R": 0.16362858916985343,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1777218325000,
+    "source": "TEXT",
+    "symbol": "AKTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01619,
+    "entry_ms": 1762969560000,
+    "entry_type": "MARKET",
+    "key": "167bddd0b55c0295541d0b2e8c06bac694e4a11761e8eff32293af6f29fcf661",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.015850009999999998,
+        "time_ms": 1763055540000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.01551002,
+        "time_ms": 1763058540000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.015170030000000001,
+        "time_ms": 1763095080000
+      }
+    ],
+    "native_net_R": 0.6150384950697091,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1762969480000,
+    "source": "TEXT",
+    "symbol": "ALTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01547,
+    "entry_ms": 1763061300000,
+    "entry_type": "MARKET",
+    "key": "12721a72b20ddc32c611257a772983e23ed47a8a0415aad30c3c232263305619",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01514513,
+        "time_ms": 1763095140000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.014820259999999998,
+        "time_ms": 1763095200000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.015452983,
+        "time_ms": 1763103420000
+      }
+    ],
+    "native_net_R": 0.388271625981162,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763061209000,
+    "source": "TEXT",
+    "symbol": "ALTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01585,
+    "entry_ms": 1763662020000,
+    "entry_type": "MARKET",
+    "key": "8f46453dddd5c46b052d51e78805e018aebf6170670c4801f05906acdf69783d",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.015517149999999999,
+        "time_ms": 1763664660000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.015832565,
+        "time_ms": 1763677260000
+      }
+    ],
+    "native_net_R": 0.16449468817598023,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763661914000,
+    "source": "TEXT",
+    "symbol": "ALTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01099,
+    "entry_ms": 1760391720000,
+    "entry_type": "MARKET",
+    "key": "e1e2a0185443e90f03623647ff9ad557990fac91b5e0a21c5a37755e99367779",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.01037456,
+        "time_ms": 1760420160000
+      }
+    ],
+    "native_net_R": -1.0364500000000008,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1760391604000,
+    "source": "TEXT",
+    "symbol": "ANIMEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1116,
+    "entry_ms": 1777399380000,
+    "entry_type": "MARKET",
+    "key": "811a62c757f6bafaf0b3fadd19087765bded262cf363ac0c340ac99e83a070ca",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.1092564,
+        "time_ms": 1777478040000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.1069128,
+        "time_ms": 1777486380000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.11147724,
+        "time_ms": 1777510620000
+      }
+    ],
+    "native_net_R": 0.3863024285714289,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1777399316000,
+    "source": "TEXT",
+    "symbol": "ARKMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1115,
+    "entry_ms": 1777572600000,
+    "entry_type": "MARKET",
+    "key": "3073b0bab8f7f8e6062c139f4bf2f3e90db4f0290ed77e36072acb8698ea3ef4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.117744,
+        "time_ms": 1777704060000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1777572499000,
+    "source": "TEXT",
+    "symbol": "ARKMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1642,
+    "entry_ms": 1774253940000,
+    "entry_type": "MARKET",
+    "key": "b4690e441ba44f1d4452a5eeca3720a7cbbe4420fa7e9ec7c1b5e470f64fe546",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.1676482,
+        "time_ms": 1774263960000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.1710964,
+        "time_ms": 1774273080000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.1745446,
+        "time_ms": 1774487400000
+      }
+    ],
+    "native_net_R": 0.6064004102575248,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1774253825000,
+    "source": "TEXT",
+    "symbol": "ARKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 7.042,
+    "entry_ms": 1757450100000,
+    "entry_type": "MARKET",
+    "key": "461c20e36ae2346adf3d5788885c766e494f2e226d695d6fc4b3351b767b72cc",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 7.189881999999999,
+        "time_ms": 1757468100000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 7.0497462,
+        "time_ms": 1757495280000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1757450011000,
+    "source": "TEXT",
+    "symbol": "ARUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.282,
+    "entry_ms": 1771455960000,
+    "entry_type": "MARKET",
+    "key": "8795281e949015e97c37741a98dac3ff8c39a943e60273897911028bf3552bb4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.255078,
+        "time_ms": 1771461600000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.228156,
+        "time_ms": 1771488540000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.2012340000000001,
+        "time_ms": 1771495740000
+      }
+    ],
+    "native_net_R": 0.4823541574270125,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1771455897000,
+    "source": "TEXT",
+    "symbol": "AXSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.217,
+    "entry_ms": 1771508160000,
+    "entry_type": "MARKET",
+    "key": "eded3bb8c296ccecf9a73e2f6c31a546964a3053f443ad8fb20de5ecc86fe2f9",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.285152,
+        "time_ms": 1771545840000
+      }
+    ],
+    "native_net_R": -1.332785616416247,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1771508056000,
+    "source": "TEXT",
+    "symbol": "AXSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.013827,
+    "entry_ms": 1774535520000,
+    "entry_type": "MARKET",
+    "key": "0101c3489da4808d45f0fe9429a74de13132ad37ccc17f856a1a06e2290db4c6",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.013536633000000001,
+        "time_ms": 1774553340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.013811790300000001,
+        "time_ms": 1774554600000
+      }
+    ],
+    "native_net_R": 0.16528329151233617,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1774535433000,
+    "source": "TEXT",
+    "symbol": "BANANAS31USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.012662,
+    "entry_ms": 1774689720000,
+    "entry_type": "MARKET",
+    "key": "286ef9528af2d6971b20b26b682acf113104b1cd9dc1d33a3681039da167dc74",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.013371072,
+        "time_ms": 1774711020000
+      }
+    ],
+    "native_net_R": -1.037620686756776,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1774689650000,
+    "source": "TEXT",
+    "symbol": "BANANAS31USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.011594,
+    "entry_ms": 1775387880000,
+    "entry_type": "MARKET",
+    "key": "8c6bbeee81d1c7516eb8f677f13137b1c6dd98675c26d7233647fb2b7b0a7ae7",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.011350526,
+        "time_ms": 1775391660000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.011107052,
+        "time_ms": 1775391720000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.010863578,
+        "time_ms": 1775395200000
+      }
+    ],
+    "native_net_R": 0.6101659697596048,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1775387771000,
+    "source": "TEXT",
+    "symbol": "BANANAS31USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01123,
+    "entry_ms": 1775393040000,
+    "entry_type": "MARKET",
+    "key": "5bfc52f9423ca24ef4d278b1e6cc0dce6dd581bfc2b79fd8de7163fda1832596",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.010994170000000001,
+        "time_ms": 1775394240000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.01075834,
+        "time_ms": 1775395260000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.01052251,
+        "time_ms": 1775404860000
+      }
+    ],
+    "native_net_R": 0.6092791964285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1775392973000,
+    "source": "TEXT",
+    "symbol": "BANANAS31USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.010329,
+    "entry_ms": 1775481600000,
+    "entry_type": "MARKET",
+    "key": "505682ae8754e2845a3258dbfc5e74a5b2d9c41a0bfe12fca345ecd11c044f4a",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.010112091,
+        "time_ms": 1775483280000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.009895181999999999,
+        "time_ms": 1775487180000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.009678273,
+        "time_ms": 1775492940000
+      }
+    ],
+    "native_net_R": 0.6094495731764238,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1775481510000,
+    "source": "TEXT",
+    "symbol": "BANANAS31USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.008482,
+    "entry_ms": 1754860440000,
+    "entry_type": "MARKET",
+    "key": "51534bc652930b3628935445ae7d5f26182433e4b99e372812310dd79c8d41ac",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.008660122,
+        "time_ms": 1754877780000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.008491330200000001,
+        "time_ms": 1754894400000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754860321000,
+    "source": "TEXT",
+    "symbol": "BEAMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.4945,
+    "entry_ms": 1766080620000,
+    "entry_type": "MARKET",
+    "key": "1bab477c9cde515072dbd0693390260a8730b127cbea93b4020eb3c4c5de34d6",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.4421155,
+        "time_ms": 1766080860000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.49175605,
+        "time_ms": 1766080920000
+      }
+    ],
+    "native_net_R": 0.08816302713290775,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766080540000,
+    "source": "TEXT",
+    "symbol": "BEATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.3701,
+    "entry_ms": 1766104500000,
+    "entry_type": "MARKET",
+    "key": "6ca726c04f3766f77fb8881dd87cbfeb68241447e9392d067e2c1c4e9610fc88",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 2.5028256,
+        "time_ms": 1766107440000
+      }
+    ],
+    "native_net_R": -1.0833408056471407,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766104438000,
+    "source": "TEXT",
+    "symbol": "BEATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.2343,
+    "entry_ms": 1766136060000,
+    "entry_type": "MARKET",
+    "key": "9baff0dbb04fa4ebcb1b558377fbb9661aa2432054ad455b426f046f6652f483",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.1873797,
+        "time_ms": 1766136420000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 2.1404594,
+        "time_ms": 1766136540000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 2.0935391,
+        "time_ms": 1766137080000
+      }
+    ],
+    "native_net_R": 0.609279196428572,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766135951000,
+    "source": "TEXT",
+    "symbol": "BEATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6369,
+    "entry_ms": 1774431000000,
+    "entry_type": "MARKET",
+    "key": "9ef0b042f305b7f20dc8b5ceb1f11046f9f2941bcf63e1bd8b00e2089cd05443",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.6235251,
+        "time_ms": 1774432860000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.63619941,
+        "time_ms": 1774459980000
+      }
+    ],
+    "native_net_R": 0.16529771163475898,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1774430908000,
+    "source": "TEXT",
+    "symbol": "BEATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6017,
+    "entry_ms": 1774535580000,
+    "entry_type": "MARKET",
+    "key": "e8c92668918794056c8e0016313f9b90a7909177d4cbb9e555bc0dab4e075450",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.5890643,
+        "time_ms": 1774538880000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.5764286,
+        "time_ms": 1774539360000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.6010381300000001,
+        "time_ms": 1774540860000
+      }
+    ],
+    "native_net_R": 0.38854704629145986,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1774535482000,
+    "source": "TEXT",
+    "symbol": "BEATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 115977.6,
+    "entry_ms": 1758116880000,
+    "entry_type": "MARKET",
+    "key": "dffdaaabea4e1fa236c1279566c291824f98f9aa458281cf7283561f63b644c5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "TIME",
+        "price": 115886.1,
+        "time_ms": 1758376080000
+      }
+    ],
+    "native_net_R": -0.0578937319735827,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758116792000,
+    "source": "TEXT",
+    "symbol": "BTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 85949.6,
+    "entry_ms": 1790004180000,
+    "entry_type": "MARKET",
+    "key": "b72356388b8831aa5896cc6a4671887791825e3d21a058faa308577f824bebe5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "TIME",
+        "price": 84025.8,
+        "time_ms": 1790263380000
+      }
+    ],
+    "native_net_R": -0.4427356770342335,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1790004061000,
+    "source": "TEXT",
+    "symbol": "BTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0301,
+    "entry_ms": 1773489900000,
+    "entry_type": "MARKET",
+    "key": "b3bd5ccc9652b2d3fb0177f679d7a0b6802d7a44d3543d9d02acc77ef673b3b9",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.030732099999999995,
+        "time_ms": 1773496560000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.03013311,
+        "time_ms": 1773499320000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1773489819000,
+    "source": "TEXT",
+    "symbol": "C98USDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0318,
+    "entry_ms": 1773911340000,
+    "entry_type": "MARKET",
+    "key": "bf275ed727a164b67c936340bc5b4a41befaf4a29b7e13dbd13dd38133ef33c8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0300192,
+        "time_ms": 1773987540000
+      }
+    ],
+    "native_net_R": -1.0364500000000008,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1773911256000,
+    "source": "TEXT",
+    "symbol": "C98USDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.7378,
+    "entry_ms": 1787344260000,
+    "entry_type": "MARKET",
+    "key": "b29d8829d8141ade3ad9759e1b0d80a9b9e79b85e9e98b5efe460f854e2b264e",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.7742938,
+        "time_ms": 1787349840000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.8107876,
+        "time_ms": 1787365920000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.8472814,
+        "time_ms": 1787369520000
+      }
+    ],
+    "native_net_R": 0.6081247358832177,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1787344141000,
+    "source": "TEXT",
+    "symbol": "CAKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 24.74,
+    "entry_ms": 1776420120000,
+    "entry_type": "MARKET",
+    "key": "c95f55b3d7442556ce025a244ce9bd8e85613062d6cbfe3579176b7b80bc0b70",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 25.259539999999998,
+        "time_ms": 1776433440000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 25.77908,
+        "time_ms": 1776442440000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 26.298619999999996,
+        "time_ms": 1776470760000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1776420059000,
+    "source": "TEXT",
+    "symbol": "COMPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01245,
+    "entry_ms": 1772041740000,
+    "entry_type": "MARKET",
+    "key": "ad58d2921de0543dd904d096f865cf9a8d62fcbe60787c5bda660a7eb0023b3a",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01218855,
+        "time_ms": 1772061840000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0119271,
+        "time_ms": 1772082660000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.01166565,
+        "time_ms": 1772124480000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1772041644000,
+    "source": "TEXT",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01211,
+    "entry_ms": 1773238680000,
+    "entry_type": "MARKET",
+    "key": "5a8627c00a55354aab8759c73ed3bd425db287f36d91c6155f69dcbdf1bf3b25",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.01278816,
+        "time_ms": 1773386220000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1773238561000,
+    "source": "TEXT",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0861,
+    "entry_ms": 1755615840000,
+    "entry_type": "MARKET",
+    "key": "fa5f8ece1a28705ab6f1c08642e21297e6c19c698d0661b008acc9b5c149ef53",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0909216,
+        "time_ms": 1755616740000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755615721000,
+    "source": "TEXT",
+    "symbol": "CTSIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.176,
+    "entry_ms": 1755698760000,
+    "entry_type": "MARKET",
+    "key": "d814f5461986ff6578dc801c7c0759ace55369503e0604fa7a1db962e93f5593",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 2.2978560000000003,
+        "time_ms": 1755706860000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755698642000,
+    "source": "TEXT",
+    "symbol": "CYBERUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.168,
+    "entry_ms": 1755769140000,
+    "entry_type": "MARKET",
+    "key": "3df3c869112088a312bfeb4014af0e32b9563fd836aaa7d7fc568701b197564b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.122472,
+        "time_ms": 1755789120000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.1656152,
+        "time_ms": 1755821520000
+      }
+    ],
+    "native_net_R": 0.16439915178571535,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755769037000,
+    "source": "TEXT",
+    "symbol": "CYBERUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.157,
+    "entry_ms": 1755814680000,
+    "entry_type": "MARKET",
+    "key": "88e7caae854c6177b3b2103da45319701b47467dcf84b325921277e0ee10d7c9",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.111703,
+        "time_ms": 1755841260000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.1546273,
+        "time_ms": 1755846240000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755814592000,
+    "source": "TEXT",
+    "symbol": "CYBERUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03617,
+    "entry_ms": 1778178240000,
+    "entry_type": "MARKET",
+    "key": "11a8c0bafe87a35b40dafef02380f2fbfc2d28a6600d74f3747ce13cd593c0e4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03541043,
+        "time_ms": 1778185620000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.036130213,
+        "time_ms": 1778207700000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1778178175000,
+    "source": "TEXT",
+    "symbol": "DRIFTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03331,
+    "entry_ms": 1779892080000,
+    "entry_type": "MARKET",
+    "key": "999b04b2c2e8f8204073584b2d0be4bd9b30d50f4d7d66639a1ac28b02f9970e",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03261049,
+        "time_ms": 1779906540000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.033273359,
+        "time_ms": 1779907800000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1779891961000,
+    "source": "TEXT",
+    "symbol": "DRIFTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6832,
+    "entry_ms": 1758091380000,
+    "entry_type": "MARKET",
+    "key": "6bc950d993763dc738da796d7750eacd171d9d648160fc6f95342199ec2aa949",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.6688528,
+        "time_ms": 1758275040000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.6545056,
+        "time_ms": 1758282060000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.68244848,
+        "time_ms": 1758287220000
+      }
+    ],
+    "native_net_R": 0.3402016801344516,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1758091309000,
+    "source": "TEXT",
+    "symbol": "ENAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6295,
+    "entry_ms": 1758511740000,
+    "entry_type": "MARKET",
+    "key": "aa88db6aa7ef5a6af58a909f0f03892d67205993c4a652db17f0e39c3fdb5f36",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.6162804999999999,
+        "time_ms": 1758520800000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.603061,
+        "time_ms": 1758520920000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.5898415,
+        "time_ms": 1758520980000
+      }
+    ],
+    "native_net_R": 0.6056245149353239,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1758511626000,
+    "source": "TEXT",
+    "symbol": "ENAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.001447,
+    "entry_ms": 1774102980000,
+    "entry_type": "MARKET",
+    "key": "e281083261aea7575d3baba81977a2c261c8a0d398e921bd4f1a7339ba55ea26",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.001416613,
+        "time_ms": 1774109940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.001386226,
+        "time_ms": 1774122000000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.001355839,
+        "time_ms": 1774136040000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1774102904000,
+    "source": "TEXT",
+    "symbol": "FUNUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.00902,
+    "entry_ms": 1763095560000,
+    "entry_type": "MARKET",
+    "key": "ae3d35fbb0a9cfbc087d8a02446c3e008912afec00b9801ee3a86a91242ddd0c",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.00883058,
+        "time_ms": 1763122320000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.009010078,
+        "time_ms": 1763125140000
+      }
+    ],
+    "native_net_R": 0.1638444404299989,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763095491000,
+    "source": "TEXT",
+    "symbol": "GALAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.00865,
+    "entry_ms": 1763345700000,
+    "entry_type": "MARKET",
+    "key": "2d3da4b156f7364d0b0c8854884f726d530087854f8d21251f7371e950effabf",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.00846835,
+        "time_ms": 1763403780000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0082867,
+        "time_ms": 1763411640000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.008640485,
+        "time_ms": 1763433060000
+      }
+    ],
+    "native_net_R": 0.38535818393889376,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763345597000,
+    "source": "TEXT",
+    "symbol": "GALAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.00809,
+    "entry_ms": 1763684820000,
+    "entry_type": "MARKET",
+    "key": "7f803049b1c66e489ffc797802bb556553bab42a37243752a615ff578960a7a8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.00792011,
+        "time_ms": 1763699580000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.008081101,
+        "time_ms": 1763701680000
+      }
+    ],
+    "native_net_R": 0.16439915178571535,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763684702000,
+    "source": "TEXT",
+    "symbol": "GALAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.09739,
+    "entry_ms": 1755899940000,
+    "entry_type": "MARKET",
+    "key": "eea955a1d8351d2337850d5a948237e027973ae59cef2e1ee33ef31b92312603",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.09534481,
+        "time_ms": 1755913200000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.097282871,
+        "time_ms": 1755926580000
+      }
+    ],
+    "native_net_R": 0.1657302781113858,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755899829000,
+    "source": "TEXT",
+    "symbol": "GOATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03831,
+    "entry_ms": 1767469560000,
+    "entry_type": "MARKET",
+    "key": "b248f6100316345e323414924533efba3c86d6c6cbb9f4dc7663aef036a66104",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03911450999999999,
+        "time_ms": 1767479940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.03991902,
+        "time_ms": 1767496560000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.040723529999999994,
+        "time_ms": 1767516000000
+      }
+    ],
+    "native_net_R": 0.6068569765214221,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1767469461000,
+    "source": "TEXT",
+    "symbol": "GOATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.855,
+    "entry_ms": 1757744400000,
+    "entry_type": "MARKET",
+    "key": "38a7afa1a04202709fc0210356961a2311ba5352f8d7e37c6d62940c880ec6e8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8729549999999999,
+        "time_ms": 1757746260000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.8559405000000001,
+        "time_ms": 1757749980000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1757744281000,
+    "source": "TEXT",
+    "symbol": "GRASSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.8796,
+    "entry_ms": 1758302400000,
+    "entry_type": "MARKET",
+    "key": "f20bb336c0bf3b09257c3d204b48066aba49081c748bf6b40a0aad0eea4e76e1",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8980716,
+        "time_ms": 1758317940000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.8805675600000001,
+        "time_ms": 1758330720000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758302293000,
+    "source": "TEXT",
+    "symbol": "GRASSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.7355,
+    "entry_ms": 1758569640000,
+    "entry_type": "MARKET",
+    "key": "ee1014c8624fd06c760feeabad50522952752da20854ad1eeb5338ef1406816e",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.7509454999999999,
+        "time_ms": 1758613500000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.766391,
+        "time_ms": 1758617580000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.7818365,
+        "time_ms": 1758635580000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758569557000,
+    "source": "TEXT",
+    "symbol": "GRASSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05372,
+    "entry_ms": 1763661120000,
+    "entry_type": "MARKET",
+    "key": "141f7549b2494320fb0b624f695fcaf6b647307131712625246636eae251e797",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.052591879999999994,
+        "time_ms": 1763665380000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.053660908,
+        "time_ms": 1763666820000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763661008000,
+    "source": "TEXT",
+    "symbol": "GRTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05171,
+    "entry_ms": 1764008940000,
+    "entry_type": "MARKET",
+    "key": "eee74669a9eebd4d90b1cabaa03fced8c1ac5232e0eae64e0e52a0f36699c12b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05062409,
+        "time_ms": 1764037440000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.051653119,
+        "time_ms": 1764091980000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1764008840000,
+    "source": "TEXT",
+    "symbol": "GRTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.16925,
+    "entry_ms": 1760649000000,
+    "entry_type": "MARKET",
+    "key": "b39078d41a1ddc9ba3c9e2b140a6444a29b04f48589e2229a40c7fb22bc0f217",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.16569575,
+        "time_ms": 1760683380000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.1621415,
+        "time_ms": 1760685000000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.15858725,
+        "time_ms": 1760688420000
+      }
+    ],
+    "native_net_R": 0.6114175378508131,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760648916000,
+    "source": "TEXT",
+    "symbol": "HBARUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06206,
+    "entry_ms": 1760390220000,
+    "entry_type": "MARKET",
+    "key": "900eba2b6e7ea9e5c8a19adb57d775278851f6d056559946a0429d75acfffb38",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06075674,
+        "time_ms": 1760401920000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.059453479999999996,
+        "time_ms": 1760408220000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.05815022,
+        "time_ms": 1760415000000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760390108000,
+    "source": "TEXT",
+    "symbol": "HFTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3553,
+    "entry_ms": 1769062320000,
+    "entry_type": "MARKET",
+    "key": "3cd2c61acb432ce5d7527ee1c4413c0b1d1113585f37616fa799243b966710bd",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.3751968,
+        "time_ms": 1769066880000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1769062243000,
+    "source": "TEXT",
+    "symbol": "ICNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.7883,
+    "entry_ms": 1758202080000,
+    "entry_type": "MARKET",
+    "key": "5fc58698652e0429d5c3616c091484dd3b6c4cd5f9826c73d858ef76f8f64896",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8048542999999999,
+        "time_ms": 1758205680000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.8214086,
+        "time_ms": 1758207420000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.8379629,
+        "time_ms": 1758208800000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758201982000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.8412,
+    "entry_ms": 1758208800000,
+    "entry_type": "MARKET",
+    "key": "d3de5478469a4685d1badd32ebfc9c555bfcebe6042170c3f6ef08f98f08b765",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8588651999999999,
+        "time_ms": 1758210060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.8421253200000001,
+        "time_ms": 1758210840000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758208720000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.8668,
+    "entry_ms": 1758222720000,
+    "entry_type": "MARKET",
+    "key": "c0556e81860eaf46dd558303b44d6a9c163967f53bc7c074b17eef28ac93b53b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8850028,
+        "time_ms": 1758243540000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.9032056,
+        "time_ms": 1758244140000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.9214084,
+        "time_ms": 1758244980000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758222621000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.888,
+    "entry_ms": 1758254940000,
+    "entry_type": "MARKET",
+    "key": "5fe4fc4d3bf16d5151d4f3ef8d3e372bbd6468ad02291fb08be3e6d403918904",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.9066479999999999,
+        "time_ms": 1758257760000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.8889768000000001,
+        "time_ms": 1758258480000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1758254855000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.4965,
+    "entry_ms": 1760745840000,
+    "entry_type": "MARKET",
+    "key": "0cc0f43738c9ebfe15b4057f78bf86cb45f4806ce1cc56ab78766752091a1b93",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.4860735,
+        "time_ms": 1760805180000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.49595385000000003,
+        "time_ms": 1760808420000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760745772000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1764,
+    "entry_ms": 1776771000000,
+    "entry_type": "MARKET",
+    "key": "940f9befa6c1f44d892e02504c206dd3c192db73cc34a1bed5d78b526090a9d0",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.1801044,
+        "time_ms": 1776837840000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.17659404,
+        "time_ms": 1776859260000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1776770886000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1799,
+    "entry_ms": 1777127940000,
+    "entry_type": "MARKET",
+    "key": "563c61f12e6f743569ea409722d513ef40ffd3cbb99ba7a643847422a5c63c18",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.18367789999999998,
+        "time_ms": 1777129440000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.18009789,
+        "time_ms": 1777144860000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1777127880000,
+    "source": "TEXT",
+    "symbol": "IMXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02347,
+    "entry_ms": 1759170960000,
+    "entry_type": "MARKET",
+    "key": "9431f837f0fd25ad9a1153d90a0a731dda932383b8742e961d703fe6e86fbc79",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.022977130000000002,
+        "time_ms": 1759248840000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.023444183,
+        "time_ms": 1759333200000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1759170880000,
+    "source": "TEXT",
+    "symbol": "IOTXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02413,
+    "entry_ms": 1759777380000,
+    "entry_type": "MARKET",
+    "key": "9810c58e4ed36c1768284af952639ec9dd36d0905726e809f7717072fef10f36",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02362327,
+        "time_ms": 1759846140000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.023116539999999998,
+        "time_ms": 1759849680000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.024103457,
+        "time_ms": 1759851960000
+      }
+    ],
+    "native_net_R": 0.3863024285714289,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1759777299000,
+    "source": "TEXT",
+    "symbol": "IOTXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01459,
+    "entry_ms": 1760388420000,
+    "entry_type": "MARKET",
+    "key": "3c3570a39f1313ef61a6c5503df8691211f62c03895b9e8042c5926ca3e72246",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.015407040000000002,
+        "time_ms": 1760405280000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760388304000,
+    "source": "TEXT",
+    "symbol": "IOTXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.488,
+    "entry_ms": 1766689800000,
+    "entry_type": "MARKET",
+    "key": "f1cad480566d4dc8c672349370bcc7aefeb1c56c43937771b2c32866bfa9d1a8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.456752,
+        "time_ms": 1766702880000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.4255039999999999,
+        "time_ms": 1766705880000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 1.4863632,
+        "time_ms": 1766727120000
+      }
+    ],
+    "native_net_R": 0.38630242857142794,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766689698000,
+    "source": "TEXT",
+    "symbol": "IPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6296,
+    "entry_ms": 1783497240000,
+    "entry_type": "MARKET",
+    "key": "4659ea5b3ad36e905aa167bdd56bd9e8aabea86821153e55cb851ab35859d1c2",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.6163784,
+        "time_ms": 1783500240000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.6289074400000001,
+        "time_ms": 1783504020000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1783497178000,
+    "source": "TEXT",
+    "symbol": "JTOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.6002,
+    "entry_ms": 1783513500000,
+    "entry_type": "MARKET",
+    "key": "78f418663adc8e0f45f01b34432595c3333c7b9a0713f812d8a9a9c1146e0906",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.6338112,
+        "time_ms": 1783527120000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1783513391000,
+    "source": "TEXT",
+    "symbol": "JTOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.557,
+    "entry_ms": 1784271480000,
+    "entry_type": "MARKET",
+    "key": "9ae7c7a376fc269306ca18b5f69eea9a6bb1c9f1b97f5175c3a80f8ef8a37ebd",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.5453030000000001,
+        "time_ms": 1784295360000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.5563873,
+        "time_ms": 1784309340000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1784271370000,
+    "source": "TEXT",
+    "symbol": "JTOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.5316,
+    "entry_ms": 1785300660000,
+    "entry_type": "MARKET",
+    "key": "900ced5723d82b15add6869479eddc9517c39f9ce358dd031d2679d07dc4e9db",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.5204363999999999,
+        "time_ms": 1785391380000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.5092728,
+        "time_ms": 1785410520000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.4981092,
+        "time_ms": 1785428280000
+      }
+    ],
+    "native_net_R": 0.6092791964285725,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1785300562000,
+    "source": "TEXT",
+    "symbol": "JTOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2021,
+    "entry_ms": 1791127740000,
+    "entry_type": "MARKET",
+    "key": "9536292e5e4466ddb5382381b0b2e05c1733dcc36b4b0ef3aca428f7b00a9c5d",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.20634409999999997,
+        "time_ms": 1791224940000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.20232231000000003,
+        "time_ms": 1791230100000
+      }
+    ],
+    "native_net_R": 0.14529653775977247,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1791127678000,
+    "source": "TEXT",
+    "symbol": "LIGHTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 13.146,
+    "entry_ms": 1768060860000,
+    "entry_type": "MARKET",
+    "key": "1cf03d0373220119eb09e96209823cc26b549b791201abf44898825bf71c7ef9",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 13.422066,
+        "time_ms": 1768184160000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 13.160460600000002,
+        "time_ms": 1768207020000
+      }
+    ],
+    "native_net_R": 0.15792801457124392,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1768060754000,
+    "source": "TEXT",
+    "symbol": "LINKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.171,
+    "entry_ms": 1754775360000,
+    "entry_type": "MARKET",
+    "key": "3b7eae42284f44a9f63cd9bd46325a2b4f0d638eeaba93b0b0234d200cbcd0b2",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.2165909999999998,
+        "time_ms": 1754787840000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.1733881,
+        "time_ms": 1754793180000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754775289000,
+    "source": "TEXT",
+    "symbol": "MORPHOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.2963,
+    "entry_ms": 1755587400000,
+    "entry_type": "MARKET",
+    "key": "bb78dee6b1013592467a7cbdd4264c08625c51cfce8c1bc9957617159837b552",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.2690777,
+        "time_ms": 1755589320000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.29487407,
+        "time_ms": 1755590520000
+      }
+    ],
+    "native_net_R": 0.1645089681173606,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755587284000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.2505,
+    "entry_ms": 1755593220000,
+    "entry_type": "MARKET",
+    "key": "953afe46897eca09a0c16b2e0d6f9c26bff70dd495a5feabf57bf7087775aee1",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.2242395,
+        "time_ms": 1755599580000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.24912445,
+        "time_ms": 1755600300000
+      }
+    ],
+    "native_net_R": 0.16485263110827006,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755593135000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.1668,
+    "entry_ms": 1755604680000,
+    "entry_type": "MARKET",
+    "key": "5871a3f0898ce8a5dbdd4045b263d23dc3fc82738ee656020b40cffff2bef13c",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.2321408,
+        "time_ms": 1755605520000
+      }
+    ],
+    "native_net_R": -1.03832676658382,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755604569000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.056,
+    "entry_ms": 1755709020000,
+    "entry_type": "MARKET",
+    "key": "5753d3ded7050c28c86ab21be3daa31aa4506c5139aa44f162d0e9daaafb1ad5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.033824,
+        "time_ms": 1755710280000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.0548384,
+        "time_ms": 1755715860000
+      }
+    ],
+    "native_net_R": 0.1647317537540595,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755708930000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.15,
+    "entry_ms": 1756107240000,
+    "entry_type": "MARKET",
+    "key": "d634a25764d4242b8c96ee3030cb787c6c9bb1649969882e56320c28127c0fc4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.1741499999999998,
+        "time_ms": 1756111920000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.151265,
+        "time_ms": 1756116060000
+      }
+    ],
+    "native_net_R": 0.16372268439441,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1756107157000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.2774,
+    "entry_ms": 1756212180000,
+    "entry_type": "MARKET",
+    "key": "5eb2a867e4b159ec9704f6500090f72733fae220afe5559d15cee2e8f79881ab",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.2058656,
+        "time_ms": 1756212420000
+      }
+    ],
+    "native_net_R": -1.0364500000000008,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1756212079000,
+    "source": "TEXT",
+    "symbol": "MYXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.453,
+    "entry_ms": 1763077800000,
+    "entry_type": "MARKET",
+    "key": "0bdae87d54e97fa80595616e4793d59f30212387817cea5b9fd2933258d1442e",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.401487,
+        "time_ms": 1763085840000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 2.3499739999999996,
+        "time_ms": 1763095080000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 2.4503017,
+        "time_ms": 1763135280000
+      }
+    ],
+    "native_net_R": 0.38671484063246253,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763077705000,
+    "source": "TEXT",
+    "symbol": "NEARUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.281,
+    "entry_ms": 1763314560000,
+    "entry_type": "MARKET",
+    "key": "4e6075102fa233ad743255978b512a2600960592c947f47aae11c84c3209e9a2",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.233099,
+        "time_ms": 1763327280000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.2784909,
+        "time_ms": 1763331600000
+      }
+    ],
+    "native_net_R": 0.16439915178571535,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763314451000,
+    "source": "TEXT",
+    "symbol": "NEARUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.27644,
+    "entry_ms": 1754867940000,
+    "entry_type": "MARKET",
+    "key": "efad74191f67b921ed37b7dcac513ec9427032050e8e7799eb483a2f1a5f4283",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.28224524,
+        "time_ms": 1754877660000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.28805048000000005,
+        "time_ms": 1754885460000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.29385572,
+        "time_ms": 1754894760000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754867821000,
+    "source": "TEXT",
+    "symbol": "OMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.26243,
+    "entry_ms": 1754951460000,
+    "entry_type": "MARKET",
+    "key": "fcfde588bf22794c5a5fa3468e2a2698bb02192571aa5cb3559f8190c91feced",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.26794102999999997,
+        "time_ms": 1754959980000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.262718673,
+        "time_ms": 1754976480000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754951342000,
+    "source": "TEXT",
+    "symbol": "OMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0699,
+    "entry_ms": 1777298400000,
+    "entry_type": "MARKET",
+    "key": "b711b92543d096a03e4317b20cf0c145ddac21763d89d1a51bf926217f0f6ebb",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "TIME",
+        "price": 0.0706,
+        "time_ms": 1777557600000
+      }
+    ],
+    "native_net_R": -0.21651466380543466,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1777298306000,
+    "source": "TEXT",
+    "symbol": "ONTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0548,
+    "entry_ms": 1779893220000,
+    "entry_type": "MARKET",
+    "key": "0932d37d5fbc8d1cc0a8b023dab3972ee8d8ddee4d149602609a8d0e61ff015a",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0536492,
+        "time_ms": 1779906840000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0524984,
+        "time_ms": 1779938340000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.05134760000000001,
+        "time_ms": 1779945660000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1779893108000,
+    "source": "TEXT",
+    "symbol": "ONTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3373,
+    "entry_ms": 1786991640000,
+    "entry_type": "MARKET",
+    "key": "86cde3fdeec96d5fe5b0e4f66f136848f21ec8fb6a974f706706c4fad503f3e3",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.3302167,
+        "time_ms": 1787021520000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.32313339999999996,
+        "time_ms": 1787023260000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.33692897,
+        "time_ms": 1787026020000
+      }
+    ],
+    "native_net_R": 0.38827444373385317,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1786991554000,
+    "source": "TEXT",
+    "symbol": "ONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3083,
+    "entry_ms": 1787038560000,
+    "entry_type": "MARKET",
+    "key": "b73287aef3d84fcc78faa88838bf76462fcb48cc60b958c63c200b6e920b2aae",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.30182570000000003,
+        "time_ms": 1787043240000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.2953514,
+        "time_ms": 1787043660000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.28887710000000005,
+        "time_ms": 1787045940000
+      }
+    ],
+    "native_net_R": 0.6101720535714279,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1787038487000,
+    "source": "TEXT",
+    "symbol": "ONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2938,
+    "entry_ms": 1787045460000,
+    "entry_type": "MARKET",
+    "key": "605aa425f63b4f2cea3881cf596b433d80d056d484db2d445160aa37b1c1b953",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.2876302,
+        "time_ms": 1787046000000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.29347682,
+        "time_ms": 1787047140000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1787045391000,
+    "source": "TEXT",
+    "symbol": "ONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2599,
+    "entry_ms": 1787084940000,
+    "entry_type": "MARKET",
+    "key": "7432a95534c0e393efa9a20c0f16a700136296138861956dbc30b99baf085017",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.27445440000000004,
+        "time_ms": 1787089020000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1787084839000,
+    "source": "TEXT",
+    "symbol": "ONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2605,
+    "entry_ms": 1787133120000,
+    "entry_type": "MARKET",
+    "key": "7e04964f85a8330d00d8106c0b45d9618fcf8c41397c5d8e7803e08c36be756e",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.2550295,
+        "time_ms": 1787133420000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.26021345,
+        "time_ms": 1787133840000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1787133034000,
+    "source": "TEXT",
+    "symbol": "ONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.010414,
+    "entry_ms": 1768845540000,
+    "entry_type": "MARKET",
+    "key": "9d7ca18c042101c6068340dbe187ce5472e04ff1105c86843e997e6dc0cf8253",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.010195306,
+        "time_ms": 1768884120000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.009976612,
+        "time_ms": 1768898160000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.009757918,
+        "time_ms": 1768927560000
+      }
+    ],
+    "native_net_R": 0.6107838682645612,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1768845429000,
+    "source": "TEXT",
+    "symbol": "PENGUUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03001,
+    "entry_ms": 1770238920000,
+    "entry_type": "MARKET",
+    "key": "ec7347da31514125f53a4d9a9bce706ec3e8f585b4405ba393889c47a91c9870",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02937979,
+        "time_ms": 1770242820000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.029976989,
+        "time_ms": 1770243780000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1770238847000,
+    "source": "TEXT",
+    "symbol": "PHAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02632,
+    "entry_ms": 1770632280000,
+    "entry_type": "MARKET",
+    "key": "f6cd2e562e1ee46a4947c9c9006dc951547ae70d7f25237dc2dc482f06936402",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02576728,
+        "time_ms": 1770796620000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.025214559999999997,
+        "time_ms": 1770805200000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.026291048,
+        "time_ms": 1770835740000
+      }
+    ],
+    "native_net_R": 0.3863024285714294,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1770632161000,
+    "source": "TEXT",
+    "symbol": "PHAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.147,
+    "entry_ms": 1769511540000,
+    "entry_type": "MARKET",
+    "key": "fd05be298604d04b6ee3216a510f2173be147c75151fc8c346892a8d5e31025c",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.14391299999999999,
+        "time_ms": 1769517720000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.1468383,
+        "time_ms": 1769540160000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1769511441000,
+    "source": "TEXT",
+    "symbol": "RONINUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.31572,
+    "entry_ms": 1757752260000,
+    "entry_type": "MARKET",
+    "key": "5a803aac50b4f39c5753f63b158d3ebae1d52d54429060c26d02626d1f05b559",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.32235011999999996,
+        "time_ms": 1757769840000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.31606729200000006,
+        "time_ms": 1757771520000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1757752141000,
+    "source": "TEXT",
+    "symbol": "SANDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.29594,
+    "entry_ms": 1757946060000,
+    "entry_type": "MARKET",
+    "key": "654df850e45e656d0874faa27af5e3fa3fc4a84d7e790813821dea2f35fa3cfa",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.30215474,
+        "time_ms": 1758043440000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.296265534,
+        "time_ms": 1758125040000
+      }
+    ],
+    "native_net_R": 0.15972209052691672,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1757945989000,
+    "source": "TEXT",
+    "symbol": "SANDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1183,
+    "entry_ms": 1764879420000,
+    "entry_type": "MARKET",
+    "key": "c39826d080990527f62035f8519575a6e49c2d55e5a9fd8e2818f3ab462195e5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.1158157,
+        "time_ms": 1764924060000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.1133314,
+        "time_ms": 1764943500000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.1108471,
+        "time_ms": 1764950880000
+      }
+    ],
+    "native_net_R": 0.6081578860192007,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1764879303000,
+    "source": "TEXT",
+    "symbol": "STRKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1051,
+    "entry_ms": 1765664520000,
+    "entry_type": "MARKET",
+    "key": "830d4ae084cafccbcf0ca58e6d4324094eccccad283ddbbb555f97b34eb0e2a0",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.1028929,
+        "time_ms": 1765712700000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.10498439,
+        "time_ms": 1765764540000
+      }
+    ],
+    "native_net_R": 0.15270535098375704,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765664406000,
+    "source": "TEXT",
+    "symbol": "STRKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0793,
+    "entry_ms": 1766340120000,
+    "entry_type": "MARKET",
+    "key": "389412d71f916e3bfc759ce9499b012c147ea5159944c3190b5bf602861cbaec",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0776347,
+        "time_ms": 1766459280000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.07596939999999999,
+        "time_ms": 1766501580000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.07921277,
+        "time_ms": 1766511360000
+      }
+    ],
+    "native_net_R": 0.36575539312736344,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766340009000,
+    "source": "TEXT",
+    "symbol": "STRKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05213,
+    "entry_ms": 1771100100000,
+    "entry_type": "MARKET",
+    "key": "1a876d4a89b28f29f75939ef4d9d3054833a40633b2ee10097ae9403ba864c1c",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.04921072,
+        "time_ms": 1771160160000
+      }
+    ],
+    "native_net_R": -1.0344955183469904,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1771100034000,
+    "source": "TEXT",
+    "symbol": "STRKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9108,
+    "entry_ms": 1789924140000,
+    "entry_type": "MARKET",
+    "key": "0f119b529380c810aa8333bf86f75b94aab3ad6c1eb91467aeb9983030e262e6",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.9299267999999999,
+        "time_ms": 1789949940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.9490536,
+        "time_ms": 1789950720000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.9681804,
+        "time_ms": 1789971540000
+      }
+    ],
+    "native_net_R": 0.607914302889139,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1789924021000,
+    "source": "TEXT",
+    "symbol": "SUIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9345,
+    "entry_ms": 1789957260000,
+    "entry_type": "MARKET",
+    "key": "16bb4df65004aaa3c93e78e291242be69ad650cfb194ce8ee791d17917bafad4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.9541244999999999,
+        "time_ms": 1789971180000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.9737490000000001,
+        "time_ms": 1789971660000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.9933734999999999,
+        "time_ms": 1789980540000
+      }
+    ],
+    "native_net_R": 0.608479908478559,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1789957176000,
+    "source": "TEXT",
+    "symbol": "SUIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9888,
+    "entry_ms": 1789981560000,
+    "entry_type": "MARKET",
+    "key": "dcb94ceafc94408822dfacaca75b75a3590d61ac9c8ddff070119f18b89313d0",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.0095648,
+        "time_ms": 1789982820000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.9898876800000002,
+        "time_ms": 1789984320000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1789981469000,
+    "source": "TEXT",
+    "symbol": "SUIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.0166,
+    "entry_ms": 1790060820000,
+    "entry_type": "MARKET",
+    "key": "eeb288970b8b3ccad1b8a76c36afc384512324abcfed6e64b3c800102e93afee",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.9596703999999999,
+        "time_ms": 1790172780000
+      }
+    ],
+    "native_net_R": -1.0428597118370768,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1790060716000,
+    "source": "TEXT",
+    "symbol": "SUIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.020726,
+    "entry_ms": 1777275960000,
+    "entry_type": "MARKET",
+    "key": "8331e20de6f6cd7f2ca18e4b69d7a586fae3cc4ef2e975bad77c955624d8f8ee",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.021161245999999998,
+        "time_ms": 1777277040000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.021596492000000002,
+        "time_ms": 1777278240000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.022031738,
+        "time_ms": 1777278840000
+      }
+    ],
+    "native_net_R": 0.6085779464285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1777275849000,
+    "source": "TEXT",
+    "symbol": "SWARMSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 319.91,
+    "entry_ms": 1778454360000,
+    "entry_type": "MARKET",
+    "key": "16f8750511d4435b92d5cd49a706ed7bc6f5e0d813dd73a70d0cdddd418c038b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 326.62811,
+        "time_ms": 1778493240000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 320.2619010000001,
+        "time_ms": 1778501520000
+      }
+    ],
+    "native_net_R": 0.16321954957895532,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1778454248000,
+    "source": "TEXT",
+    "symbol": "TAOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 198.66,
+    "entry_ms": 1780676580000,
+    "entry_type": "MARKET",
+    "key": "66c3d2291ffff0d9a0f854cec869005d0eff1cfca8e1710969826a2ff41d73df",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 194.48814,
+        "time_ms": 1780683060000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 190.31627999999998,
+        "time_ms": 1780684620000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 198.441474,
+        "time_ms": 1780692660000
+      }
+    ],
+    "native_net_R": 0.3862831976061046,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1780676473000,
+    "source": "TEXT",
+    "symbol": "TAOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 193.93,
+    "entry_ms": 1780726980000,
+    "entry_type": "MARKET",
+    "key": "04e2cf2279125531299e58da3e6a3460e77d759d849dbf5a308ddd3a1671f9d4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 204.79008000000002,
+        "time_ms": 1780809960000
+      }
+    ],
+    "native_net_R": -1.0447636514371912,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1780726864000,
+    "source": "TEXT",
+    "symbol": "TAOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9192,
+    "entry_ms": 1762969380000,
+    "entry_type": "MARKET",
+    "key": "59c2b9c5eecef8107c26c3fb32c86e49ec5c9488f0ab8e07028f01eb49cdfa98",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8998968,
+        "time_ms": 1763053200000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.8805936,
+        "time_ms": 1763056800000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.8612904,
+        "time_ms": 1763095080000
+      }
+    ],
+    "native_net_R": 0.6057467993752327,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1762969317000,
+    "source": "TEXT",
+    "symbol": "TIAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9024,
+    "entry_ms": 1763061180000,
+    "entry_type": "MARKET",
+    "key": "b1b99f0973007a61f18711a43fef62abd5369ed5bdc9afceb24e6344bc981a64",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8834496,
+        "time_ms": 1763062740000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.90140736,
+        "time_ms": 1763080500000
+      }
+    ],
+    "native_net_R": 0.164278170939004,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763061112000,
+    "source": "TEXT",
+    "symbol": "TIAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.7073,
+    "entry_ms": 1763663220000,
+    "entry_type": "MARKET",
+    "key": "c6929e7aa75e958f2cd91416d951c73bf331189f716eb58227b8af440f833122",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.7469088,
+        "time_ms": 1763676720000
+      }
+    ],
+    "native_net_R": -1.0423007577104089,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1763663106000,
+    "source": "TEXT",
+    "symbol": "TIAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.002524,
+    "entry_ms": 1783448400000,
+    "entry_type": "MARKET",
+    "key": "b7618575a4d349d3a07638e3b41f2c0a4b4f0e1b6b22b50759045e3a0edb0ad6",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0026653440000000005,
+        "time_ms": 1783458480000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1783448293000,
+    "source": "TEXT",
+    "symbol": "TLMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.002268,
+    "entry_ms": 1783621380000,
+    "entry_type": "MARKET",
+    "key": "9167189e2e4f0d779f8b293f7624c438782213e6d334c698760a821950c36b0a",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.002220372,
+        "time_ms": 1783623780000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0022655052,
+        "time_ms": 1783629420000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1783621287000,
+    "source": "TEXT",
+    "symbol": "TLMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0040971,
+    "entry_ms": 1755643440000,
+    "entry_type": "MARKET",
+    "key": "f3529009523cb100bac7c38ce111cc71acc9c57573d947c65f8368379e003ce4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0040110609,
+        "time_ms": 1755653940000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.00409259319,
+        "time_ms": 1755656100000
+      }
+    ],
+    "native_net_R": 0.16527634018029308,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755643354000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0045383,
+    "entry_ms": 1755899700000,
+    "entry_type": "MARKET",
+    "key": "f09d984fb2736befdfbf699858260da76d410a609088a62ce66c726edd8ca9b0",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.004442995700000001,
+        "time_ms": 1755912480000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0043476914,
+        "time_ms": 1755916380000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0042523871,
+        "time_ms": 1756031460000
+      }
+    ],
+    "native_net_R": 0.6115566894168197,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1755899628000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0015169,
+    "entry_ms": 1768936920000,
+    "entry_type": "MARKET",
+    "key": "295f0997d975431acff7306c579caedd11919724d58fa211a8e5272cd2eef824",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0016018464000000002,
+        "time_ms": 1769030340000
+      }
+    ],
+    "native_net_R": -1.0528928935305095,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1768936807000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0014573,
+    "entry_ms": 1769363940000,
+    "entry_type": "MARKET",
+    "key": "1b7cc7d8264e1ee922d2eeea4ca9a716c097fc4c3e067fb25a8b9dda74c5d1db",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0014266966999999999,
+        "time_ms": 1769366100000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0013960933999999999,
+        "time_ms": 1769370840000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.0014556969699999998,
+        "time_ms": 1769389500000
+      }
+    ],
+    "native_net_R": 0.385498225490389,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1769363863000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0014841,
+    "entry_ms": 1769524500000,
+    "entry_type": "MARKET",
+    "key": "11acc9a8bc711e15dfa9bee7f03b17499912b69afb39b8d67414251a166d3767",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0014529338999999999,
+        "time_ms": 1769685480000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0014217677999999998,
+        "time_ms": 1769697840000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0013906017,
+        "time_ms": 1769699040000
+      }
+    ],
+    "native_net_R": 0.6084134921417022,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1769524413000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.001186,
+    "entry_ms": 1770243120000,
+    "entry_type": "MARKET",
+    "key": "aa835e18e9b4c2fb0f054d0d9144005e982ec7e04fea12dd6a4907237ca20b81",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0011610939999999999,
+        "time_ms": 1770268980000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0011846954,
+        "time_ms": 1770270120000
+      }
+    ],
+    "native_net_R": 0.16604491837810173,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1770243002000,
+    "source": "TEXT",
+    "symbol": "TURBOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.439,
+    "entry_ms": 1756107060000,
+    "entry_type": "MARKET",
+    "key": "791d4c2ae4d9fe73b924037388c5a4f81080e97d216d941ad7eacdd377c18f61",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.408781,
+        "time_ms": 1756118340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.4374171,
+        "time_ms": 1756131540000
+      }
+    ],
+    "native_net_R": 0.16572633832398498,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1756106963000,
+    "source": "TEXT",
+    "symbol": "UMAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.388,
+    "entry_ms": 1756153920000,
+    "entry_type": "MARKET",
+    "key": "ad33423aaebf08dfa2f3f2a9f6c67f4b83590b653f973ba80208ad22103f11d5",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.358852,
+        "time_ms": 1756157520000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.3864732,
+        "time_ms": 1756211940000
+      }
+    ],
+    "native_net_R": 0.164822606589646,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1756153850000,
+    "source": "TEXT",
+    "symbol": "UMAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.005331,
+    "entry_ms": 1783960200000,
+    "entry_type": "MARKET",
+    "key": "b991680ff78e3ed92849a547e7a24bc4a0d9e52c35744663aaca718e90e7911a",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.005219049,
+        "time_ms": 1783975620000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0053251359,
+        "time_ms": 1783980060000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1783960084000,
+    "source": "TEXT",
+    "symbol": "VANRYUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.004781,
+    "entry_ms": 1784612040000,
+    "entry_type": "MARKET",
+    "key": "c0180fe215a52826e13c79585c871aba408be5e125f61a75fbd92ef967fa5ab0",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.004680599,
+        "time_ms": 1784625900000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.004580198,
+        "time_ms": 1784632260000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.0047757408999999995,
+        "time_ms": 1784691360000
+      }
+    ],
+    "native_net_R": 0.3863024285714289,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1784611944000,
+    "source": "TEXT",
+    "symbol": "VANRYUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 516.35,
+    "entry_ms": 1794549240000,
+    "entry_type": "MARKET",
+    "key": "8f040117b62ae5f7ad9cdc87006c7dae0071e4303cb07453fac36ed3141dd14b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 505.50665000000004,
+        "time_ms": 1794676080000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 494.6633,
+        "time_ms": 1794685380000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 483.81995000000006,
+        "time_ms": 1794688440000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1794549175000,
+    "source": "TEXT",
+    "symbol": "XMRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3827,
+    "entry_ms": 1760985600000,
+    "entry_type": "MARKET",
+    "key": "5b898adc2131bab0a97c486fecd72eb6ec469d01bf07122b2c5c8a3f1c561675",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.4041312,
+        "time_ms": 1761006480000
+      }
+    ],
+    "native_net_R": -1.0398678181343097,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1760985540000,
+    "source": "TEXT",
+    "symbol": "XPLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3438,
+    "entry_ms": 1761171180000,
+    "entry_type": "MARKET",
+    "key": "fb7475c15886e512c236de63ffd79087ad69413f8f752d6c3db6ea81ce3a7c14",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.3630528,
+        "time_ms": 1761236700000
+      }
+    ],
+    "native_net_R": -1.0360055188855657,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1761171081000,
+    "source": "TEXT",
+    "symbol": "XPLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.382,
+    "entry_ms": 1761335640000,
+    "entry_type": "MARKET",
+    "key": "89bb47965de11bbfa4094ac3d0a33d85ae4fba783b48a2a72c552fd9867be346",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.390022,
+        "time_ms": 1761357900000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.38242020000000004,
+        "time_ms": 1761365400000
+      }
+    ],
+    "native_net_R": 0.1619303171746448,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1761335575000,
+    "source": "TEXT",
+    "symbol": "XPLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3897,
+    "entry_ms": 1761444180000,
+    "entry_type": "MARKET",
+    "key": "f2a8ef3ef803ed67c17b97f27435476be7ff2eb99a38e92f56c67d9f48df676b",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.39788369999999995,
+        "time_ms": 1761455460000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.39012867,
+        "time_ms": 1761475560000
+      }
+    ],
+    "native_net_R": 0.16334776149923025,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1761444095000,
+    "source": "TEXT",
+    "symbol": "XPLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.4086,
+    "entry_ms": 1770627480000,
+    "entry_type": "MARKET",
+    "key": "f923c562983a9ce0c29fbfc6001abb81731aa282aee0af5f0e3abadf9c9ed4f8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.3790194,
+        "time_ms": 1770633180000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.4070505400000002,
+        "time_ms": 1770639180000
+      }
+    ],
+    "native_net_R": 0.16439915178571338,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1770627393000,
+    "source": "TEXT",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.4427,
+    "entry_ms": 1776420840000,
+    "entry_type": "MARKET",
+    "key": "f7ad29f7d18852a42dad7db45a7ecad51ffa8e77e36296162ca0df14f5596100",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.4729967,
+        "time_ms": 1776431580000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.5032934000000002,
+        "time_ms": 1776436860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 1.4442869700000003,
+        "time_ms": 1776506580000
+      }
+    ],
+    "native_net_R": 0.38522026257810227,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1776420725000,
+    "source": "TEXT",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.4854,
+    "entry_ms": 1776441600000,
+    "entry_type": "MARKET",
+    "key": "d2f5016977a63679426b5e699e6c4051370d75baf85075018d261dfdaf001935",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.4022176,
+        "time_ms": 1776636060000
+      }
+    ],
+    "native_net_R": -1.0399630475196684,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1776441527000,
+    "source": "TEXT",
+    "symbol": "XRPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.007972,
+    "entry_ms": 1764008820000,
+    "entry_type": "MARKET",
+    "key": "8c4c9aba83d8c6d288ab9d9ce94181e0b5b3d9ee15a44f967becaba54dd2e149",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0078045879999999995,
+        "time_ms": 1764017100000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.007637176,
+        "time_ms": 1764031500000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.007469764,
+        "time_ms": 1764070440000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1764008722000,
+    "source": "TEXT",
+    "symbol": "XVGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.005914,
+    "entry_ms": 1765660680000,
+    "entry_type": "MARKET",
+    "key": "78e5a7301e8c4dc27880fc7fb5388765813006e8ccc5552f0143ecb9e621723c",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.005789806,
+        "time_ms": 1765732440000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0056656119999999996,
+        "time_ms": 1765748280000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.005541418,
+        "time_ms": 1765755180000
+      }
+    ],
+    "native_net_R": 0.6092791964285715,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765660561000,
+    "source": "TEXT",
+    "symbol": "XVGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.00574,
+    "entry_ms": 1765801980000,
+    "entry_type": "MARKET",
+    "key": "0f18ac654ab5c6e22ab50d81dfb81201500bea8365e20bc72e00675586af7023",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.005619460000000001,
+        "time_ms": 1765810620000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.00549892,
+        "time_ms": 1765817220000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.00537838,
+        "time_ms": 1765820040000
+      }
+    ],
+    "native_net_R": 0.6092791964285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765801887000,
+    "source": "TEXT",
+    "symbol": "XVGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.004782,
+    "entry_ms": 1766337840000,
+    "entry_type": "MARKET",
+    "key": "1984a2869efb553885b577db37ecc9008b0283254ced6ab8bd0d1342a815e848",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.005049792,
+        "time_ms": 1766387460000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766337726000,
+    "source": "TEXT",
+    "symbol": "XVGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.462,
+    "entry_ms": 1765371000000,
+    "entry_type": "MARKET",
+    "key": "daba9fa34b8989caa17faa56d4691833aaaaa3d45836e9c723ddd59029118ede",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.45229800000000003,
+        "time_ms": 1765415940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.442596,
+        "time_ms": 1765435080000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.4614918,
+        "time_ms": 1765458840000
+      }
+    ],
+    "native_net_R": 0.3863024285714289,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765370909000,
+    "source": "TEXT",
+    "symbol": "YBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.4412,
+    "entry_ms": 1765440780000,
+    "entry_type": "MARKET",
+    "key": "70a788a52845878051f56d2c68f874cc794beb4d1ac71d1f6c670f2e657d52c1",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.4659072,
+        "time_ms": 1765478640000
+      }
+    ],
+    "native_net_R": -1.038550000000001,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765440674000,
+    "source": "TEXT",
+    "symbol": "YBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.4217,
+    "entry_ms": 1765911000000,
+    "entry_type": "MARKET",
+    "key": "4a090f189f60b37791b811f84ec5610da2c9b945d4befcbfdb917d33c193b140",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.4128443,
+        "time_ms": 1765942260000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.4039886,
+        "time_ms": 1765982820000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.39513290000000006,
+        "time_ms": 1766029860000
+      }
+    ],
+    "native_net_R": 0.6092791964285721,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1765910921000,
+    "source": "TEXT",
+    "symbol": "YBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 3361.0,
+    "entry_ms": 1766337660000,
+    "entry_type": "MARKET",
+    "key": "619b738b2029a76feeaf6b4a7a1e567de01ec2a467ef24c9aa11875b2dfe4b8d",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 3290.419,
+        "time_ms": 1766553000000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 3357.3029,
+        "time_ms": 1766595960000
+      }
+    ],
+    "native_net_R": 0.16439915178571435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1766337565000,
+    "source": "TEXT",
+    "symbol": "YFIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2239.0,
+    "entry_ms": 1792269060000,
+    "entry_type": "MARKET",
+    "key": "6a10fb6a4a936f6a64c5af03a74810da1957b6b2f8bcc6a79de8c516b8fd1b77",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2191.9809999999998,
+        "time_ms": 1792272660000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 2144.962,
+        "time_ms": 1792352760000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 2237.0,
+        "time_ms": 1792372200000
+      }
+    ],
+    "native_net_R": 0.3869119555206418,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1792268941000,
+    "source": "TEXT",
+    "symbol": "YFIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2101.0,
+    "entry_ms": 1793136660000,
+    "entry_type": "MARKET",
+    "key": "dc36c9aba1d181eff798386d7c7584ac059cbd7d58aef715f64b19f0d8156ba7",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2056.879,
+        "time_ms": 1793238540000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2098.6889,
+        "time_ms": 1793288040000
+      }
+    ],
+    "native_net_R": 0.16698767808271578,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1793136541000,
+    "source": "TEXT",
+    "symbol": "YFIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 356.17,
+    "entry_ms": 1780640160000,
+    "entry_type": "MARKET",
+    "key": "4509521a5d1565eaa0593e14238a3e8d75b24bf4d2fc8782bb46e18b0c8380b8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 348.69043,
+        "time_ms": 1780640580000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 341.21086,
+        "time_ms": 1780640700000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 333.73129000000006,
+        "time_ms": 1780640760000
+      }
+    ],
+    "native_net_R": 0.6092791964285705,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1780640088000,
+    "source": "TEXT",
+    "symbol": "ZECUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 504.62,
+    "entry_ms": 1784841060000,
+    "entry_type": "MARKET",
+    "key": "afc5cad6686f4a871f8007fb01fba0ecbf3e7308383b16e6a425445189cccbf8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 494.02298,
+        "time_ms": 1784898660000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 483.42596,
+        "time_ms": 1784930940000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TIME",
+        "price": 493.12,
+        "time_ms": 1785100260000
+      }
+    ],
+    "native_net_R": 0.46622601165657945,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1784840997000,
+    "source": "TEXT",
+    "symbol": "ZECUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 475.74,
+    "entry_ms": 1784968740000,
+    "entry_type": "MARKET",
+    "key": "e6317ba9a6aa791e217628600fbad79f7621747cfbe7ca12f5ce7f7cb4775b08",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 502.38144000000005,
+        "time_ms": 1785103380000
+      }
+    ],
+    "native_net_R": -1.0388911276267359,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1784968677000,
+    "source": "TEXT",
+    "symbol": "ZECUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1232.47,
+    "entry_ms": 1793324400000,
+    "entry_type": "MARKET",
+    "key": "00c72b5b52c7a961e7d724df57e52b9667d60f90f0af898596712bfeef53ec0f",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1258.35187,
+        "time_ms": 1793326560000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1284.2337400000001,
+        "time_ms": 1793331420000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 1233.8257170000002,
+        "time_ms": 1793361420000
+      }
+    ],
+    "native_net_R": 0.3854831730934624,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1793324306000,
+    "source": "TEXT",
+    "symbol": "ZECUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02928,
+    "entry_ms": 1754776920000,
+    "entry_type": "MARKET",
+    "key": "16bd4c60aa0f852ade824b3a8c8c505ffbc11f70fa7b50dd2014cb81af6d16c8",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.02764032,
+        "time_ms": 1754811900000
+      }
+    ],
+    "native_net_R": -1.0364500000000008,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754776841000,
+    "source": "TEXT",
+    "symbol": "ZEREBROUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02778,
+    "entry_ms": 1754953500000,
+    "entry_type": "MARKET",
+    "key": "b490fd0966b1fac718c696a30071de37aa7f9f8e507a73ae204331a20ed0cbd4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.028363379999999997,
+        "time_ms": 1754965920000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.027810558000000003,
+        "time_ms": 1754979300000
+      }
+    ],
+    "native_net_R": 0.16417227678571436,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": 1,
+    "signal_ms": 1754953385000,
+    "source": "TEXT",
+    "symbol": "ZEREBROUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.0228,
+    "entry_ms": 1759238700000,
+    "entry_type": "MARKET",
+    "key": "1c256cf7f25096847146aca99f09e419ac98af29a366d5be80c734b4d2cbf4e4",
+    "lineage": "TG_Whalesguide",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.9803212000000001,
+        "time_ms": 1759249080000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.02057492,
+        "time_ms": 1759262100000
+      }
+    ],
+    "native_net_R": 0.16510902353350485,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "TEXT_Whalesguide",
+    "side": -1,
+    "signal_ms": 1759238632000,
+    "source": "TEXT",
+    "symbol": "ZROUSDT"
+  }
+]

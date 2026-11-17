@@ -1,0 +1,263 @@
+[
+  {
+    "period": "H1",
+    "variant": "X1",
+    "mirror": false,
+    "n": 588,
+    "WR": 48.80952380952381,
+    "PF": 0.883698094218683,
+    "netR": -33.921420931777284,
+    "USD_at_5risk": -169.6071046588864,
+    "maxDD_R": 48.508063341649084,
+    "top3_share": null,
+    "netR_adverse": -34.94762511858244,
+    "status_counts": {
+      "1": 588,
+      "-2": 143,
+      "-4": 3
+    },
+    "funding_unknown_n": 529,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X2",
+    "mirror": false,
+    "n": 588,
+    "WR": 48.80952380952381,
+    "PF": 0.880001472672356,
+    "netR": -34.999603225145826,
+    "USD_at_5risk": -174.99801612572912,
+    "maxDD_R": 45.590599875256636,
+    "top3_share": null,
+    "netR_adverse": -35.89249277224801,
+    "status_counts": {
+      "1": 588,
+      "-2": 143,
+      "-4": 3
+    },
+    "funding_unknown_n": 517,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": false,
+    "n": 591,
+    "WR": 35.025380710659896,
+    "PF": 0.6991245457327828,
+    "netR": -130.0963924187585,
+    "USD_at_5risk": -650.4819620937926,
+    "maxDD_R": 136.81704241875894,
+    "top3_share": null,
+    "netR_adverse": -130.21332991875872,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 378,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X4",
+    "mirror": false,
+    "n": 591,
+    "WR": 17.93570219966159,
+    "PF": 0.5880131599393649,
+    "netR": -160.49035171637044,
+    "USD_at_5risk": -802.4517585818522,
+    "maxDD_R": 167.44963233759867,
+    "top3_share": null,
+    "netR_adverse": -161.08161213303663,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 403,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X5",
+    "mirror": false,
+    "n": 591,
+    "WR": 36.37901861252115,
+    "PF": 0.9304633161761767,
+    "netR": -15.582519298147378,
+    "USD_at_5risk": -77.91259649073689,
+    "maxDD_R": 39.26467513655368,
+    "top3_share": null,
+    "netR_adverse": -16.800081996622897,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 503,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": false,
+    "n": 591,
+    "WR": 12.690355329949238,
+    "PF": 0.6042953872284399,
+    "netR": -229.07654453499651,
+    "USD_at_5risk": -1145.3827226749827,
+    "maxDD_R": 236.90056602332066,
+    "top3_share": null,
+    "netR_adverse": -229.58377370166275,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 402,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": false,
+    "n": 591,
+    "WR": 6.091370558375635,
+    "PF": 0.614315959486333,
+    "netR": -240.70348476371726,
+    "USD_at_5risk": -1203.5174238185864,
+    "maxDD_R": 252.74548272236717,
+    "top3_share": null,
+    "netR_adverse": -242.48833893038352,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 415,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X8",
+    "mirror": false,
+    "n": 591,
+    "WR": 59.22165820642979,
+    "PF": 0.593535025702267,
+    "netR": -110.32592022334923,
+    "USD_at_5risk": -551.6296011167461,
+    "maxDD_R": 110.78602022335022,
+    "top3_share": null,
+    "netR_adverse": -110.36200355668285,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 375,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X9",
+    "mirror": false,
+    "n": 591,
+    "WR": 48.90016920473773,
+    "PF": 0.881887354187617,
+    "netR": -37.94233849644118,
+    "USD_at_5risk": -189.7116924822059,
+    "maxDD_R": 40.18160658033982,
+    "top3_share": null,
+    "netR_adverse": -38.12859891310779,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 389,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": true,
+    "n": 591,
+    "WR": 35.025380710659896,
+    "PF": 0.6991245457327828,
+    "netR": -130.0963924187585,
+    "USD_at_5risk": -650.4819620937926,
+    "maxDD_R": 136.81704241875894,
+    "top3_share": null,
+    "netR_adverse": -130.21332991875872,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 378,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": true,
+    "n": 591,
+    "WR": 12.690355329949238,
+    "PF": 0.6042953872284399,
+    "netR": -229.07654453499651,
+    "USD_at_5risk": -1145.3827226749827,
+    "maxDD_R": 236.90056602332066,
+    "top3_share": null,
+    "netR_adverse": -229.58377370166275,
+    "status_counts": {
+      "1": 591,
+      "-2": 143
+    },
+    "funding_unknown_n": 402,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "H2",
+    "variant": "X3",
+    "mirror": true,
+    "n": 813,
+    "WR": 29.02829028290283,
+    "PF": 0.38739894083808,
+    "netR": -512.9774115441418,
+    "USD_at_5risk": -2564.887057720709,
+    "maxDD_R": 514.352111544144,
+    "top3_share": null,
+    "netR_adverse": -513.08451571081,
+    "status_counts": {
+      "1": 813,
+      "-2": 201
+    },
+    "funding_unknown_n": 285,
+    "control_n": 811,
+    "control_coverage": 0.997539975399754,
+    "excessR": -390.8138622550666,
+    "p": 1.0,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "PF_BASE"
+  },
+  {
+    "period": "LAST40",
+    "variant": "X3",
+    "mirror": true,
+    "n": 645,
+    "WR": 29.612403100775193,
+    "PF": 0.3945983764282596,
+    "netR": -402.7902198115054,
+    "USD_at_5risk": -2013.9510990575268,
+    "maxDD_R": 406.7127477587493,
+    "top3_share": null,
+    "netR_adverse": -402.8649281448396,
+    "status_counts": {
+      "1": 645,
+      "-2": 162
+    },
+    "funding_unknown_n": 171,
+    "control_n": 644,
+    "control_coverage": 0.9984496124031008,
+    "excessR": -309.59377001186033,
+    "p": 1.0,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "PF_BASE"
+  }
+]

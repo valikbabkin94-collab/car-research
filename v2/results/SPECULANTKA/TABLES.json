@@ -1,0 +1,320 @@
+[
+  {
+    "period": "H1",
+    "variant": "X1",
+    "mirror": false,
+    "n": 437,
+    "WR": 46.681922196796336,
+    "PF": 0.7692374361187242,
+    "netR": -58.780545830798985,
+    "USD_at_5risk": -293.9027291539949,
+    "maxDD_R": 60.584886509006445,
+    "top3_share": null,
+    "netR_adverse": -59.899457197024674,
+    "status_counts": {
+      "1": 437,
+      "-5": 2
+    },
+    "funding_unknown_n": 198,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X2",
+    "mirror": false,
+    "n": 437,
+    "WR": 46.681922196796336,
+    "PF": 0.7272721376362615,
+    "netR": -69.47007496959236,
+    "USD_at_5risk": -347.3503748479618,
+    "maxDD_R": 71.11836561881283,
+    "top3_share": null,
+    "netR_adverse": -70.30303970192172,
+    "status_counts": {
+      "1": 437,
+      "-5": 2
+    },
+    "funding_unknown_n": 172,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": false,
+    "n": 439,
+    "WR": 34.39635535307517,
+    "PF": 0.5957774104782277,
+    "netR": -140.84015606926926,
+    "USD_at_5risk": -704.2007803463463,
+    "maxDD_R": 141.8252556702842,
+    "top3_share": null,
+    "netR_adverse": -141.32042690260243,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 108,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X4",
+    "mirror": false,
+    "n": 437,
+    "WR": 42.33409610983982,
+    "PF": 0.5465876135806829,
+    "netR": -131.2131808704134,
+    "USD_at_5risk": -656.065904352067,
+    "maxDD_R": 131.2131808704134,
+    "top3_share": null,
+    "netR_adverse": -131.5477954537467,
+    "status_counts": {
+      "1": 437,
+      "-5": 2
+    },
+    "funding_unknown_n": 108,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X5",
+    "mirror": false,
+    "n": 437,
+    "WR": 31.35011441647597,
+    "PF": 0.6602970231562255,
+    "netR": -67.94914827713515,
+    "USD_at_5risk": -339.74574138567573,
+    "maxDD_R": 67.94914827713515,
+    "top3_share": null,
+    "netR_adverse": -68.61021058375928,
+    "status_counts": {
+      "1": 437,
+      "-5": 2
+    },
+    "funding_unknown_n": 153,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": false,
+    "n": 439,
+    "WR": 26.195899772209568,
+    "PF": 0.4853015202354764,
+    "netR": -189.61128497508366,
+    "USD_at_5risk": -948.0564248754183,
+    "maxDD_R": 189.61128497508335,
+    "top3_share": null,
+    "netR_adverse": -189.96251414174998,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 106,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": false,
+    "n": 439,
+    "WR": 16.40091116173121,
+    "PF": 0.6594298683327897,
+    "netR": -150.56129846505644,
+    "USD_at_5risk": -752.8064923252822,
+    "maxDD_R": 178.04303565432645,
+    "top3_share": null,
+    "netR_adverse": -152.86527763172282,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 155,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X8",
+    "mirror": false,
+    "n": 439,
+    "WR": 63.55353075170843,
+    "PF": 0.5402625742753232,
+    "netR": -88.99751289697775,
+    "USD_at_5risk": -444.98756448488876,
+    "maxDD_R": 89.37241289697798,
+    "top3_share": null,
+    "netR_adverse": -89.11274206364487,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 73,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X9",
+    "mirror": false,
+    "n": 439,
+    "WR": 46.69703872437358,
+    "PF": 0.7330144454488808,
+    "netR": -69.00871450740358,
+    "USD_at_5risk": -345.0435725370179,
+    "maxDD_R": 69.9464145074036,
+    "top3_share": null,
+    "netR_adverse": -70.11425617407019,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 173,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": true,
+    "n": 439,
+    "WR": 34.39635535307517,
+    "PF": 0.5957774104782277,
+    "netR": -140.84015606926926,
+    "USD_at_5risk": -704.2007803463463,
+    "maxDD_R": 141.8252556702842,
+    "top3_share": null,
+    "netR_adverse": -141.32042690260243,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 108,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": true,
+    "n": 439,
+    "WR": 26.195899772209568,
+    "PF": 0.4853015202354764,
+    "netR": -189.61128497508366,
+    "USD_at_5risk": -948.0564248754183,
+    "maxDD_R": 189.61128497508335,
+    "top3_share": null,
+    "netR_adverse": -189.96251414174998,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 106,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": true,
+    "n": 439,
+    "WR": 16.40091116173121,
+    "PF": 0.6594298683327897,
+    "netR": -150.56129846505644,
+    "USD_at_5risk": -752.8064923252822,
+    "maxDD_R": 178.04303565432645,
+    "top3_share": null,
+    "netR_adverse": -152.86527763172282,
+    "status_counts": {
+      "1": 439
+    },
+    "funding_unknown_n": 155,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H2",
+    "variant": "X1",
+    "mirror": false,
+    "n": 159,
+    "WR": 41.509433962264154,
+    "PF": 0.6056353886866949,
+    "netR": -36.1558622975152,
+    "USD_at_5risk": -180.779311487576,
+    "maxDD_R": 38.735083614868465,
+    "top3_share": null,
+    "netR_adverse": -36.29918683607582,
+    "status_counts": {
+      "1": 159,
+      "-4": 2
+    },
+    "funding_unknown_n": 120,
+    "control_n": 155,
+    "control_coverage": 0.9748427672955975,
+    "excessR": -8.31274467092174,
+    "p": 0.7681,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "LAST40",
+    "variant": "X1",
+    "mirror": false,
+    "n": 146,
+    "WR": 41.78082191780822,
+    "PF": 0.6115572448447142,
+    "netR": -33.15937338353561,
+    "USD_at_5risk": -165.79686691767805,
+    "maxDD_R": 34.938513473342404,
+    "top3_share": null,
+    "netR_adverse": -33.29237787665073,
+    "status_counts": {
+      "1": 146,
+      "-4": 2
+    },
+    "funding_unknown_n": 110,
+    "control_n": 142,
+    "control_coverage": 0.9726027397260274,
+    "excessR": -8.508184954978605,
+    "p": 0.7791,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "H2",
+    "variant": "X3",
+    "mirror": true,
+    "n": 161,
+    "WR": 36.64596273291926,
+    "PF": 0.6627447830727885,
+    "netR": -41.258808335985094,
+    "USD_at_5risk": -206.29404167992547,
+    "maxDD_R": 43.13075833598507,
+    "top3_share": null,
+    "netR_adverse": -41.372850002651774,
+    "status_counts": {
+      "1": 161
+    },
+    "funding_unknown_n": 81,
+    "control_n": 159,
+    "control_coverage": 0.9875776397515528,
+    "excessR": -21.675483972116673,
+    "p": 0.906,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "SPECULANTKA"
+  },
+  {
+    "period": "LAST40",
+    "variant": "X3",
+    "mirror": true,
+    "n": 148,
+    "WR": 37.16216216216216,
+    "PF": 0.6781070791206877,
+    "netR": -35.87705833598506,
+    "USD_at_5risk": -179.3852916799253,
+    "maxDD_R": 40.16690833598504,
+    "top3_share": null,
+    "netR_adverse": -35.99007916931842,
+    "status_counts": {
+      "1": 148
+    },
+    "funding_unknown_n": 74,
+    "control_n": 146,
+    "control_coverage": 0.9864864864864865,
+    "excessR": -17.650288504635906,
+    "p": 0.8716,
+    "selected_on_H1": true,
+    "BH_q": 1.0,
+    "case": "SPECULANTKA"
+  }
+]

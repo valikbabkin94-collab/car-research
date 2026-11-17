@@ -1,0 +1,5072 @@
+[
+  {
+    "edited": false,
+    "entry": 0.20989359999999999,
+    "entry_ms": 1788181560000,
+    "entry_type": "LIMIT",
+    "key": "e51394ab056f6eec7fad1f320fa156a0a1c023c72419255522d39f6dd6388181",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.20548583439999998,
+        "time_ms": 1788182160000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.20107806879999998,
+        "time_ms": 1788182160000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.20966271704,
+        "time_ms": 1788183120000
+      }
+    ],
+    "native_net_R": 0.3916497590361445,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788181200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "0GUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.001998649,
+    "entry_ms": 1786248120000,
+    "entry_type": "LIMIT",
+    "key": "c4786f5338d96f478e709e43e70fc4467733ecd17463e3471847c60974f5aede",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.001956677371,
+        "time_ms": 1786249080000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.001914705742,
+        "time_ms": 1786251240000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.001872734113,
+        "time_ms": 1786251240000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786240800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "1000CATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.121e-05,
+    "entry_ms": 1785592980000,
+    "entry_type": "LIMIT",
+    "key": "2506a2b783643180b1ddae427d19192c1ca1121d4e3752c7749af395ff60d678",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.097459e-05,
+        "time_ms": 1785595140000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.0739179999999999e-05,
+        "time_ms": 1785595440000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.050377e-05,
+        "time_ms": 1785606240000
+      }
+    ],
+    "native_net_R": 0.6072860953691152,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785592800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "1000SATSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06966400999999998,
+    "entry_ms": 1790443380000,
+    "entry_type": "LIMIT",
+    "key": "b98e5fc42447c180596b8903ecc1ece23dc05c37eb3d701ce644f8209cf42d3b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06820106578999999,
+        "time_ms": 1790470860000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.06958737958899998,
+        "time_ms": 1790473200000
+      }
+    ],
+    "native_net_R": 0.03731208167990707,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790442000000,
+    "source": "RUBIK_H2",
+    "symbol": "2ZUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.10936347999999999,
+    "entry_ms": 1786064580000,
+    "entry_type": "LIMIT",
+    "key": "da9a5fdd09e8a43dcd84e23784849b79841a8eb073ff28c0d9d2e68bc47bf6e8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.11548783487999999,
+        "time_ms": 1786066260000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786064400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ACEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.14919464,
+    "entry_ms": 1786226700000,
+    "entry_type": "LIMIT",
+    "key": "974e455c8c0b122e4934ac438116d1ae0fd842c9451011b30f3312275708f9cf",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.14606155255999997,
+        "time_ms": 1786228980000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.14292846512,
+        "time_ms": 1786231800000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.149030525896,
+        "time_ms": 1786233960000
+      }
+    ],
+    "native_net_R": 0.3887594814248936,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786226400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ACEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.18694914999999998,
+    "entry_ms": 1786974240000,
+    "entry_type": "LIMIT",
+    "key": "1b3b1fd2ed5447efc7dde77abd57dde9bec3c6fc975f84dd36f5bcf24ac4dfeb",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.18302321784999998,
+        "time_ms": 1786974600000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.17909728569999997,
+        "time_ms": 1786975860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.18674350593499997,
+        "time_ms": 1786976460000
+      }
+    ],
+    "native_net_R": 0.39164975903614524,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786971600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ACEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.21857500999999996,
+    "entry_ms": 1787076360000,
+    "entry_type": "LIMIT",
+    "key": "e12c47833091cbda937718a255e541a4ec4041ba2d765e750833a5480f573d9a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.23081521055999996,
+        "time_ms": 1787084640000
+      }
+    ],
+    "native_net_R": -1.0106187542898653,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787076000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ACEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.24501,
+    "entry_ms": 1787259780000,
+    "entry_type": "LIMIT",
+    "key": "191a1cc1a95b2628907447709dc2d675946c325bbe9fb71a4e84c03b69e70780",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.23986479,
+        "time_ms": 1787274540000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.244740489,
+        "time_ms": 1787275740000
+      }
+    ],
+    "native_net_R": 0.17136976753943312,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787259600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ACEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0069325668,
+    "entry_ms": 1786665120000,
+    "entry_type": "LIMIT",
+    "key": "032c0a503cd834143390841e11e28ece3bb26f9c16d965cdec321b857e838e2e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0067869828972,
+        "time_ms": 1786665240000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0069249409765199995,
+        "time_ms": 1786665840000
+      }
+    ],
+    "native_net_R": 0.17645596587672494,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786658400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "AKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.010705383999999998,
+    "entry_ms": 1786745640000,
+    "entry_type": "LIMIT",
+    "key": "f1229b668ead46983105754ff1b9fdb3cfed82d449e7ca93de83c8c46cae145d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.010480570935999998,
+        "time_ms": 1786745820000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.010693608077599998,
+        "time_ms": 1786746180000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786744800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "AKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.016749955,
+    "entry_ms": 1788591000000,
+    "entry_type": "LIMIT",
+    "key": "f7b80116d6bb44ad06e769e47fc99816f8bff468f316ee01e14bbb2cb60202bc",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.01768795248,
+        "time_ms": 1788591600000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788588000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "AKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.017192636,
+    "entry_ms": 1788779040000,
+    "entry_type": "LIMIT",
+    "key": "bf50f8a63c99d9731c60b5ec58cdbc4b1fc4c3a89f8e6ddb91b9d86a34485c12",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.016831590644,
+        "time_ms": 1788779580000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.017173724100400002,
+        "time_ms": 1788780000000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788778800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "AKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.062526,
+    "entry_ms": 1789873380000,
+    "entry_type": "LIMIT",
+    "key": "9f3d6d9654fff5d0eb620a75251f1d8ba64c070156954fdccf38f865a7b90316",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.061212954,
+        "time_ms": 1789873620000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.059899907999999995,
+        "time_ms": 1789873680000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.058586862,
+        "time_ms": 1789873680000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789873200000,
+    "source": "RUBIK_H2",
+    "symbol": "AKEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1380719,
+    "entry_ms": 1786763640000,
+    "entry_type": "LIMIT",
+    "key": "3f85e960f30e22b850167a29ce67bae3e00cb5b2b5e477fca162d15c625d7729",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.13517239009999998,
+        "time_ms": 1786765080000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.13792002091,
+        "time_ms": 1786770600000
+      }
+    ],
+    "native_net_R": 0.1329008024058091,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786759200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ALICEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.15644771999999998,
+    "entry_ms": 1789551060000,
+    "entry_type": "LIMIT",
+    "key": "85bc886c29ae2512ad042c2cf44380058be588baba69cf62e149a4506b3c1240",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.16520879232,
+        "time_ms": 1789559640000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789545600000,
+    "source": "RUBIK_H2",
+    "symbol": "ARBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05386121,
+    "entry_ms": 1792361400000,
+    "entry_type": "LIMIT",
+    "key": "97b6502f12750f92cfd6d9af6803f9a8c1e2cc8eeda0e40b1054719dadf77978",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.052730124589999997,
+        "time_ms": 1792362000000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.053801962669,
+        "time_ms": 1792362060000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792360800000,
+    "source": "RUBIK_H2",
+    "symbol": "ARIAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 3.847374,
+    "entry_ms": 1788129600000,
+    "entry_type": "LIMIT",
+    "key": "a3bb1424793483525769224274c34970b5e4e2d83449923c73d0036d1c940445",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 3.7665791459999998,
+        "time_ms": 1788131160000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 3.8431418886,
+        "time_ms": 1788131580000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788127200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "AUCTIONUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2882998,
+    "entry_ms": 1789671900000,
+    "entry_type": "LIMIT",
+    "key": "8f5d4440d457095197de06301d10e3e5ba06d3f5e78c4c84fe98ec2650ddf68d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.2822455042,
+        "time_ms": 1789674000000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.2761912084,
+        "time_ms": 1789674660000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.2701369126,
+        "time_ms": 1789675200000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789671600000,
+    "source": "RUBIK_H2",
+    "symbol": "AVAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.3848,
+    "entry_ms": 1792299780000,
+    "entry_type": "LIMIT",
+    "key": "413da0a4a3a175046a54aefe23335cd5b83c35f62283b0dfc705f985d55e7022",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.4063488,
+        "time_ms": 1792306320000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792299600000,
+    "source": "RUBIK_H2",
+    "symbol": "AVAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05371939,
+    "entry_ms": 1785871380000,
+    "entry_type": "LIMIT",
+    "key": "8443aee99dc0ea99e2f970953c0089dd07c14336dfe273d1e23e44af254bc105",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05259128281,
+        "time_ms": 1785872040000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.053660298671,
+        "time_ms": 1785872160000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785870000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BANKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03766334,
+    "entry_ms": 1789868460000,
+    "entry_type": "LIMIT",
+    "key": "b6d61341f3ac325ff5b8abdb7fb9d530812f69af3b227126d0241e0757b1c006",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.03977248704,
+        "time_ms": 1789870140000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789866000000,
+    "source": "RUBIK_H2",
+    "symbol": "BANKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01522,
+    "entry_ms": 1785733380000,
+    "entry_type": "LIMIT",
+    "key": "6da691ce44989b8b3b16f4ec1e59351f38ff87c812d0f0cbaf32b63aada969d0",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01490038,
+        "time_ms": 1785734340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.015203257999999999,
+        "time_ms": 1785736080000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785733200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BICOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.017636329999999995,
+    "entry_ms": 1785827760000,
+    "entry_type": "LIMIT",
+    "key": "d9607cbb75ea7aeac686573075240f929e7bc548d9c1f55799193400e4c8e2f3",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.017265967069999996,
+        "time_ms": 1785828000000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.017616930036999996,
+        "time_ms": 1785830700000
+      }
+    ],
+    "native_net_R": 0.1723501195476911,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785819600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BICOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.04704,
+    "entry_ms": 1786107780000,
+    "entry_type": "LIMIT",
+    "key": "3f35f9db1fe41d0c5019b9ea070198c48b6086d66cd968b662b983d4bc628488",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.04967424,
+        "time_ms": 1786107840000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786107600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BICOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0577,
+    "entry_ms": 1786194180000,
+    "entry_type": "LIMIT",
+    "key": "3d3066ee4ec2613e2868f229712461a3b5194827ef7ac9fd10b10f458fd147d9",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0564883,
+        "time_ms": 1786195320000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.057636530000000005,
+        "time_ms": 1786196280000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786194000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BICOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02327874,
+    "entry_ms": 1787771040000,
+    "entry_type": "LIMIT",
+    "key": "a600215a5f8e4d3f4e9b5d6790a604846e062489eacebf336d433d3db230495b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02278988646,
+        "time_ms": 1787773080000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.023253133385999998,
+        "time_ms": 1787776200000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787770800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BICOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.08390679,
+    "entry_ms": 1792778580000,
+    "entry_type": "LIMIT",
+    "key": "97d8667b929cd8c5ecc6e15e8e92d83e95f2fcc550b97a85b15b657a3332849e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.08214474741,
+        "time_ms": 1792780260000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.08038270482,
+        "time_ms": 1792780380000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.083814492531,
+        "time_ms": 1792780920000
+      }
+    ],
+    "native_net_R": 0.39164975903614435,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792778400000,
+    "source": "RUBIK_H2",
+    "symbol": "BIRBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.09330742999999998,
+    "entry_ms": 1792872300000,
+    "entry_type": "LIMIT",
+    "key": "e5eb8b92cc30dee556b0384e15d7f28e2c5042ada37c6febf25114294079f891",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.09134797396999998,
+        "time_ms": 1792874220000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.09320479182699998,
+        "time_ms": 1792875060000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792872000000,
+    "source": "RUBIK_H2",
+    "symbol": "BIRBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.022103659999999997,
+    "entry_ms": 1787717100000,
+    "entry_type": "LIMIT",
+    "key": "abc6bcfccef649dc0ade6533eda4e209951209b70d6a7f69610d727fa8c3fb27",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.021639483139999995,
+        "time_ms": 1787717340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.022079345974,
+        "time_ms": 1787717400000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787716800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "BMTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03613371,
+    "entry_ms": 1792839900000,
+    "entry_type": "LIMIT",
+    "key": "12da4203938cbefde084dc913ada7230c32d5373440ade8ba44d867c8fb72d22",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03537490209,
+        "time_ms": 1792840140000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.036093962919,
+        "time_ms": 1792840320000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792839600000,
+    "source": "RUBIK_H2",
+    "symbol": "BMTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.50817145,
+    "entry_ms": 1791288540000,
+    "entry_type": "LIMIT",
+    "key": "4cd405f52906b30f8d2ba9eb194edbbc6f36862fbe749b2b4f0bdf73097792e2",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.49749984955,
+        "time_ms": 1791288660000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.5076124614049999,
+        "time_ms": 1791288720000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791288000000,
+    "source": "RUBIK_H2",
+    "symbol": "BRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.47775105999999995,
+    "entry_ms": 1792285380000,
+    "entry_type": "LIMIT",
+    "key": "0d5a87ded04b0c1640648f9475f757fd010b6db3e2297e1509a05b5c4a1c18b2",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.46771828773999996,
+        "time_ms": 1792285620000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.47722553383399996,
+        "time_ms": 1792285740000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792285200000,
+    "source": "RUBIK_H2",
+    "symbol": "BRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.49892275999999997,
+    "entry_ms": 1792393860000,
+    "entry_type": "LIMIT",
+    "key": "5e6bfb5df5371051c5e33544dbd99f92a9e86563ccba9ad76cb854b02f859d7e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.52686243456,
+        "time_ms": 1792394760000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792393200000,
+    "source": "RUBIK_H2",
+    "symbol": "BRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.72167,
+    "entry_ms": 1792479780000,
+    "entry_type": "LIMIT",
+    "key": "96f34cd2b0a52c99997c428bccfa9913ebaa8885cc9e243c9aef736f6a71f9e0",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.70651493,
+        "time_ms": 1792481640000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.720876163,
+        "time_ms": 1792481880000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792479600000,
+    "source": "RUBIK_H2",
+    "symbol": "BRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.1651862,
+    "entry_ms": 1792238640000,
+    "entry_type": "LIMIT",
+    "key": "03e31f02c8e69026bbcd69ca3e3c8b08cefecb7ca1eb4d28549593a71869c4d5",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 2.2864366272,
+        "time_ms": 1792245900000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792238400000,
+    "source": "RUBIK_H2",
+    "symbol": "BTWUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.8135738999999997,
+    "entry_ms": 1792686300000,
+    "entry_type": "LIMIT",
+    "key": "abefc1d236d10f4d9d3f47ddf91c53fc093b4466173543be89cab8ad5225fb2a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.7754888480999997,
+        "time_ms": 1792689960000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.7374037961999997,
+        "time_ms": 1792689960000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.6993187443,
+        "time_ms": 1792689960000
+      }
+    ],
+    "native_net_R": 0.6076960413080893,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792684800000,
+    "source": "RUBIK_H2",
+    "symbol": "BTWUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.7584666999999998,
+    "entry_ms": 1792804140000,
+    "entry_type": "LIMIT",
+    "key": "137a0156d8b2f6a4569b535619e4747e332d1657c6264dbe26cf7006dcb09148",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.7215388992999998,
+        "time_ms": 1792805700000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 1.7565323866299998,
+        "time_ms": 1792808880000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792789200000,
+    "source": "RUBIK_H2",
+    "symbol": "BTWUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.09813133599999999,
+    "entry_ms": 1789574940000,
+    "entry_type": "LIMIT",
+    "key": "aa49405a58f39e9f831c266a69829fb34f71dbb3a61a42c958814ae096634558",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.09607057794399998,
+        "time_ms": 1789575180000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.103172,
+        "time_ms": 1789575240000
+      }
+    ],
+    "native_net_R": -0.2759573344686032,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789574400000,
+    "source": "RUBIK_H2",
+    "symbol": "BULLAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05487421,
+    "entry_ms": 1786492320000,
+    "entry_type": "LIMIT",
+    "key": "f6acca97d789bfebcf9242db4aa5e4a071fc36766ae7a7bfbbb4793a6f7249cd",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.05794716576,
+        "time_ms": 1786495860000
+      }
+    ],
+    "native_net_R": -0.9855187577379239,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786482000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "CAPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06267431,
+    "entry_ms": 1786727220000,
+    "entry_type": "LIMIT",
+    "key": "7c2f2c3e680a97b22d5336605840837c97775ae2d9552381ab0756c44add8ab8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.06618407136,
+        "time_ms": 1786727820000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786726800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "CAPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0042758729999999995,
+    "entry_ms": 1789897140000,
+    "entry_type": "LIMIT",
+    "key": "a2c0eabd6fa134069214df4f98dfab910281d9c582848e45c75730a9ae2aa056",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.004186079666999999,
+        "time_ms": 1789898280000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.004096286334,
+        "time_ms": 1789898520000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.004006493000999999,
+        "time_ms": 1789898520000
+      }
+    ],
+    "native_net_R": 0.6076960413080905,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789891200000,
+    "source": "RUBIK_H2",
+    "symbol": "CELRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.060658439999999994,
+    "entry_ms": 1791658980000,
+    "entry_type": "LIMIT",
+    "key": "ee0bf2f45b34261ce3304d382449e8138ef325e3709219fea1e4d70e37124715",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05938461275999999,
+        "time_ms": 1791662520000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.06059171571599999,
+        "time_ms": 1791664620000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791658800000,
+    "source": "RUBIK_H2",
+    "symbol": "CFXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.059959469999999994,
+    "entry_ms": 1788495480000,
+    "entry_type": "LIMIT",
+    "key": "52c72b03116c481cac822892299a5e9925b49915cdee0ac8b0c3533c2ae56f4b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05870032112999999,
+        "time_ms": 1788495960000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.059893514583,
+        "time_ms": 1788496680000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788494400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "CHIPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0016885696999999998,
+    "entry_ms": 1791741780000,
+    "entry_type": "LIMIT",
+    "key": "6b43b52245e4cce93380bf975ff2188f825f106472426d84596ead137f7c544d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0017831296032,
+        "time_ms": 1791749340000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791741600000,
+    "source": "RUBIK_H2",
+    "symbol": "CKBUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.016180649,
+    "entry_ms": 1785544500000,
+    "entry_type": "LIMIT",
+    "key": "9399cf409a52284bb7e7a12fdf0c653d80aaeb7fc77d3346ee7d07fbd9f4413c",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.015840855371,
+        "time_ms": 1785546120000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.016162850286099997,
+        "time_ms": 1785546360000
+      }
+    ],
+    "native_net_R": 0.17396478583227276,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785542400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.013245,
+    "entry_ms": 1785844980000,
+    "entry_type": "LIMIT",
+    "key": "263f3d8a18f5b74ebc62f00c56e86c25377b52c0658a9074d11ecc4fc08d7b4e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.012966855,
+        "time_ms": 1785845760000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0132304305,
+        "time_ms": 1785846660000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785844800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01145703,
+    "entry_ms": 1786598160000,
+    "entry_type": "LIMIT",
+    "key": "d02ce691df366b6d41c28b3a9522af13db17ad03d10c8857d5be57af6f60d97b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01121643237,
+        "time_ms": 1786599120000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.011444427267,
+        "time_ms": 1786600980000
+      }
+    ],
+    "native_net_R": 0.1477929803599394,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786597200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.017818669999999998,
+    "entry_ms": 1788711240000,
+    "entry_type": "LIMIT",
+    "key": "aace5db1d582569f0f78883e6df3ffe2976bec723723ec3482b3b0c9c65c2bd3",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.017444477929999997,
+        "time_ms": 1788716700000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.01707028586,
+        "time_ms": 1788719640000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.016696093789999998,
+        "time_ms": 1788732960000
+      }
+    ],
+    "native_net_R": 0.6074726463676764,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788710400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "COTIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.13746409999999998,
+    "entry_ms": 1786813440000,
+    "entry_type": "LIMIT",
+    "key": "082cc197d3ae472104bbbf4fd3ec3a8064b9c5d3e23d281400e776f57cb1a466",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.13457735389999997,
+        "time_ms": 1786813920000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.13731288948999998,
+        "time_ms": 1786814640000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786813200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "COWUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03220326999999999,
+    "entry_ms": 1786046880000,
+    "entry_type": "LIMIT",
+    "key": "0fdb648a4881a21e26f6cc9be8bf479f7650c70381c746799dd185542e13bd74",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03152700132999999,
+        "time_ms": 1786047960000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.032167846402999994,
+        "time_ms": 1786048200000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786046400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "CTSIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.667229,
+    "entry_ms": 1785546360000,
+    "entry_type": "LIMIT",
+    "key": "1a68b4644990f835924de7d35ef5c9821c8f3c8a66a428805015ca773969a6a8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.6112171909999997,
+        "time_ms": 1785546900000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 2.5552053819999996,
+        "time_ms": 1785549660000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 2.499193573,
+        "time_ms": 1785555000000
+      }
+    ],
+    "native_net_R": 0.6072569815798361,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785546000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "DEXEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.427148,
+    "entry_ms": 1787982420000,
+    "entry_type": "LIMIT",
+    "key": "1b3887c74a94f1ef27b7bcfdb3cc8337d4f1d1fb7254da5b300529cc33f87917",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.376177892,
+        "time_ms": 1787988060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.4244781372,
+        "time_ms": 1787989080000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787979600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "DEXEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02664,
+    "entry_ms": 1786010580000,
+    "entry_type": "LIMIT",
+    "key": "7b1dcd4ddc24753113ef20b779323bbd403fb5b3172193b2641506f1d95404af",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02608056,
+        "time_ms": 1786012560000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.026610696,
+        "time_ms": 1786012980000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786010400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "DODOXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.022305246999999997,
+    "entry_ms": 1786237920000,
+    "entry_type": "LIMIT",
+    "key": "093240825a50c308cc512ab005d61638a8f796510ead38e8b8c218d5f1178598",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.021836836812999996,
+        "time_ms": 1786241400000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0222807112283,
+        "time_ms": 1786242060000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786237200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "DODOXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.025335129999999997,
+    "entry_ms": 1786899780000,
+    "entry_type": "LIMIT",
+    "key": "cf5014821fb4b7498daf9d6960adfb3d52df1cb287d47cc31fe8cfdf4330c265",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.024803092269999997,
+        "time_ms": 1786899960000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.025307261356999997,
+        "time_ms": 1786900980000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786899600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "DOLOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.001772,
+    "entry_ms": 1793001780000,
+    "entry_type": "LIMIT",
+    "key": "b821e1b222406f442573422a49bbcfe68aeb6040156d9be4079cd18c306ddff1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.001871232,
+        "time_ms": 1793002320000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1793001600000,
+    "source": "RUBIK_H2",
+    "symbol": "DOODUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0021961839999999995,
+    "entry_ms": 1793093820000,
+    "entry_type": "LIMIT",
+    "key": "17391836c731eb43f4c53598c5e0c905a0919c22b354f00412c408f731c1c276",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0021500641359999996,
+        "time_ms": 1793093940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0021039442719999993,
+        "time_ms": 1793094720000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0020578244079999994,
+        "time_ms": 1793094900000
+      }
+    ],
+    "native_net_R": 0.6076960413080891,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1793088000000,
+    "source": "RUBIK_H2",
+    "symbol": "DOODUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06443692999999999,
+    "entry_ms": 1787774580000,
+    "entry_type": "LIMIT",
+    "key": "00fbfc50afcd1166e21e82f97f44d24759bf5320fa1d18c67303b5f10d592249",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06308375446999999,
+        "time_ms": 1787774760000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.064366049377,
+        "time_ms": 1787774940000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787774400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "EDENUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 4.949517999999999,
+    "entry_ms": 1788433800000,
+    "entry_type": "LIMIT",
+    "key": "65b4a3240e1a4772fb51916f679ff327c8f8cc8e2d8b3ea03f60cf381e9921d4",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 4.845578121999999,
+        "time_ms": 1788434520000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 4.741638243999999,
+        "time_ms": 1788444000000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 4.6376983659999995,
+        "time_ms": 1788458460000
+      }
+    ],
+    "native_net_R": 0.6076761073863128,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788433200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "EGLDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.1447913,
+    "entry_ms": 1786124640000,
+    "entry_type": "LIMIT",
+    "key": "15eb9a3b230c3b4fcbd77fc063811eb2612feba168db5a976394606359122f7a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.2088996128,
+        "time_ms": 1786140240000
+      }
+    ],
+    "native_net_R": -0.9854950468483907,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786122000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "EPICUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.07871009999999999,
+    "entry_ms": 1791672120000,
+    "entry_type": "LIMIT",
+    "key": "a7223c004a4c0abd5911f2c4a86f1c08ddfa170f057d987a942769e3f1c4a204",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.07705718789999999,
+        "time_ms": 1791674820000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.07540427579999999,
+        "time_ms": 1791678900000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0737513637,
+        "time_ms": 1791690420000
+      }
+    ],
+    "native_net_R": 0.5573354094662994,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791662400000,
+    "source": "RUBIK_H2",
+    "symbol": "ERAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.09164610999999999,
+    "entry_ms": 1792848540000,
+    "entry_type": "LIMIT",
+    "key": "d4e023e8aa37a34922b188d230ef2e86fa3df9971e4788dada3d09b4306914d9",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.09677829215999999,
+        "time_ms": 1792848900000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792828800000,
+    "source": "RUBIK_H2",
+    "symbol": "ERAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.09114973999999999,
+    "entry_ms": 1792998360000,
+    "entry_type": "LIMIT",
+    "key": "f375889ca63cb89cf54797082f47e077a4e2c8ba7e7345379c5544d7e0abbb1b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.08923559546,
+        "time_ms": 1793000340000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.08732145091999999,
+        "time_ms": 1793000460000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.08540730637999999,
+        "time_ms": 1793004000000
+      }
+    ],
+    "native_net_R": 0.6013993492828145,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792998000000,
+    "source": "RUBIK_H2",
+    "symbol": "ERAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.5822047,
+    "entry_ms": 1785632760000,
+    "entry_type": "LIMIT",
+    "key": "d31e54949a8f2a6755985cf8c4ad853c2314ce797ebf1e3c3dbb5295758bfe77",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.5489784012999999,
+        "time_ms": 1785647880000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.5157521025999998,
+        "time_ms": 1785649080000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.4825258039,
+        "time_ms": 1785650760000
+      }
+    ],
+    "native_net_R": 0.572216878046833,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785632400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "EULUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0401148,
+    "entry_ms": 1788170640000,
+    "entry_type": "LIMIT",
+    "key": "d6839dbd2e6a0322379a0baa4a5a02bf4455481ffe68f6472f50cd4c274b1358",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0423612288,
+        "time_ms": 1788171480000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788170400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "FLOCKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05345600999999999,
+    "entry_ms": 1788563040000,
+    "entry_type": "LIMIT",
+    "key": "7426c9c8e0b4f111e99f31ddaef4380fce56fbc7edaa8bb8b95e343cd756b8d6",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05233343378999999,
+        "time_ms": 1788564360000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.053397208388999994,
+        "time_ms": 1788567240000
+      }
+    ],
+    "native_net_R": 0.17534823268341207,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788562800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "FLOCKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.07378691999999999,
+    "entry_ms": 1788699780000,
+    "entry_type": "LIMIT",
+    "key": "e99120d498c6463ba7615f5538e023e589fa8649abdc8fdc6b023a3b7b019739",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.07223739468,
+        "time_ms": 1788700920000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.07370575438799999,
+        "time_ms": 1788701640000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788699600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "FLOCKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.004452134999999999,
+    "entry_ms": 1789786860000,
+    "entry_type": "LIMIT",
+    "key": "384271b8183bac3024dc1aca4a35e4331289930a49444e9b659c35a7ab57a5d6",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.004358640164999999,
+        "time_ms": 1789787520000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0044472376514999995,
+        "time_ms": 1789788060000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789783200000,
+    "source": "RUBIK_H2",
+    "symbol": "FUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.35394219999999993,
+    "entry_ms": 1789679100000,
+    "entry_type": "LIMIT",
+    "key": "d03cc6e5e4842d853e76e4ea585eb1203ded13fcdd2ea911404cb046e47088f5",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.34650941379999994,
+        "time_ms": 1789679640000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.35355286357999993,
+        "time_ms": 1789680720000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789678800000,
+    "source": "RUBIK_H2",
+    "symbol": "GENIUSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 45.48369999999999,
+    "entry_ms": 1785554160000,
+    "entry_type": "LIMIT",
+    "key": "ae3d1838989477ada01a231cd5036f80a626df360bf0cd586a6319dc22840e47",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 44.52854229999999,
+        "time_ms": 1785556200000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 45.43366792999999,
+        "time_ms": 1785557520000
+      }
+    ],
+    "native_net_R": 0.17645778438928728,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785549600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "GIGGLEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.016674993,
+    "entry_ms": 1787024100000,
+    "entry_type": "LIMIT",
+    "key": "2278a6b35489621f4e2de52bf9b8e116f3b392fa17ba49594f9c63f66343e525",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.017608792608,
+        "time_ms": 1787024820000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787022000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "GPSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.14792838999999997,
+    "entry_ms": 1790918220000,
+    "entry_type": "LIMIT",
+    "key": "2b18c99b2416b0bbc25f6be975ea0d45feaf14f14a5783ba74e59f29a923b27b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.14482189380999996,
+        "time_ms": 1790918640000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.14776566877099997,
+        "time_ms": 1790918880000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790917200000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.19685629,
+    "entry_ms": 1791184080000,
+    "entry_type": "LIMIT",
+    "key": "a24cd024fe93207b76cbca924f4913da3ffa934af4def0bcc459a18ba2fdf1ee",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.19272230790999997,
+        "time_ms": 1791184260000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.196639748081,
+        "time_ms": 1791184380000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791169200000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.27835213999999997,
+    "entry_ms": 1791842760000,
+    "entry_type": "LIMIT",
+    "key": "5a9a51afbf5fb120d6c36a22da12c2ac542d99ec810d90ee58a37722dbaaa7ad",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.27250674505999994,
+        "time_ms": 1791843060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.27804595264599996,
+        "time_ms": 1791844140000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791842400000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.23108555999999997,
+    "entry_ms": 1792264920000,
+    "entry_type": "LIMIT",
+    "key": "1af9ccc77acf30b8b4c4cf61f91c8fb259daef8cd0a87f979bc8e0e921323ab2",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.22623276323999997,
+        "time_ms": 1792268280000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.23083136588399997,
+        "time_ms": 1792275420000
+      }
+    ],
+    "native_net_R": 0.12104454480609385,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792249200000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.26695589,
+    "entry_ms": 1792347120000,
+    "entry_type": "LIMIT",
+    "key": "ecdcb17c2e0a994221f6a26da16b2d33fbf3120c485b41e4d374622a20a63e90",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.26134981631,
+        "time_ms": 1792353540000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.26666223852099996,
+        "time_ms": 1792355940000
+      }
+    ],
+    "native_net_R": 0.1316840888009897,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792346400000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.34611,
+    "entry_ms": 1792454580000,
+    "entry_type": "LIMIT",
+    "key": "d05a85efc6024167ff5c4c67b56e9cf555b5d2abdbfa08dd0f6161030b41ea9e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.33884169,
+        "time_ms": 1792455120000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.345729279,
+        "time_ms": 1792455240000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792454400000,
+    "source": "RUBIK_H2",
+    "symbol": "GTCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02852,
+    "entry_ms": 1793167380000,
+    "entry_type": "LIMIT",
+    "key": "74ebc27599dede3f7e019c1ceefe6c64bf8fc34e8ff684ec9b19e115d196d29c",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.03011712,
+        "time_ms": 1793169360000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1793167200000,
+    "source": "RUBIK_H2",
+    "symbol": "HAEDALUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.15269962,
+    "entry_ms": 1785914700000,
+    "entry_type": "LIMIT",
+    "key": "e9e63443731931e62c2c4da2ef8657b2d8e0da63d827dbdb9d64abfcba230df5",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.14949292798,
+        "time_ms": 1785915180000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.15253165041800001,
+        "time_ms": 1785915240000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785913200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HEIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.40243,
+    "entry_ms": 1786010580000,
+    "entry_type": "LIMIT",
+    "key": "4f9e888e488c661d2930fb0ad7c8cf4865802c14931fa7c7b4c2208b5204015a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.42496608,
+        "time_ms": 1786010940000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786010400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HEIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.23195673999999997,
+    "entry_ms": 1786146360000,
+    "entry_type": "LIMIT",
+    "key": "7548d5046ef3edde44c397c2b1a2d84e27ff49f7a80d2ebedb6fd82465a0d49e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.22708564845999996,
+        "time_ms": 1786146480000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.23170158758599996,
+        "time_ms": 1786147680000
+      }
+    ],
+    "native_net_R": 0.1763725976034485,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786122000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HEIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.15536381,
+    "entry_ms": 1786770900000,
+    "entry_type": "LIMIT",
+    "key": "9ab74adc2e1be5aae2981be28716a3eb69c99e2a2f2e65d30cf770d12f3be137",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.15210116998999998,
+        "time_ms": 1786772820000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.14883852998,
+        "time_ms": 1786773120000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.14557588997,
+        "time_ms": 1786773900000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786755600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HEIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.08786762,
+    "entry_ms": 1786514100000,
+    "entry_type": "LIMIT",
+    "key": "cbd06d64de72a0dd77bed99021fbda3bcfcbb6bf8aa2f5689e8038283676a2ac",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.08602239998,
+        "time_ms": 1786515180000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.08417717995999999,
+        "time_ms": 1786515720000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.08233195994,
+        "time_ms": 1786515960000
+      }
+    ],
+    "native_net_R": 0.6076960413080883,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786510800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HOLOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.008338003,
+    "entry_ms": 1785698820000,
+    "entry_type": "LIMIT",
+    "key": "d26cf2b7cd081c93856986096504927a6c484a5f353aa58599f113846f9c8ec8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.008162904937,
+        "time_ms": 1785699360000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.007987806874,
+        "time_ms": 1785700560000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.007812708811000001,
+        "time_ms": 1785700860000
+      }
+    ],
+    "native_net_R": 0.6063890305046626,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785697200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HOMEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.008003712999999999,
+    "entry_ms": 1785807540000,
+    "entry_type": "LIMIT",
+    "key": "6a6251b7a8ed069b5559f347d48da1bee092f17d41c180e77ba2332b1de06ce0",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.007835635026999998,
+        "time_ms": 1785808560000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.007994908915699999,
+        "time_ms": 1785809100000
+      }
+    ],
+    "native_net_R": 0.17603575731497617,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785805200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HOMEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.009675,
+    "entry_ms": 1785891780000,
+    "entry_type": "LIMIT",
+    "key": "918b167dac4f3427b544a2e57f03994bd94689b4e65ded305e25f4cce69e7cc0",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.009471825,
+        "time_ms": 1785894420000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0096643575,
+        "time_ms": 1785894600000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785891600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HOMEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.011302040999999999,
+    "entry_ms": 1786683840000,
+    "entry_type": "LIMIT",
+    "key": "19628514ad037299f172e2c2fd24f5fa2b9ccdb0f87321896b58021919fa6768",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.011064698138999999,
+        "time_ms": 1786684680000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0112896087549,
+        "time_ms": 1786685340000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786683600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HOMEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06729,
+    "entry_ms": 1785668580000,
+    "entry_type": "LIMIT",
+    "key": "9bff0ebccfa6e59dec1f90c528a4af7fb1d2bef034308baaaf15e775f46f68c3",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06587691,
+        "time_ms": 1785668880000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.06721598100000001,
+        "time_ms": 1785669420000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785668400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "HYPERUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.1604592,
+    "entry_ms": 1792174020000,
+    "entry_type": "LIMIT",
+    "key": "7c533bfe97114bddbaef78af6621f25c98b41a89e926fc55ced6184226e8d3dd",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.1694449152,
+        "time_ms": 1792180260000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792173600000,
+    "source": "RUBIK_H2",
+    "symbol": "ICNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.2174911,
+    "entry_ms": 1792260420000,
+    "entry_type": "LIMIT",
+    "key": "ded553721f2057cda686accd7ce479fa00ea6eb8f24467effccb40ee9b52b850",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.2296706016,
+        "time_ms": 1792262040000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792260000000,
+    "source": "RUBIK_H2",
+    "symbol": "ICNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0016125,
+    "entry_ms": 1789002180000,
+    "entry_type": "LIMIT",
+    "key": "c14aef508b6c0dad47865fcf39df9c63813e52900d14c015c47d987e188d5034",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0015786374999999999,
+        "time_ms": 1789002540000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.00161072625,
+        "time_ms": 1789002660000
+      }
+    ],
+    "native_net_R": 0.17603575731497617,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789002000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "IOSTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.039020759999999995,
+    "entry_ms": 1792981440000,
+    "entry_type": "LIMIT",
+    "key": "d549660eb0d0f7f37cb1f79451b23abc2d42f8b4c333a2cf025ef2acc045f5a1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.03820132403999999,
+        "time_ms": 1792981740000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.038977837163999995,
+        "time_ms": 1792981920000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792980000000,
+    "source": "RUBIK_H2",
+    "symbol": "IRYSUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05745735999999999,
+    "entry_ms": 1791605940000,
+    "entry_type": "LIMIT",
+    "key": "84290b69228b98fd266f7597c8656c156cff067da5e8aec4344d4a06d57dbf48",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.056250755439999994,
+        "time_ms": 1791608700000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.057394156903999995,
+        "time_ms": 1791609420000
+      }
+    ],
+    "native_net_R": 0.14272091080814242,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791604800000,
+    "source": "RUBIK_H2",
+    "symbol": "KAIAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.006072935,
+    "entry_ms": 1788995100000,
+    "entry_type": "LIMIT",
+    "key": "4ae2a9ed9c9eab98cd87ad7ee737a57a07a3e2c83655c3e56197a7b4e41c9a90",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.00641301936,
+        "time_ms": 1788998460000
+      }
+    ],
+    "native_net_R": -0.9912466399793227,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788994800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "KATUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.5024479999999999,
+    "entry_ms": 1789532220000,
+    "entry_type": "LIMIT",
+    "key": "f446483c2a0511981de2bc6b26b97b0f191a363f888caa597e0b3d8838a38235",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.4918965919999999,
+        "time_ms": 1789532580000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.48134518399999987,
+        "time_ms": 1789532760000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.47079377599999994,
+        "time_ms": 1789532940000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789531200000,
+    "source": "RUBIK_H2",
+    "symbol": "LSKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.39054188999999995,
+    "entry_ms": 1790248380000,
+    "entry_type": "LIMIT",
+    "key": "ab96065f1c5375df45a321cfc64a6981c08f8e73fab052ec5a67a757b3cf3bbe",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.38234051030999994,
+        "time_ms": 1790249700000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.39011229392099994,
+        "time_ms": 1790250120000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790247600000,
+    "source": "RUBIK_H2",
+    "symbol": "LSKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.04947492,
+    "entry_ms": 1790384700000,
+    "entry_type": "LIMIT",
+    "key": "b010c7f076f42d23de7aabc5b29d027f227b66cfdc055b00f98e4ba6aa7a4847",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.048435946679999994,
+        "time_ms": 1790385540000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.04739697336,
+        "time_ms": 1790385540000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.04635800004,
+        "time_ms": 1790385540000
+      }
+    ],
+    "native_net_R": 0.6076960413080906,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790384400000,
+    "source": "RUBIK_H2",
+    "symbol": "LYNUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.11367885999999999,
+    "entry_ms": 1791627780000,
+    "entry_type": "LIMIT",
+    "key": "792d1fbdae5c1a95937f474f32f58dbb2c15a5b25057182dd436d1201f44fa98",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.11129160394,
+        "time_ms": 1791627900000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.10890434787999999,
+        "time_ms": 1791628020000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.11355381325399999,
+        "time_ms": 1791628440000
+      }
+    ],
+    "native_net_R": 0.3916497590361439,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791619200000,
+    "source": "RUBIK_H2",
+    "symbol": "MAGICUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.12757722,
+    "entry_ms": 1791729060000,
+    "entry_type": "LIMIT",
+    "key": "0b54764e83a597d573eb2d97b8ebcdef454aa7ace06e8612468c0dc15263f2f8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.12489809837999999,
+        "time_ms": 1791734460000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.127436885058,
+        "time_ms": 1791734700000
+      }
+    ],
+    "native_net_R": 0.17596495559389122,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791727200000,
+    "source": "RUBIK_H2",
+    "symbol": "MAGICUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.006131688999999999,
+    "entry_ms": 1785718860000,
+    "entry_type": "LIMIT",
+    "key": "ade14d146b1f638ae73219dc0e7279831adbf8ec247bb0153b9d89de6270dfb4",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0060029235309999995,
+        "time_ms": 1785719520000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.005874158061999999,
+        "time_ms": 1785719520000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.005745392593,
+        "time_ms": 1785719520000
+      }
+    ],
+    "native_net_R": 0.6076960413080883,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785704400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "MANTRAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.48877249999999994,
+    "entry_ms": 1791457980000,
+    "entry_type": "LIMIT",
+    "key": "635cc0573acaa92f15315578648d655e328f45b32b1136fcd1cf22555c81d685",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.4785082774999999,
+        "time_ms": 1791458640000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.46824405499999994,
+        "time_ms": 1791460860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.45797983249999996,
+        "time_ms": 1791462720000
+      }
+    ],
+    "native_net_R": 0.5860142704656822,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791457200000,
+    "source": "RUBIK_H2",
+    "symbol": "METUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.9017725999999999,
+    "entry_ms": 1787825160000,
+    "entry_type": "LIMIT",
+    "key": "65c4f3364e98fde643e2fa15271f550d8cc61f3b2f0b76e5b910951409368db1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8828353753999999,
+        "time_ms": 1787831340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.90078065014,
+        "time_ms": 1787831520000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787824800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "MOVRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.1135231999999995,
+    "entry_ms": 1791213120000,
+    "entry_type": "LIMIT",
+    "key": "0dd62b2a50da6af1798446b425c03c2807528c40b8d85c43674f45904e8a1b30",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.0691392127999997,
+        "time_ms": 1791213660000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 2.0247552255999994,
+        "time_ms": 1791214860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.9803712383999996,
+        "time_ms": 1791216780000
+      }
+    ],
+    "native_net_R": 0.6027449173721664,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791212400000,
+    "source": "RUBIK_H2",
+    "symbol": "MOVRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.04489615999999999,
+    "entry_ms": 1786362060000,
+    "entry_type": "LIMIT",
+    "key": "75c98d4a378edad7c4c43088ca8f29232bfca37d40738e041ae12f2ae10c8d2f",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.04741034495999999,
+        "time_ms": 1786368300000
+      }
+    ],
+    "native_net_R": -0.9868212791794626,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786359600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "NILUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.049171019999999996,
+    "entry_ms": 1786816680000,
+    "entry_type": "LIMIT",
+    "key": "402fd1ffb1c3d7dd299c70cb0755d0c2b5236e7c26e5dde825b1e9b862f301f3",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.05192459712,
+        "time_ms": 1786824000000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786813200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "NILUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05516798,
+    "entry_ms": 1788023460000,
+    "entry_type": "LIMIT",
+    "key": "fe6442c5688b2e92cbff48e8049e2f056837f6df9106bea606177b79ee1d8eba",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05400945242,
+        "time_ms": 1788024960000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.055107295222,
+        "time_ms": 1788025140000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788022800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "NILUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 13.650174999999999,
+    "entry_ms": 1790658900000,
+    "entry_type": "LIMIT",
+    "key": "986c6eaa53b16748b82db6e8fb67e55693de3bfb78133b09a08669a9a731e7f7",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 13.363521324999999,
+        "time_ms": 1790661000000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 13.6351598075,
+        "time_ms": 1790661060000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790658000000,
+    "source": "RUBIK_H2",
+    "symbol": "NMRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 15.665031999999998,
+    "entry_ms": 1791320760000,
+    "entry_type": "LIMIT",
+    "key": "2481a9203539420d3ce3b7faa880f52cf7b7e9fe14f415cc7ad2961da38c5658",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 16.542273792,
+        "time_ms": 1791332160000
+      }
+    ],
+    "native_net_R": -1.0474839948506158,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791320400000,
+    "source": "RUBIK_H2",
+    "symbol": "NMRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.04339692,
+    "entry_ms": 1791508380000,
+    "entry_type": "LIMIT",
+    "key": "c6cf633924aea5387f584622a14f37eb74443b05a2f5692102ef842eed012b62",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.04248558468,
+        "time_ms": 1791508620000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.043349183388,
+        "time_ms": 1791510180000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791507600000,
+    "source": "RUBIK_H2",
+    "symbol": "OGNUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.03843322,
+    "entry_ms": 1791880020000,
+    "entry_type": "LIMIT",
+    "key": "471ff416f2cf73cab35bb71ebd15c7c2175b9a5043f6c53f970b1ddc77075851",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.04058548032,
+        "time_ms": 1791885180000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791878400000,
+    "source": "RUBIK_H2",
+    "symbol": "OGNUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0017204791999999999,
+    "entry_ms": 1789722660000,
+    "entry_type": "LIMIT",
+    "key": "dc25ef4ab7981463557db7f03dd6071034ad5656c5eb373255e29d8e4a2b7801",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0018168260352,
+        "time_ms": 1789723140000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789722000000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0023080191999999998,
+    "entry_ms": 1789808760000,
+    "entry_type": "LIMIT",
+    "key": "4e28814bd81da161bae55b6331819da07fd8b0734079b4973aca403aa699128d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0022595507967999996,
+        "time_ms": 1789809720000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.00230548037888,
+        "time_ms": 1789810020000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789808400000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.004294714799999999,
+    "entry_ms": 1789894980000,
+    "entry_type": "LIMIT",
+    "key": "7d6ce399ae29deebdcb4a4efb14c51cb2f8cd2987eb1662ff451619976eb826a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.004204525789199999,
+        "time_ms": 1789895460000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0041143367783999995,
+        "time_ms": 1789895520000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0040241477676,
+        "time_ms": 1789895640000
+      }
+    ],
+    "native_net_R": 0.6076960413080892,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789894800000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0045511,
+    "entry_ms": 1789995780000,
+    "entry_type": "LIMIT",
+    "key": "57243aea49610bb15fb075ae175a741a63e8e7bc5790893cb75fa6ab4a73294a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0044555268999999995,
+        "time_ms": 1789996500000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.00454609379,
+        "time_ms": 1789996680000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789995600000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0026559846999999995,
+    "entry_ms": 1790572320000,
+    "entry_type": "LIMIT",
+    "key": "ce70060b42d1065bef482eb7dd9dec085f8f03ce323217e2c46270870699afec",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0026002090212999996,
+        "time_ms": 1790572560000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0026530631168299994,
+        "time_ms": 1790572920000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790571600000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0025311831,
+    "entry_ms": 1791054960000,
+    "entry_type": "LIMIT",
+    "key": "61e84445b32f2ec2561b4eb23a29f721cc21f164f51c2a56a721cfafced8ec08",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0024780282548999997,
+        "time_ms": 1791065520000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.0024248734097999996,
+        "time_ms": 1791068460000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.0023717185647,
+        "time_ms": 1791093540000
+      }
+    ],
+    "native_net_R": 0.41871630163703916,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791054000000,
+    "source": "RUBIK_H2",
+    "symbol": "ONEUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05914906999999999,
+    "entry_ms": 1786957380000,
+    "entry_type": "LIMIT",
+    "key": "160332567f9995ffa49c8d472112b354e8c22b99e09223af9eff53a241147754",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05790693952999999,
+        "time_ms": 1786958040000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.05666480905999999,
+        "time_ms": 1786961280000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.05908400602299999,
+        "time_ms": 1786972020000
+      }
+    ],
+    "native_net_R": 0.38677623137845846,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786957200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ONGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.08434238,
+    "entry_ms": 1787268180000,
+    "entry_type": "LIMIT",
+    "key": "55faef680fd888746c7b05513939a894a00081f88ab512103f2b43b998c1f843",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.08906555328,
+        "time_ms": 1787270760000
+      }
+    ],
+    "native_net_R": -1.346360627622956,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787266800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ONGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.12922,
+    "entry_ms": 1787990580000,
+    "entry_type": "LIMIT",
+    "key": "927cab2f20d279f178c57cbbae1524f1717f5f31e298516bad62b2f44af79403",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.12650638,
+        "time_ms": 1787991360000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.129077858,
+        "time_ms": 1787991660000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787990400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ONGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.11189,
+    "entry_ms": 1788264180000,
+    "entry_type": "LIMIT",
+    "key": "610ae9f4f24691b8c127c5ce6f0915b53fca663dcf93e3ce3936283e1fa87dec",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.10954031,
+        "time_ms": 1788264360000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.111766921,
+        "time_ms": 1788265020000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788264000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ONGUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.862738,
+    "entry_ms": 1791317640000,
+    "entry_type": "LIMIT",
+    "key": "1a12b391b3461ce5d79208a54bb2313bf70ca5c4ec5e52592b32942f465cefce",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 3.0230513279999998,
+        "time_ms": 1791319740000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791316800000,
+    "source": "RUBIK_H2",
+    "symbol": "ORCAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06184364999999999,
+    "entry_ms": 1792868880000,
+    "entry_type": "LIMIT",
+    "key": "755a9c6c7c27d55a7034dc4e0614069dcef2ed9b5ed5db47ccde82404c7b6497",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06054493334999999,
+        "time_ms": 1792869060000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.05924621669999999,
+        "time_ms": 1792869420000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.057947500049999996,
+        "time_ms": 1792869660000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792868400000,
+    "source": "RUBIK_H2",
+    "symbol": "ORDERUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.04964712999999999,
+    "entry_ms": 1790010300000,
+    "entry_type": "LIMIT",
+    "key": "42f4aeb5d966ea042a84b0858645a1673fc9324eda93599a416ef378300ac347",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.05242736927999999,
+        "time_ms": 1790018280000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790010000000,
+    "source": "RUBIK_H2",
+    "symbol": "PHAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.01356407,
+    "entry_ms": 1786896420000,
+    "entry_type": "LIMIT",
+    "key": "ef6004f6e3c807b044e682c3b4399b446ca751f195d543c5f7962e44b3cb7fa8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01327922453,
+        "time_ms": 1786896900000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.012994379059999998,
+        "time_ms": 1786897620000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.013549149522999999,
+        "time_ms": 1786898280000
+      }
+    ],
+    "native_net_R": 0.39164975903614485,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786896000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "PORTALUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.016471379999999997,
+    "entry_ms": 1786998720000,
+    "entry_type": "LIMIT",
+    "key": "2cdd40e41000748784fda2b2d0c0d050e9a82efceec49dc352ebc5e0220bfeb1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.01612548102,
+        "time_ms": 1786998960000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.015779582039999997,
+        "time_ms": 1787003340000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.015433683059999998,
+        "time_ms": 1787003760000
+      }
+    ],
+    "native_net_R": 0.6076960413080887,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786982400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "PORTALUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 2.7492819999999996,
+    "entry_ms": 1786508520000,
+    "entry_type": "LIMIT",
+    "key": "7d4899f249971a6ed4b36e112e9d1233138c463fcbc3b73e23d5cfedfe7e61bf",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 2.6915470779999997,
+        "time_ms": 1786508640000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 2.7462577897999996,
+        "time_ms": 1786508700000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786507200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "PROMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 7.182169999999999,
+    "entry_ms": 1788069840000,
+    "entry_type": "LIMIT",
+    "key": "bd00f3c1084db86c433108adde517c9b42f8466e7495694fa9c1d63db7785b03",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 7.031344429999999,
+        "time_ms": 1788071100000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 7.174269612999999,
+        "time_ms": 1788071640000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788069600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "PROMUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 95.71836999999998,
+    "entry_ms": 1790342100000,
+    "entry_type": "LIMIT",
+    "key": "949b42bfa79ad95b1ccea905b880b59c6ff2d44f92ea152f07068bdcf4d5daf1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 93.70828422999998,
+        "time_ms": 1790344800000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 95.61307979299998,
+        "time_ms": 1790348460000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790341200000,
+    "source": "RUBIK_H2",
+    "symbol": "QNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 218.2002,
+    "entry_ms": 1790589780000,
+    "entry_type": "LIMIT",
+    "key": "3a19fcc8df774e2339484a86b2a4cbe8f3d0f8542ca97b544adbebf193e67133",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 230.4194112,
+        "time_ms": 1790589900000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790589600000,
+    "source": "RUBIK_H2",
+    "symbol": "QNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 295.65418,
+    "entry_ms": 1790777400000,
+    "entry_type": "LIMIT",
+    "key": "39e199b3706baa947845e67cda58e02ad5d6c847edc98cf4edcced217d3d96e4",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 289.44544222,
+        "time_ms": 1790778060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 295.328960402,
+        "time_ms": 1790780460000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790776800000,
+    "source": "RUBIK_H2",
+    "symbol": "QNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 269.39721999999995,
+    "entry_ms": 1791014640000,
+    "entry_type": "LIMIT",
+    "key": "10f89bc47f7c889bc1619b10a6af3b5f157dbc1d9055fd20d245d0b7a5037fe4",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 263.73987837999994,
+        "time_ms": 1791015180000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 258.0825367599999,
+        "time_ms": 1791018540000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 252.42519513999997,
+        "time_ms": 1791033120000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791014400000,
+    "source": "RUBIK_H2",
+    "symbol": "QNTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.110882,
+    "entry_ms": 1792299780000,
+    "entry_type": "LIMIT",
+    "key": "cb24adbb078c086c91667e8d52e1fb85ef7924f98dc392b55c185edf80e6a47c",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.117091392,
+        "time_ms": 1792300020000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792299600000,
+    "source": "RUBIK_H2",
+    "symbol": "QUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.021901059999999997,
+    "entry_ms": 1790443260000,
+    "entry_type": "LIMIT",
+    "key": "ff6ce3cb519aa6770086e369b35001c46a42ffaa89aed70bfa66182ee1fb4ce5",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.023127519359999998,
+        "time_ms": 1790446020000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790442000000,
+    "source": "RUBIK_H2",
+    "symbol": "RAREUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.2671616999999997,
+    "entry_ms": 1788726000000,
+    "entry_type": "LIMIT",
+    "key": "ac224f51cdf02aa3dc5855c113f298ab6cccf1b87c0ab254143d68e36448e07d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.2405513042999996,
+        "time_ms": 1788727860000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.2139409085999997,
+        "time_ms": 1788727920000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 1.2657678221299997,
+        "time_ms": 1788735720000
+      }
+    ],
+    "native_net_R": 0.39164975903614585,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788724800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "RAYSOLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.4002,
+    "entry_ms": 1788969780000,
+    "entry_type": "LIMIT",
+    "key": "ca295cc8de24e95ca927bb252e66dbcf255c6ed615d2826b1de0635f10130113",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.3707957999999998,
+        "time_ms": 1788970560000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.3413916,
+        "time_ms": 1788970860000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.3119874,
+        "time_ms": 1788971160000
+      }
+    ],
+    "native_net_R": 0.6076960413080906,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788969600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "RAYSOLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.6056049999999997,
+    "entry_ms": 1789107180000,
+    "entry_type": "LIMIT",
+    "key": "d1dae9aa51f56744471c395a72fd4f211fe964f7025971e37e02971dcc5ba701",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 1.6955188799999998,
+        "time_ms": 1789108200000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789106400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "RAYSOLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.10048959999999998,
+    "entry_ms": 1787047500000,
+    "entry_type": "LIMIT",
+    "key": "77841b8bf05da7561059f746f9c4f5e843157f25c4fb16d9c5ff726653cdabba",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.09837931839999998,
+        "time_ms": 1787050680000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.09626903679999999,
+        "time_ms": 1787050680000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.09415875519999999,
+        "time_ms": 1787050740000
+      }
+    ],
+    "native_net_R": 0.6076960413080896,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787047200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "REDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.8848555,
+    "entry_ms": 1791291780000,
+    "entry_type": "LIMIT",
+    "key": "9dd2da30ce2c9efa3052d0ba18e12bf14c6ea43fe92efceaaa8b36153ec452aa",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.8662735345,
+        "time_ms": 1791292020000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.88388215895,
+        "time_ms": 1791292080000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791291600000,
+    "source": "RUBIK_H2",
+    "symbol": "RLCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.887388,
+    "entry_ms": 1791489780000,
+    "entry_type": "LIMIT",
+    "key": "1b7cc241a58088510fc6398db477cee458c1be8cb16bc809bc2b047e2c432501",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.868752852,
+        "time_ms": 1791490980000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.850117704,
+        "time_ms": 1791492240000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.8864118731999999,
+        "time_ms": 1791502500000
+      }
+    ],
+    "native_net_R": 0.3912752537959223,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791489600000,
+    "source": "RUBIK_H2",
+    "symbol": "RLCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.0834034999999997,
+    "entry_ms": 1791582720000,
+    "entry_type": "LIMIT",
+    "key": "f9e93ba5f31bb2e016afaee32e88bfa3d44c186a553ff175c695bb8dc1665548",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.0606520264999997,
+        "time_ms": 1791583440000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.0379005529999996,
+        "time_ms": 1791583500000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 1.0822117561499998,
+        "time_ms": 1791584640000
+      }
+    ],
+    "native_net_R": 0.3916497590361454,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791576000000,
+    "source": "RUBIK_H2",
+    "symbol": "RLCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 1.1157181999999999,
+    "entry_ms": 1791724260000,
+    "entry_type": "LIMIT",
+    "key": "3efd0e1bf4ca1f264c9b376e5e88ab3c1d7ae2a5d159c0c61ed6c8cd6325562d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 1.0922881178,
+        "time_ms": 1791724380000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 1.0688580356,
+        "time_ms": 1791724560000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 1.0454279534,
+        "time_ms": 1791725160000
+      }
+    ],
+    "native_net_R": 0.6076960413080892,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791716400000,
+    "source": "RUBIK_H2",
+    "symbol": "RLCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.017676849999999997,
+    "entry_ms": 1786255380000,
+    "entry_type": "LIMIT",
+    "key": "b6badb70859f2e9fed723884623a12e6dda26d12145690b614122eaaecfe8bb3",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.017305636149999998,
+        "time_ms": 1786256520000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.016934422299999998,
+        "time_ms": 1786257840000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.01656320845,
+        "time_ms": 1786258080000
+      }
+    ],
+    "native_net_R": 0.6076960413080892,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786255200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "SAGAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06175247999999999,
+    "entry_ms": 1790968740000,
+    "entry_type": "LIMIT",
+    "key": "383b852c30a5318f44e005c87ffb0e7988e2cbe7604b71ed60c713e32225428a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.06521061887999999,
+        "time_ms": 1790981940000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790967600000,
+    "source": "RUBIK_H2",
+    "symbol": "SANDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.07465,
+    "entry_ms": 1791054180000,
+    "entry_type": "LIMIT",
+    "key": "0dd6cacd6be31282cc616bbe01b2de3c5e8b1aab37909b72183d7f2643173969",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.07308234999999999,
+        "time_ms": 1791059640000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.074567885,
+        "time_ms": 1791061140000
+      }
+    ],
+    "native_net_R": 0.1760357573149733,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791054000000,
+    "source": "RUBIK_H2",
+    "symbol": "SANDUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.026820188,
+    "entry_ms": 1788161940000,
+    "entry_type": "LIMIT",
+    "key": "aeae3fbb02570a880ab1d8ed65a2a039fb10f39f401319358eaa6412123d08e8",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.026256964052,
+        "time_ms": 1788162060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.026790685793199997,
+        "time_ms": 1788162540000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788159600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "SKRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.027081541999999997,
+    "entry_ms": 1788254700000,
+    "entry_type": "LIMIT",
+    "key": "44599fecf2a129794528c58ed31a6c66d80b3ccfd0d485c67fbf2c2c7016d34a",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.026512829617999997,
+        "time_ms": 1788254940000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.025944117235999997,
+        "time_ms": 1788255240000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "TP3",
+        "price": 0.025375404854,
+        "time_ms": 1788256380000
+      }
+    ],
+    "native_net_R": 0.6076960413080893,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788253200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "SKRUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 11.19365,
+    "entry_ms": 1785838260000,
+    "entry_type": "LIMIT",
+    "key": "4add706e5ab4d99bc050fc8fd73ea609b9a019c2e1836f1d94967ffb793649a2",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 11.820494400000001,
+        "time_ms": 1785849000000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785834000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "SNXXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.10746,
+    "entry_ms": 1791691380000,
+    "entry_type": "LIMIT",
+    "key": "4f7b0006c3655f41b552395d84b1d5e6ae0fd49f255e74e0c0dd860f6b1aeaac",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.10520333999999999,
+        "time_ms": 1791691740000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.10294668,
+        "time_ms": 1791691740000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.107341794,
+        "time_ms": 1791694260000
+      }
+    ],
+    "native_net_R": 0.39164975903614485,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791691200000,
+    "source": "RUBIK_H2",
+    "symbol": "STRKUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.27047099999999996,
+    "entry_ms": 1787706780000,
+    "entry_type": "LIMIT",
+    "key": "4978e5c30b75d5eb2b1bcb35ac210c80704a97b629e350832f020cfb9e38709b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.26479110899999997,
+        "time_ms": 1787738460000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.27017348189999996,
+        "time_ms": 1787742780000
+      }
+    ],
+    "native_net_R": 0.1545423859410331,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1787680800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "STXUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06006077,
+    "entry_ms": 1791767640000,
+    "entry_type": "LIMIT",
+    "key": "bee31a8b81b763ba1dbecaabe44d8096e57722ec29a2214d858ba27ad244e36b",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05879949383,
+        "time_ms": 1791769680000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.059994703153,
+        "time_ms": 1791770880000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791766800000,
+    "source": "RUBIK_H2",
+    "symbol": "SUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.24646289999999996,
+    "entry_ms": 1788692760000,
+    "entry_type": "LIMIT",
+    "key": "b863cfe85e5280447390e68a7bac093ca421adc7309f9d42b76c68bae4388dd1",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.24128717909999994,
+        "time_ms": 1788705180000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.24619179080999995,
+        "time_ms": 1788706380000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788667200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "SUSHIUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.17879449999999997,
+    "entry_ms": 1789579380000,
+    "entry_type": "LIMIT",
+    "key": "18fff7587336701e37484f75fde277ce61d43dffbc76b8111b08f57951efd7f6",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.17503981549999997,
+        "time_ms": 1789581060000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.17859782604999996,
+        "time_ms": 1789581300000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789578000000,
+    "source": "RUBIK_H2",
+    "symbol": "SYNUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.016795539999999998,
+    "entry_ms": 1786274220000,
+    "entry_type": "LIMIT",
+    "key": "120e3eea0aae0cf11ebb27e39db5c0e544183373e2f5c1ce66a2dca7d157ad24",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.016442833659999996,
+        "time_ms": 1786274400000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.016777064906,
+        "time_ms": 1786275540000
+      }
+    ],
+    "native_net_R": 0.1760357573149752,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1786262400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "TSTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.004897855,
+    "entry_ms": 1788373500000,
+    "entry_type": "LIMIT",
+    "key": "87aa397c9c562d9654a3a125bfe792fd2a86a7cd510c3271ab769456f275ea6d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.00517213488,
+        "time_ms": 1788376740000
+      }
+    ],
+    "native_net_R": -1.0257256469840628,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788372000000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "TUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.006045584,
+    "entry_ms": 1792908180000,
+    "entry_type": "LIMIT",
+    "key": "0d879bc9cda5ee66f53d9cab4d702373d6cd24ff1bf374d81d1f949db24d9b98",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.006384136704,
+        "time_ms": 1792911120000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792908000000,
+    "source": "RUBIK_H2",
+    "symbol": "TUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.02843,
+    "entry_ms": 1788620580000,
+    "entry_type": "LIMIT",
+    "key": "25b5b0b4e9ca14ec39a91b52b8a223539c87f3acb63e1ea96b0f30c3b0c87bfa",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.02783297,
+        "time_ms": 1788622260000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.028398727000000002,
+        "time_ms": 1788622980000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788620400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "TUTUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.05305081,
+    "entry_ms": 1785801900000,
+    "entry_type": "LIMIT",
+    "key": "bb78ca39e83bc3ccf469e1d5346f49834cdd7dfc157af6ce6418a0af04f6ab4d",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.05193674298999999,
+        "time_ms": 1785802020000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.050822675979999996,
+        "time_ms": 1785802140000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.052992454109,
+        "time_ms": 1785803760000
+      }
+    ],
+    "native_net_R": 0.39164975903614585,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1785801600000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "VICUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0005948335999999999,
+    "entry_ms": 1789033680000,
+    "entry_type": "LIMIT",
+    "key": "ca71d603bb827d8b9380be4826dec8bd8d3c7623dd7a7e62d3d1908da1b982af",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.0005823420943999999,
+        "time_ms": 1789033860000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0005941792830399999,
+        "time_ms": 1789033980000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789030800000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "VTHOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.0005776125999999999,
+    "entry_ms": 1789178820000,
+    "entry_type": "LIMIT",
+    "key": "c14587d8b880ab01944131af4923726a29f6641a24a8562e2c96a9fe45db8643",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.0006099589055999999,
+        "time_ms": 1789179360000
+      }
+    ],
+    "native_net_R": -0.9863820998278838,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1789178400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "VTHOUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.058602049999999996,
+    "entry_ms": 1792022640000,
+    "entry_type": "LIMIT",
+    "key": "a7908414a5d2442951637cc53d57303014d248eef6434c489e56cea4a23c7d56",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.057371406949999995,
+        "time_ms": 1792022880000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.058537587744999994,
+        "time_ms": 1792023420000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1792022400000,
+    "source": "RUBIK_H2",
+    "symbol": "WALUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.021586,
+    "entry_ms": 1791756180000,
+    "entry_type": "LIMIT",
+    "key": "b8fc450b801e7ab36dcb4e9c9114d425dee2d9632ea49775052b9b984c827e10",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 1.0,
+        "kind": "SL",
+        "price": 0.022794816000000002,
+        "time_ms": 1791770340000
+      }
+    ],
+    "native_net_R": -0.985504810043739,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1791756000000,
+    "source": "RUBIK_H2",
+    "symbol": "WUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.011301027999999998,
+    "entry_ms": 1793186400000,
+    "entry_type": "LIMIT",
+    "key": "53257665cadc60ca0041525d8a0e6e99a9d24d0c6d46cda21db550116dd73b00",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.011063706411999998,
+        "time_ms": 1793186580000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.011288596869199998,
+        "time_ms": 1793187000000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1793185200000,
+    "source": "RUBIK_H2",
+    "symbol": "XANUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.11629239999999999,
+    "entry_ms": 1790332140000,
+    "entry_type": "LIMIT",
+    "key": "1326ea8046b5b52f9be4f106c38460816b6d770380a6d94cdfc1d94eabf3cb33",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.11385025959999999,
+        "time_ms": 1790332680000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.11616447835999999,
+        "time_ms": 1790334780000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790330400000,
+    "source": "RUBIK_H2",
+    "symbol": "XPLUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.060698959999999996,
+    "entry_ms": 1790006640000,
+    "entry_type": "LIMIT",
+    "key": "249d3e26c363952588c762e8dde89b69103a3f52a60ba8d9ce0bd047663acf5e",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.059424281839999996,
+        "time_ms": 1790008200000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.058149603679999995,
+        "time_ms": 1790010060000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.060632191143999994,
+        "time_ms": 1790013960000
+      }
+    ],
+    "native_net_R": 0.39164975903614485,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1790006400000,
+    "source": "RUBIK_H2",
+    "symbol": "ZETAUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.06210703,
+    "entry_ms": 1788140460000,
+    "entry_type": "LIMIT",
+    "key": "e38f5e0c5531bf1aca48f042d17ef8a13477cf8733a2d94665726d86296447ab",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.06080278237,
+        "time_ms": 1788140760000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.062038712267,
+        "time_ms": 1788141000000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788127200000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ZKCUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.055350319999999995,
+    "entry_ms": 1788068760000,
+    "entry_type": "LIMIT",
+    "key": "3ceacbf58e154734091a9f626891d0e7b770238928e4a4af06b7413dbdd3e537",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.054187963279999994,
+        "time_ms": 1788069480000
+      },
+      {
+        "fraction": 0.3,
+        "kind": "TP2",
+        "price": 0.053025606559999994,
+        "time_ms": 1788075180000
+      },
+      {
+        "fraction": 0.2,
+        "kind": "BE",
+        "price": 0.05528943464799999,
+        "time_ms": 1788077520000
+      }
+    ],
+    "native_net_R": 0.3877985782514196,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788062400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ZKPUSDT"
+  },
+  {
+    "edited": false,
+    "entry": 0.009297314,
+    "entry_ms": 1788170760000,
+    "entry_type": "LIMIT",
+    "key": "d405ee281f1fea5753b9d9683b748c6aa781b331016ebfc3fc3b13d0da97a9e6",
+    "lineage": "PF",
+    "native_events": [
+      {
+        "fraction": 0.5,
+        "kind": "TP1",
+        "price": 0.009102070406,
+        "time_ms": 1788173340000
+      },
+      {
+        "fraction": 0.5,
+        "kind": "BE",
+        "price": 0.0092870869546,
+        "time_ms": 1788173520000
+      }
+    ],
+    "native_net_R": 0.17603575731497426,
+    "native_risk_fraction": 0.056,
+    "native_status": "CLOSED",
+    "scenario": "E4",
+    "side": -1,
+    "signal_ms": 1788170400000,
+    "source": "RUBIK_TRAIN",
+    "symbol": "ZORAUSDT"
+  }
+]
