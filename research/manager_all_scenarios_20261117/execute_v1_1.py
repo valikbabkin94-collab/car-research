@@ -126,6 +126,12 @@ def finish_cash(r,e,q,fund):
  if r['status']!='CLOSED':return r
  cash=fund.cash(e['symbol'],r,q);r['funding_status']='KNOWN_REAL_CASH'if cash is not None else'ASSUMED_ZERO_UNKNOWN';r['funding_R']=cash or 0.;r['net_R']=r['price_R']+r['funding_R'];exposure=sum(z['fraction']*max(0,z['time_ms']-r['entry_ms'])/(8*H)for z in r['events']);stress=.0001*exposure/r['risk_denominator']if cash is None else 0.;r['net_R_adverse']=r['net_R']-stress;return r
 
+def causal_confirmation(e,b):
+ if b['lineage']==e['lineage']or b['scenario']==e['scenario']or b['side']!=e['side']:return False
+ if b['entry_ms']>e['entry_ms']:return False  # membership in saved filled log was not yet known
+ delta=e['entry_ms']-b['signal_ms']
+ return (e['symbol']==b['symbol']and 0<=delta<=2*H)or(b['symbol']=='BTCUSDT'and 0<=delta<=4*H)
+
 def confluence(entries,gate):
  out={};eligible=[e for e in entries if gate[e['scenario']]=='ЕСТЬ_КРАЙ']
  for e in entries:
@@ -134,7 +140,7 @@ def confluence(entries,gate):
    if b['lineage']==e['lineage']or b['scenario']==e['scenario']or b['side']!=e['side']:continue
    delta=e['entry_ms']-b['signal_ms'];same=e['symbol']==b['symbol']
    if same and abs(delta)<=2*H:symmetric.append(b['key'])
-   if (same and 0<=delta<=2*H)or(b['symbol']=='BTCUSDT'and 0<=delta<=4*H):causal.append(b['key'])
+   if causal_confirmation(e,b):causal.append(b['key'])
   out[e['key']]=dict(causal=bool(causal),causal_keys=causal,symmetric_diagnostic=bool(symmetric),future_only_diagnostic=bool(symmetric)and not causal)
  save(OUT/'CONFLUENCE_FLAGS.json',out);return out
 

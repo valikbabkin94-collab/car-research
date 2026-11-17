@@ -4,7 +4,7 @@ from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
 P=Path(__file__).resolve().parents[1];sys.path.insert(0,str(P));from engine_v1_1 import simulate,atr_at,MAN
-from execute_v1_1 import features,periods,label,edge_tables,symbol_groups
+from execute_v1_1 import features,periods,label,edge_tables,symbol_groups,causal_confirmation
 from vendor.pure_manager import geometry
 class ManagerLabTests(unittest.TestCase):
  def quotes(self,n=4500):return np.column_stack([np.arange(n)*60000,np.full(n,100.),np.full(n,100.1),np.full(n,99.9),np.full(n,100.)])
@@ -13,6 +13,8 @@ class ManagerLabTests(unittest.TestCase):
   rows=[dict(self.entry(),symbol=x,key=str(i))for i,x in enumerate(['B','A','B','C','A'])];groups=list(symbol_groups(rows));self.assertEqual(sum(len(g)for s,g in groups),len(rows));self.assertEqual([s for s,g in groups],['A','B','C']);self.assertEqual([len(g)for s,g in groups],[2,2,1])
  def test_manager_atr_uses_original_publication_snapshot(self):
   q=self.quotes();pub=15*3600000;entry=17*3600000;q[900:1020,2]=102.;r=simulate(q,dict(self.entry(entry),signal_ms=pub),'X1');self.assertAlmostEqual(r['atr'],.2)
+ def test_future_filled_confirmation_cannot_confirm_past_entry(self):
+  e=dict(self.entry(10*3600000),lineage='A');b=dict(e,scenario='B',lineage='B',signal_ms=9*3600000,entry_ms=11*3600000);self.assertFalse(causal_confirmation(e,b));b['entry_ms']=9*3600000;self.assertTrue(causal_confirmation(e,b))
  def test_time_exit_preserves_entry_and_fees(self):
   r=simulate(self.quotes(),self.entry(),'X6');self.assertEqual(r['status'],'CLOSED');self.assertEqual(r['entry'],100.);self.assertEqual(r['exit_ms'],4*3600000);self.assertAlmostEqual(r['price_R'],-.21)
  def test_stop_before_tp_on_ambiguous_bar(self):

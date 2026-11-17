@@ -1,4 +1,4 @@
-name: Fixed-entry manager all scenarios full audit
+name: Fixed-entry manager all scenarios full audit v1.1 coverage verified
 on:
   push:
     branches: [research/manager-all-scenarios]
