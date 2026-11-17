@@ -1,0 +1,10 @@
+{
+  "variant": "FC4",
+  "leverage": 2,
+  "period": "FULL",
+  "slippage": 0.0005,
+  "mmr": 0.005,
+  "min_notional": 0,
+  "engine_fingerprint": "1e546ca35d56bd372c85d54c89b506451cf7de38cdda37b72c10d546cd176491",
+  "data_run": 44159556548
+}
