@@ -1,0 +1,583 @@
+[
+  {
+    "variant": "FC6",
+    "gap": {
+      "time_ms": 1762916400000,
+      "reason": "NEXT_MARK_UNAVAILABLE"
+    },
+    "held_open_events": [
+      {
+        "time_ms": 1762131600000,
+        "trade": 4,
+        "symbol": "FLMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 420.8544163775757,
+        "spot_price": 0.023711849999999996,
+        "perp_price": 0.02368815,
+        "basis": -0.0009995002498748295,
+        "collateral": 9.969262543314471,
+        "fees": 0.015462331191805576,
+        "maker": false
+      },
+      {
+        "time_ms": 1762736400000,
+        "trade": 13,
+        "symbol": "LUMIAUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 57.9714680155268,
+        "spot_price": 0.172086,
+        "perp_price": 0.17201395,
+        "basis": -0.00041868600583427895,
+        "collateral": 9.971901200649427,
+        "fees": 0.01546062370527713,
+        "maker": false
+      },
+      {
+        "time_ms": 1762822800000,
+        "trade": 14,
+        "symbol": "PERPUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 68.52244676326251,
+        "spot_price": 0.14557274999999997,
+        "perp_price": 0.14552720000000002,
+        "basis": -0.00031290196825950467,
+        "collateral": 9.971879814606657,
+        "fees": 0.015459534910090382,
+        "maker": false
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 15,
+        "symbol": "AWEUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 158.06718987530127,
+        "spot_price": 0.06317157,
+        "perp_price": 0.063078445,
+        "basis": -0.001474159974178213,
+        "collateral": 9.970632542853748,
+        "fees": 0.015469200448480444,
+        "maker": false
+      }
+    ],
+    "last_events": [
+      {
+        "time_ms": 1762876800000,
+        "trade": 14,
+        "symbol": "PERPUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00079764,
+        "mark_proxy": 0.1321623,
+        "cash": 0.007223494974056832
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 4,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00104402,
+        "mark_proxy": 0.0164022,
+        "cash": 0.007206805652640003
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 13,
+        "symbol": "LUMIAUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.16170763,
+        "cash": 0.0004687214350205821
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 14,
+        "symbol": "PERPUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00038833,
+        "mark_proxy": 0.1299,
+        "cash": 0.0034565508955299467
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 4,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00158459,
+        "mark_proxy": 0.016,
+        "cash": 0.010670107194363884
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 13,
+        "symbol": "LUMIAUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.1575,
+        "cash": 0.0004565253106222736
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 14,
+        "symbol": "PERPUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.0007726,
+        "mark_proxy": 0.12355534,
+        "cash": 0.006541074356688849
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 15,
+        "symbol": "AWEUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 158.06718987530127,
+        "spot_price": 0.06317157,
+        "perp_price": 0.063078445,
+        "basis": -0.001474159974178213,
+        "collateral": 9.970632542853748,
+        "fees": 0.015469200448480444,
+        "maker": false
+      }
+    ]
+  },
+  {
+    "variant": "FC1",
+    "gap": {
+      "time_ms": 1762916400000,
+      "reason": "NEXT_MARK_UNAVAILABLE"
+    },
+    "held_open_events": [
+      {
+        "time_ms": 1762563600000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 2307.2514395654134,
+        "spot_price": 0.021810899999999998,
+        "perp_price": 0.021989,
+        "basis": 0.008165641949667624,
+        "collateral": 50.73415190460388,
+        "fees": 0.0782270139707494,
+        "maker": false
+      }
+    ],
+    "last_events": [
+      {
+        "time_ms": 1762804800000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00129693,
+        "mark_proxy": 0.01914703,
+        "cash": 0.05729449286170293
+      },
+      {
+        "time_ms": 1762819200000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00109218,
+        "mark_proxy": 0.01955162,
+        "cash": 0.04926878959340318
+      },
+      {
+        "time_ms": 1762833600000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.01921189,
+        "cash": 0.0022163330429636184
+      },
+      {
+        "time_ms": 1762848000000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00029444,
+        "mark_proxy": 0.0176,
+        "cash": 0.011956509204035268
+      },
+      {
+        "time_ms": 1762862400000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00108215,
+        "mark_proxy": 0.0181,
+        "cash": 0.04519193783039539
+      },
+      {
+        "time_ms": 1762876800000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00105982,
+        "mark_proxy": 0.01747277,
+        "cash": 0.04272566162656466
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00104402,
+        "mark_proxy": 0.0164022,
+        "cash": 0.03950989242276082
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 1,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00158459,
+        "mark_proxy": 0.016,
+        "cash": 0.058496760937935335
+      }
+    ]
+  },
+  {
+    "variant": "FC5",
+    "gap": {
+      "time_ms": 1762916400000,
+      "reason": "NEXT_MARK_UNAVAILABLE"
+    },
+    "held_open_events": [
+      {
+        "time_ms": 1762797600000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 2565.7236113325207,
+        "spot_price": 0.019,
+        "perp_price": 0.0193,
+        "basis": 0.015789473684210575,
+        "collateral": 49.518465698717655,
+        "fees": 0.05865244175506143,
+        "maker": true
+      }
+    ],
+    "last_events": [
+      {
+        "time_ms": 1762804800000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00129693,
+        "mark_proxy": 0.01914703,
+        "cash": 0.06371296626529901
+      },
+      {
+        "time_ms": 1762819200000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00109218,
+        "mark_proxy": 0.01955162,
+        "cash": 0.054788175486144126
+      },
+      {
+        "time_ms": 1762833600000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.01921189,
+        "cash": 0.002464619989566157
+      },
+      {
+        "time_ms": 1762848000000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00029444,
+        "mark_proxy": 0.0176,
+        "cash": 0.013295949218125153
+      },
+      {
+        "time_ms": 1762862400000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00108215,
+        "mark_proxy": 0.0181,
+        "cash": 0.050254610288663126
+      },
+      {
+        "time_ms": 1762876800000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00105982,
+        "mark_proxy": 0.01747277,
+        "cash": 0.04751204700330748
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00104402,
+        "mark_proxy": 0.0164022,
+        "cash": 0.043936028008017755
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 2,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00158459,
+        "mark_proxy": 0.016,
+        "cash": 0.06504991963650239
+      }
+    ]
+  },
+  {
+    "variant": "FC2",
+    "gap": {
+      "time_ms": 1762916400000,
+      "reason": "NEXT_MARK_UNAVAILABLE"
+    },
+    "held_open_events": [
+      {
+        "time_ms": 1761955200000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 2014.5734037563107,
+        "spot_price": 0.024712349999999998,
+        "perp_price": 0.02488755,
+        "basis": 0.007089572622595686,
+        "collateral": 50.137796314655375,
+        "fees": 0.07736063102737771,
+        "maker": false
+      }
+    ],
+    "last_events": [
+      {
+        "time_ms": 1762804800000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00129693,
+        "mark_proxy": 0.01914703,
+        "cash": 0.05002660720958675
+      },
+      {
+        "time_ms": 1762819200000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00109218,
+        "mark_proxy": 0.01955162,
+        "cash": 0.04301897549962358
+      },
+      {
+        "time_ms": 1762833600000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.01921189,
+        "cash": 0.0019351881314945915
+      },
+      {
+        "time_ms": 1762848000000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00029444,
+        "mark_proxy": 0.0176,
+        "cash": 0.010439809476835342
+      },
+      {
+        "time_ms": 1762862400000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00108215,
+        "mark_proxy": 0.0181,
+        "cash": 0.03945927802063554
+      },
+      {
+        "time_ms": 1762876800000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00105982,
+        "mark_proxy": 0.01747277,
+        "cash": 0.037305852363876464
+      },
+      {
+        "time_ms": 1762891200000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00104402,
+        "mark_proxy": 0.0164022,
+        "cash": 0.03449800793066546
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 0,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00158459,
+        "mark_proxy": 0.016,
+        "cash": 0.051076365917731396
+      }
+    ]
+  },
+  {
+    "variant": "FC3",
+    "gap": {
+      "time_ms": 1762916400000,
+      "reason": "NEXT_MARK_UNAVAILABLE"
+    },
+    "held_open_events": [
+      {
+        "time_ms": 1762131600000,
+        "trade": 6,
+        "symbol": "FLMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 420.70543088683604,
+        "spot_price": 0.023711849999999996,
+        "perp_price": 0.02368815,
+        "basis": -0.0009995002498748295,
+        "collateral": 9.965733352662006,
+        "fees": 0.015456857415338124,
+        "maker": false
+      },
+      {
+        "time_ms": 1762650000000,
+        "trade": 21,
+        "symbol": "AWEUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 147.04952578025706,
+        "spot_price": 0.06751373999999999,
+        "perp_price": 0.06733631500000001,
+        "basis": -0.0026279835778610927,
+        "collateral": 9.90177318854001,
+        "fees": 0.015373838704348575,
+        "maker": false
+      },
+      {
+        "time_ms": 1762736400000,
+        "trade": 22,
+        "symbol": "LUMIAUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 58.02700393063645,
+        "spot_price": 0.172086,
+        "perp_price": 0.17201395,
+        "basis": -0.00041868600583427895,
+        "collateral": 9.981454152774301,
+        "fees": 0.01547543478243337,
+        "maker": false
+      },
+      {
+        "time_ms": 1762822800000,
+        "trade": 24,
+        "symbol": "PERPUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 68.56373588754902,
+        "spot_price": 0.14557274999999997,
+        "perp_price": 0.14552720000000002,
+        "basis": -0.00031290196825950467,
+        "collateral": 9.977888505254525,
+        "fees": 0.015468850261314188,
+        "maker": false
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 25,
+        "symbol": "FORMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 22.655432224309745,
+        "spot_price": 0.4380189,
+        "perp_price": 0.43708135000000004,
+        "basis": -0.0021404327530157863,
+        "collateral": 9.902266901434807,
+        "fees": 0.015369754297705852,
+        "maker": false
+      }
+    ],
+    "last_events": [
+      {
+        "time_ms": 1762905600000,
+        "trade": 6,
+        "symbol": "FLMUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.00158459,
+        "mark_proxy": 0.016,
+        "cash": 0.010666329899663545
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 21,
+        "symbol": "AWEUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.0639,
+        "cash": 0.0004698232348679213
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 22,
+        "symbol": "LUMIAUSDT",
+        "event": "FUNDING",
+        "raw_rate": 5e-05,
+        "mark_proxy": 0.1575,
+        "cash": 0.00045696265595376206
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 23,
+        "symbol": "BELUSDT",
+        "event": "FUNDING",
+        "raw_rate": -4.779e-05,
+        "mark_proxy": 0.18314476,
+        "cash": -0.00044766001558167577
+      },
+      {
+        "time_ms": 1762905600000,
+        "trade": 24,
+        "symbol": "PERPUSDT",
+        "event": "FUNDING",
+        "raw_rate": 0.0007726,
+        "mark_proxy": 0.12355534,
+        "cash": 0.006545015769245433
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 23,
+        "symbol": "BELUSDT",
+        "event": "EXIT_spot",
+        "price": 0.1829085,
+        "q": 51.14660099728089,
+        "fee": 0.009355148068511152,
+        "kind": "DAILY_RANK_EXIT"
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 23,
+        "symbol": "BELUSDT",
+        "event": "EXIT_perp",
+        "price": 0.18279135,
+        "q": 51.14660099728089,
+        "fee": 0.005142035934312376,
+        "kind": "DAILY_RANK_EXIT"
+      },
+      {
+        "time_ms": 1762909200000,
+        "trade": 25,
+        "symbol": "FORMUSDT",
+        "event": "OPEN_PAIR",
+        "quantity": 22.655432224309745,
+        "spot_price": 0.4380189,
+        "perp_price": 0.43708135000000004,
+        "basis": -0.0021404327530157863,
+        "collateral": 9.902266901434807,
+        "fees": 0.015369754297705852,
+        "maker": false
+      }
+    ]
+  }
+]
