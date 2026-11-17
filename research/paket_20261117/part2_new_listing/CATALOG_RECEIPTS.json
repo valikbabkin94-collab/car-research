@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&delimiter=/&prefix=data/futures/um/monthly/klines/",
+    "sha256": "0872561189970f37b2b88e465c498210d00b84ee10d7f458e21190ef92a6690b"
+  },
+  {
+    "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&delimiter=/&prefix=data/futures/um/monthly/klines/&continuation-token=1f%2BT4pBTtpOAlj%2BmkAiygeFZUpROTurfLYUJDIeY6zYuR9rxFAwaHWlVRD%2FbSGt2Ajma0WHMjAbxhBFiiFa99ObrtudQbesCyiIZuNw0QCkg%3D",
+    "sha256": "a99c14c1752b7309b896a7e24d162735021dc5d8fd4be956304d41aa6c8ef907"
+  }
+]

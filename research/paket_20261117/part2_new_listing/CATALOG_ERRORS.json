@@ -1,0 +1,26 @@
+{
+  "requested": 923,
+  "processed": 923,
+  "errors": [
+    {
+      "symbol": "哈基米USDT",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 86-88: ordinal not in range(128)"
+    },
+    {
+      "symbol": "币安人生USDT",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 86-89: ordinal not in range(128)"
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 86-90: ordinal not in range(128)"
+    },
+    {
+      "symbol": "牛来USDT",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 86-87: ordinal not in range(128)"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 86-87: ordinal not in range(128)"
+    }
+  ]
+}
