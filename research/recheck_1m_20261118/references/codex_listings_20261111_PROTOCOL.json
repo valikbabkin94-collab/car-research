@@ -1,0 +1,42 @@
+{
+  "start": "2025-01-01T00:00:00+00:00",
+  "end_exclusive": "2026-11-11T00:00:00+00:00",
+  "split": "2025-12-06T12:00:00+00:00",
+  "split_basis": "calendar midpoint frozen before downloading; launch < split H1 else H2",
+  "source_sha256": "28988553fcfd961fcbbdd4048acca23fab74525298e5dfb107543a94709adde0",
+  "constants": {
+    "VARIANTS": {
+      "A5": {
+        "minutes": 5,
+        "stop": 0.04
+      },
+      "B10": {
+        "minutes": 10,
+        "stop": 0.06
+      }
+    },
+    "MAX_SPREAD": 0.005,
+    "MIN_BOOK_ASK_USD": 5000.0,
+    "MIN_FIRST5_TURNOVER_USD": 10000.0,
+    "RISK_BUDGET_USDT": 10.0,
+    "MAX_NOTIONAL_USDT": 250.0,
+    "MAX_BOOK_SHARE": 0.05,
+    "LATE_GRACE_SECONDS": 130
+  },
+  "proxy": "http://127.0.0.1:10809",
+  "threads": 1,
+  "minimum_request_interval_seconds": 0.35,
+  "fee_each_side": 0.00055,
+  "entry_slip": 0.002,
+  "stop_slip": 0.002,
+  "tp_slip": 0,
+  "entry": "next 1m open at signal due; 20bp adverse; stop/TP relative to un-slipped reference open, matching ask-reference levels",
+  "stop_gap": "worse of stop and candle open, then 20bp adverse",
+  "same_bar": "stop first",
+  "horizon": "launchTime + 24h; close last complete candle at horizon with taker fee; no extra terminal slip",
+  "short": "same A5 positive-growth signal, reversed position; no negative-growth refilter",
+  "control": "5 completed bars, same turnover threshold, remove growth and close confirmation, LONG; secondary control retains close confirmation only",
+  "unavailable": "historical BBO spread, ask depth, lot filters at launch, poll delay and tradability of zero-volume candles cannot be reconstructed",
+  "funding": "historical realized rates and 1m close mark proxy at payment time; missing or empty history explicitly unknown, not zero",
+  "universe": "all USDT LinearPerpetual returned for default/Trading/Settled/Delivering/Closed/PreLaunch/PendingOpen statuses; crypto subset matching monitor reported separately"
+}

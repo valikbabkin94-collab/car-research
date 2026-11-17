@@ -1,0 +1,12 @@
+{
+  "found": 621,
+  "with_data": 614,
+  "A5_pass": false,
+  "B10_pass": false,
+  "asof": "2026-11-11T09:33:49.182000+00:00",
+  "additional_found": 1,
+  "additional_with_data": 0,
+  "total_found_asof": 622,
+  "total_with_data_asof": 614,
+  "excluded_from_main_metrics": "first 24h incomplete for all current-day listings; original calendar split and main metrics unchanged"
+}

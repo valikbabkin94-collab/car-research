@@ -1,0 +1,69 @@
+name: Recheck fixed old DUMP trades on minute chronology
+on:
+  push:
+    branches: [research/recheck-1m-20261118]
+    paths: [.github/workflows/recheck_1m.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    strategy:
+      fail-fast: false
+      matrix: {shard: [0, 1, 2, 3]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/recheck_1m_20261118 python -m pytest -q research/recheck_1m_20261118/test_minute_engine.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - name: Replay only fixed old entries on verified minute bars
+        env: {SHARD: '${{ matrix.shard }}'}
+        run: PYTHONPATH=research/recheck_1m_20261118 python -u research/recheck_1m_20261118/run_dump.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dump_shard${{ matrix.shard }}
+          path: research/recheck_1m_20261118/dump_shard${{ matrix.shard }}
+          retention-days: 90
+      - name: Persist new minute cache without overwriting old cache
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recheck-1m-verified-cache${{ matrix.shard }}
+          path: work/market/m1
+          retention-days: 30
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/recheck_1m_20261118/dump_shard${{ matrix.shard }}
+        run: python research/recheck_1m_20261118/publish.py
+  final:
+    needs: dump
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: dump_shard*
+          path: results
+      - run: PYTHONPATH=research/recheck_1m_20261118 python research/recheck_1m_20261118/finalize.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: recheck-1m-final
+          path: research/recheck_1m_20261118/final
+          retention-days: 90
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/recheck_1m_20261118/final
+        run: python research/recheck_1m_20261118/publish.py

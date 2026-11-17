@@ -1,0 +1,32 @@
+{
+  "stage": "FIXED_RULES_BEFORE_PNL",
+  "start_ms": 1778457600000,
+  "end_exclusive_ms": 1794355200000,
+  "half2_start_ms": 1786406400000,
+  "warmup_start_ms": 1775865600000,
+  "period": "Initial frozen6calendar-month screen May11-Nov11; do not claim maximal historical coverage. Extend only with a separate pre-outcome protocol.",
+  "A": "At each published funding settlement t: rate>=linear99thpercentile of previous30days excluding current AND previous closed1h C/closed C24h before-1>0 ->SHORT at next full hour",
+  "B": "rate<=linear1stpercentile previous30days excluding current AND price24h<0 ->LONG next full hour",
+  "C": "hourly base-unit OI(t)/OI(t-24h)-1>0.30 AND price24h>0.10 ->SHORT next full hour",
+  "entry": "next full hour after observed funding/OI timestamp; no mark history treated as traded price; require exact next1hopen and all24h subsequent bars",
+  "manager": "unchangedD14SL1.5ATR14closed1hTR,50/25/25at1/2/3R,BE,24h,5.5bp eachfill,5bp entry/stop/time; stop-first, noTPentrybar; conservative same-bar-newBE lower bound",
+  "atr": "14true ranges using15fullyclosedhourlybars before decision",
+  "funding": "actual historical settlements; remaining fraction of original base qty; price1hopen proxy, not markprice. If settlement shares exit/partial hour use largest exposure for debit and smallest for credit. Entry-timestamp funding debit included conservatively, credit omitted. No absent funding as0; historical funding publication coverage tracked. Non-crypto contracts with no funding history remain DATA_GAP.",
+  "random": "mean ofLONG andSHORT on same coin/time/exits, not an executable combined portfolio",
+  "always_same_direction": "Additional unfiltered SHORT and LONG at every complete eligible settlement time (A/B) and every eligible OI hour(C), same coin/half; same-time same-direction control alone is tautological and not independent.",
+  "halves": "fixed calendar midpoint; first-half events holding across split removed from both controls using full24h time-only purge; latest24h removed to avoid censoring",
+  "screen": "EDGE>0 both,t>=2 one,n>=30; ALSO economicmeanRpositiveboth required for promise; no tuning; naive t plus day-cluster t; incomplete history or retrospective universe=>INCONCLUSIVE",
+  "network": {
+    "public_GET_only": true,
+    "proxy": "http://127.0.0.1:10809",
+    "workers": 1,
+    "min_spacing_s": 0.35,
+    "retries": 3,
+    "backoff": "10/20s network,60/120s rate; checkpoint pauses, no impact on runtime",
+    "max_requests": 3500,
+    "stop_on_new_ExchangeNotAvailable": true,
+    "readonly_log_sensor": "C:\\Users\\valik\\CAR_RUNTIME\\fastpath\\freqtrade\\user_data\\logs\\fastpath.log"
+  },
+  "source_writes": 0,
+  "live_changes": 0
+}

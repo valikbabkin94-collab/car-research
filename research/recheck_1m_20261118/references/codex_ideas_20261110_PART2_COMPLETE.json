@@ -1,0 +1,16 @@
+{
+  "status": "INCONCLUSIVE",
+  "symbols_requested": 100,
+  "symbols_collected": 100,
+  "signals": {
+    "A": 10882,
+    "B": 5044,
+    "C": 1648
+  },
+  "models_this_run": 367728,
+  "retrospective_universe_bias": true,
+  "execution_resolution": "1h conservative bound; independent minute execution still required",
+  "funding_price": "hourly open proxy; actual funding rates",
+  "no_parameter_tuning": true,
+  "live_changes": 0
+}

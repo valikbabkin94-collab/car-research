@@ -1,0 +1,17 @@
+[
+  {
+    "path": "C:\\Users\\valik\\Desktop\\CAR_NEW_CHANNELS_20261106\\03_AUTONOMOUS_RESEARCH_20261107\\results\\MANAGER_TRADES.csv",
+    "rows": 542,
+    "sha256": "d9b90c89e5fb1d33977676f6be40bd92de96219171e4b1020067b9dc78492251"
+  },
+  {
+    "path": "C:\\Users\\valik\\Desktop\\CAR_NEW_CHANNELS_20261106\\CODEX_DIRECTION_14_20261109\\MANAGER_TRADES_14_LOCAL.csv",
+    "rows": 1344,
+    "sha256": "c7ada2b4214d68661f99ad80a482def25f8a9d8b84f26a2bc05a0d206ca09c52"
+  },
+  {
+    "path": "C:\\Users\\valik\\Desktop\\CAR_NEW_CHANNELS_20261106\\CODEX_MANAGER_LIVE_SOURCES_20261109\\MANAGER_TRADES_LIVE_SOURCES_LOCAL.csv",
+    "rows": 642,
+    "sha256": "d2feb961c009a73767f001598f74773372de797ae44d60913d248f40d03bb538"
+  }
+]
