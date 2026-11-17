@@ -1,0 +1,11 @@
+{
+  "status": "DUMP_MINUTE_COMPLETE_OTHER_PARTS_SOURCE_AUDITED",
+  "source_code_sha": "75c57764a0972e308257288cfcc3aa9baaf2a69f",
+  "original_closed": 1141,
+  "minute_closed": 1001,
+  "gaps": 140,
+  "winner": null,
+  "paper_candidate": false,
+  "code_only_execution_changed": true,
+  "live_changes": 0
+}

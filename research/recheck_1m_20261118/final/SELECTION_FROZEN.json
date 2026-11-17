@@ -1,0 +1,59 @@
+{
+  "winner": null,
+  "raw_max": "TOP50",
+  "H1": {
+    "RAW": {
+      "n_original": 441,
+      "n": 405,
+      "coverage": 0.9183673469387755,
+      "netR": -31.09360965415163,
+      "meanR": -0.07677434482506576,
+      "PF": 0.7408865862154035,
+      "WR": 70.37037037037037,
+      "maxDD_R": 31.093609654151518,
+      "parent_hourly_R_on_same_rows": -52.484154772087756,
+      "delta_vs_same_rows": 21.390545117936124,
+      "top3_share": null,
+      "entry_minute_ambiguous": 14,
+      "new_BE_minute_ambiguous": 19,
+      "simultaneous_SL_TP": 0,
+      "sensitivity_R": -27.331607444019987,
+      "netR_with_known_funding": -30.1547883982945,
+      "funding_unknown_n": 84,
+      "netR_funding_adverse": -30.203476005867646,
+      "statuses": {
+        "CLOSED": 405,
+        "DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED": 26,
+        "DATA_GAP_MINUTES": 10
+      }
+    },
+    "TOP50": {
+      "n_original": 221,
+      "n": 201,
+      "coverage": 0.9095022624434389,
+      "netR": -2.551440979452676,
+      "meanR": -0.012693736216182467,
+      "PF": 0.9518596041612704,
+      "WR": 73.6318407960199,
+      "maxDD_R": 9.240963855421711,
+      "parent_hourly_R_on_same_rows": -1.1466546337481234,
+      "delta_vs_same_rows": -1.4047863457045524,
+      "top3_share": null,
+      "entry_minute_ambiguous": 5,
+      "new_BE_minute_ambiguous": 5,
+      "simultaneous_SL_TP": 0,
+      "sensitivity_R": -2.6408173218142843,
+      "netR_with_known_funding": -2.484337865020716,
+      "funding_unknown_n": 29,
+      "netR_funding_adverse": -2.501900974601898,
+      "statuses": {
+        "CLOSED": 201,
+        "DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED": 12,
+        "DATA_GAP_MINUTES": 8
+      }
+    }
+  },
+  "original_logistic_refit": false,
+  "reason": "No eligible candidate if minute data coverage<95%",
+  "code_sha": "75c57764a0972e308257288cfcc3aa9baaf2a69f"
+}
