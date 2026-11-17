@@ -1,0 +1,2125 @@
+{
+  "source_v1_sha": "4d70302663f8e28a5d7bbca15f43f471d831d5e0",
+  "input_sha256": "b099fd343ac2312bb2926ea6554a65f7129f87acea8592f994c16dd344f720c2",
+  "total_signals": 2113,
+  "frozen_entries": 1761,
+  "not_filled_or_rejected": 352,
+  "reasons": {
+    "NOFILL": 316,
+    "RIGHT_CENSORED": 36
+  },
+  "rows": [
+    {
+      "key": "a899bca8e0a82047fb65bce83ff8e619ea0db58334850f70f8579e186d5f8e0b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "52bed87cdf66c8b072838384fae4aaa202acc54ae77be7ec6d7255e7faeebe8e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "10bd8f320a2fff6e5fd4e2fc14a9e2ed88b51b5a12cd05695eca7488dfdf10cd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "489dea8e1e45c548dd6a4e800b59a06bb94b5afc374f3f11b811ea0d8aea0214",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8ed8e90384a843fd9f04aaf9d7b1b91932dc2f3877215eae61265b6b1659a6f2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "55a2290639d4d7a309f159103d6f1b9cf6731dc84fb29f31818e52bc56ff1a4d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "57f40b2885a443bb7ec754ee1e0f436429f5ed17491f2f0e4e9252560d9484a4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c5a775c653f2d33fa8d8888dcf94fb338837149d13217dab70e4d9eadab49934",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "df9967132f2ad485f947d77136ae73e105be85eba0ad5cd67616438af642e9fb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "446e2bec6bedc7b67e2ca2e66f5e035a38d98d5640a2da548915737922e7647a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6609a0e20f43a29c62e546edfcf3f3bc3a7b310f51c48747c3f70358e7db417b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "69c490a58763b6cfeed8e864a856f1fa33d079f196a1a33d050cfff367bb15fc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "88932023f2cacce7bdb522d2c9380e3a7fde590812bd67141e0518a889bca674",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bdb355f68df5bbabb1c47794bba728df3d10437df9b787ae59d7c87045ab3ff7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "88aa438d395ee6df00578529d4e9c41147ba5b17133330a92429a10382f8efda",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e2c945e453ffe5a271e02f1d7d1b4f1d5812630f7da46ab89f928df02df0c225",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b2afba92d2dd44765fcd0c8349d57365541a7019350502f7a37782c6525ac1d1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "34d2edbb4293997da97addabff01c50e2c1c53deebe5db1bf2b99a1ad00e9a54",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "02eb29349a40d85c9f64b5c34d6f4c9749b5120ee5099bd521a6f28f13db51b1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b516b12c60b03df4c22e9d97a41b6ffebfad04b422c94158bb0c6ca3081d28af",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e69fd37ca8faf878eb67bff800ab714402e6239b1af2144d4a537ab3eee74434",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6b98dbbb1da08328d9d65d4bf0e157d04e80a89903c3e1bd5905a48039639b89",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ffb78d4c7f0f3a468bd14d9cae7dd60be67142fe84633035a75e1354d30afc24",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "15cc43548bde5e97023e8569db7cbd80c2242a31dcc9e91b533bdd599e647af5",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0ed774756d5d761b1c3c07a0d562c344934614d70a16158ddb66beedcaac9a18",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "905afa93f2c4649e57779ecb1aaa2fea2b1745f7aad1bef41b81565340cb1999",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "880a481961b1ab2a1e6b3a138aa2eabdaf3c6d5e8dbd62266f4c537184b4c33b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5f3c5b0fc0937b50b3cdee594df9685a69864b86bbe2e3f487b332ec966d593b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "652ab68c0cf5d05e149f4d77b8ff92ca7c6edc02b21268dfa1e46b442020f2d9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d67c9992c59426409ad710bf9f8498042b670b7721337f9e6fdbcb19e5866f43",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bbd493ff9831fba55b2612d334acded643ac6cc58f0d2acc98705bfa42fd5ae9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8c41a14372673e1fd2e289e898e74eb04c81acefa3ac684c003a67e24d56de56",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "68f77918168d992401bcbf17601ab4df75035cf3f79116b72b9246004fd2db24",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "86fa665534af9b0cedb8be3ac08ff8dcea9bbbc863e1e57bd6ca471d535d9bb9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "fdae6f0c6839ee4d7c805d5c52abb1d8440b40fe3d03f41b3cdbb147bb032685",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5a00f2cca6b26b639b79840afaa40b2616c2cfef33c8b44a85ac0b1321f25b12",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6ad7c44cbff4b82f67776c8528e25414614a188637ecabd2e72a76050c6a1744",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "962371875253b031efb0833862c8391317e32cb1faef05ca1cb920dbce19790a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "243d09c1fe3ddb2d23802099221cbf9f427ab928de9b64536a8cb678d66e896f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "dd77f2768a68cd8958197f09faae6f99fe342e243f63d492bf015fcf0f459eda",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "dd8604e350d25c2ab6d1dd96b035ed9a1ab1b76a0ad3d84476842e356ad204d3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c2ab660ec69b8eb7e3a72c978ae6205b5e7233d6ad915f91c2aea2c1c9cace6e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "92b1f720d168a6c037e53771f4fbb012db6184fb4ed46ccadf65110be93098a3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "98cd06664d5070bc74b14f77bab3e9909685274f676d10c63b59d4e381da9d88",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "7ad950f1aa44cac7be4fc11cbcbb8e485cce29b5b2be6152d84ae65b40282c0d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bd7e73363b21982cadcd073d2d361d72007713d5a2e9ed70da8020d5735aee65",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "035f776adc98a77738edb28db6062db4254ef6296df48814694c60e698510520",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "b4f2cfeed374cdcc44469ceab177f4aad472eb3981b4b727473a6098f039fa2e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4a7c409983820c4240fb8c0c066e13198bbd85c00335c41d2affe398378552ed",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "617a692793288c6d58b492f4cc91feedab45869599559ae384d90db730abdb03",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2bd9a24d9b205f8971c4146ab016711585abdf21c640a9782c2fd135dd424c4b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0808f4b320ba19413c420dc9d3017b049f8952ff09476f74968f723ec90e6998",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9783a8d2b919c94d786efe45f0caf62347cffb17a4321dd5135dae01693e2c23",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6adf1a285fd849c885c1204a17f0791daf71bcab2aa4000c6fcc0fdf75b050fb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4926985fbac4e5c7620278baf13f714cd55faefd9956b8795dbff1172dafbeda",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8be8495e41f70670c4b59ba89ce10e62b81435be0bc1ed1b53493557576a0f69",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e53de938e573d3fc2a7938472724a4adc02ea0d7767de066655a8e5a3fa05ba1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "13aa100730a44da3402ff6ff1b7a433af2b4d9f1c382f8fcbd79e6cc6b78f3b4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "09929075ccc2fbd926b80d254a37b36edfd1632ba5ecbefa8ae644540a95950c",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5731bfab2e1e488960edd43297bd2b4315f0d6db4e208485c15bed26ee9a9b98",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "af2f17cda7cdb1150c4de7327e6429480492e559163eea2e351a97e85ccb84cb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e60330422755f11d3b812c023d6f7b3c4ffdd51537a503ce6c1dabec6dfd8172",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "fee2051f1b737270f7cd46a314acfb6ae1bfa29d9d4cdf8ec8f5c7f88f8c384f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b570ad31f9efadf068906118056f832542de2a8450855c79f0d8298935c9b237",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2ddc378704d9cf73d503b27b8060399a1fa59ab7a13a5beec2ee9e9d3f0a39f2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "530e816baf9f5f910900fcf7aad26cafd376339d8cfe8d1ca12a1ed5b11e4a71",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9962d549daef7168542d39f17a24f67c85af5e237ca27eaff5952163e9d225c4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1b9ceea4e28defb422abb932a0f9a90c6f8e101680160a2a8221ebe27bb07f8b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0882a3a43aea2fe767bef2e8a4b96495fb508d1a40f0bc0aa8c4296c1f7db751",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1c54b5ab7538b6516c2be04d0cd374cee628e340ec2fbabcaecbf26d241abb15",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "3bcaa2f3f9f74993450dd7ce3902b98aae5878ebf42713c6b2ae6474940ec196",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "70c7246e334ef3f145f51ff3414ae0c34c194fa9a71f4df75c6486e5284e7cde",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "237bd5b5f8a00a3f3509eb5ab5b6c68886ba1f9082399d4d8b0a9bc6827613cf",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0fe6da69876112b498b1b92ed0be9b375b7129bb9ee725db22795ce8db63eebf",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "31594fe333c63f0f2fd83e1104f02ba7f997812f1dcb7c97e98b60a3f82cf331",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8fac3dfa2ba6304394fb04f5499574491ffd465d7ccf85347ec00d88e06e06d8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b42983abb2759afb3f921becd02165b80dd05cd96d9143fe2f41c6333a2a7150",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "844121cc2b39b53f360ce431e14a234c622c684762b33cd1632bd15d9a836646",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f316a20cfc282b6aef82b61bc6b9475c4517df5cc4be0470b091af055ae139de",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "10939799ff09ce5059b919434184bb298002b186fd30ca7a3dd009cb8fb43211",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d624f028a206cc6890619ac6db96272c2a9c08145b8b0f9e97aee99928614b6f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "60b959d1b095abe0faa4c8a637ccd358a41b7ca21b25518963d438d9cbf38fb6",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "20adc43314f4f87499936681701f83de8cf88d54daf9068b45ca9622a7042f59",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "13f98125e623ee222234bdea0500063a207340e594be46137336b6b45c48fb5a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "269fb7f3e1dc0c6a16d3ee5ed4219a285e96e64b73bceb07e8db99b6a571bfb1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "cc29b21d138d47c3752357ca0d4794e36b804cd5dd5923279e3e1622260a9a1e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "3b6e9ae78a5c992259af627650578da8e8f569f7f7e8a9018ae12afaa1635281",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "50040e2eb36fd621f35bef65dc9e3e14806bb3db78cea88ae8ba39341aa1f6ff",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "03183fe771001d73bae7bf3da4aeee8308ed52d9c06778d0ddd5ab0b124a190e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ffa4ece9f21856963e28679583fc5f619a7042b6b9a24ec439dedbbb2d4fc3d4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8752ade6a7b18d92a1d0c875f42563c8bcafdd8a7e1510aac640b39686ead50f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5d5bab4028a30b8936f20286019ddaf2a6547f6826076e877d09082e672ba0f3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d720e9e0d58e7bfb7dd59ad4b5e675ed64b4d9cbe82c6d08569f11b0e13a7e01",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "234038c38eb89cef9062620c99d4972d6d8167d12fb3bd0cd879ed92430acf4b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a699ae62fe0afb9b5c88c0965fdbdc023ec46c5da3b0486450a065af83061024",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8cfb3449d55624718f55fafe3ad5d37dc765f7d7b8435a423985df56eb150926",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "62ae626ff9d0980bb75caaa0a4014808ac88fccd069dbd5dd8e9e6275f45c090",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6c68892cdc950b6154748d23fae5f9501cf271c72eeb3b37294301d0058b074b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "32071c9f0b47258456ac2e924c14afdd60b9dddb9105fa1060f1146d57ff7c54",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bb92184b9808d0895d09e80b87edb080af570fb9788f6fa6dc364e9e33eb3979",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "3c3a342126487e5c2bec612c2ab944e225a0698e008f8ddf9820f667cccc9b0f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b09f8b8b8bedf9059d512e2a8d8c964423668c3442354ccc0de11ed5c861dd35",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "55ddc6560685917d626cee26d9434e66c1295569c665805727589a7b86b9b0b9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "65df9ddcdf1a8d9d13f88c1fe02dbb92696a0ea51369a3805de5cd6009c037af",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "a7b96554352d77b73dbeb005cccb66643cfed5ae4dd48bcd44e5350cf9b2c2b3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d5925c252e6ba6dbab3eca49bde752b6f29f7c0e207ccaed4b6963f641ad6f22",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "10c1254a5c1eae7776873259ba351ed14d000b6c0bd31444e102a6009529fd22",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b205347fc3ce8626ce6270ca0e6c65daddceaa1273c2aa8a951b2eeef50ea60b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6a0768554f9e28ab7ad207afe2a3c771e0958ccec3293a01c6affa8e918dfde0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "27c47aaced769d068346eb2cd0d82218512245679cdaf8a74275d2b2f4f3691b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "06c8dd311008e29212ee27beadb849baef5d1e3ea64723f66ade237c733e43bd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "00c624fd253cb47dcc78059656e4bf59de147caac614ec9adb04ec6cd61f1222",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "30c916bc5881436a10890c52895d4f51669c5a1cf13a420e28ff90519d7b00b5",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a63466a9f6e7fc942e415a25ab124377e49f3ce17afe6fab7f9ee933b15b3a4d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "2320174351cc5184b7c3721488c867f670d2937d548d3b91084dd19f276241c8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "36dfe53f91a0f13b70107b5f1687f2f08ccf62517a7f2924f370adf5f0adf4d8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1f0ed1230150694eac4c0f917348539cb5299a1c1a183d049c26529d0a40dbb8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "7bd48cf6300d49c32a4b0e45ccb891d932846c973bd06d586d24325a634ceecc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "482ba21393ebb80214acc4d2e97fce27509a53e98bc20506b162f007650f1acc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "590dc18e6ff0c265b7bdc9de850e1f38973c1c6d5ab516e1514c12a475020c26",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c108e792e652b0177679a8a97652eee47e61430a7c34382d7c25ac5ab5541840",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7d28844d136fe74c1aed0d93fcba05ede11fee82ba5f4d4122c7952fdbe3d689",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "af82869746bf053a33988ac1f449f3e30ba7484e12252328b515253ac90db6f0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f989e6cb82fd2c955f51d7efdcd67cb2c6b7b7ccd6ac8b79b979dcf2f2299a78",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "27baa8514e36832d127a8d3fbfce76dfa75bdffa806dca1938516b1af0af3981",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9259e419b996acbac7c07c2abdbd861b745070e15a70268675050fe62f217a42",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "98b594be5419fcd484a9100f12ada26cc66cfecfce2b13fee72b1172cabb1e3d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "aca929da2182a46048c06bfbe2bce6aabec3188e188053b98f343728f44c2cef",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "75d481f451cc4cb3fd28bc6c1b2728230e83acf8256980050f885f8dca224ab4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f0d5dd70b77dd81200a21496d8bcda8c34b7def1131676a2be3be1a9e3145458",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "860667cf803d23babd36bb58d1336809848fff7209b3469f62a67bfe44762fcb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4def1b4738db5d34fb29ad502ed99aa79a3e55d12e196863c36e2a35cd35b29b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d365afc21b980087c614225940d1f4eaf1d80fe340e1e74a17195da6ac854a39",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c8b26185896d43ad4a04ab17c13c0ab2e85ecc9b2663ab5ec2c880fb0f4ee136",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "835cf5cc246dda4102d0c022c7debdef4325231aa8667d956d9460bbcf525015",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b75d0a5f19bfa8ee97df938006a194d70d7212cb7849245628c5dc137db51908",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "242f659797b5cc778be4fbb75baf1ce90be5f98fd55fdd138e216d0aef2adae2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "413cb6750700e0135796ef9e21d1935a970a3e6b7217c3f1d45bf1952d040c34",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "00a4a75620a3d644c30eb3342941b541b3cee0afaff4e875d0832e360acc0b34",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "029884a5d7cb57566de9b6d9433bbfddd126c2ba6949edfc258ff77d86fdf679",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0fee2c80a5838f6bf28b15a014d9d49ccb75f6342a34a91831e39e7c7fe9d26c",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "db499246b79d31be53ed9557c085928e5f71b7bc836a6e933782806eb8a80e4e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "52064212b6118651e11473ef9108795b5d62cdc1a4170630189334b5a09d70d4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5c702094abe4d3a97297b40024cd2bac376cf762d1c629f83dde02bdccf2139a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "78588bd30d576e2e4561e332e40cdf38ad65e28c482f1c857441ed266355cf93",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8b6abd580a231696642b364296ef11b3a63415efbe7fc76a1714cab119e97ad1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "48a14dbc4ab6ca6034a5e69c42652a71d7fef6590443790d4b5f8c67ee50e646",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "da38708dcf7ea84f64e7eb84d05c19097aaac3f59a38b874ef07c290447126cc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f2e75b2eca035e1cdc8c2d64383205bfe1bfc94d13a4b3a161e0e97b98483049",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bb2641a01751439801ba63ab8b71f7599df54daea0147873486c4d238fc80ba7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d77ffb951b60bd3c8d531e00883063e5cca22afb8e57910f6fa7cf822abf9f57",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9b8b796bba889c601b033b249b9c4dd0c5c0a61e052c3a619909b33ff7a78e38",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "10d66715cca41b10e3406278c6b62816b677e556d921663a20f738c3a0ef67b6",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "4c4fba8ebc8ae71e129f2bca865ef5aba955f3a9e85699cfc9c9e9679cab0efa",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "435e5376649f96112477c2700033e72e9748dcaab714fb934e4c4417e69cf636",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "53afe1ccd61820925c1c710669a92b08f7628e22a598b386bdbd468c7404f886",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "485bf3a0db5cd7609852da1622a1658ec67dbea30a6150e54501647ad012f6a8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "8df78e6cc80781ed5bec13dc30dd7144bed931d547df7282bb8e3a63e18fdf9b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "af5af2df433e5822f7487f272c481b903ac7ce466ffe4359e4cdc1917e2a4d36",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7beef0fd80be475a2a542a2bf792285f265d22ffbfbeb00a3843a69d5cccb0de",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1a09435e0167154784e4dd9c91b58b7c0ea1ef078ff4e627c9eff0978ac512bb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b7fad0033b2f2176f04879f3e4227e04b156bddf5875125afa895012f3758fbc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5ceb3ae4c9e171e122dbdf96ac3caae871cdda92d307e94af6fef19c1a59c429",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7f364dac51adb6a3895c8034a4c88746619996fc87537ee66d8e153a115b23c3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6ef8e440edb8e1179b3d91c7e05115706e66836e55a2a7e14d641331893dadd5",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9964f89d445e741db605eff55d6cf86c47b563dcd1d75fe23570262d0c36af13",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "2e31abcb91c26a4e5edd965bfd671f82c12caa20f27ff30f20a77b6c92c4c48d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c5756a109b0a4d58a72d5f97c92e66f211d20545bcb6a0523edcf5ad919387c1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "3eb955b77c0c443b467cfd1a1de226fa89f03d73073418245658a2174e0ff3a0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1090dddee7f58bed75e77fafeb0d5b9a397f446ec401d412aba4a66fd1cb2189",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e29fe2ce7f16b212b1c01d5dd44654063cd2c0b73460eb5ada067479fb4e4ed0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "939bf71a93dd31cfd07486c566edd93ba392d9673c0aed0967750437b63f32c9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "6a785f8dbe7e9e82ad336c869fe9241982cf480139e99bf20a2ec0176c0d5ffd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "276f688d3999dba288325aa8ed80229bd057fbc6c940f15b0fea8fdd6c0cff6b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c0360f36156b2c0f441d964adf910f7ddb21a8a0f8f623682cccfc515f056f0d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "be314a4136055ba613f89223ad7ad53548e7a88ce268f13853ddb3c092dcfbb3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a21899f05208aeb266b3e79c053f7a8c2bb7fe4284edf9cda52a1b15d818ca58",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "649309f0487bf9bb8daecdcf1ccdd766fedf39c6b5dcf0dd7de834f797144437",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0517e3cd6c04eb77d45821dd62538d4570ee931352cb6e5b010b341322d2f29a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d0d3f3e1503f3a01f66b2f1eb9a9e85472f38d448b95e1a0c6535cdd10447996",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "ae628fc1b4d18db191f701352b049a8cb1da12ec0c71212a55598f21855d8d5c",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "0061b363bedd0a7d15b31f593301e907fa611e48cb766c3ad6816381b66f9d47",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e8d916c68b98b03de7ca989c50f163ee9caa7b12f628aa45d6b8c91904399be1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "b5b01e8019d592030e460e7259aaf3e472c795dcbc7debbb2a1e52bf1d8a82e9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f250e62b115fdc713c04a4f2fafd3762db39bd3eb916d6de163834674ca97019",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d7fbe11e52e67b80fc93705fbdf0a4d70dd7753e406684a4109bbe6f4f302966",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "63f0e1c9baf27cacfcf38d34858ec980a3b0ed66d9d0a514387cc3d93670a363",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "00694bcf59db893b53cbec129805fa569d5c978f54daab2e8041bca93b86ad37",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c8fcf8339affb46be439833381ec84d9b804afb5276a382afda0576edacdf3cd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d5d41cd74463ed23b2b01c8d54e796be8c4c27fdb6e96b849a91d23fa0885443",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c858f2a3335769b434cf22d7deef2eff7b9d5bd1019c236e71224cb05d6bda95",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9342f1298d5fd7cb5b213860e841d4ce1a3af82a2f2cd846a40cbe99014fe578",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b705969df60473beeee09db45e0a7f70b625ed593a23e79b3569566c2bc69516",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c08f6fea5407ead929d57d3d2632a16fbd0c83584770105da400bb75472e4704",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "db25143e203afe7a7ee681038d33622c4cee6b11e460f18e85c1741ff26c5086",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8dc55651745e52acd4f109b67c5fa8e8a6971b6869a9da495192b07b3b05c179",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6af80be40896f99edbc711d0dbdb5a1b1ab79bd3c735d58ca1de5233f5b17f3f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "bf4d8349ad06d6f354eccbb99e577c48edc2bd7771d172669feedbcf144a0d67",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d8a0919cc78043a5359c85cbae4e94e9fcb07797ed4e22adf7f7889022669670",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "cd3d5a8af75f4ac03096a627a5d5bfebcc18ad55a0225e6a75734c5155bdc4d4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "080e8c8d43ac59368eb021bfc53289c3fdd477c838c9eae594d63781b7be102b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "79afb246111493f8cd73e45ed36193378f78db3c9c61984afa721a0197fd9048",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2b845a5d35455260c2b7fe535a372e0fc8909a697ab7bf840a39c302ba592578",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "94e0ff834e74d3d9415987580a1bd50e2c1d50005910f831116b53ef20d4c465",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "77105db9b214814457a27d26f8d2be2e9ef1052b9cb3920d6271db451bf61619",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a44af4774d89ab5048f347f0ffe4d7773a9d2f9fe3998588da6fdef91b7ebc0e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b33c807dbc3bc09e2c740cba3c3dfc03f3ea6ab91d777477a479f62832e54dc4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e0dde0131e0d02e1e7764e174587a6ce0abcf12c3fd0d9aa9cafb0386576af30",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "52bf1ac5844ce001c94ffe0d4a6cf300538bf2d664dc6dacc03e329bdf0362ac",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7e3cbeb3363236e5b6e1dda26f221afceacd2b35c7b98524daf11bbab3ba4798",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5793aa6830452997c7d1862c8eb379322b7619d8b26e6c9d960c48bb990ac327",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b4d2795ae440c474b860f448b8e1f681b4f1156ce453e698de433d14250cf134",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "b8737dd398aeef526209e4588150dff5502346e225262e074681119477551813",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "d3cc6f66372543b15e0a26cae4668c56c99d86c0149edd859a9a40fd73633b38",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "b833152e94c0ee425d135f1e179f34e79e7b40532e142a6df290b9e7d513c3ec",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "b35c71182f300a12baa62b4cf5120a5be67717053b18e18498739720b39d98ec",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "a375fbc0551b4d26cba36035fe90c3c3ccd818aa9d18daca69ea1fba281359c2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2d8801322254fb544d3972dc83ac9dec748d139d3ea71ad4882c936689ddc53a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a86123b5874cd8872476bddf7a8faaf8bb24203efd3ea475c717190ef17cd33b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6e329e828fd8d6b8f8efd9614dfe6482c0f731e8abd124e37ed5201a2969ebae",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "53b24d9b1553db099b99050f95200a39f19892581e5050a962ab0b9d46ddec8b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f2ede22e769ea38a5b775fa5ad58c5e5f1c1f201f11a609badce59f8a0a26651",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0d09d1813f0a54c95be47548c3845e1a0fbbd1c92731b4d95089a65af8727735",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "43805dfd17e88c23d4a96a61a02b88da129080fb2d09b68519ee9b4f7c97fbcc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b706a6d7465c75bed7b553382f23d87a071c2bf33229c44965f24247b8e8ad08",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "454156dc928534314c2086676301e50beaac54ab6121507ee9de9b0825dccada",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5d5b91f2693f9bfa9e80d176852d565267a50ed4afe38790a5f2a9716c671ed9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a7c19050258135e20d22b05352e5babd07a77d3bb16fc8e336105ce8d907424c",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "35223b4b10224509a56ecd8912e5b06194c3ecc561aad6837fcc51a95b2261ec",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9a5ee8dcd17f520ec366e33ac8e95ceeab65693c87768630adc8ac26a1d0cb9f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e75c34e13c811dd21819230951142dfb2341e89f971a93008950d426667d48ea",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c15ed13d61c06dc880dec103a0a2f1dadf8b7553d69f694a194786a2a0c306e0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "82cc7d5db33fbaa50069e325684c19e134be1f4246f2fa2da539275db442216f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "75f3d83b3dc26dd9a5659cb64dbb8480c6a45fe987fa04e42af6164ab0e14cd4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8944a307d9df7ceded397283adc4c26e5c8f117e66d5e8f1cc9067ee8e88b6d3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "565a47a470608750851643276eb297b46c76c6a66f91a0870f48beda3bcbb1cb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9fe28bb4f3d09e1d55e0cc15cf14aac4b9c9120dd51285e009bdf68490b988d1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "423a57c535fe0ffe8b1e3abb58c0f4652f40a6028ae15aac0893daffc52338a7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a6eed92f23e64604743837ccfdc1989ab41537ea2059a4093b999530cb6ca992",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f83b85a5d70141a89799e3855c221d8ac5dc3c482d825a5ccafbcd358d13885a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2ff1ca1de5d03de9f34df68a519a840dafb0f07c021b881a01cc80c55a435a38",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a8fbd4c0f9a5c991c3bc36623fa5213a34f2be5b12799b477b6506e30a3d70da",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ce9cf5a3559125652b80b1e3e677712894c813efe82c099a3e628457616d4c22",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c0519b89af3a5a48990f687159729658edf494cb4895abde7a15b70e3b3b2b31",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "96b721d56b37bb090b46d34900b7fc3a19486324f3e28a42fc6c25afe0e3bc89",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "dd12da999198590552343ed0da19941f32d5e1c525fb718c7f0b9787cbe70cee",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "82346b6d11cd4cd1e12ee85fc4f363492d57b96c6c6de3d8f53bca9c57cff941",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "7808d5a970fecc83c8cab2ad52135ec56728012631d8ed3118e1d6922e1a126c",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b1dddcb3bacbf051bba923c5946201cf08a83df6ba3f4c4d2e07e5bde3c67ec3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "817c4b7798ab8b9228bc09b0019a574ab8302b87ecb15a078d2d147655d3a8d7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d38ff3aa19d61dae290009758b108c2ffd2330ceca97cbc05f02f78052599863",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7ae6e8073032951cc73875e812276fd040a1610bbfe486730685abce438c59e4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "17377c67bd4a02a4183bbba07c79d89e60ff353080ba25c675681410fd65c249",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "839934c02db9dcdd519cd191f90f2476158d66c33cbfed41abb2020b58cbd961",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8393364e4ed1360e166cd1ae6294be40c8b73d72b8c429067bb1aaddc0a025b0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b00e9d0c6133b58cda79a9db65a8ff1262315341be035f35ff139f2e2aba6f64",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5f424cca9329c980e4c491c313acd7bfd9e02ca17b00a08370f309bd69448ab1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e692df6051811d9e6c930ec9b3857214ae7e2e92331a30cb6952e6266b2a3566",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "25f63b4b4bde54268ad3a5512b5175f8ce19b4ced6746fa4b112bbcdc154980a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "de84320c14585f0f394f31f277e4c659442c4882e4e39e95c31cc8f68c0f2638",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a2a43207dcd1b8a3acd00d8d7502acd6bb8cc40debf40cdbcdbd8f85bf48e93e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "93f3151430d46e703b8e0d9381382387ce80ce25a52bc82c67fbad65c6b901dc",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "0600294c6afcfe6090d8ed73872bb6fddb8411cb7c3ad81de996abd694b9b8dd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0aee19639ce24976d1fe1ca65d0b76da893506164fe2ec3cd62a0453fbc523c2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5553ba4e55cd60d52a6a5641d32def3a77164ac73aee8b67cd2c282bea46d647",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ebf6d4f9d831a75831ed4c165dbc368d631ac185b64d1e1548c5401f78c2c47b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e9c1aa5e30ff3839e1b16769ba3e408227328ed93d264718d23ffc76ab5316b7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9d3e16fc4db7ea6c39d36ec2323ccddcda7e9704dde92f49aeb0838a4010ad42",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "12ac41c1358867e3f1bfbc33634c9d87d6d61dde0198f1e3a014c8a80ba28d83",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8d8aed979f9b11e57e3392e8de7f6b1af8fa11aa5eebc045dfca80a376b8ef39",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1a66e0df091620e3d1eabda8441c058f16d7f1dd70f9997476d61808094868e0",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e5f7c5d6aed9880f9f46d42337f1a71fafba7167821cfdf56285afa23dbfa1ca",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "13a5221a0d3db62b3cc138025d373bee407b1ea788dba2b3239c092e1020ad41",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "667cf1d2839b5589e7e0193299fd82d3733c4023674160d2e50166d9edd2035b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "498922c6301f7b3e64e80a49e79f0dd003a1888a5a82fcba307c018ffbfd7069",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "973789dc193e85036130b70560383a95da516d60f29e5216f983136f018ec777",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "79786c82049784078aaf969b2d44910bcffd9b82f123e7e98bddc86b9e77e612",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2fea7ad9384203c0f0fabd502d4ef8a58518648d263b996a5aa95706d84ed07e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f4e7e0989507b623f6ed4a39b63013d59bfee5e8908820cc1d77de1649b71070",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8d2b7d8b640f81e647769bfeeaa3555c96fb35dc78f11e1075d37984dd3c4401",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "2538b92e580aa7966c568073349f5880ecdd642d767fc52057850acb9b7fb907",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4edd1bb9e12174f49ab912bed96bb7434738c8b8fd8c189f8f7a4791f7c22402",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "47ddb3c8a9650f547961784812e4ef9c491e3615b75ac7fcb922f08978af57a2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "dbddb1bd08920f19855101d3bc280d77c4f1aaaca4fb8b5ae5e46e672ce73388",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "bf938c271b34b3bfce2a32ba51a2c4ceb812517938a5e673725413d7dc3e4132",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "9d4f1466130bbf7092fb0114f1c86ff8513cd8596327cb2a1d2d4b993062348f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5798cb32b866e48a55bc25bedeb1531cf0db9aa7868818c35d26ddbe9c1bf7f6",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "727768058d4f53366abea52df071adc63099ecbee37f76c827d5a623301a7d61",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ac7aacccdb598319de5a9b24907d1518c2cd201692e95e532ff152eb24daa26e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "3e6bee7d1e177963bb7354963af88603411a885d42940e052e57cc22e473f168",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "0f4cbcff548c62b03ed408f1fc4d7b2f8e88ec968c09fa88523eba30a8acfc98",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "982bd93c7d7980d43761fea78072d27ae4a00d5f68204db56468eaaa2553d674",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "de15164b21cee6c89f9a7e7a753cf9658423dfdcf99de87bca4748304d1615ce",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9af998f14d978d6d3176abbb76b8a812fc7e0b0a2894ee6373caf23f9f2fada7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d949de1279affb2eccb65c9e9826cb0d89ad3d6e0c957b458631b505fe3d452d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f25274587c9e90e47c04c71c78d6e53435ded33224059a1950b910f0fe4a46a4",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7af916faffd89ebdaffc61beda639a00e73d42cbe8249c9493dac6b32828f29d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "2b50d103d82c8cdbd815ca82dcdcbbcd0eb125a6dbbb2bc0ab745e175cb1d1f2",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "921be279ee6ac7978c6d5d0dc20341291826378bd7353c33bb9d0e637540acd9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7bce9250c36dcb24f6adc22e1d692df83f95395cb74725b18c00275ecd89bb09",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c97a7ce760b29ac2a1153109e2a2bfbfbb5bcab4adcc823219089154c300be35",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ef2390912e0929e0783b118c8c6c1118bac3061a7a3412f4e135470010d00360",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7e6ae89ade41a4c7d1d5c963bdbe01b621dce088de193e47c4594f50299a53c5",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6cc83e5590fd900e6d55ae22c165612312d15859026d397c674a54dabd914fc7",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "f0cdb92b4deca080203b6d26b5389a302ad836d4f2a2c4187fe692fc9ee71f98",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "3e05b8adb6669622dbb4a494a9a71e1076c7a045ecb2620d233b6041736259eb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "99fa9f37cad9f26f6afb01bf34e84ade669b5187550bbcef1d63eec53420f45f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7d1422780f18095a90666960a40f356786cceada702d71220603ab559c389bfd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "0ffdb6c177a881cc1a2ca4bb72fa6b0ba0b7538a39e5cc00b67424092d8f9d57",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "b50c02dc8690ade90eefd61d14f248a96432b452415996837799f01ec7605d7e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "cc60e2a191210513beb727649ed11ffca2258f71c23377a82e52826668f7240f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "aeea7bdb529ba8cd5da9a55a0b037cff7c725334729e1e194be9155ef801d80d",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "37f61b7d0770afe43f21e3ea589f6b5a0b2400bcec3232d62fab211a8b69e4cd",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "08f0abea38269eaae2ffb5e94636949b1de7c1e345e032235991e4c608175cec",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "cbf72cb712a5d389f6c4427b04ad5010c05b7cba9481c335289750232b66b328",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4c5b31a0c6689e9398d01c79d900925496dd5b8e736ad573693a15ae0e1ca258",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "68342cbc04066468672e80f5677b9762bc72080214ab60003e60c3da8ea141b1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9c95ad47bddf6f877092deaa92ec564a2cd0ffbb46eb82086674ef76768a1762",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ae7aa7601035beb343f0fe58b57d077aedb7ca3d04b84b40b1e66fbab2a429de",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c059ad6518bf20c73fdcf29670a278654e0a458d0cced014518841165c31b7de",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7fb4b0674ca02c46cb4a5aa58f1359216291b09125f88e5409138d8ff0170811",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "1e5a2e3a5255b7143c8866bf21b997ddd2f3a3afafcccedd16cf92b10fafc776",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "4f09aced665cc2f3ad5f9abb3107a5e5ddd11049b1151981a0e212035d092c9e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c809e6d38523172567224f4140f880387622a5c5623642a0772c92f51c27e6b6",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "e9e62ce24db7da4b840195e619fb61ecb362a7a779674b074328f30ae4bcbe84",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "75a03ef6c93f04338d6b17c22d39cee5ff96432a9a4ced667ccd26c447d8c18e",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "c8123e7d92971967d2f937a478217d3b35e4882e5088935ea574a6a41d7931fb",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "24e42fbbd5ce0ca490653cad4432714e82c3d24ac92daf10e3c4bb33cf19a2a1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "a43c6fc3b15499d24ab0fbbf149210cf4a021d1bfc47ab9531807d888a70a751",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "92e977002efb9f4fc099866a0570d1d5b16b80a74cab19e4f5f1a802a80da0b3",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6c6918aba3df355d695d88e2c72a107d77c694d7c0faf9c5f6a6f0af4d768254",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "cbf6beaec7de5c498768bb5257307776c80a30bad40159ae75f44616de40fbf8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "30c2fb51a5a6c5ab0138ab30b8dba5457f92b5cbea0ef0812639d9a844be0fce",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9592a0c34f8eb83622c7a3b81ea4dcc48546ebcdaa6f3a6a5340d50ad236b1b8",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "eed46de83cc670f21815f5c39642645f546721d86da1672976e04d9a72c85643",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "40c62f11ccca77a762fb4a6503e57700c22f3f2a777caf10b5f7d4c259bece5b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "59944576ee6ec8f0028a932774703db7e5b7917a8be6e5b45af55a0529de162a",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "8d695dbd1a1feaa9558a13e11000e4ca0a02cc367a12afa3de2fd30e226d27a5",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "d22b706cf888157a89333d553ea9762b07b61b81dee6a825c28fc312b875d249",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "ca5b01d52ec1b3b3c05748ecb136c6c66336afda4cd4b013244bd27b8b7a1b31",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "78b3f0ca4c8494e058dae2db484948d19378bfc38bac1f52cbac337bc3d70bd1",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "cd81acf47b2bf138c8c691e0f17d5b822872cc98b28f0d85a4dd56e4178d2485",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5f9d4e18e9be8371e322b124c6ec3896c75d2e823bbde53dbca3bbf42dcae9e6",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "557e8ee5d2ecb130dfb3bd823b9b03ce6043db94b88a5b9ef8390d462c0535a9",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "7d6c813171b12098f68f91f11e677427f585adb72a18e95fc5000afd55637dfe",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5cadeed71850b145f8c44ec5d70ff2919299bdd725677b0da72e7dc5604867ea",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "3c9619124ed67ff4d440b18519c5a399113ef3bdf96a3ce181f697d4292fac87",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "93ed0cbc092cbee3749bc3567112ac7c022b9cbadeef44dba56b0f05a8955c5b",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "5cc5f37569185119c7b10336112d4ee6172447bcdef17746377e3ea27498e89f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "9e2a80764e579d40d51240f0bd2831956ba479b5743d18264b57aa9a520c0f8f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "RIGHT_CENSORED"
+    },
+    {
+      "key": "1c6888bbe173657c408e2c1ef85c837268600b87c2b56fec4b56714403d6c0be",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    },
+    {
+      "key": "6163fbda107564358a6b166693ce284dfa06059163e286a05e7fcd3483257a6f",
+      "reason": "NO_FROZEN_EXECUTED_ENTRY_OR_DIRECTION",
+      "scenario": "PF_BASE",
+      "source_status": "NOFILL"
+    }
+  ]
+}
