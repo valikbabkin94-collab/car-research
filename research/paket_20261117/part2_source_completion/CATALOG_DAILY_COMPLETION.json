@@ -1,0 +1,17 @@
+{
+  "catalogue_daily": 924,
+  "already_proven_monthly": 918,
+  "new_requested": 6,
+  "new_proven": 6,
+  "errors": [],
+  "receipts": [
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fklines%2F&max-keys=1000&delimiter=%2F",
+      "sha256": "3275bbb3c8cc8f91f34a75aa8a4cbc242b9a5a4aa76e6958c21eecdf390f6be6"
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fklines%2F&max-keys=1000&delimiter=%2F&continuation-token=1CviJnchLPtzy8IE0F3UDRJi6hRG9Q%2BBOYlBznEWdC%2BTwsdQyRxPgAXGHjWJ6MnVnnZmgkV2gq89gfGAnONblv4kS66l8xJVy",
+      "sha256": "add84700a27fd753a570aa7b05f01743a52c44c10a4135c756d3553a0db9ce26"
+    }
+  ]
+}

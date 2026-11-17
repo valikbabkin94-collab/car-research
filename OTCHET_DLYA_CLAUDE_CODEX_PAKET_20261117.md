@@ -126,3 +126,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part3_source_completion -->
+
+<!-- part2_source_completion -->
+## part2_source_completion
+
+{"code_sha": "9bc2581f8764cfafc626756ac352bf5cbd294f98", "asof": 1794919920000, "status": "COMPLETE_SOURCE_GAPS_REVIEWED", "new_births": 6, "new_entries": 4, "candidates": 0, "winner": "N24", "successful_profiles_recomputed": false, "no_live_changes": true}
+
+[Отчёт и журналы](research/paket_20261117/part2_source_completion/REPORT_RU.md). Код и сетка: `9bc2581f8764cfafc626756ac352bf5cbd294f98`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /part2_source_completion -->

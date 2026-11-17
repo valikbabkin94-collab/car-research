@@ -1,0 +1,28 @@
+[
+  {
+    "key": "b6b87d81c27856b52476bbe513f6a937db06ea24dc06a3422f33748c9307a726",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "FRHCUSDT",
+    "entry_ms": 1794563100000,
+    "signal_ms": 1794563100000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 165.5,
+    "delay": 24,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "b715ee24c9ed72a3ac7f1e0d12e256621fd17cb751312ae9c75e548ad4922218",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "哈基米USDT",
+    "entry_ms": 1788765660000,
+    "signal_ms": 1788765660000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 0.07735,
+    "delay": 24,
+    "status": "PRICE_FILTER_REJECTED"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": {
+    "winner": "N24",
+    "split": [
+      1577923200000,
+      1685725980000,
+      1707286536000,
+      1793528760000
+    ],
+    "train_only": true
+  },
+  "code_sha": "9bc2581f8764cfafc626756ac352bf5cbd294f98",
+  "original_H1_recomputed": false,
+  "parameters_changed": false
+}

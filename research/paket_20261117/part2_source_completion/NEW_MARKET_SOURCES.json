@@ -1,0 +1,152 @@
+{
+  "total": 11,
+  "done": 11,
+  "receipts": [
+    {
+      "symbol": "FRHCUSDT",
+      "period": "2026-11-13",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/FRHCUSDT/1m/FRHCUSDT-1m-2026-11-13.zip",
+        "source_sha256": "70daab864ad0aa8246897d7a0af7b7391312c6e7700ce31573a35e00c2609727",
+        "rows": 1440,
+        "parsed_sha256": "0ba097e91c5fbe22ca3b87b1a86852c9ff79dca01f30197be1d926d4ed15ca7c",
+        "bar_ms": 60000,
+        "first_ms": 1794528000000,
+        "last_ms": 1794614340000
+      }
+    },
+    {
+      "symbol": "FRHCUSDT",
+      "period": "2026-11-14",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/FRHCUSDT/1m/FRHCUSDT-1m-2026-11-14.zip",
+        "source_sha256": "d1365a7f83590b90c8d5a8cfe24b643c8b6b907780416cb73f84ea074337e74f",
+        "rows": 1440,
+        "parsed_sha256": "b2561badaf201e2783f32b217df04248bfde63342f1e0238dabc252b1df627d2",
+        "bar_ms": 60000,
+        "first_ms": 1794614400000,
+        "last_ms": 1794700740000
+      }
+    },
+    {
+      "symbol": "FRHCUSDT",
+      "period": "2026-11-15",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/FRHCUSDT/1m/FRHCUSDT-1m-2026-11-15.zip",
+        "source_sha256": "43cac881158730856c884f760d9587c8488cad5895a349e2bb216772b1a8647b",
+        "rows": 1440,
+        "parsed_sha256": "e5d479c3a999320e2a389db52e576ce46ee0ef610c13efe16bb0101ee3490f50",
+        "bar_ms": 60000,
+        "first_ms": 1794700800000,
+        "last_ms": 1794787140000
+      }
+    },
+    {
+      "symbol": "FRHCUSDT",
+      "period": "2026-11-16",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/daily/klines/FRHCUSDT/1m/FRHCUSDT-1m-2026-11-16.zip",
+        "source_sha256": "a12012f7907cafbf69e0cd598b6603a2bfc67038a372b59478c71ca2d3a74c92",
+        "rows": 1440,
+        "parsed_sha256": "a61046c631ee1a15347158ebb34765948f94e944ab2672794d219f39244c0d11",
+        "bar_ms": 60000,
+        "first_ms": 1794787200000,
+        "last_ms": 1794873540000
+      }
+    },
+    {
+      "symbol": "FRHCUSDT",
+      "period": "2026-11-17",
+      "status": "DATA_GAP",
+      "error": "HTTPError:HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "哈基米USDT",
+      "period": "2026-09",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/哈基米USDT/1m/哈基米USDT-1m-2026-09.zip",
+        "source_sha256": "a4b2b56a8e1ab832566f568fb062c17eaa2fba6025972fb9db54afaf9ab1fb34",
+        "rows": 35559,
+        "parsed_sha256": "893940f21e2138c3f337d88e370045eec4ce122a556fb68024483bb1c1e69adc",
+        "bar_ms": 60000,
+        "first_ms": 1788679260000,
+        "last_ms": 1790812740000
+      }
+    },
+    {
+      "symbol": "币安人生USDT",
+      "period": "2025-10",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/币安人生USDT/1m/币安人生USDT-1m-2025-10.zip",
+        "source_sha256": "be73aab97fc45528c050fffc9720621785e56d8ef5fb93bcedd12045fbfa6d34",
+        "rows": 16620,
+        "parsed_sha256": "8dd19b321a6ec2ccc056a0312b8737dd1d9892f935a35279fd39fab669ddb9af",
+        "bar_ms": 60000,
+        "first_ms": 1760958000000,
+        "last_ms": 1761955140000
+      }
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "period": "2026-01",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/我踏马来了USDT/1m/我踏马来了USDT-1m-2026-01.zip",
+        "source_sha256": "15e98a80a1d95f834b4c2b8d91af69857dc32e5a1f2e31b9f4d62cb0a1ec8c93",
+        "rows": 14970,
+        "parsed_sha256": "63c9a5405cbbd7bb333236d2dc5e419be236c3dac444cba0226b7e8ff422dcab",
+        "bar_ms": 60000,
+        "first_ms": 1769005800000,
+        "last_ms": 1769903940000
+      }
+    },
+    {
+      "symbol": "牛来USDT",
+      "period": "2026-08",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/牛来USDT/1m/牛来USDT-1m-2026-08.zip",
+        "source_sha256": "287c2676e3a481571480629dee1f5f691307c3e5d4a6c84b240c5788cf8ec329",
+        "rows": 2190,
+        "parsed_sha256": "0ebdc203e7526a82fb8f0ff2b595453795c49cfa464e843f062523c84cc04034",
+        "bar_ms": 60000,
+        "first_ms": 1788089400000,
+        "last_ms": 1788220740000
+      }
+    },
+    {
+      "symbol": "牛来USDT",
+      "period": "2026-09",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/牛来USDT/1m/牛来USDT-1m-2026-09.zip",
+        "source_sha256": "22ef44d39dfe34671744ae4e226178c43d972f5669c1e3814ba94446ad00a88e",
+        "rows": 43200,
+        "parsed_sha256": "84a9d1ac41bb1449b98b1260da42c9172cc938f46f9818670db49ab5deb6043b",
+        "bar_ms": 60000,
+        "first_ms": 1788220800000,
+        "last_ms": 1790812740000
+      }
+    },
+    {
+      "symbol": "龙虾USDT",
+      "period": "2026-03",
+      "status": "OK",
+      "receipt": {
+        "key": "data/futures/um/monthly/klines/龙虾USDT/1m/龙虾USDT-1m-2026-03.zip",
+        "source_sha256": "a84ef42617806b39f53fae6bdb7562df087f3e15b8c6d45c014208ce7791ce35",
+        "rows": 29550,
+        "parsed_sha256": "ab4c984b7d01ccbe4e0a8d6081f9bc3cd35a1673e805392017b26b2803d8556a",
+        "bar_ms": 60000,
+        "first_ms": 1773228600000,
+        "last_ms": 1775001540000
+      }
+    }
+  ]
+}

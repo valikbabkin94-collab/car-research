@@ -1,0 +1,38 @@
+{
+  "FRHCUSDT": {
+    "first_ms": 1794476700000,
+    "first_hour_close": 165.5,
+    "source_key": "data/futures/um/daily/klines/FRHCUSDT/1m/FRHCUSDT-1m-2026-11-12.zip",
+    "source_sha256": "1d105e73944b18863753927f1ba381498d21cb104c2ab6e81d818a67dc2271e5"
+  },
+  "哈基米USDT": {
+    "first_ms": 1788679260000,
+    "first_hour_close": 0.07735,
+    "source_key": "data/futures/um/monthly/klines/哈基米USDT/1m/哈基米USDT-1m-2026-09.zip",
+    "source_sha256": "a4b2b56a8e1ab832566f568fb062c17eaa2fba6025972fb9db54afaf9ab1fb34"
+  },
+  "币安人生USDT": {
+    "first_ms": 1760958000000,
+    "first_hour_close": 0.28297,
+    "source_key": "data/futures/um/monthly/klines/币安人生USDT/1m/币安人生USDT-1m-2025-10.zip",
+    "source_sha256": "be73aab97fc45528c050fffc9720621785e56d8ef5fb93bcedd12045fbfa6d34"
+  },
+  "我踏马来了USDT": {
+    "first_ms": 1769005800000,
+    "first_hour_close": 0.025744,
+    "source_key": "data/futures/um/monthly/klines/我踏马来了USDT/1m/我踏马来了USDT-1m-2026-01.zip",
+    "source_sha256": "15e98a80a1d95f834b4c2b8d91af69857dc32e5a1f2e31b9f4d62cb0a1ec8c93"
+  },
+  "牛来USDT": {
+    "first_ms": 1788089400000,
+    "first_hour_close": 0.10582,
+    "source_key": "data/futures/um/monthly/klines/牛来USDT/1m/牛来USDT-1m-2026-08.zip",
+    "source_sha256": "287c2676e3a481571480629dee1f5f691307c3e5d4a6c84b240c5788cf8ec329"
+  },
+  "龙虾USDT": {
+    "first_ms": 1773228600000,
+    "first_hour_close": 0.019058,
+    "source_key": "data/futures/um/monthly/klines/龙虾USDT/1m/龙虾USDT-1m-2026-03.zip",
+    "source_sha256": "a84ef42617806b39f53fae6bdb7562df087f3e15b8c6d45c014208ce7791ce35"
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "key": "dd42a5a1db13d0a25101fe1d93623f3781233c23cb763dcdc781b69c48fdee32",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "币安人生USDT",
+    "entry_ms": 1761044400000,
+    "signal_ms": 1761044400000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 0.28297,
+    "delay": 24,
+    "entry": 0.32467
+  },
+  {
+    "key": "16b9e636bfaea86696cb30536a36019bcc586d506754dad5720cda866ff6fc12",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "我踏马来了USDT",
+    "entry_ms": 1769092200000,
+    "signal_ms": 1769092200000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 0.025744,
+    "delay": 24,
+    "entry": 0.030072
+  },
+  {
+    "key": "5b4779e9709c3b84198bd3fafe06ccf83275fb279c414f54ed75b152a7580307",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "牛来USDT",
+    "entry_ms": 1788175800000,
+    "signal_ms": 1788175800000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 0.10582,
+    "delay": 24,
+    "entry": 0.11275
+  },
+  {
+    "key": "1c6767978c4e5892d6fad3a52c17b4ffd6d4d5fea752213d333e6eda33480037",
+    "scenario": "NEW_LISTING_FADE",
+    "symbol": "龙虾USDT",
+    "entry_ms": 1773315000000,
+    "signal_ms": 1773315000000,
+    "side": -1,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "first_hour_close": 0.019058,
+    "delay": 24,
+    "entry": 0.025028
+  }
+]
