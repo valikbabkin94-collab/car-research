@@ -1,0 +1,290 @@
+[
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-02",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-03",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-04",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-05",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-11-06",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "4STOCKUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AEONUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AEONUSDT",
+    "period": "2026-11-02",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AEONUSDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AEONUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-11-02",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-11-03",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-11-04",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-11-05",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-11-06",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-05",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-06",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-07",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BEAMUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2025-11",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2026-02",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2026-03",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2026-04",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2026-07",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "COREUSDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-11-06",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-11-07",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-11-08",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-11-09",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "NIULAIUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PUMPFUNUSDT",
+    "period": "2025-11",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PUMPFUNUSDT",
+    "period": "2026-06",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PUMPFUNUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "RAYDIUMUSDT",
+    "period": "2026-02",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "RAYDIUMUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-06",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-07",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-08",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-09",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-10",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-11-11",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "STONKUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]
