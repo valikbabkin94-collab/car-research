@@ -1,0 +1,464 @@
+[
+  {
+    "source": "PUMP_FADE",
+    "coin": "NBIS",
+    "side": "short",
+    "open": "2026-11-11 21:05:18.350653",
+    "close": "2026-11-11 23:12:46.080000",
+    "entry": 156.5,
+    "initial_stop": 175.79,
+    "stop_pct": 0.12326,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-11 22:29:07.400000",
+        "price": 153.21,
+        "frac": 2.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:31:34.081000",
+        "price": 149.93,
+        "frac": 1.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:12:46.080000",
+        "price": 146.64,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 1.276
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "KORU",
+    "side": "short",
+    "open": "2026-11-11 21:06:55.591156",
+    "close": "2026-11-12 00:12:34.065000",
+    "entry": 8.63,
+    "initial_stop": 9.69,
+    "stop_pct": 0.12283,
+    "exit_reason": "dust_close",
+    "exits": [
+      {
+        "t": "2026-11-11 22:28:19.754000",
+        "price": 8.45,
+        "frac": 202.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:54:53.540000",
+        "price": 8.27,
+        "frac": 121.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 00:11:15.810000",
+        "price": 8.09,
+        "frac": 81.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 00:12:34.065000",
+        "price": 8.12,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 117.142
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "MVLL",
+    "side": "short",
+    "open": "2026-11-11 21:07:03.042585",
+    "close": "2026-11-11 23:00:17.024000",
+    "entry": 12.37,
+    "initial_stop": 13.9,
+    "stop_pct": 0.12369,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-11 22:28:26.226000",
+        "price": 12.11,
+        "frac": 2.431,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:31:49.065000",
+        "price": 11.85,
+        "frac": 1.4483,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:00:17.024000",
+        "price": 11.59,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 1.415
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "SNXX",
+    "side": "short",
+    "open": "2026-11-11 23:03:33.759596",
+    "close": "2026-11-11 23:28:54.735000",
+    "entry": 4.31,
+    "initial_stop": 4.84,
+    "stop_pct": 0.12297,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-11 23:07:57.173000",
+        "price": 4.22,
+        "frac": 2.4908,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:13:33.288000",
+        "price": 4.13,
+        "frac": 1.4908,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:28:54.735000",
+        "price": 4.3,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.948
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "Q",
+    "side": "short",
+    "open": "2026-11-12 07:11:53.254565",
+    "close": "2026-11-12 13:10:16.150000",
+    "entry": 0.02779,
+    "initial_stop": 0.03123,
+    "stop_pct": 0.12379,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-12 07:52:32.632000",
+        "price": 0.02721,
+        "frac": 2.4231,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 11:23:06.201000",
+        "price": 0.02662,
+        "frac": 1.4231,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 13:10:16.150000",
+        "price": 0.02604,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 1.375
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "ERA",
+    "side": "short",
+    "open": "2026-11-12 13:09:54.762845",
+    "close": "2026-11-12 14:18:41.120000",
+    "entry": 0.09835,
+    "initial_stop": 0.11038,
+    "stop_pct": 0.12232,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-12 13:32:32.932000",
+        "price": 0.09628,
+        "frac": 2.496,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 13:46:11.551000",
+        "price": 0.09422,
+        "frac": 1.496,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 14:18:41.120000",
+        "price": 0.09209,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 1.385
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "MAGMA",
+    "side": "short",
+    "open": "2026-11-12 14:04:40.961957",
+    "close": "2026-11-12 14:32:04.831000",
+    "entry": 0.3255,
+    "initial_stop": 0.3657,
+    "stop_pct": 0.1235,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-12 14:24:19.681000",
+        "price": 0.3177,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 14:32:04.831000",
+        "price": 0.3252,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.189
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "AKE",
+    "side": "short",
+    "open": "2026-11-13 06:03:59.584714",
+    "close": "2026-11-13 06:11:05.646000",
+    "entry": 0.003332,
+    "initial_stop": 0.00374,
+    "stop_pct": 0.12245,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-13 06:06:31.337000",
+        "price": 0.003262,
+        "frac": 2.4259,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 06:06:32.167000",
+        "price": 0.003192,
+        "frac": 1.4444,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 06:11:05.646000",
+        "price": 0.003327,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.846
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "SOPH",
+    "side": "short",
+    "open": "2026-11-13 22:02:57.120444",
+    "close": "2026-11-14 00:58:22.959000",
+    "entry": 0.001755,
+    "initial_stop": 0.001972,
+    "stop_pct": 0.12365,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-14 00:36:59.249000",
+        "price": 0.001718,
+        "frac": 2.499,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 00:37:57.950000",
+        "price": 0.001681,
+        "frac": 1.499,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 00:58:22.959000",
+        "price": 0.001758,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.897
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "BMT",
+    "side": "short",
+    "open": "2026-11-14 03:12:03.385078",
+    "close": "2026-11-14 04:49:07.599000",
+    "entry": 0.024076,
+    "initial_stop": 0.028842,
+    "stop_pct": 0.19796,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-14 03:32:35.492000",
+        "price": 0.02357,
+        "frac": 0.9995,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 04:49:07.599000",
+        "price": 0.02405817,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.102
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "JELLYJELLY",
+    "side": "short",
+    "open": "2026-11-15 17:09:08.638608",
+    "close": "2026-11-16 05:02:28.029000",
+    "entry": 0.04289,
+    "initial_stop": 0.0482,
+    "stop_pct": 0.12381,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-16 00:11:39.387000",
+        "price": 0.04199,
+        "frac": 2.4903,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 01:34:51.690000",
+        "price": 0.04109,
+        "frac": 1.4935,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 05:02:28.029000",
+        "price": 0.03983,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 1.482
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "JCT",
+    "side": "short",
+    "open": "2026-11-16 12:09:30.661923",
+    "close": "2026-11-16 13:09:39.534000",
+    "entry": 0.00245,
+    "initial_stop": 0.002752,
+    "stop_pct": 0.12327,
+    "exit_reason": "sold_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-16 12:35:40.884000",
+        "price": 0.002388,
+        "frac": 2.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 12:36:10.014000",
+        "price": 0.002347,
+        "frac": 1.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 13:09:39.534000",
+        "price": 0.002449,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.931
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "SPACE",
+    "side": "short",
+    "open": "2026-11-16 14:04:59.660358",
+    "close": "2026-11-16 14:33:01.181000",
+    "entry": 0.003307,
+    "initial_stop": 0.003716,
+    "stop_pct": 0.12368,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-16 14:33:01.181000",
+        "price": 0.00348863,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.451
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "AXIS",
+    "side": "short",
+    "open": "2026-11-16 17:05:00.034830",
+    "close": "2026-11-16 21:48:31.242000",
+    "entry": 0.095,
+    "initial_stop": 0.1067,
+    "stop_pct": 0.12316,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-16 17:31:11.383000",
+        "price": 0.093,
+        "frac": 2.472,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 18:09:19.205000",
+        "price": 0.091,
+        "frac": 1.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 21:48:31.242000",
+        "price": 0.0949,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.906
+  },
+  {
+    "source": "PUMP_FADE",
+    "coin": "HUMA",
+    "side": "short",
+    "open": "2026-11-17 05:04:46.664366",
+    "close": "2026-11-17 06:00:39.954000",
+    "entry": 0.00895,
+    "initial_stop": 0.01005,
+    "stop_pct": 0.12291,
+    "exit_reason": "sold_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-17 05:18:12.553000",
+        "price": 0.00875,
+        "frac": 1.6667,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-17 05:19:38.542000",
+        "price": 0.00857,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-17 06:00:39.954000",
+        "price": 0.0094,
+        "frac": 0.6667,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.356
+  }
+]

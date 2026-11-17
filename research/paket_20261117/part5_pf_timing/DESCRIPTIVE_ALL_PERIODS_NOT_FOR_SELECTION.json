@@ -1,0 +1,271 @@
+[
+  {
+    "dimension": "UTC_BLOCK",
+    "value": 0,
+    "n": 413,
+    "WR": 68.28087167070218,
+    "PF": 0.760082290241658,
+    "netR": -31.919289485535604,
+    "USD_at_5risk": -159.59644742767802,
+    "maxDD_R": 40.44655229782899,
+    "top3_share": null,
+    "netR_adverse": -32.08193581490073,
+    "status_counts": {
+      "-2": 86,
+      "1": 413
+    },
+    "funding_unknown_n": 232
+  },
+  {
+    "dimension": "UTC_BLOCK",
+    "value": 1,
+    "n": 411,
+    "WR": 72.26277372262774,
+    "PF": 0.8680429476206751,
+    "netR": -15.388265031534633,
+    "USD_at_5risk": -76.94132515767316,
+    "maxDD_R": 26.77348419406983,
+    "top3_share": null,
+    "netR_adverse": -15.542277928360054,
+    "status_counts": {
+      "-2": 85,
+      "1": 411
+    },
+    "funding_unknown_n": 254
+  },
+  {
+    "dimension": "UTC_BLOCK",
+    "value": 2,
+    "n": 316,
+    "WR": 72.78481012658227,
+    "PF": 0.9799138677831295,
+    "netR": -1.7677858019489743,
+    "USD_at_5risk": -8.838929009744872,
+    "maxDD_R": 11.825306035394242,
+    "top3_share": null,
+    "netR_adverse": -1.929978262266435,
+    "status_counts": {
+      "-2": 83,
+      "1": 316
+    },
+    "funding_unknown_n": 200
+  },
+  {
+    "dimension": "UTC_BLOCK",
+    "value": 3,
+    "n": 275,
+    "WR": 73.81818181818181,
+    "PF": 0.8984021536651623,
+    "netR": -7.485517768150341,
+    "USD_at_5risk": -37.42758884075171,
+    "maxDD_R": 11.09421490443093,
+    "top3_share": null,
+    "netR_adverse": -7.638460476483678,
+    "status_counts": {
+      "1": 275,
+      "-2": 92
+    },
+    "funding_unknown_n": 175
+  },
+  {
+    "dimension": "DOW",
+    "value": 0,
+    "n": 197,
+    "WR": 73.09644670050761,
+    "PF": 0.9703202522387565,
+    "netR": -1.609679257852516,
+    "USD_at_5risk": -8.04839628926258,
+    "maxDD_R": 11.622632820237168,
+    "top3_share": null,
+    "netR_adverse": -1.6923305475350587,
+    "status_counts": {
+      "1": 197,
+      "-2": 38
+    },
+    "funding_unknown_n": 117
+  },
+  {
+    "dimension": "DOW",
+    "value": 1,
+    "n": 183,
+    "WR": 72.1311475409836,
+    "PF": 0.7796169898185924,
+    "netR": -11.502690934626742,
+    "USD_at_5risk": -57.51345467313371,
+    "maxDD_R": 14.463755726293412,
+    "top3_share": null,
+    "netR_adverse": -11.595417869150543,
+    "status_counts": {
+      "1": 183,
+      "-2": 48
+    },
+    "funding_unknown_n": 115
+  },
+  {
+    "dimension": "DOW",
+    "value": 2,
+    "n": 220,
+    "WR": 74.54545454545455,
+    "PF": 1.086548132308672,
+    "netR": 4.9592467478504245,
+    "USD_at_5risk": 24.796233739252123,
+    "maxDD_R": 9.879299744200647,
+    "top3_share": 0.4500192346572315,
+    "netR_adverse": 4.856974922453597,
+    "status_counts": {
+      "1": 220,
+      "-2": 50
+    },
+    "funding_unknown_n": 149
+  },
+  {
+    "dimension": "DOW",
+    "value": 3,
+    "n": 197,
+    "WR": 63.95939086294417,
+    "PF": 0.5978736639489065,
+    "netR": -28.802955041492922,
+    "USD_at_5risk": -144.0147752074646,
+    "maxDD_R": 29.545962184350124,
+    "top3_share": null,
+    "netR_adverse": -28.871576073238963,
+    "status_counts": {
+      "-2": 59,
+      "1": 197
+    },
+    "funding_unknown_n": 120
+  },
+  {
+    "dimension": "DOW",
+    "value": 4,
+    "n": 256,
+    "WR": 71.484375,
+    "PF": 0.8656502524827415,
+    "netR": -10.03164443281136,
+    "USD_at_5risk": -50.1582221640568,
+    "maxDD_R": 19.39270770872145,
+    "top3_share": null,
+    "netR_adverse": -10.153477270112946,
+    "status_counts": {
+      "-2": 53,
+      "1": 256
+    },
+    "funding_unknown_n": 160
+  },
+  {
+    "dimension": "DOW",
+    "value": 5,
+    "n": 225,
+    "WR": 72.0,
+    "PF": 0.8821651230152457,
+    "netR": -7.598103195268207,
+    "USD_at_5risk": -37.99051597634104,
+    "maxDD_R": 18.217843541886886,
+    "top3_share": null,
+    "netR_adverse": -7.713171399633292,
+    "status_counts": {
+      "1": 225,
+      "-2": 55
+    },
+    "funding_unknown_n": 122
+  },
+  {
+    "dimension": "DOW",
+    "value": 6,
+    "n": 137,
+    "WR": 73.72262773722628,
+    "PF": 0.9463909214998297,
+    "netR": -1.97503197296823,
+    "USD_at_5risk": -9.87515986484115,
+    "maxDD_R": 9.676796231235096,
+    "top3_share": null,
+    "netR_adverse": -2.0236542447936277,
+    "status_counts": {
+      "1": 137,
+      "-2": 43
+    },
+    "funding_unknown_n": 78
+  },
+  {
+    "dimension": "WEEKEND",
+    "value": false,
+    "n": 1053,
+    "WR": 71.13010446343779,
+    "PF": 0.8484385506167722,
+    "netR": -46.98772291893312,
+    "USD_at_5risk": -234.9386145946656,
+    "maxDD_R": 52.47726225503807,
+    "top3_share": null,
+    "netR_adverse": -47.45582683758407,
+    "status_counts": {
+      "-2": 248,
+      "1": 1053
+    },
+    "funding_unknown_n": 661
+  },
+  {
+    "dimension": "WEEKEND",
+    "value": true,
+    "n": 362,
+    "WR": 72.65193370165746,
+    "PF": 0.9055179912099166,
+    "netR": -9.573135168236437,
+    "USD_at_5risk": -47.86567584118218,
+    "maxDD_R": 21.135355289578246,
+    "top3_share": null,
+    "netR_adverse": -9.73682564442692,
+    "status_counts": {
+      "1": 362,
+      "-2": 98
+    },
+    "funding_unknown_n": 200
+  },
+  {
+    "dimension": "BTC",
+    "value": "UP",
+    "n": 700,
+    "WR": 71.71428571428572,
+    "PF": 0.8440828521799129,
+    "netR": -31.584861504500086,
+    "USD_at_5risk": -157.92430752250044,
+    "maxDD_R": 43.98222280541131,
+    "top3_share": null,
+    "netR_adverse": -31.87871195092875,
+    "status_counts": {
+      "1": 700,
+      "-2": 176
+    },
+    "funding_unknown_n": 405
+  },
+  {
+    "dimension": "BTC",
+    "value": "DOWN",
+    "n": 715,
+    "WR": 71.32867132867133,
+    "PF": 0.8803670564175747,
+    "netR": -24.975996582669467,
+    "USD_at_5risk": -124.87998291334733,
+    "maxDD_R": 51.95605948495643,
+    "top3_share": null,
+    "netR_adverse": -25.313940531082206,
+    "status_counts": {
+      "-2": 170,
+      "1": 715
+    },
+    "funding_unknown_n": 456
+  },
+  {
+    "dimension": "BTC",
+    "value": "UNKNOWN",
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {},
+    "funding_unknown_n": 0
+  }
+]
