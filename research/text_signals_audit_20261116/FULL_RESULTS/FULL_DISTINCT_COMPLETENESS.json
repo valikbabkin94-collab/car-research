@@ -1,0 +1,8 @@
+{
+  "original": 374,
+  "prior_active": 312,
+  "distinct_active": 345,
+  "frequency_filter_removed_cases": 33,
+  "existing_outcomes_unchanged": true,
+  "criterion": "All unique fresh signals;frequency is not text duplication;no return-based selection"
+}

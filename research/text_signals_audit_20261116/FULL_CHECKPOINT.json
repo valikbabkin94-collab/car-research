@@ -1,11 +1,11 @@
 {
   "stage": "FULL374_COMPLETE",
   "original_n": 374,
-  "classified_active": 312,
+  "classified_active": 345,
   "all_policy_rows": 1122,
-  "controls": 936,
+  "controls": 1035,
   "candidates": 0,
-  "code_sha": "a0f6bbc6277cdb0419d9f0660ca922521faad4ce",
+  "code_sha": "c980d91bb9fa305ebdeae0a506398ffbd0579885",
   "funding_unknown": "ZERO_PLUS_MINUS_0.01_PERCENT_8H",
   "SPECULANTKA": "NOT_WAITED",
   "LIVE_changes": 0
