@@ -1,0 +1,23 @@
+{
+  "audit_source": "Crypto-Auto-Radar feat/tg-only-live-20261111 OPS/AUDIT_GITHUB_ZABYTYE_IDEI_20261118.md",
+  "new_protocol_commit": "83acdf0477bc0f6a48ed6a34c1a844341c808d23",
+  "code_and_inputs_commit": "3be8f27a360e9b5e7aeb3210017e597a0ade434e",
+  "source_refs": {
+    "dump": "836da46b018d3fa831815531db6009e7b667e89a",
+    "ideas": "d851889e0ef79aa473ff5695adf1967f2710eb2c",
+    "night": "8a18f841ec78811b3b47f14cd46e32acffcbae18",
+    "listings": "e54b0b8de1b606885c929acae5efc4f099ae91ec"
+  },
+  "findings": {
+    "DUMP": "1141 original closed PRIMARY,1357 signals total;807 matched filled and334 nofill controls for closed cohort; frozen TOP50 flags reused",
+    "IDEAS": "Original ABC counts10882/5044/1648; exact individual rows/scripts listed as Honor-only in source manifests, absent in exact source branch tree",
+    "NIGHT": "Rule is skip lowvol AND lowATR; original validation already exists, independent row replay blocked without PASSPORT_DATASET",
+    "LISTINGS": "Original protocol uses1m, not1h; no duplicate replay; extra last40/control requires individual journals",
+    "PUBLIC_MANAGER_CORPUS": "9935 total entries including E2=332/E3=505, not the original ideas cohort; V2_TABLES3375 aggregate rows not night individual trades"
+  },
+  "source_listing_scan": "Exact source branch trees and six relevant public research branch trees catalogued; no Honor access implied",
+  "new_PnL_location": "GitHub Actions run44187340109,4 bounded DUMP symbol shards",
+  "new_scenarios": 0,
+  "parameter_searches": 0,
+  "live_changes": 0
+}
