@@ -1,0 +1,78 @@
+name: Complete all distinct374 cases without frequency exclusion
+on:
+  push:
+    branches: [research/text-signals-audit]
+    paths: [.github/workflows/text_full_distinct.yml]
+permissions: {contents: write, actions: read}
+concurrency:
+  group: full-text-374
+  cancel-in-progress: false
+jobs:
+  full_audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/scan_publication.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: full374-verified-market-cache
+          path: work/market/m1
+          run-id: '44038434729'
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          path: source
+          run-id: '43874717889'
+          github-token: ${{ github.token }}
+      - name: Full374 real/random-time audit, no mini-pilots
+        timeout-minutes: 55
+        run: python research/text_signals_audit_20261116/full_run.py
+      - name: Publication scan
+        if: always()
+        id: scan
+        run: python tools/scan_publication.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.scan.outcome == 'success'
+        with:
+          name: full374-final-distinct-code-results
+          path: research/text_signals_audit_20261116
+          retention-days: 7
+      - name: Validate pure numerical cache
+        if: always()
+        id: cache
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          import numpy as np
+          for p in Path('work/market/m1').glob('*.npz'):
+           assert hashlib.sha256(p.read_bytes()).hexdigest()==json.loads(p.with_suffix('.json').read_text())['parsed_sha256']
+           with np.load(p,allow_pickle=False)as z:assert set(z.files)=={'bars'} and z['bars'].dtype.kind=='f'
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.cache.outcome == 'success'
+        with:
+          name: full374-verified-market-cache
+          path: work/market/m1
+          compression-level: 0
+          retention-days: 7
+      - name: Publish final full report, never merge main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name car-research-actions
+          git config user.email car-research-actions@users.noreply.github.com
+          git add research/text_signals_audit_20261116
+          git commit -m 'research: full374 audit actual and random trades, funding sensitivity and BH [skip ci]'
+          python - <<'PY'
+          import os,subprocess,base64
+          auth=base64.b64encode(('x-access-token:'+os.environ['GH_TOKEN']).encode()).decode()
+          subprocess.run(['git','-c','http.extraHeader=AUTHORIZATION: basic '+auth,'push','origin','HEAD:research/text-signals-audit'],check=True,stdout=subprocess.DEVNULL)
+          PY

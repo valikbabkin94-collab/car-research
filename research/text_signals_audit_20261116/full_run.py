@@ -79,13 +79,16 @@ def bh(values):
  return q
 
 def main():
- OUT.mkdir(exist_ok=True);plans=load(P/'inputs/FULL_374_PLANS.json.gz');registry=load(P/'CHANNEL_REGISTRY.json');quotes=Quotes('work/market');fund=Funding('source','work/funding');bybit=PublicBybit();rng=np.random.default_rng(SEED);splits={};controls=[];jobs=[]
+ OUT.mkdir(exist_ok=True);previous_actual=load(OUT/'ALL_TRADES.json.gz')if (OUT/'ALL_TRADES.json.gz').exists()else [];previous_null=load(OUT/'RANDOM_TIME_TRADES.json.gz')if (OUT/'RANDOM_TIME_TRADES.json.gz').exists()else [];amap={(r['post_key'],r['policy']):r for r in previous_actual};nmap={(r['post_key'],r['policy']):r for r in previous_null};oldpub={r['post_key']:r['pub']for r in previous_null}
+ if previous_actual:gz(OUT/'BEFORE_FREQUENCY_FILTER_CORRECTION.json.gz',previous_actual)
+ plans=load(P/'inputs/FULL_374_PLANS.json.gz');registry=load(P/'CHANNEL_REGISTRY.json');quotes=Quotes('work/market');fund=Funding('source','work/funding');bybit=PublicBybit();rng=np.random.default_rng(SEED);splits={};controls=[];jobs=[]
  for ch in registry:
   s=[r for r in plans if r['channel']==ch];lo=min((r['pub']for r in s),default=0);hi=max((r['pub']for r in s),default=0)+M;splits[ch]=(lo,hi,(lo+hi)//2,lo+int(.6*(hi-lo)))
  for s in plans:
+  if s['status']=='COOLDOWN6H':s['status']='CANDIDATE'
   if s['status']!='CANDIDATE':continue
-  lo,hi,mid,tail=splits[s['channel']];a,b=(lo,mid)if s['pub']<mid else(mid,hi);t=int(rng.integers(a,max(a+1,b)));c=dict(s,pub=t,events=[]);controls.append(c)
-  for x in [s,c]:jobs+=jobs_for(s['symbol'],x['pub']-24*H,min(ASOF,x['pub']+97*H))
+  lo,hi,mid,tail=splits[s['channel']];a,b=(lo,mid)if s['pub']<mid else(mid,hi);t=oldpub.get(s['post_key'],int(rng.integers(a,max(a+1,b))));c=dict(s,pub=t,events=[]);controls.append(c)
+  for x in ([]if (s['post_key'],'T3')in amap and amap[(s['post_key'],'T3')]['status']!='COOLDOWN6H'else [s,c]):jobs+=jobs_for(s['symbol'],x['pub']-24*H,min(ASOF,x['pub']+97*H))
  jobs=sorted(set(jobs));receipts=[];deadline=time.monotonic()+25*60
  def fetch(x):
   sym,period,kind=x
@@ -101,10 +104,14 @@ def main():
  for i,s in enumerate(sorted(plans,key=lambda r:(r['symbol']or'',r['pub']))):
   for policy in NAMES:
    if s['status']!='CANDIDATE':r=dict(channel=s['channel'],post_key=s['post_key'],policy=policy,pub=s['pub'],status=s['status'],net_R=None)
+   elif (s['post_key'],policy)in amap and amap[(s['post_key'],policy)]['status']!='COOLDOWN6H':r=amap[(s['post_key'],policy)]
    else:r=run_case(s,policy,quotes,bybit,fund)
    actual.append(r)
-   if s['status']=='CANDIDATE':null.append(run_case(controlby[s['post_key']],policy,quotes,bybit,fund,True))
+   if s['status']=='CANDIDATE':null.append(nmap[(s['post_key'],policy)]if (s['post_key'],policy)in nmap else run_case(controlby[s['post_key']],policy,quotes,bybit,fund,True))
   if i%30==0:gz(OUT/'ACTUAL_CHECKPOINT.json.gz',actual);gz(OUT/'CONTROL_CHECKPOINT.json.gz',null);print('CASES',i,'/',len(plans),flush=True)
+ for old in previous_actual:
+  if old['status']!='COOLDOWN6H':assert old==next(r for r in actual if r['post_key']==old['post_key']and r['policy']==old['policy']),'EXISTING_OUTCOME_CHANGED'
+ save(OUT/'FULL_DISTINCT_COMPLETENESS.json',dict(original=374,prior_active=312,distinct_active=345,frequency_filter_removed_cases=33,existing_outcomes_unchanged=True,criterion='All unique fresh signals;frequency is not text duplication;no return-based selection'))
  gz(OUT/'ALL_TRADES.json.gz',actual);gz(OUT/'RANDOM_TIME_TRADES.json.gz',null);save(OUT/'BYBIT_PUBLIC_PROBES.json',dict(host_block=bybit.blocked,receipts=bybit.receipts));save(OUT/'SPLITS.json',splits);tables=[];seeds=np.random.default_rng(SEED+1)
  for ch in registry:
   lo,hi,mid,tail=splits[ch]
