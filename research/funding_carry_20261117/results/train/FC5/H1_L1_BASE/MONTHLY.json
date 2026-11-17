@@ -1,0 +1,50 @@
+[
+  {
+    "month": "2025-11",
+    "start_ms": 1761955200000,
+    "end_ms": 1764547200000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  },
+  {
+    "month": "2025-12",
+    "start_ms": 1764547200000,
+    "end_ms": 1767225600000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  },
+  {
+    "month": "2026-01",
+    "start_ms": 1767225600000,
+    "end_ms": 1769904000000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  },
+  {
+    "month": "2026-02",
+    "start_ms": 1769904000000,
+    "end_ms": 1772323200000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  },
+  {
+    "month": "2026-03",
+    "start_ms": 1772323200000,
+    "end_ms": 1775001600000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  },
+  {
+    "month": "2026-04",
+    "start_ms": 1775001600000,
+    "end_ms": 1777593600000,
+    "complete_calendar_month": true,
+    "observed": false,
+    "profit_USD": null
+  }
+]
