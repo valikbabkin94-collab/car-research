@@ -1,0 +1,459 @@
+[
+  {
+    "channel": "AltcoinDaily_signaI",
+    "posts": 2430,
+    "classes": {
+      "REPORT": 1652,
+      "OTHER": 562,
+      "UPDATE": 32,
+      "SIGNAL": 184
+    },
+    "OTHER_share": 0.23127572016460907
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "posts": 11194,
+    "classes": {
+      "UPDATE": 4566,
+      "OTHER": 5712,
+      "REPORT": 907,
+      "SIGNAL": 9
+    },
+    "OTHER_share": 0.5102733607289619
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "posts": 800,
+    "classes": {
+      "REPORT": 494,
+      "UPDATE": 262,
+      "SIGNAL": 44
+    },
+    "OTHER_share": 0.0
+  },
+  {
+    "channel": "BitcoinBullet_official",
+    "posts": 539,
+    "classes": {
+      "OTHER": 342,
+      "UPDATE": 76,
+      "REPORT": 21,
+      "SIGNAL": 100
+    },
+    "OTHER_share": 0.634508348794063
+  },
+  {
+    "channel": "BullBearCrypto0",
+    "posts": 635,
+    "classes": {
+      "REPORT": 179,
+      "OTHER": 437,
+      "SIGNAL": 3,
+      "UPDATE": 16
+    },
+    "OTHER_share": 0.6881889763779527
+  },
+  {
+    "channel": "Coin_Signals",
+    "posts": 788,
+    "classes": {
+      "UPDATE": 42,
+      "OTHER": 416,
+      "REPORT": 234,
+      "SIGNAL": 96
+    },
+    "OTHER_share": 0.5279187817258884
+  },
+  {
+    "channel": "CryptoInnerCircle",
+    "posts": 800,
+    "classes": {
+      "OTHER": 641,
+      "REPORT": 108,
+      "UPDATE": 48,
+      "SIGNAL": 3
+    },
+    "OTHER_share": 0.80125
+  },
+  {
+    "channel": "OldmanScalping",
+    "posts": 755,
+    "classes": {
+      "OTHER": 569,
+      "SIGNAL": 37,
+      "REPORT": 111,
+      "UPDATE": 38
+    },
+    "OTHER_share": 0.7536423841059603
+  },
+  {
+    "channel": "RavenSignalsPro",
+    "posts": 641,
+    "classes": {
+      "OTHER": 379,
+      "UPDATE": 126,
+      "REPORT": 133,
+      "SIGNAL": 3
+    },
+    "OTHER_share": 0.5912636505460218
+  },
+  {
+    "channel": "Teambuertrades",
+    "posts": 3,
+    "classes": {
+      "OTHER": 3
+    },
+    "OTHER_share": 1.0
+  },
+  {
+    "channel": "TopCryptoFuturesSignals",
+    "posts": 800,
+    "classes": {
+      "OTHER": 557,
+      "REPORT": 141,
+      "UPDATE": 98,
+      "SIGNAL": 4
+    },
+    "OTHER_share": 0.69625
+  },
+  {
+    "channel": "TradingGainX",
+    "posts": 778,
+    "classes": {
+      "UPDATE": 238,
+      "OTHER": 353,
+      "REPORT": 84,
+      "SIGNAL": 103
+    },
+    "OTHER_share": 0.4537275064267352
+  },
+  {
+    "channel": "Whalesguide",
+    "posts": 796,
+    "classes": {
+      "SIGNAL": 296,
+      "OTHER": 427,
+      "REPORT": 8,
+      "UPDATE": 65
+    },
+    "OTHER_share": 0.5364321608040201
+  },
+  {
+    "channel": "WolfxCrypto_VIP",
+    "posts": 671,
+    "classes": {
+      "REPORT": 291,
+      "UPDATE": 279,
+      "OTHER": 101
+    },
+    "OTHER_share": 0.15052160953800298
+  },
+  {
+    "channel": "altsignals",
+    "posts": 795,
+    "classes": {
+      "OTHER": 524,
+      "UPDATE": 12,
+      "REPORT": 259
+    },
+    "OTHER_share": 0.6591194968553459
+  },
+  {
+    "channel": "bitcoinbullets",
+    "posts": 799,
+    "classes": {
+      "UPDATE": 38,
+      "OTHER": 564,
+      "REPORT": 197
+    },
+    "OTHER_share": 0.7058823529411765
+  },
+  {
+    "channel": "chainexsignals",
+    "posts": 634,
+    "classes": {
+      "OTHER": 109,
+      "SIGNAL": 96,
+      "UPDATE": 378,
+      "REPORT": 51
+    },
+    "OTHER_share": 0.1719242902208202
+  },
+  {
+    "channel": "coin_sgnls_PRO",
+    "posts": 416,
+    "classes": {
+      "OTHER": 237,
+      "UPDATE": 89,
+      "REPORT": 34,
+      "SIGNAL": 56
+    },
+    "OTHER_share": 0.5697115384615384
+  },
+  {
+    "channel": "coincodecap",
+    "posts": 800,
+    "classes": {
+      "REPORT": 207,
+      "OTHER": 513,
+      "UPDATE": 35,
+      "SIGNAL": 45
+    },
+    "OTHER_share": 0.64125
+  },
+  {
+    "channel": "crusader_trades",
+    "posts": 2682,
+    "classes": {
+      "OTHER": 2429,
+      "SIGNAL": 143,
+      "UPDATE": 82,
+      "REPORT": 28
+    },
+    "OTHER_share": 0.9056674123788218
+  },
+  {
+    "channel": "crypto_Winston",
+    "posts": 736,
+    "classes": {
+      "OTHER": 644,
+      "REPORT": 59,
+      "UPDATE": 22,
+      "SIGNAL": 11
+    },
+    "OTHER_share": 0.875
+  },
+  {
+    "channel": "crypto_signalsf",
+    "posts": 800,
+    "classes": {
+      "OTHER": 777,
+      "UPDATE": 21,
+      "REPORT": 2
+    },
+    "OTHER_share": 0.97125
+  },
+  {
+    "channel": "cryptoclassics",
+    "posts": 702,
+    "classes": {
+      "OTHER": 596,
+      "REPORT": 102,
+      "UPDATE": 4
+    },
+    "OTHER_share": 0.8490028490028491
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "posts": 800,
+    "classes": {
+      "REPORT": 769,
+      "OTHER": 31
+    },
+    "OTHER_share": 0.03875
+  },
+  {
+    "channel": "cryptoroverytofficiaI",
+    "posts": 600,
+    "classes": {
+      "OTHER": 553,
+      "UPDATE": 32,
+      "REPORT": 15
+    },
+    "OTHER_share": 0.9216666666666666
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "posts": 7801,
+    "classes": {
+      "OTHER": 5116,
+      "UPDATE": 769,
+      "REPORT": 532,
+      "SIGNAL": 1384
+    },
+    "OTHER_share": 0.6558133572618895
+  },
+  {
+    "channel": "fatpigsignals",
+    "posts": 799,
+    "classes": {
+      "OTHER": 300,
+      "REPORT": 486,
+      "UPDATE": 13
+    },
+    "OTHER_share": 0.37546933667083854
+  },
+  {
+    "channel": "fedrussianinsiders",
+    "posts": 800,
+    "classes": {
+      "OTHER": 763,
+      "UPDATE": 22,
+      "REPORT": 15
+    },
+    "OTHER_share": 0.95375
+  },
+  {
+    "channel": "free_crypto_vip",
+    "posts": 800,
+    "classes": {
+      "REPORT": 357,
+      "OTHER": 6,
+      "SIGNAL": 258,
+      "UPDATE": 179
+    },
+    "OTHER_share": 0.0075
+  },
+  {
+    "channel": "learn2tradectypto",
+    "posts": 800,
+    "classes": {
+      "REPORT": 333,
+      "UPDATE": 113,
+      "OTHER": 331,
+      "SIGNAL": 23
+    },
+    "OTHER_share": 0.41375
+  },
+  {
+    "channel": "learn2tradenews",
+    "posts": 800,
+    "classes": {
+      "OTHER": 339,
+      "UPDATE": 146,
+      "REPORT": 290,
+      "SIGNAL": 25
+    },
+    "OTHER_share": 0.42375
+  },
+  {
+    "channel": "main3commassignals",
+    "posts": 655,
+    "classes": {
+      "OTHER": 414,
+      "UPDATE": 133,
+      "REPORT": 71,
+      "SIGNAL": 37
+    },
+    "OTHER_share": 0.6320610687022901
+  },
+  {
+    "channel": "ne_investor",
+    "posts": 11378,
+    "classes": {
+      "OTHER": 9768,
+      "UPDATE": 739,
+      "REPORT": 852,
+      "SIGNAL": 19
+    },
+    "OTHER_share": 0.8584988574441905
+  },
+  {
+    "channel": "safe_academy",
+    "posts": 9672,
+    "classes": {
+      "OTHER": 8691,
+      "UPDATE": 565,
+      "SIGNAL": 218,
+      "REPORT": 198
+    },
+    "OTHER_share": 0.8985732009925558
+  },
+  {
+    "channel": "sagesignals8",
+    "posts": 800,
+    "classes": {
+      "OTHER": 796,
+      "UPDATE": 3,
+      "REPORT": 1
+    },
+    "OTHER_share": 0.995
+  },
+  {
+    "channel": "tokenwhisperer_io",
+    "posts": 800,
+    "classes": {
+      "OTHER": 793,
+      "UPDATE": 4,
+      "REPORT": 3
+    },
+    "OTHER_share": 0.99125
+  },
+  {
+    "channel": "traderosho",
+    "posts": 796,
+    "classes": {
+      "UPDATE": 221,
+      "OTHER": 541,
+      "SIGNAL": 29,
+      "REPORT": 5
+    },
+    "OTHER_share": 0.6796482412060302
+  },
+  {
+    "channel": "universalcryptosignals",
+    "posts": 80,
+    "classes": {
+      "OTHER": 51,
+      "REPORT": 8,
+      "UPDATE": 21
+    },
+    "OTHER_share": 0.6375
+  },
+  {
+    "channel": "wallstreetqueenofficial",
+    "posts": 782,
+    "classes": {
+      "OTHER": 594,
+      "REPORT": 103,
+      "SIGNAL": 38,
+      "UPDATE": 47
+    },
+    "OTHER_share": 0.7595907928388747
+  },
+  {
+    "channel": "wolfoftrading",
+    "posts": 798,
+    "classes": {
+      "OTHER": 682,
+      "UPDATE": 59,
+      "REPORT": 32,
+      "SIGNAL": 25
+    },
+    "OTHER_share": 0.8546365914786967
+  },
+  {
+    "channel": "wolfxsignals_freegroup",
+    "posts": 496,
+    "classes": {
+      "UPDATE": 82,
+      "OTHER": 393,
+      "REPORT": 21
+    },
+    "OTHER_share": 0.7923387096774194
+  },
+  {
+    "channel": "EveningTrader",
+    "posts": 0,
+    "classes": {},
+    "OTHER_share": null
+  },
+  {
+    "channel": "Raven_signalst_pro",
+    "posts": 0,
+    "classes": {},
+    "OTHER_share": null
+  },
+  {
+    "channel": "astronomer_zero",
+    "posts": 0,
+    "classes": {},
+    "OTHER_share": null
+  },
+  {
+    "channel": "cryptoninjas_trading_ann",
+    "posts": 0,
+    "classes": {},
+    "OTHER_share": null
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "original374": 374,
+  "counts": {
+    "CANDIDATE": 312,
+    "CLASSIFIER_REJECTED_NOT_FRESH_SIGNAL": 26,
+    "COOLDOWN6H": 33,
+    "DUPLICATE_TEXT": 3
+  },
+  "selection": "Original frozen374,all classification/dedup exclusions retained as rows; no return-based selection"
+}

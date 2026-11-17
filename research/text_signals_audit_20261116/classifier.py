@@ -14,7 +14,7 @@ def classify(text,known):
   x=x[:-4]if x.endswith('USDT')else x
   if x in known and x not in SKIP and x not in coins:coins.append(x)
  for match in re.finditer(r'(?i)(?:#|\$)([A-Z][A-Z0-9]{1,14})\b|\b([A-Z][A-Z0-9]{1,14})\s*(?:/|[-_])\s*USDT\b',text):
-  x=(match[1]or match[2]).upper()
+  x=(match[1]or match[2]).upper().removesuffix('USDT')
   if x not in SKIP and x not in coins:coins.append(x)
  # Explicit upper-case coin immediately beside direction, even absent current catalog.
  for match in re.finditer(r'\b([A-Z][A-Z0-9]{1,14})\s*[—–:-]?\s*(?:SHORT|LONG|short|long|шорт|лонг)\b',text):
@@ -24,7 +24,7 @@ def classify(text,known):
  direct=bool(re.search(r'\b[A-Z][A-Z0-9]{1,14}\s*[—–:-]?\s*(?:SHORT|LONG|short|long|шорт|лонг)\b|(?:\bShorting|\bLonging|\bLong|\bShort|\bLONG|\bSHORT|лонг|шорт)\s+[$#]?[A-Z][A-Z0-9]{1,14}\b',text))
  header=bool(re.search(r'(?i)\bentry\b|вход|\bcoin\b.{0,80}direction',text[:600]))
  narrative=bool(re.search(r'(?i)market analysis|price analysis|market recap|daily crypto|as long as|long.term|short.term',text))
- if ADS.search(text):label='OTHER';reason.append('PROMOTIONAL_OR_PAID_CONTEXT')
+ if ADS.search(text)and not(side and symbol and header):label='OTHER';reason.append('PROMOTIONAL_OR_PAID_CONTEXT')
  elif (re.search(r'(?i)(?:profit|прибыль)\s*[:+]?\s*\d+(?:[.,]\d+)?\s*%|(?:target|tp)\s*\d*\s*(?:achieved|hit|reached)',text)):label='REPORT'
  elif REPORT.search(text)and(PAST.search(text)or not side or re.search(r'[+−-]\s*\d+(?:[.,]\d+)?\s*%',text)):label='REPORT'
  elif UPDATE.search(text)and(PAST.search(text)or not side):label='UPDATE'
