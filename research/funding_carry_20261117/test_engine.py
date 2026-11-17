@@ -40,4 +40,9 @@ class CarryTests(unittest.TestCase):
   d=Fixture();d.cashrate[4,0]=.001;r=self.runmodel(d);self.assertAlmostEqual(r["summary"]["cash_reconciliation_error"],0,places=10)
  def test_min_notional_is_separate_execution_audit(self):
   r=self.runmodel(min_notional=100);self.assertEqual(r["summary"]["n_closed_pairs"],0);self.assertGreater(r["summary"]["order_filter_rejected"],0)
+ def test_maker_abort_reserved_cash_not_lost(self):
+  d=Fixture();d.latest[:]=.0004;d.previous[:]=.0004;d.spot[0,1:,0]=101;d.spot[0,1:,1]=102;d.spot[0,1:,2]=99;d.spot[0,1:,3]=100;d.perp[0,1:,0]=101;d.perp[0,1:,1]=102;d.perp[0,1:,2]=99;d.perp[0,1:,3]=100
+  r=self.runmodel(d,variant="FC5");self.assertGreater(r["summary"]["maker_unhedged_aborts"],0);self.assertGreater(min(x["equity"]for x in r["equity"]),90);self.assertAlmostEqual(r["summary"]["cash_reconciliation_error"],0,places=8)
+ def test_future_payout_cannot_change_past_funding(self):
+  d=Fixture();a=self.runmodel(d);d.cashrate[10,0]=.9;b=self.runmodel(d);self.assertEqual(a["summary"]["net_USD"],b["summary"]["net_USD"])
 if __name__=="__main__":unittest.main()
