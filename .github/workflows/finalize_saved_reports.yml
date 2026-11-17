@@ -1,0 +1,36 @@
+name: CAR final handoff from saved outcomes only
+on:
+  push:
+    branches: [research/paket-20261117]
+    paths: [.github/workflows/finalize_saved_reports.yml]
+  workflow_dispatch:
+permissions: {contents: write, actions: read}
+jobs:
+  final_saved_summary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      LAB_OUTPUT: research/paket_20261117/final_handoff
+      LAB_ROOT: research/paket_20261117
+      LAB_PART: final_handoff
+      LAB_BRANCH: research/paket-20261117
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Final report from already saved arrays, no market request or new profiles
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: PYTHONPATH=research/paket_20261117 python research/paket_20261117/finalize_saved_reports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: CAR_FINAL_HANDOFF_20261117
+          path: research/paket_20261117/final_handoff
+          retention-days: 14
+      - name: Save final handoff and checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python research/paket_20261117/publish_results.py
