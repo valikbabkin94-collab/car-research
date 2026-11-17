@@ -1,0 +1,54 @@
+{
+  "source_commit": "36067a68c01aba878cc04917d120961b00b289d3",
+  "source_path": "research/paket_20261117/part6_coverage_fix/TABLES.json",
+  "selector_unchanged": true,
+  "no_new_PnL_runs": true,
+  "rows": [
+    {
+      "period": "H1",
+      "n": 591,
+      "signal_unit_R_price_fraction": 0.056,
+      "model_stop_price_fraction": 0.12,
+      "model_stop_in_signal_R": 2.142857142857143,
+      "net_signal_R": -29.838060427933616,
+      "USD_at_5_per_signal_R": -149.1903021396681,
+      "USD_at_5_nominal_model_stop_risk": -69.62214099851178,
+      "model_stop_risk_R": -13.924428199702355,
+      "PF": 0.8523707162689281,
+      "WR": 83.92554991539764,
+      "average_win_signal_R": 0.347332098985144,
+      "average_loss_signal_R": 2.1275240160480533
+    },
+    {
+      "period": "H2",
+      "n": 813,
+      "signal_unit_R_price_fraction": 0.056,
+      "model_stop_price_fraction": 0.12,
+      "model_stop_in_signal_R": 2.142857142857143,
+      "net_signal_R": -32.859286772049664,
+      "USD_at_5_per_signal_R": -164.29643386024833,
+      "USD_at_5_nominal_model_stop_risk": -76.67166913478255,
+      "model_stop_risk_R": -15.33433382695651,
+      "PF": 0.8808866271405084,
+      "WR": 83.76383763837639,
+      "average_win_signal_R": 0.35683752230154314,
+      "average_loss_signal_R": 2.0898912080257617
+    },
+    {
+      "period": "LAST40",
+      "n": 645,
+      "signal_unit_R_price_fraction": 0.056,
+      "model_stop_price_fraction": 0.12,
+      "model_stop_in_signal_R": 2.142857142857143,
+      "net_signal_R": -0.47225539706257535,
+      "USD_at_5_per_signal_R": -2.3612769853128768,
+      "USD_at_5_nominal_model_stop_risk": -1.1019292598126758,
+      "model_stop_risk_R": -0.22038585196253516,
+      "PF": 0.9976388331138911,
+      "WR": 84.96124031007753,
+      "average_win_signal_R": 0.3641187416658036,
+      "average_loss_signal_R": 2.0619518126796184
+    }
+  ],
+  "meaning": "SignalR5.6% differs from changed stop12%. Old USD_at_5risk column is 5 dollars per SIGNAL R, not fixed5-dollar modelSL risk. Supplementary fixed-stop projection rescales same saved outcomes, not actual LIVE profit or a different parameter winner. Gaps/fees can exceed nominal stop risk; concurrent capital constraints absent. S1=12% is requested counterfactual, not verified actual strategySL. In LIVE export initial_stop is safety, never assumed financial1R."
+}
