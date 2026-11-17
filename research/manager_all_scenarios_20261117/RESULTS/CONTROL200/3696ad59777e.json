@@ -1,0 +1,9 @@
+{
+  "scenario": "S1",
+  "n": 193,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "897b883cedb382945d0afdb5b6391351bb3c11a2396de9bbbb8123244aae703d"
+}

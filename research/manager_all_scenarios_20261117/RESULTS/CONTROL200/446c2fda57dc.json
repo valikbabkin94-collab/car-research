@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_RavenSignalsPro",
+  "n": 1,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "b13509f9fe6e0a18cc99aaeb9e9756305805d54a98a20e68607d04c73d82316c"
+}

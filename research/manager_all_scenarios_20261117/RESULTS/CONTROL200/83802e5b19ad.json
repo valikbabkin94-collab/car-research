@@ -1,0 +1,9 @@
+{
+  "scenario": "P1_WolfxCrypto_VIP",
+  "n": 66,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "2a7c5e631e3a265a76b026c8494aa23002ffba5019a9d253f4c996209374b017"
+}

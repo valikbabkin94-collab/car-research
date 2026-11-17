@@ -1,0 +1,9 @@
+{
+  "scenario": "PF_BASE",
+  "n": 1761,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "30ca9559746685e369de607677f299dced5f204780c27959d81c3ed147b99b4d"
+}

@@ -1,0 +1,25 @@
+{
+  "asof": 1794919920000,
+  "seed": 20261117,
+  "code_sha": "4d70302663f8e28a5d7bbca15f43f471d831d5e0",
+  "entries": 9935,
+  "R_step0": 0.01,
+  "random_repeats": 200,
+  "managers": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9"
+  ],
+  "mirrors": [
+    "X1",
+    "X3",
+    "X6",
+    "X7"
+  ]
+}

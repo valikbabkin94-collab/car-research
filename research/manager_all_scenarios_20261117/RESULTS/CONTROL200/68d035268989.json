@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_cryptosignals0rg",
+  "n": 6,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "3433a082caf9dceebb8199c02a5440f8f5bbdfd080b89417e142bd8f2f93d15b"
+}

@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_free_crypto_vip",
+  "n": 8,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "1db719d6a7b6359f2f7b1bfb496d45d5d42dc2275397dac72d93bbb561b5f624"
+}

@@ -1,0 +1,9 @@
+{
+  "scenario": "P1_BitcoinBullet_official",
+  "n": 57,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "c03456a2cc411954dd08d9ba7bf454dc0e07dc33ba7ec252675e6bc7d25c99d7"
+}

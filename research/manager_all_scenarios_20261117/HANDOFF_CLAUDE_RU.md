@@ -1,0 +1,18 @@
+# Независимая проверка manager-all-scenarios
+
+Ветка research/manager-all-scenarios, каталог research/manager_all_scenarios_20261117. Исходная сетка/входы зафиксированы ec6067a ДО нового PnL. run.py/engine.py версии1 сохранены; итоговые execute_v1_1.py/engine_v1_1.py исправляют обработку групп, pub-time ATR текущего MANAGER и доступность подтверждающего fill. См. TECHNICAL_FIX_V1_1.md. Первый run44087096459 — источник кэша и ASOF, его пустые группы не финансовый результат. Итоговый code_sha в CHECKPOINT/PARAMS. PRE_PNL_HASHES сохраняет обе версии и immutable inputs.
+
+Сначала RESULTS/VERIFICATION.json, DATA_COVERAGE_BY_SCENARIO и отчёт. Далее:
+
+1. Независимо проверить 9935 фиксированных входов и исключения. G3=NO_QUALITY15m, R1=flat/sign-flip из ребалансов. E3 parent/old-fixed flip разделены. S2/S3 aliases DELIST_SHORT/FUND_SQUEEZE не считать независимыми сценариями. Telegram edited, original author fill неизвестен.
+2. Сверить SOURCE_MANIFEST с immutable публичными исходниками и воспроизвести нормализацию collect_inputs.py/prepare_inputs.py в отдельной копии. Сам public input не изменять. Исходные суммы и IDs не публиковались повторно.
+3. Сопоставить AST-фрагменты vendor/pure_manager.py с private source commit из PROVENANCE: ATR14 закрытых часов,1.5ATR,50/25/25,BE ровно entry,24ч. X2 явно research bypass выключенного manager reversal, не LIVE изменение. В X1/2 ATR на pub, в X4/5 на entry; frozen fill не меняется.
+4. Проверить scipy forward extrema против прямых окон, непрерывность цен и несовместимость saved-entry с Binance1m. Не считать DATA_GAP проигрышем или доказанным ШУМ. Никакого восстановления времени внутри нативной5m/15m свечи не выдумывать.
+5. Убедиться: gate только H1,purge72ч,200±7d controls без пересэмплирования missing, train winner сохранён ДО H2. Не оптимизировать по H2. MFE/MAE R1% и PnL R actualinitialSL не смешивать.
+6. Проверить все TP/SL/BE/trail/event fractions, комиссии maker .02% только limit, taker .055%,slip5bps; свеча входа без TP, неоднозначность SL-first. Дневные блоки стрессовать недельными/неперекрывающимися исходами в отдельном заранее зарегистрированном аудите, не подбирать лучший результат.
+7. Проверить реальные funding coverage/cash и unknown0±.01%/8ч. Экстремальные funding могут выходить за этот стресс.
+8. X0 только исходный справочный netR; без полного старого кода/исполнения не считать сопоставимым новым replay и не включать в выбор победителя. R1 динамическое изменение позиции особенно требует отдельного исходного ledger.
+9. Конфлюэнс: только независимые lineage, публикация в прошлом и уже произошедший подтверждающий fill; симметричные±2ч diagnostic only, future нельзя превратить в доступный сигнал.
+10. Перепроверить BH по фиксированной полной семье, включая неисполненные слоты p1 и отсутствующие10 сценариев; последние40% пересекают H2. variants.json — только PROMISING и enabled=false, ничего не запускается автоматически. Если кандидатов0 — не смягчать пороги задним числом.
+
+DATA_NEEDED.md: точный минимальный экспорт недостающих сценариев, без имен/IDs/ключей/сумм. Desktop Commander/Telegram sessions/order APIs не использованы. Никаких main-merge или установки в LIVE. Следующий этап — независимый аудит, а не разрешение реальной торговли.

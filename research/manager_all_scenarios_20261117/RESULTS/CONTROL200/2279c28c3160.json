@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_traderosho",
+  "n": 20,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "ba54bd8f2c42ffcb3193a4ff9c895520391297818dbdcbcb2b3cb2b0203f968b"
+}

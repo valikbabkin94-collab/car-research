@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_TopCryptoFuturesSignals",
+  "n": 2,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "47783303e8b56785d6cc15e6b5d4157f8688e3c7c0725da15376de6013e139ea"
+}

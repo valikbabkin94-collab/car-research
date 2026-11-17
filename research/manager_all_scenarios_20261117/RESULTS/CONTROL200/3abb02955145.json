@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_wallstreetqueenofficial",
+  "n": 1,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "f4cc6967c3c21b4488166607f195ffd1365fb8f32f37ca23c6096aac8fdceb7a"
+}

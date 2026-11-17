@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_ne_investor",
+  "n": 11,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "595553ae88fb5dd3cc4da4f7292ee9bc79f321975d0bf7546972b39edf9dfd67"
+}

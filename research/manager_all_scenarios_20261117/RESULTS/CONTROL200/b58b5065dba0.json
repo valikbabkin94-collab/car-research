@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_coin_sgnls_PRO",
+  "n": 3,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "c6d351bbbd3acc05e9f9e2e1da9b709b29169f488a675f9da0e24f86d452e0d9"
+}

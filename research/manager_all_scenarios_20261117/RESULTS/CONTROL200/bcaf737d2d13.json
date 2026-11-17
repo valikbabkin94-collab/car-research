@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_coincodecap",
+  "n": 6,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "e02123f112394472773d9b1c23bc9d6d16d44c59e22876658f7fdd217facb569"
+}

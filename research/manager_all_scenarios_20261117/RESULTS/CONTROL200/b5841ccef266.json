@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_OldmanScalping",
+  "n": 11,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "ff6e0cf2a48dfe4f4d3c091aebbe7d01625fdbc9af86d17b2c7b538bf22c289b"
+}

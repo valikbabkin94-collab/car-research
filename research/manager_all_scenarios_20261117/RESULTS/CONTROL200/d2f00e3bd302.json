@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_BinanceKillersVipChannel",
+  "n": 4,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "97f851154fcaa46d12513adb4416b4380f9df9539af64eb4bbd6af619b24f710"
+}

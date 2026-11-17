@@ -1,0 +1,9 @@
+{
+  "scenario": "R1_L90_LONG_ONLY",
+  "n": 311,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "b0b4750e9bf810811e876fa75ecec5b52bc7fb0315456b4b02a3e600544a0511"
+}

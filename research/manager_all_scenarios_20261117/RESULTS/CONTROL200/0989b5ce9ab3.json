@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_learn2tradectypto",
+  "n": 2,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "26850e69a0b03827b7c45b9c3539a00b60250a17043553f66ed9b330508c3737"
+}

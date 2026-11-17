@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "code_sha": "4d70302663f8e28a5d7bbca15f43f471d831d5e0",
+  "entries": 9935,
+  "feature_rows": 9935,
+  "control_replicates": 200,
+  "control200_covered_entries": 9935,
+  "manager_rows": 0,
+  "random_manager_rows": 0,
+  "all_frozen_hashes_verified": true,
+  "entries_and_sides_unchanged_except_declared_mirror": true,
+  "exit_fraction_and_fee_funding_accounting": true,
+  "train_selection_written_before_H2": true,
+  "source_jobs_done": 5919,
+  "source_jobs_total": 5919,
+  "source_job_statuses": {
+    "OK": 5714,
+    "DATA_GAP": 205
+  },
+  "limitations": "Internal accounting tests only, not independent method review. X0 reference not a comparable new replay. All underlying price/archival biases remain."
+}

@@ -1,0 +1,9 @@
+{
+  "scenario": "SPECULANTKA",
+  "n": 600,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "d931d8b87c01686ddaa83df7db78be96b7f9c3f045508798bd154eb05b57feb6"
+}

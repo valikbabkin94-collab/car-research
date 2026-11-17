@@ -1,0 +1,9 @@
+{
+  "scenario": "P1_Whalesguide",
+  "n": 77,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "05eacf129a6aa702f2ba994a5c3087f3e65d2df295dccb01c8a07006d04575de"
+}

@@ -1,0 +1,9 @@
+{
+  "scenario": "S3",
+  "n": 1036,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "d92109330fdd9741ea80fb39032c1d67cf59a67780d028b026f1faa626bbc4b1"
+}

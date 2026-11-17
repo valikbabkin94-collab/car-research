@@ -1,0 +1,9 @@
+{
+  "scenario": "TEXT_safe_academy",
+  "n": 87,
+  "replicates": 200,
+  "price_R_definition": ".01",
+  "key": "opaque research hash",
+  "dtype": "float32 outcomes; int64 timestamps",
+  "sha256": "8afd9413fbb2e8298c72649d2518ae87cc88e3643ebeb57c0a29f648ca2eb555"
+}
