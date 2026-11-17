@@ -1,0 +1,29 @@
+{
+  "stage": "SPECULANTKA_PART1_COMPLETE_WITH_IDENTIFIABILITY_LIMITS",
+  "source": {
+    "source": "inputs/speculantka/posts.jsonl",
+    "bytes": 1843147,
+    "sha256": "a5d6f9ac2928b02ad719224f104ba47a5c3c60c76a41232dcdaeeb25a8ae5bfd",
+    "post_n": 6443,
+    "edited": 5977
+  },
+  "classes": {
+    "OTHER": 4503,
+    "SIGNAL": 625,
+    "UPDATE": 795,
+    "REPORT": 520
+  },
+  "signals": 615,
+  "T1_identified_fraction": 0.975609756097561,
+  "claim_statuses": {
+    "PRICE_WINDOW_AVAILABLE_NOT_AUTHOR_FILL_PROOF": 455,
+    "UNLINKED_OR_AGGREGATE": 494,
+    "PROMOTIONAL_OR_PROJECTION_NOT_A_TRADE_REPORT": 25,
+    "REPORT_BEFORE_MODEL_ENTRY": 1,
+    "нет данных": 9
+  },
+  "conclusion": "мало данных для достоверного результата реальной торговли автора",
+  "conditional_T1_model": "в минусе",
+  "code_sha": "cd0dd3a7b6eefb746f65f3dd7a1777619b47bd3f",
+  "no_live_changes": true
+}

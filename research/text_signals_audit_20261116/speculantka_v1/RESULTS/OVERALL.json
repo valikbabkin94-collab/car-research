@@ -1,0 +1,58 @@
+[
+  {
+    "policy": "T1",
+    "n": 600,
+    "WR": 64.83333333333333,
+    "PF": 0.7128206006794956,
+    "netR": -52.61967275735417,
+    "USD_at_5R": -263.09836378677085,
+    "maxDD_R": 53.31518236024131,
+    "top3_share_net": null,
+    "funding_unknown_n": 136,
+    "netR_adverse": -52.79548340087111,
+    "netR_favourable": -52.44386211383717,
+    "statuses": {
+      "CLOSED": 600,
+      "нет данных": 13,
+      "UNRESOLVED_GRID_RANGE": 1,
+      "NOFILL": 1
+    }
+  },
+  {
+    "policy": "T2",
+    "n": 594,
+    "WR": 46.63299663299663,
+    "PF": 0.8127166470474413,
+    "netR": -56.85507442731689,
+    "USD_at_5R": -284.27537213658445,
+    "maxDD_R": 71.7501576624314,
+    "top3_share_net": null,
+    "funding_unknown_n": 136,
+    "netR_adverse": -57.393269876951884,
+    "netR_favourable": -56.3168789776817,
+    "statuses": {
+      "CLOSED": 594,
+      "REJECTED_INVALID_TARGETS": 4,
+      "нет данных": 16,
+      "NOFILL": 1
+    }
+  },
+  {
+    "policy": "T3",
+    "n": 600,
+    "WR": 68.0,
+    "PF": 0.7004069069232106,
+    "netR": -58.41766762809067,
+    "USD_at_5R": -292.08833814045335,
+    "maxDD_R": 59.96110892479876,
+    "top3_share_net": null,
+    "funding_unknown_n": 136,
+    "netR_adverse": -58.66746822332876,
+    "netR_favourable": -58.16786703285254,
+    "statuses": {
+      "CLOSED": 600,
+      "нет данных": 14,
+      "NOFILL": 1
+    }
+  }
+]
