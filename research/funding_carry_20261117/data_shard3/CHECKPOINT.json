@@ -1,0 +1,9 @@
+{
+  "status": "DATA_COMPLETE_WITH_EXPLICIT_GAPS",
+  "shard": 3,
+  "assigned": 118,
+  "available": 103,
+  "code_sha": "6767eea7de78ad4b064db1f01a93ddffea06235f",
+  "PnL_calculated": false,
+  "live_changes": 0
+}
