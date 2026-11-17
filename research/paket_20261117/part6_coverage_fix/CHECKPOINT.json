@@ -1,0 +1,11 @@
+{
+  "code_sha": "47df7923e130a1fa08683f34bceea6381fb522cd",
+  "asof": 1794919920000,
+  "kind": "pf",
+  "status": "RESUMED_H2_ONLY",
+  "winner": "T0S1B0",
+  "candidates": 0,
+  "H1_recomputed": false,
+  "price_coverage": 0.8035207268597387,
+  "no_live_changes": true
+}

@@ -56,3 +56,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part6_pf_exits -->
+
+<!-- part6_coverage_fix -->
+## part6_coverage_fix
+
+{"code_sha": "47df7923e130a1fa08683f34bceea6381fb522cd", "asof": 1794919920000, "kind": "pf", "status": "RESUMED_H2_ONLY", "winner": "T0S1B0", "candidates": 0, "H1_recomputed": false, "price_coverage": 0.8035207268597387, "no_live_changes": true}
+
+[Отчёт и журналы](research/paket_20261117/part6_coverage_fix/REPORT_RU.md). Код и сетка: `47df7923e130a1fa08683f34bceea6381fb522cd`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /part6_coverage_fix -->
