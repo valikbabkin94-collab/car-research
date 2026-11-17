@@ -1,0 +1,142 @@
+[
+  {
+    "source": "PUMP_FADE",
+    "n_live": 15,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "ALTCOIN",
+    "n_live": 1,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "ALTCOIN_MGR",
+    "n_live": 1,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "ALT_CLONE",
+    "n_live": 14,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "BK_MGR",
+    "n_live": 1,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "CAR_MAIN_LIMIT",
+    "n_live": 16,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "OLEG",
+    "n_live": 13,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": "T3S0B0",
+    "H1_worst_descriptive": "X3",
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "OLEG_CLONE",
+    "n_live": 8,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "OLEG_STYLE",
+    "n_live": 3,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "PIRATES",
+    "n_live": 1,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "PUMP_SHORT",
+    "n_live": 3,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "RS1M",
+    "n_live": 2,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "SCALP_C10",
+    "n_live": 16,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  },
+  {
+    "source": "YODA",
+    "n_live": 3,
+    "H1_winner_frozen": null,
+    "H1_best_descriptive": null,
+    "H1_worst_descriptive": null,
+    "H1_selection_below_min_n": true,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "no_claim_systematic_early_exit_or_bad_entry": true
+  }
+]

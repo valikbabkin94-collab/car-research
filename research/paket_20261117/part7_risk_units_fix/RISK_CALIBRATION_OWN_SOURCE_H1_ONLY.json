@@ -1,0 +1,142 @@
+{
+  "PUMP_FADE": {
+    "width": 0.056,
+    "diagnostic_display_unit": 0.056,
+    "H1_end_ms": 1794661532507,
+    "n_H1_full_stopouts": 0,
+    "source": "SIGNAL_SL5.6_PERCENT",
+    "old_width": 0.056,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "ALTCOIN": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1794093547794,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "ALTCOIN_MGR": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1794510830670,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "ALT_CLONE": {
+    "width": 0.0619702357563851,
+    "diagnostic_display_unit": 0.0619702357563851,
+    "H1_end_ms": 1793118979393,
+    "n_H1_full_stopouts": 1,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.05757431793379406,
+    "rescale_factor": 0.9290640455222392,
+    "no_backtest_repeated": true
+  },
+  "BK_MGR": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1794628110062,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "CAR_MAIN_LIMIT": {
+    "width": 0.09255239213789761,
+    "diagnostic_display_unit": 0.09255239213789761,
+    "H1_end_ms": 1792860029831,
+    "n_H1_full_stopouts": 1,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.04344542464459831,
+    "rescale_factor": 0.46941438941812746,
+    "no_backtest_repeated": true
+  },
+  "OLEG": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1793799152383,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "OLEG_CLONE": {
+    "width": 0.05692155996611402,
+    "diagnostic_display_unit": 0.05692155996611402,
+    "H1_end_ms": 1793842877598,
+    "n_H1_full_stopouts": 1,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.05692155996611402,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "OLEG_STYLE": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1792990592836,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "PIRATES": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1793097261405,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": null,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "PUMP_SHORT": {
+    "width": 0.12069293580626557,
+    "diagnostic_display_unit": 0.12069293580626557,
+    "H1_end_ms": 1793597167907,
+    "n_H1_full_stopouts": 1,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.12069293580626557,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  },
+  "RS1M": {
+    "width": null,
+    "diagnostic_display_unit": 0.01,
+    "H1_end_ms": 1792909737441,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "old_width": 0.03506136180265268,
+    "rescale_factor": 3.5061361802652677,
+    "no_backtest_repeated": true
+  },
+  "SCALP_C10": {
+    "width": 0.029525560619872285,
+    "diagnostic_display_unit": 0.029525560619872285,
+    "H1_end_ms": 1792963174993,
+    "n_H1_full_stopouts": 5,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.04590825900820556,
+    "rescale_factor": 1.5548649388661173,
+    "no_backtest_repeated": true
+  },
+  "YODA": {
+    "width": 0.04437941652068449,
+    "diagnostic_display_unit": 0.04437941652068449,
+    "H1_end_ms": 1793713950380,
+    "n_H1_full_stopouts": 1,
+    "source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "old_width": 0.04437941652068449,
+    "rescale_factor": 1.0,
+    "no_backtest_repeated": true
+  }
+}

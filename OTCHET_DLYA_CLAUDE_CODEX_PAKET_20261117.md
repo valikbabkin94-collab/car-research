@@ -70,3 +70,17 @@ Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изме�
 
 Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
 <!-- /part6_coverage_fix -->
+
+<!-- part7_risk_units_fix -->
+## part7_risk_units_fix
+
+{"code_sha": "4bff8d64f83d13ac65ec0267bf62b6349c53bf17", "status": "COMPLETE_R_UNITS_CORRECTED_NO_BACKTEST_REPEAT", "raw_trades": 97, "sources": 14, "candidates": 0, "source_artifact_run": 44134160121, "source_artifact": "paket-part7_live_trades", "no_live_changes": true}
+
+[Отчёт и журналы](research/paket_20261117/part7_risk_units_fix/REPORT_RU.md). Код и сетка: `4bff8d64f83d13ac65ec0267bf62b6349c53bf17`.
+
+### ПРОСТЫМИ СЛОВАМИ ДЛЯ ВЛАДЕЛЬЦА
+
+Вердикт и численные результаты находятся в отчёте части; DATA_GAP означает недостаток данных, а не проигрыш. Только enabled=false, включение после независимой проверки.
+
+Desktop Commander 0, Telegram-сессии 0, Bybit-ключи 0, LIVE изменений 0
+<!-- /part7_risk_units_fix -->

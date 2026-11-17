@@ -1,0 +1,1536 @@
+[
+  {
+    "key": "91d413253b58734a6182deba109ddf33138fa5f0ee7bb895580844a9d499732b",
+    "source": "OLEG",
+    "open": "2026-10-23 14:54:42.227037",
+    "close": "2026-10-23 21:25:03.493000",
+    "provided_native_R": 0.272,
+    "reconstructed_price_return": 0.02788516660473181,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "fd4baa8cd00e24b6de368a5a63384bba846701fcc1b1b57937edb6e03439a223",
+    "source": "SCALP_C10",
+    "open": "2026-10-23 22:38:28.715901",
+    "close": "2026-10-23 22:46:25.437000",
+    "provided_native_R": -0.093,
+    "reconstructed_price_return": -0.016638322739223187,
+    "calibrated_R": -0.5635226695077452,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9d5f22c65856d00c20e931d6c47b7cd3a7e8d2e1f9c6826c602a41decc405bbe",
+    "source": "OLEG_STYLE",
+    "open": "2026-10-24 00:16:08.522482",
+    "close": "2026-10-24 01:01:14.785000",
+    "provided_native_R": 0.585,
+    "reconstructed_price_return": 0.046575457717301726,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.24761116545030473,
+      0.7523888345496953
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "cd1e3a62c84a646a8125b791909ec2d0ebef5b5487fdd0a225df3e2ddd5692f0",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 00:19:51.646798",
+    "close": "2026-10-24 00:49:29.897000",
+    "provided_native_R": 0.662,
+    "reconstructed_price_return": 0.03233153824294799,
+    "calibrated_R": 1.0950355408725798,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.49795837068021115,
+      0.5020416293197889
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "4b53a861732b8221e88c17d634604fa12b9c59d935a247be495766ed444ca8d9",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 01:15:25.793928",
+    "close": "2026-10-24 01:21:02.356000",
+    "provided_native_R": -0.229,
+    "reconstructed_price_return": -0.02153637462639409,
+    "calibrated_R": -0.7294145877080809,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "acd6a5da492bc4bade5d6c43adddce52e4ac9e9be82e9fadee11aed2fdb4d158",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 02:20:23.971803",
+    "close": "2026-10-24 02:36:34.386000",
+    "provided_native_R": -0.312,
+    "reconstructed_price_return": -0.029884253654536938,
+    "calibrated_R": -1.0121485596592952,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "3d4e79eb07f6051f0a4741612df862d0e489a0708cfdeb24f765c93a8605fc54",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 10:32:51.873080",
+    "close": "2026-10-24 10:46:23.291000",
+    "provided_native_R": -0.301,
+    "reconstructed_price_return": -0.029525560619872285,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "b32d6312d70532304476aa106e408920346dd0d78197e5c5e9cefa61d7f5efee",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 12:15:20.050059",
+    "close": "2026-10-24 18:27:01.485000",
+    "provided_native_R": -0.235,
+    "reconstructed_price_return": -0.023632874104665403,
+    "calibrated_R": -0.255345902561371,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "ed2bb2f38bb7c4d1ed4dddd1b61ca9e1a668a573b10504d70e97eb81a1848701",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 12:19:57.717717",
+    "close": "2026-10-25 00:34:34.341000",
+    "provided_native_R": 0.181,
+    "reconstructed_price_return": 0.008676016374929481,
+    "calibrated_R": 0.09374167619571333,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "4d33a7652774733be5e0f0a27e45ae839f1996a995b88a1b01ab7e72d3a46cec",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 12:43:42.427943",
+    "close": "2026-10-24 12:59:48.075000",
+    "provided_native_R": 0.262,
+    "reconstructed_price_return": 0.013018495706989769,
+    "calibrated_R": 0.44092289642174054,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.4927462716850969,
+      0.5072537283149031
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "81255fc025f979b85b5e2174019b06f3221434fae2ce360124a4df48127eb406",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 12:47:17.801742",
+    "close": "2026-10-24 18:33:24.136000",
+    "provided_native_R": 0.611,
+    "reconstructed_price_return": 0.012041865112026146,
+    "calibrated_R": 0.13010863181239526,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2989788123668235,
+      0.20102118763317656
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "376153f3004b59af962884b517b80fb06c7d4ed72e2bfff3b375a0c6a5b73cf0",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 12:52:05.321572",
+    "close": "2026-10-24 16:58:08.157000",
+    "provided_native_R": 0.712,
+    "reconstructed_price_return": 0.017464748785833928,
+    "calibrated_R": 0.18870121433287734,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "60e498a82049a95fd9bec70a1ff885bc13dcaa6f582ab4a5bcfddec2a2c02344",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 13:20:22.557427",
+    "close": "2026-10-24 14:18:56.947000",
+    "provided_native_R": 0.44,
+    "reconstructed_price_return": 0.021548705098138977,
+    "calibrated_R": 0.23282710041716348,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.4991234660656148,
+      0.5008765339343851
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7167336755e1ac828899c399796d6df36faa824ea835fe61947b48c83a5abec7",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 13:46:38.794314",
+    "close": "2026-10-24 14:34:14.015000",
+    "provided_native_R": 0.01,
+    "reconstructed_price_return": 0.0003869479953515516,
+    "calibrated_R": 0.013105525762349619,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "fd6ae8265949ec87b97fd15b845a2a2bcb49cb07a5cc4b865a22be6627ff243f",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 13:49:13.711255",
+    "close": "2026-10-24 14:10:08.593000",
+    "provided_native_R": -0.52,
+    "reconstructed_price_return": -0.05183559636813869,
+    "calibrated_R": -1.7556176844699964,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2c0499a2cd638291428bd748779cea291f7139d29fa3c187c580555bd98cf833",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 13:52:47.595131",
+    "close": "2026-10-25 00:21:19.161000",
+    "provided_native_R": -0.482,
+    "reconstructed_price_return": -0.1580266725062957,
+    "calibrated_R": -1.7074293689875166,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2c1696a8a5ba80d783f052b6d2ffa0640d0d402bdde142208d7cd6dae18aea73",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 14:30:23.985976",
+    "close": "2026-10-24 18:31:00.188000",
+    "provided_native_R": 0.276,
+    "reconstructed_price_return": 0.01349741447891804,
+    "calibrated_R": 0.1458353929826869,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "315ca5c8e2da5f51c5f98909bf24f4b537dc9a5d91521cd7ddd7140a81a614ba",
+    "source": "OLEG",
+    "open": "2026-10-24 14:56:03.834543",
+    "close": "2026-10-26 15:16:01.886000",
+    "provided_native_R": -0.109,
+    "reconstructed_price_return": -0.02144659680782914,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7a6e336341308346c0cdda9d85b96c4a819d9ebda7b0edefe2b10d06ddd0c661",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 15:49:34.866979",
+    "close": "2026-10-30 17:28:33.152000",
+    "provided_native_R": 1.059,
+    "reconstructed_price_return": 0.1022872738419211,
+    "calibrated_R": 1.105182388905941,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.42857142857142855,
+      0.2857142857142857,
+      0.2857142857142857
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "018199622ce1a602d1c67bfeb26f0002e93340a803d4543968d8c43b7f010814",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 16:00:34.874954",
+    "close": "2026-10-24 16:56:27.551000",
+    "provided_native_R": 0.188,
+    "reconstructed_price_return": 0.009087302444688654,
+    "calibrated_R": 0.09818549509934989,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9df4e811d333cf665b244e8d6715cce74ca5e62da1bec52a8c0e9bb43b75ff06",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 16:08:34.276528",
+    "close": "2026-10-24 16:19:30.905000",
+    "provided_native_R": -0.473,
+    "reconstructed_price_return": -0.09255239213789761,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "35ac17133cc7c8ccd7e48290027a319de8460cefae6a963aa096b3379e77ad79",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 16:47:33.859863",
+    "close": "2026-10-24 17:24:31.686000",
+    "provided_native_R": -0.577,
+    "reconstructed_price_return": -0.05737249431551595,
+    "calibrated_R": -1.9431466536456274,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "c345c293cf263757744ef0bf13554ee8eef78b3e32d145a5d33cd9e4d30d64e5",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 16:50:25.943766",
+    "close": "2026-10-25 17:43:08.761000",
+    "provided_native_R": -0.294,
+    "reconstructed_price_return": -0.02886248685046028,
+    "calibrated_R": -0.3118502524219674,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "f27564afd435e5666c4982c9723340d8023f89b533dff2691c2fc931a10a0e3b",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 17:00:39.662547",
+    "close": "2026-10-24 23:33:11.426000",
+    "provided_native_R": -0.342,
+    "reconstructed_price_return": -0.03352592648162051,
+    "calibrated_R": -0.36223727671640144,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "c7015955ca0bc86c2262aa470e3d275a487490774f970d7ee81de4ad55c5ae2c",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 18:05:36.976141",
+    "close": "2026-10-25 05:23:53.913000",
+    "provided_native_R": -0.526,
+    "reconstructed_price_return": -0.06468010033444811,
+    "calibrated_R": -0.6988484991082519,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "a5cb69dae144eda0d8504b2bf899eb3d0c074099cfcbfa6595e57206ff9dd8fb",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 18:17:41.442016",
+    "close": "2026-10-24 23:31:28.170000",
+    "provided_native_R": -0.481,
+    "reconstructed_price_return": -0.053364922807576105,
+    "calibrated_R": -0.5765915021198535,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "013875b4fdd97150cd2569aa9c06023debe14eec6378e85276991f72ec8358f1",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 21:00:56.813553",
+    "close": "2026-10-26 15:21:21.496000",
+    "provided_native_R": 0.275,
+    "reconstructed_price_return": 0.013265547076526241,
+    "calibrated_R": 0.14333013734276429,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "6b5c412502f89adf7de405843647093681451a1b5e0821b68b9b7b3d03e68171",
+    "source": "CAR_MAIN_LIMIT",
+    "open": "2026-10-24 21:04:39.612867",
+    "close": "2026-10-24 22:26:00.561000",
+    "provided_native_R": -0.319,
+    "reconstructed_price_return": -0.0319743883779051,
+    "calibrated_R": -0.34547338690355134,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "26064ebf54ce2e871ed16f275a2295e46a43411ebe8b6a1e36d47e3caaca6e46",
+    "source": "SCALP_C10",
+    "open": "2026-10-24 22:18:33.448237",
+    "close": "2026-10-25 00:20:15.745000",
+    "provided_native_R": -0.029,
+    "reconstructed_price_return": -0.0015782771628120463,
+    "calibrated_R": -0.05345460440638614,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7c9261421917656448416ca7e4b45eaac06e8afe6aadb1688a0f3cf743c39992",
+    "source": "OLEG_STYLE",
+    "open": "2026-10-25 03:01:18.198337",
+    "close": "2026-10-25 03:57:56.116000",
+    "provided_native_R": 0.021,
+    "reconstructed_price_return": 0.005074360825278369,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.2499812495312383,
+      0.7500187504687618
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "b2db496a85721bc23c627781fffe602b4ce2bc46bb16a00b5de7c7b53e121bb3",
+    "source": "RS1M",
+    "open": "2026-10-25 06:27:22.084915",
+    "close": "2026-10-25 07:23:04.075000",
+    "provided_native_R": -0.316,
+    "reconstructed_price_return": -0.031496017378711,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "749bb2e5c848546edc509c553c89f21138b45fead2146163238ac9ce4cc9f827",
+    "source": "RS1M",
+    "open": "2026-10-25 06:29:32.799879",
+    "close": "2026-10-25 06:48:29.141000",
+    "provided_native_R": -0.402,
+    "reconstructed_price_return": -0.03862670622659435,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "cc5844ca2031587b88c56f7892f2f01541b8783fe1fc013e198c7b9a74000a6b",
+    "source": "SCALP_C10",
+    "open": "2026-10-25 07:07:30.320603",
+    "close": "2026-10-25 08:43:22.158000",
+    "provided_native_R": 0.708,
+    "reconstructed_price_return": 0.03545614731225929,
+    "calibrated_R": 1.200862797111307,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.4925403430427281,
+      0.5074596569572719
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "17cb44331398868a41c7c7ede5bce82fa2c02881cb3d27f74b25dd0548ea593c",
+    "source": "OLEG",
+    "open": "2026-10-26 12:33:38.324771",
+    "close": "2026-10-26 18:01:06.255000",
+    "provided_native_R": 0.859,
+    "reconstructed_price_return": 0.07476664205539044,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.47059134946265024,
+      0.5294086505373498
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "64957847c3e179e2c3b0f6eb627120b05f479d6bdac14a9b51ea2bf152529188",
+    "source": "SCALP_C10",
+    "open": "2026-10-26 16:19:43.443329",
+    "close": "2026-10-26 16:25:08.603000",
+    "provided_native_R": 0.309,
+    "reconstructed_price_return": 0.015154356697071459,
+    "calibrated_R": 0.5132622845735828,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "b00c9c1d2346a1853d0b85e69cdc9e1f982cb6b56d45c0a697a40815736b0d39",
+    "source": "ALT_CLONE",
+    "open": "2026-10-26 23:03:43.275263",
+    "close": "2026-10-26 23:10:35.531000",
+    "provided_native_R": 0.161,
+    "reconstructed_price_return": 0.009794140978667822,
+    "calibrated_R": 0.15804588862902114,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.49680470990791525,
+      0.5031952900920847
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "d6ce6d3d272bbf110cc62fcdb6ef9802abea87dee140eda9197f6fafc2989806",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 02:03:22.550526",
+    "close": "2026-10-27 02:08:45.458000",
+    "provided_native_R": -0.503,
+    "reconstructed_price_return": -0.0619702357563851,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "77d351f7b53c9ffd315a779ce74a90122498a9e2d993290d150e5552ff08398e",
+    "source": "SCALP_C10",
+    "open": "2026-10-27 02:54:19.498333",
+    "close": "2026-10-27 02:56:21.246000",
+    "provided_native_R": -0.468,
+    "reconstructed_price_return": -0.04590825900820556,
+    "calibrated_R": -1.5548649388661173,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "720cd5bc85fda42b3a8608d5291986a2110f06fbfa804e539452bfac78052122",
+    "source": "SCALP_C10",
+    "open": "2026-10-27 05:42:43.736875",
+    "close": "2026-10-27 05:56:13.473000",
+    "provided_native_R": -0.531,
+    "reconstructed_price_return": -0.052689799262597356,
+    "calibrated_R": -1.7845486472197347,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "73f3722f0cf32dab2543054d5a6fff9b84eebe669b044418ca2a948a15dd3832",
+    "source": "YODA",
+    "open": "2026-10-27 09:03:04.603240",
+    "close": "2026-10-27 16:57:54.297000",
+    "provided_native_R": -0.452,
+    "reconstructed_price_return": -0.04437941652068449,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "3b461e8c17b4581455b1e0af0b64eb0810501f64bac857fa907ce51c0038cc92",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 09:03:06.627455",
+    "close": "2026-10-28 07:26:43.797000",
+    "provided_native_R": 0.897,
+    "reconstructed_price_return": 0.034966463565422864,
+    "calibrated_R": 0.5642460955430543,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.29838709677419356,
+      0.20161290322580647
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "ec6b383eda5083ac4f1c8ef9416af240350181283bf729d0fe7c4ac2682cda2d",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 09:10:04.092133",
+    "close": "2026-10-27 10:16:25.613000",
+    "provided_native_R": 0.907,
+    "reconstructed_price_return": 0.041861090086518525,
+    "calibrated_R": 0.6755031601151423,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.46154201186162974,
+      0.30768698220755547,
+      0.23077100593081487
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "aa20fe746f81067681314dee37bd292b844ec14765e585ac610bec7d48669ff9",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 09:18:49.357359",
+    "close": "2026-10-27 19:47:38.731000",
+    "provided_native_R": 1.187,
+    "reconstructed_price_return": 0.03677169976635525,
+    "calibrated_R": 0.5933767931900514,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "04ecdc500998771fabaae8337f33d39a386c81e45279abcbdc51a302afa76d69",
+    "source": "PIRATES",
+    "open": "2026-10-27 10:33:51.405892",
+    "close": "2026-11-07 20:47:37.974000",
+    "provided_native_R": -0.42,
+    "reconstructed_price_return": -0.10337764811490126,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "42f453ccba5543aeb7cae55c57f51f09b6a1144a1cea9a56c13356d27fb25606",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 11:08:26.577086",
+    "close": "2026-10-27 12:49:42.781000",
+    "provided_native_R": 0.185,
+    "reconstructed_price_return": 0.011329358188627911,
+    "calibrated_R": 0.18281934948844522,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "c9e7e843df027618aea02927e637b8a942ea61ec6efed22b637c7f10f08e3edd",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 12:03:48.186580",
+    "close": "2026-10-28 01:16:44.061000",
+    "provided_native_R": -0.468,
+    "reconstructed_price_return": -0.05757431793379406,
+    "calibrated_R": -0.9290640455222392,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "11f1d7738d13278cf19ec2b190a9b61bd25c30318302172f3f8be16e025b9cfa",
+    "source": "OLEG",
+    "open": "2026-10-27 12:49:56.729508",
+    "close": "2026-10-28 09:46:57.162000",
+    "provided_native_R": -0.135,
+    "reconstructed_price_return": -0.04417452542372869,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "b0298fcbb1b246df0b88e88de9cb5687acd528b28bb18e3944fd0695a87a4507",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 14:03:54.214161",
+    "close": "2026-10-27 23:05:19.260000",
+    "provided_native_R": 1.278,
+    "reconstructed_price_return": 0.03589176431317493,
+    "calibrated_R": 0.5791774692333137,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2727272727272727,
+      0.22727272727272727
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "c68492a7453267ad8f1c0c515f32cb99665baae2653e3c8c5ae6b0636d382fe9",
+    "source": "SCALP_C10",
+    "open": "2026-10-27 15:48:53.375934",
+    "close": "2026-10-27 15:50:20.636000",
+    "provided_native_R": -0.403,
+    "reconstructed_price_return": -0.039003293413173656,
+    "calibrated_R": -1.321000942719521,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2996751625f9a5a86cf9a7312a27bac34e963826a0a9ae5720f200a6c1122c2f",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 15:48:55.928799",
+    "close": "2026-10-28 11:12:34.257000",
+    "provided_native_R": 27.154,
+    "reconstructed_price_return": 0.04240223070303133,
+    "calibrated_R": 0.6842354266606516,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.49606299212598426,
+      0.2992125984251969,
+      0.1968503937007874,
+      0.007874015748031496
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "0f976512eeb2ce494c85ce1dd59513225484d4595be0951ab7bd1f8224616fb2",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 17:38:19.707674",
+    "close": "2026-10-29 02:46:19.720000",
+    "provided_native_R": -0.467,
+    "reconstructed_price_return": -0.05752479438110753,
+    "calibrated_R": -0.9282648948964256,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7565b1a1e02f70f2de8b7be4e959d00cf50a542dd126b186b99fae733f2fe1e0",
+    "source": "SCALP_C10",
+    "open": "2026-10-27 19:59:41.271628",
+    "close": "2026-10-27 20:30:04.395000",
+    "provided_native_R": -0.428,
+    "reconstructed_price_return": -0.04107799999999993,
+    "calibrated_R": -1.3912690948991577,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "72c5c155193367f7275b82db6d5666875a4833435f8cf59365954777a403ce05",
+    "source": "ALT_CLONE",
+    "open": "2026-10-27 20:07:59.402129",
+    "close": "2026-10-28 04:35:12.054000",
+    "provided_native_R": 0.162,
+    "reconstructed_price_return": 0.010008532662280618,
+    "calibrated_R": 0.16150547985045208,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.49122360722462477,
+      0.5087763927753752
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "21be9af8a4f01c5793ebd627ec05ea6040747d7e1efb88e2ab6d5b1015568f6b",
+    "source": "ALT_CLONE",
+    "open": "2026-10-28 09:06:43.358278",
+    "close": "2026-10-30 01:54:03.540000",
+    "provided_native_R": 0.439,
+    "reconstructed_price_return": 0.00994116873925795,
+    "calibrated_R": 0.16041844311095205,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "09d3bd9eb2f8f0e187723eec9ba8942dc943353f4df9b653111f196d3ecea767",
+    "source": "OLEG_STYLE",
+    "open": "2026-10-28 09:35:57.150495",
+    "close": "2026-10-28 10:22:45.782000",
+    "provided_native_R": 0.028,
+    "reconstructed_price_return": 0.003999257509990991,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.2499812495312383,
+      0.7500187504687618
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9b3cb9856b9706128554634037365a4c1a854d6daa5dd81215b743e64d87ba3b",
+    "source": "ALT_CLONE",
+    "open": "2026-10-28 09:54:56.660755",
+    "close": "2026-10-28 20:29:55.531000",
+    "provided_native_R": -0.447,
+    "reconstructed_price_return": -0.055079434981304465,
+    "calibrated_R": -0.8888046706459296,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "8af0de44e09f471f8694cafd6c2a216e7be18b93fab5f08297e3e757fad316b4",
+    "source": "ALT_CLONE",
+    "open": "2026-10-28 10:07:55.511947",
+    "close": "2026-10-29 06:35:59.996000",
+    "provided_native_R": 0.17,
+    "reconstructed_price_return": 0.010187683757619127,
+    "calibrated_R": 0.16439640148649007,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "fb69bce5cf59f539d3a52b3e9a0d5fb621309a3e77aac37ee4a5b1863542f1ee",
+    "source": "OLEG_CLONE",
+    "open": "2026-10-28 16:07:55.718063",
+    "close": "2026-10-28 18:35:53.251000",
+    "provided_native_R": -0.464,
+    "reconstructed_price_return": -0.05692155996611402,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "4c6fb9c9503d576efaade2a04a08ef40657ce7057634b407384b2b6823d745d2",
+    "source": "OLEG_CLONE",
+    "open": "2026-10-28 16:29:13.236923",
+    "close": "2026-10-29 17:12:48.735000",
+    "provided_native_R": 0.789,
+    "reconstructed_price_return": 0.021783014667772296,
+    "calibrated_R": 0.3826847802614676,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.4838775233708169,
+      0.2903174818226979,
+      0.2258049948064851
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "fc66e27bb0d9fb96351de6f2ec2baa2b48ae3e83d618b864b10fe41c1d7b2f17",
+    "source": "PUMP_SHORT",
+    "open": "2026-10-30 14:09:39.026375",
+    "close": "2026-11-01 06:15:38.754000",
+    "provided_native_R": -0.369,
+    "reconstructed_price_return": -0.12069293580626557,
+    "calibrated_R": -1.0,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "1a8d0bf615e43903e901d9693a939573b09f3fc361243fc7f0d4cc82f6cd6114",
+    "source": "PUMP_SHORT",
+    "open": "2026-11-03 17:13:50.793786",
+    "close": "2026-11-05 08:06:49.333000",
+    "provided_native_R": -0.366,
+    "reconstructed_price_return": -0.12142441485068618,
+    "calibrated_R": -1.0060606616247596,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "43bf6726012f21ed23331e50b48a04de579c6002f321e7d531e747550c1e3dcb",
+    "source": "PUMP_SHORT",
+    "open": "2026-11-04 20:41:36.788537",
+    "close": "2026-11-04 22:17:55.957000",
+    "provided_native_R": 0.604,
+    "reconstructed_price_return": 0.19927367153701733,
+    "calibrated_R": 1.651079826717351,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "a9534a828e932fd5eb556c9304a74c4c14b3da4f9a141da0873398cf5aa4170b",
+    "source": "YODA",
+    "open": "2026-11-05 16:06:22.626012",
+    "close": "2026-11-05 23:19:23.351000",
+    "provided_native_R": 0.202,
+    "reconstructed_price_return": 0.014584558011049686,
+    "calibrated_R": 0.3286333880539432,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "db6264df3cd52e92e33c5ac99667fc5810cb4cf70b284d366f2b6ccaf8a3fb2c",
+    "source": "OLEG",
+    "open": "2026-11-05 16:48:30.917717",
+    "close": "2026-11-06 07:06:17.730000",
+    "provided_native_R": -0.465,
+    "reconstructed_price_return": -0.15384184461608355,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "8d56492cfb5ab889739b0684fd5ec1fda15b08346d0257745eca2f14b11ea2d7",
+    "source": "OLEG",
+    "open": "2026-11-07 12:49:05.951301",
+    "close": "2026-11-12 03:27:17.392000",
+    "provided_native_R": -0.436,
+    "reconstructed_price_return": -0.14345814551751848,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9ab2391457068608cf34bf3f7612c3c932defae66ab2ae61922f432cfa8e3f52",
+    "source": "ALTCOIN",
+    "open": "2026-11-07 23:18:37.794309",
+    "close": "2026-11-08 14:18:11.261000",
+    "provided_native_R": -0.132,
+    "reconstructed_price_return": -0.04327332369942186,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2c7780e48cb7f0687a39d3fbbebb39aeb9655070aa6c2899cd66154146aea9ff",
+    "source": "YODA",
+    "open": "2026-11-10 18:40:56.157775",
+    "close": "2026-11-11 15:34:37.144000",
+    "provided_native_R": -0.092,
+    "reconstructed_price_return": -0.02993244160969117,
+    "calibrated_R": -0.6744667676227822,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "6cd6a809d76ee6158bd3aa5d69b385d0ce4566dceb85eb83d3bb2089b98e8c3b",
+    "source": "OLEG",
+    "open": "2026-11-10 18:40:59.769718",
+    "close": "2026-11-11 07:05:10.168000",
+    "provided_native_R": 0.386,
+    "reconstructed_price_return": 0.06640056292358677,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.47619297050966425,
+      0.5238070294903358
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7cd28f81fd66b222560deff8fe4829e159cfef87f6eaf0afd54877eb40f7a41a",
+    "source": "OLEG",
+    "open": "2026-11-11 11:18:29.724725",
+    "close": "2026-11-12 18:26:14.089000",
+    "provided_native_R": -0.002,
+    "reconstructed_price_return": -0.0002584945332210979,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9ce07a313d1e7eb670d165cd26a00b7c035e9d8024c65c3a4aacfa100a3d5221",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-11 13:17:08.593747",
+    "close": "2026-11-13 11:01:22.542000",
+    "provided_native_R": -0.172,
+    "reconstructed_price_return": -0.056274117995849506,
+    "calibrated_R": -0.9886257163252388,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "da780c06ad5cf7238edaf3097a0acfbef0191ae8e74e16b9bc4b0d1efdae9c4d",
+    "source": "PUMP_FADE",
+    "open": "2026-11-11 21:05:18.350653",
+    "close": "2026-11-11 23:12:46.080000",
+    "provided_native_R": 1.276,
+    "reconstructed_price_return": 0.035536663374963674,
+    "calibrated_R": 0.6345832745529227,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2727272727272727,
+      0.22727272727272727
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2f0124e2dde58c0305d22dc3155913c98459dd47ee3d6b32d9e84cd35b585dcc",
+    "source": "PUMP_FADE",
+    "open": "2026-11-11 21:06:55.591156",
+    "close": "2026-11-12 00:12:34.065000",
+    "provided_native_R": 117.142,
+    "reconstructed_price_return": 0.03478266440639186,
+    "calibrated_R": 0.6211190072569975,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.49876543209876545,
+      0.29876543209876544,
+      0.2,
+      0.0024691358024691358
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "959433e4cdd80ee706411bdf873f4d4873cceec6c79c8e90b672036c8e78dd31",
+    "source": "PUMP_FADE",
+    "open": "2026-11-11 21:07:03.042585",
+    "close": "2026-11-11 23:00:17.024000",
+    "provided_native_R": 1.415,
+    "reconstructed_price_return": 0.03513003300564885,
+    "calibrated_R": 0.6273220179580151,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.49822720472198884,
+      0.2968253642940586,
+      0.20494743098395263
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "235ba320a64c685923a19c2a5147361e366897fd50df97a9cb4e1672f331c9eb",
+    "source": "PUMP_FADE",
+    "open": "2026-11-11 23:03:33.759596",
+    "close": "2026-11-11 23:28:54.735000",
+    "provided_native_R": 0.948,
+    "reconstructed_price_return": 0.022589322730851333,
+    "calibrated_R": 0.40338076305091664,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.29926128151597875,
+      0.2007387184840212
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "825ba15a0a0e18f9f6a18156d587e63ce5e0d6471160d811e790602ad7d8d260",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-12 04:11:02.287337",
+    "close": "2026-11-12 08:30:45.774000",
+    "provided_native_R": 0.107,
+    "reconstructed_price_return": 0.010458474963704608,
+    "calibrated_R": 0.18373486197375202,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.499198717948718,
+      0.500801282051282
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "d6575452d95e59040374f9c5bb2870cf706de9a4a2138f1ea854e72c6d7e2463",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-12 06:22:24.263286",
+    "close": "2026-11-12 08:25:27.960000",
+    "provided_native_R": -0.222,
+    "reconstructed_price_return": -0.027186306830424608,
+    "calibrated_R": -0.4776100101017768,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "f5e8663072d7467188d33c2353d62f585b903eec68a731054127963e66d3f1ab",
+    "source": "PUMP_FADE",
+    "open": "2026-11-12 07:11:53.254565",
+    "close": "2026-11-12 13:10:16.150000",
+    "provided_native_R": 1.375,
+    "reconstructed_price_return": 0.03504994012737146,
+    "calibrated_R": 0.6258917879887761,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.29365275886261405,
+      0.206347241137386
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "cba7a67972416fcfe40e115e8ec259bb72ef4a4edfb9b4c5d7d78751d2cc59cf",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-12 08:25:47.031936",
+    "close": "2026-11-12 10:49:49.781000",
+    "provided_native_R": 1.35,
+    "reconstructed_price_return": 0.03517609078889378,
+    "calibrated_R": 0.6179748202585182,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2894736842105263,
+      0.21052631578947367
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "0a4999f099f523a803585f7648be02001fd14de1ca6a54d378cb8c43122614d4",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-12 08:31:52.258490",
+    "close": "2026-11-12 13:51:15.423000",
+    "provided_native_R": 0.183,
+    "reconstructed_price_return": 0.01039654565751913,
+    "calibrated_R": 0.18264688570918117,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "75f4e03bfc6bdf2339c7edd0f44270c2ae40e49b9d9024698c98c0bdb60adedd",
+    "source": "OLEG_CLONE",
+    "open": "2026-11-12 11:13:39.478023",
+    "close": "2026-11-12 21:28:48.380000",
+    "provided_native_R": 0.16,
+    "reconstructed_price_return": 0.00982479131376165,
+    "calibrated_R": 0.17260228496215577,
+    "risk_source": "SOURCE_OWN_H1_MEDIAN_FULL_STOP_LOSS",
+    "exit_fractions_normalized": [
+      0.48717948717948717,
+      0.5128205128205129
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "7797b462af706895d44c48b70753fe1ce3b0e49c1f15f587b8f4468c4e917c60",
+    "source": "OLEG",
+    "open": "2026-11-12 12:33:42.378122",
+    "close": "2026-11-13 01:07:52.970000",
+    "provided_native_R": -0.481,
+    "reconstructed_price_return": -0.09383667288355513,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "1c8379a5fb7fa23cf734082b5248204ab1c5afbda1e600824a04b4cff942e1b0",
+    "source": "PUMP_FADE",
+    "open": "2026-11-12 13:09:54.762845",
+    "close": "2026-11-12 14:18:41.120000",
+    "provided_native_R": 1.385,
+    "reconstructed_price_return": 0.035115663740174476,
+    "calibrated_R": 0.6270654239316871,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.29967948717948717,
+      0.20032051282051283
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "9334c92d1c56e6a82f54abaf23400350d946dc7348a94f2f1bd55c09f4d606b6",
+    "source": "PUMP_FADE",
+    "open": "2026-11-12 14:04:40.961957",
+    "close": "2026-11-12 14:32:04.831000",
+    "provided_native_R": 0.189,
+    "reconstructed_price_return": 0.011520046082949388,
+    "calibrated_R": 0.2057151086240962,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "8cf60b668ce8f45f17bf1ef740c1770245dedc63c8fdf1381cbe7f03e09ee933",
+    "source": "ALTCOIN_MGR",
+    "open": "2026-11-12 19:13:20.670895",
+    "close": "2026-11-13 19:13:33.547000",
+    "provided_native_R": 1.815,
+    "reconstructed_price_return": 0.04448604214389549,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.4999124233704491,
+      0.24986863505567372,
+      0.25021894157387714
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "aa78c0ce93815710684df2af8fc04dd1711580734f1d5496e9887d81bf5164a8",
+    "source": "PUMP_FADE",
+    "open": "2026-11-13 06:03:59.584714",
+    "close": "2026-11-13 06:11:05.646000",
+    "provided_native_R": 0.846,
+    "reconstructed_price_return": 0.022416358866401358,
+    "calibrated_R": 0.40029212261430996,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.49810073301439334,
+      0.29657310637948375,
+      0.20532616060612283
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "63c66554891a983f93d065a679229c71110c1ae2ce43937936211ccbd64f4a27",
+    "source": "OLEG",
+    "open": "2026-11-13 14:51:10.106196",
+    "close": "2026-11-13 17:29:59.458000",
+    "provided_native_R": 0.507,
+    "reconstructed_price_return": 0.12697237420615531,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.5
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "3e346e84e8e58c05c875d4cbc330c43c2a394a4d11c9e49539fb0e0bcf5826f7",
+    "source": "PUMP_FADE",
+    "open": "2026-11-13 22:02:57.120444",
+    "close": "2026-11-14 00:58:22.959000",
+    "provided_native_R": 0.897,
+    "reconstructed_price_return": 0.02202991285403055,
+    "calibrated_R": 0.3933913009648312,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2999199679871949,
+      0.2000800320128051
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "c1e2d568ba2efa23786655c518920ba371cfbb28b30ed95b51c9846a2999a8e8",
+    "source": "PUMP_FADE",
+    "open": "2026-11-14 03:12:03.385078",
+    "close": "2026-11-14 04:49:07.599000",
+    "provided_native_R": 0.102,
+    "reconstructed_price_return": 0.009953401799527797,
+    "calibrated_R": 0.17773931784871067,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.49987496874218557,
+      0.5001250312578145
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "239c408a84df80cdb16f97e97643e4b895519760f334b9ec609d1a80581a26ee",
+    "source": "BK_MGR",
+    "open": "2026-11-14 03:48:00.062467",
+    "close": "2026-11-14 14:25:15.322000",
+    "provided_native_R": -0.274,
+    "reconstructed_price_return": -0.025710356940107856,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "5be64e9f69d94d8da41d3d36486970ad588bff012e4055ab089f694dde1222de",
+    "source": "OLEG",
+    "open": "2026-11-14 13:07:57.561143",
+    "close": "2026-11-15 20:25:01.824000",
+    "provided_native_R": -0.46,
+    "reconstructed_price_return": -0.11343918046808181,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "daa25b25b9419a0cc2f61d8a0b186e50e95181bffd88a4f51eec721078b4ddad",
+    "source": "OLEG",
+    "open": "2026-11-15 10:26:09.132031",
+    "close": "2026-11-16 01:02:10.544000",
+    "provided_native_R": -0.475,
+    "reconstructed_price_return": -0.06702500000000003,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "2e747f71caf21b6b147e487e815f21492ff6df41144c90063e21c0c40b4f36e1",
+    "source": "PUMP_FADE",
+    "open": "2026-11-15 17:09:08.638608",
+    "close": "2026-11-16 05:02:28.029000",
+    "provided_native_R": 1.482,
+    "reconstructed_price_return": 0.03663467455726986,
+    "calibrated_R": 0.6541906170941046,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.49967895982984867,
+      0.2996709338255949,
+      0.20065010634455635
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "775d4369e0bbae2e128ef341316aaff5a7ad24666c430ac18fe23d79cb48cd25",
+    "source": "OLEG",
+    "open": "2026-11-16 12:09:22.540780",
+    "close": "2026-11-17 10:31:28.000000",
+    "provided_native_R": 0.595,
+    "reconstructed_price_return": 0.06099048501983872,
+    "calibrated_R": null,
+    "risk_source": "UNKNOWN_STRATEGY_R_DIAGNOSTIC_PRICE1_PERCENT",
+    "exit_fractions_normalized": [
+      0.4893530102640045,
+      0.5106469897359955
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "a2b7dfedfb3fe4112c574f053670c4934fc20cda1a4233844560f04b099499be",
+    "source": "PUMP_FADE",
+    "open": "2026-11-16 12:09:30.661923",
+    "close": "2026-11-16 13:09:39.534000",
+    "provided_native_R": 0.931,
+    "reconstructed_price_return": 0.024464309578670147,
+    "calibrated_R": 0.4368626710476812,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.29838709677419356,
+      0.20161290322580647
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "f301b2d652ef0c18156bd127813d8d29b8ce5af327f4cf4129810ac951402157",
+    "source": "PUMP_FADE",
+    "open": "2026-11-16 14:04:59.660358",
+    "close": "2026-11-16 14:33:01.181000",
+    "provided_native_R": -0.451,
+    "reconstructed_price_return": -0.05605309842757784,
+    "calibrated_R": -1.000948186206747,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      1.0
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "776805f33ead20848b9b76095e7a4075bbb78b6d92c1dd363ebf46c1577d022d",
+    "source": "PUMP_FADE",
+    "open": "2026-11-16 17:05:00.034830",
+    "close": "2026-11-16 21:48:31.242000",
+    "provided_native_R": 0.906,
+    "reconstructed_price_return": 0.022489898392993844,
+    "calibrated_R": 0.40160532844631863,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.4991922455573506,
+      0.2988691437802908,
+      0.20193861066235866
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  },
+  {
+    "key": "95ca727a77e7a6f8745ad61d1ce000956e5ee2780fa49a53e7a213b7d458ae76",
+    "source": "PUMP_FADE",
+    "open": "2026-11-17 05:04:46.664366",
+    "close": "2026-11-17 06:00:39.954000",
+    "provided_native_R": 0.356,
+    "reconstructed_price_return": 0.013033441269722043,
+    "calibrated_R": 0.2327400226736079,
+    "risk_source": "SIGNAL_SL5.6_PERCENT",
+    "exit_fractions_normalized": [
+      0.5,
+      0.2999940001199976,
+      0.20000599988000237
+    ],
+    "funding_actual_cash_not_in_export": true,
+    "initial_stop_is_emergency_not_R": true
+  }
+]

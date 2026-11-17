@@ -1,0 +1,10 @@
+{
+  "code_sha": "4bff8d64f83d13ac65ec0267bf62b6349c53bf17",
+  "status": "COMPLETE_R_UNITS_CORRECTED_NO_BACKTEST_REPEAT",
+  "raw_trades": 97,
+  "sources": 14,
+  "candidates": 0,
+  "source_artifact_run": 44134160121,
+  "source_artifact": "paket-part7_live_trades",
+  "no_live_changes": true
+}
