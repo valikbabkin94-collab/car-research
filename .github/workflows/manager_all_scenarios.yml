@@ -1,3 +1,4 @@
+# Fixed entries; reverse side never inherits an unverified maker fill.
 name: Fixed-entry manager all scenarios full audit v1.1 frozen cutoff and accounting verified
 on:
   push:

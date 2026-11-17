@@ -16,7 +16,7 @@ def simulate(q,e,manager,mirror=False):
  if not q[k,3]<=entry<=q[k,2]:return dict(base,reason='FROZEN_ENTRY_OUTSIDE_BINANCE_1M_RANGE')
  try:atr=atr_at(q,min(t,e.get('signal_ms',t))if manager in ['X1','X2']else t)if manager in ['X1','X2','X4','X5']else None
  except ValueError as ex:return dict(base,reason=str(ex))
- width=.01;weights=[1.];targets=[];hold=72;trail=False;hit=0;best=entry;left=1.;gross=0.;entrymaker=e.get('entry_type')in ['LIMIT','GRID_MEAN_LIMIT_PROXY','EXPLICIT_LIMIT'];cost=MAKER if entrymaker else TAKER+SLIP;initialstop=entry*(1-side*.01)
+ width=.01;weights=[1.];targets=[];hold=72;trail=False;hit=0;best=entry;left=1.;gross=0.;entrymaker=not mirror and e.get('entry_type')in ['LIMIT','GRID_MEAN_LIMIT_PROXY','EXPLICIT_LIMIT'];cost=MAKER if entrymaker else TAKER+SLIP;initialstop=entry*(1-side*.01)
  if manager in ['X1','X2']:
   distance,initialstop,targets=geometry(atr,entry,side);width=distance/entry;weights=[.5,.25,.25];hold=24
  elif manager=='X3':targets=[entry*(1+side*.015)]

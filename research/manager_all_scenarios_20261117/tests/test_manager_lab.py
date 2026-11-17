@@ -19,6 +19,8 @@ class ManagerLabTests(unittest.TestCase):
   r=simulate(self.quotes(),dict(self.entry(),entry_type='GRID_MEAN_LIMIT_PROXY'),'X6');self.assertAlmostEqual(r['price_R'],-.125)
  def test_frozen_cutoff_discards_partial_and_future_candles(self):
   self.assertEqual(len(closed_before(self.quotes(10),5*60000)),5)
+ def test_reverse_side_does_not_inherit_unverified_original_maker_fill(self):
+  r=simulate(self.quotes(),dict(self.entry(),entry_type='LIMIT'),'X6',mirror=True);self.assertAlmostEqual(r['price_R'],-.21)
  def test_time_exit_preserves_entry_and_fees(self):
   r=simulate(self.quotes(),self.entry(),'X6');self.assertEqual(r['status'],'CLOSED');self.assertEqual(r['entry'],100.);self.assertEqual(r['exit_ms'],4*3600000);self.assertAlmostEqual(r['price_R'],-.21)
  def test_stop_before_tp_on_ambiguous_bar(self):
