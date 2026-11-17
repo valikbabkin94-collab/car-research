@@ -1,0 +1,55 @@
+{
+  "name": "PF_HEDGED",
+  "version": "20261117_PRE_PNL_V1",
+  "variants": {
+    "H_PUMP50": {
+      "basket": "PUMP",
+      "ratio": 0.5
+    },
+    "H_PUMP100": {
+      "basket": "PUMP",
+      "ratio": 1
+    },
+    "H_ALT50": {
+      "basket": "ALT",
+      "ratio": 0.5
+    },
+    "H_ALT100": {
+      "basket": "ALT",
+      "ratio": 1
+    },
+    "H_BTC50": {
+      "basket": "BTC",
+      "ratio": 0.5
+    },
+    "H_BTC100": {
+      "basket": "BTC",
+      "ratio": 1
+    }
+  },
+  "control": "PF_BASE T0S1B0, frozen prices and partial-exit path",
+  "sources": {
+    "part6_run": 44134160121,
+    "part6_artifact": "paket-part6_pf_exits",
+    "part6_H2_run": 44135823920,
+    "H2_artifact": "paket-part6-coverage-resume",
+    "PIT_sha": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "market_cache_run": 44092086995,
+    "funding_run": 43874717889,
+    "carry_funding_extension_run": 44159556548
+  },
+  "short_path": "Reuse saved T0S1B0 H1/H2 event paths. Only missing paths may be reconstructed with frozen engine2690eefd603c90d7351224f2df4796b4d3a1b752; no SL/TP changes. Original fund/fees and new task taker costs reported separately. Old random controls saved only netR, not exits: reconstruct only fixed200 deterministic short paths because hedge timing needs them, verify against old netR using old funding/costs; persist paths, never optimize.",
+  "causality": "Basket frozen at short original5m bucket start. Hedge executes at that5m close, after short fill actually becomes known. If short already flat, no retrospective hedge; multiple partial reductions in same5m close net to remaining exposure. TP/SL minute-close event maps to ceil5m event_time; explicit TIME-open exit maps to currentbucketclose. No future price used as earlier entry.",
+  "baskets": "Native historical PIT ranks are quote-turnover ranks, NOT marketcap. Rank decision strictly before entry, age<=24h. Crypto eligibility/type proof from historical spotUSDT listings (including documented1000...underlying aliases); uncertain/noncrypto classification separately DATA_GAP, never silently call equities altcoins. ALT first50 eligible cryptoperps excluding BTC/ETH; PUMP currenteligiblePITtop200 with closed5m r24>=15% at least once in prior7d, exclude shortsymbol; up to10 chosen by most recent pump event then PIT rank then symbol. <3 PUMP candidates => unhedged and count explicitly. Past listing/delisting respected through PIT/real historicalquotes.",
+  "sizing": "Each short normalized notional100, R5.6; hedge initially ratio*shortnotional split equalweights, buy qty fixed from real5mclose. Each hedgeqty shrinks proportionally with short remaining fractions, execution at same5m close. Weights fixed for that trade, no rebalance.",
+  "costs": {
+    "taker_each_leg_each_change": 0.00055,
+    "slippage_each_leg_each_change": 0.0005,
+    "funding": "actual both sides, raw rates and historical price mark proxy. Unknown cash flagged0±0.01%/8h, never called verified. Reuse existing funding then missing coverage only."
+  },
+  "selection": "Original H1/H2/last40 cutoffs preserved from parent selection. Purge72h retained. Six H1 variants evaluated; winner bynetR H1 among >=95% hedge-price coverage, predeclaredvalidtrades; rawmax reported. No switching afterH2. H2/last40 winner + all6diagnostic tables; primaryexcess vs200 samecoin randomtimes±7d, same frozen hedge rule and same short manager, no invalid-time resampling; BH family6, q<=.10. Last40 overlapsH2.",
+  "comparison": "Show new-task taker nohedge and original source nohedge separately; no claim identical netR when fee model differs. For each hedge variant show matched-sample nohedge to prevent profitable-looking selection from missing hedgeprices. All rejected/missing/nohedge entries retained.",
+  "verdict": "YES only if frozen winner positive H1,H2,last40,PF>=1.3, n>=60/30/30, positive cost-stress andexcess, BHq<=.1, top3profitshare<=.5 andno materialprice/funding/type gaps. Hypothesis was generated using already seen parentH2: even YES is atmostPROMISING, not fresh independentVALIDATED_OFFLINE; needs untouchedperiod/paper.",
+  "small_balance": "Do not equate signalR5.6% with12% safety/modelstop. At5USD/signalR shortnotional89.2857; report per-member hedge notional and required margin atL1/2/3/5 for55USDT, stress minnotional5/10/25/100. Real Bybit lot/tick/bracket history absent, no executable claim from fractionalqty; variants disabled.",
+  "safety": "GitHub only, research/pf-hedged; no keys/orders/Telegram/Desktop/VPN/runtime/main merge."
+}
