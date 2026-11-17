@@ -6,6 +6,11 @@ from scipy.ndimage import maximum_filter1d,minimum_filter1d
 from vendor.market import Quotes,Funding,save,month_list,M,H,DAY
 from engine_v1_1 import simulate
 P=Path(__file__).resolve().parent;OUT=P/'RESULTS';SEED=20261117;HOURS=[1,4,24,72];MANAGERS=['X'+str(i)for i in range(1,10)];MIRRORS=['X1','X3','X6','X7'];MISSING=['G3h','R2','R5','ALT_CLONE','ALTCOIN','SCALP_C10','Yoda','Pirates','Oleg','CAR_MAIN_R9']
+def closed_before(q,cutoff):
+ return q[:int(np.searchsorted(q[:,0],cutoff-M,side='right'))]if len(q)else q
+class FrozenQuotes(Quotes):
+ def load(self,symbol):return closed_before(super().load(symbol),ASOF)
+
 def read(p):return json.loads(gzip.decompress(p.read_bytes()))if p.suffix=='.gz'else json.loads(p.read_text())
 def gz(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(gzip.compress(json.dumps(x,allow_nan=False).encode(),mtime=0))
 def clean(x):
@@ -95,7 +100,7 @@ def step0(entries,quotes,splits):
    cr,cm,ca=features(q,times,cp,side)
    for i,e in enumerate(g):
     compatible=bool(len(q)and e['entry_ms']%M==0 and (lambda k:k<len(q)and q[k,0]==e['entry_ms']and q[k,3]<=e['entry']<=q[k,2])(int(np.searchsorted(q[:,0],e['entry_ms']))))
-    r=dict(key=e['key'],scenario=e['scenario'],entry_ms=e['entry_ms'],side=side,compatible=compatible,returns=ret[i].tolist(),mfe_R=mfe[i].tolist(),mae_R=mae[i].tolist(),control_mean=np.nanmean(cr[i],axis=0).tolist(),control_valid=np.isfinite(cr[i]).sum(0).tolist(),control_mfe_valid=np.isfinite(cm[i]).sum(0).tolist(),control_mfe_mean=np.nanmean(cm[i],axis=0).tolist(),control_mae_mean=np.nanmean(ca[i],axis=0).tolist(),inverse_returns=(-ret[i]).tolist(),inverse_mfe_R=mae[i].tolist(),inverse_mae_R=mfe[i].tolist());obs.append(clean(r));control[e['key']]=dict(e,signal_ms=int(times[i,0])-(e['entry_ms']-e['signal_ms']),entry_ms=int(times[i,0]),entry=float(cp[i,0])if np.isfinite(cp[i,0])else 0.,native_events=[])
+    r=dict(key=e['key'],scenario=e['scenario'],entry_ms=e['entry_ms'],side=side,compatible=compatible,returns=ret[i].tolist(),mfe_R=mfe[i].tolist(),mae_R=mae[i].tolist(),control_mean=np.nanmean(cr[i],axis=0).tolist(),control_valid=np.isfinite(cr[i]).sum(0).tolist(),control_mfe_valid=np.isfinite(cm[i]).sum(0).tolist(),control_mfe_mean=np.nanmean(cm[i],axis=0).tolist(),control_mae_mean=np.nanmean(ca[i],axis=0).tolist(),inverse_returns=(-ret[i]).tolist(),inverse_mfe_R=mae[i].tolist(),inverse_mae_R=mfe[i].tolist());obs.append(clean(r));control[e['key']]=dict(e,signal_ms=int(times[i,0])-(e['entry_ms']-e['signal_ms']),entry_ms=int(times[i,0]),entry=float(cp[i,0])if np.isfinite(cp[i,0])else 0.,native_events=[],entry_type='MARKET')
     storage[e['scenario']].append((e['key'],times[i],cr[i].astype('f4'),cm[i].astype('f4'),ca[i].astype('f4')))
   quotes.cache.pop(sy,None);print('EDGE_FEATURES',sy,'entries',len(group),flush=True)
  for sc,records in storage.items():
@@ -147,7 +152,7 @@ def confluence(entries,gate):
 def main():
  OUT.mkdir(exist_ok=True)
  for name,digest in read(P/'PRE_PNL_HASHES.json').items():assert hashlib.sha256((P/name).read_bytes()).hexdigest()==digest,('FROZEN_INPUT_CHANGED',name)
- entries=read(P/'ENTRIES.json.gz');splits=periods(entries);save(OUT/'PARAMS.json',dict(asof=ASOF,seed=SEED,code_sha=CODE_SHA,entries=len(entries),R_step0=.01,random_repeats=200,managers=MANAGERS,mirrors=MIRRORS));save(OUT/'SPLITS.json',splits);q=Quotes('work/market');q.cache=__import__('collections').OrderedDict();fund=Funding('source','work/funding');collect(q,entries);obs,control=step0(entries,q,splits);gate=edge_tables(entries,obs,splits);flags=confluence(entries,gate);actual=[];null=[];selection={};index={e['key']:e for e in entries}
+ entries=read(P/'ENTRIES.json.gz');splits=periods(entries);save(OUT/'PARAMS.json',dict(asof=ASOF,seed=SEED,code_sha=CODE_SHA,entries=len(entries),R_step0=.01,random_repeats=200,managers=MANAGERS,mirrors=MIRRORS));save(OUT/'SPLITS.json',splits);q=FrozenQuotes('work/market');q.cache=__import__('collections').OrderedDict();fund=Funding('source','work/funding');collect(q,entries);obs,control=step0(entries,q,splits);gate=edge_tables(entries,obs,splits);flags=confluence(entries,gate);actual=[];null=[];selection={};index={e['key']:e for e in entries}
  # TRAIN management first; final selection file exists before any H2 exit computation.
  for phase in ['H1','H2']:
   for e in sorted(entries,key=lambda e:(e['symbol'],e['entry_ms'])):

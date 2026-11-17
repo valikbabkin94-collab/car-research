@@ -1,4 +1,4 @@
-name: Fixed-entry manager all scenarios full audit v1.1 coverage and accounting verified
+name: Fixed-entry manager all scenarios full audit v1.1 frozen cutoff and accounting verified
 on:
   push:
     branches: [research/manager-all-scenarios]
