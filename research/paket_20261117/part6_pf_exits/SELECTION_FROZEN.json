@@ -1,0 +1,15 @@
+{
+  "code_sha": "2690eefd603c90d7351224f2df4796b4d3a1b752",
+  "winner": null,
+  "mirror_winner": null,
+  "train_only": true,
+  "train_rows_sha256": "e0296c71cf269f1b26a2aaac7c8b9294be0e6a68441b5f83c18932913fbe0db8",
+  "splits": [
+    1763546700000,
+    1778863230000,
+    1781926536000,
+    1794179760000
+  ],
+  "n_H1": 734,
+  "n_H2": 1014
+}
