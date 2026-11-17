@@ -4,11 +4,13 @@ from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
 P=Path(__file__).resolve().parents[1];sys.path.insert(0,str(P));from engine import simulate,atr_at,MAN
-from run import features,periods,label,edge_tables
+from execute_v1_1 import features,periods,label,edge_tables,symbol_groups
 from vendor.pure_manager import geometry
 class ManagerLabTests(unittest.TestCase):
  def quotes(self,n=4500):return np.column_stack([np.arange(n)*60000,np.full(n,100.),np.full(n,100.1),np.full(n,99.9),np.full(n,100.)])
  def entry(self,t=0):return dict(key='0'*64,scenario='TEST',symbol='X',entry_ms=t,entry=100.,side=1,entry_type='MARKET')
+ def test_every_symbol_group_consumed_before_next(self):
+  rows=[dict(self.entry(),symbol=x,key=str(i))for i,x in enumerate(['B','A','B','C','A'])];groups=list(symbol_groups(rows));self.assertEqual(sum(len(g)for s,g in groups),len(rows));self.assertEqual([s for s,g in groups],['A','B','C']);self.assertEqual([len(g)for s,g in groups],[2,2,1])
  def test_time_exit_preserves_entry_and_fees(self):
   r=simulate(self.quotes(),self.entry(),'X6');self.assertEqual(r['status'],'CLOSED');self.assertEqual(r['entry'],100.);self.assertEqual(r['exit_ms'],4*3600000);self.assertAlmostEqual(r['price_R'],-.21)
  def test_stop_before_tp_on_ambiguous_bar(self):

@@ -8,5 +8,6 @@
   "SOURCE_MANIFEST.json": "4c38a486fad894a636c77e1ed47ef012f3e2fe4821189e111d24747a16a8ea30",
   "vendor/pure_manager.py": "c4041a2d90c964a9d18ae9391dfc5570cebd5f034a9f242cc3c04abf513e6537",
   "vendor/PROVENANCE.json": "c15cdf5940a08d1b15838781c288856dbded85c2ba3b800c8fa1c64c52e7d7cb",
-  "vendor/market.py": "4facab0b68cae860f5d20fe6e84fde3e3650581ad647efe1ff28b784a95a06e8"
+  "vendor/market.py": "4facab0b68cae860f5d20fe6e84fde3e3650581ad647efe1ff28b784a95a06e8",
+  "execute_v1_1.py": "ee3ca23eb685d8a1e97bd2d6b00f9c40b653434d0731a33723411d5be8c3adc0"
 }
