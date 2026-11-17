@@ -60,5 +60,17 @@
   "first_technical_run": "44087096459",
   "engine_version": "v1.1",
   "cutoff_preserved_from_first_run": true,
-  "independent_review_required": true
+  "independent_review_required": true,
+  "represented_datasets": 35,
+  "missing_requested_datasets": 10,
+  "train_datasets_meeting_n_and_coverage": 12,
+  "represented_datasets_insufficient_n_or_coverage": 23,
+  "confirmed_edge_scenarios": 0,
+  "confirmed_anti_edge_scenarios": 0,
+  "manager_PnL_runs_executed": 0,
+  "entry_price_compatible_n": 8399,
+  "full_market_72h_n": 9815,
+  "min_raw_train_primary_p": 0.078857421875,
+  "conclusion": "No entry passed the preregistered gate. No new exit/mirror/confluence PnL trials; profitability not established, not a proof all exits are unprofitable.",
+  "result_commit_before_readability_append": "490f6c0ae8e87be293c466b8fcfbd60eaec48acd"
 }

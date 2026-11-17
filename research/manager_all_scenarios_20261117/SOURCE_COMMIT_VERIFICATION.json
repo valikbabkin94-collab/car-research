@@ -1,0 +1,38 @@
+[
+  {
+    "branch": "research/channels-audit-v2",
+    "source_commit": "99c7f56ce98355abfd6e70610b296f09d4b02f4d",
+    "source_tree": "78daaa8ee6e8cd1a239c2fa8f13f60e0ba6af9e7",
+    "commit_independently_verified": true
+  },
+  {
+    "branch": "research/pf-live-vs-backtest",
+    "source_commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "source_tree": "413b4f8d8b8b755e7a69f80a682f380ec93a9377",
+    "commit_independently_verified": true
+  },
+  {
+    "branch": "research/pf-rubik",
+    "source_commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "source_tree": "b1cc91427152d50c974dee746a26730fb05d0b0f",
+    "commit_independently_verified": true
+  },
+  {
+    "branch": "research/round4-cont",
+    "source_commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "source_tree": "d05e6554fc138c6fe653230541178727e3d4248d",
+    "commit_independently_verified": true
+  },
+  {
+    "branch": "research/s1-s3-history",
+    "source_commit": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+    "source_tree": "2c20a125cc9eb45a8208f83876acd520420fb07a",
+    "commit_independently_verified": true
+  },
+  {
+    "branch": "research/text-signals-audit",
+    "source_commit": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+    "source_tree": "be0eb1fc2ae7dd1f896ed776a9f0c8036e2d0584",
+    "commit_independently_verified": true
+  }
+]
