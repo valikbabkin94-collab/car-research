@@ -1,0 +1,14 @@
+{
+  "status": "PROFILE_SAVED",
+  "code_sha": "76d47472d203c6d44d5ad4924dd813afeb70bd11",
+  "parameters": {
+    "variant": "FC5",
+    "leverage": 1,
+    "period": "H2",
+    "slippage": 0.0005,
+    "mmr": 0.005,
+    "min_notional": 0,
+    "engine_fingerprint": "1e546ca35d56bd372c85d54c89b506451cf7de38cdda37b72c10d546cd176491",
+    "data_run": 44159556548
+  }
+}
