@@ -1,0 +1,42 @@
+name: LIVE97 risk-unit correction only no backtest repeat
+on:
+  push:
+    branches: [research/paket-20261117]
+    paths: [.github/workflows/part7_risk_units_resume.yml]
+  workflow_dispatch:
+permissions: {contents: write, actions: read}
+jobs:
+  rescale_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      LAB_ROOT: research/paket_20261117
+      LAB_OUTPUT: research/paket_20261117/part7_risk_units_fix
+      LAB_PART: part7_risk_units_fix
+      LAB_BRANCH: research/paket-20261117
+      LIVE_INPUT_SHA: 344bae6455571ca64ecf2709bf7b9edf8cfb71c2
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          name: paket-part7_live_trades
+          run-id: '44134160121'
+          path: previous_results
+          github-token: ${{ github.token }}
+      - name: Re-express saved results without calling candle engine
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: PYTHONPATH=research/paket_20261117 python research/paket_20261117/rescale_live_source_h1.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paket-live97-own-H1-risk-unit-correction
+          path: research/paket_20261117/part7_risk_units_fix
+      - name: Publish corrected display units alongside preserved initial results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python research/paket_20261117/publish_results.py
