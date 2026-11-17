@@ -1,0 +1,208 @@
+name: FUNDING CARRY six frozen variants train then independent validation
+on:
+  push:
+    branches: [research/funding-carry]
+    paths: [.github/workflows/funding_carry_research.yml]
+  workflow_dispatch:
+permissions: {contents: write, actions: read}
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Synthetic accounting and causality before any historical PnL
+        run: |
+          python -m compileall -q research/funding_carry_20261117
+          PYTHONPATH=research/funding_carry_20261117 python -m unittest discover -s research/funding_carry_20261117 -p test_engine.py -v
+  training:
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix: {variant: [FC1, FC2, FC3, FC4, FC5, FC6]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Await prepared sources without rerunning acquisition
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run watch 44159556548 --exit-status --interval 30 -R valikbabkin94-collab/car-research
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: coins
+          merge-multiple: true
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-data-inventory*
+          run-id: '44159556548'
+          path: metadata
+          github-token: ${{ github.token }}
+      - name: H1 only, baseline costs, both margin leverages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/funding_carry_20261117/results/train/${{ matrix.variant }}
+        run: PYTHONPATH=research/funding_carry_20261117 python -u research/funding_carry_20261117/execute.py train ${{ matrix.variant }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: funding-carry-train-${{ matrix.variant }}
+          path: research/funding_carry_20261117/results/train/${{ matrix.variant }}
+          retention-days: 14
+  selection:
+    needs: training
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-train-*
+          path: train_artifacts
+      - name: Commit H1 selection BEFORE validation starts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: PYTHONPATH=research/funding_carry_20261117 python research/funding_carry_20261117/select_h1.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: funding-carry-selection
+          path: research/funding_carry_20261117/selection
+          retention-days: 14
+  validation:
+    needs: selection
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: {variant: [FC1, FC2, FC3, FC4, FC5, FC6]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Await prepared sources without rerunning acquisition
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run watch 44159556548 --exit-status --interval 30 -R valikbabkin94-collab/car-research
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: coins
+          merge-multiple: true
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-data-inventory*
+          run-id: '44159556548'
+          path: metadata
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: funding-carry-selection
+          path: research/funding_carry_20261117/selection
+      - name: H2 and last40 plus descriptive full-year; no reselection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/funding_carry_20261117/results/validation/${{ matrix.variant }}
+        run: PYTHONPATH=research/funding_carry_20261117 python -u research/funding_carry_20261117/execute.py validate ${{ matrix.variant }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: funding-carry-validation-${{ matrix.variant }}
+          path: research/funding_carry_20261117/results/validation/${{ matrix.variant }}
+          retention-days: 14
+  winner_stress:
+    needs: selection
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - name: Await prepared sources without rerunning acquisition
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run watch 44159556548 --exit-status --interval 30 -R valikbabkin94-collab/car-research
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: coins
+          merge-multiple: true
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-data-inventory*
+          run-id: '44159556548'
+          path: metadata
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: funding-carry-selection
+          path: research/funding_carry_20261117/selection
+      - name: Predeclared stress only for frozen winner; no fit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/funding_carry_20261117/results/stress
+        run: PYTHONPATH=research/funding_carry_20261117 python -u research/funding_carry_20261117/execute.py stress
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: funding-carry-stress
+          path: research/funding_carry_20261117/results/stress
+          retention-days: 14
+  final_report:
+    needs: [validation, winner_stress]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          name: funding-carry-selection
+          path: research/funding_carry_20261117/selection
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-train-*
+          path: all_train
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-validation-*
+          path: all_validation
+      - uses: actions/download-artifact@v4
+        with:
+          name: funding-carry-stress
+          path: all_stress
+      - name: Russian report and100USDT monthly answer from saved results only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: PYTHONPATH=research/funding_carry_20261117 python research/funding_carry_20261117/finalize.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: FUNDING_CARRY_REPORT_AND_CLAUDE_HANDOFF
+          path: research/funding_carry_20261117/final
+          retention-days: 14
