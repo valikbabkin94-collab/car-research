@@ -1,0 +1,23 @@
+{
+  "status": "PROTOCOL_FROZEN_NO_PNL_YET",
+  "funding_carry": {
+    "completed": true,
+    "branch": "research/funding-carry",
+    "commit": "70afcbff8d9d40e1cf9e7d452fadf9f89ddbe963",
+    "winner": "FC4",
+    "H2_monthly_mean_USD": -0.678363048571498,
+    "other5": "INCONCLUSIVE source gap heldFLMUSDT2025-11-12T03:00UTC"
+  },
+  "pf_hedged": {
+    "task_read": true,
+    "protocol_commit": "2b9ad3ae81d095441c2e6d0797e45d08bfddaa72",
+    "market_meta_commit": "13f9cd3f9e10b3d889c8eea2784ccdf0e7ffd4a7",
+    "next": "prepare saved parent paths, verify control reproduction, public5m quote/funding shards, then six frozen hedge profiles"
+  },
+  "safety": {
+    "Desktop_Commander": 0,
+    "keys": 0,
+    "orders": 0,
+    "LIVE": 0
+  }
+}
