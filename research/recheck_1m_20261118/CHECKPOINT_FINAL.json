@@ -1,0 +1,16 @@
+{
+  "status": "AVAILABLE_WORK_COMPLETE_INPUTS_BLOCKED",
+  "protocol_sha": "83acdf0477bc0f6a48ed6a34c1a844341c808d23",
+  "code_sha": "75c57764a0972e308257288cfcc3aa9baaf2a69f",
+  "results_sha": "d18125d1d766dcceeb929ba91fe7831e4f363a4b",
+  "actions_run": 44187973528,
+  "next_action": "Only ingest missing exact saved cohorts listed in DATA_NEEDED.md; do not repeat completed DUMP minute replay",
+  "remaining": [
+    "ABC17574 exact entries/ATR/controls",
+    "NIGHT2272 original passport rows",
+    "LISTING per-trade rows for missing last40/control",
+    "Bybit1m for exact original venue and140 gaps"
+  ],
+  "paper_candidates": 0,
+  "live_changes": 0
+}

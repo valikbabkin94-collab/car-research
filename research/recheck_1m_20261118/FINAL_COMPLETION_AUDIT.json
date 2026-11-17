@@ -1,0 +1,26 @@
+{
+  "status": "AVAILABLE_MINUTE_REPLAY_COMPLETE_WITH_BLOCKERS",
+  "results_commit": "d18125d1d766dcceeb929ba91fe7831e4f363a4b",
+  "minute_code_sha": "75c57764a0972e308257288cfcc3aa9baaf2a69f",
+  "protocol_commit": "83acdf0477bc0f6a48ed6a34c1a844341c808d23",
+  "successful_actions_run": 44187973528,
+  "models": {
+    "DUMP_RAW": "INCONCLUSIVE_FULL_COHORT_NEGATIVE_COVERED_PROXY",
+    "DUMP_TOP50": "INCONCLUSIVE_FULL_COHORT_NEGATIVE_COVERED_PROXY",
+    "IDEAS_A": "DATA_BLOCKED_EXACT_ORIGINAL_INPUTS",
+    "IDEAS_B": "DATA_BLOCKED_EXACT_ORIGINAL_INPUTS",
+    "IDEAS_C": "DATA_BLOCKED_EXACT_ORIGINAL_INPUTS",
+    "LISTING_A5": "REUSED_PREVIOUS_1M_REJECTED",
+    "LISTING_B10": "REUSED_PREVIOUS_1M_NO_H1_PASS",
+    "NIGHT_SKIP": "REUSED_NEGATIVE_POLICY_RECHECK_BLOCKED_ROWS"
+  },
+  "original_dump_closed": 1141,
+  "minute_valid": 1001,
+  "gaps": 140,
+  "tests_passed": 9,
+  "paper_candidates": 0,
+  "metrics_sha256": "b69d3e07f0ef637f9766a350956699e0cdaa45bcd9c247f1e050227870fdedd8",
+  "desktop_commander": 0,
+  "bybit_keys": 0,
+  "live_changes": 0
+}
