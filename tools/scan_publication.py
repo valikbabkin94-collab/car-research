@@ -19,7 +19,9 @@ def inspect(path,raw,depth=0):
  if depth>4:raise ValueError('Archive recursion limit')
  findings=[]
  for name,rule in RULES.items():
-  if rule.search(raw):findings.append({'path':path,'rule':name})
+  if name=='address_literal':
+   if any(all(int(v)<=255 for v in m.group().split(b'.'))for m in rule.finditer(raw)):findings.append({'path':path,'rule':name})
+  elif rule.search(raw):findings.append({'path':path,'rule':name})
  if raw.startswith(b'\x1f\x8b'):findings+=inspect(path+'!gzip',gzip.decompress(raw),depth+1)
  elif raw.startswith(b'PK\x03\x04'):
   with zipfile.ZipFile(io.BytesIO(raw)) as z:
