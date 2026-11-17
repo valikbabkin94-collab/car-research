@@ -22,7 +22,7 @@ def repair(source,dest,codes,family,unit=None,extras=()):
  winner=max(options,key=lambda x:(x[0],x[1]))[1]if options else None
  frozen=dict(code_sha=code_sha,source_code_sha=old['code_sha'],original_selection=old,winner=winner,mirror_winner=old.get('mirror_winner'),method='H1 netR unchanged; only coverage denominator corrected to exclude priceDATA_GAP, no SL/TP/entry-price change',H1_recomputed=False,H1_source_sha256=hashlib.sha256((source/'ALL_ACTUAL_EXITS.npz').read_bytes()).hexdigest(),audit=audit,splits=sp)
  # Freeze before any new H2 calculations. Original SELECTION remains intact in previous result commit/artifact.
- write(dest/'SELECTION_FROZEN_COVERAGE_FIX.json',frozen);newrows=[];newnull=[];keys=[];variants=[];outcomes=[]
+ write(dest/'SELECTION_FROZEN_COVERAGE_FIX.json',finite(frozen));newrows=[];newnull=[];keys=[];variants=[];outcomes=[]
  if winner:
   for c in list(dict.fromkeys([winner]+list(extras))):
    rr=[];nn=[]
@@ -33,7 +33,7 @@ def repair(source,dest,codes,family,unit=None,extras=()):
     ix=[i for i,e in enumerate(h2)if period=='H2'or e['entry_ms']>=sp[2]];rs=[rr[i]for i in ix];n=[nn[i]for i in ix];p=paired_test(rs,n);row=dict(period=period,variant=c,mirror=False,**metrics(rs),excessR=p['excessR'],p=p['p'],control_coverage=p['coverage'],control_n=p['n'],selected_on_H1=c==winner);newrows.append(row)
  table+=newrows
  if outcomes:np.savez_compressed(dest/'NEW_H2_ACTUAL_AND_CONTROL200.npz',keys=np.array(keys,dtype='S64'),variants=np.array(variants,dtype='S16'),outcomes=np.array(outcomes),control_netR=np.array(newnull,dtype='f4'))
- write(dest/'H1_SAVED_COVERAGE_AUDIT.json',audit);write(dest/'TABLES.json',finite(table));return dict(status='RESUMED_H2_ONLY'if winner else'NO_H1_ELIGIBLE_WINNER_AFTER_PRICE_GAP_EXCLUSION',selection=frozen,tables=table)
+ write(dest/'H1_SAVED_COVERAGE_AUDIT.json',finite(audit));write(dest/'TABLES.json',finite(table));return dict(status='RESUMED_H2_ONLY'if winner else'NO_H1_ELIGIBLE_WINNER_AFTER_PRICE_GAP_EXCLUSION',selection=frozen,tables=table)
 
 if kind=='pf':
  result=repair(prev,out,[f'T{t}S{s}B{b}'for t in range(6)for s in range(3)for b in range(3)],54,.056,extras=['T0S1B0']);table=result['tables'];family=54
