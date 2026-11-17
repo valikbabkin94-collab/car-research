@@ -1,0 +1,15 @@
+{
+  "source": {
+    "winner": "WL0",
+    "split": [
+      1673225880000,
+      1733355600000,
+      1745381544000,
+      1793485320000
+    ],
+    "train_only": true
+  },
+  "code_sha": "9bc2581f8764cfafc626756ac352bf5cbd294f98",
+  "original_H1_recomputed": false,
+  "parameters_changed": false
+}

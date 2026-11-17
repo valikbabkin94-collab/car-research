@@ -1,0 +1,1591 @@
+[
+  {
+    "symbol": "1000PEPEUSDT",
+    "key": "data/futures/um/daily/klines/1000PEPEUSDT/1m/1000PEPEUSDT-1m-2026-11-07.zip",
+    "source_sha256": "16126cb5a5f4cfa60972c130ca5da54da7592907f5073ddad023be635148130a",
+    "rows": 1440,
+    "parsed_sha256": "99f46d84c648873690bfdf5492589e4ea46109c5346fe1e90b7d25d775407a8b"
+  },
+  {
+    "symbol": "1000PEPEUSDT",
+    "key": "data/futures/um/daily/klines/1000PEPEUSDT/1m/1000PEPEUSDT-1m-2026-11-08.zip",
+    "source_sha256": "05604b57870ba352c72bdd8f157fd16612a82a1b8d4367918c305e6d85d1e0fd",
+    "rows": 1440,
+    "parsed_sha256": "8ae5e5f5ecf098dfbe2f15beea03950c9f91db838c79e73d99c1f19fd87d1bf0"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-01.zip",
+    "source_sha256": "6db77a61ab6bbe6d27ea506a26cf79f10e7f549cf9c4f3e151a31fec39afdf5c",
+    "rows": 1440,
+    "parsed_sha256": "4e1cb3c36954f65d718289d60b69b287cdac9a9e20131a34625f98b7877441c1"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-02.zip",
+    "source_sha256": "6dea720176c92b8d8bf804c788e1ee17d88a0504809732f95fb2a9ca8c1e9fbb",
+    "rows": 1440,
+    "parsed_sha256": "8dd7f4baf724c878c5981690abcc6a729914e43eaefd2891bb516d2b8ed4ab3d"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-03.zip",
+    "source_sha256": "aa8c6cdb484e270681844b9c9afe61d7321a79f0542de524ee7664089941b2b4",
+    "rows": 1440,
+    "parsed_sha256": "7882e5c6428f7771b43215ef0a5fedd4af2d82a687e16ce24a755c333ffa360e"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-05.zip",
+    "source_sha256": "2d4534fea1809be10d8be7dcdcc339ac465ec0f65a318d13803f0ad6b1297551",
+    "rows": 1440,
+    "parsed_sha256": "42f4b58fffd3057b24c54085a62ca1ec2d3687e74121e0dffca5775b7b913d3f"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-06.zip",
+    "source_sha256": "757aa8c5ff6ff5513da0ac5bfd57558677a8acf217bdad83d42be81e9f29d678",
+    "rows": 1440,
+    "parsed_sha256": "2f8113beaa1603daedb8a76e1f42e5f05e126713305f984c3dd88db1867b529a"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-13.zip",
+    "source_sha256": "129979b523ddc448149184f05d08d823b0d9c068b1589fe668bd2cdd9ce4680f",
+    "rows": 1440,
+    "parsed_sha256": "4e86a1abae33f38a0bb8c4d9385fb4e82acb7228a6f6e93bfdf80b9c51394918"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "key": "data/futures/um/daily/klines/ACTUSDT/1m/ACTUSDT-1m-2026-11-14.zip",
+    "source_sha256": "df7b2ea74dff0bced8b37eea522d3e59199f620cc90ba8e6af0c11ec561e63d4",
+    "rows": 1440,
+    "parsed_sha256": "b100da666de9fb629cab877ed48bcf8fb03b646693f12e7c677bc93134c58037"
+  },
+  {
+    "symbol": "AEROUSDT",
+    "key": "data/futures/um/daily/klines/AEROUSDT/1m/AEROUSDT-1m-2026-11-05.zip",
+    "source_sha256": "86a0b4731ba64891e59193d96af095df6f05fde13df0f71802ab22adf0a1f192",
+    "rows": 1440,
+    "parsed_sha256": "eb5186d479d1df1eda9d6b34ec21b38980c9dd4887ccab14aa9b93d2ef543bb7"
+  },
+  {
+    "symbol": "AEROUSDT",
+    "key": "data/futures/um/daily/klines/AEROUSDT/1m/AEROUSDT-1m-2026-11-06.zip",
+    "source_sha256": "d6feec5e7b35e5e2acc6d3224ed8cfac6479f5916ead8b4391378cccbdbb31c6",
+    "rows": 1440,
+    "parsed_sha256": "4f8f75d729886de472a30d6e6a3728578fbb5127a10a07b40f22fd22e81b0146"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-01.zip",
+    "source_sha256": "8ebe329d082fda426ed802dd6c8ac0d08c0e6fe0f398165910a2f834a1c86154",
+    "rows": 1440,
+    "parsed_sha256": "891ccc53b913175182e7635d738e97cb207cbf63e7baf79249f18b90b60fdc6e"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-02.zip",
+    "source_sha256": "f14b25119fd54530e28f5221a38bee16e30563491208eddf04407535459c7449",
+    "rows": 1440,
+    "parsed_sha256": "41862bb36c2c06bacd3507e633a6580dadec08056b9019e9f4b53ebc422ca944"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-03.zip",
+    "source_sha256": "04e31f84808bca3cbcf7096ae093e498e312d90b8dc9dc771596c23249bfbf3a",
+    "rows": 1440,
+    "parsed_sha256": "7fd82169de661e694a1ea538e54c5651527efa16b4917289e2b9a61684295977"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-05.zip",
+    "source_sha256": "229384b47759022104ce7de95cc34b105296d09478b1af450186735b728e9a36",
+    "rows": 1440,
+    "parsed_sha256": "a11e4710311b9dce372cb36cb8df262a79766d7bd56a6428981d81bb0c5ecc32"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-06.zip",
+    "source_sha256": "5fcefdd0f550e416340bc4534fb50c5256dfebe972d4b246c35a397c7a1c413f",
+    "rows": 1440,
+    "parsed_sha256": "d70ad257d27b010b07d7d3cff6aa3bc17e4ecd73c458d7101c4fa8c8a45324ce"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-07.zip",
+    "source_sha256": "7bce737027d7921b4202f1ba50590e01ca932ff07143a29eae6ae06bd5c131f7",
+    "rows": 1440,
+    "parsed_sha256": "e2a18f6848a622e2450088e09c49faa61f8d29114f4b7af81b6deb7f523c7701"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-08.zip",
+    "source_sha256": "50ce93db08716d8c04a9fccbfc8b30c1dfa0c3515f3e13bd29a05604cd161b3a",
+    "rows": 1440,
+    "parsed_sha256": "1b40f6ffb3940a241f99d294ea57ab4bf4e70cf9dd82bccd8c418698ee758fb6"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-11.zip",
+    "source_sha256": "0bd6043666ace81ba7fe75a9296a80e5b98bf8e44b8c9faa4cb1e1d9b2295a78",
+    "rows": 1440,
+    "parsed_sha256": "32320d0c624fb225dec6f0e8c6587b36651ebc4d049c34a281e9a14b8051178c"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-12.zip",
+    "source_sha256": "4b0d73623675bee32b6d029f937f5b5b4050a4f22c2ead43eff23fe51e8db2b1",
+    "rows": 1440,
+    "parsed_sha256": "c17b609bf77826a99fe1510e12fff53c5b386fc8dce5447010a6cd69488be2f8"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "key": "data/futures/um/daily/klines/AGTUSDT/1m/AGTUSDT-1m-2026-11-13.zip",
+    "source_sha256": "598f7d5179fa0b9ace50022f0c5949ce6b8523110bc2e69cfee1e646531df26c",
+    "rows": 1440,
+    "parsed_sha256": "b32b7af5a1491300480102b53d89f1d39c15c6be53d6a9d1cbc64bfe1c5f64be"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-10-31.zip",
+    "source_sha256": "d764ec3a2eac9b6c1643667421203124ffa6b6be52c070a220aae007235bcd82",
+    "rows": 1440,
+    "parsed_sha256": "851997843d2a6bf48ca83c91e81fe349d9c10a4c9619254d5c6b91f81e347e7a"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-01.zip",
+    "source_sha256": "e8fca7f2fd81328e4b8c5cb8ca8163dd0d24d18f30596787cf4a8a045545d794",
+    "rows": 1440,
+    "parsed_sha256": "6572b091d1de7b016b03088026b8ab0f719bea77ad9cb75bf9841a254ca15b00"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-02.zip",
+    "source_sha256": "495387feb031d30d4a67230824540f51fa13a89a2cbefa5af425e1c55dd0aa82",
+    "rows": 1440,
+    "parsed_sha256": "bf9c6b528c32ef3417ff1391c954d56dcc9f38bae9b5913a97f8f163f64b85df"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-03.zip",
+    "source_sha256": "990208762896295f9389d018add82161aa071e051f214c17ac0f0d4cde3852a7",
+    "rows": 1440,
+    "parsed_sha256": "bf5b679bc853de4a8131b6b8a45edb00c34b9962783e344371861a13f6bd9da8"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-04.zip",
+    "source_sha256": "3ab5a6ddffc9779ee2c1178aef27fc3d9bc9800b0ea1b743dbf181ca79ae5b15",
+    "rows": 1440,
+    "parsed_sha256": "2a856160d35ed6df89df9be1e412a608ae9f5378609f290262ae7fec35e0b9d9"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-05.zip",
+    "source_sha256": "f9205c0c4d5ecccf86d4ba26f0d4afe35a94b3a72f33e6760accb18549c5e34d",
+    "rows": 1440,
+    "parsed_sha256": "b190fff15fbec9fea134de64178d8d0a16bbbf98e269399e801ea4c61845999a"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-06.zip",
+    "source_sha256": "e3f494ccc6b1cc0bbc1fe91828d0933f540804328805d253b7a6a9fe58c24fe4",
+    "rows": 1440,
+    "parsed_sha256": "345e973ca8f406dba78fdab4f4f70f0a4bffc780145206dbd59c223ee6c7eeeb"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-07.zip",
+    "source_sha256": "3ba0722b7e3aab4ee077fa70a8bc9639a5e1b95023d555636079a37b9b6f9f0e",
+    "rows": 1440,
+    "parsed_sha256": "af3ecbafc30affb3b9fe8f59de540bdcf64fa5ed1914b6e23d7ab0b1e8f31b21"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-08.zip",
+    "source_sha256": "6bb1e8c0d00bfa743a1bf45d56fa928d6a8ffca98293a8696430f782801e7f86",
+    "rows": 1440,
+    "parsed_sha256": "6ef18bad0cd2b93a2ae9c57e45139fe8d9daec5c29968624b31ad3ed9d2140f2"
+  },
+  {
+    "symbol": "AINUSDT",
+    "key": "data/futures/um/daily/klines/AINUSDT/1m/AINUSDT-1m-2026-11-09.zip",
+    "source_sha256": "328e1989a5cb1947f273f4aecba96a833c99f1c15a0f395ccf78a201675dc495",
+    "rows": 1440,
+    "parsed_sha256": "795298cdd5247900c9b2535b28926153a0769a7763c0a39fa2bedd055585fd22"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-01.zip",
+    "source_sha256": "46bf11b33f9e552dc5f696f490329b0dead4dfda5a2783654afe78a5c3701e03",
+    "rows": 1440,
+    "parsed_sha256": "85fafc85ceda54b51bf775f0a4e9c144c6428c4266da5c0b4dc25ae592c6b780"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-02.zip",
+    "source_sha256": "122a30e3dee3d764f43775ef73843785104775411a1c917019df8ece690e4c5d",
+    "rows": 1440,
+    "parsed_sha256": "fc90d4ba542c051714da90b4573c61a49fc6123cc137fa8cc32153bb289c5c3f"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-03.zip",
+    "source_sha256": "2084280e1cce436e5c9c63aeb2f2daf0e103c362a06383f03c1af609faf9d977",
+    "rows": 1440,
+    "parsed_sha256": "94c985307d8cb1b6a31c68b52b1ccf1bb5161db26ac4e8eac7956110e1e619cd"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-04.zip",
+    "source_sha256": "86e72b87f1015716866be6f795c0cfd86fcfe7107d5fccbef86e8cc23505750e",
+    "rows": 1440,
+    "parsed_sha256": "41f28e1e1967d7317b4d3c9285579aae14efcefd732506f1ed3f6b375ecb7213"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-05.zip",
+    "source_sha256": "36f42aaca76cdc2deb7e577dd7d308cf683318e024c7d67ef2f9cb3087d21d90",
+    "rows": 1440,
+    "parsed_sha256": "33dfb22dae2736a5d181f4b5ba4cba631d85e7d13802258e16caca6a5b77b27a"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-06.zip",
+    "source_sha256": "2489f98f218219b9210b4971bd90889df488d45c04ad9ccd4a8317edd462ba19",
+    "rows": 1440,
+    "parsed_sha256": "26be9d3d5172d2e19f306920a0fb89072be2c7ae682820aad53944f1c4544eb5"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-07.zip",
+    "source_sha256": "32c4b0cdf3ae6d4750d7766220265fa5c828cc64101a731c009e4775e1cfc3b1",
+    "rows": 1440,
+    "parsed_sha256": "57f7a8bab71c0d4cad5e55d9bb4fc08365335749db18cea189b079b3f1c172b3"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-08.zip",
+    "source_sha256": "76236f626be7b6c7b87765a02b09b387205d1e67b5cf192d5fe8f1fabd85d7a1",
+    "rows": 1440,
+    "parsed_sha256": "e2459af0662cf002b0a998a606ed196ba6dc8d165b99d3e48c0ef2e977b26073"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-09.zip",
+    "source_sha256": "0ac7314ae83a73eb3d719c1bdfe6f814c1afbe8251e0333295f9da33b9f98741",
+    "rows": 1440,
+    "parsed_sha256": "3e5b7927f1bb79f2a9ef3d82fcf0d4beb405005763bd1e287a5f5c39c7f7d23c"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-10.zip",
+    "source_sha256": "282afb46d2db1f91b5d6c16abe794fca32379f834313e356b666116289f2568b",
+    "rows": 1440,
+    "parsed_sha256": "b9d75ea51a6885e8d2bac8778425891cacb2608c65239b9df0974604c37713de"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-11.zip",
+    "source_sha256": "5469c028321705b77022925dcd901c708781b2a413e5d177ada421f74f25d3c9",
+    "rows": 1440,
+    "parsed_sha256": "c64457dfde869ba443f97f8543addb406ada1f2c7f44aa05f28d6c8d96b037b5"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-12.zip",
+    "source_sha256": "cdc202a620142becd793219707bd30121a1eef438e904e2f4399a46fe19dce88",
+    "rows": 1440,
+    "parsed_sha256": "6987294edc11d6a4e66cacb85cbb4d8c1bc32f73d901a404f79da7f5a09793b6"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-13.zip",
+    "source_sha256": "28e6f70cd4956ec59998b2a7e9e9e010019d323fec33964b2a2124750c9e9941",
+    "rows": 1440,
+    "parsed_sha256": "4c4a726a16f3fc554cc4823c78cce3622c1abd231a9a69ed3e30221f2be9d360"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-14.zip",
+    "source_sha256": "b1a14943b1594acc581cffb03f1d07a7c6dafafd50b16d7e9df58cc60c8202a5",
+    "rows": 1440,
+    "parsed_sha256": "a514249ff3a1d24d9d32c259123b338692fc202b6eb037d1fe000352d604b569"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-15.zip",
+    "source_sha256": "fa7c6d3f9733fd8568ae2a935bfd5992a8a1b220ddceb5a04fed31a21712d33f",
+    "rows": 1440,
+    "parsed_sha256": "0a89e2d432ac8c2f3c18fe774e1f7456af36c261f4dd2700538948fdcdfa7353"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "key": "data/futures/um/daily/klines/AKEUSDT/1m/AKEUSDT-1m-2026-11-16.zip",
+    "source_sha256": "4fd54d7daf5befbeab415658aa4b0aeffe8f2c8f2eef50d1babb2a3e6b078e2a",
+    "rows": 1440,
+    "parsed_sha256": "3762787be7915feaead5ed1ce1a4c1746db81e721855f34ec9400af20cb16c26"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-10-31.zip",
+    "source_sha256": "12eb094c07bdde664604c122a81c975c9ad174ab5f13b382286ae8a1a79aa4ed",
+    "rows": 1440,
+    "parsed_sha256": "f4df18429ad35f9ee0165658f8118507ea7161eb648761ab85c902830abe8bca"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-11-01.zip",
+    "source_sha256": "66bf54319fdb63fe94a8a813a0521817297216cda1d1a57ec03f00555a8dfef0",
+    "rows": 1440,
+    "parsed_sha256": "e74dafc5bc4d5a88290d67bd9e5f905e4d5e2f82e648018c2886b7c9d71d3641"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-11-02.zip",
+    "source_sha256": "85b07db9bcb7d2781a882c33fff7b39215fc18ecfe8137faf7a246d0a4bdba60",
+    "rows": 1440,
+    "parsed_sha256": "43cbc7120ce30ed04743cb529ff94c5b8e4f9c88087a878a5f7edda9cd1905cd"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-11-03.zip",
+    "source_sha256": "7cd9a377a80a9da6380e0d8c24e3eb12db454eeebd038113ea812c8d778c0cfc",
+    "rows": 1440,
+    "parsed_sha256": "f1e54650d7be4344a1c9ad1770a64f75b2a7899a90d0c794549b7da452457118"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-11-07.zip",
+    "source_sha256": "fd15529b7e60b7d032647c67751fbd5394bf21c183fa2e9073a9b327ddf6d855",
+    "rows": 1440,
+    "parsed_sha256": "47c386a90b0e9938730f69a2edb924937bfcda98ba46ec67c0f28a1d11271858"
+  },
+  {
+    "symbol": "APRUSDT",
+    "key": "data/futures/um/daily/klines/APRUSDT/1m/APRUSDT-1m-2026-11-08.zip",
+    "source_sha256": "86ea672b55c916405b87151d2eebaf5ea731547013e359f83374060f382d094f",
+    "rows": 1440,
+    "parsed_sha256": "51031faec476d343fac4c78037d878a659f35eeab60aa5d5ab209d5d06d46bde"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-01.zip",
+    "source_sha256": "4ac5b2d017a0a7315713e6e1699b19a7a584d99665ecb9ede8ab959130574190",
+    "rows": 1440,
+    "parsed_sha256": "d4e982c9ef105c1e7c3c604c93e8b6bd07794849d86d05670a0dc6c9a03f2872"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-02.zip",
+    "source_sha256": "5aabb0f1749e6bd29982f6fdbf2b7e6f498498a2b0634d4cba960096f16559aa",
+    "rows": 1440,
+    "parsed_sha256": "2345b4d8c4262fcc247608c435ee1bae9b808119a2345cb4a144756e1bb68723"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-03.zip",
+    "source_sha256": "3d14c1633bb25aa13e01e95a86772c50ea8524884ce39e2896e1b1c2c322245e",
+    "rows": 1440,
+    "parsed_sha256": "f769a07001de7dac7681eccda090fbd56b47e584db79411c9e99f0d8ae22884e"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-04.zip",
+    "source_sha256": "83ac5461303644edb49fe06afe9b48c40f3bd253c400551172e97e9245d0aab8",
+    "rows": 1440,
+    "parsed_sha256": "567eb8325fdb08306be4c037a4dfd69c581c1722c07cd9c535f523d60f756e67"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-10.zip",
+    "source_sha256": "55313a58388f20502f8fb6ff06e62e426fad4338e1f774d0f26740750a0fd780",
+    "rows": 1440,
+    "parsed_sha256": "a3b4fac7fd6d3d65df284e3492feb58e7398db79d27d7813f2d47a964f004b35"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-11.zip",
+    "source_sha256": "e2d4b86ae772111f690ab07aa9734663f4f6dafbee07dab6ddd013d9a8c8e7c6",
+    "rows": 1440,
+    "parsed_sha256": "c18fe8a50a38aa707c8d07d09b1843ab64f6eac3046ea14c6951fface1c3c46f"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-12.zip",
+    "source_sha256": "f5131bf966723dd9b74943733aa5cc35fcbb25d1122fb1f7fc013b075849b76a",
+    "rows": 1440,
+    "parsed_sha256": "1674760e18bdb8c8be21d07baf4b4e0a7ffc0a804254676a95821ff552f70881"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-15.zip",
+    "source_sha256": "b49e9275c6b21bd0b6289de4da4f7afe57eb5489ce5e663647cc4940dc18525c",
+    "rows": 1440,
+    "parsed_sha256": "0c1a103f4e7ead58670d9b33053ede9f19ff5deeb2b8ca7cf522979f2005143c"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "key": "data/futures/um/daily/klines/ARIAUSDT/1m/ARIAUSDT-1m-2026-11-16.zip",
+    "source_sha256": "45f8d1e003a5296b3660da7f5c7c7f4c50750ad2909374f90e98dd9d7da4fd19",
+    "rows": 1440,
+    "parsed_sha256": "2445f1d9a82ea6388503f57d59fa8070bbb2cf3116020e67b95d3ba293eb4c6a"
+  },
+  {
+    "symbol": "BEATUSDT",
+    "key": "data/futures/um/daily/klines/BEATUSDT/1m/BEATUSDT-1m-2026-11-11.zip",
+    "source_sha256": "665ef3f924113c6cc323cac506e121232a95ed873bb87b76ef7af309cdbde0db",
+    "rows": 1440,
+    "parsed_sha256": "b5b2f3a48b5af489a421f93c256f701f3606b86b610777adbb7ff639fe1e6753"
+  },
+  {
+    "symbol": "BEATUSDT",
+    "key": "data/futures/um/daily/klines/BEATUSDT/1m/BEATUSDT-1m-2026-11-12.zip",
+    "source_sha256": "38e89689e7c4107db1c4af30288f69349f3babb91f94d0bf9f1ab164d43c60df",
+    "rows": 1440,
+    "parsed_sha256": "6543693b35744dfb0e6a6670ff63769f754f8c4180427d0b117508c21344969a"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-01.zip",
+    "source_sha256": "f37448cecdfdd1fd6487c874ef8974431b72200de47394772daeb83e79ac7fd8",
+    "rows": 1440,
+    "parsed_sha256": "edca52764f2db8df44397388515d766d7b9577c972e71947be265c992b19f850"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-02.zip",
+    "source_sha256": "8d6ae309d4482cebdf76ecbe8254ed1c79ac8609cec3981c7f23bd34f8341c67",
+    "rows": 1440,
+    "parsed_sha256": "422dfffbc827da389babdfbb73e1a7d31923d6221200dbe05a11117392759a40"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-03.zip",
+    "source_sha256": "c49037c6318caed9ba78815dea1c022f5148b0d5f02200e963545c59a71b4278",
+    "rows": 1440,
+    "parsed_sha256": "1b0520ec18b7f29ecb47953427b841e569c6623cc424f15d9cca14e99825dee1"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-04.zip",
+    "source_sha256": "8476838310acac2a91936860e56403009213fa72761cd25891e0e1428760780e",
+    "rows": 1440,
+    "parsed_sha256": "e603ddf41dafce9276bcd510538e3262c9a24407bd85736b8b87f76d56947ced"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-05.zip",
+    "source_sha256": "18cbf42e53b3748a3125d675ee8cf71224da9acba4585c3e3c74ea80084de6d2",
+    "rows": 1440,
+    "parsed_sha256": "caf7f85acafd7ea5863502631c32e7602571dbd013ff930ce72f2f0c9550467b"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-06.zip",
+    "source_sha256": "5565abe40345817f8699701e4c65bf2b06eb71ac2cc109672ed6a07a9e4cfa8b",
+    "rows": 1440,
+    "parsed_sha256": "2315ae827acc2b1d83c476940a86d1a47e8a902de82a8b632c705d100b208e3a"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-07.zip",
+    "source_sha256": "ff504f231c3f049d3ad240fe5250e035f2aba5049371ca35ac9a67cc5f747398",
+    "rows": 1440,
+    "parsed_sha256": "004a44578734048824eff6b1f0f369f81a05d07e9f6e385fba286ad0f5f06856"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-08.zip",
+    "source_sha256": "f617f6306ae762e57f1bd73a041999cae7676d95d7eb1309f252858202c5dc5d",
+    "rows": 1440,
+    "parsed_sha256": "d5c5ddb89c8c11fc05ca567504130d3e4b8ac06b48220adfaffcaa6435e9d448"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-09.zip",
+    "source_sha256": "8a14abff1580fb1aa601aacd4d96d433912b34dfdfc5443f63c86e17eb39be50",
+    "rows": 1440,
+    "parsed_sha256": "6f9d3b4eebf10834c35a0358528487646fef8eec7e4489a383e655d9d71abcb7"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-10.zip",
+    "source_sha256": "fd71980966c524dd32e07ca4f4ba4788529825a25210c9ab97f703012327897e",
+    "rows": 1440,
+    "parsed_sha256": "f1f3cf707b4c93d4c2920208dc7e6d8178dcf81444b1cd27b1dcf7401add3690"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-11.zip",
+    "source_sha256": "f83e0aded984bcc727c51484c0ad0be44d702e1733246e490f2365d3ccf510d7",
+    "rows": 1440,
+    "parsed_sha256": "1f5859377de21c1eb714274f85467855b32f08bf1cbae6325b4bcfe52f3a088e"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-12.zip",
+    "source_sha256": "9544cf7b2f29e764347686981af5443a3be7b64e23b076f435be382c9ce66863",
+    "rows": 1440,
+    "parsed_sha256": "ec927ab1e941fa613dc116280760647b4514995b341851030f7b607f6855d9a7"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-13.zip",
+    "source_sha256": "a779d35f69d06b94241ca9c49d298cdf045f2991a7ea4988db4c92510cff79f6",
+    "rows": 1440,
+    "parsed_sha256": "721d2993723bc2be6f8f05da189deca73199f40143318b7c923e73e6bc5168bd"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-14.zip",
+    "source_sha256": "20d47e7fc436e4864d859538cfd205e21ecba79d432e6ca77e0d434290845d7f",
+    "rows": 1440,
+    "parsed_sha256": "fb2640dc148b2d908b47d948a13682cc53e1413eeed273019bce9298a49225e6"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-15.zip",
+    "source_sha256": "bcfcb67a555e7bd9dadd5d894a0252c2c7994aa6706067d1f25d2cb0d0fc1b9f",
+    "rows": 1440,
+    "parsed_sha256": "27d8ed8b39b55d1e5f0c2bf30533a17e1c3fe16d35b5105c88de18c33af2b8fc"
+  },
+  {
+    "symbol": "BTWUSDT",
+    "key": "data/futures/um/daily/klines/BTWUSDT/1m/BTWUSDT-1m-2026-11-16.zip",
+    "source_sha256": "8b1b6ff1ec08eda0971a7c85fcfa9efc3ce7cb92eecf38e48b1b271758cce58b",
+    "rows": 1440,
+    "parsed_sha256": "8417c29a093c67f9fd61e15e4b7feff1ce0eba51a6038adffaa1a2bc1c3cb197"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-01.zip",
+    "source_sha256": "4fb6998d0f19bc608390d95157750d33223719e41d325ac3caa65f3216313b4d",
+    "rows": 1440,
+    "parsed_sha256": "e76bb96260c61d7879a147e8f8625e76f14214e1218294c4a433265566b57717"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-02.zip",
+    "source_sha256": "dda72ce5b367e27278056fe6deb023e535cb22e8de922ba7ef0e84f25518d549",
+    "rows": 1440,
+    "parsed_sha256": "f21c905d6f7e81d6d2d9268ac8e0c882d645eb84398ad12c8830af9e32196e19"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-05.zip",
+    "source_sha256": "e3134e3ec51cdb347365d63e2c80655868182eb8fe3bfaa17424fed12ba181b4",
+    "rows": 1440,
+    "parsed_sha256": "3f3cba44e62ee5a09f6265724a76a63a7e98e19fd0e5206734b1089c7478af1a"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-06.zip",
+    "source_sha256": "2a591562c8533236be6778cc27674003c50510105d8537e8486b9d2944de8963",
+    "rows": 1440,
+    "parsed_sha256": "b7a3fcb27c0b3ce037378f6586968826b8f4651ed8771faffddd8db8f3294284"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-07.zip",
+    "source_sha256": "6c8c99a536adcd0c85bd582b3294489d71140df00dc3999a0d37cc20dbce3189",
+    "rows": 1440,
+    "parsed_sha256": "38054a00640f3c0f9978c28fea71cdcbcd761954715399a1b0357265f099e37b"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "key": "data/futures/um/daily/klines/BULLAUSDT/1m/BULLAUSDT-1m-2026-11-08.zip",
+    "source_sha256": "43baa8d8425ea623c6a56e5e09740cfe1a1fc8cd8873b31e1f8e680810dbda89",
+    "rows": 1440,
+    "parsed_sha256": "1d83a87a47024a15f58cd35b295ccf6a3c114c744fc9832d8f9c29e43a292977"
+  },
+  {
+    "symbol": "CAPUSDT",
+    "key": "data/futures/um/daily/klines/CAPUSDT/1m/CAPUSDT-1m-2026-11-04.zip",
+    "source_sha256": "83818de4e2b49fbaee04ccd14bf0764b3f700a230d8aaa8a166c25aa520a5a90",
+    "rows": 1440,
+    "parsed_sha256": "b9bd9a202eceb37a65e4369110edb8c824b7d96025f5363a2d852c2e08a813d1"
+  },
+  {
+    "symbol": "CAPUSDT",
+    "key": "data/futures/um/daily/klines/CAPUSDT/1m/CAPUSDT-1m-2026-11-05.zip",
+    "source_sha256": "dde4a3743825256177eb7d79c98d8dda0a467adcab30aae5f6b71948fdd2e33d",
+    "rows": 1440,
+    "parsed_sha256": "4b17601047a4e4cd2f958d28be62eb09e96d7df05b32f2dc0ffb007b5d2a8368"
+  },
+  {
+    "symbol": "CAPUSDT",
+    "key": "data/futures/um/daily/klines/CAPUSDT/1m/CAPUSDT-1m-2026-11-06.zip",
+    "source_sha256": "50bfbb632522e5a769fe6877108b917ee59ac03d7a963c8638af4410d6930d5f",
+    "rows": 1440,
+    "parsed_sha256": "fb6c64851e18a58fa8dc50d1187e8e71013573d0607ac0691b9a16f0ef3e7158"
+  },
+  {
+    "symbol": "CAPUSDT",
+    "key": "data/futures/um/daily/klines/CAPUSDT/1m/CAPUSDT-1m-2026-11-07.zip",
+    "source_sha256": "368e7aaec33d233523525342390cd3fc6af7692a39d8e097bb9c44871acea85e",
+    "rows": 1440,
+    "parsed_sha256": "428d5834014d5f32dcc4a4018eb8d9bc25b3314c0e7dc7272455c3ed7a4ad351"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-03.zip",
+    "source_sha256": "70dd3e9ef36569adbbc6b92b27ff08c5c36f07591ab79033ee51ddd5392d2cc2",
+    "rows": 1440,
+    "parsed_sha256": "b727509a110260d1698ccba8c4ff262a934e1dfabcf224b3a5b3dcc430493160"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-04.zip",
+    "source_sha256": "fe135cdea33b93c213b7da861901bef73059f3b84867481fa239af173107e2d2",
+    "rows": 1440,
+    "parsed_sha256": "04f46236bf0e8b43450f006562b7380a0fb839a966691f504fd7caeeb105bd5b"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-05.zip",
+    "source_sha256": "9d21dfa2ab8f6828440c943c017cddd28728efd4fc2147d6999b0af9eb7ee373",
+    "rows": 1440,
+    "parsed_sha256": "c0f0871744ba24601c43b6eceeada8c9da6aa9198741934e8b09944201f5b599"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-06.zip",
+    "source_sha256": "449040551277fcd9042e69811c6177400264cd74924dde373852f2889fc932dc",
+    "rows": 1440,
+    "parsed_sha256": "c269a2778e5da37d53904c78dc39cac8c95208d336d660fd30581da96db15781"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-08.zip",
+    "source_sha256": "6fb580189707a3504be10c660b18a88722ee94e302ca03fbd49d7edd94c067b7",
+    "rows": 1440,
+    "parsed_sha256": "f6390b3104b094510d7e2e7db47865a21b06bd64d95dfdb67e74636f327657fe"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-09.zip",
+    "source_sha256": "5b6ea689ce3d2fd900055d86605bfbfaabd130d8a36a18e306509e58cd85914e",
+    "rows": 1440,
+    "parsed_sha256": "9ea86b7b191fc1ed4fb33e2a3e16604eb1574da6b26c42ab893959a607b192e4"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "key": "data/futures/um/daily/klines/CLANKERUSDT/1m/CLANKERUSDT-1m-2026-11-10.zip",
+    "source_sha256": "731fe72d7074217781505b357f6d62694148d7f328f2bbed6fceb4a53631cc63",
+    "rows": 1440,
+    "parsed_sha256": "848c7152aca5130750e763ad9d17766a80f23126562105a48b57b6a1853b2b58"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "key": "data/futures/um/daily/klines/CYBERUSDT/1m/CYBERUSDT-1m-2026-11-05.zip",
+    "source_sha256": "c0e996b1a79fe04ee9e122660d563e5919c506a60299050d381e21626f33446a",
+    "rows": 1440,
+    "parsed_sha256": "999ebbecc4bf6d02a266de2e3ed590c9b84ece0a462290e6ac9f45039009ab83"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "key": "data/futures/um/daily/klines/CYBERUSDT/1m/CYBERUSDT-1m-2026-11-06.zip",
+    "source_sha256": "3eacfdf5a4f3ee9374f55e2e88d837ae7b9ca74302b4e3e8d73b97705352ea5e",
+    "rows": 1440,
+    "parsed_sha256": "68d2f0438e3c05a407ac292487c12e2cd5a01751553c74b024d96f48c4cf5365"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "key": "data/futures/um/daily/klines/CYBERUSDT/1m/CYBERUSDT-1m-2026-11-09.zip",
+    "source_sha256": "0c5402235e46fdc281ad77f9516947fa70cbc7ca04b6e595fcb10d7bfda4bed3",
+    "rows": 1440,
+    "parsed_sha256": "9d04475afe422cc39302ae2f4aee660b0244ec8393c9a26569acb758497b3489"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "key": "data/futures/um/daily/klines/CYBERUSDT/1m/CYBERUSDT-1m-2026-11-10.zip",
+    "source_sha256": "fbc64fe5f0283871f8201d9e2a75d7ae7a06381edf15b746c34f6b6a5f460eb0",
+    "rows": 1440,
+    "parsed_sha256": "7b5bcc5d5f9be652c3c3a567a2da4929f9b9de8f4faf2de5237180cc30bdd454"
+  },
+  {
+    "symbol": "ELSAUSDT",
+    "key": "data/futures/um/daily/klines/ELSAUSDT/1m/ELSAUSDT-1m-2026-11-03.zip",
+    "source_sha256": "195d9581fc75abdf16bcc48eef7ecb921cfec64dd6aecf5d2165639724bbcfb1",
+    "rows": 1440,
+    "parsed_sha256": "a5c758c83893f1fd3bf01c3f8f1b8f3de4815637303e12dd51d30f6cb0595ee7"
+  },
+  {
+    "symbol": "ELSAUSDT",
+    "key": "data/futures/um/daily/klines/ELSAUSDT/1m/ELSAUSDT-1m-2026-11-04.zip",
+    "source_sha256": "a8b34f7f2ee9b1c4eb8df6361711079ea6f37bff6b0159e91e6d6d6a7ace1f92",
+    "rows": 1440,
+    "parsed_sha256": "039300d85857969386ec749227e4db8973af2393d37aff7a8e86f376ccab5285"
+  },
+  {
+    "symbol": "ELSAUSDT",
+    "key": "data/futures/um/daily/klines/ELSAUSDT/1m/ELSAUSDT-1m-2026-11-05.zip",
+    "source_sha256": "8dd038d74c7176e6dda60a7eabdfac53e33eda1690ec539c4e90c594e9d43e96",
+    "rows": 1440,
+    "parsed_sha256": "e39f10d8890c5c5d6b312cb8cafc15c197f246f0a655bc70bf42a9f671a4b9ad"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-04.zip",
+    "source_sha256": "0f8aa179bf16a44a58db13324124dbc41b49ef8ea0a6e2163a70c9e6f0d086e0",
+    "rows": 1440,
+    "parsed_sha256": "0e721507b0b77f88f9f77280cba4af171836d106374f41aa51549a2edd3e7516"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-05.zip",
+    "source_sha256": "b9dad8d6308a1a2e66e508390b15b0fa350d126ee9a4b94b9d6deab00d26be83",
+    "rows": 1440,
+    "parsed_sha256": "4fb1aee47441ceb10da0d142b0c4737651ebe636c658bf691c318dbb7df1fe0e"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-07.zip",
+    "source_sha256": "21c562406e599b212eae4b59bea00c63ff8784f6861e0ce1cf6111143bbb86f4",
+    "rows": 1440,
+    "parsed_sha256": "959b774edee695885733ad2a59cc9e800afeb6eb754a02418114823c458cc39e"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-08.zip",
+    "source_sha256": "60d3a9ed58c0ea42ba37d88ff60e54179d246f616e35d934a692ab0c02f18354",
+    "rows": 1440,
+    "parsed_sha256": "ed727dbb83f30320f93b867bfc5f88f2d7622e60e2af7ef36643df3a06ef77c9"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-09.zip",
+    "source_sha256": "db9789547b9b72877bebefc951ab04cd62d0eca994cd9240ec7c60dab626ac0a",
+    "rows": 1440,
+    "parsed_sha256": "612e7a4fcbba44cd4ff72456fccc07a9af1c0d22597419b2cc997f1b55746ca6"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "key": "data/futures/um/daily/klines/ENAUSDT/1m/ENAUSDT-1m-2026-11-10.zip",
+    "source_sha256": "e57b583133f150be06f35456b0e3a6fa91967eff6f068fe0a4ef5e6a8eacb0f6",
+    "rows": 1440,
+    "parsed_sha256": "428a634cf136b555fb3bf73df91c08d5ceaf02ad3eb192bcd001ebb04bcf7486"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-10-31.zip",
+    "source_sha256": "deb39e674e4a4f4339263e73926af7b4dd82d71b1704cf5befb69498e24f749d",
+    "rows": 1440,
+    "parsed_sha256": "3a4f5cdc94b91961772aafda5337aaaedafa7f8c15a53894932d039884c9d1d8"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-01.zip",
+    "source_sha256": "7094cd0a7356c1688d1bb9f5852abdb723eb69e0c2056bbf4a36a004d70659e2",
+    "rows": 1440,
+    "parsed_sha256": "0e62f8eca1c9cb308b36f2be6ea65e1fe79b8fe4bedff6e25a93251fa2ab4734"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-02.zip",
+    "source_sha256": "e51257165ef46db1a022ca273ea6b693ead421ec53f0b5143e91072979e0a9cc",
+    "rows": 1440,
+    "parsed_sha256": "393984b442747db8db0466a9b7b021efddf97a51e514174819fa76fbceb51842"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-03.zip",
+    "source_sha256": "76b97b5c3fc3cc84fd94bde3072e318e1e0d8dae6844cd1935e62e7f613cd8d8",
+    "rows": 1440,
+    "parsed_sha256": "0afcf6eb0bc9e9494d07cc5b0d7df3df935b932e9a5a089bd5cc86496791f5de"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-04.zip",
+    "source_sha256": "fac9444f64f50a3bbb60b95603c58f9c22592b36b5411cc8f9f20b885fce186e",
+    "rows": 1440,
+    "parsed_sha256": "f6804c56c62dfa75f61c79db81f87906eb9283b35d4bd43c1732ba8c47e6527f"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-05.zip",
+    "source_sha256": "69cbf58c51e24bc9c3c6187e965e65bb9d4d43a51f4113b5fc113ffdaa5df579",
+    "rows": 1440,
+    "parsed_sha256": "a6923009def0d7d306cc0db220cc5dec3f79e1aeaa7543c9e1a21189cc7daa1d"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-06.zip",
+    "source_sha256": "b936820299952b4cf9359053345f7f94e7d1c71787eafb08451de5f5dc206a44",
+    "rows": 1440,
+    "parsed_sha256": "94a1d9237891127715665bd82f4744b8b96ed784563a3f1eaef59b754f44d3f5"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "key": "data/futures/um/daily/klines/ESPORTSUSDT/1m/ESPORTSUSDT-1m-2026-11-07.zip",
+    "source_sha256": "207eacb8a4da88de4651381af437c67bf7047e0a88937f16d5440bfba5be32fc",
+    "rows": 1440,
+    "parsed_sha256": "a555d6350c4162e19d6153d16527d7b3d81f8149227c205fd8c7c47d8e64b2d0"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "key": "data/futures/um/daily/klines/ETHUSDT/1m/ETHUSDT-1m-2026-11-07.zip",
+    "source_sha256": "15719758b71ac8abec73d77f99978309ebd5d18485bdd13eaa9654c9f7fdd209",
+    "rows": 1440,
+    "parsed_sha256": "16d505a1e27377d33e6b870a4e16c19e467c934beb8fb08493a787299eb5cefe"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "key": "data/futures/um/daily/klines/ETHUSDT/1m/ETHUSDT-1m-2026-11-08.zip",
+    "source_sha256": "2e75368504cd57ab1a1a37f662ab3b16d5559b92735dd59dacd20a3e3f931bc3",
+    "rows": 1440,
+    "parsed_sha256": "fa9da38a1b66ba1b29f34c2ef574c50df611f2cb0f96b10ea1ffaad160c695d0"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "key": "data/futures/um/daily/klines/ETHUSDT/1m/ETHUSDT-1m-2026-11-09.zip",
+    "source_sha256": "05fa56232812e3c5f2384547c2d62b5a85e936de761b80f1c874e6f9068efd46",
+    "rows": 1440,
+    "parsed_sha256": "755fccd3bcb1a6fb712041a7fd08796a3ce58af215a7f02a0d16c7ef403ccd04"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "key": "data/futures/um/daily/klines/ETHUSDT/1m/ETHUSDT-1m-2026-11-10.zip",
+    "source_sha256": "8ea4fd1f531c130650a4a6ed77081b2f32ddd5059ddb81a62fa767d9683eb217",
+    "rows": 1440,
+    "parsed_sha256": "2874e3579993f680f5e43fe734614c7e6206339e419ca1d806b609dc1ec131ae"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-10-31.zip",
+    "source_sha256": "86f65698557c518444a97df400f5f0d12f281381f900021dfd1bfea75915d37f",
+    "rows": 1440,
+    "parsed_sha256": "11f86768c48d9f2c6aeddda1100fd8a96748723b4a75fe50d1549a7609c80a40"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-01.zip",
+    "source_sha256": "85da6dce5bf51ddfb61112a69f923a9fd38e5e1babef2279e60279f7319f753c",
+    "rows": 1440,
+    "parsed_sha256": "f870dc8071c3c424f3c5a0f601041bb7516eaa1be518bdc9927a33dad179bae5"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-02.zip",
+    "source_sha256": "0246b1dab7c56879fddd578ec6d038e423b69651b1f86c4cf1920a2674fc4860",
+    "rows": 1440,
+    "parsed_sha256": "81e99562e52f87cce4f0a855f84435e02b491688817b0b1c036705399395795e"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-13.zip",
+    "source_sha256": "33dc692c6f4f6a0d6ee5daf703f1921e4af95f0943c98ec040c203852a815f44",
+    "rows": 1440,
+    "parsed_sha256": "8adf2ebbb380c39739e7c2c0b8276270d9a773e9098684308fa6feee0bcb6268"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-14.zip",
+    "source_sha256": "47811a484c6235d9e3a14d57ffdbb817cb94dedc19529ae4a1dbe6474e3ebfd3",
+    "rows": 1440,
+    "parsed_sha256": "7a9949d919ad77da21a423bef4700a3d9b1ed8d1f72ea3c66cee831700138659"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-15.zip",
+    "source_sha256": "fdac97e716951823c0fa17d6f0b85d8677968e358771b876e632870740f639cc",
+    "rows": 1440,
+    "parsed_sha256": "957962af2934aa71c7c5351bf3d3808262faf269166734d9deac1af903af6132"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "key": "data/futures/um/daily/klines/EVAAUSDT/1m/EVAAUSDT-1m-2026-11-16.zip",
+    "source_sha256": "1a564d8291fa9adcd2d0b393ca8fb72c8ea7bf0a727f5d2e907b386287f9eaca",
+    "rows": 1440,
+    "parsed_sha256": "3e8edd148dcb86af7591ce9039185e06c97a4234a12d5f87c9fb20dbc2e17b03"
+  },
+  {
+    "symbol": "FILUSDT",
+    "key": "data/futures/um/daily/klines/FILUSDT/1m/FILUSDT-1m-2026-11-07.zip",
+    "source_sha256": "e51d900d3c5246d449565dfe246e4dad716065539b15e124d8c201e261418efe",
+    "rows": 1440,
+    "parsed_sha256": "6278c7a7b70cc8308c679fef1579b26049f1460e46eea3b544869a9865578e6a"
+  },
+  {
+    "symbol": "FILUSDT",
+    "key": "data/futures/um/daily/klines/FILUSDT/1m/FILUSDT-1m-2026-11-08.zip",
+    "source_sha256": "9b3f6ded7986e982fa9f89424ec4a0e4bfb1c86c13245facb4559dc40553e8a4",
+    "rows": 1440,
+    "parsed_sha256": "8c0566ca64cdacba05b1823c99e2bf8a81f1183847e25cdd03e9463b47c441cb"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "key": "data/futures/um/daily/klines/GTCUSDT/1m/GTCUSDT-1m-2026-11-02.zip",
+    "source_sha256": "f0bf316319eb620b3cc672fec44fe5a67f4317b649ebe73c0559abb98348d526",
+    "rows": 1440,
+    "parsed_sha256": "2170425e8ffcb6a6077e0073453774715e39dd164612f0adcf00332d4f957619"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "key": "data/futures/um/daily/klines/GTCUSDT/1m/GTCUSDT-1m-2026-11-03.zip",
+    "source_sha256": "87e97a13233b1b7c27caf34bbad39656ca26e2244ad32efcca26e79fcc7c5683",
+    "rows": 1440,
+    "parsed_sha256": "a37bfa4423f941c1b9620931e4bdc7414e6f7c6dce067aeb76559b6e24d7522d"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "key": "data/futures/um/daily/klines/GTCUSDT/1m/GTCUSDT-1m-2026-11-08.zip",
+    "source_sha256": "bfdce89f8a29c6cc4bfc6755ba7cd442f60f94d47b0b4069157fd60dd2dd3aea",
+    "rows": 1440,
+    "parsed_sha256": "0f0ff8b8dc9d6ac396f82bed93fb1487901f061ee33815586f15141b7683adda"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "key": "data/futures/um/daily/klines/GTCUSDT/1m/GTCUSDT-1m-2026-11-09.zip",
+    "source_sha256": "80e950a31109f2281fbcdb1df9459392ddcdab96608a6a2286a9d7745c7404eb",
+    "rows": 1440,
+    "parsed_sha256": "44a26dda996c0cc0752ec11037b8319de7e035143dd93d88de251bd5a1c762cd"
+  },
+  {
+    "symbol": "HANAUSDT",
+    "key": "data/futures/um/daily/klines/HANAUSDT/1m/HANAUSDT-1m-2026-11-09.zip",
+    "source_sha256": "e39fdb6d3a5eec516791408f01de198525eba0b30e328f477d1fecc6719c43b7",
+    "rows": 1440,
+    "parsed_sha256": "a828977e68fcf73073b598395e1a9f4f354070c75a5f5a962c431b0073ab4f6e"
+  },
+  {
+    "symbol": "HANAUSDT",
+    "key": "data/futures/um/daily/klines/HANAUSDT/1m/HANAUSDT-1m-2026-11-10.zip",
+    "source_sha256": "4db9ca3ff0c2d55baa4e1641348e16ece19da0b6a5459a2edf451783d8884742",
+    "rows": 1440,
+    "parsed_sha256": "8ece81b87cf6eb3e708073d7a28f7e76125afebd899f7eaa126ad8ba83fc933e"
+  },
+  {
+    "symbol": "HOTUSDT",
+    "key": "data/futures/um/daily/klines/HOTUSDT/1m/HOTUSDT-1m-2026-11-02.zip",
+    "source_sha256": "2aa6cea6e93f950d47e5c2edfd3465dddc0d0caa16b67d2f3e521a4bd94777ae",
+    "rows": 1440,
+    "parsed_sha256": "58260d3719020796cf808c93bd1396a14140320a12a661deab2e46e7f0f6cabd"
+  },
+  {
+    "symbol": "HOTUSDT",
+    "key": "data/futures/um/daily/klines/HOTUSDT/1m/HOTUSDT-1m-2026-11-03.zip",
+    "source_sha256": "fcd9e1798170ec5ed636f55c08a2675a35a1b5ae3b1d62d94f07db006cd6eeac",
+    "rows": 1440,
+    "parsed_sha256": "eb8268a50aaf3fed2a1f00a75d2c332db9934bd65dc971d1b22ce8f4289e17ee"
+  },
+  {
+    "symbol": "ICNTUSDT",
+    "key": "data/futures/um/daily/klines/ICNTUSDT/1m/ICNTUSDT-1m-2026-11-05.zip",
+    "source_sha256": "306246fcb56dbcccc5e0dbd851ef16d592f5fbb93571025a0f43b5591bd54919",
+    "rows": 1440,
+    "parsed_sha256": "02ea6b606c2a924910019263c40d9b520dc7accdc18f3324640e48a090783797"
+  },
+  {
+    "symbol": "ICNTUSDT",
+    "key": "data/futures/um/daily/klines/ICNTUSDT/1m/ICNTUSDT-1m-2026-11-06.zip",
+    "source_sha256": "7f07131cfce123b416f9c4b2724fc88c902649f7237b2ae6a2f85015d6b2c427",
+    "rows": 1440,
+    "parsed_sha256": "6310073f362da16218508dc4f4e4d72e940813f87b3b5495d1ab52a9163d5131"
+  },
+  {
+    "symbol": "ICNTUSDT",
+    "key": "data/futures/um/daily/klines/ICNTUSDT/1m/ICNTUSDT-1m-2026-11-07.zip",
+    "source_sha256": "0885bbaec5e5421938491e6c9a783f35eec8e7a1bc7921551f2ae1f4e23ab650",
+    "rows": 1440,
+    "parsed_sha256": "e1b6ec73430a27667667209d9a7c404160093f1ca8b7a7e42cdcf0e6f5879079"
+  },
+  {
+    "symbol": "IRYSUSDT",
+    "key": "data/futures/um/daily/klines/IRYSUSDT/1m/IRYSUSDT-1m-2026-11-07.zip",
+    "source_sha256": "a75dc644c598388362ee9bfe47df46607a2db4d20e504c9f33045fe061a486a1",
+    "rows": 1440,
+    "parsed_sha256": "b36f7f01d4f880e475a56f5137e94a0d9735b072bdfc23bd65dfd1f5d880d62d"
+  },
+  {
+    "symbol": "IRYSUSDT",
+    "key": "data/futures/um/daily/klines/IRYSUSDT/1m/IRYSUSDT-1m-2026-11-08.zip",
+    "source_sha256": "b486340592f7b22a8a8038d545e0649f0e5cc9aae566c9c952393ab0a86e44b8",
+    "rows": 1440,
+    "parsed_sha256": "9d2f8481e2d27309c6a29d51065a1971e6c00e2516bfe94e22de48a9c0ca43d1"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-10-31.zip",
+    "source_sha256": "2d894b17dff91bd2a149df8590c73bbf46b43040a4e772119f4124912074f65e",
+    "rows": 1440,
+    "parsed_sha256": "63ee71c7b679a0b774711e19ed7aed4f802c3761b0d61aa16baa696c373f2a80"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-01.zip",
+    "source_sha256": "49ec7725702dcac5c98d444ecf24ee1377598de3b8aace3246315694bec21ef2",
+    "rows": 1440,
+    "parsed_sha256": "504fb3c705c7bfbca171dbc6b946c4f75c1304953bb28152498065b7a68a25e7"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-02.zip",
+    "source_sha256": "b5233b676545d7da90faa4d6d638aa1d58e6fdd111d2e5a8be389bf13ab3da38",
+    "rows": 1440,
+    "parsed_sha256": "0dc56ddcc3a7f5cab30fb53216ba8f04bee29df40b985a13823a27cde5e0df11"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-03.zip",
+    "source_sha256": "415740d8d2ff20fbe514dcb695a34df45cf3001363b53e3a7ec2bd317e94611e",
+    "rows": 1440,
+    "parsed_sha256": "7ef17b3d725624d43efe7ae42dabe3fd4130aec69aaf5002d5d443b5e2ff042e"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-04.zip",
+    "source_sha256": "a8c31874d3baf353fd76cd6b9181664a7b258260153f0f2cbde973af88f233af",
+    "rows": 1440,
+    "parsed_sha256": "0b28bae6a65c54c603e5fc9f7998db36f435fe34ef43430967a3040e3ed2d3ad"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-05.zip",
+    "source_sha256": "be4b84ea82ff0612ad10fda0eaf7ad9634ad1101438ad5bef803f60de94053cd",
+    "rows": 1440,
+    "parsed_sha256": "38f0372d5d367015088427a3a0910f4019c8a02492683537a09069ac3750f65d"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-06.zip",
+    "source_sha256": "14172a1ee5a5139e75487e791761f611b3096d265a3ad66b0b5398eaeed496ba",
+    "rows": 1440,
+    "parsed_sha256": "fc0e25d5d65621889d1cf47da6c6526af26f5f56afd2b5af9ef49f11e48f1408"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-07.zip",
+    "source_sha256": "55e5800f7d1b80a40af95ae3eb7a1975dd3c8a71561125868b8826eac92a8aea",
+    "rows": 1440,
+    "parsed_sha256": "8aeab540115d454a9667f1aee68e13cf807f35daeeeaacc577f6ec9c1bd29edd"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-08.zip",
+    "source_sha256": "c724a18f5d1379ef8acc5532323f92503f38bc413505e1b63a17c21b7f77e18d",
+    "rows": 1440,
+    "parsed_sha256": "e1ccc973bfab59bb7b7310e3d25dc399e5e60801df688d1dac4269cf572e2342"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-09.zip",
+    "source_sha256": "e34288ea21c1a1e9c59d24a57e8a6f67a7c1517b84e50312188fae0ddf9f5a5f",
+    "rows": 1440,
+    "parsed_sha256": "3cd456505fea6bdb98fc04b6defc045bee8fd6f16d4f987da577bfe9297281d4"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-10.zip",
+    "source_sha256": "9099f8ce37421d313c550ac2f77a4260ce633ab598e244ef22bed4980f63535d",
+    "rows": 1440,
+    "parsed_sha256": "1819d4cb838f3c65362e9e8f01f05ed640ba2247d69a36b08e48152ac4bddad9"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-11.zip",
+    "source_sha256": "a0ba1000c55889faedba3f18d1bc3685faaa962bf4ade2e215b6cc5fde0b7f02",
+    "rows": 1440,
+    "parsed_sha256": "b46258bde5ca8f45364c8282fd6c8f554eb246981ffaf44155bd5a5afc35f619"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-12.zip",
+    "source_sha256": "c2ae9c02608993f0affa8abbed848a7a94efc84966787b3b11f8a172803c353e",
+    "rows": 1440,
+    "parsed_sha256": "126aea769224dccb44c441c0026308ec58108651848c07ac053c5eddf5fab432"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-13.zip",
+    "source_sha256": "008b49ca1d708daa10bb649b9e56ba72cdb6b452a1912d29bb4e206a3aa69efb",
+    "rows": 1440,
+    "parsed_sha256": "7fc8f49b5cb8cc6a6aaa1f3dfcb376c4e66a3559934af11a9e14cd2272a1f92d"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-14.zip",
+    "source_sha256": "5545c56c2065feefb61bece6c7252a65c4deb4e2f731ef3f4e0ada503b6f521b",
+    "rows": 1440,
+    "parsed_sha256": "6da88608cc53b52ef05d3dba704578b2cc3e3a9a31208ad8376d074bdaef9a28"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "key": "data/futures/um/daily/klines/JCTUSDT/1m/JCTUSDT-1m-2026-11-15.zip",
+    "source_sha256": "42a1a42fa91cf4b7a78bc0d63eac1728f53304d50fb7da52e35ab8afc62b7a41",
+    "rows": 1440,
+    "parsed_sha256": "7b49f0e049dc92696523f66a1dac6a4b6bb74ad059033343570f253972b93ee4"
+  },
+  {
+    "symbol": "KORUUSDT",
+    "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-04.zip",
+    "source_sha256": "f9cbacedfabc9f616a265dc947d60debe22f9e82c0212d2851fc87dab717009f",
+    "rows": 1440,
+    "parsed_sha256": "f43e53ef15ffb7c4581ef6dd00f9325e08ef272f423d8cb5996dfd574b4893eb"
+  },
+  {
+    "symbol": "KORUUSDT",
+    "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-05.zip",
+    "source_sha256": "8a952798bec037b1fa1acd67b7a56f67c41613c525ca5d9f3df8be1caafcad1b",
+    "rows": 1440,
+    "parsed_sha256": "a84722fe1d0f244135cd7925c5b49dc34dbd9ce942dba3fe221ab2ea6d5f6e48"
+  },
+  {
+    "symbol": "KORUUSDT",
+    "key": "data/futures/um/daily/klines/KORUUSDT/1m/KORUUSDT-1m-2026-11-06.zip",
+    "source_sha256": "347dfdfb8b295a7dadd8e48e9aa89739cf341ab0a7dd665204e3f36ec0b4aad9",
+    "rows": 1440,
+    "parsed_sha256": "b469210de2eaeb52a15aeaeaca47fc23d7273d2f6b716f8f0186bc8284f1ceed"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-10-31.zip",
+    "source_sha256": "f2301fab75380d532cbd9bce8aa9550e4c46752939861cd109d3978d66b1233e",
+    "rows": 1440,
+    "parsed_sha256": "3691fac1d98ead0a4342ae499b882234007f46fba2d436148499a27423bd2913"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-01.zip",
+    "source_sha256": "0efa56fe76cd6f037e7bf33a9bfd39d37207ba1e4e79e94d3338d8e59279e145",
+    "rows": 1440,
+    "parsed_sha256": "b6c2f0fd76bd5c3aae9d01adf2884397aacc05e6ef1ea678126439ef5bce00a5"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-02.zip",
+    "source_sha256": "9db90b3af9cdca4ec35dad12fab020ca7f907897d1f711437d903a6dd8b68515",
+    "rows": 1440,
+    "parsed_sha256": "f4233979e5261791fb0060882733339926bd43608074fe4d00058a1d3ac163a4"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-03.zip",
+    "source_sha256": "66befdd29ae1394a7aa798cb0578f1dd2870a50aa54fb2a4aa053623140f2a73",
+    "rows": 1440,
+    "parsed_sha256": "0559ff9b53c5613493289db3771a614d71ec3efecfb17a46d0daaf52a59ad24a"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-04.zip",
+    "source_sha256": "c62b3b44c2c6204564ef3d5d33cf389cfa52f00d5cde7d7155d1ee621846a0ab",
+    "rows": 1440,
+    "parsed_sha256": "bdc3290b9285da119676a211da7e35f4625f83f6f2214c33011d101ce488322b"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-05.zip",
+    "source_sha256": "abc65b7574a15a2ce716fd96367e6801a159283a6add974d1bee02d016956311",
+    "rows": 1440,
+    "parsed_sha256": "8cf45e22e07f6e9a00782a943f51f3cb2dd8cf188ced1ef82ad115023f0e1ebe"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-06.zip",
+    "source_sha256": "cfc5f6223b6e76ca240a758a86c1b9f9b531c8ed960f58d64a42c4d2733c4aac",
+    "rows": 1440,
+    "parsed_sha256": "f4b6a745f8515d72333d886768eed14c367a798926c84e8c40d92501e79b4c72"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-07.zip",
+    "source_sha256": "4fa2bc9190d58b4ea970eafa61ee3b07306202e24cd42c1f7687945ed0042c1f",
+    "rows": 1440,
+    "parsed_sha256": "1f4c3fe48c7c1eacfe3e1298d91a0fc4b28f84d7d960d9dfc08ad5d0e2d031ba"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-08.zip",
+    "source_sha256": "da120b150d5dcb33c69a14e2836b0ce21a7514d7f59fda48d71349cf936e496e",
+    "rows": 1440,
+    "parsed_sha256": "cb2c9a8cf0e9904ff61f296a604e33c5f4e54ccc9d2e9abd0ed15f5c21d572c4"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-09.zip",
+    "source_sha256": "b6d5e77f517feb6fe19ae50a43c4b0ed93b01b60fb687fb2da8ccd7ca8dbb920",
+    "rows": 1440,
+    "parsed_sha256": "7d30ea2e261e4a77648242a82fa0e6cb62ac08f1b36d85f4f1a533bff98ca69f"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-10.zip",
+    "source_sha256": "47c8093865155156d072e0e43218a8ca7ba1f6cf363c69f0e54467a5cff75916",
+    "rows": 1440,
+    "parsed_sha256": "b4b9b4bcf21d7caf2b1a3b64cc1af3b3ca43a13e7717fd6fb3626c3d173d1642"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-11.zip",
+    "source_sha256": "e733651f1a077f1b7159c8617b78d2403f17369521cf7e25d04b6af0eeb323e6",
+    "rows": 1440,
+    "parsed_sha256": "49c7505e210a5f1b63573a89359e808ca2093814897858bc89cf3b1e606298e8"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-12.zip",
+    "source_sha256": "c4ff9cd9686e49928816a0efaa0ec18730432fdcc3b45526e6ec361cca2f36b1",
+    "rows": 1440,
+    "parsed_sha256": "23c39ea818404f1817aa3c0e8048ed9c6012b09f600c9848ade8ac3363eefea5"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-13.zip",
+    "source_sha256": "a78d55e9fbbd6c8416692c64ad06072b4800b82474935e59b43966bbd209eb64",
+    "rows": 1440,
+    "parsed_sha256": "dd113a47ce480437fdbc17372b952906fb9a60b522ad5188a98b4c67d7a053da"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "key": "data/futures/um/daily/klines/LYNUSDT/1m/LYNUSDT-1m-2026-11-14.zip",
+    "source_sha256": "b50aadcced464a8d8717c206c5832bbe35f34e6665e7b77a3b1f2028c12cb777",
+    "rows": 1440,
+    "parsed_sha256": "2279bb0c8fa942cc38d03b73840431db932b72a56b6d9a0fa65538d97e3f279e"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-10-31.zip",
+    "source_sha256": "b15a5e03c1d81fbeb52dadbf7847bf6da089ed1684c5a341de613f374e1678d0",
+    "rows": 1440,
+    "parsed_sha256": "b6eecd639ded6fb4fe2e8af5614c9e6154eab6f87d8351a1e9b2db1a6a5bb3c9"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-01.zip",
+    "source_sha256": "5aeac43383ed288ad7dea3f0bea671a473f1817ab522f22f793b2af07a6dc019",
+    "rows": 1440,
+    "parsed_sha256": "eb13eed5109eb2404357b0bd195cfe48e69aaa88a33694046797fc90f0ad1ad1"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-04.zip",
+    "source_sha256": "22570233c54f0085d059f8fe8a6ead847fd7e7f2e5b7c236fb25aa6911091e30",
+    "rows": 1440,
+    "parsed_sha256": "55854355e9c955381ddb043d932035949abe169e3fc172f01b6740f40ed87388"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-05.zip",
+    "source_sha256": "093d69235de15e06661c274a8e10b55aef2fa0d17d9594bf459fccd8372fc608",
+    "rows": 1440,
+    "parsed_sha256": "4d820d9881d2a268afb003b523eb9b27daf27cb088628fcec7a1c8bbb9657c25"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-06.zip",
+    "source_sha256": "071a355af4830e53d6cfa6636462ad45e4f64db6b4a5917f8bb3506f95f13397",
+    "rows": 1440,
+    "parsed_sha256": "3b9fcdec4580021620baebe8400afe5ebfe80ad4a24b9b0d657c62fbec0ff7b3"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-11.zip",
+    "source_sha256": "0640df1b2816724c8460c93de087cfd835b025b626bf92ac8d7d294119498eb6",
+    "rows": 1440,
+    "parsed_sha256": "e6a80ec3091fa3e7b322813abeedbb88d62db069129448d5495eb175ae6ba67c"
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "key": "data/futures/um/daily/klines/MAGMAUSDT/1m/MAGMAUSDT-1m-2026-11-12.zip",
+    "source_sha256": "c59a6a55a6e20deeee8a1fb07eec09f670dc51b712e2dd681206faf74a67ff36",
+    "rows": 1440,
+    "parsed_sha256": "15201cc5a7dd97dc37cc8e89bf478df9390cd80ed01784fad56632f4548759af"
+  },
+  {
+    "symbol": "MARSCOINUSDT",
+    "key": "data/futures/um/daily/klines/MARSCOINUSDT/1m/MARSCOINUSDT-1m-2026-11-07.zip",
+    "source_sha256": "0ededd16e91307e234dd74c94d821df54edcb35654064539eff54ff662506294",
+    "rows": 1440,
+    "parsed_sha256": "2b2602b8a04194f757d206de3d0419434269c99504239b0afc4e251926660723"
+  },
+  {
+    "symbol": "MARSCOINUSDT",
+    "key": "data/futures/um/daily/klines/MARSCOINUSDT/1m/MARSCOINUSDT-1m-2026-11-08.zip",
+    "source_sha256": "9597997de3657a94d66d8264d23e97119df977a4172840ae823a065898d60bcb",
+    "rows": 1440,
+    "parsed_sha256": "db50845bd8bd2734b51dc68830f968d77a02147f3042665b8e736ca21a71ce34"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "key": "data/futures/um/daily/klines/ONEUSDT/1m/ONEUSDT-1m-2026-11-06.zip",
+    "source_sha256": "b0166f6e8e5778731c4cd3318f53248f938c3a2a65a83865bb6696c1a1771c1c",
+    "rows": 1440,
+    "parsed_sha256": "544539e02026e0e0b3113abf9fbbe32ffc6e016b9cdffa5a19d8260eae87cd89"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "key": "data/futures/um/daily/klines/ONEUSDT/1m/ONEUSDT-1m-2026-11-07.zip",
+    "source_sha256": "1752c66153e85fa2bd064b95381a20204d343d9868376f1a11e7cca99e4f06ea",
+    "rows": 1440,
+    "parsed_sha256": "212518e9a6682d7e968ca37ef3abc734a5b08feadf02d5c4aac2d77f9d8dff9d"
+  },
+  {
+    "symbol": "ONUSDT",
+    "key": "data/futures/um/daily/klines/ONUSDT/1m/ONUSDT-1m-2026-11-07.zip",
+    "source_sha256": "e881c96e0b0a67b675a5398830b62e271890ef26c9c5779e5d7722778d5774f4",
+    "rows": 1440,
+    "parsed_sha256": "98d93cf48309584d30e18efb50dac510233da46319c4c2deeb77e9c341185d7a"
+  },
+  {
+    "symbol": "ONUSDT",
+    "key": "data/futures/um/daily/klines/ONUSDT/1m/ONUSDT-1m-2026-11-08.zip",
+    "source_sha256": "840b5b0100c105f7dad3c5a432d0f9539f38f3534fb238cccd860eac9f86a273",
+    "rows": 1440,
+    "parsed_sha256": "fdf135db629cffd3343c310924dddbe74718668c43757940bf35aa6fce968f3c"
+  },
+  {
+    "symbol": "ONUSDT",
+    "key": "data/futures/um/daily/klines/ONUSDT/1m/ONUSDT-1m-2026-11-09.zip",
+    "source_sha256": "e05f35633ddfe56a7a60956969793dfd3cc51691214bb83798d123575fde6480",
+    "rows": 1440,
+    "parsed_sha256": "8eac9d70503a1733023d51c16471c0208419a9e3567be282ced4bb0f5dc3c5e4"
+  },
+  {
+    "symbol": "ONUSDT",
+    "key": "data/futures/um/daily/klines/ONUSDT/1m/ONUSDT-1m-2026-11-10.zip",
+    "source_sha256": "73784a13b10c74a1cf4fa86168e4b3f242d1ddc64d08c68699774334b034e4da",
+    "rows": 1440,
+    "parsed_sha256": "a111ef2680f57a31454037e38688d3b988ff77072ab2a723a0586063f468842e"
+  },
+  {
+    "symbol": "QNTUSDT",
+    "key": "data/futures/um/daily/klines/QNTUSDT/1m/QNTUSDT-1m-2026-11-03.zip",
+    "source_sha256": "50da1e0344c251b722fda957de5f0333679cdf810a25a9d1e2e52ec72cffccc1",
+    "rows": 1440,
+    "parsed_sha256": "99dfe1900a60a5f7d14d89c12a683477dbc49de142ea367393d844d295ed8dac"
+  },
+  {
+    "symbol": "QNTUSDT",
+    "key": "data/futures/um/daily/klines/QNTUSDT/1m/QNTUSDT-1m-2026-11-04.zip",
+    "source_sha256": "42c64062ce5dccd288b099cb9d7927a953c38dfa5a28dc824bd091b6a6de1b6c",
+    "rows": 1440,
+    "parsed_sha256": "9b7a4dfd798026e39225ee7376c6612fa43a038cdf11048e8feba0334ef3cfc0"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-10-31.zip",
+    "source_sha256": "758be64902ac95daf890bce5384e656438560b0029741ad1fd0fb0a3fa031c35",
+    "rows": 1440,
+    "parsed_sha256": "1cb7faf69d2b46bcd1e998e55c5105e077e6f6af763165e35469ef5c557ca4ea"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-01.zip",
+    "source_sha256": "b93fa1c1cdd2abc991c785bfb247a1e5a893fca5a2e3f93a06b38eb27079fc80",
+    "rows": 1440,
+    "parsed_sha256": "ea3b111b5e15a431e3ec8e3332b6b6cbd633a897901463151b854135470198d8"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-02.zip",
+    "source_sha256": "b37a15f686c62756dfab43099f8631c6d516b503fca4eb6580df836215483d3d",
+    "rows": 1440,
+    "parsed_sha256": "bf42b6b14fcde80f4c499657dd7d950be3ea7f38195737238000e9c1f9cab7ed"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-03.zip",
+    "source_sha256": "9a91be737fd0e117311603a90be2009bd37fd896697c3e9d96159a909ec1bf52",
+    "rows": 1440,
+    "parsed_sha256": "a4046a1a7e12bcfed22233e695222eda84cd3ef7410b463a4aaf6211772fe568"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-04.zip",
+    "source_sha256": "5f2f3a05ace3c52c49718e941c97bead8e8a03304cdf37a8b8a41681e40ee6b3",
+    "rows": 1440,
+    "parsed_sha256": "bc78e80ce383f40077a36cf77875369cb92456c35c141a333bd379069d435bd1"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-07.zip",
+    "source_sha256": "a2b6c68aa53c32f903a8e6be1e706a88799a4d760ebd75cf99b1a0d657c63e08",
+    "rows": 1440,
+    "parsed_sha256": "a5203b14105d62eacd5d8d6d3aa7e43a7360fa3fa2333185339cb98192b12659"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-08.zip",
+    "source_sha256": "dc05eddfc80787e37a94d74a4285d53d2ea232bd326505d8f976d1175905e8dd",
+    "rows": 1440,
+    "parsed_sha256": "6dd3e424b44278d3cacea153f0e53a84fb624370975152f52647f90bb91eb95c"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-09.zip",
+    "source_sha256": "e14582020fe13061a88feeebcc955cab544054a0c505de5f0ffd9db3ea73d1ec",
+    "rows": 1440,
+    "parsed_sha256": "cf38830c16353bec5003bc0db837214dbb02d5e34222ef1015b083603f0a5370"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-10.zip",
+    "source_sha256": "4ef1eb9d0877437298896e7df777850b07123886b69ca46a34234b3ce1d66a1f",
+    "rows": 1440,
+    "parsed_sha256": "23d758d4655c58c23f4b6ee58222cf8d1446bece29877a2ba7eb56279b6787f3"
+  },
+  {
+    "symbol": "QUSDT",
+    "key": "data/futures/um/daily/klines/QUSDT/1m/QUSDT-1m-2026-11-11.zip",
+    "source_sha256": "4ca736e7222709d69d9d72a9c6e11e1379a84e25387e6a8103e0e19c403cd2a2",
+    "rows": 1440,
+    "parsed_sha256": "a2f9a76a6925d35a381d6ee05f2ec37eacb6d866e768ae282f7fe81a5a9cfb72"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "key": "data/futures/um/daily/klines/SEIUSDT/1m/SEIUSDT-1m-2026-11-07.zip",
+    "source_sha256": "5fd53a24c0faa7a6961848fef6719d40af9d525cda923d36256e36ecada5df8a",
+    "rows": 1440,
+    "parsed_sha256": "051b271d4488038f18c2d615dcccfeddbb46e28e9c343d35f1ac36aeb684557b"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "key": "data/futures/um/daily/klines/SEIUSDT/1m/SEIUSDT-1m-2026-11-08.zip",
+    "source_sha256": "58018be3839064e6c3d3d34261bb0a1cb703267038966a8bea7ded281d9984f7",
+    "rows": 1440,
+    "parsed_sha256": "e9c9434f51bf83295d9fd142eb20f62a15f9c6a364bc14485675e7319bd4bfaf"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "key": "data/futures/um/daily/klines/SOLUSDT/1m/SOLUSDT-1m-2026-11-09.zip",
+    "source_sha256": "bf1bb0afe934572e768fb4a2cd9d3b2aa4804da6ab60f4c278a35e8f4581bded",
+    "rows": 1440,
+    "parsed_sha256": "026fff05f3cd519a1099f00a6b78ee7387f60895aa564659981558dbc497b42a"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "key": "data/futures/um/daily/klines/SOLUSDT/1m/SOLUSDT-1m-2026-11-10.zip",
+    "source_sha256": "1f4ab6883ec1fb688b476d276df058f06767ef4c4f2bdb8724f36b6a6f3c7b7f",
+    "rows": 1440,
+    "parsed_sha256": "1e66380710ea7409008ce802a592366efdd61e5977a29c49cda6e490d16c0874"
+  },
+  {
+    "symbol": "SOPHUSDT",
+    "key": "data/futures/um/daily/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-11-09.zip",
+    "source_sha256": "b47f580c7b81e6e3aa8e1cdb97b24ac2682c3fdebc7537d72f06c43ceae6b27e",
+    "rows": 1440,
+    "parsed_sha256": "7e19eacb42a81fe588b742aeadca35d5c09d00ea378195c94bbbf7005f1b04ae"
+  },
+  {
+    "symbol": "SOPHUSDT",
+    "key": "data/futures/um/daily/klines/SOPHUSDT/1m/SOPHUSDT-1m-2026-11-10.zip",
+    "source_sha256": "07a95f9524b39fec133ed4423d1a2ecca7f32fb17fcef23fbefa840923d89331",
+    "rows": 1440,
+    "parsed_sha256": "dd124a7371fde134c76ff529d3abf885c6bd9a1c76bbd1e3212d6c4f38275943"
+  },
+  {
+    "symbol": "SOXSUSDT",
+    "key": "data/futures/um/daily/klines/SOXSUSDT/1m/SOXSUSDT-1m-2026-11-05.zip",
+    "source_sha256": "41cfe706b8630759e21324a608a7a0afa3d2a19a6c3d46e7595bf21ea306968a",
+    "rows": 1440,
+    "parsed_sha256": "68aa94c3f58f03344c2a744113d1ad93bfb160901b401d71899fde50eda0f3f6"
+  },
+  {
+    "symbol": "SOXSUSDT",
+    "key": "data/futures/um/daily/klines/SOXSUSDT/1m/SOXSUSDT-1m-2026-11-06.zip",
+    "source_sha256": "81015e396491a8feda5d7de5e051498bb34f8ca58cdea9e8bb8377111082996d",
+    "rows": 1440,
+    "parsed_sha256": "74d14654a29ce23e39f0ee6339f1f3237f8b821e8af26cf1300928419792612e"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-10-31.zip",
+    "source_sha256": "0656fff5ff09b643e5d5515c80626cc4fcc03fd933cadcdde51f580528c3dedd",
+    "rows": 1440,
+    "parsed_sha256": "c5cedf75e458551f230415269501c39192d1510da025c218636aad1b2166f190"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-01.zip",
+    "source_sha256": "7c43b88ec769eb5791e98d9b216e9e636a7b12121c6376b2d0e73453163fd54a",
+    "rows": 1440,
+    "parsed_sha256": "85feb83926d7bcdbf7cf778d69d0037cedebe32f9ebe6c4e7990ba7d117e0373"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-02.zip",
+    "source_sha256": "8dc70f2e8f3bfbe89e9cf3441572241f1e11cbe78b604361e270a2d49c038345",
+    "rows": 1440,
+    "parsed_sha256": "201dea9ce960bd37c7cbc3d9c8d1e602eb5bc2a7162bdc793569e59a9e6b1962"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-03.zip",
+    "source_sha256": "3aa4957f3dedf83398dcc5a5789e5939a00ec300d028325949fccfd163507aad",
+    "rows": 1440,
+    "parsed_sha256": "dca14d4fe3e8ca29cc6d7a457d9a2dbd9cd5a98f0eed7821e75fb56113576426"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-04.zip",
+    "source_sha256": "7723da9afc929d5d915aa4aeb24b8f029cedb9ce7372851438cee4ac3f74e0a2",
+    "rows": 1440,
+    "parsed_sha256": "4d99a2b17d198ca9ef3cdb788729d8a2853171fc038243ca2babcdc757a273ea"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-05.zip",
+    "source_sha256": "90135bc901931c587f246bd59fecaed9b4e2827e439039a57470718011994950",
+    "rows": 1440,
+    "parsed_sha256": "bee473965a746c2734297bb086ec1f109519393e3f5ad9248336e161cfc50680"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-06.zip",
+    "source_sha256": "450f9f88f4b2c69469d69ece3f91ce18a0e3c67963dc849fe4a7d8cf5fce497c",
+    "rows": 1440,
+    "parsed_sha256": "ad96a25035c989a1bdd39b20357f8da8b1a364350506fae26e7131bca2763e0a"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-07.zip",
+    "source_sha256": "94a2275b69b1de7134fa1be63bc440da447d092903b58611301e2f0b74a26955",
+    "rows": 1440,
+    "parsed_sha256": "9de09f43fbbac9f4708cab8b1328207bcedb97c14c67b56d2afc0f83a25cc703"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-08.zip",
+    "source_sha256": "3acab50a407b3d9cc1b2323da33f8917fb2c2dab795d8f8fc7a5bb3f6b5733a0",
+    "rows": 1440,
+    "parsed_sha256": "33b4d219ba22f5ada75650964dd51a678fd49b73f992afacf444a3c1e8f864d7"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-09.zip",
+    "source_sha256": "187da53dbd7bda68311471e4fe8df53251c0a5e4b9a25a58ddbcde378924d0c8",
+    "rows": 1440,
+    "parsed_sha256": "6f98a7f5984b1f2923ecd804bc5c4ed30d3862c7e4a9311971dfaafebceb12e0"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-10.zip",
+    "source_sha256": "9caced6062cd982ad81ccab60dcefe33edaca58e3164ec8931d09d04fff5df8b",
+    "rows": 1440,
+    "parsed_sha256": "ebd30d5626dd0e66840ea2804a7d2d684ef80e5e2694a5442ff9b01fe2692197"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-11.zip",
+    "source_sha256": "f08b8f2b216d4eb9adaf316e873a2e88a82d3f953b058ccb453c2893e52dca64",
+    "rows": 1440,
+    "parsed_sha256": "a040a3882aecf86fb4b6898228c8632109acbd28f82ac3d8381f6aa8121faab4"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-13.zip",
+    "source_sha256": "2641aecf523eda6d5f4fd58e1924ed2647fa3a823569084d688c01456f3a2666",
+    "rows": 1440,
+    "parsed_sha256": "4da64e9f8567f7361aa6aaffb0969267fce826d040f585dbfdcddaf2aba2ea8d"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "key": "data/futures/um/daily/klines/UAIUSDT/1m/UAIUSDT-1m-2026-11-14.zip",
+    "source_sha256": "989ae8a67760be2178c3880bdc392fcadd5fbb2b2ac34d81634f805598c14144",
+    "rows": 1440,
+    "parsed_sha256": "30c68e2811487e3d316274b2531713ec9ef6751bf1c8615ec0798f9611a5d237"
+  }
+]
