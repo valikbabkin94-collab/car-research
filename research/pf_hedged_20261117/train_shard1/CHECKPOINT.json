@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "phase": "train",
+  "shard": 1,
+  "code_sha": "9e2eda3048cb76fab3ed6caf4038bb88955c9bfa",
+  "rows": 1134,
+  "baseline_rows": 189,
+  "source_run": 44171887648,
+  "short_parameters_changed": false,
+  "live_changes": 0
+}
