@@ -1,0 +1,40 @@
+{
+  "status": "REUSED_SAVED_RESULTS_NOT_NEW_MINUTE_REPLAY",
+  "rule": [
+    [
+      "volatility_30d_pct",
+      "le",
+      3.3569653056922872
+    ],
+    [
+      "atr14_1h_pct",
+      "le",
+      0.9425751536145069
+    ]
+  ],
+  "semantics": "Skip only known rows matching both conditions; missing features retain original trade. Published kept_R excludes missing feature rows, so it is not whole policy mean.",
+  "parts": {
+    "search": {
+      "original_n": 1354,
+      "skipped_n": 299,
+      "retained_known_n": 803,
+      "retained_unknown_features_n": 252,
+      "policy_retained_n": 1055,
+      "original_netR": -95.1813200472664,
+      "saved_skip_gain_R": 68.67623569852846,
+      "derived_policy_netR": -26.505084348737938,
+      "meanR_on_retained_known": -0.07260848873342765
+    },
+    "validation": {
+      "original_n": 909,
+      "skipped_n": 206,
+      "retained_known_n": 610,
+      "retained_unknown_features_n": 93,
+      "policy_retained_n": 703,
+      "original_netR": -49.754923580546006,
+      "saved_skip_gain_R": 46.22099456457696,
+      "derived_policy_netR": -3.5339290159690435,
+      "meanR_on_retained_known": -0.010709833423964164
+    }
+  }
+}
