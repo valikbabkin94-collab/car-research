@@ -25,5 +25,138 @@
   "conclusion": "мало данных для достоверного результата реальной торговли автора",
   "conditional_T1_model": "в минусе",
   "code_sha": "cd0dd3a7b6eefb746f65f3dd7a1777619b47bd3f",
-  "no_live_changes": true
+  "no_live_changes": true,
+  "final_report": "OTCHET_SPECULANTKA_PART1_RU.md",
+  "verification": "RESULTS/VERIFICATION.json",
+  "source_jobs_done": 793,
+  "source_jobs_total": 793,
+  "raw_author_profitability": "INCONCLUSIVE",
+  "actual_rows": 1845,
+  "random_rows": 1845,
+  "claim_summary": {
+    "report_rows": 984,
+    "status_counts": {
+      "PRICE_WINDOW_AVAILABLE_NOT_AUTHOR_FILL_PROOF": 455,
+      "UNLINKED_OR_AGGREGATE": 494,
+      "PROMOTIONAL_OR_PROJECTION_NOT_A_TRADE_REPORT": 25,
+      "REPORT_BEFORE_MODEL_ENTRY": 1,
+      "нет данных": 9
+    },
+    "price_window_rows": 455,
+    "conditional_leverage_percent_comparisons": 290,
+    "outside_conditional_envelope": 134,
+    "median_claim_minus_price_at_report_pp_if_ROI": 1.9447638798764966,
+    "not_verified_author_pnl": true,
+    "PF": {
+      "ANNUAL_NATIVE_5M_BE_ALIGNED": {
+        "matches": 63,
+        "distinct_signals": 54,
+        "entry_comparisons": 56,
+        "higher_short_entry_n": 30,
+        "median_entry_delta_pct": 0.14520815090972583
+      },
+      "RECENT_BINANCE_1M_H2": {
+        "matches": 12,
+        "distinct_signals": 12,
+        "entry_comparisons": 11,
+        "higher_short_entry_n": 5,
+        "median_entry_delta_pct": -0.1264188443158787
+      },
+      "RECENT_BINANCE_1M_TRAIN": {
+        "matches": 16,
+        "distinct_signals": 13,
+        "entry_comparisons": 15,
+        "higher_short_entry_n": 10,
+        "median_entry_delta_pct": 2.757949540970217
+      }
+    }
+  },
+  "known_models": [
+    {
+      "policy": "T1",
+      "n": 600,
+      "WR": 64.83333333333333,
+      "PF": 0.7128206006794956,
+      "netR": -52.61967275735417,
+      "USD_at_5R": -263.09836378677085,
+      "maxDD_R": 53.31518236024131,
+      "top3_share_net": null,
+      "funding_unknown_n": 136,
+      "netR_adverse": -52.79548340087111,
+      "netR_favourable": -52.44386211383717,
+      "statuses": {
+        "CLOSED": 600,
+        "нет данных": 13,
+        "UNRESOLVED_GRID_RANGE": 1,
+        "NOFILL": 1
+      }
+    },
+    {
+      "policy": "T2",
+      "n": 594,
+      "WR": 46.63299663299663,
+      "PF": 0.8127166470474413,
+      "netR": -56.85507442731689,
+      "USD_at_5R": -284.27537213658445,
+      "maxDD_R": 71.7501576624314,
+      "top3_share_net": null,
+      "funding_unknown_n": 136,
+      "netR_adverse": -57.393269876951884,
+      "netR_favourable": -56.3168789776817,
+      "statuses": {
+        "CLOSED": 594,
+        "REJECTED_INVALID_TARGETS": 4,
+        "нет данных": 16,
+        "NOFILL": 1
+      }
+    },
+    {
+      "policy": "T3",
+      "n": 600,
+      "WR": 68.0,
+      "PF": 0.7004069069232106,
+      "netR": -58.41766762809067,
+      "USD_at_5R": -292.08833814045335,
+      "maxDD_R": 59.96110892479876,
+      "top3_share_net": null,
+      "funding_unknown_n": 136,
+      "netR_adverse": -58.66746822332876,
+      "netR_favourable": -58.16786703285254,
+      "statuses": {
+        "CLOSED": 600,
+        "нет данных": 14,
+        "NOFILL": 1
+      }
+    }
+  ],
+  "publication_status": "COMPLETE_WITH_DISCLOSED_SOURCE_AND_IDENTIFIABILITY_GAPS",
+  "T1_model_closed_fraction": 0.975609756097561,
+  "T1_identified_fraction_definition": "Legacy field means model closure coverage only; not actual author-account identification.",
+  "author_action_attribution": {
+    "source_job_statuses": {
+      "OK": 748,
+      "DATA_GAP": 45
+    },
+    "T1_author_close_or_partial_trades": 104,
+    "T1_exit_events": {
+      "TP1": 368,
+      "AUTHOR_CLOSE": 89,
+      "TP2": 164,
+      "TP3": 90,
+      "BE": 236,
+      "AUTHOR_PARTIAL": 16,
+      "SL": 165,
+      "TIME": 12
+    }
+  },
+  "model_decisions": {
+    "T1": "REJECTED_UNDER_FROZEN_POLICY",
+    "T2": "REJECTED_UNDER_FROZEN_POLICY",
+    "T3": "REJECTED_UNDER_FROZEN_POLICY"
+  },
+  "BH9_all_q_one": true,
+  "postprocessing_changes": "Readable report, derived accounting/source/claim diagnostics only; no classifier, execution rules or trades changed after outcomes.",
+  "source_asof_code_commit": "cd0dd3a7b6eefb746f65f3dd7a1777619b47bd3f",
+  "raw_result_commit": "72b9550",
+  "classifier_reproduction": "PASS: all signal records identical; ambiguous non-signal coin_candidates canonicalized; frozen files not overwritten"
 }

@@ -1,0 +1,23 @@
+[
+  {
+    "policy": "T1",
+    "top3_R": 2.4531018568691785,
+    "top3_fraction_of_gross_profit": 0.018781941291287383,
+    "netR_without_top3": -55.07277461422335,
+    "status": "REJECTED_UNDER_FROZEN_POLICY"
+  },
+  {
+    "policy": "T2",
+    "top3_R": 4.618627222858788,
+    "top3_fraction_of_gross_profit": 0.018719907524853727,
+    "netR_without_top3": -61.473701650175684,
+    "status": "REJECTED_UNDER_FROZEN_POLICY"
+  },
+  {
+    "policy": "T3",
+    "top3_R": 1.8592212194567117,
+    "top3_fraction_of_gross_profit": 0.013613450939745838,
+    "netR_without_top3": -60.27688884754738,
+    "status": "REJECTED_UNDER_FROZEN_POLICY"
+  }
+]

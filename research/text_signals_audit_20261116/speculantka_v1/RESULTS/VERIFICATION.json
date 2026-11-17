@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "actual_rows": 1845,
+  "random_rows": 1845,
+  "signals": 615,
+  "pre_pnl_hashes_verified": true,
+  "trade_fraction_and_chronology_checks": true,
+  "source_jobs_done": 793,
+  "source_jobs_total": 793,
+  "closed_statuses": [
+    {
+      "CLOSED": 600,
+      "нет данных": 13,
+      "UNRESOLVED_GRID_RANGE": 1,
+      "NOFILL": 1
+    },
+    {
+      "CLOSED": 594,
+      "REJECTED_INVALID_TARGETS": 4,
+      "нет данных": 16,
+      "NOFILL": 1
+    },
+    {
+      "CLOSED": 600,
+      "нет данных": 14,
+      "NOFILL": 1
+    }
+  ],
+  "note": "These are bookkeeping/integrity checks; not independent methodological approval."
+}

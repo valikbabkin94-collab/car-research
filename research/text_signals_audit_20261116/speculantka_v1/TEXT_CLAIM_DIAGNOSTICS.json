@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "post_key": "f5004bd8eb13f540df5e91b1e134115dfcecc0824e69c877d09f5a39dfa2cdbd",
+      "symbol": "MTLUSDT",
+      "pub": 1736679848000,
+      "label": "UPDATE",
+      "flag": "NEGATIVE_DOLLAR_TEXT_WITH_POSITIVE_PERCENT",
+      "claimed_percentages": [
+        50.0,
+        -70.04
+      ],
+      "note": "Possible inconsistent signs/partial net/typo; not resolved or a verified false claim."
+    },
+    {
+      "post_key": "fc369d6802cac4be40fd123d342b8f032be2df188ade98c5ae03cbb37193ce18",
+      "symbol": "SEIUSDT",
+      "pub": 1740213894000,
+      "label": "UPDATE",
+      "flag": "NEGATIVE_DOLLAR_TEXT_WITH_POSITIVE_PERCENT",
+      "claimed_percentages": [
+        91.05
+      ],
+      "note": "Possible inconsistent signs/partial net/typo; not resolved or a verified false claim."
+    },
+    {
+      "post_key": "49a7272241696224dd8c4497f7f1a791d5e93933ce2237e6e8890165014c8bfb",
+      "symbol": "SEIUSDT",
+      "pub": 1746871040000,
+      "label": "UPDATE",
+      "flag": "NEGATIVE_DOLLAR_TEXT_WITH_POSITIVE_PERCENT",
+      "claimed_percentages": [
+        110.69
+      ],
+      "note": "Possible inconsistent signs/partial net/typo; not resolved or a verified false claim."
+    },
+    {
+      "post_key": "f7719dcc1daf5d0c6a6387dcbced7b522685ec173d51c64aec56d3ba3e4363c0",
+      "symbol": null,
+      "pub": 1771941354000,
+      "label": "REPORT",
+      "flag": "NEGATIVE_DOLLAR_TEXT_WITH_POSITIVE_PERCENT",
+      "claimed_percentages": [
+        250.0
+      ],
+      "note": "Possible inconsistent signs/partial net/typo; not resolved or a verified false claim."
+    },
+    {
+      "post_key": "96712e3e514004e5e46d4a7201f135928d885afe0aaa15eabc9495bbf3f582bb",
+      "symbol": null,
+      "pub": 1780555770000,
+      "label": "REPORT",
+      "flag": "NEGATIVE_DOLLAR_TEXT_WITH_POSITIVE_PERCENT",
+      "claimed_percentages": [
+        25.0
+      ],
+      "note": "Possible inconsistent signs/partial net/typo; not resolved or a verified false claim."
+    }
+  ],
+  "n": 5,
+  "note": "Text-only consistency screen, not a market result."
+}

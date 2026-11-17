@@ -1,0 +1,17 @@
+{
+  "source_job_statuses": {
+    "OK": 748,
+    "DATA_GAP": 45
+  },
+  "T1_author_close_or_partial_trades": 104,
+  "T1_exit_events": {
+    "TP1": 368,
+    "AUTHOR_CLOSE": 89,
+    "TP2": 164,
+    "TP3": 90,
+    "BE": 236,
+    "AUTHOR_PARTIAL": 16,
+    "SL": 165,
+    "TIME": 12
+  }
+}

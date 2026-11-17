@@ -1,0 +1,38 @@
+{
+  "report_rows": 984,
+  "status_counts": {
+    "PRICE_WINDOW_AVAILABLE_NOT_AUTHOR_FILL_PROOF": 455,
+    "UNLINKED_OR_AGGREGATE": 494,
+    "PROMOTIONAL_OR_PROJECTION_NOT_A_TRADE_REPORT": 25,
+    "REPORT_BEFORE_MODEL_ENTRY": 1,
+    "нет данных": 9
+  },
+  "price_window_rows": 455,
+  "conditional_leverage_percent_comparisons": 290,
+  "outside_conditional_envelope": 134,
+  "median_claim_minus_price_at_report_pp_if_ROI": 1.9447638798764966,
+  "not_verified_author_pnl": true,
+  "PF": {
+    "ANNUAL_NATIVE_5M_BE_ALIGNED": {
+      "matches": 63,
+      "distinct_signals": 54,
+      "entry_comparisons": 56,
+      "higher_short_entry_n": 30,
+      "median_entry_delta_pct": 0.14520815090972583
+    },
+    "RECENT_BINANCE_1M_H2": {
+      "matches": 12,
+      "distinct_signals": 12,
+      "entry_comparisons": 11,
+      "higher_short_entry_n": 5,
+      "median_entry_delta_pct": -0.1264188443158787
+    },
+    "RECENT_BINANCE_1M_TRAIN": {
+      "matches": 16,
+      "distinct_signals": 13,
+      "entry_comparisons": 15,
+      "higher_short_entry_n": 10,
+      "median_entry_delta_pct": 2.757949540970217
+    }
+  }
+}
