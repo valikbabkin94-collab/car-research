@@ -1,0 +1,10 @@
+{
+  "host_block": "HTTP_403_PUBLIC_HOST_BLOCKED",
+  "receipts": [
+    {
+      "symbol": "BTCUSDT",
+      "start": 1794873480000,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}

@@ -1,0 +1,1217 @@
+[
+  {
+    "channel": "AltcoinDaily_signaI",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "AltcoinDaily_signaI",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "AltcoinDaily_signaI",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 57,
+      "LAST40": 57
+    }
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 57,
+      "LAST40": 57
+    }
+  },
+  {
+    "channel": "BinanceKillersVipChannel",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 57,
+      "LAST40": 57
+    }
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Binance_Futures_Trades",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BitcoinBullet_official",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BitcoinBullet_official",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BitcoinBullet_official",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BullBearCrypto0",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BullBearCrypto0",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "BullBearCrypto0",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Coin_Signals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "Coin_Signals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Coin_Signals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "CryptoInnerCircle",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "CryptoInnerCircle",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "CryptoInnerCircle",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "EveningTrader",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "EveningTrader",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "EveningTrader",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "OldmanScalping",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 55,
+      "H2": 56,
+      "LAST40": 56
+    }
+  },
+  {
+    "channel": "OldmanScalping",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 54,
+      "H2": 56,
+      "LAST40": 56
+    }
+  },
+  {
+    "channel": "OldmanScalping",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 54,
+      "H2": 56,
+      "LAST40": 56
+    }
+  },
+  {
+    "channel": "RavenSignalsPro",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "RavenSignalsPro",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "RavenSignalsPro",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "Raven_signalst_pro",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Raven_signalst_pro",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Raven_signalst_pro",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Teambuertrades",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Teambuertrades",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "Teambuertrades",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "TopCryptoFuturesSignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "TopCryptoFuturesSignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "TopCryptoFuturesSignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "TradingGainX",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "Whalesguide",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 0,
+      "H2": 17,
+      "LAST40": 31
+    }
+  },
+  {
+    "channel": "Whalesguide",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 0,
+      "H2": 19,
+      "LAST40": 33
+    }
+  },
+  {
+    "channel": "Whalesguide",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 0,
+      "H2": 17,
+      "LAST40": 31
+    }
+  },
+  {
+    "channel": "WolfxCrypto_VIP",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "WolfxCrypto_VIP",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "WolfxCrypto_VIP",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "altsignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "altsignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "altsignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "astronomer_zero",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "astronomer_zero",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "astronomer_zero",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "bitcoinbullets",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "bitcoinbullets",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "bitcoinbullets",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "chainexsignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "chainexsignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "chainexsignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "coin_sgnls_PRO",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "coin_sgnls_PRO",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "coin_sgnls_PRO",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "coincodecap",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "coincodecap",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 58,
+      "LAST40": 58
+    }
+  },
+  {
+    "channel": "coincodecap",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 58,
+      "H2": 58,
+      "LAST40": 58
+    }
+  },
+  {
+    "channel": "crusader_trades",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crusader_trades",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crusader_trades",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_Winston",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_Winston",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_Winston",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_signalsf",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_signalsf",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "crypto_signalsf",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoclassics",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoclassics",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoclassics",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoninjas_trading_ann",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoninjas_trading_ann",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoninjas_trading_ann",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoroverytofficiaI",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoroverytofficiaI",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptoroverytofficiaI",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 57,
+      "H2": 57,
+      "LAST40": 58
+    }
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 57,
+      "H2": 57,
+      "LAST40": 58
+    }
+  },
+  {
+    "channel": "cryptosignals0rg",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 57,
+      "H2": 57,
+      "LAST40": 58
+    }
+  },
+  {
+    "channel": "fatpigsignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "fatpigsignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "fatpigsignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "fedrussianinsiders",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "fedrussianinsiders",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "fedrussianinsiders",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "free_crypto_vip",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 55,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "free_crypto_vip",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 55,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "free_crypto_vip",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 55,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "learn2tradectypto",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "learn2tradectypto",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "learn2tradectypto",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 59,
+      "LAST40": 59
+    }
+  },
+  {
+    "channel": "learn2tradenews",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "learn2tradenews",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "learn2tradenews",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "main3commassignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "main3commassignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "main3commassignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "ne_investor",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 56,
+      "H2": 53,
+      "LAST40": 53
+    }
+  },
+  {
+    "channel": "ne_investor",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 56,
+      "H2": 52,
+      "LAST40": 52
+    }
+  },
+  {
+    "channel": "ne_investor",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 56,
+      "H2": 52,
+      "LAST40": 52
+    }
+  },
+  {
+    "channel": "safe_academy",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 39,
+      "H2": 6,
+      "LAST40": 16
+    }
+  },
+  {
+    "channel": "safe_academy",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 39,
+      "H2": 8,
+      "LAST40": 17
+    }
+  },
+  {
+    "channel": "safe_academy",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 39,
+      "H2": 5,
+      "LAST40": 15
+    }
+  },
+  {
+    "channel": "sagesignals8",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "sagesignals8",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "sagesignals8",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "tokenwhisperer_io",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "tokenwhisperer_io",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "tokenwhisperer_io",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "traderosho",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 53,
+      "H2": 51,
+      "LAST40": 54
+    }
+  },
+  {
+    "channel": "traderosho",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 53,
+      "H2": 51,
+      "LAST40": 54
+    }
+  },
+  {
+    "channel": "traderosho",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 53,
+      "H2": 51,
+      "LAST40": 54
+    }
+  },
+  {
+    "channel": "universalcryptosignals",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "universalcryptosignals",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "universalcryptosignals",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wallstreetqueenofficial",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wallstreetqueenofficial",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wallstreetqueenofficial",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 59,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfoftrading",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfoftrading",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfoftrading",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfxsignals_freegroup",
+    "policy": "T1",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfxsignals_freegroup",
+    "policy": "T2",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  },
+  {
+    "channel": "wolfxsignals_freegroup",
+    "policy": "T3",
+    "missing_to_60_by_period": {
+      "H1": 60,
+      "H2": 60,
+      "LAST40": 60
+    }
+  }
+]

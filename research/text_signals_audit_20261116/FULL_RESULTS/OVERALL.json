@@ -1,0 +1,66 @@
+[
+  {
+    "policy": "T1",
+    "n": 283,
+    "WR": 68.55123674911661,
+    "PF": 0.8108511934237972,
+    "netR": -14.543065184864401,
+    "USD_at_5R": -72.715325924322,
+    "maxDD_R": 20.57371885794508,
+    "top3_share_net": null,
+    "funding_unknown_n": 110,
+    "netR_adverse": -14.80755350159118,
+    "netR_favourable": -14.27857686813762,
+    "statuses": {
+      "CLOSED": 283,
+      "REJECTED_INVALID_STOP": 2,
+      "CLASSIFIER_REJECTED_NOT_FRESH_SIGNAL": 26,
+      "COOLDOWN6H": 33,
+      "нет данных": 25,
+      "UNRESOLVED_AUTHOR_ACTION": 2,
+      "DUPLICATE_TEXT": 3
+    }
+  },
+  {
+    "policy": "T2",
+    "n": 281,
+    "WR": 50.88967971530249,
+    "PF": 1.055095893556092,
+    "netR": 6.327795608110308,
+    "USD_at_5R": 31.63897804055154,
+    "maxDD_R": 17.644253649408746,
+    "top3_share_net": 0.7104534867017086,
+    "funding_unknown_n": 106,
+    "netR_adverse": 5.705563203283554,
+    "netR_favourable": 6.950028012937083,
+    "statuses": {
+      "CLOSED": 281,
+      "CLASSIFIER_REJECTED_NOT_FRESH_SIGNAL": 26,
+      "COOLDOWN6H": 33,
+      "нет данных": 27,
+      "OPEN_RIGHT_CENSORED": 2,
+      "DUPLICATE_TEXT": 3,
+      "REJECTED_INVALID_TARGETS": 2
+    }
+  },
+  {
+    "policy": "T3",
+    "n": 287,
+    "WR": 67.94425087108013,
+    "PF": 0.8186638924541294,
+    "netR": -14.500954274359351,
+    "USD_at_5R": -72.50477137179675,
+    "maxDD_R": 21.02321666818726,
+    "top3_share_net": null,
+    "funding_unknown_n": 110,
+    "netR_adverse": -14.761176372573635,
+    "netR_favourable": -14.240732176145059,
+    "statuses": {
+      "CLOSED": 287,
+      "CLASSIFIER_REJECTED_NOT_FRESH_SIGNAL": 26,
+      "COOLDOWN6H": 33,
+      "нет данных": 25,
+      "DUPLICATE_TEXT": 3
+    }
+  }
+]
