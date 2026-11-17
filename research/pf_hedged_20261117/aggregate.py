@@ -4,6 +4,7 @@ import numpy as np
 from hedge import *
 B=Path('research/pf_hedged_20261117')
 def load(phase):
+ phase='test_v2'if phase=='test'else phase
  rows=[];null={}
  for p in sorted(Path('model').glob(phase+'_shard*')):
   with gzip.open(p/'ACTUAL_ROWS.jsonl.gz','rt')as f:rows.extend(json.loads(s)for s in f)
@@ -26,7 +27,7 @@ def final():
  ok=winner is not None
  for part,n in[('H1',60),('H2',30),('LAST40',30)]:
   m=tables[part].get(winner,{})
-  ok=bool(ok and m.get('n',0)>=n and m.get('coverage',0)>=.95 and m.get('netR',0)>0 and(m.get('PF')or 0)>=1.3 and m.get('netR_funding_adverse',-1)>0 and(m.get('top3_share')or 1)<=.5 and m.get('funding_unknown_n',1)==0)
+  ok=bool(ok and m.get('n',0)>=n and m.get('coverage',0)>=.95 and m.get('netR',0)>0 and(m.get('PF')or 0)>=1.3 and m.get('netR_funding_adverse',-1)>0 and m.get('netR_cost_stress',-1)>0 and(m.get('top3_share')or 1)<=.5 and m.get('funding_unknown_n',1)==0)
  for part in['H2','LAST40']:
   m=tables[part].get(winner,{});ok=bool(ok and m.get('excessR',0)>0 and m.get('BH_q',1)<=.1 and m.get('control_coverage',0)>=.95)
  out=B/'final';save(out/'METRICS_ALL_VARIANTS.json',tables);save(out/'VERDICT.json',dict(hedge_turns_PF_positive_all_history=ok,frozen_winner=winner,raw_H1_winner=sel['raw_winner'],status='PROMISING'if ok else'NOT_CONFIRMED',fresh_independent_OOS=False));save(out/'variants.json',[] if not ok else[dict(id='PF_HEDGED_'+winner,enabled=False,status='PROMISING')])

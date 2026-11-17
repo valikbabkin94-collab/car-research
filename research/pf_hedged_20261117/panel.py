@@ -29,7 +29,7 @@ class Data:
  def ix(self,t):return int((int(t)-self.start)//F)
  def basket(self,t,kind,exclude):
   if kind=="BTC":return[self.index["BTCUSDT"]]if"BTCUSDT"in self.index else None
-  key=(int(t//F),kind)
+  key=(int(t),kind)
   if key not in self.baskets:
    row=np.searchsorted(self.pt,t,side="left")-1
    if row<0 or t-self.pt[row]>24*H:self.baskets[key]=None

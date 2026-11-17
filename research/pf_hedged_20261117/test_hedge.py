@@ -27,3 +27,11 @@ def test_bh_family_six():
  assert len(bh([.01,.02,.04,.2,.4,.8]))==6;assert abs(bh([.01,.02,.04,.2,.4,.8])[0]-.06)<1e-12
 def test_short_gaps_not_counted_as_missing_hedge_coverage():
  d=data();r=scaled(evaluate(d,{'entry_ms':0,'symbol':'X'},event(),'BTC'),1);m=metrics([r,{'status':'SHORT_DATA_GAP'}]);assert m['coverage']==1 and m['overall_coverage']==.5
+def test_pit_rank_strictly_precedes_entry_and_expires():
+ d=Data.__new__(Data);d.pt=np.array([F]);d.ranks=np.array([[1]]);d.ps=['AAAUSDT'];d.sy=['AAAUSDT'];d.index={'AAAUSDT':0};d.crypto=np.array([True]);d.times=np.arange(10)*F;d.q=np.full((1,10),100.);d.lastpump=np.zeros((1,10),int);d.baskets={}
+ assert d.basket(F,'PUMP','X')is None
+ assert d.basket(F+M,'PUMP','X')==[]  # real cohort<3, not future-filled
+ assert d.basket(F+25*H,'PUMP','X')is None
+def test_short_funding_boundary_is_conservative():
+ d=data();d.rawfund=[(np.array([0,F,2*F]),np.array([0.,.1,.2,.3]),np.zeros(4),np.zeros(4,int))];r=event();s=short(d,{'symbol':'X'},r);assert abs(s['short_funding_R']-.001/R)<1e-12
+ d.rawfund=[(np.array([0,F,2*F]),np.zeros(4),np.array([0.,-.1,-.2,-.3]),np.zeros(4,int))];assert abs(short(d,{'symbol':'X'},r)['short_funding_R']+.003/R)<1e-12
