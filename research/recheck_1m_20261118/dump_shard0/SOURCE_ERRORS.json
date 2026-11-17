@@ -1,0 +1,80 @@
+[
+  {
+    "symbol": "AGIUSDT",
+    "period": "2026-07",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AGIUSDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AGIUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "AGIUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BLENDUSDT",
+    "period": "2026-05",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BLENDUSDT",
+    "period": "2026-06",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BLENDUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "CASHCATUSDT",
+    "period": "2026-11-01",
+    "kind": "daily",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "CASHCATUSDT",
+    "period": "2026-08",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "CASHCATUSDT",
+    "period": "2026-09",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "CASHCATUSDT",
+    "period": "2026-10",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "MEGAUSDT",
+    "period": "2025-12",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEAQUSDT",
+    "period": "2025-12",
+    "kind": "monthly",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]

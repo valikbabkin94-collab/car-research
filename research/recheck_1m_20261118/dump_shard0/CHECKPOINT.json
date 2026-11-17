@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_WITH_EXPLICIT_GAPS",
+  "shard": 0,
+  "n_original": 311,
+  "statuses": {
+    "CLOSED": 277,
+    "DATA_GAP_MINUTES": 20,
+    "DATA_GAP_ORIGINAL_ENTRY_PRICE_NOT_REACHED": 14
+  },
+  "source_sha": "75c57764a0972e308257288cfcc3aa9baaf2a69f",
+  "changed_signal_rules": false,
+  "changed_entry_reference": false,
+  "live_changes": 0
+}
