@@ -1,0 +1,13 @@
+{
+  "winner": "FC4",
+  "raw_H1_max": "FC2",
+  "selection_metric": "netUSDT on100USDT capital at1x, baseline costs only",
+  "eligible": [
+    "FC4"
+  ],
+  "H1_only": true,
+  "H2_not_used": true,
+  "code_sha": "76d47472d203c6d44d5ad4924dd813afeb70bd11",
+  "train_scores_sha256": "83404fe6593a5e0ddb94098f7117c8fc4921c38aab3e57ad8e4976ac84effc18",
+  "FC5_execution_upper_bound_only": false
+}
