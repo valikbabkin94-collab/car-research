@@ -1,0 +1,86 @@
+[
+  {
+    "source": "PUMP_FADE",
+    "n": 15,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "ALTCOIN",
+    "n": 1,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "ALTCOIN_MGR",
+    "n": 1,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "ALT_CLONE",
+    "n": 14,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "BK_MGR",
+    "n": 1,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "CAR_MAIN_LIMIT",
+    "n": 16,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "OLEG",
+    "n": 13,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "OLEG_CLONE",
+    "n": 8,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "OLEG_STYLE",
+    "n": 3,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "PIRATES",
+    "n": 1,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "PUMP_SHORT",
+    "n": 3,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "RS1M",
+    "n": 2,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "SCALP_C10",
+    "n": 16,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  },
+  {
+    "source": "YODA",
+    "n": 3,
+    "verdict": "INCONCLUSIVE_SMALL_N",
+    "reason": "Early-exit vs entry-edge cannot be established statistically from1–16 trades/source; descriptive path and paired alternatives preserved"
+  }
+]

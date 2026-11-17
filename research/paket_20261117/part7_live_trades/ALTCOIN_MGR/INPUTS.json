@@ -1,0 +1,37 @@
+[
+  {
+    "key": "8cf60b668ce8f45f17bf1ef740c1770245dedc63c8fdf1381cbe7f03e09ee933",
+    "scenario": "LIVE_ALTCOIN_MGR",
+    "source": "ALTCOIN_MGR",
+    "symbol": "MONUSDT",
+    "side": -1,
+    "entry_ms": 1794510800670,
+    "signal_ms": 1794510800670,
+    "entry": 0.01738,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794597213547,
+    "actual_stop_fraction": 0.09551208285385515,
+    "reported_native_R": 1.815,
+    "exits": [
+      {
+        "t": "2026-11-13 02:17:33.338000",
+        "price": 0.01681,
+        "frac": 1.9979,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 03:51:21.882000",
+        "price": 0.01624,
+        "frac": 0.9986,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 19:13:33.547000",
+        "price": 0.01651,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "key": "239c408a84df80cdb16f97e97643e4b895519760f334b9ec609d1a80581a26ee",
+    "scenario": "LIVE_BK_MGR",
+    "source": "BK_MGR",
+    "symbol": "ARBUSDT",
+    "side": 1,
+    "entry_ms": 1794628080062,
+    "signal_ms": 1794628080062,
+    "entry": 0.14092,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794666315322,
+    "actual_stop_fraction": 0.0969344308827702,
+    "reported_native_R": -0.274,
+    "exits": [
+      {
+        "t": "2026-11-14 14:25:15.322000",
+        "price": 0.13745,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

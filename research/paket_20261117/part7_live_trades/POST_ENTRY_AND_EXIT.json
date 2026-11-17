@@ -1,0 +1,1749 @@
+[
+  {
+    "key": "9ab2391457068608cf34bf3f7612c3c932defae66ab2ae61922f432cfa8e3f52",
+    "source": "ALTCOIN",
+    "entry_ms": 1794093517794,
+    "native_close_ms": 1794147491261,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.2023121387283222,
+      "MAE_pct": 9.450867052023126
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.2023121387283222,
+      "MAE_pct": 9.450867052023126
+    },
+    "extra_after_real_exit_72h_pct": 2.896801448400721,
+    "post_exit_complete": true
+  },
+  {
+    "key": "8cf60b668ce8f45f17bf1ef740c1770245dedc63c8fdf1381cbe7f03e09ee933",
+    "source": "ALTCOIN_MGR",
+    "entry_ms": 1794510800670,
+    "native_close_ms": 1794597213547,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.940161104718058,
+      "MAE_pct": 2.128883774453394
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 18.411967779056383,
+      "MAE_pct": 2.128883774453394
+    },
+    "extra_after_real_exit_72h_pct": 14.112658994548767,
+    "post_exit_complete": true
+  },
+  {
+    "key": "b00c9c1d2346a1853d0b85e69cdc9e1f982cb6b56d45c0a697a40815736b0d39",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793055823275,
+    "native_close_ms": 1793056235531,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.9244604316546665,
+      "MAE_pct": 14.442446043165468
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.9244604316546665,
+      "MAE_pct": 16.762589928057547
+    },
+    "extra_after_real_exit_72h_pct": 6.9244604316546665,
+    "post_exit_complete": true
+  },
+  {
+    "key": "d6ce6d3d272bbf110cc62fcdb6ef9802abea87dee140eda9197f6fafc2989806",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793066602550,
+    "native_close_ms": 1793066925458,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 19.97380484610347,
+      "MAE_pct": 10.451866404715126
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 19.97380484610347,
+      "MAE_pct": 34.80026195153897
+    },
+    "extra_after_real_exit_72h_pct": 27.754532775453278,
+    "post_exit_complete": true
+  },
+  {
+    "key": "3b461e8c17b4581455b1e0af0b64eb0810501f64bac857fa907ce51c0038cc92",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793091786627,
+    "native_close_ms": 1793172403797,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.006814310051102,
+      "MAE_pct": 1.5758091993185785
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.006814310051102,
+      "MAE_pct": 8.986371379897784
+    },
+    "extra_after_real_exit_72h_pct": 1.6025641025640969,
+    "post_exit_complete": true
+  },
+  {
+    "key": "ec6b383eda5083ac4f1c8ef9416af240350181283bf729d0fe7c4ac2682cda2d",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793092204092,
+    "native_close_ms": 1793096185613,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "aa20fe746f81067681314dee37bd292b844ec14765e585ac610bec7d48669ff9",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793092729357,
+    "native_close_ms": 1793130458731,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 12.631425233644865,
+      "MAE_pct": 2.175817757009335
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 12.631425233644865,
+      "MAE_pct": 19.436331775700932
+    },
+    "extra_after_real_exit_72h_pct": 5.962357466684987,
+    "post_exit_complete": true
+  },
+  {
+    "key": "42f453ccba5543aeb7cae55c57f51f09b6a1144a1cea9a56c13356d27fb25606",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793099306577,
+    "native_close_ms": 1793105382781,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.834865509022812,
+      "MAE_pct": 2.2471910112359605
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.834865509022812,
+      "MAE_pct": 16.0367722165475
+    },
+    "extra_after_real_exit_72h_pct": 4.479131319986429,
+    "post_exit_complete": true
+  },
+  {
+    "key": "c9e7e843df027618aea02927e637b8a942ea61ec6efed22b637c7f10f08e3edd",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793102628186,
+    "native_close_ms": 1793150204061,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.6612101370195198,
+      "MAE_pct": 9.373105371650304
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.6612101370195198,
+      "MAE_pct": 22.49302776767309
+    },
+    "extra_after_real_exit_72h_pct": 2.7502891659169526,
+    "post_exit_complete": true
+  },
+  {
+    "key": "b0298fcbb1b246df0b88e88de9cb5687acd528b28bb18e3944fd0695a87a4507",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793109834214,
+    "native_close_ms": 1793142319260,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.976702962775395,
+      "MAE_pct": 0.7343631299063014
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.976702962775395,
+      "MAE_pct": 10.939478348949095
+    },
+    "extra_after_real_exit_72h_pct": 1.5721772272510481,
+    "post_exit_complete": true
+  },
+  {
+    "key": "2996751625f9a5a86cf9a7312a27bac34e963826a0a9ae5720f200a6c1122c2f",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793116135928,
+    "native_close_ms": 1793185954257,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 116.67882679118632,
+      "MAE_pct": 0.8171603677221695
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 134.93360572012256,
+      "MAE_pct": 0.8171603677221695
+    },
+    "extra_after_real_exit_72h_pct": 18.330148463912987,
+    "post_exit_complete": true
+  },
+  {
+    "key": "0f976512eeb2ce494c85ce1dd59513225484d4595be0951ab7bd1f8224616fb2",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793122699707,
+    "native_close_ms": 1793241979720,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.882012305465075,
+      "MAE_pct": 3.049221860296769
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.882012305465075,
+      "MAE_pct": 21.055012667390514
+    },
+    "extra_after_real_exit_72h_pct": 2.75171292811216,
+    "post_exit_complete": true
+  },
+  {
+    "key": "72c5c155193367f7275b82db6d5666875a4833435f8cf59365954777a403ce05",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793131679402,
+    "native_close_ms": 1793162112054,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.470588235294117,
+      "MAE_pct": 1.7320261437908435
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 13.169934640522873,
+      "MAE_pct": 3.300653594771241
+    },
+    "extra_after_real_exit_72h_pct": 13.022193211488254,
+    "post_exit_complete": true
+  },
+  {
+    "key": "21be9af8a4f01c5793ebd627ec05ea6040747d7e1efb88e2ab6d5b1015568f6b",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793178403358,
+    "native_close_ms": 1793325243540,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.011930037407761,
+      "MAE_pct": 3.7407744414113875
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.4990395308866615,
+      "MAE_pct": 4.782125164290763
+    },
+    "extra_after_real_exit_72h_pct": 2.4651444736310424,
+    "post_exit_complete": true
+  },
+  {
+    "key": "9b3cb9856b9706128554634037365a4c1a854d6daa5dd81215b743e64d87ba3b",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793181296660,
+    "native_close_ms": 1793219395531,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.4708489128929516,
+      "MAE_pct": 11.701980335133644
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.4708489128929516,
+      "MAE_pct": 23.597839634399666
+    },
+    "extra_after_real_exit_72h_pct": 2.4447372273459056,
+    "post_exit_complete": true
+  },
+  {
+    "key": "8af0de44e09f471f8694cafd6c2a216e7be18b93fab5f08297e3e757fad316b4",
+    "source": "ALT_CLONE",
+    "entry_ms": 1793182075511,
+    "native_close_ms": 1793255759996,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 3.9082108282538552,
+      "MAE_pct": 5.464324130512733
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.558264610971666,
+      "MAE_pct": 5.464324130512733
+    },
+    "extra_after_real_exit_72h_pct": 7.442693409742129,
+    "post_exit_complete": true
+  },
+  {
+    "key": "239c408a84df80cdb16f97e97643e4b895519760f334b9ec609d1a80581a26ee",
+    "source": "BK_MGR",
+    "entry_ms": 1794628080062,
+    "native_close_ms": 1794666315322,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.851546977008244,
+      "MAE_pct": 12.915129151291504
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 0.851546977008244,
+      "MAE_pct": 12.915129151291504
+    },
+    "extra_after_real_exit_72h_pct": 0.7129865405602009,
+    "post_exit_complete": false
+  },
+  {
+    "key": "b32d6312d70532304476aa106e408920346dd0d78197e5c5e9cefa61d7f5efee",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792844120050,
+    "native_close_ms": 1792866421485,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.561786152158485,
+      "MAE_pct": 6.259275988901081
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.562173323869134,
+      "MAE_pct": 6.259275988901081
+    },
+    "extra_after_real_exit_72h_pct": 6.664142370314274,
+    "post_exit_complete": true
+  },
+  {
+    "key": "ed2bb2f38bb7c4d1ed4dddd1b61ca9e1a668a573b10504d70e97eb81a1848701",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792844397717,
+    "native_close_ms": 1792888474341,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 3.8678712591756037,
+      "MAE_pct": 0.8187464709203729
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.549971767363072,
+      "MAE_pct": 0.8187464709203729
+    },
+    "extra_after_real_exit_72h_pct": 6.804065499717671,
+    "post_exit_complete": true
+  },
+  {
+    "key": "81255fc025f979b85b5e2174019b06f3221434fae2ce360124a4df48127eb406",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792846037801,
+    "native_close_ms": 1792866804136,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.5423728813559254,
+      "MAE_pct": 2.2702534598040724
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.5423728813559254,
+      "MAE_pct": 2.503498678277105
+    },
+    "extra_after_real_exit_72h_pct": 0.9729898030668593,
+    "post_exit_complete": true
+  },
+  {
+    "key": "376153f3004b59af962884b517b80fb06c7d4ed72e2bfff3b375a0c6a5b73cf0",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792846325321,
+    "native_close_ms": 1792861088157,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 3.8294580306872383,
+      "MAE_pct": 5.299351012163167
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 3.8294580306872383,
+      "MAE_pct": 9.8285124854945
+    },
+    "extra_after_real_exit_72h_pct": 1.2036367393325809,
+    "post_exit_complete": true
+  },
+  {
+    "key": "60e498a82049a95fd9bec70a1ff885bc13dcaa6f582ab4a5bcfddec2a2c02344",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792848022557,
+    "native_close_ms": 1792851536947,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.072417465388714,
+      "MAE_pct": 0.7241746538871219
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 9.030883919062827,
+      "MAE_pct": 0.7241746538871219
+    },
+    "extra_after_real_exit_72h_pct": 7.8009561060408465,
+    "post_exit_complete": true
+  },
+  {
+    "key": "2c0499a2cd638291428bd748779cea291f7139d29fa3c187c580555bd98cf833",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792849967595,
+    "native_close_ms": 1792887679161,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.3796123946129502,
+      "MAE_pct": 22.062849009087927
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.1791306252053,
+      "MAE_pct": 22.062849009087927
+    },
+    "extra_after_real_exit_72h_pct": 28.328354331731397,
+    "post_exit_complete": true
+  },
+  {
+    "key": "2c1696a8a5ba80d783f052b6d2ffa0640d0d402bdde142208d7cd6dae18aea73",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792852223985,
+    "native_close_ms": 1792866660188,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.824184566428012,
+      "MAE_pct": 7.637231503579955
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.824184566428012,
+      "MAE_pct": 11.157517899761338
+    },
+    "extra_after_real_exit_72h_pct": 0.3784860557769054,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7a6e336341308346c0cdda9d85b96c4a819d9ebda7b0edefe2b10d06ddd0c661",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792856974866,
+    "native_close_ms": 1793381313152,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.291396273812009,
+      "MAE_pct": 7.180238643500103
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 13.230060707557056,
+      "MAE_pct": 7.180238643500103
+    },
+    "extra_after_real_exit_72h_pct": 0.8052708638360162,
+    "post_exit_complete": true
+  },
+  {
+    "key": "018199622ce1a602d1c67bfeb26f0002e93340a803d4543968d8c43b7f010814",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792857634874,
+    "native_close_ms": 1792860987551,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.2107775405099783,
+      "MAE_pct": 4.593225306703519
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.2107775405099783,
+      "MAE_pct": 8.989657915672232
+    },
+    "extra_after_real_exit_72h_pct": 0.5401262171451204,
+    "post_exit_complete": true
+  },
+  {
+    "key": "9df4e811d333cf665b244e8d6715cce74ca5e62da1bec52a8c0e9bb43b75ff06",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792858114276,
+    "native_close_ms": 1792858770905,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.8342602507858685,
+      "MAE_pct": 11.996960171335802
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 33.676465508307714,
+      "MAE_pct": 11.996960171335802
+    },
+    "extra_after_real_exit_72h_pct": 39.23089096376009,
+    "post_exit_complete": true
+  },
+  {
+    "key": "c345c293cf263757744ef0bf13554ee8eef78b3e32d145a5d33cd9e4d30d64e5",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792860625943,
+    "native_close_ms": 1792950188761,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.9568851737791539,
+      "MAE_pct": 2.181404898078898
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.9568851737791539,
+      "MAE_pct": 8.080363689690584
+    },
+    "extra_after_real_exit_72h_pct": 2.421565187279462,
+    "post_exit_complete": true
+  },
+  {
+    "key": "f27564afd435e5666c4982c9723340d8023f89b533dff2691c2fc931a10a0e3b",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792861239662,
+    "native_close_ms": 1792884791426,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.6901725431357919,
+      "MAE_pct": 4.606151537884484
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.6901725431357919,
+      "MAE_pct": 8.147036759189795
+    },
+    "extra_after_real_exit_72h_pct": 3.516930678680419,
+    "post_exit_complete": true
+  },
+  {
+    "key": "c7015955ca0bc86c2262aa470e3d275a487490774f970d7ee81de4ad55c5ae2c",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792865136976,
+    "native_close_ms": 1792905833913,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.220735785953179,
+      "MAE_pct": 10.83612040133779
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.09364548494983,
+      "MAE_pct": 96.72240802675584
+    },
+    "extra_after_real_exit_72h_pct": 13.584905660377355,
+    "post_exit_complete": true
+  },
+  {
+    "key": "a5cb69dae144eda0d8504b2bf899eb3d0c074099cfcbfa6595e57206ff9dd8fb",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792865861442,
+    "native_close_ms": 1792884688170,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.27057138309722895,
+      "MAE_pct": 15.740888110775098
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.27057138309722895,
+      "MAE_pct": 18.351106159477972
+    },
+    "extra_after_real_exit_72h_pct": 0.3811713455953658,
+    "post_exit_complete": true
+  },
+  {
+    "key": "013875b4fdd97150cd2569aa9c06023debe14eec6378e85276991f72ec8358f1",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792875656813,
+    "native_close_ms": 1793028081496,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.535683576956151,
+      "MAE_pct": 2.2355975924333693
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 5.094582975064488,
+      "MAE_pct": 2.3860705073086796
+    },
+    "extra_after_real_exit_72h_pct": 3.336921420882666,
+    "post_exit_complete": true
+  },
+  {
+    "key": "6b5c412502f89adf7de405843647093681451a1b5e0821b68b9b7b3d03e68171",
+    "source": "CAR_MAIN_LIMIT",
+    "entry_ms": 1792875879612,
+    "native_close_ms": 1792880760561,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.791376936024076,
+      "MAE_pct": 11.814209694146449
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.791376936024076,
+      "MAE_pct": 50.367511631728966
+    },
+    "extra_after_real_exit_72h_pct": 12.259218974772823,
+    "post_exit_complete": true
+  },
+  {
+    "key": "91d413253b58734a6182deba109ddf33138fa5f0ee7bb895580844a9d499732b",
+    "source": "OLEG",
+    "entry_ms": 1792767282227,
+    "native_close_ms": 1792790703493,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.456955283042244,
+      "MAE_pct": 1.1024402328750238
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 9.649448779883564,
+      "MAE_pct": 1.1024402328750238
+    },
+    "extra_after_real_exit_72h_pct": 7.153767820773926,
+    "post_exit_complete": true
+  },
+  {
+    "key": "315ca5c8e2da5f51c5f98909bf24f4b537dc9a5d91521cd7ddd7140a81a614ba",
+    "source": "OLEG",
+    "entry_ms": 1792853763834,
+    "native_close_ms": 1793027761886,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.8398576512455458,
+      "MAE_pct": 5.195729537366544
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.8398576512455458,
+      "MAE_pct": 6.362989323843415
+    },
+    "extra_after_real_exit_72h_pct": 3.908951288991913,
+    "post_exit_complete": true
+  },
+  {
+    "key": "17cb44331398868a41c7c7ede5bce82fa2c02881cb3d27f74b25dd0548ea593c",
+    "source": "OLEG",
+    "entry_ms": 1793018018324,
+    "native_close_ms": 1793037666255,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.860674157303364,
+      "MAE_pct": 0.2966292134831461
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 14.746067415730336,
+      "MAE_pct": 0.2966292134831461
+    },
+    "extra_after_real_exit_72h_pct": 7.42765116392563,
+    "post_exit_complete": true
+  },
+  {
+    "key": "11f1d7738d13278cf19ec2b190a9b61bd25c30318302172f3f8be16e025b9cfa",
+    "source": "OLEG",
+    "entry_ms": 1793105396729,
+    "native_close_ms": 1793180817162,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.6779661016949174,
+      "MAE_pct": 4.372881355932212
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 16.406779661016955,
+      "MAE_pct": 4.372881355932212
+    },
+    "extra_after_real_exit_72h_pct": 21.319467013324665,
+    "post_exit_complete": true
+  },
+  {
+    "key": "db6264df3cd52e92e33c5ac99667fc5810cb4cf70b284d366f2b6ccaf8a3fb2c",
+    "source": "OLEG",
+    "entry_ms": 1793897310917,
+    "native_close_ms": 1793948777730,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 5.134029986369826,
+      "MAE_pct": 47.16038164470697
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 5.134029986369826,
+      "MAE_pct": 80.0999545661063
+    },
+    "extra_after_real_exit_72h_pct": 0.4335829720141904,
+    "post_exit_complete": true
+  },
+  {
+    "key": "8d56492cfb5ab889739b0684fd5ec1fda15b08346d0257745eca2f14b11ea2d7",
+    "source": "OLEG",
+    "entry_ms": 1794055745951,
+    "native_close_ms": 1794454037392,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "6cd6a809d76ee6158bd3aa5d69b385d0ce4566dceb85eb83d3bb2089b98e8c3b",
+    "source": "OLEG",
+    "entry_ms": 1794336059769,
+    "native_close_ms": 1794380710168,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.136712749615974,
+      "MAE_pct": 3.251408090117769
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.204301075268813,
+      "MAE_pct": 3.251408090117769
+    },
+    "extra_after_real_exit_72h_pct": 10.64905872436077,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7cd28f81fd66b222560deff8fe4829e159cfef87f6eaf0afd54877eb40f7a41a",
+    "source": "OLEG",
+    "entry_ms": 1794395909724,
+    "native_close_ms": 1794507974089,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.775441547518931,
+      "MAE_pct": 5.634987384356593
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.438183347350728,
+      "MAE_pct": 8.32632464255676
+    },
+    "extra_after_real_exit_72h_pct": 14.64646464646464,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7797b462af706895d44c48b70753fe1ce3b0e49c1f15f587b8f4468c4e917c60",
+    "source": "OLEG",
+    "entry_ms": 1794486822378,
+    "native_close_ms": 1794532072970,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.1975348686344542,
+      "MAE_pct": 12.844631852092125
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 25.583846902367824,
+      "MAE_pct": 13.363606876419087
+    },
+    "extra_after_real_exit_72h_pct": 31.8961038961039,
+    "post_exit_complete": true
+  },
+  {
+    "key": "63c66554891a983f93d065a679229c71110c1ae2ce43937936211ccbd64f4a27",
+    "source": "OLEG",
+    "entry_ms": 1794581470106,
+    "native_close_ms": 1794590999458,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 24.523693209574972,
+      "MAE_pct": 11.57791890571569
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 38.93502686858816,
+      "MAE_pct": 11.822178798241334
+    },
+    "extra_after_real_exit_72h_pct": 16.41424478100697,
+    "post_exit_complete": true
+  },
+  {
+    "key": "5be64e9f69d94d8da41d3d36486970ad588bff012e4055ab089f694dde1222de",
+    "source": "OLEG",
+    "entry_ms": 1794661677561,
+    "native_close_ms": 1794774301824,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.3792862141357674,
+      "MAE_pct": 7.822097815099904
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 3.257911515434253,
+      "MAE_pct": 12.401835005054028
+    },
+    "extra_after_real_exit_72h_pct": 13.023418385180008,
+    "post_exit_complete": false
+  },
+  {
+    "key": "daa25b25b9419a0cc2f61d8a0b186e50e95181bffd88a4f51eec721078b4ddad",
+    "source": "OLEG",
+    "entry_ms": 1794738369132,
+    "native_close_ms": 1794790930544,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.24763619990995078,
+      "MAE_pct": 7.744259342638449
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 0.24763619990995078,
+      "MAE_pct": 7.87933363349842
+    },
+    "extra_after_real_exit_72h_pct": 6.266570257893478,
+    "post_exit_complete": false
+  },
+  {
+    "key": "775d4369e0bbae2e128ef341316aaff5a7ad24666c430ac18fe23d79cb48cd25",
+    "source": "OLEG",
+    "entry_ms": 1794830962540,
+    "native_close_ms": 1794911488000,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "fb69bce5cf59f539d3a52b3e9a0d5fb621309a3e77aac37ee4a5b1863542f1ee",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1793203675718,
+    "native_close_ms": 1793212553251,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.6942998910807194,
+      "MAE_pct": 39.331961757231035
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.6942998910807194,
+      "MAE_pct": 39.331961757231035
+    },
+    "extra_after_real_exit_72h_pct": 4.516276937184783,
+    "post_exit_complete": true
+  },
+  {
+    "key": "4c6fb9c9503d576efaade2a04a08ef40657ce7057634b407384b2b6823d745d2",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1793204953236,
+    "native_close_ms": 1793293968735,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.7808764940239,
+      "MAE_pct": 0.9779065555957978
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 9.018471568272357,
+      "MAE_pct": 1.6298442593263296
+    },
+    "extra_after_real_exit_72h_pct": 8.919506889050034,
+    "post_exit_complete": true
+  },
+  {
+    "key": "9ce07a313d1e7eb670d165cd26a00b7c035e9d8024c65c3a4aacfa100a3d5221",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794403028593,
+    "native_close_ms": 1794567682542,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.4724775175412597,
+      "MAE_pct": 3.824488585828645
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 1.4724775175412597,
+      "MAE_pct": 13.914418420792574
+    },
+    "extra_after_real_exit_72h_pct": 4.102275920202314,
+    "post_exit_complete": true
+  },
+  {
+    "key": "825ba15a0a0e18f9f6a18156d587e63ce5e0d6471160d811e790602ad7d8d260",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794456662287,
+    "native_close_ms": 1794472245774,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.74240231548482,
+      "MAE_pct": 1.700434153400865
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 13.024602026049214,
+      "MAE_pct": 1.700434153400865
+    },
+    "extra_after_real_exit_72h_pct": 12.866980790141358,
+    "post_exit_complete": true
+  },
+  {
+    "key": "d6575452d95e59040374f9c5bb2870cf706de9a4a2138f1ea854e72c6d7e2463",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794464544263,
+    "native_close_ms": 1794471927960,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.748114630467574,
+      "MAE_pct": 2.628743805214384
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.748114630467574,
+      "MAE_pct": 10.428786899375119
+    },
+    "extra_after_real_exit_72h_pct": 11.066778664426725,
+    "post_exit_complete": true
+  },
+  {
+    "key": "cba7a67972416fcfe40e115e8ec259bb72ef4a4edfb9b4c5d7d78751d2cc59cf",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794471947031,
+    "native_close_ms": 1794480589781,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.811370647862496,
+      "MAE_pct": 0.7492287351256177
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 14.521815777875712,
+      "MAE_pct": 0.7492287351256177
+    },
+    "extra_after_real_exit_72h_pct": 8.772342427093127,
+    "post_exit_complete": true
+  },
+  {
+    "key": "0a4999f099f523a803585f7648be02001fd14de1ca6a54d378cb8c43122614d4",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794472312258,
+    "native_close_ms": 1794491475423,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.3825000706554023,
+      "MAE_pct": 4.67456122996921
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 5.833309781533503,
+      "MAE_pct": 4.67456122996921
+    },
+    "extra_after_real_exit_72h_pct": 5.678697806086341,
+    "post_exit_complete": true
+  },
+  {
+    "key": "75f4e03bfc6bdf2339c7edd0f44270c2ae40e49b9d9024698c98c0bdb60adedd",
+    "source": "OLEG_CLONE",
+    "entry_ms": 1794482019478,
+    "native_close_ms": 1794518928380,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "9d5f22c65856d00c20e931d6c47b7cd3a7e8d2e1f9c6826c602a41decc405bbe",
+    "source": "OLEG_STYLE",
+    "entry_ms": 1792800968522,
+    "native_close_ms": 1792803674785,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 10.595807108040312,
+      "MAE_pct": 16.520751502531827
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 10.595807108040312,
+      "MAE_pct": 25.843547394822764
+    },
+    "extra_after_real_exit_72h_pct": 4.746537582358479,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7c9261421917656448416ca7e4b45eaac06e8afe6aadb1688a0f3cf743c39992",
+    "source": "OLEG_STYLE",
+    "entry_ms": 1792897278198,
+    "native_close_ms": 1792900676116,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 15.267522833047554,
+      "MAE_pct": 35.57756237533681
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 15.267522833047554,
+      "MAE_pct": 35.57756237533681
+    },
+    "extra_after_real_exit_72h_pct": 15.369864788900124,
+    "post_exit_complete": true
+  },
+  {
+    "key": "09d3bd9eb2f8f0e187723eec9ba8942dc943353f4df9b653111f196d3ecea767",
+    "source": "OLEG_STYLE",
+    "entry_ms": 1793180157150,
+    "native_close_ms": 1793182965782,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 116.11675126903549,
+      "MAE_pct": 0.0
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 116.11675126903549,
+      "MAE_pct": 0.0
+    },
+    "extra_after_real_exit_72h_pct": 116.63910443963874,
+    "post_exit_complete": true
+  },
+  {
+    "key": "04ecdc500998771fabaae8337f33d39a386c81e45279abcbdc51a302afa76d69",
+    "source": "PIRATES",
+    "entry_ms": 1793097231405,
+    "native_close_ms": 1794084457974,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 3.3991621783363124,
+      "MAE_pct": 0.16756433273489302
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 5.0089766606822295,
+      "MAE_pct": 5.900658288450034
+    },
+    "extra_after_real_exit_72h_pct": 1.200000000000001,
+    "post_exit_complete": true
+  },
+  {
+    "key": "da780c06ad5cf7238edaf3097a0acfbef0191ae8e74e16b9bc4b0d1efdae9c4d",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794431118350,
+    "native_close_ms": 1794438766080,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 23.897763578274766,
+      "MAE_pct": 5.1629392971246135
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 31.041533546325873,
+      "MAE_pct": 5.1629392971246135
+    },
+    "extra_after_real_exit_72h_pct": 26.513911620294582,
+    "post_exit_complete": true
+  },
+  {
+    "key": "2f0124e2dde58c0305d22dc3155913c98459dd47ee3d6b32d9e84cd35b585dcc",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794431215591,
+    "native_close_ms": 1794442354065,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.587485515643115,
+      "MAE_pct": 0.9269988412514474
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 21.089223638470468,
+      "MAE_pct": 1.2746234067207318
+    },
+    "extra_after_real_exit_72h_pct": 16.37931034482758,
+    "post_exit_complete": true
+  },
+  {
+    "key": "959433e4cdd80ee706411bdf873f4d4873cceec6c79c8e90b672036c8e78dd31",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794431223042,
+    "native_close_ms": 1794438017024,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 16.653193209377516,
+      "MAE_pct": 2.021018593371049
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 24.009700889248176,
+      "MAE_pct": 2.021018593371049
+    },
+    "extra_after_real_exit_72h_pct": 18.895599654874886,
+    "post_exit_complete": true
+  },
+  {
+    "key": "235ba320a64c685923a19c2a5147361e366897fd50df97a9cb4e1672f331c9eb",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794438213759,
+    "native_close_ms": 1794439734735,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 20.348027842227378,
+      "MAE_pct": 1.9953596287703101
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 26.983758700696058,
+      "MAE_pct": 1.9953596287703101
+    },
+    "extra_after_real_exit_72h_pct": 26.8139534883721,
+    "post_exit_complete": true
+  },
+  {
+    "key": "f5e8663072d7467188d33c2353d62f585b903eec68a731054127963e66d3f1ab",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794467513254,
+    "native_close_ms": 1794489016150,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.204390068369904,
+      "MAE_pct": 5.721482547679035
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 15.18531845987765,
+      "MAE_pct": 13.53004677941707
+    },
+    "extra_after_real_exit_72h_pct": 9.485407066052232,
+    "post_exit_complete": true
+  },
+  {
+    "key": "1c8379a5fb7fa23cf734082b5248204ab1c5afbda1e600824a04b4cff942e1b0",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794488994762,
+    "native_close_ms": 1794493121120,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 23.029994916115914,
+      "MAE_pct": 1.2709710218606896
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 32.302999491611594,
+      "MAE_pct": 1.2709710218606896
+    },
+    "extra_after_real_exit_72h_pct": 27.701161906830272,
+    "post_exit_complete": true
+  },
+  {
+    "key": "9334c92d1c56e6a82f54abaf23400350d946dc7348a94f2f1bd55c09f4d606b6",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794492280961,
+    "native_close_ms": 1794493924831,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 10.442396313364066,
+      "MAE_pct": 10.838709677419356
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 13.6221198156682,
+      "MAE_pct": 10.838709677419356
+    },
+    "extra_after_real_exit_72h_pct": 23.1150061500615,
+    "post_exit_complete": true
+  },
+  {
+    "key": "aa78c0ce93815710684df2af8fc04dd1711580734f1d5496e9887d81bf5164a8",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794549839584,
+    "native_close_ms": 1794550265646,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.831932773109237,
+      "MAE_pct": 330.61224489795916
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.831932773109237,
+      "MAE_pct": 443.6674669867947
+    },
+    "extra_after_real_exit_72h_pct": 1.352569882777277,
+    "post_exit_complete": true
+  },
+  {
+    "key": "3e346e84e8e58c05c875d4cbc330c43c2a394a4d11c9e49539fb0e0bcf5826f7",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794607377120,
+    "native_close_ms": 1794617902959,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.509971509971518,
+      "MAE_pct": 48.945868945868945
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 52.53561253561254,
+      "MAE_pct": 48.945868945868945
+    },
+    "extra_after_real_exit_72h_pct": 52.61660978384528,
+    "post_exit_complete": false
+  },
+  {
+    "key": "c1e2d568ba2efa23786655c518920ba371cfbb28b30ed95b51c9846a2999a8e8",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794625923385,
+    "native_close_ms": 1794631747599,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.469679348729027,
+      "MAE_pct": 0.09968433294567092
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 20.169463366007633,
+      "MAE_pct": 0.09968433294567092
+    },
+    "extra_after_real_exit_72h_pct": 20.110299328668802,
+    "post_exit_complete": false
+  },
+  {
+    "key": "2e747f71caf21b6b147e487e815f21492ff6df41144c90063e21c0c40b4f36e1",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794762548638,
+    "native_close_ms": 1794805348029,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 9.815807880624849,
+      "MAE_pct": 0.2564700396362696
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 9.815807880624849,
+      "MAE_pct": 0.2564700396362696
+    },
+    "extra_after_real_exit_72h_pct": 2.5859904594526695,
+    "post_exit_complete": false
+  },
+  {
+    "key": "a2b7dfedfb3fe4112c574f053670c4934fc20cda1a4233844560f04b099499be",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794830970661,
+    "native_close_ms": 1794834579534,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "DATA_GAP",
+      "MFE_pct": 11.510204081632658,
+      "MAE_pct": 1.959183673469389
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 11.510204081632658,
+      "MAE_pct": 1.959183673469389
+    },
+    "extra_after_real_exit_72h_pct": 11.474071049407918,
+    "post_exit_complete": false
+  },
+  {
+    "key": "f301b2d652ef0c18156bd127813d8d29b8ce5af327f4cf4129810ac951402157",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794837899660,
+    "native_close_ms": 1794839581181,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "DATA_GAP",
+      "MFE_pct": 1.0583610523132725,
+      "MAE_pct": 33.95827033565164
+    },
+    "72": {
+      "status": "DATA_GAP",
+      "MFE_pct": 1.0583610523132725,
+      "MAE_pct": 33.95827033565164
+    },
+    "extra_after_real_exit_72h_pct": 2.511874288760918,
+    "post_exit_complete": false
+  },
+  {
+    "key": "776805f33ead20848b9b76095e7a4075bbb78b6d92c1dd363ebf46c1577d022d",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794848700034,
+    "native_close_ms": 1794865711242,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "95ca727a77e7a6f8745ad61d1ce000956e5ee2780fa49a53e7a213b7d458ae76",
+    "source": "PUMP_FADE",
+    "entry_ms": 1794891886664,
+    "native_close_ms": 1794895239954,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "fc66e27bb0d9fb96351de6f2ec2baa2b48ae3e83d618b864b10fe41c1d7b2f17",
+    "source": "PUMP_SHORT",
+    "entry_ms": 1793369379026,
+    "native_close_ms": 1793513738754,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "1a8d0bf615e43903e901d9693a939573b09f3fc361243fc7f0d4cc82f6cd6114",
+    "source": "PUMP_SHORT",
+    "entry_ms": 1793726030793,
+    "native_close_ms": 1793866009333,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.030400860909328,
+      "MAE_pct": 7.586763518966899
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.030400860909328,
+      "MAE_pct": 39.198278181329016
+    },
+    "extra_after_real_exit_72h_pct": 19.308357348703186,
+    "post_exit_complete": true
+  },
+  {
+    "key": "43bf6726012f21ed23331e50b48a04de579c6002f321e7d531e747550c1e3dcb",
+    "source": "PUMP_SHORT",
+    "entry_ms": 1793824896788,
+    "native_close_ms": 1793830675957,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 37.270426903926214,
+      "MAE_pct": 5.624030691372139
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 40.49465349767366,
+      "MAE_pct": 5.624030691372139
+    },
+    "extra_after_real_exit_72h_pct": 26.487093153759822,
+    "post_exit_complete": true
+  },
+  {
+    "key": "b2db496a85721bc23c627781fffe602b4ce2bc46bb16a00b5de7c7b53e121bb3",
+    "source": "RS1M",
+    "entry_ms": 1792909642084,
+    "native_close_ms": 1792912984075,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.6792179580014563,
+      "MAE_pct": 6.227371469949306
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.80304127443883,
+      "MAE_pct": 6.227371469949306
+    },
+    "extra_after_real_exit_72h_pct": 17.998506348020914,
+    "post_exit_complete": true
+  },
+  {
+    "key": "749bb2e5c848546edc509c553c89f21138b45fead2146163238ac9ce4cc9f827",
+    "source": "RS1M",
+    "entry_ms": 1792909772799,
+    "native_close_ms": 1792910909141,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.797414593136873,
+      "MAE_pct": 15.051697219159088
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.797414593136873,
+      "MAE_pct": 52.1896256182376
+    },
+    "extra_after_real_exit_72h_pct": 3.5314003085579415,
+    "post_exit_complete": true
+  },
+  {
+    "key": "fd4baa8cd00e24b6de368a5a63384bba846701fcc1b1b57937edb6e03439a223",
+    "source": "SCALP_C10",
+    "entry_ms": 1792795108715,
+    "native_close_ms": 1792795585437,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.100900047370903,
+      "MAE_pct": 13.145428706774043
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.100900047370903,
+      "MAE_pct": 23.66177167219329
+    },
+    "extra_after_real_exit_72h_pct": 18.950203821318603,
+    "post_exit_complete": true
+  },
+  {
+    "key": "cd1e3a62c84a646a8125b791909ec2d0ebef5b5487fdd0a225df3e2ddd5692f0",
+    "source": "SCALP_C10",
+    "entry_ms": 1792801191646,
+    "native_close_ms": 1792802969897,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 66.6287663445139,
+      "MAE_pct": 13.786242183058562
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 66.6287663445139,
+      "MAE_pct": 23.13814667424673
+    },
+    "extra_after_real_exit_72h_pct": 60.77893582007678,
+    "post_exit_complete": true
+  },
+  {
+    "key": "4b53a861732b8221e88c17d634604fa12b9c59d935a247be495766ed444ca8d9",
+    "source": "SCALP_C10",
+    "entry_ms": 1792804525793,
+    "native_close_ms": 1792804862356,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 4.981412639405192,
+      "MAE_pct": 13.903345724907068
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.810408921933078,
+      "MAE_pct": 18.17843866171005
+    },
+    "extra_after_real_exit_72h_pct": 11.081766768593448,
+    "post_exit_complete": true
+  },
+  {
+    "key": "acd6a5da492bc4bade5d6c43adddce52e4ac9e9be82e9fadee11aed2fdb4d158",
+    "source": "SCALP_C10",
+    "entry_ms": 1792808423971,
+    "native_close_ms": 1792809394386,
+    "status": "DATA_GAP"
+  },
+  {
+    "key": "3d4e79eb07f6051f0a4741612df862d0e489a0708cfdeb24f765c93a8605fc54",
+    "source": "SCALP_C10",
+    "entry_ms": 1792837971873,
+    "native_close_ms": 1792838783291,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.28076572470373,
+      "MAE_pct": 19.161349134001814
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 6.28076572470373,
+      "MAE_pct": 19.161349134001814
+    },
+    "extra_after_real_exit_72h_pct": 9.39200600487895,
+    "post_exit_complete": true
+  },
+  {
+    "key": "4d33a7652774733be5e0f0a27e45ae839f1996a995b88a1b01ab7e72d3a46cec",
+    "source": "SCALP_C10",
+    "entry_ms": 1792845822427,
+    "native_close_ms": 1792846788075,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.408474757177927,
+      "MAE_pct": 34.5003024157683
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 17.408474757177927,
+      "MAE_pct": 34.5003024157683
+    },
+    "extra_after_real_exit_72h_pct": 17.600940807526456,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7167336755e1ac828899c399796d6df36faa824ea835fe61947b48c83a5abec7",
+    "source": "SCALP_C10",
+    "entry_ms": 1792849598794,
+    "native_close_ms": 1792852454015,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.556653108657758,
+      "MAE_pct": 20.94712376525275
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.556653108657758,
+      "MAE_pct": 21.44102266124346
+    },
+    "extra_after_real_exit_72h_pct": 1.3146100985957698,
+    "post_exit_complete": true
+  },
+  {
+    "key": "fd6ae8265949ec87b97fd15b845a2a2bcb49cb07a5cc4b865a22be6627ff243f",
+    "source": "SCALP_C10",
+    "entry_ms": 1792849753711,
+    "native_close_ms": 1792851008593,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.446828999862422,
+      "MAE_pct": 37.70807538863667
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.446828999862422,
+      "MAE_pct": 49.59416701059294
+    },
+    "extra_after_real_exit_72h_pct": 14.246376811594196,
+    "post_exit_complete": true
+  },
+  {
+    "key": "35ac17133cc7c8ccd7e48290027a319de8460cefae6a963aa096b3379e77ad79",
+    "source": "SCALP_C10",
+    "entry_ms": 1792860453859,
+    "native_close_ms": 1792862671686,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 19.103475655971437,
+      "MAE_pct": 33.55469736889594
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 19.103475655971437,
+      "MAE_pct": 33.55469736889594
+    },
+    "extra_after_real_exit_72h_pct": 26.209507782919662,
+    "post_exit_complete": true
+  },
+  {
+    "key": "26064ebf54ce2e871ed16f275a2295e46a43411ebe8b6a1e36d47e3caaca6e46",
+    "source": "SCALP_C10",
+    "entry_ms": 1792880313448,
+    "native_close_ms": 1792887615745,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.717137774263705,
+      "MAE_pct": 39.349014956842574
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.717137774263705,
+      "MAE_pct": 39.349014956842574
+    },
+    "extra_after_real_exit_72h_pct": 12.2334455667789,
+    "post_exit_complete": true
+  },
+  {
+    "key": "cc5844ca2031587b88c56f7892f2f01541b8783fe1fc013e198c7b9a74000a6b",
+    "source": "SCALP_C10",
+    "entry_ms": 1792912050320,
+    "native_close_ms": 1792917802158,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.588283715187274,
+      "MAE_pct": 36.8569076690904
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.588283715187274,
+      "MAE_pct": 36.8569076690904
+    },
+    "extra_after_real_exit_72h_pct": 1.7172182380419843,
+    "post_exit_complete": true
+  },
+  {
+    "key": "64957847c3e179e2c3b0f6eb627120b05f479d6bdac14a9b51ea2bf152529188",
+    "source": "SCALP_C10",
+    "entry_ms": 1793031583443,
+    "native_close_ms": 1793031908603,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 41.19059049447911,
+      "MAE_pct": 12.530004800768124
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 41.19059049447911,
+      "MAE_pct": 15.314450312049942
+    },
+    "extra_after_real_exit_72h_pct": 41.19059049447911,
+    "post_exit_complete": true
+  },
+  {
+    "key": "77d351f7b53c9ffd315a779ce74a90122498a9e2d993290d150e5552ff08398e",
+    "source": "SCALP_C10",
+    "entry_ms": 1793069659498,
+    "native_close_ms": 1793069781246,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.930907361160667,
+      "MAE_pct": 18.69425615412058
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 8.930907361160667,
+      "MAE_pct": 40.80152217861814
+    },
+    "extra_after_real_exit_72h_pct": 14.043824701195229,
+    "post_exit_complete": true
+  },
+  {
+    "key": "720cd5bc85fda42b3a8608d5291986a2110f06fbfa804e539452bfac78052122",
+    "source": "SCALP_C10",
+    "entry_ms": 1793079763736,
+    "native_close_ms": 1793080573473,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.04096681687832948,
+      "MAE_pct": 19.705038918476035
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.04096681687832948,
+      "MAE_pct": 30.2744776730848
+    },
+    "extra_after_real_exit_72h_pct": 1.0799136069114645,
+    "post_exit_complete": true
+  },
+  {
+    "key": "c68492a7453267ad8f1c0c515f32cb99665baae2653e3c8c5ae6b0636d382fe9",
+    "source": "SCALP_C10",
+    "entry_ms": 1793116133375,
+    "native_close_ms": 1793116220636,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 21.656686626746513,
+      "MAE_pct": 24.131736526946103
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 27.20558882235529,
+      "MAE_pct": 24.131736526946103
+    },
+    "extra_after_real_exit_72h_pct": 32.21991701244813,
+    "post_exit_complete": true
+  },
+  {
+    "key": "7565b1a1e02f70f2de8b7be4e959d00cf50a542dd126b186b99fae733f2fe1e0",
+    "source": "SCALP_C10",
+    "entry_ms": 1793131181271,
+    "native_close_ms": 1793133004395,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 28.315789473684205,
+      "MAE_pct": 14.631578947368418
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 34.16842105263156,
+      "MAE_pct": 14.631578947368418
+    },
+    "extra_after_real_exit_72h_pct": 39.758771929824555,
+    "post_exit_complete": true
+  },
+  {
+    "key": "73f3722f0cf32dab2543054d5a6fff9b84eebe669b044418ca2a948a15dd3832",
+    "source": "YODA",
+    "entry_ms": 1793091784603,
+    "native_close_ms": 1793120274297,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.700714189462337,
+      "MAE_pct": 5.9425953375555896
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 11.197951758523105,
+      "MAE_pct": 10.995822665408973
+    },
+    "extra_after_real_exit_72h_pct": 14.87987600103332,
+    "post_exit_complete": true
+  },
+  {
+    "key": "a9534a828e932fd5eb556c9304a74c4c14b3da4f9a141da0873398cf5aa4170b",
+    "source": "YODA",
+    "entry_ms": 1793894782626,
+    "native_close_ms": 1793920763351,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.444751381215471,
+      "MAE_pct": 4.765193370165766
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 2.444751381215471,
+      "MAE_pct": 4.765193370165766
+    },
+    "extra_after_real_exit_72h_pct": 0.651250589900898,
+    "post_exit_complete": true
+  },
+  {
+    "key": "2c7780e48cb7f0687a39d3fbbebb39aeb9655070aa6c2899cd66154146aea9ff",
+    "source": "YODA",
+    "entry_ms": 1794336056157,
+    "native_close_ms": 1794411277144,
+    "status": "PARTIAL_AVAILABLE",
+    "24": {
+      "status": "AVAILABLE",
+      "MFE_pct": 0.8764282108934096,
+      "MAE_pct": 3.9049235993208864
+    },
+    "72": {
+      "status": "AVAILABLE",
+      "MFE_pct": 7.965860597439556,
+      "MAE_pct": 3.9049235993208864
+    },
+    "extra_after_real_exit_72h_pct": 12.46599170420588,
+    "post_exit_complete": true
+  }
+]

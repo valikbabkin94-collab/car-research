@@ -1,0 +1,71 @@
+[
+  {
+    "key": "1a8d0bf615e43903e901d9693a939573b09f3fc361243fc7f0d4cc82f6cd6114",
+    "scenario": "LIVE_PUMP_SHORT",
+    "source": "PUMP_SHORT",
+    "symbol": "AIOUSDT",
+    "side": -1,
+    "entry_ms": 1793726030793,
+    "signal_ms": 1793726030793,
+    "entry": 0.03717,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793866009333,
+    "actual_stop_fraction": 0.32983588915792295,
+    "reported_native_R": -0.366,
+    "exits": [
+      {
+        "t": "2026-11-05 08:06:49.333000",
+        "price": 0.04164,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "fc66e27bb0d9fb96351de6f2ec2baa2b48ae3e83d618b864b10fe41c1d7b2f17",
+    "scenario": "LIVE_PUMP_SHORT",
+    "source": "PUMP_SHORT",
+    "symbol": "BEAMUSDT",
+    "side": -1,
+    "entry_ms": 1793369379026,
+    "signal_ms": 1793369379026,
+    "entry": 0.005203,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793513738754,
+    "actual_stop_fraction": 0.3296559677109361,
+    "reported_native_R": -0.369,
+    "exits": [
+      {
+        "t": "2026-11-01 06:15:38.754000",
+        "price": 0.0058249,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "43bf6726012f21ed23331e50b48a04de579c6002f321e7d531e747550c1e3dcb",
+    "scenario": "LIVE_PUMP_SHORT",
+    "source": "PUMP_SHORT",
+    "symbol": "CLANKERUSDT",
+    "side": -1,
+    "entry_ms": 1793824896788,
+    "signal_ms": 1793824896788,
+    "entry": 24.502,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793830675957,
+    "actual_stop_fraction": 0.32997306342339416,
+    "reported_native_R": 0.604,
+    "exits": [
+      {
+        "t": "2026-11-04 22:17:55.957000",
+        "price": 19.602,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "key": "9d5f22c65856d00c20e931d6c47b7cd3a7e8d2e1f9c6826c602a41decc405bbe",
+    "scenario": "LIVE_OLEG_STYLE",
+    "source": "OLEG_STYLE",
+    "symbol": "ARKUSDT",
+    "side": 1,
+    "entry_ms": 1792800968522,
+    "signal_ms": 1792800968522,
+    "entry": 0.21131,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792803674785,
+    "actual_stop_fraction": 0.14211348256116607,
+    "reported_native_R": 0.585,
+    "exits": [
+      {
+        "t": "2026-10-24 00:49:59.588000",
+        "price": 0.21585,
+        "frac": 0.3291,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 01:01:14.785000",
+        "price": 0.22311,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "7c9261421917656448416ca7e4b45eaac06e8afe6aadb1688a0f3cf743c39992",
+    "scenario": "LIVE_OLEG_STYLE",
+    "source": "OLEG_STYLE",
+    "symbol": "LIGHTUSDT",
+    "side": 1,
+    "entry_ms": 1792897278198,
+    "signal_ms": 1792897278198,
+    "entry": 0.28577,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792900676116,
+    "actual_stop_fraction": 0.32998565279770453,
+    "reported_native_R": 0.021,
+    "exits": [
+      {
+        "t": "2026-10-25 03:45:49.873000",
+        "price": 0.29349,
+        "frac": 0.3333,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-25 03:57:56.116000",
+        "price": 0.2855165,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "09d3bd9eb2f8f0e187723eec9ba8942dc943353f4df9b653111f196d3ecea767",
+    "scenario": "LIVE_OLEG_STYLE",
+    "source": "OLEG_STYLE",
+    "symbol": "PTBUSDT",
+    "side": 1,
+    "entry_ms": 1793180157150,
+    "signal_ms": 1793180157150,
+    "entry": 0.0001576,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793182965782,
+    "actual_stop_fraction": 0.19796954314720816,
+    "reported_native_R": 0.028,
+    "exits": [
+      {
+        "t": "2026-10-28 10:16:33.320000",
+        "price": 0.0001619,
+        "frac": 0.3333,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-28 10:22:45.782000",
+        "price": 0.00015722,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

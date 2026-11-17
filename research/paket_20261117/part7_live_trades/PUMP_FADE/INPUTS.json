@@ -1,0 +1,509 @@
+[
+  {
+    "key": "aa78c0ce93815710684df2af8fc04dd1711580734f1d5496e9887d81bf5164a8",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "AKEUSDT",
+    "side": -1,
+    "entry_ms": 1794549839584,
+    "signal_ms": 1794549839584,
+    "entry": 0.003332,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794550265646,
+    "actual_stop_fraction": 0.12244897959183665,
+    "reported_native_R": 0.846,
+    "exits": [
+      {
+        "t": "2026-11-13 06:06:31.337000",
+        "price": 0.003262,
+        "frac": 2.4259,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 06:06:32.167000",
+        "price": 0.003192,
+        "frac": 1.4444,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 06:11:05.646000",
+        "price": 0.003327,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "776805f33ead20848b9b76095e7a4075bbb78b6d92c1dd363ebf46c1577d022d",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "AXISUSDT",
+    "side": -1,
+    "entry_ms": 1794848700034,
+    "signal_ms": 1794848700034,
+    "entry": 0.095,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794865711242,
+    "actual_stop_fraction": 0.12315789473684213,
+    "reported_native_R": 0.906,
+    "exits": [
+      {
+        "t": "2026-11-16 17:31:11.383000",
+        "price": 0.093,
+        "frac": 2.472,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 18:09:19.205000",
+        "price": 0.091,
+        "frac": 1.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 21:48:31.242000",
+        "price": 0.0949,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "c1e2d568ba2efa23786655c518920ba371cfbb28b30ed95b51c9846a2999a8e8",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "BMTUSDT",
+    "side": -1,
+    "entry_ms": 1794625923385,
+    "signal_ms": 1794625923385,
+    "entry": 0.024076,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794631747599,
+    "actual_stop_fraction": 0.1979564711746138,
+    "reported_native_R": 0.102,
+    "exits": [
+      {
+        "t": "2026-11-14 03:32:35.492000",
+        "price": 0.02357,
+        "frac": 0.9995,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 04:49:07.599000",
+        "price": 0.02405817,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "1c8379a5fb7fa23cf734082b5248204ab1c5afbda1e600824a04b4cff942e1b0",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "ERAUSDT",
+    "side": -1,
+    "entry_ms": 1794488994762,
+    "signal_ms": 1794488994762,
+    "entry": 0.09835,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794493121120,
+    "actual_stop_fraction": 0.12231825114387385,
+    "reported_native_R": 1.385,
+    "exits": [
+      {
+        "t": "2026-11-12 13:32:32.932000",
+        "price": 0.09628,
+        "frac": 2.496,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 13:46:11.551000",
+        "price": 0.09422,
+        "frac": 1.496,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 14:18:41.120000",
+        "price": 0.09209,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "95ca727a77e7a6f8745ad61d1ce000956e5ee2780fa49a53e7a213b7d458ae76",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "HUMAUSDT",
+    "side": -1,
+    "entry_ms": 1794891886664,
+    "signal_ms": 1794891886664,
+    "entry": 0.00895,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794895239954,
+    "actual_stop_fraction": 0.12290502793296088,
+    "reported_native_R": 0.356,
+    "exits": [
+      {
+        "t": "2026-11-17 05:18:12.553000",
+        "price": 0.00875,
+        "frac": 1.6667,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-17 05:19:38.542000",
+        "price": 0.00857,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-17 06:00:39.954000",
+        "price": 0.0094,
+        "frac": 0.6667,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "a2b7dfedfb3fe4112c574f053670c4934fc20cda1a4233844560f04b099499be",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "JCTUSDT",
+    "side": -1,
+    "entry_ms": 1794830970661,
+    "signal_ms": 1794830970661,
+    "entry": 0.00245,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794834579534,
+    "actual_stop_fraction": 0.12326530612244913,
+    "reported_native_R": 0.931,
+    "exits": [
+      {
+        "t": "2026-11-16 12:35:40.884000",
+        "price": 0.002388,
+        "frac": 2.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 12:36:10.014000",
+        "price": 0.002347,
+        "frac": 1.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 13:09:39.534000",
+        "price": 0.002449,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "2e747f71caf21b6b147e487e815f21492ff6df41144c90063e21c0c40b4f36e1",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "JELLYJELLYUSDT",
+    "side": -1,
+    "entry_ms": 1794762548638,
+    "signal_ms": 1794762548638,
+    "entry": 0.04289,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794805348029,
+    "actual_stop_fraction": 0.12380508276987645,
+    "reported_native_R": 1.482,
+    "exits": [
+      {
+        "t": "2026-11-16 00:11:39.387000",
+        "price": 0.04199,
+        "frac": 2.4903,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 01:34:51.690000",
+        "price": 0.04109,
+        "frac": 1.4935,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-16 05:02:28.029000",
+        "price": 0.03983,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "2f0124e2dde58c0305d22dc3155913c98459dd47ee3d6b32d9e84cd35b585dcc",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "KORUUSDT",
+    "side": -1,
+    "entry_ms": 1794431215591,
+    "signal_ms": 1794431215591,
+    "entry": 8.63,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794442354065,
+    "actual_stop_fraction": 0.12282734646581672,
+    "reported_native_R": 117.142,
+    "exits": [
+      {
+        "t": "2026-11-11 22:28:19.754000",
+        "price": 8.45,
+        "frac": 202.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:54:53.540000",
+        "price": 8.27,
+        "frac": 121.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 00:11:15.810000",
+        "price": 8.09,
+        "frac": 81.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 00:12:34.065000",
+        "price": 8.12,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "9334c92d1c56e6a82f54abaf23400350d946dc7348a94f2f1bd55c09f4d606b6",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "MAGMAUSDT",
+    "side": -1,
+    "entry_ms": 1794492280961,
+    "signal_ms": 1794492280961,
+    "entry": 0.3255,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794493924831,
+    "actual_stop_fraction": 0.12350230414746544,
+    "reported_native_R": 0.189,
+    "exits": [
+      {
+        "t": "2026-11-12 14:24:19.681000",
+        "price": 0.3177,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 14:32:04.831000",
+        "price": 0.3252,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "959433e4cdd80ee706411bdf873f4d4873cceec6c79c8e90b672036c8e78dd31",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "MVLLUSDT",
+    "side": -1,
+    "entry_ms": 1794431223042,
+    "signal_ms": 1794431223042,
+    "entry": 12.37,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794438017024,
+    "actual_stop_fraction": 0.12368633791430894,
+    "reported_native_R": 1.415,
+    "exits": [
+      {
+        "t": "2026-11-11 22:28:26.226000",
+        "price": 12.11,
+        "frac": 2.431,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:31:49.065000",
+        "price": 11.85,
+        "frac": 1.4483,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:00:17.024000",
+        "price": 11.59,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "da780c06ad5cf7238edaf3097a0acfbef0191ae8e74e16b9bc4b0d1efdae9c4d",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "NBISUSDT",
+    "side": -1,
+    "entry_ms": 1794431118350,
+    "signal_ms": 1794431118350,
+    "entry": 156.5,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794438766080,
+    "actual_stop_fraction": 0.12325878594249207,
+    "reported_native_R": 1.276,
+    "exits": [
+      {
+        "t": "2026-11-11 22:29:07.400000",
+        "price": 153.21,
+        "frac": 2.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 22:31:34.081000",
+        "price": 149.93,
+        "frac": 1.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:12:46.080000",
+        "price": 146.64,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "f5e8663072d7467188d33c2353d62f585b903eec68a731054127963e66d3f1ab",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "QUSDT",
+    "side": -1,
+    "entry_ms": 1794467513254,
+    "signal_ms": 1794467513254,
+    "entry": 0.02779,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794489016150,
+    "actual_stop_fraction": 0.12378553436487949,
+    "reported_native_R": 1.375,
+    "exits": [
+      {
+        "t": "2026-11-12 07:52:32.632000",
+        "price": 0.02721,
+        "frac": 2.4231,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 11:23:06.201000",
+        "price": 0.02662,
+        "frac": 1.4231,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 13:10:16.150000",
+        "price": 0.02604,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "235ba320a64c685923a19c2a5147361e366897fd50df97a9cb4e1672f331c9eb",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "SNXXUSDT",
+    "side": -1,
+    "entry_ms": 1794438213759,
+    "signal_ms": 1794438213759,
+    "entry": 4.31,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794439734735,
+    "actual_stop_fraction": 0.12296983758700697,
+    "reported_native_R": 0.948,
+    "exits": [
+      {
+        "t": "2026-11-11 23:07:57.173000",
+        "price": 4.22,
+        "frac": 2.4908,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:13:33.288000",
+        "price": 4.13,
+        "frac": 1.4908,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 23:28:54.735000",
+        "price": 4.3,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "3e346e84e8e58c05c875d4cbc330c43c2a394a4d11c9e49539fb0e0bcf5826f7",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "SOPHUSDT",
+    "side": -1,
+    "entry_ms": 1794607377120,
+    "signal_ms": 1794607377120,
+    "entry": 0.001755,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794617902959,
+    "actual_stop_fraction": 0.12364672364672358,
+    "reported_native_R": 0.897,
+    "exits": [
+      {
+        "t": "2026-11-14 00:36:59.249000",
+        "price": 0.001718,
+        "frac": 2.499,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 00:37:57.950000",
+        "price": 0.001681,
+        "frac": 1.499,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-14 00:58:22.959000",
+        "price": 0.001758,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "f301b2d652ef0c18156bd127813d8d29b8ce5af327f4cf4129810ac951402157",
+    "scenario": "LIVE_PUMP_FADE",
+    "source": "PUMP_FADE",
+    "symbol": "SPACEUSDT",
+    "side": -1,
+    "entry_ms": 1794837899660,
+    "signal_ms": 1794837899660,
+    "entry": 0.003307,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794839581181,
+    "actual_stop_fraction": 0.12367704868460838,
+    "reported_native_R": -0.451,
+    "exits": [
+      {
+        "t": "2026-11-16 14:33:01.181000",
+        "price": 0.00348863,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

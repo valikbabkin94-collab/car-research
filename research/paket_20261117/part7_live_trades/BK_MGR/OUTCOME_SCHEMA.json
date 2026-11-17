@@ -1,0 +1,23 @@
+{
+  "array_columns": {
+    "0": "status:1CLOSED,0CENSORED,-1NO_MINUTE,-2PRICE_NOT_REPRODUCIBLE,-3HOLD_GAP,-4INVALID_GEOMETRY,-5MISSING_PAST_FEATURES",
+    "1": "netR",
+    "2": "gross price fraction",
+    "3": "cost price fraction",
+    "4": "funding price fraction",
+    "5": "funding complete",
+    "6": "unknown funding adverse stress R",
+    "7": "exit_ms",
+    "8": "exit reason 1SL/2TP/3BE/4TIME/5TRAIL/6GIVEBACK",
+    "9": "MFE R",
+    "10": "MAE R",
+    "11": "hold_hours",
+    "12": "event_count",
+    "13..28": "up to4 events:time,price,fraction,kind",
+    "29": "initialSL price width",
+    "30": "R normalization width",
+    "31": "entry_ms resolved to source precision",
+    "32": "entryprice unchanged",
+    "34": "same-bar SL/TP ambiguity"
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "key": "73f3722f0cf32dab2543054d5a6fff9b84eebe669b044418ca2a948a15dd3832",
+    "scenario": "LIVE_YODA",
+    "source": "YODA",
+    "symbol": "PENGUUSDT",
+    "side": -1,
+    "entry_ms": 1793091784603,
+    "signal_ms": 1793091784603,
+    "entry": 0.007421,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793120274297,
+    "actual_stop_fraction": 0.09890850289718389,
+    "reported_native_R": -0.452,
+    "exits": [
+      {
+        "t": "2026-10-27 16:57:54.297000",
+        "price": 0.007742,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "a9534a828e932fd5eb556c9304a74c4c14b3da4f9a141da0873398cf5aa4170b",
+    "scenario": "LIVE_YODA",
+    "source": "YODA",
+    "symbol": "TAOUSDT",
+    "side": -1,
+    "entry_ms": 1793894782626,
+    "signal_ms": 1793894782626,
+    "entry": 217.2,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793920763351,
+    "actual_stop_fraction": 0.3298342541436463,
+    "reported_native_R": 0.202,
+    "exits": [
+      {
+        "t": "2026-11-05 23:08:20.208000",
+        "price": 214.7,
+        "frac": 2.5,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-05 23:10:06.792000",
+        "price": 213.8,
+        "frac": 1.5,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-05 23:19:23.351000",
+        "price": 211.9,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "2c7780e48cb7f0687a39d3fbbebb39aeb9655070aa6c2899cd66154146aea9ff",
+    "scenario": "LIVE_YODA",
+    "source": "YODA",
+    "symbol": "TAOUSDT",
+    "side": -1,
+    "entry_ms": 1794336056157,
+    "signal_ms": 1794336056157,
+    "entry": 217.93,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794411277144,
+    "actual_stop_fraction": 0.32996833845730267,
+    "reported_native_R": -0.092,
+    "exits": [
+      {
+        "t": "2026-11-11 15:34:37.144000",
+        "price": 224.21,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

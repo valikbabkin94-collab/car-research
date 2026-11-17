@@ -1,0 +1,48 @@
+[
+  {
+    "key": "749bb2e5c848546edc509c553c89f21138b45fead2146163238ac9ce4cc9f827",
+    "scenario": "LIVE_RS1M",
+    "source": "RS1M",
+    "symbol": "BTWUSDT",
+    "side": 1,
+    "entry_ms": 1792909772799,
+    "signal_ms": 1792909772799,
+    "entry": 1.83182,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792910909141,
+    "actual_stop_fraction": 0.09827384786714854,
+    "reported_native_R": -0.402,
+    "exits": [
+      {
+        "t": "2026-10-25 06:48:29.141000",
+        "price": 1.76304,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "b2db496a85721bc23c627781fffe602b4ce2bc46bb16a00b5de7c7b53e121bb3",
+    "scenario": "LIVE_RS1M",
+    "source": "RS1M",
+    "symbol": "LYNUSDT",
+    "side": 1,
+    "entry_ms": 1792909642084,
+    "signal_ms": 1792909642084,
+    "entry": 0.01381,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792912984075,
+    "actual_stop_fraction": 0.09847936278059377,
+    "reported_native_R": -0.316,
+    "exits": [
+      {
+        "t": "2026-10-25 07:23:04.075000",
+        "price": 0.01339,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

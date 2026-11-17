@@ -1,0 +1,436 @@
+[
+  {
+    "key": "9df4e811d333cf665b244e8d6715cce74ca5e62da1bec52a8c0e9bb43b75ff06",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "AKEUSDT",
+    "side": -1,
+    "entry_ms": 1792858114276,
+    "signal_ms": 1792858114276,
+    "entry": 0.028949,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792858770905,
+    "actual_stop_fraction": 0.19793429824864428,
+    "reported_native_R": -0.473,
+    "exits": [
+      {
+        "t": "2026-10-24 16:19:30.905000",
+        "price": 0.031595,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "c345c293cf263757744ef0bf13554ee8eef78b3e32d145a5d33cd9e4d30d64e5",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "BCHUSDT",
+    "side": -1,
+    "entry_ms": 1792860625943,
+    "signal_ms": 1792860625943,
+    "entry": 272.76,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792950188761,
+    "actual_stop_fraction": 0.0989881214254289,
+    "reported_native_R": -0.294,
+    "exits": [
+      {
+        "t": "2026-10-25 17:43:08.761000",
+        "price": 280.32833333,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "6b5c412502f89adf7de405843647093681451a1b5e0821b68b9b7b3d03e68171",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "BTWUSDT",
+    "side": 1,
+    "entry_ms": 1792875879612,
+    "signal_ms": 1792875879612,
+    "entry": 1.76457,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792880760561,
+    "actual_stop_fraction": 0.09899862289396288,
+    "reported_native_R": -0.319,
+    "exits": [
+      {
+        "t": "2026-10-24 22:26:00.561000",
+        "price": 1.71006,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "ed2bb2f38bb7c4d1ed4dddd1b61ca9e1a668a573b10504d70e97eb81a1848701",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "CRVUSDT",
+    "side": -1,
+    "entry_ms": 1792844397717,
+    "signal_ms": 1792844397717,
+    "entry": 0.3542,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792888474341,
+    "actual_stop_fraction": 0.09881422924901173,
+    "reported_native_R": 0.181,
+    "exits": [
+      {
+        "t": "2026-10-24 14:16:49.307000",
+        "price": 0.3474,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-25 00:34:34.341000",
+        "price": 0.3542,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "2c1696a8a5ba80d783f052b6d2ffa0640d0d402bdde142208d7cd6dae18aea73",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "DASHUSDT",
+    "side": -1,
+    "entry_ms": 1792852223985,
+    "signal_ms": 1792852223985,
+    "entry": 50.28,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792866660188,
+    "actual_stop_fraction": 0.0990453460620524,
+    "reported_native_R": 0.276,
+    "exits": [
+      {
+        "t": "2026-10-24 15:17:40.818000",
+        "price": 48.91,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 18:31:00.188000",
+        "price": 50.2,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "c7015955ca0bc86c2262aa470e3d275a487490774f970d7ee81de4ad55c5ae2c",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "DOODUSDT",
+    "side": -1,
+    "entry_ms": 1792865136976,
+    "signal_ms": 1792865136976,
+    "entry": 0.001495,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792905833913,
+    "actual_stop_fraction": 0.12374581939799345,
+    "reported_native_R": -0.526,
+    "exits": [
+      {
+        "t": "2026-10-25 05:23:53.913000",
+        "price": 0.00159,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "2c0499a2cd638291428bd748779cea291f7139d29fa3c187c580555bd98cf833",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "ERAUSDT",
+    "side": 1,
+    "entry_ms": 1792849967595,
+    "signal_ms": 1792849967595,
+    "entry": 0.09133,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792887679161,
+    "actual_stop_fraction": 0.329355085952042,
+    "reported_native_R": -0.482,
+    "exits": [
+      {
+        "t": "2026-10-25 00:21:19.161000",
+        "price": 0.07699,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "a5cb69dae144eda0d8504b2bf899eb3d0c074099cfcbfa6595e57206ff9dd8fb",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "GRASSUSDT",
+    "side": -1,
+    "entry_ms": 1792865861442,
+    "signal_ms": 1792865861442,
+    "entry": 0.6283,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792884688170,
+    "actual_stop_fraction": 0.10997930924717503,
+    "reported_native_R": -0.481,
+    "exits": [
+      {
+        "t": "2026-10-24 23:31:28.170000",
+        "price": 0.66112,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "b32d6312d70532304476aa106e408920346dd0d78197e5c5e9cefa61d7f5efee",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "LITUSDT",
+    "side": -1,
+    "entry_ms": 1792844120050,
+    "signal_ms": 1792844120050,
+    "entry": 3.0994,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792866421485,
+    "actual_stop_fraction": 0.09898690069045624,
+    "reported_native_R": -0.235,
+    "exits": [
+      {
+        "t": "2026-10-24 18:27:01.485000",
+        "price": 3.1692,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "7a6e336341308346c0cdda9d85b96c4a819d9ebda7b0edefe2b10d06ddd0c661",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "MUSDT",
+    "side": 1,
+    "entry_ms": 1792856974866,
+    "signal_ms": 1792856974866,
+    "entry": 0.9554,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793381313152,
+    "actual_stop_fraction": 0.3299141720745238,
+    "reported_native_R": 1.059,
+    "exits": [
+      {
+        "t": "2026-10-27 15:14:51.284000",
+        "price": 1.0661,
+        "frac": 1.5,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-29 21:50:12.824000",
+        "price": 1.1335,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-30 17:28:33.152000",
+        "price": 0.9562,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "013875b4fdd97150cd2569aa9c06023debe14eec6378e85276991f72ec8358f1",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "STRKUSDT",
+    "side": -1,
+    "entry_ms": 1792875656813,
+    "signal_ms": 1792875656813,
+    "entry": 0.04652,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793028081496,
+    "actual_stop_fraction": 0.09888220120378333,
+    "reported_native_R": 0.275,
+    "exits": [
+      {
+        "t": "2026-10-25 08:54:14.194000",
+        "price": 0.04527,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-26 15:21:21.496000",
+        "price": 0.04645,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "f27564afd435e5666c4982c9723340d8023f89b533dff2691c2fc931a10a0e3b",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "UNIUSDT",
+    "side": -1,
+    "entry_ms": 1792861239662,
+    "signal_ms": 1792861239662,
+    "entry": 6.665,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792884791426,
+    "actual_stop_fraction": 0.0988747186796699,
+    "reported_native_R": -0.342,
+    "exits": [
+      {
+        "t": "2026-10-24 23:33:11.426000",
+        "price": 6.881,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "018199622ce1a602d1c67bfeb26f0002e93340a803d4543968d8c43b7f010814",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "VVVUSDT",
+    "side": -1,
+    "entry_ms": 1792857634874,
+    "signal_ms": 1792857634874,
+    "entry": 23.883,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792860987551,
+    "actual_stop_fraction": 0.0989825398819244,
+    "reported_native_R": 0.188,
+    "exits": [
+      {
+        "t": "2026-10-24 16:22:49.649000",
+        "price": 23.431,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 16:56:27.551000",
+        "price": 23.85685714,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "60e498a82049a95fd9bec70a1ff885bc13dcaa6f582ab4a5bcfddec2a2c02344",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "WLDUSDT",
+    "side": -1,
+    "entry_ms": 1792848022557,
+    "signal_ms": 1792848022557,
+    "entry": 0.4695,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792851536947,
+    "actual_stop_fraction": 0.09882854100106497,
+    "reported_native_R": 0.44,
+    "exits": [
+      {
+        "t": "2026-10-24 14:16:47.613000",
+        "price": 0.4577,
+        "frac": 0.9965,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 14:18:56.947000",
+        "price": 0.4602,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "81255fc025f979b85b5e2174019b06f3221434fae2ce360124a4df48127eb406",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "XRPUSDT",
+    "side": -1,
+    "entry_ms": 1792846037801,
+    "signal_ms": 1792846037801,
+    "entry": 1.2862,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792866804136,
+    "actual_stop_fraction": 0.09897372103871871,
+    "reported_native_R": 0.611,
+    "exits": [
+      {
+        "t": "2026-10-24 14:16:10.449000",
+        "price": 1.2722,
+        "frac": 2.4873,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 15:25:39.608000",
+        "price": 1.2553,
+        "frac": 1.4873,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 18:33:24.136000",
+        "price": 1.2847,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "376153f3004b59af962884b517b80fb06c7d4ed72e2bfff3b375a0c6a5b73cf0",
+    "scenario": "LIVE_CAR_MAIN_LIMIT",
+    "source": "CAR_MAIN_LIMIT",
+    "symbol": "ZECUSDT",
+    "side": -1,
+    "entry_ms": 1792846325321,
+    "signal_ms": 1792846325321,
+    "entry": 1163.35,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1792861088157,
+    "actual_stop_fraction": 0.09899858168221098,
+    "reported_native_R": 0.712,
+    "exits": [
+      {
+        "t": "2026-10-24 14:15:41.527000",
+        "price": 1141.435,
+        "frac": 2.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 14:16:49.716000",
+        "price": 1123.9,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-24 16:58:08.157000",
+        "price": 1161.48,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

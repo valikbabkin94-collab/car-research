@@ -1,0 +1,420 @@
+[
+  {
+    "key": "ec6b383eda5083ac4f1c8ef9416af240350181283bf729d0fe7c4ac2682cda2d",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "1000TAGUSDT",
+    "side": 1,
+    "entry_ms": 1793092204092,
+    "signal_ms": 1793092204092,
+    "entry": 0.6675,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793096185613,
+    "actual_stop_fraction": 0.19790262172284645,
+    "reported_native_R": 0.907,
+    "exits": [
+      {
+        "t": "2026-10-27 09:11:02.907000",
+        "price": 0.6891,
+        "frac": 2.0,
+        "type": "market"
+      },
+      {
+        "t": "2026-10-27 09:28:08.198000",
+        "price": 0.6961,
+        "frac": 1.3333,
+        "type": "market"
+      },
+      {
+        "t": "2026-10-27 10:16:25.613000",
+        "price": 0.7105,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "c9e7e843df027618aea02927e637b8a942ea61ec6efed22b637c7f10f08e3edd",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "ELSAUSDT",
+    "side": 1,
+    "entry_ms": 1793102628186,
+    "signal_ms": 1793102628186,
+    "entry": 0.08247,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793150204061,
+    "actual_stop_fraction": 0.12368133866860676,
+    "reported_native_R": -0.468,
+    "exits": [
+      {
+        "t": "2026-10-28 01:16:44.061000",
+        "price": 0.07781,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "2996751625f9a5a86cf9a7312a27bac34e963826a0a9ae5720f200a6c1122c2f",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "EVAAUSDT",
+    "side": 1,
+    "entry_ms": 1793116135928,
+    "signal_ms": 1793116135928,
+    "entry": 0.6853,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793185954257,
+    "actual_stop_fraction": 0.19786954618415298,
+    "reported_native_R": 27.154,
+    "exits": [
+      {
+        "t": "2026-10-27 15:55:18.906000",
+        "price": 0.6997,
+        "frac": 63.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 16:09:40.170000",
+        "price": 0.7141,
+        "frac": 38.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 16:17:26.984000",
+        "price": 0.7285,
+        "frac": 25.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-28 11:12:34.257000",
+        "price": 1.3606,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "aa20fe746f81067681314dee37bd292b844ec14765e585ac610bec7d48669ff9",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "GRASSUSDT",
+    "side": 1,
+    "entry_ms": 1793092729357,
+    "signal_ms": 1793092729357,
+    "entry": 0.6848,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793130458731,
+    "actual_stop_fraction": 0.12368574766355145,
+    "reported_native_R": 1.187,
+    "exits": [
+      {
+        "t": "2026-10-27 15:11:41.851000",
+        "price": 0.6994,
+        "frac": 2.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 16:57:42.920000",
+        "price": 0.7153,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 19:47:38.731000",
+        "price": 0.7279,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "9b3cb9856b9706128554634037365a4c1a854d6daa5dd81215b743e64d87ba3b",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "GRASSUSDT",
+    "side": 1,
+    "entry_ms": 1793181296660,
+    "signal_ms": 1793181296660,
+    "entry": 0.7221,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793219395531,
+    "actual_stop_fraction": 0.12380556709597001,
+    "reported_native_R": -0.447,
+    "exits": [
+      {
+        "t": "2026-10-28 20:29:55.531000",
+        "price": 0.6831,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "8af0de44e09f471f8694cafd6c2a216e7be18b93fab5f08297e3e757fad316b4",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "HUMAUSDT",
+    "side": 1,
+    "entry_ms": 1793182075511,
+    "signal_ms": 1793182075511,
+    "entry": 0.02789,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793255759996,
+    "actual_stop_fraction": 0.12370025098601656,
+    "reported_native_R": 0.17,
+    "exits": [
+      {
+        "t": "2026-10-29 05:58:56.040000",
+        "price": 0.02848,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-29 06:35:59.996000",
+        "price": 0.02792,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "d6ce6d3d272bbf110cc62fcdb6ef9802abea87dee140eda9197f6fafc2989806",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "JCTUSDT",
+    "side": 1,
+    "entry_ms": 1793066602550,
+    "signal_ms": 1793066602550,
+    "entry": 0.007635,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793066925458,
+    "actual_stop_fraction": 0.12377210216110024,
+    "reported_native_R": -0.503,
+    "exits": [
+      {
+        "t": "2026-10-27 02:08:45.458000",
+        "price": 0.00717,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "b0298fcbb1b246df0b88e88de9cb5687acd528b28bb18e3944fd0695a87a4507",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "NIGHTUSDT",
+    "side": 1,
+    "entry_ms": 1793109834214,
+    "signal_ms": 1793109834214,
+    "entry": 0.03949,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793142319260,
+    "actual_stop_fraction": 0.12357558875664709,
+    "reported_native_R": 1.278,
+    "exits": [
+      {
+        "t": "2026-10-27 19:11:01.101000",
+        "price": 0.04032,
+        "frac": 2.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 21:05:52.610000",
+        "price": 0.0412,
+        "frac": 1.2,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 23:05:19.260000",
+        "price": 0.04198,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "0f976512eeb2ce494c85ce1dd59513225484d4595be0951ab7bd1f8224616fb2",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "SENTUSDT",
+    "side": 1,
+    "entry_ms": 1793122699707,
+    "signal_ms": 1793122699707,
+    "entry": 0.022104,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793241979720,
+    "actual_stop_fraction": 0.12373326094824455,
+    "reported_native_R": -0.467,
+    "exits": [
+      {
+        "t": "2026-10-29 02:46:19.720000",
+        "price": 0.0208561,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "3b461e8c17b4581455b1e0af0b64eb0810501f64bac857fa907ce51c0038cc92",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "SIRENUSDT",
+    "side": 1,
+    "entry_ms": 1793091786627,
+    "signal_ms": 1793091786627,
+    "entry": 0.02348,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793172403797,
+    "actual_stop_fraction": 0.19761499148211248,
+    "reported_native_R": 0.897,
+    "exits": [
+      {
+        "t": "2026-10-27 17:10:54.232000",
+        "price": 0.02397,
+        "frac": 2.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-28 06:59:54.010000",
+        "price": 0.02447,
+        "frac": 1.48,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-28 07:26:43.797000",
+        "price": 0.02496,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "72c5c155193367f7275b82db6d5666875a4833435f8cf59365954777a403ce05",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "SOONUSDT",
+    "side": 1,
+    "entry_ms": 1793131679402,
+    "signal_ms": 1793131679402,
+    "entry": 0.306,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793162112054,
+    "actual_stop_fraction": 0.12352941176470589,
+    "reported_native_R": 0.162,
+    "exits": [
+      {
+        "t": "2026-10-28 02:33:19.594000",
+        "price": 0.3124,
+        "frac": 0.9655,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-28 04:35:12.054000",
+        "price": 0.3064,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "42f453ccba5543aeb7cae55c57f51f09b6a1144a1cea9a56c13356d27fb25606",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "TRIAUSDT",
+    "side": 1,
+    "entry_ms": 1793099306577,
+    "signal_ms": 1793099306577,
+    "entry": 0.002937,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793105382781,
+    "actual_stop_fraction": 0.1235955056179775,
+    "reported_native_R": 0.185,
+    "exits": [
+      {
+        "t": "2026-10-27 11:30:58.498000",
+        "price": 0.002999,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-27 12:49:42.781000",
+        "price": 0.002947,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "21be9af8a4f01c5793ebd627ec05ea6040747d7e1efb88e2ab6d5b1015568f6b",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "UNITREEUSDT",
+    "side": 1,
+    "entry_ms": 1793178403358,
+    "signal_ms": 1793178403358,
+    "entry": 98.91,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793325243540,
+    "actual_stop_fraction": 0.12374886260236573,
+    "reported_native_R": 0.439,
+    "exits": [
+      {
+        "t": "2026-10-30 01:36:21.972000",
+        "price": 100.99,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-30 01:54:03.540000",
+        "price": 98.98,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "b00c9c1d2346a1853d0b85e69cdc9e1f982cb6b56d45c0a697a40815736b0d39",
+    "scenario": "LIVE_ALT_CLONE",
+    "source": "ALT_CLONE",
+    "symbol": "USUSDT",
+    "side": 1,
+    "entry_ms": 1793055823275,
+    "signal_ms": 1793055823275,
+    "entry": 0.00556,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793056235531,
+    "actual_stop_fraction": 0.12230215827338131,
+    "reported_native_R": 0.161,
+    "exits": [
+      {
+        "t": "2026-10-26 23:08:51.882000",
+        "price": 0.00568,
+        "frac": 0.9873,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-26 23:10:35.531000",
+        "price": 0.00556,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "key": "04ecdc500998771fabaae8337f33d39a386c81e45279abcbdc51a302afa76d69",
+    "scenario": "LIVE_PIRATES",
+    "source": "PIRATES",
+    "symbol": "XLMUSDT",
+    "side": 1,
+    "entry_ms": 1793097231405,
+    "signal_ms": 1793097231405,
+    "entry": 0.1671,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794084457974,
+    "actual_stop_fraction": 0.2471573907839617,
+    "reported_native_R": -0.42,
+    "exits": [
+      {
+        "t": "2026-11-07 20:47:37.974000",
+        "price": 0.15,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

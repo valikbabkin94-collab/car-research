@@ -1,0 +1,257 @@
+[
+  {
+    "period": "H1",
+    "variant": "X1",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X2",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X3",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X4",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X5",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X6",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X7",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X8",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "X9",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T0S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T1S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T2S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T3S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T4S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  },
+  {
+    "period": "H1",
+    "variant": "T5S0B0",
+    "mirror": false,
+    "n": 0,
+    "WR": null,
+    "PF": null,
+    "netR": 0.0,
+    "USD_at_5risk": 0.0,
+    "maxDD_R": 0,
+    "top3_share": null,
+    "netR_adverse": 0.0,
+    "status_counts": {
+      "-2": 1
+    },
+    "funding_unknown_n": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "input_n": 15,
+  "paired_executable_n": 11,
+  "current_T0_netR": 2.913492864540586,
+  "wider_T1_netR": 3.7961427157310585,
+  "R_price_width": 0.056,
+  "actual_safety_stop_used_as_stop_not_R": true,
+  "legacy_2_06_2_81_not_assumed": true
+}

@@ -1,0 +1,71 @@
+{
+  "PUMP_FADE": {
+    "width": 0.056,
+    "source": "SIGNAL_SL5.6_PERCENT"
+  },
+  "ALTCOIN": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "ALTCOIN_MGR": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "ALT_CLONE": {
+    "width": 0.05757431793379406,
+    "n_H1_full_stopouts": 3,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "BK_MGR": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "CAR_MAIN_LIMIT": {
+    "width": 0.04344542464459831,
+    "n_H1_full_stopouts": 8,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "OLEG": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "OLEG_CLONE": {
+    "width": 0.05692155996611402,
+    "n_H1_full_stopouts": 1,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "OLEG_STYLE": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "PIRATES": {
+    "width": null,
+    "n_H1_full_stopouts": 0,
+    "source": "UNKNOWN_STRATEGY_R_NO_H1_FULL_STOP_OUT"
+  },
+  "PUMP_SHORT": {
+    "width": 0.12069293580626557,
+    "n_H1_full_stopouts": 1,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "RS1M": {
+    "width": 0.03506136180265268,
+    "n_H1_full_stopouts": 2,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "SCALP_C10": {
+    "width": 0.04590825900820556,
+    "n_H1_full_stopouts": 7,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  },
+  "YODA": {
+    "width": 0.04437941652068449,
+    "n_H1_full_stopouts": 1,
+    "source": "H1_MEDIAN_REALIZED_FULL_STOP_LOSS"
+  }
+}

@@ -1,0 +1,228 @@
+[
+  {
+    "key": "0a4999f099f523a803585f7648be02001fd14de1ca6a54d378cb8c43122614d4",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "AVGOUSDT",
+    "side": -1,
+    "entry_ms": 1794472312258,
+    "signal_ms": 1794472312258,
+    "entry": 353.83,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794491475423,
+    "actual_stop_fraction": 0.12373173557923312,
+    "reported_native_R": 0.183,
+    "exits": [
+      {
+        "t": "2026-11-12 13:09:45.866000",
+        "price": 346.4,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 13:51:15.423000",
+        "price": 353.25,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "cba7a67972416fcfe40e115e8ec259bb72ef4a4edfb9b4c5d7d78751d2cc59cf",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "B2USDT",
+    "side": -1,
+    "entry_ms": 1794471947031,
+    "signal_ms": 1794471947031,
+    "entry": 0.4538,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794480589781,
+    "actual_stop_fraction": 0.12362274129572515,
+    "reported_native_R": 1.35,
+    "exits": [
+      {
+        "t": "2026-11-12 09:01:59.329000",
+        "price": 0.4443,
+        "frac": 2.375,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 09:10:52.739000",
+        "price": 0.4347,
+        "frac": 1.375,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 10:49:49.781000",
+        "price": 0.4252,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ]
+  },
+  {
+    "key": "4c6fb9c9503d576efaade2a04a08ef40657ce7057634b407384b2b6823d745d2",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "BANKUSDT",
+    "side": -1,
+    "entry_ms": 1793204953236,
+    "signal_ms": 1793204953236,
+    "entry": 0.02761,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793293968735,
+    "actual_stop_fraction": 0.12350597609561742,
+    "reported_native_R": 0.789,
+    "exits": [
+      {
+        "t": "2026-10-29 01:22:24.633000",
+        "price": 0.02703,
+        "frac": 2.1429,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-29 11:57:04.085000",
+        "price": 0.02645,
+        "frac": 1.2857,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-29 17:12:48.735000",
+        "price": 0.02758,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "75f4e03bfc6bdf2339c7edd0f44270c2ae40e49b9d9024698c98c0bdb60adedd",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "BEAMUSDT",
+    "side": -1,
+    "entry_ms": 1794482019478,
+    "signal_ms": 1794482019478,
+    "entry": 0.0044457,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794518928380,
+    "actual_stop_fraction": 0.12373754414377935,
+    "reported_native_R": 0.16,
+    "exits": [
+      {
+        "t": "2026-11-12 19:38:46.700000",
+        "price": 0.0043519,
+        "frac": 0.95,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 21:28:48.380000",
+        "price": 0.0044416,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "fb69bce5cf59f539d3a52b3e9a0d5fb621309a3e77aac37ee4a5b1863542f1ee",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "BEATUSDT",
+    "side": -1,
+    "entry_ms": 1793203675718,
+    "signal_ms": 1793203675718,
+    "entry": 0.08263,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1793212553251,
+    "actual_stop_fraction": 0.12368389204889274,
+    "reported_native_R": -0.464,
+    "exits": [
+      {
+        "t": "2026-10-28 18:35:53.251000",
+        "price": 0.08724,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "9ce07a313d1e7eb670d165cd26a00b7c035e9d8024c65c3a4aacfa100a3d5221",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "CAPUSDT",
+    "side": -1,
+    "entry_ms": 1794403028593,
+    "signal_ms": 1794403028593,
+    "entry": 0.10119,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794567682542,
+    "actual_stop_fraction": 0.32987449352702836,
+    "reported_native_R": -0.172,
+    "exits": [
+      {
+        "t": "2026-11-13 11:01:22.542000",
+        "price": 0.10677,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "d6575452d95e59040374f9c5bb2870cf706de9a4a2138f1ea854e72c6d7e2463",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "NIGHTUSDT",
+    "side": -1,
+    "entry_ms": 1794464544263,
+    "signal_ms": 1794464544263,
+    "entry": 0.04641,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794471927960,
+    "actual_stop_fraction": 0.12368024132730016,
+    "reported_native_R": -0.222,
+    "exits": [
+      {
+        "t": "2026-11-12 08:25:27.960000",
+        "price": 0.04762,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  },
+  {
+    "key": "825ba15a0a0e18f9f6a18156d587e63ce5e0d6471160d811e790602ad7d8d260",
+    "scenario": "LIVE_OLEG_CLONE",
+    "source": "OLEG_CLONE",
+    "symbol": "SIRENUSDT",
+    "side": -1,
+    "entry_ms": 1794456662287,
+    "signal_ms": 1794456662287,
+    "entry": 0.02764,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794472245774,
+    "actual_stop_fraction": 0.19790159189580314,
+    "reported_native_R": 0.107,
+    "exits": [
+      {
+        "t": "2026-11-12 06:06:17.771000",
+        "price": 0.02706,
+        "frac": 0.9968,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-12 08:30:45.774000",
+        "price": 0.02759,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]

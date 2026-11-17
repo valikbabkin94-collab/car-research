@@ -1,0 +1,25 @@
+[
+  {
+    "key": "9ab2391457068608cf34bf3f7612c3c932defae66ab2ae61922f432cfa8e3f52",
+    "scenario": "LIVE_ALTCOIN",
+    "source": "ALTCOIN",
+    "symbol": "PNUTUSDT",
+    "side": 1,
+    "entry_ms": 1794093517794,
+    "signal_ms": 1794093517794,
+    "entry": 0.0346,
+    "entry_type": "MARKET",
+    "entry_window_ms": 60000,
+    "native_close_ms": 1794147491261,
+    "actual_stop_fraction": 0.32976878612716765,
+    "reported_native_R": -0.132,
+    "exits": [
+      {
+        "t": "2026-11-08 14:18:11.261000",
+        "price": 0.03314,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ]
+  }
+]
