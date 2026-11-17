@@ -1,0 +1,67 @@
+name: PF HEDGED four public source shards no PnL
+on:
+  push:
+    branches: [research/pf-hedged]
+    paths: [.github/workflows/pf_hedged_data.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: {shard: [0, 1, 2, 3]}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          name: paket-part6_pf_exits
+          run-id: '44134160121'
+          path: baseline
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          run-id: '43874717889'
+          path: source
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-carry-coins*
+          run-id: '44159556548'
+          path: carrycoins
+          merge-multiple: true
+          github-token: ${{ github.token }}
+      - name: Reuse verified quotes, funding and metadata, collect only missing sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DATA_SHARD: '${{ matrix.shard }}'
+        run: PYTHONPATH=research/pf_hedged_20261117 python -u research/pf_hedged_20261117/prepare.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pfh-assets${{ matrix.shard }}
+          path: assets
+          compression-level: 0
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pfh-source-inventory${{ matrix.shard }}
+          path: research/pf_hedged_20261117/data_shard${{ matrix.shard }}
+          retention-days: 14
+      - name: Save checkpoint without PnL
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_hedged_20261117/data_shard${{ matrix.shard }}
+        run: python research/pf_hedged_20261117/publish.py
