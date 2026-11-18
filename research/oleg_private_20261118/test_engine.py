@@ -1,0 +1,20 @@
+import numpy as np
+from engine import simulate,M,H
+from policies import plan,entry_start,translated_control
+
+def quotes():return np.column_stack([np.arange(10)*M,np.full((10,4),100.)])
+def p(**kw):return dict(symbol='XUSDT',signal_ms=0,observed_ms=0,entry_type='MARKET',side=1,stop_fraction=.1,tp_dist=[.1],weights=[1.],move_be=False,hold_hours=72,**kw)
+def test_author_open_exit_precedes_later_intraminute_stop():
+ q=quotes();q[2,3]=80;r=simulate(q,p(author_events=[dict(kind='CLOSE_ALL',effective_ms=2*M,post_key='a')]),10*M);assert r['events'][0]['kind']=='AUTHOR_CLOSE'
+def test_gap_protection_precedes_author_close():
+ q=quotes();q[2,1]=80;q[2,3]=79;r=simulate(q,p(author_events=[dict(kind='CLOSE_ALL',effective_ms=2*M,post_key='a')]),10*M);assert r['events'][0]['kind']=='SL'
+def test_entry_candle_tp_not_allowed():
+ q=quotes();q[1,2]=120;r=simulate(q,p(),10*M);assert r['status']!='CLOSED'
+def test_absolute_targets_and_taker_every_fill():
+ q=quotes();q[2,2]=111;r=simulate(q,p(absolute_targets=[110]),10*M);assert r['status']=='CLOSED';assert abs(r['execution_cost_R']-(.00105+.00055*1.1)/.1)<1e-10
+ defignore=0
+def test_o4_needs_second_target():
+ s=dict(channel='OLEG',available_ms=0,pub=0,side='LONG',symbol='XUSDT',stop=90,stop_percent=None,targets=[110],events=[],entry_zone=[99,101]);r,e=plan(s,'O4',quotes());assert e=='MISSING_SECOND_AUTHOR_TARGET'
+def test_o3_is_midpoint12h():
+ s=dict(channel='OLEG',available_ms=0,pub=0,side='LONG',symbol='XUSDT',stop=90,stop_percent=None,targets=[110,120],events=[],entry_zone=[98,100]);r,e=plan(s,'O3',quotes());assert r['limit']==99 and r['ttl_hours']==12
+ defignore=0

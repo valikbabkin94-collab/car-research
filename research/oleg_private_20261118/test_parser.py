@@ -27,3 +27,13 @@ def test_short_term_analytics_not_trade():
  p=parse_one('C',row('#BTC Short-Term Trend Downgrade. entry analysis'));assert p['label']=='OTHER'
 def test_no_raw_text_in_public_output():
  s,c,st,r=build('OLEG',[row('#Q/USDT SHORT\nДиапазон входа:10-11\nTP:8,7\nSL:12')]);assert 'text'not in s[0]and'text'not in r[0]
+def test_prose_entry_word_does_not_add_timeframe_to_zone():
+ p=parse_one('C',row('COIN:$JUP/USDT\nDirection:LONG\nENTRY:0.188-0.190\nTARGETS:0.2,0.21\nSTOP LOSS:0.171\n8H FVG support at entry.'));assert p['entry_zone']==[.188,.190]
+def test_cyrillic_tp_labels_not_prices():
+ p=parse_one('OLEG',row('#INJ/USDT LONG\nТочка входа:21,2\nTP1:23.05\nТР2:23,9\nТР3:25\nSL:20.08'));assert p['targets']==[23.05,23.9,25]
+def test_percentage_stop_is_not_absolute_price():
+ p=parse_one('C',row('Symbol:UNIUSDT\nType:Long\nEntry Zone:3.3-3.5\nSell Targets:3.75-4.0-4.3\nSL:4%'));assert p['stop']is None and p['stop_percent']==4 and p['kind']=='STRUCTURED'
+def test_multiline_stop_targets():
+ p=parse_one('C',row('#ABC/USDT LONG\nEntry Targets:\n1)10\nTake-Profit Targets:\n1)11\n2)12\nStop Targets:\n1)9'));assert p['stop']==9 and p['targets']==[11,12]and p['kind']=='STRUCTURED'
+def test_incomplete_existing_card_not_text_entry():
+ p=parse_one('C',row('COIN:$ABC/USDT\nDirection:LONG\nTARGETS:11,12'));assert p['label']=='UPDATE'

@@ -13,21 +13,23 @@ def timestamp(v):
  return None
 
 def norm(s):
- s=unicodedata.normalize('NFKC',str(s)).replace('\u200b','').replace('\ufe0f','').replace('\u20e3','');return s
+ s=unicodedata.normalize('NFKC',str(s)).replace('\u200b','').replace('\ufe0f','').replace('\u20e3','');s=re.sub(r'(?i)\b[тt][рp](?=\d|\b)','TP',s);return s
 
 def prices(s):
  s=re.sub(r'(?m)^\s*[1-9]\d?\s*(?:[):]\s*|[.]\s+)(?=\d|\$)','',s)
  if re.search(r'(?i)price|цен[аеыу]',s):s=re.split(r'(?i)price|цен[аеыу]',s,maxsplit=1)[-1]
  return [float(v.replace(',','.'))for v in re.findall(NUM,s)if float(v.replace(',','.'))>0]
 
-HEADERS={'entry':r'entry(?:\s+(?:zone|range|targets?))?|entries|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вход|твх|price\s+between', 'stop':r'stop\s*(?:loss)?|\bsl\b|стоп(?:\s*лосс)?', 'tp':r'take[ -]?profit(?:\s+targets?)?|sell\s+targets?|targets?|\btp\s*\d*\b|тейк\w*|цел[ьи]\w*'}
+HEADERS={'entry':r'entry(?:\s+(?:zone|range|targets?))?|entries|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вход|твх|price\s+between', 'stop':r'stop\s*(?:loss|targets?)?|\bsl\b|стоп(?:\s*лосс)?', 'tp':r'take[ -]?profit(?:\s+targets?)?|sell\s+targets?|targets?|\btp\s*\d*\b|тейк\w*|цел[ьи]\w*'}
 STOP_SECTION=re.compile(r'(?i)risk|риск|leverage|плеч|published|join|subscribe|by:|итог|профит|profit:|loss\s*\(|loss\s*%')
 def levels(t,kind):
  out=[];active=False
  for raw in t.splitlines():
   line=raw.strip()
-  if kind=='tp'and re.search('(?i)'+HEADERS['entry'],line):continue
+  if kind=='tp'and(re.search('(?i)'+HEADERS['entry'],line)or re.search('(?i)'+HEADERS['stop'],line)):continue
   m=re.search('(?i)'+HEADERS[kind],line)
+  if m and re.search(r'[A-Za-zА-Яа-я]',line[:m.start()]):m=None
+  if kind=='entry'and m and out:break
   other=any(re.search('(?i)'+p,line)for k,p in HEADERS.items()if k!=kind)
   if m:
    active=True;s=line[m.end():].lstrip(' :=–—-')
@@ -37,12 +39,14 @@ def levels(t,kind):
    for k,p in HEADERS.items():
     if k!=kind:s=re.split('(?i)'+p,s,maxsplit=1)[0]
    vals=prices(s)
-   if kind=='stop':return vals[:1]
+   if kind=='stop'and vals:return vals[:1]
    out+=vals
   elif active:
    if other or STOP_SECTION.search(line):active=False;continue
    if not line:continue
-   if re.search(NUM,line)and not ('%'in line or re.search(r'https?://|@[A-Za-z]',line)):out+=prices(line)
+   if re.search(NUM,line)and not ('%'in line or re.search(r'https?://|@[A-Za-z]',line)):
+    out+=prices(line)
+    if kind=='stop'and out:return out[:1]
    elif len(line)>80:active=False
  return out
 
@@ -75,7 +79,9 @@ def parse_one(channel,r,known=()):
  claim=bool(re.search(r'(?i)(?:profit|прибыл|профит|roi|pnl)\s*[:+]?\s*'+NUM+r'\s*%|[+−-]\s*'+NUM+r'\s*%|(?:target|tp)\s*\d*.{0,8}(?:hit|reached|achieved)',t))
  claims=[float(v.replace('−','-').replace(',','.'))for v in re.findall(r'(?i)(?:profit|прибыл\w*|профит|roi|pnl)\s*[:=]?\s*([+−-]?'+NUM+r')\s*%',t)]
  if claim and not claims:claims=[float(v.replace('−','-').replace(',','.'))for v in re.findall(r'([+−-]'+NUM+r')\s*%',t)]
- card=bool(symbol and side and sl and tp);fresh=bool(re.search(r'(?i)\bentry\b|entries|диапазон\s+входа|зона\s+входа|вхожу|захожу|заходим|беру|открываю|набираю|\bopen\s+(?:long|short)|\bdirection\s*:',t))or bool(re.search(r'(?i)[#$][A-Z0-9]+.{0,40}(?:лонг|шорт|\bLONG\b|\bSHORT\b)',t))
+ stop_pct_m=re.search(r'(?i)(?:\bsl\b|stop\s*(?:loss)?|стоп)\s*[:=]?\s*('+NUM+r')\s*%',t);stop_pct=float(stop_pct_m[1].replace(',','.'))if stop_pct_m else None
+ if stop_pct is not None:sl=None
+ card=bool(symbol and side and(sl or stop_pct)and tp);fresh=bool(re.search(r'(?i)\bentry\b|entries|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вхожу|захожу|заходим|беру|открываю|набираю|\bopen\s+(?:long|short)|\bdirection\s*:',t))or bool(re.search(r'(?i)[#$][A-Z0-9]+.{0,40}(?:лонг|шорт|\bLONG\b|\bSHORT\b)',t))
  update=bool(re.search(r'(?i)вышел|вышла|закры|\bclos(?:e|ed|ing)\b|фиксир|фикс\b|безубыт|б/у|breakeven|cancel|отмен|добор|усредн|перенос.{0,12}стоп',t))
  if card and fresh and not past and not claim and not negative and not conditional:label='SIGNAL';kind='STRUCTURED'
  elif side and fresh and not past and not claim and not negative and not conditional:label='SIGNAL';kind='TEXT'
@@ -102,18 +108,20 @@ def parse_one(channel,r,known=()):
  if r.get('fwd'):flags.append('FORWARDED_AUTHOR_UNKNOWN')
  if negative:flags.append('NEGATED')
  if conditional:flags.append('CONDITIONAL')
+ if label=='SIGNAL'and kind=='TEXT'and tp and not sl and not stop_pct and not zone and re.search(r'(?i)direction\s*:|position\s*:',t):
+  label='UPDATE';kind=None;flags.append('INCOMPLETE_CARD_SNAPSHOT_NOT_NEW_ENTRY')
  if re.search(r'(?i)short.term|long.term|market analysis|price analysis',t)and not card:
   label='OTHER';kind=None;flags.append('ANALYTICS_NOT_FRESH_TRADE')
- return dict(post_key=key,channel=channel,pub=pub,available_ms=av,edited_delay_ms=max(0,av-pub),reply_key=hashlib.sha256((channel+':'+str(r['reply_to'])).encode()).hexdigest()if r.get('reply_to')else None,label=label,kind=kind,symbol=symbol,side=side,entry_zone=zone,stop=sl,targets=tp,risk_signature_pct=risk,leverage=lev,claims=claims,actions=actions,flags=flags,media=bool(r.get('media',r.get('photo'))),author_identity='SINGLE_SOURCE_CHANNEL'if channel=='OLEG'else'UNKNOWN_ANONYMIZED_CHANNEL_STREAM')
+ return dict(post_key=key,channel=channel,pub=pub,available_ms=av,edited_delay_ms=max(0,av-pub),reply_key=hashlib.sha256((channel+':'+str(r['reply_to'])).encode()).hexdigest()if r.get('reply_to')else None,label=label,kind=kind,symbol=symbol,side=side,entry_zone=zone,stop=sl,stop_percent=stop_pct,targets=tp,risk_signature_pct=risk,leverage=lev,claims=claims,actions=actions,flags=flags,media=bool(r.get('media',r.get('photo'))),author_identity='SINGLE_SOURCE_CHANNEL'if channel=='OLEG'else'UNKNOWN_ANONYMIZED_CHANNEL_STREAM')
 
 def build(channel,raw,known=()):
  records=[parse_one(channel,r,known)for r in raw];records.sort(key=lambda r:(r['available_ms'],r['post_key']));signals=[];bykey={};dedup=set();statuses=collections.Counter();linked=0
  for r in records:
   if r['label']!='SIGNAL':continue
   if r['symbol']is None or r['side']is None or any(f in r['flags']for f in['EDIT_TIME_UNKNOWN','MULTIPLE_DIRECTIONS','FORWARDED_AUTHOR_UNKNOWN']):r['parse_status']='AMBIGUOUS_SIGNAL';statuses[r['parse_status']]+=1;continue
-  sig=(r['available_ms']//M,r['symbol'],r['side'],tuple(r['entry_zone']or[]),r['stop'],tuple(r['targets']))
+  sig=(r['available_ms']//M,r['symbol'],r['side'],tuple(r['entry_zone']or[]),r['stop'],r.get('stop_percent'),tuple(r['targets']))
   if sig in dedup:r['parse_status']='DUPLICATE_CANONICAL_SIGNAL';statuses[r['parse_status']]+=1;continue
-  dedup.add(sig);r['parse_status']='CANDIDATE';statuses['CANDIDATE']+=1;v={k:r[k]for k in['post_key','channel','pub','available_ms','edited_delay_ms','kind','symbol','side','entry_zone','stop','targets','risk_signature_pct','leverage','flags','author_identity']};v.update(events=[],claims=[],parse_status='CANDIDATE');signals.append(v);bykey[r['post_key']]=v
+  dedup.add(sig);r['parse_status']='CANDIDATE';statuses['CANDIDATE']+=1;v={k:r[k]for k in['post_key','channel','pub','available_ms','edited_delay_ms','kind','symbol','side','entry_zone','stop','stop_percent','targets','risk_signature_pct','leverage','flags','author_identity']};v.update(events=[],claims=[],parse_status='CANDIDATE');signals.append(v);bykey[r['post_key']]=v
  recby={r['post_key']:r for r in records};claims=[]
  for r in records:
   if r['label']=='SIGNAL'or not(r['actions']or r['claims']):continue
