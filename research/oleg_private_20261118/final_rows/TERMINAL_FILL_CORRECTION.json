@@ -1,0 +1,123 @@
+[
+  {
+    "post_key": "d2d42d828ea867d77d85d52eb20a47a068d1ea8213a158cb3f0f453122b019a6",
+    "channel": "kript_pushka",
+    "policy": "P1",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.2707567975000023,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.7286679641666685,
+    "role": "actual"
+  },
+  {
+    "post_key": "d2d42d828ea867d77d85d52eb20a47a068d1ea8213a158cb3f0f453122b019a6",
+    "channel": "kript_pushka",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.2707567975000023,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.7286679641666685,
+    "role": "actual"
+  },
+  {
+    "post_key": "4cc57d313de907840c1275cacecc99ece29bb00ebae5e5d5b15c886e384f2a80",
+    "channel": "kript_pushka",
+    "policy": "P1",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.515498489720715,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.9083154274950505,
+    "role": "actual"
+  },
+  {
+    "post_key": "4cc57d313de907840c1275cacecc99ece29bb00ebae5e5d5b15c886e384f2a80",
+    "channel": "kript_pushka",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.515498489720715,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.9083154274950505,
+    "role": "actual"
+  },
+  {
+    "post_key": "2ff310b7e98762ca675e7dae72c3d4a8fc001790215084a5ae306b1010bc57f2",
+    "channel": "OLEG",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.15,
+    "new_fraction_sum": 1.0,
+    "old_netR": 0.4548603108731466,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.3664329756177924,
+    "role": "actual"
+  },
+  {
+    "post_key": "e80a82238e8d2efa42d3bdf3abc47840a5eea7a54edc1ade11f1a32afad001d7",
+    "channel": "OLEG",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.1,
+    "new_fraction_sum": 1.0,
+    "old_netR": 0.9504744688644687,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.8566435164835164,
+    "role": "actual"
+  },
+  {
+    "post_key": "fd281a72d0e23d4e1d9c5d27a7af4d8b7e055d9cae5b7d31d0ffbcb822a152be",
+    "channel": "OLEG",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.25,
+    "new_fraction_sum": 1.0,
+    "old_netR": 0.49144344580101235,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.3282515542889269,
+    "role": "actual"
+  },
+  {
+    "post_key": "ccc8c088ea86548d5c35bd7039ddf3f54851ed3ece654ccc94c1a3292c6c28e4",
+    "channel": "OLEG",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.25,
+    "new_fraction_sum": 1.0,
+    "old_netR": 0.33670574265975783,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.24097968480138132,
+    "role": "actual"
+  },
+  {
+    "post_key": "bd8701612fb36419a2b9578a91b03de5f86f33c2086782f79d5e8128a671af9b",
+    "channel": "kript_pushka",
+    "policy": "P1",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.5647069867078607,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.934115624625295,
+    "role": "actual"
+  },
+  {
+    "post_key": "bd8701612fb36419a2b9578a91b03de5f86f33c2086782f79d5e8128a671af9b",
+    "channel": "kript_pushka",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.5,
+    "new_fraction_sum": 1.0,
+    "old_netR": 1.5647069867078607,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.934115624625295,
+    "role": "actual"
+  },
+  {
+    "post_key": "4e2c37fbdebeeb9e7fb67e24a35e8b5c416589c13c82f924ddb6d60d9f868c9a",
+    "channel": "OLEG",
+    "policy": "AUTHOR",
+    "old_fraction_sum": 1.25,
+    "new_fraction_sum": 1.0,
+    "old_netR": 0.5531847222222233,
+    "funding_unchanged_because_same_preterminal_exposure_and_exit_time": true,
+    "new_netR": 0.40372988629821616,
+    "role": "actual"
+  }
+]

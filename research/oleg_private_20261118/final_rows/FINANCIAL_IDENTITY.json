@@ -1,0 +1,11 @@
+{
+  "original_actual_sha256": "6799ad62fb845a469ffbc0ca56509b49eb876bde995e062e5d8f371989ece72a",
+  "original_control_sha256": "7478159dbf8ead556d95660cc1f218b9f83853642180831a4264dae95b442771",
+  "post_fill_repair_actual_sha256": "3dc97f5552446231ce5edf379b3bfa6e13507b2e3d221c4ea38594d9c92eabad",
+  "post_fill_repair_control_sha256": "7478159dbf8ead556d95660cc1f218b9f83853642180831a4264dae95b442771",
+  "metadata_only_preserves_executed_outcomes": true,
+  "terminal_fill_repairs": 11,
+  "new_market_simulations": 0,
+  "role_filters_before_quote_lookup": true,
+  "censored_H2_last40_not_promoted": true
+}
