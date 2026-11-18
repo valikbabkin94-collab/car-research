@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "group": "oleg",
+  "shard": 3,
+  "symbols": 59,
+  "signals": 189,
+  "actual_rows": 1323,
+  "controls": 1323,
+  "claims": 76,
+  "code_sha": "a9b42783b8e36262488932da90e2067b03b7c4f4",
+  "live_changes": 0
+}
