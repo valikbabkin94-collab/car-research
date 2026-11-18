@@ -1,5 +1,5 @@
 {
-  "status": "PRIMARY_COMPLETE_WAITING_SOURCE_CONFORMANCE_AND_FINAL_REVIEW",
+  "status": "COMPLETE_WITH_RECORDED_LIMITATIONS",
   "sources": 20,
   "posts": 39291,
   "plans": 2104,
@@ -17,8 +17,18 @@
   "authoritative_rows_when_ready": "final_rows/",
   "tests": 29,
   "known_scope_limits": "Data limitations and exact LIVE13 limitations in DATA_LIMITATIONS_RU.md; raw private texts never public.",
-  "next_action": "Wait for existing two research jobs, inspect actual failures if any. Do not rerun completed primary. Read completed/TABLES_ALL140.json, variants, live13, risk, matched comparison and terminal correction log; publish concise final report+exact SHA.",
+  "next_action": "Independent Claude audit of published artifacts; no new PnL or parameter fitting. Missing data in DATA_LIMITATIONS_RU.md.",
   "oleg_O0_to_O5_financial_paths_unchanged_in_terminal_review": true,
   "author_terminal_fraction_repairs_expected": 11,
-  "live_changes": 0
+  "live_changes": 0,
+  "source_conformance_status": "SUCCESS",
+  "final_review_status": "SUCCESS",
+  "result_publication_commit": "181b2726b654a81d6789a0ddb676d1aea403df8b",
+  "authoritative_results": "completed/",
+  "authoritative_rows": "final_rows/",
+  "paper_candidates": 0,
+  "actual_rows": 14728,
+  "control_rows": 14728,
+  "terminal_fill_repairs": 11,
+  "metadata_corrections": 1118
 }
