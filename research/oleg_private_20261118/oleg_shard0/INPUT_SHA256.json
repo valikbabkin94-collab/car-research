@@ -1,0 +1,8 @@
+{
+  "LIVE13.json": "39a3cdfc9daea88e10b84524c620a7e480bb645a1173efb7c0b1e49f33624d4c",
+  "PLANS.json.gz": "91ccd0595fb0bb4da17f9be12910eb91c0f33efbbfa5a7a8dadbeae08424f299",
+  "DATA_INVENTORY.json": "39b100ce318dd6cf91eaa82f01b078b4df8ce12167bf7d96b3a09957d27c9bdb",
+  "CLASSIFICATION.json.gz": "89bf912054fe78781b533c15c787a2b58fe12375701402bcc71cfc34d3fdae35",
+  "CLAIMS.json.gz": "65035cccf74ed16a4ae6ed72fef4db2c900aaabf30aacd74f2fcf30e8eb7f63a",
+  "PRIVATE_SOURCE_PROVENANCE.json": "75130f82d89dd79bb9c14b9e2e831015ced43f2b2cf4f2ac4a8fb72deeabbf04"
+}
