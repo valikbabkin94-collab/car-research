@@ -1,0 +1,29 @@
+{
+  "task": "PF_MARKET_CONVEYOR_CARRY_20261118",
+  "status": "PRE_PNL",
+  "modes": [
+    "limit_up",
+    "market",
+    "chase_tp2"
+  ],
+  "legacy": "limit_up unchanged bytewise state/economics; source snapshot lacks PRICE_ALREADY_AT_TP1 cancellation reported from Acer: runtime parity cannot be asserted without deployed file hash",
+  "market": "close first signal-observation 1m available after creation; no retrospective H1 close fill; stop5.6%, TP2.1/4.2/6.3%, BE next minute; taker0.055%+5bps entry slip",
+  "chase": "resting original limit_up; after completed1m first TP1 touch without limit fill, enter that minute close; targets from original signal close TP2/TP3, weights60/40; SL original limit*1.056; reject if SL or TP2 no longer ahead; if high touches limit and low TP1 in same minute prefer legacy limit and ambiguity; BE after first remaining TP nextminute",
+  "causality": "no TP/SL history before minute-close market entry; fixed signal+8h TTL;72h hold; missing prices DATA_GAP; split before PnL",
+  "universe": "source historical rank only; absent rank/model metadata DATA_NEEDED; no current universe or survivor substitutions",
+  "conveyor": {
+    "selection": "Monday00UTC trailing28d CLOSED netR, n>=10, positive max; tie lexicographic; none=>cash",
+    "eligibility": "entry before decision prohibited; frozen choice controls nextweek entries, positions continue ownexit beyond week; 28d excludes notclosed",
+    "comparisons": [
+      "PF_BASE",
+      "H1 best static frozen",
+      "1000 weekly uniform random choices seed20261118",
+      "equal-weight all variants fixed denominator including cash"
+    ],
+    "normalization": "equal total exante risk budget across alternatives; no leverage equivalence claims; R existing source convention kept and documented",
+    "split": "calendar midpoint and60pct of fixed source signal min/max; H1best uses only trades closed before midpoint; H2/L40 evaluated entry within slice without future signal leakage",
+    "testing": "daily paired sign bootstrap9999, seed20261118; BH6 on H2/last40 comparisons vsBASE/H1winner/random; H2andlast40overlap, notindependent; no optimizing28d/10/week"
+  },
+  "carry": "Reuse existing committed sixFC results; separate Actions integrity audit; do not change H1winner or recompute complete runs",
+  "live_changes": 0
+}
