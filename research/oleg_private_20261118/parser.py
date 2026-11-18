@@ -26,7 +26,8 @@ def levels(t,kind):
  out=[];active=False
  for raw in t.splitlines():
   line=raw.strip()
-  if kind=='tp'and(re.search('(?i)'+HEADERS['entry'],line)or re.search('(?i)'+HEADERS['stop'],line)):continue
+  if kind=='tp'and(re.search('(?i)'+HEADERS['entry'],line)or re.search('(?i)'+HEADERS['stop'],line)):
+   active=False;continue
   m=re.search('(?i)'+HEADERS[kind],line)
   if m and re.search(r'[A-Za-zА-Яа-я]',line[:m.start()]):m=None
   if kind=='entry'and m and out:break
