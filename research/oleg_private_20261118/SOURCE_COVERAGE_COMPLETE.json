@@ -1,0 +1,222 @@
+{
+  "sources": 20,
+  "all19_counts_match": true,
+  "private19_posts": 36079,
+  "oleg_posts": 3212,
+  "total_posts": 39291,
+  "oleg_unique_ids": 3212,
+  "oleg_reply_parent_not_in_export": 0,
+  "raw_texts_published": false,
+  "raw_zip_contains_images": false,
+  "channels": [
+    {
+      "channel": "2trade",
+      "expected_posts": 1399,
+      "actual_posts": 1399,
+      "unique_ids": 1399,
+      "empty_text": 242,
+      "media_posts": 697,
+      "media_without_text": 240,
+      "reply_parent_not_in_export": 6,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "binance_killers",
+      "expected_posts": 647,
+      "actual_posts": 647,
+      "unique_ids": 647,
+      "empty_text": 9,
+      "media_posts": 447,
+      "media_without_text": 2,
+      "reply_parent_not_in_export": 45,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "crypto_student",
+      "expected_posts": 6625,
+      "actual_posts": 6625,
+      "unique_ids": 6625,
+      "empty_text": 308,
+      "media_posts": 1083,
+      "media_without_text": 296,
+      "reply_parent_not_in_export": 4035,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "daniel_crypto",
+      "expected_posts": 117,
+      "actual_posts": 117,
+      "unique_ids": 117,
+      "empty_text": 5,
+      "media_posts": 104,
+      "media_without_text": 5,
+      "reply_parent_not_in_export": 1,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "jewtrade",
+      "expected_posts": 358,
+      "actual_posts": 358,
+      "unique_ids": 358,
+      "empty_text": 44,
+      "media_posts": 272,
+      "media_without_text": 42,
+      "reply_parent_not_in_export": 3,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "klondike",
+      "expected_posts": 603,
+      "actual_posts": 603,
+      "unique_ids": 603,
+      "empty_text": 2,
+      "media_posts": 39,
+      "media_without_text": 2,
+      "reply_parent_not_in_export": 5,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "kript_pushka",
+      "expected_posts": 270,
+      "actual_posts": 270,
+      "unique_ids": 270,
+      "empty_text": 1,
+      "media_posts": 203,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 5,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "pentagon",
+      "expected_posts": 1203,
+      "actual_posts": 1203,
+      "unique_ids": 1203,
+      "empty_text": 74,
+      "media_posts": 153,
+      "media_without_text": 73,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "traid_invest",
+      "expected_posts": 989,
+      "actual_posts": 989,
+      "unique_ids": 989,
+      "empty_text": 154,
+      "media_posts": 637,
+      "media_without_text": 154,
+      "reply_parent_not_in_export": 3,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "slivaeminfo_org",
+      "expected_posts": 115,
+      "actual_posts": 115,
+      "unique_ids": 115,
+      "empty_text": 108,
+      "media_posts": 6,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 7,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "altsignals",
+      "expected_posts": 364,
+      "actual_posts": 364,
+      "unique_ids": 364,
+      "empty_text": 14,
+      "media_posts": 364,
+      "media_without_text": 14,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "bitcoinbullets",
+      "expected_posts": 191,
+      "actual_posts": 191,
+      "unique_ids": 191,
+      "empty_text": 0,
+      "media_posts": 191,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 4,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "cryptoinsidebets",
+      "expected_posts": 17872,
+      "actual_posts": 17872,
+      "unique_ids": 17872,
+      "empty_text": 5828,
+      "media_posts": 17872,
+      "media_without_text": 5828,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "DarwinLabSignals",
+      "expected_posts": 272,
+      "actual_posts": 272,
+      "unique_ids": 272,
+      "empty_text": 1,
+      "media_posts": 272,
+      "media_without_text": 1,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "Signal_Feed_altFINS",
+      "expected_posts": 1970,
+      "actual_posts": 1970,
+      "unique_ids": 1970,
+      "empty_text": 1,
+      "media_posts": 1970,
+      "media_without_text": 1,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "crypto_freemium",
+      "expected_posts": 581,
+      "actual_posts": 581,
+      "unique_ids": 581,
+      "empty_text": 64,
+      "media_posts": 0,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "crypto_futures_scalp",
+      "expected_posts": 1037,
+      "actual_posts": 1037,
+      "unique_ids": 1037,
+      "empty_text": 3,
+      "media_posts": 0,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "Official_GCR",
+      "expected_posts": 1332,
+      "actual_posts": 1332,
+      "unique_ids": 1332,
+      "empty_text": 132,
+      "media_posts": 0,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    },
+    {
+      "channel": "Verified_CryptoTraders0",
+      "expected_posts": 134,
+      "actual_posts": 134,
+      "unique_ids": 134,
+      "empty_text": 20,
+      "media_posts": 0,
+      "media_without_text": 0,
+      "reply_parent_not_in_export": 0,
+      "original_edit_versions_available": false
+    }
+  ]
+}
