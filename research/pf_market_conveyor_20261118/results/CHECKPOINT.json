@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_WITH_EXPLICIT_DATA_LIMITS",
+  "source_signals": 2113,
+  "model_selected_signals": 1041,
+  "variants": [
+    "PF_BASE",
+    "PF_TP_FAST",
+    "PF_MAKER_EXIT",
+    "PF_MARKET",
+    "PF_CHASE"
+  ],
+  "profiles": 40,
+  "conveyor_better": false,
+  "headline": "конвейер лучше статичного и случайного на H2 и last40 — НЕТ",
+  "code_sha": "eaa26ee1e267939ae1364c2c55cdc28b78dc607d",
+  "protocol_commit": "93e21a3200a4d6121de7098720dd70546b36b79f",
+  "LIVE_changes": 0
+}

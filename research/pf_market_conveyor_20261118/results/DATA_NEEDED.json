@@ -1,0 +1,10 @@
+{
+  "PF_TOP100": "point-in-time source ranks unavailable in saved2113 executions; cannot substitute today rank",
+  "PF_TOP200": "duplicate of source PF_BASE; not separate independent alternative",
+  "PF_WIDE": "full WIDE source signals/model metadata absent in saved2113",
+  "PF_R10": "missing10-15pct pump source signals; cannot manufacture by relabeling15pct cohort",
+  "FUND_SQUEEZE_DELIST_SHORT": "historical entry streams differ from saved2113; excluded from PF-only allocator; source mapping not established",
+  "PF_MARKET_TOP100": "requires historical rank, not inferred",
+  "funding": "saved ledger proves original holding windows only; new wider windows marked unknown0 plus adverse stress; never infer absence of payments from absent archived row",
+  "market_resolution": "5m source cannot recover minute/tick touch order; historical modes explicitly close-confirmed5m proxies, not exact forward1m parity"
+}

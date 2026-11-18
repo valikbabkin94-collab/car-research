@@ -1,0 +1,752 @@
+[
+  {
+    "variant": "PF_BASE",
+    "universe": "RAW2113",
+    "period": "H1",
+    "opportunities": 880,
+    "n": 741,
+    "netR": -36.93760128604558,
+    "WR": 71.9298245614035,
+    "PF": 0.822055569925346,
+    "maxDD_R": 39.947900841587,
+    "netR_adverse": -64.0050983861203,
+    "unknown_funding_n": 152,
+    "statuses": {
+      "CLOSED": 741,
+      "NOFILL": 139
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "RAW2113",
+    "period": "H2",
+    "opportunities": 1232,
+    "n": 1020,
+    "netR": -40.264326488524596,
+    "WR": 72.15686274509804,
+    "PF": 0.856496679134311,
+    "maxDD_R": 50.88420574977023,
+    "netR_adverse": -77.39789462519687,
+    "unknown_funding_n": 143,
+    "statuses": {
+      "CLOSED": 1020,
+      "NOFILL": 177,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "RAW2113",
+    "period": "LAST40",
+    "opportunities": 993,
+    "n": 813,
+    "netR": -23.980864194377855,
+    "WR": 72.57072570725708,
+    "PF": 0.8917153121467276,
+    "maxDD_R": 46.413583180322156,
+    "netR_adverse": -53.56821180865416,
+    "unknown_funding_n": 112,
+    "statuses": {
+      "CLOSED": 813,
+      "NOFILL": 145,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "RAW2113",
+    "period": "FULL",
+    "opportunities": 2112,
+    "n": 1761,
+    "netR": -77.20192777457017,
+    "WR": 72.06132879045997,
+    "PF": 0.8418513638197767,
+    "maxDD_R": 89.95909359658211,
+    "netR_adverse": -141.40299301131716,
+    "unknown_funding_n": 295,
+    "statuses": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "FROZEN_MODEL",
+    "period": "H1",
+    "opportunities": 402,
+    "n": 328,
+    "netR": -16.958285401696585,
+    "WR": 73.17073170731707,
+    "PF": 0.808337155553667,
+    "maxDD_R": 22.92515926594309,
+    "netR_adverse": -28.926469364891886,
+    "unknown_funding_n": 60,
+    "statuses": {
+      "CLOSED": 328,
+      "NOFILL": 74
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "FROZEN_MODEL",
+    "period": "H2",
+    "opportunities": 638,
+    "n": 495,
+    "netR": 6.5227807955143176,
+    "WR": 75.95959595959596,
+    "PF": 1.0560808292907085,
+    "maxDD_R": 10.355107261908891,
+    "netR_adverse": -11.472122351638584,
+    "unknown_funding_n": 67,
+    "statuses": {
+      "CLOSED": 495,
+      "NOFILL": 113,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "FROZEN_MODEL",
+    "period": "LAST40",
+    "opportunities": 513,
+    "n": 391,
+    "netR": 11.51634299155046,
+    "WR": 76.98209718670077,
+    "PF": 1.1290852193567478,
+    "maxDD_R": 10.355107261908893,
+    "netR_adverse": -2.6923124757269825,
+    "unknown_funding_n": 53,
+    "statuses": {
+      "CLOSED": 391,
+      "NOFILL": 92,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_BASE",
+    "universe": "FROZEN_MODEL",
+    "period": "FULL",
+    "opportunities": 1040,
+    "n": 823,
+    "netR": -10.43550460618227,
+    "WR": 74.84811664641555,
+    "PF": 0.9490429303040288,
+    "maxDD_R": 27.66787656266395,
+    "netR_adverse": -40.39859171653047,
+    "unknown_funding_n": 127,
+    "statuses": {
+      "CLOSED": 823,
+      "NOFILL": 187,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "RAW2113",
+    "period": "H1",
+    "opportunities": 880,
+    "n": 741,
+    "netR": -38.39919050319001,
+    "WR": 76.78812415654521,
+    "PF": 0.7673166268568482,
+    "maxDD_R": 41.719189195665145,
+    "netR_adverse": -65.45484748202367,
+    "unknown_funding_n": 152,
+    "statuses": {
+      "CLOSED": 741,
+      "NOFILL": 139
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "RAW2113",
+    "period": "H2",
+    "opportunities": 1232,
+    "n": 1020,
+    "netR": -43.42917129403868,
+    "WR": 76.76470588235294,
+    "PF": 0.8078785499522815,
+    "maxDD_R": 47.22410342684265,
+    "netR_adverse": -80.5560697795094,
+    "unknown_funding_n": 143,
+    "statuses": {
+      "CLOSED": 1020,
+      "NOFILL": 177,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "RAW2113",
+    "period": "LAST40",
+    "opportunities": 993,
+    "n": 813,
+    "netR": -25.012380925251854,
+    "WR": 77.73677736777368,
+    "PF": 0.8552445702504421,
+    "maxDD_R": 30.896470272439863,
+    "netR_adverse": -54.59089405953417,
+    "unknown_funding_n": 112,
+    "statuses": {
+      "CLOSED": 813,
+      "NOFILL": 145,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "RAW2113",
+    "period": "FULL",
+    "opportunities": 2112,
+    "n": 1761,
+    "netR": -81.8283617972287,
+    "WR": 76.77455990914254,
+    "PF": 0.790762183412704,
+    "maxDD_R": 87.26480015259898,
+    "netR_adverse": -146.01091726153305,
+    "unknown_funding_n": 295,
+    "statuses": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "FROZEN_MODEL",
+    "period": "H1",
+    "opportunities": 402,
+    "n": 328,
+    "netR": -17.508956900626668,
+    "WR": 77.7439024390244,
+    "PF": 0.752506181323919,
+    "maxDD_R": 19.9961001333904,
+    "netR_adverse": -29.474344102001965,
+    "unknown_funding_n": 60,
+    "statuses": {
+      "CLOSED": 328,
+      "NOFILL": 74
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "FROZEN_MODEL",
+    "period": "H2",
+    "opportunities": 638,
+    "n": 495,
+    "netR": -0.4439255196623866,
+    "WR": 80.2020202020202,
+    "PF": 0.9952037756670636,
+    "maxDD_R": 7.0133634025131775,
+    "netR_adverse": -18.43775226943614,
+    "unknown_funding_n": 67,
+    "statuses": {
+      "CLOSED": 495,
+      "NOFILL": 113,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "FROZEN_MODEL",
+    "period": "LAST40",
+    "opportunities": 513,
+    "n": 391,
+    "netR": 3.0232687534920597,
+    "WR": 80.81841432225065,
+    "PF": 1.0423685146558772,
+    "maxDD_R": 7.0133634025131775,
+    "netR_adverse": -11.185931402119015,
+    "unknown_funding_n": 53,
+    "statuses": {
+      "CLOSED": 391,
+      "NOFILL": 92,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_TP_FAST",
+    "universe": "FROZEN_MODEL",
+    "period": "FULL",
+    "opportunities": 1040,
+    "n": 823,
+    "netR": -17.95288242028906,
+    "WR": 79.22235722964763,
+    "PF": 0.8900635159412632,
+    "maxDD_R": 25.20575510021513,
+    "netR_adverse": -47.9120963714381,
+    "unknown_funding_n": 127,
+    "statuses": {
+      "CLOSED": 823,
+      "NOFILL": 187,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "RAW2113",
+    "period": "H1",
+    "opportunities": 880,
+    "n": 741,
+    "netR": -30.25980068363593,
+    "WR": 72.06477732793523,
+    "PF": 0.853338175304898,
+    "maxDD_R": 33.44347855243002,
+    "netR_adverse": -50.649497181300994,
+    "unknown_funding_n": 152,
+    "statuses": {
+      "CLOSED": 741,
+      "NOFILL": 139
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "RAW2113",
+    "period": "H2",
+    "opportunities": 1232,
+    "n": 1020,
+    "netR": -31.034842151175194,
+    "WR": 72.15686274509804,
+    "PF": 0.8887075663219002,
+    "maxDD_R": 44.43780273772188,
+    "netR_adverse": -58.93892595049804,
+    "unknown_funding_n": 143,
+    "statuses": {
+      "CLOSED": 1020,
+      "NOFILL": 177,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "RAW2113",
+    "period": "LAST40",
+    "opportunities": 993,
+    "n": 813,
+    "netR": -16.581041302811588,
+    "WR": 72.57072570725708,
+    "PF": 0.9246699789533904,
+    "maxDD_R": 43.71021691526191,
+    "netR_adverse": -38.7685660255216,
+    "unknown_funding_n": 112,
+    "statuses": {
+      "CLOSED": 813,
+      "NOFILL": 145,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "RAW2113",
+    "period": "FULL",
+    "opportunities": 2112,
+    "n": 1761,
+    "netR": -61.29464283481113,
+    "WR": 72.11811470755252,
+    "PF": 0.8736667380600107,
+    "maxDD_R": 76.92586950019643,
+    "netR_adverse": -109.58842313179903,
+    "unknown_funding_n": 295,
+    "statuses": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "FROZEN_MODEL",
+    "period": "H1",
+    "opportunities": 402,
+    "n": 328,
+    "netR": -14.025825160732731,
+    "WR": 73.17073170731707,
+    "PF": 0.8405243864045846,
+    "maxDD_R": 21.18374360329247,
+    "netR_adverse": -23.06154888296416,
+    "unknown_funding_n": 60,
+    "statuses": {
+      "CLOSED": 328,
+      "NOFILL": 74
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "FROZEN_MODEL",
+    "period": "H2",
+    "opportunities": 638,
+    "n": 495,
+    "netR": 11.080851277442022,
+    "WR": 75.95959595959596,
+    "PF": 1.095867857500481,
+    "maxDD_R": 9.730089792029371,
+    "netR_adverse": -2.355981387783145,
+    "unknown_funding_n": 67,
+    "statuses": {
+      "CLOSED": 495,
+      "NOFILL": 113,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "FROZEN_MODEL",
+    "period": "LAST40",
+    "opportunities": 513,
+    "n": 391,
+    "netR": 15.146332148176967,
+    "WR": 76.98209718670077,
+    "PF": 1.170817022708283,
+    "maxDD_R": 9.730089792029368,
+    "netR_adverse": 4.567665837526042,
+    "unknown_funding_n": 53,
+    "statuses": {
+      "CLOSED": 391,
+      "NOFILL": 92,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MAKER_EXIT",
+    "universe": "FROZEN_MODEL",
+    "period": "FULL",
+    "opportunities": 1040,
+    "n": 823,
+    "netR": -2.944973883290702,
+    "WR": 74.84811664641555,
+    "PF": 0.9855308218945207,
+    "maxDD_R": 24.413774153025308,
+    "netR_adverse": -25.417530270747307,
+    "unknown_funding_n": 127,
+    "statuses": {
+      "CLOSED": 823,
+      "NOFILL": 187,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "RAW2113",
+    "period": "H1",
+    "opportunities": 880,
+    "n": 879,
+    "netR": -46.40530072837361,
+    "WR": 71.4448236632537,
+    "PF": 0.8133838443585821,
+    "maxDD_R": 48.13759080582634,
+    "netR_adverse": -79.79737368086704,
+    "unknown_funding_n": 741,
+    "statuses": {
+      "CLOSED": 880
+    },
+    "boundary_censored": 1
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "RAW2113",
+    "period": "H2",
+    "opportunities": 1232,
+    "n": 1197,
+    "netR": -27.974139325591466,
+    "WR": 72.84878863826232,
+    "PF": 0.9127838319784255,
+    "maxDD_R": 45.116308302181004,
+    "netR_adverse": -73.24723773098543,
+    "unknown_funding_n": 965,
+    "statuses": {
+      "CLOSED": 1197,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "RAW2113",
+    "period": "LAST40",
+    "opportunities": 993,
+    "n": 958,
+    "netR": -19.975422690869745,
+    "WR": 72.86012526096033,
+    "PF": 0.9221760536585729,
+    "maxDD_R": 45.116308302180954,
+    "netR_adverse": -56.223342753526495,
+    "unknown_funding_n": 772,
+    "statuses": {
+      "CLOSED": 958,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "RAW2113",
+    "period": "FULL",
+    "opportunities": 2112,
+    "n": 2077,
+    "netR": -75.38045210215785,
+    "WR": 72.21954742416948,
+    "PF": 0.8678493452646939,
+    "maxDD_R": 87.89485859259285,
+    "netR_adverse": -154.08450125694714,
+    "unknown_funding_n": 1707,
+    "statuses": {
+      "CLOSED": 2077,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "FROZEN_MODEL",
+    "period": "H1",
+    "opportunities": 402,
+    "n": 401,
+    "netR": -17.737334795058402,
+    "WR": 71.82044887780549,
+    "PF": 0.8423560175292004,
+    "maxDD_R": 21.49790100321046,
+    "netR_adverse": -33.00407794024423,
+    "unknown_funding_n": 342,
+    "statuses": {
+      "CLOSED": 402
+    },
+    "boundary_censored": 1
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "FROZEN_MODEL",
+    "period": "H2",
+    "opportunities": 638,
+    "n": 608,
+    "netR": 20.45541780044248,
+    "WR": 77.30263157894737,
+    "PF": 1.1509388065686683,
+    "maxDD_R": 8.19195251526097,
+    "netR_adverse": -2.625696928930663,
+    "unknown_funding_n": 512,
+    "statuses": {
+      "CLOSED": 608,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "FROZEN_MODEL",
+    "period": "LAST40",
+    "opportunities": 513,
+    "n": 483,
+    "netR": 24.514679393904146,
+    "WR": 78.4679089026915,
+    "PF": 1.2414931404223724,
+    "maxDD_R": 8.19195251526097,
+    "netR_adverse": 6.168052797061134,
+    "unknown_funding_n": 407,
+    "statuses": {
+      "CLOSED": 483,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_MARKET",
+    "universe": "FROZEN_MODEL",
+    "period": "FULL",
+    "opportunities": 1040,
+    "n": 1010,
+    "netR": 1.7170709571913036,
+    "WR": 75.04950495049505,
+    "PF": 1.006894831247468,
+    "maxDD_R": 28.100825406773613,
+    "netR_adverse": -36.66966471426956,
+    "unknown_funding_n": 855,
+    "statuses": {
+      "CLOSED": 1010,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "RAW2113",
+    "period": "H1",
+    "opportunities": 880,
+    "n": 864,
+    "netR": -37.524602883279144,
+    "WR": 75.0,
+    "PF": 0.8495372920465941,
+    "maxDD_R": 41.85800771335775,
+    "netR_adverse": -69.76439527543748,
+    "unknown_funding_n": 434,
+    "statuses": {
+      "CLOSED": 865,
+      "NOFILL": 2,
+      "REJECTED_CHASE_GEOMETRY": 13
+    },
+    "boundary_censored": 1
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "RAW2113",
+    "period": "H2",
+    "opportunities": 1232,
+    "n": 1163,
+    "netR": -47.62762437199946,
+    "WR": 74.46259673258814,
+    "PF": 0.8596469723844146,
+    "maxDD_R": 57.842920105779726,
+    "netR_adverse": -90.73499354113906,
+    "unknown_funding_n": 500,
+    "statuses": {
+      "CLOSED": 1163,
+      "NOFILL": 6,
+      "RIGHT_CENSORED": 35,
+      "REJECTED_CHASE_GEOMETRY": 28
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "RAW2113",
+    "period": "LAST40",
+    "opportunities": 993,
+    "n": 930,
+    "netR": -27.469675661891422,
+    "WR": 74.94623655913979,
+    "PF": 0.8969147367386479,
+    "maxDD_R": 47.446877804624805,
+    "netR_adverse": -61.9450390503999,
+    "unknown_funding_n": 402,
+    "statuses": {
+      "CLOSED": 930,
+      "NOFILL": 5,
+      "RIGHT_CENSORED": 35,
+      "REJECTED_CHASE_GEOMETRY": 23
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "RAW2113",
+    "period": "FULL",
+    "opportunities": 2112,
+    "n": 2028,
+    "netR": -84.67260739356573,
+    "WR": 74.70414201183432,
+    "PF": 0.8561790686867211,
+    "maxDD_R": 98.54700066902141,
+    "netR_adverse": -160.05709371894463,
+    "unknown_funding_n": 935,
+    "statuses": {
+      "CLOSED": 2028,
+      "NOFILL": 8,
+      "RIGHT_CENSORED": 35,
+      "REJECTED_CHASE_GEOMETRY": 41
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "FROZEN_MODEL",
+    "period": "H1",
+    "opportunities": 402,
+    "n": 396,
+    "netR": -4.981789776734144,
+    "WR": 77.52525252525253,
+    "PF": 0.950859892052023,
+    "maxDD_R": 16.091797141981345,
+    "netR_adverse": -19.740816833519855,
+    "unknown_funding_n": 197,
+    "statuses": {
+      "CLOSED": 397,
+      "NOFILL": 2,
+      "REJECTED_CHASE_GEOMETRY": 3
+    },
+    "boundary_censored": 1
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "FROZEN_MODEL",
+    "period": "H2",
+    "opportunities": 638,
+    "n": 593,
+    "netR": -0.83110126157142,
+    "WR": 77.90893760539629,
+    "PF": 0.9947058028373096,
+    "maxDD_R": 14.836809194911634,
+    "netR_adverse": -22.883598645109032,
+    "unknown_funding_n": 278,
+    "statuses": {
+      "CLOSED": 593,
+      "NOFILL": 5,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 10
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "FROZEN_MODEL",
+    "period": "LAST40",
+    "opportunities": 513,
+    "n": 472,
+    "netR": 9.400976789882549,
+    "WR": 79.02542372881356,
+    "PF": 1.0785219587189525,
+    "maxDD_R": 12.983355395927514,
+    "netR_adverse": -8.166813286935302,
+    "unknown_funding_n": 226,
+    "statuses": {
+      "CLOSED": 472,
+      "NOFILL": 4,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 7
+    },
+    "boundary_censored": 0
+  },
+  {
+    "variant": "PF_CHASE",
+    "universe": "FROZEN_MODEL",
+    "period": "FULL",
+    "opportunities": 1040,
+    "n": 990,
+    "netR": -5.333271176592694,
+    "WR": 77.77777777777779,
+    "PF": 0.9793574288394297,
+    "maxDD_R": 23.476273260903245,
+    "netR_adverse": -42.18212038099698,
+    "unknown_funding_n": 476,
+    "statuses": {
+      "CLOSED": 990,
+      "NOFILL": 7,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 13
+    },
+    "boundary_censored": 0
+  }
+]

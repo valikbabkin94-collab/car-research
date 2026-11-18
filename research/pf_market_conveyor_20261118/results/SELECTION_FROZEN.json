@@ -1,0 +1,82 @@
+{
+  "H1_best_static": "PF_CHASE",
+  "H1_scores": {
+    "PF_BASE": {
+      "opportunities": 402,
+      "n": 328,
+      "netR": -16.958285401696585,
+      "WR": 73.17073170731707,
+      "PF": 0.808337155553667,
+      "maxDD_R": 22.92515926594309,
+      "netR_adverse": -28.926469364891886,
+      "unknown_funding_n": 60,
+      "statuses": {
+        "CLOSED": 328,
+        "NOFILL": 74
+      },
+      "boundary_censored": 0
+    },
+    "PF_TP_FAST": {
+      "opportunities": 402,
+      "n": 328,
+      "netR": -17.508956900626668,
+      "WR": 77.7439024390244,
+      "PF": 0.752506181323919,
+      "maxDD_R": 19.9961001333904,
+      "netR_adverse": -29.474344102001965,
+      "unknown_funding_n": 60,
+      "statuses": {
+        "CLOSED": 328,
+        "NOFILL": 74
+      },
+      "boundary_censored": 0
+    },
+    "PF_MAKER_EXIT": {
+      "opportunities": 402,
+      "n": 328,
+      "netR": -14.025825160732731,
+      "WR": 73.17073170731707,
+      "PF": 0.8405243864045846,
+      "maxDD_R": 21.18374360329247,
+      "netR_adverse": -23.06154888296416,
+      "unknown_funding_n": 60,
+      "statuses": {
+        "CLOSED": 328,
+        "NOFILL": 74
+      },
+      "boundary_censored": 0
+    },
+    "PF_MARKET": {
+      "opportunities": 402,
+      "n": 401,
+      "netR": -17.737334795058402,
+      "WR": 71.82044887780549,
+      "PF": 0.8423560175292004,
+      "maxDD_R": 21.49790100321046,
+      "netR_adverse": -33.00407794024423,
+      "unknown_funding_n": 342,
+      "statuses": {
+        "CLOSED": 402
+      },
+      "boundary_censored": 1
+    },
+    "PF_CHASE": {
+      "opportunities": 402,
+      "n": 396,
+      "netR": -4.981789776734144,
+      "WR": 77.52525252525253,
+      "PF": 0.950859892052023,
+      "maxDD_R": 16.091797141981345,
+      "netR_adverse": -19.740816833519855,
+      "unknown_funding_n": 197,
+      "statuses": {
+        "CLOSED": 397,
+        "NOFILL": 2,
+        "REJECTED_CHASE_GEOMETRY": 3
+      },
+      "boundary_censored": 1
+    }
+  },
+  "selection_only_H1": true,
+  "code_sha": "eaa26ee1e267939ae1364c2c55cdc28b78dc607d"
+}

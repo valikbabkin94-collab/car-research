@@ -1,0 +1,44 @@
+[
+  {
+    "period": "H2",
+    "comparison": "PF_BASE",
+    "excessR": -11.374846112162157,
+    "p": 0.7878,
+    "BH_q": 0.914
+  },
+  {
+    "period": "H2",
+    "comparison": "H1_STATIC",
+    "excessR": -4.0209640550764245,
+    "p": 0.6101,
+    "BH_q": 0.914
+  },
+  {
+    "period": "H2",
+    "comparison": "RANDOM1000_MEAN",
+    "excessR": -12.237993493055411,
+    "p": 0.871,
+    "BH_q": 0.914
+  },
+  {
+    "period": "LAST40",
+    "comparison": "PF_BASE",
+    "excessR": -11.90023684984391,
+    "p": 0.8331,
+    "BH_q": 0.914
+  },
+  {
+    "period": "LAST40",
+    "comparison": "H1_STATIC",
+    "excessR": -9.784870648176001,
+    "p": 0.7745,
+    "BH_q": 0.914
+  },
+  {
+    "period": "LAST40",
+    "comparison": "RANDOM1000_MEAN",
+    "excessR": -13.018111839832606,
+    "p": 0.914,
+    "BH_q": 0.914
+  }
+]
