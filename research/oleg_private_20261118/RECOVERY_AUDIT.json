@@ -1,0 +1,10 @@
+{
+  "failed_run": 44269982325,
+  "exception": "TypeError: '>' not supported between instances of 'str' and 'int'",
+  "all_eight_logs_checked": true,
+  "root_cause": "Archive funding rates may be serialized as strings; normalize ts int/rate float before cash calculation.",
+  "parameters_changed": false,
+  "completed_symbol_prefixes_reused": true,
+  "raw_texts_in_Actions": false,
+  "tests_passed": 23
+}

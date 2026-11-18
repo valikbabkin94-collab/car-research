@@ -1,4 +1,4 @@
-name: OLEG full history and19 private channels independent offline jobs
+name: OLEG private19 resume saved symbols and normalize funding data types
 on:
   push:
     branches: [research/oleg-and-private-20261118]
@@ -31,6 +31,13 @@ jobs:
           name: s1-s3-history-inputs-results-checkpoint
           run-id: '43874717889'
           path: source
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ${{ matrix.group }}_shard${{ matrix.shard }}
+          run-id: '44269982325'
+          path: research/oleg_private_20261118/${{ matrix.group }}_shard${{ matrix.shard }}
+          merge-multiple: true
           github-token: ${{ github.token }}
       - name: Fixed policies on numeric plans only
         env: {GROUP: '${{ matrix.group }}', SHARD: '${{ matrix.shard }}'}
@@ -70,3 +77,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           LAB_OUTPUT: research/oleg_private_20261118/final
         run: python research/oleg_private_20261118/publish.py
+
+# Recovery normalizes serialized funding numbers; saved completed symbols are reused.

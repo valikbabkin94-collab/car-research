@@ -13,11 +13,23 @@ def random_time(s,st):
  if hi-lo<2*M:return None
  return int(rng.integers((lo+M-1)//M,max((lo+M-1)//M+1,(hi-M)//M)))*M+t%M
 
+def normalize_funding_rows(rows):
+ return sorted([dict(x,ts=int(x['ts']),rate=float(x['rate']))for x in rows],key=lambda x:x['ts'])
+
 def main():
  group=os.environ['GROUP'];shard=int(os.environ['SHARD']);out=B/f'{group}_shard{shard}';out.mkdir(parents=True,exist_ok=True);ss=[s for s in load('PLANS.json.gz')if(s['channel']=='OLEG')==(group=='oleg')];stats={s['channel']:s for s in load('DATA_INVENTORY.json')};symbols=sorted(set(s['symbol']for s in ss));owned=[s for i,s in enumerate(symbols)if i%4==shard];ss=[s for s in ss if s['symbol']in owned];quotes=Quotes('work/market');fund=Funding('source','work/funding');actual=[];controls=[];claims=[];sources=[];errors=[];claimby=collections.defaultdict(list)
  for c in load('CLAIMS.json.gz'):
   if c['signal_key']:claimby[c['signal_key']].append(c)
+ prior=0
+ if(out/'CHECKPOINT.json').exists():
+  cp=json.load((out/'CHECKPOINT.json').open());prior=cp.get('completed_symbols',cp.get('symbols',0))
+  for name,dest in [('ACTUAL.json.gz',actual),('CONTROL.json.gz',controls),('CLAIMS.json.gz',claims)]:
+   if(out/name).exists():dest.extend(json.loads(gzip.decompress((out/name).read_bytes())))
+  for name,dest in [('SOURCES.json',sources),('ERRORS.json',errors)]:
+   if(out/name).exists():dest.extend(json.load((out/name).open()))
+  save(out/'RESUME_PREFIX.json',dict(source_run=44269982325,completed_symbols_reused=prior,actual_rows_reused=len(actual),controls_reused=len(controls),parameters_changed=False))
  for sn,sy in enumerate(owned):
+  if sn<prior:continue
   sigs=[s for s in ss if s['symbol']==sy];times={s['post_key']:random_time(s,stats[s['channel']])for s in sigs};windows=[]
   for s in sigs:
    for t in[s['available_ms'],times[s['post_key']]]:
@@ -39,7 +51,7 @@ def main():
    if fund.known(sy,t,min(nxt,ASOF)):continue
    try:fund.extend_month(sy,mo,complete_month=mo<'2026-11')
    except Exception as e:errors.append(dict(symbol=sy,kind='FUNDING',period=mo,error=type(e).__name__+':'+str(e)[:100]))
-  q=quotes.load(sy);fd=fund.get(sy);ff=sorted(fd.get('rows',[]),key=lambda x:x['ts']);ft=np.array([x['ts']for x in ff],float)
+  q=quotes.load(sy);fd=fund.get(sy);ff=normalize_funding_rows(fd.get('rows',[]));ft=np.array([x['ts']for x in ff],float)
   def money(r):
    if r.get('status')=='NOFILL':r.update(net_R=0.,funding_R=0.,funding_known=True);return r
    if r.get('status')!='CLOSED':r['net_R']=None;return r

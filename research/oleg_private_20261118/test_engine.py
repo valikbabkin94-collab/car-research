@@ -18,3 +18,7 @@ def test_o4_needs_second_target():
 def test_o3_is_midpoint12h():
  s=dict(channel='OLEG',available_ms=0,pub=0,side='LONG',symbol='XUSDT',stop=90,stop_percent=None,targets=[110,120],events=[],entry_zone=[98,100]);r,e=plan(s,'O3',quotes());assert r['limit']==99 and r['ttl_hours']==12
  defignore=0
+
+def test_funding_string_values_are_normalized_before_cash_math():
+ from run import normalize_funding_rows
+ x=normalize_funding_rows([dict(ts='2',rate='-0.0001'),dict(ts='1',rate='0.0002')]);assert x[0]['ts']==1 and x[0]['rate']==.0002 and x[1]['rate']==-.0001
