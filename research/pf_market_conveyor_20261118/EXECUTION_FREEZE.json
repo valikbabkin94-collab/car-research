@@ -1,0 +1,23 @@
+{
+  "status": "PRE_PNL",
+  "source_refs": {
+    "history": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "baseline": "aab89d78a8d8e7680e27724916f91a388461fceb"
+  },
+  "calendar_start": 1762930800000,
+  "calendar_end": 1794466800000,
+  "half": 1778698800000,
+  "last40": 1781852400000,
+  "eligible_variants": [
+    "PF_BASE",
+    "PF_TP_FAST",
+    "PF_MAKER_EXIT",
+    "PF_MARKET",
+    "PF_CHASE"
+  ],
+  "selection_mask": "original selected boolean; no recomputed score",
+  "normalization": ".0581 as saved Bybit5m baseline, not forward varying SL",
+  "excluded": "TOP100/WIDE/R10 missing original ranks/signals; TOP200 duplicate; other families not shared source stream",
+  "known_funding": "original proved holding interval only; wider new windows unknown0 +adverse; block promotion",
+  "raw2113": true
+}

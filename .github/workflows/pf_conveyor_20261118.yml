@@ -1,0 +1,44 @@
+name: B causal PF conveyor and A historical entry sensitivity
+on:
+  push:
+    branches: [research/conveyor-20261118]
+    paths: [.github/workflows/pf_conveyor_20261118.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  B_conveyor_and_A_saved_history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/checkout@v4
+        with:
+          ref: bfbd12c065db125c592d85de235c1ddf93dc100f
+          path: saved
+          persist-credentials: false
+          sparse-checkout: research/pf_live_vs_backtest_20261116/inputs
+      - uses: actions/checkout@v4
+        with:
+          ref: aab89d78a8d8e7680e27724916f91a388461fceb
+          path: baseline
+          persist-credentials: false
+          sparse-checkout: research/pf_equity_switch_20261116/inputs/YEAR_BE_ALIGNED_5M.jsonl.gz
+          sparse-checkout-cone-mode: false
+      - name: Tests before PnL and frozen-grid execution
+        run: |
+          python -m unittest discover -s research/pf_market_conveyor_20261118 -p 'test_*.py' -v
+          python -u research/pf_market_conveyor_20261118/research.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: B-conveyor-A-history-all-results
+          path: research/pf_market_conveyor_20261118/results/
+          retention-days: 30
+      - name: Publish only completed research checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/pf_market_conveyor_20261118/results
+        run: python research/pf_market_conveyor_20261118/publish.py
