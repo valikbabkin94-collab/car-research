@@ -1,0 +1,38 @@
+{
+  "status": "SAVED_RESULTS_INTEGRITY_PASS",
+  "checked_hashes": [
+    "ALL_METRICS.csv",
+    "ALL_VARIANTS_ALL_PERIODS.json",
+    "VERDICT.json",
+    "OTCHET_DLYA_CLAUDE_CODEX_FUNDING_CARRY_20261117.md",
+    "SELECTION_FROZEN.json",
+    "CLAUDE_HANDOFF_RU.md",
+    "variants.json",
+    "CHECKPOINT.json"
+  ],
+  "selection": {
+    "winner": "FC4",
+    "raw_H1_max": "FC2",
+    "selection_metric": "netUSDT on100USDT capital at1x, baseline costs only",
+    "eligible": [
+      "FC4"
+    ],
+    "H1_only": true,
+    "H2_not_used": true,
+    "code_sha": "76d47472d203c6d44d5ad4924dd813afeb70bd11",
+    "train_scores_sha256": "83404fe6593a5e0ddb94098f7117c8fc4921c38aab3e57ad8e4976ac84effc18",
+    "FC5_execution_upper_bound_only": false
+  },
+  "verdict": {
+    "headline": "На100USDT это≈-0.68$ в месяц (средний), -0.78$ (медиана), -1.24$ (худший месяц); не стоит запускать: зарегистрированные критерии дохода/риска или исполнимости не выполнены.",
+    "winner": "FC4",
+    "economic_paper_candidate": false,
+    "Bybit_live_ready": false,
+    "lot_filters_confirmed": false,
+    "new_orders": 0
+  },
+  "source_commit": "70afcbff8d9d40e1cf9e7d452fadf9f89ddbe963",
+  "audit_code_sha": "3a4474c89d1040023a4b3d40677289463768c32d",
+  "new_pnl_runs": 0,
+  "live_changes": 0
+}
