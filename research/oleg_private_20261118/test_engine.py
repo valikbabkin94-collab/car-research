@@ -27,3 +27,7 @@ def test_structured_be_is_source_entry_without_fee_offset():
  defignore=0
 def test_original_all_author_target_gate_rejects_stale_first_even_if_final_ahead():
  q=quotes();r=simulate(q,p(absolute_targets=[120],all_author_targets=[99,120]),10*M);assert r['status']=='REJECTED_INVALID_TARGETS'
+def test_side_filter_does_not_count_opposite_side_as_price_gap():
+ s=dict(channel='OLEG',side='LONG',stop=90,stop_percent=None,targets=[110,120],entry_zone=[99,100]);p,e=plan(s,'O1',np.empty((0,5)));assert e=='DIRECTION_FILTER_LONG'
+def test_nonapplicable_cohort_does_not_become_price_gap():
+ s=dict(channel='C',side='LONG',kind='TEXT');p,e=plan(s,'P2',np.empty((0,5)));assert e=='NOT_APPLICABLE_TEXT_COHORT'

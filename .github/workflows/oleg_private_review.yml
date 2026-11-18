@@ -1,0 +1,55 @@
+name: Finalize eligibility metadata and matched OLEG comparison without new backtests
+on:
+  push:
+    branches: [research/oleg-and-private-20261118]
+    paths: [.github/workflows/oleg_private_review.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/oleg_private_20261118 python -m pytest -q research/oleg_private_20261118/test_parser.py research/oleg_private_20261118/test_engine.py
+      - name: Wait for source job completion only
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          python - <<'PY'
+          import os,json,urllib.request,time
+          u='https://api.github.com/repos/valikbabkin94-collab/car-research/actions/runs/44271797197'
+          for k in range(360):
+              req=urllib.request.Request(u,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req,timeout=30) as f:d=json.load(f)
+              if d['status']=='completed':print('SOURCE_FINISHED',d['conclusion']);break
+              if k%15==0:print('SOURCE_PENDING',flush=True)
+              time.sleep(20)
+          else:raise RuntimeError('SOURCE_RUN_NOT_COMPLETE')
+          PY
+      - uses: actions/download-artifact@v4
+        with:
+          name: oleg-private-source-conformance
+          run-id: '44271797197'
+          path: verified_source
+          github-token: ${{ github.token }}
+      - name: Review already calculated rows only
+        run: PYTHONPATH=research/oleg_private_20261118 python research/oleg_private_20261118/review_summary.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: oleg-private-completed
+          path: |
+            research/oleg_private_20261118/completed
+            research/oleg_private_20261118/final_rows
+          retention-days: 90
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/oleg_private_20261118/completed
+        run: python research/oleg_private_20261118/publish.py
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/oleg_private_20261118/final_rows
+        run: python research/oleg_private_20261118/publish.py

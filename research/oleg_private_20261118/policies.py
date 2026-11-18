@@ -3,7 +3,24 @@ import copy,numpy as np
 M=60000;H=3600000;ASOF=1794960000000
 O=['O0','O1','O2','O3','O4','O5','AUTHOR'];C=['P1','P2','P3','T1','T2','T3','AUTHOR']
 def entry_start(s):return ((s['available_ms']+M-1)//M+1)*M
+def preflight(s,policy):
+ side=1 if s['side']=='LONG'else-1
+ if s['channel']=='OLEG':
+  if policy=='O1'and side!=-1:return 'DIRECTION_FILTER_LONG'
+  if policy=='O2'and side!=1:return 'DIRECTION_FILTER_SHORT'
+  if not(s.get('stop')or s.get('stop_percent'))or not s['targets']:return 'MISSING_AUTHOR_LEVELS'
+  if policy in['O4','O5','AUTHOR']and len(s['targets'])<2:return 'MISSING_SECOND_AUTHOR_TARGET'
+  if policy not in['O4','O5','AUTHOR']and len(s['targets'])>3:return 'LIVE_TARGET_SPLIT_NOT_RECONSTRUCTABLE'
+  if policy in['O3','O5']and not s.get('entry_zone'):return 'MISSING_AUTHOR_ENTRY_ZONE'
+ else:
+  if policy.startswith('P')and s['kind']!='STRUCTURED':return 'NOT_APPLICABLE_TEXT_COHORT'
+  if policy.startswith('T')and s['kind']=='STRUCTURED':return 'NOT_APPLICABLE_STRUCTURED_COHORT'
+ if policy=='AUTHOR'and 'AUTHOR_DCA_SIZING_UNSPECIFIED'in s.get('flags',[]):return 'UNRESOLVED_AUTHOR_DCA_SIZING'
+ return None
+
 def plan(s,policy,q,random=False):
+ error=preflight(s,policy)
+ if error:return None,error
  obs=s['available_ms']+M-1;t=entry_start(s);i=np.searchsorted(q[:,0],t)if len(q)else 0
  if i>=len(q)or q[i,0]!=t:return None,'NO_ENTRY_CANDLE'
  if policy=='AUTHOR'and'AUTHOR_DCA_SIZING_UNSPECIFIED'in s.get('flags',[]):return None,'UNRESOLVED_AUTHOR_DCA_SIZING'

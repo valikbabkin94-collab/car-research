@@ -49,7 +49,7 @@ def main():
   ok=len(rr)==3
   for r in rr:
    ok=bool(ok and r['n']>=60 and r['coverage']>=.95 and r['netR']>0 and(r['PF']or 0)>=1.3 and r['netR_adverse']>0 and(r['top3_share']or 1)<=.5 and r['funding_unknown_n']<=.05*r['n'])
-   if r['period']!='H1':ok=bool(ok and r['excessR']>0 and r.get('BH_q_family140',1)<=.1)
+   if r['period']!='H1':ok=bool(ok and r['censored']==0 and r['excessR']>0 and r.get('BH_q_family140',1)<=.1)
   if ok:candidates.append(dict(id=ch+'_'+w,channel=ch,policy=w,enabled=False,status='PROMISING_REQUIRES_INDEPENDENT_REVIEW',author_identity_verified=ch=='OLEG'))
  save(out/'TABLES_ALL140.json',table);save(out/'variants.json',candidates)
  risk=[]
