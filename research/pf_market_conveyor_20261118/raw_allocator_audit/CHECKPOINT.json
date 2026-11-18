@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_NO_NEW_MARKET_SIMULATIONS",
+  "answers": {
+    "RAW2113": false,
+    "MODEL_SELECTED_CONDITIONAL": false
+  },
+  "code_sha": "57348b8da41f3e76a949feec211f355bacc8c921",
+  "source_rows_per_variant": 2113,
+  "variants": [
+    "PF_BASE",
+    "PF_TP_FAST",
+    "PF_MAKER_EXIT",
+    "PF_MARKET",
+    "PF_CHASE"
+  ],
+  "controls": 1000,
+  "tests_family": 12,
+  "warmup": "28 complete source calendar days for allocator and random weekly comparator",
+  "model_selection_causality": "UNKNOWN: saved model cut later than H1; conditional model subset not proof that model existed then",
+  "data_limits": "unknown funding modeled0 and stress; no historical ranks for TOP100/WIDE/R10; entry replay5m not1m",
+  "live_changes": 0
+}

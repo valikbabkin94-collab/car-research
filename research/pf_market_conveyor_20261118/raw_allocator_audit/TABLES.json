@@ -1,0 +1,614 @@
+[
+  {
+    "cohort": "RAW2113",
+    "period": "H1",
+    "strategy": "CONVEYOR",
+    "opportunities": 361,
+    "n": 345,
+    "netR": -14.651770230680548,
+    "WR": 74.20289855072464,
+    "PF": 0.8483465729196419,
+    "maxDD_R": 20.851335845793297,
+    "netR_adverse": -26.7586532041956,
+    "unknown_funding_n": 156,
+    "statuses": {
+      "NOFILL": 16,
+      "CLOSED": 345
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H1",
+    "strategy": "PF_BASE",
+    "opportunities": 880,
+    "n": 741,
+    "netR": -36.93760128604558,
+    "WR": 71.9298245614035,
+    "PF": 0.822055569925346,
+    "maxDD_R": 39.947900841587,
+    "netR_adverse": -64.0050983861203,
+    "unknown_funding_n": 152,
+    "statuses": {
+      "CLOSED": 741,
+      "NOFILL": 139
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H1",
+    "strategy": "H1_STATIC_PF_MAKER_EXIT",
+    "opportunities": 880,
+    "n": 741,
+    "netR": -30.25980068363593,
+    "WR": 72.06477732793523,
+    "PF": 0.853338175304898,
+    "maxDD_R": 33.44347855243002,
+    "netR_adverse": -50.649497181300994,
+    "unknown_funding_n": 152,
+    "statuses": {
+      "CLOSED": 741,
+      "NOFILL": 139
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H1",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 4400,
+    "n": 3966,
+    "netR": -37.90529921690486,
+    "WR": 73.42410489157841,
+    "PF": 0.8240224588764379,
+    "maxDD_R": 40.714531116405205,
+    "netR_adverse": -65.9342424011499,
+    "unknown_funding_n": 1631,
+    "statuses": {
+      "CLOSED": 3968,
+      "NOFILL": 419,
+      "REJECTED_CHASE_GEOMETRY": 13
+    },
+    "boundary_censored": 2
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H2",
+    "strategy": "CONVEYOR",
+    "opportunities": 557,
+    "n": 476,
+    "netR": -17.78586239274786,
+    "WR": 71.42857142857143,
+    "PF": 0.8680349694886421,
+    "maxDD_R": 32.95667540763899,
+    "netR_adverse": -32.843032091416674,
+    "unknown_funding_n": 194,
+    "statuses": {
+      "CLOSED": 476,
+      "NOFILL": 46,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H2",
+    "strategy": "PF_BASE",
+    "opportunities": 1232,
+    "n": 1020,
+    "netR": -40.264326488524596,
+    "WR": 72.15686274509804,
+    "PF": 0.856496679134311,
+    "maxDD_R": 50.88420574977023,
+    "netR_adverse": -77.39789462519687,
+    "unknown_funding_n": 143,
+    "statuses": {
+      "CLOSED": 1020,
+      "NOFILL": 177,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H2",
+    "strategy": "H1_STATIC_PF_MAKER_EXIT",
+    "opportunities": 1232,
+    "n": 1020,
+    "netR": -31.034842151175194,
+    "WR": 72.15686274509804,
+    "PF": 0.8887075663219002,
+    "maxDD_R": 44.43780273772188,
+    "netR_adverse": -58.93892595049804,
+    "unknown_funding_n": 143,
+    "statuses": {
+      "CLOSED": 1020,
+      "NOFILL": 177,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "H2",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 6160,
+    "n": 5420,
+    "netR": -38.066020726265876,
+    "WR": 73.67158671586715,
+    "PF": 0.8683362190094656,
+    "maxDD_R": 46.87259334915026,
+    "netR_adverse": -76.17502432546576,
+    "unknown_funding_n": 1894,
+    "statuses": {
+      "CLOSED": 5420,
+      "NOFILL": 537,
+      "RIGHT_CENSORED": 175,
+      "REJECTED_CHASE_GEOMETRY": 28
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "LAST40",
+    "strategy": "CONVEYOR",
+    "opportunities": 557,
+    "n": 476,
+    "netR": -17.78586239274786,
+    "WR": 71.42857142857143,
+    "PF": 0.8680349694886421,
+    "maxDD_R": 32.95667540763899,
+    "netR_adverse": -32.843032091416674,
+    "unknown_funding_n": 194,
+    "statuses": {
+      "CLOSED": 476,
+      "NOFILL": 46,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "LAST40",
+    "strategy": "PF_BASE",
+    "opportunities": 993,
+    "n": 813,
+    "netR": -23.980864194377855,
+    "WR": 72.57072570725708,
+    "PF": 0.8917153121467276,
+    "maxDD_R": 46.413583180322156,
+    "netR_adverse": -53.56821180865416,
+    "unknown_funding_n": 112,
+    "statuses": {
+      "CLOSED": 813,
+      "NOFILL": 145,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "LAST40",
+    "strategy": "H1_STATIC_PF_MAKER_EXIT",
+    "opportunities": 993,
+    "n": 813,
+    "netR": -16.581041302811588,
+    "WR": 72.57072570725708,
+    "PF": 0.9246699789533904,
+    "maxDD_R": 43.71021691526191,
+    "netR_adverse": -38.7685660255216,
+    "unknown_funding_n": 112,
+    "statuses": {
+      "CLOSED": 813,
+      "NOFILL": 145,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "LAST40",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 4965,
+    "n": 4327,
+    "netR": -22.60387695504049,
+    "WR": 74.11601571527618,
+    "PF": 0.9006434941038869,
+    "maxDD_R": 41.24779945744801,
+    "netR_adverse": -53.01921073952727,
+    "unknown_funding_n": 1510,
+    "statuses": {
+      "CLOSED": 4327,
+      "NOFILL": 440,
+      "RIGHT_CENSORED": 175,
+      "REJECTED_CHASE_GEOMETRY": 23
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "FULL",
+    "strategy": "CONVEYOR",
+    "opportunities": 918,
+    "n": 821,
+    "netR": -32.437632623428414,
+    "WR": 72.59439707673569,
+    "PF": 0.8598143885779186,
+    "maxDD_R": 41.33653385793607,
+    "netR_adverse": -59.60168529561227,
+    "unknown_funding_n": 350,
+    "statuses": {
+      "NOFILL": 62,
+      "CLOSED": 821,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "FULL",
+    "strategy": "PF_BASE",
+    "opportunities": 2112,
+    "n": 1761,
+    "netR": -77.20192777457017,
+    "WR": 72.06132879045997,
+    "PF": 0.8418513638197767,
+    "maxDD_R": 89.95909359658211,
+    "netR_adverse": -141.40299301131716,
+    "unknown_funding_n": 295,
+    "statuses": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "FULL",
+    "strategy": "H1_STATIC_PF_MAKER_EXIT",
+    "opportunities": 2112,
+    "n": 1761,
+    "netR": -61.29464283481113,
+    "WR": 72.11811470755252,
+    "PF": 0.8736667380600107,
+    "maxDD_R": 76.92586950019643,
+    "netR_adverse": -109.58842313179903,
+    "unknown_funding_n": 295,
+    "statuses": {
+      "CLOSED": 1761,
+      "NOFILL": 316,
+      "RIGHT_CENSORED": 35
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "RAW2113",
+    "period": "FULL",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 10560,
+    "n": 9388,
+    "netR": -76.07559838046672,
+    "WR": 73.56199403493821,
+    "PF": 0.8492699051665265,
+    "maxDD_R": 86.93537304271862,
+    "netR_adverse": -142.2287856761082,
+    "unknown_funding_n": 3527,
+    "statuses": {
+      "CLOSED": 9388,
+      "NOFILL": 956,
+      "RIGHT_CENSORED": 175,
+      "REJECTED_CHASE_GEOMETRY": 41
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H1",
+    "strategy": "CONVEYOR",
+    "opportunities": 207,
+    "n": 198,
+    "netR": -10.123170102623138,
+    "WR": 75.25252525252525,
+    "PF": 0.8089716280118998,
+    "maxDD_R": 11.934034267592272,
+    "netR_adverse": -17.27269182630865,
+    "unknown_funding_n": 109,
+    "statuses": {
+      "NOFILL": 8,
+      "CLOSED": 199
+    },
+    "boundary_censored": 1
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H1",
+    "strategy": "PF_BASE",
+    "opportunities": 402,
+    "n": 328,
+    "netR": -16.958285401696585,
+    "WR": 73.17073170731707,
+    "PF": 0.808337155553667,
+    "maxDD_R": 22.92515926594309,
+    "netR_adverse": -28.926469364891886,
+    "unknown_funding_n": 60,
+    "statuses": {
+      "CLOSED": 328,
+      "NOFILL": 74
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H1",
+    "strategy": "H1_STATIC_PF_CHASE",
+    "opportunities": 402,
+    "n": 396,
+    "netR": -4.981789776734144,
+    "WR": 77.52525252525253,
+    "PF": 0.950859892052023,
+    "maxDD_R": 16.091797141981345,
+    "netR_adverse": -19.740816833519855,
+    "unknown_funding_n": 197,
+    "statuses": {
+      "CLOSED": 397,
+      "NOFILL": 2,
+      "REJECTED_CHASE_GEOMETRY": 3
+    },
+    "boundary_censored": 1
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H1",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 2010,
+    "n": 1781,
+    "netR": -14.242438406969704,
+    "WR": 74.6771476698484,
+    "PF": 0.8455497814984676,
+    "maxDD_R": 18.840013464786963,
+    "netR_adverse": -26.84145142472442,
+    "unknown_funding_n": 719,
+    "statuses": {
+      "CLOSED": 1783,
+      "NOFILL": 224,
+      "REJECTED_CHASE_GEOMETRY": 3
+    },
+    "boundary_censored": 2
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H2",
+    "strategy": "CONVEYOR",
+    "opportunities": 480,
+    "n": 423,
+    "netR": -4.852065316647843,
+    "WR": 74.70449172576832,
+    "PF": 0.956588237339559,
+    "maxDD_R": 15.413068971956127,
+    "netR_adverse": -20.1889036629129,
+    "unknown_funding_n": 278,
+    "statuses": {
+      "NOFILL": 27,
+      "CLOSED": 423,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H2",
+    "strategy": "PF_BASE",
+    "opportunities": 638,
+    "n": 495,
+    "netR": 6.5227807955143176,
+    "WR": 75.95959595959596,
+    "PF": 1.0560808292907085,
+    "maxDD_R": 10.355107261908891,
+    "netR_adverse": -11.472122351638584,
+    "unknown_funding_n": 67,
+    "statuses": {
+      "CLOSED": 495,
+      "NOFILL": 113,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H2",
+    "strategy": "H1_STATIC_PF_CHASE",
+    "opportunities": 638,
+    "n": 593,
+    "netR": -0.83110126157142,
+    "WR": 77.90893760539629,
+    "PF": 0.9947058028373096,
+    "maxDD_R": 14.836809194911634,
+    "netR_adverse": -22.883598645109032,
+    "unknown_funding_n": 278,
+    "statuses": {
+      "CLOSED": 593,
+      "NOFILL": 5,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 10
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "H2",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 3190,
+    "n": 2686,
+    "netR": 7.356804618433,
+    "WR": 77.47580044676099,
+    "PF": 1.0596216994133887,
+    "maxDD_R": 8.311332435369092,
+    "netR_adverse": -11.555030316579515,
+    "unknown_funding_n": 991,
+    "statuses": {
+      "CLOSED": 2686,
+      "NOFILL": 344,
+      "RIGHT_CENSORED": 150,
+      "REJECTED_CHASE_GEOMETRY": 10
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "LAST40",
+    "strategy": "CONVEYOR",
+    "opportunities": 457,
+    "n": 400,
+    "netR": -0.3838938582934528,
+    "WR": 75.0,
+    "PF": 0.9962674145344936,
+    "maxDD_R": 13.157308783613855,
+    "netR_adverse": -14.866650728866006,
+    "unknown_funding_n": 269,
+    "statuses": {
+      "NOFILL": 27,
+      "CLOSED": 400,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "LAST40",
+    "strategy": "PF_BASE",
+    "opportunities": 513,
+    "n": 391,
+    "netR": 11.51634299155046,
+    "WR": 76.98209718670077,
+    "PF": 1.1290852193567478,
+    "maxDD_R": 10.355107261908893,
+    "netR_adverse": -2.6923124757269825,
+    "unknown_funding_n": 53,
+    "statuses": {
+      "CLOSED": 391,
+      "NOFILL": 92,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "LAST40",
+    "strategy": "H1_STATIC_PF_CHASE",
+    "opportunities": 513,
+    "n": 472,
+    "netR": 9.400976789882549,
+    "WR": 79.02542372881356,
+    "PF": 1.0785219587189525,
+    "maxDD_R": 12.983355395927514,
+    "netR_adverse": -8.166813286935302,
+    "unknown_funding_n": 226,
+    "statuses": {
+      "CLOSED": 472,
+      "NOFILL": 4,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 7
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "LAST40",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 2565,
+    "n": 2128,
+    "netR": 12.720320015401239,
+    "WR": 78.47744360902256,
+    "PF": 1.1351849014114421,
+    "maxDD_R": 8.311332435369101,
+    "netR_adverse": -2.261867706038826,
+    "unknown_funding_n": 792,
+    "statuses": {
+      "CLOSED": 2128,
+      "NOFILL": 280,
+      "RIGHT_CENSORED": 150,
+      "REJECTED_CHASE_GEOMETRY": 7
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "FULL",
+    "strategy": "CONVEYOR",
+    "opportunities": 687,
+    "n": 622,
+    "netR": -14.495615557558118,
+    "WR": 74.91961414790997,
+    "PF": 0.9120205962967114,
+    "maxDD_R": 24.93917942571495,
+    "netR_adverse": -37.019300391589645,
+    "unknown_funding_n": 388,
+    "statuses": {
+      "NOFILL": 35,
+      "CLOSED": 622,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "FULL",
+    "strategy": "PF_BASE",
+    "opportunities": 1040,
+    "n": 823,
+    "netR": -10.43550460618227,
+    "WR": 74.84811664641555,
+    "PF": 0.9490429303040288,
+    "maxDD_R": 27.66787656266395,
+    "netR_adverse": -40.39859171653047,
+    "unknown_funding_n": 127,
+    "statuses": {
+      "CLOSED": 823,
+      "NOFILL": 187,
+      "RIGHT_CENSORED": 30
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "FULL",
+    "strategy": "H1_STATIC_PF_CHASE",
+    "opportunities": 1040,
+    "n": 990,
+    "netR": -5.333271176592694,
+    "WR": 77.77777777777779,
+    "PF": 0.9793574288394297,
+    "maxDD_R": 23.476273260903245,
+    "netR_adverse": -42.18212038099698,
+    "unknown_funding_n": 476,
+    "statuses": {
+      "CLOSED": 990,
+      "NOFILL": 7,
+      "RIGHT_CENSORED": 30,
+      "REJECTED_CHASE_GEOMETRY": 13
+    },
+    "boundary_censored": 0
+  },
+  {
+    "cohort": "MODEL_SELECTED_CONDITIONAL",
+    "period": "FULL",
+    "strategy": "ALL_EQUAL",
+    "opportunities": 5200,
+    "n": 4469,
+    "netR": -6.989912225832683,
+    "WR": 76.34817632579995,
+    "PF": 0.9676101107994981,
+    "maxDD_R": 24.31923431559481,
+    "netR_adverse": -38.51600069079649,
+    "unknown_funding_n": 1712,
+    "statuses": {
+      "CLOSED": 4469,
+      "NOFILL": 568,
+      "RIGHT_CENSORED": 150,
+      "REJECTED_CHASE_GEOMETRY": 13
+    },
+    "boundary_censored": 0
+  }
+]

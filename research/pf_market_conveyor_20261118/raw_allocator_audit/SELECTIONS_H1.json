@@ -1,0 +1,164 @@
+{
+  "RAW2113": {
+    "best_static": "PF_MAKER_EXIT",
+    "H1": {
+      "PF_BASE": {
+        "opportunities": 880,
+        "n": 741,
+        "netR": -36.93760128604558,
+        "WR": 71.9298245614035,
+        "PF": 0.822055569925346,
+        "maxDD_R": 39.947900841587,
+        "netR_adverse": -64.0050983861203,
+        "unknown_funding_n": 152,
+        "statuses": {
+          "CLOSED": 741,
+          "NOFILL": 139
+        },
+        "boundary_censored": 0
+      },
+      "PF_TP_FAST": {
+        "opportunities": 880,
+        "n": 741,
+        "netR": -38.39919050319001,
+        "WR": 76.78812415654521,
+        "PF": 0.7673166268568482,
+        "maxDD_R": 41.719189195665145,
+        "netR_adverse": -65.45484748202367,
+        "unknown_funding_n": 152,
+        "statuses": {
+          "CLOSED": 741,
+          "NOFILL": 139
+        },
+        "boundary_censored": 0
+      },
+      "PF_MAKER_EXIT": {
+        "opportunities": 880,
+        "n": 741,
+        "netR": -30.25980068363593,
+        "WR": 72.06477732793523,
+        "PF": 0.853338175304898,
+        "maxDD_R": 33.44347855243002,
+        "netR_adverse": -50.649497181300994,
+        "unknown_funding_n": 152,
+        "statuses": {
+          "CLOSED": 741,
+          "NOFILL": 139
+        },
+        "boundary_censored": 0
+      },
+      "PF_MARKET": {
+        "opportunities": 880,
+        "n": 879,
+        "netR": -46.40530072837361,
+        "WR": 71.4448236632537,
+        "PF": 0.8133838443585821,
+        "maxDD_R": 48.13759080582634,
+        "netR_adverse": -79.79737368086704,
+        "unknown_funding_n": 741,
+        "statuses": {
+          "CLOSED": 880
+        },
+        "boundary_censored": 1
+      },
+      "PF_CHASE": {
+        "opportunities": 880,
+        "n": 864,
+        "netR": -37.524602883279144,
+        "WR": 75.0,
+        "PF": 0.8495372920465941,
+        "maxDD_R": 41.85800771335775,
+        "netR_adverse": -69.76439527543748,
+        "unknown_funding_n": 434,
+        "statuses": {
+          "CLOSED": 865,
+          "NOFILL": 2,
+          "REJECTED_CHASE_GEOMETRY": 13
+        },
+        "boundary_censored": 1
+      }
+    },
+    "selection_only_H1": true
+  },
+  "MODEL_SELECTED_CONDITIONAL": {
+    "best_static": "PF_CHASE",
+    "H1": {
+      "PF_BASE": {
+        "opportunities": 402,
+        "n": 328,
+        "netR": -16.958285401696585,
+        "WR": 73.17073170731707,
+        "PF": 0.808337155553667,
+        "maxDD_R": 22.92515926594309,
+        "netR_adverse": -28.926469364891886,
+        "unknown_funding_n": 60,
+        "statuses": {
+          "CLOSED": 328,
+          "NOFILL": 74
+        },
+        "boundary_censored": 0
+      },
+      "PF_TP_FAST": {
+        "opportunities": 402,
+        "n": 328,
+        "netR": -17.508956900626668,
+        "WR": 77.7439024390244,
+        "PF": 0.752506181323919,
+        "maxDD_R": 19.9961001333904,
+        "netR_adverse": -29.474344102001965,
+        "unknown_funding_n": 60,
+        "statuses": {
+          "CLOSED": 328,
+          "NOFILL": 74
+        },
+        "boundary_censored": 0
+      },
+      "PF_MAKER_EXIT": {
+        "opportunities": 402,
+        "n": 328,
+        "netR": -14.025825160732731,
+        "WR": 73.17073170731707,
+        "PF": 0.8405243864045846,
+        "maxDD_R": 21.18374360329247,
+        "netR_adverse": -23.06154888296416,
+        "unknown_funding_n": 60,
+        "statuses": {
+          "CLOSED": 328,
+          "NOFILL": 74
+        },
+        "boundary_censored": 0
+      },
+      "PF_MARKET": {
+        "opportunities": 402,
+        "n": 401,
+        "netR": -17.737334795058402,
+        "WR": 71.82044887780549,
+        "PF": 0.8423560175292004,
+        "maxDD_R": 21.49790100321046,
+        "netR_adverse": -33.00407794024423,
+        "unknown_funding_n": 342,
+        "statuses": {
+          "CLOSED": 402
+        },
+        "boundary_censored": 1
+      },
+      "PF_CHASE": {
+        "opportunities": 402,
+        "n": 396,
+        "netR": -4.981789776734144,
+        "WR": 77.52525252525253,
+        "PF": 0.950859892052023,
+        "maxDD_R": 16.091797141981345,
+        "netR_adverse": -19.740816833519855,
+        "unknown_funding_n": 197,
+        "statuses": {
+          "CLOSED": 397,
+          "NOFILL": 2,
+          "REJECTED_CHASE_GEOMETRY": 3
+        },
+        "boundary_censored": 1
+      }
+    },
+    "selection_only_H1": true
+  }
+}
