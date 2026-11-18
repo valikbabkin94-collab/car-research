@@ -1,0 +1,346 @@
+[
+  {
+    "symbol": "10000000AIDOGEUSDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "10000000AIDOGEUSDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "100000PEIPEIUSDT",
+    "period": "2025-05",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "100000PEIPEIUSDT",
+    "kind": "FUNDING",
+    "period": "2025-05",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "10000WHYUSDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "10000WHYUSDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "1000NEIROCTOUSDT",
+    "period": "2024-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "1000NEIROCTOUSDT",
+    "kind": "FUNDING",
+    "period": "2024-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "12USDT",
+    "period": "2024-03",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "12USDT",
+    "kind": "FUNDING",
+    "period": "2024-03",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "APEXUSDT",
+    "period": "2025-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "APEXUSDT",
+    "kind": "FUNDING",
+    "period": "2025-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BADGERUSDT",
+    "kind": "FUNDING",
+    "period": "2025-07",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "period": "2024-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "period": "2025-01",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "period": "2025-02",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2024-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2025-01",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "BENDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2025-02",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "EDGEUSDT",
+    "kind": "FUNDING",
+    "period": "2026-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "FARTCOINUSDT",
+    "kind": "FUNDING",
+    "period": "2026-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "GRAMUSDT",
+    "kind": "FUNDING",
+    "period": "2026-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "L3USDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "L3USDT",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "L3USDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "L3USDT",
+    "kind": "FUNDING",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "MASAUSDT",
+    "period": "2025-07",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "MASAUSDT",
+    "kind": "FUNDING",
+    "period": "2025-07",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "period": "2025-05",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "period": "2025-06",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "period": "2026-01",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "kind": "FUNDING",
+    "period": "2025-05",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "kind": "FUNDING",
+    "period": "2025-06",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "kind": "FUNDING",
+    "period": "2026-01",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PUFFERUSDT",
+    "period": "2024-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "PUFFERUSDT",
+    "kind": "FUNDING",
+    "period": "2024-10",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "RFCUSDT",
+    "period": "2025-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "RFCUSDT",
+    "kind": "FUNDING",
+    "period": "2025-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SILLYUSDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SILLYUSDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "period": "2025-07",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "kind": "FUNDING",
+    "period": "2024-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "kind": "FUNDING",
+    "period": "2024-12",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SPECUSDT",
+    "kind": "FUNDING",
+    "period": "2025-07",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "period": "2024-08",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "period": "2024-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "period": "2025-02",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2024-08",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2024-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "SUNDOGUSDT",
+    "kind": "FUNDING",
+    "period": "2025-02",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "VVVUSDT",
+    "kind": "FUNDING",
+    "period": "2026-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "WUSDT",
+    "kind": "FUNDING",
+    "period": "2026-11",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "XTERUSDT",
+    "period": "2025-08",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "XTERUSDT",
+    "period": "2025-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "XTERUSDT",
+    "kind": "FUNDING",
+    "period": "2025-08",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "symbol": "XTERUSDT",
+    "kind": "FUNDING",
+    "period": "2025-09",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  }
+]
