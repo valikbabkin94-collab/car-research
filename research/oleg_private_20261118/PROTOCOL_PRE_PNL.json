@@ -1,0 +1,56 @@
+{
+  "name": "OLEG_FIX_FULL_AND_PRIVATE19_20261118",
+  "stage": "BEFORE_PARSER_PNL",
+  "data": {
+    "oleg_branch": "data/oleg-history-20261118",
+    "oleg_blob": "e6c66348127c9c8c2bf3a36221b08ade621e405f",
+    "oleg_original_path": "oleg_raw.json\\r",
+    "oleg_count": 3212,
+    "private19_branch": "data/tg-private-honor-20261118",
+    "private19_blob": "4f9fac60aa57777e902482ef547a9d0b13b49ab6",
+    "private19_original_path": "tg_private.zip\\r"
+  },
+  "privacy": "No raw post text/chat identities/usernames/media/reply identifiers in public repo or Actions. Private source processing in isolated memory workspace; publish channel aliases, hashed keys, numeric trade plans/actions/claims and aggregate coverage only. Parser code frozen before price replay. Private archives never uploaded to public Actions artifacts.",
+  "source_code": {
+    "reference_private_commit": "c7fd3c4251adbf95e7799fb3d147e980fbe9908e",
+    "OLEG_source": "fastpath/car_signals.py + CarFastPathV1 author source; NOT OLEG_MAIN4% source",
+    "P1_P3": "channels_audit_v2_20261116/engine.py",
+    "T1_T3": "text_signals_audit_20261116/full_run.py/full_engine.py"
+  },
+  "classification": "SIGNAL/UPDATE/REPORT/OTHER. Explicit fresh side+coin; multi-coin/multi-side/conditional/negated/past-only quarantined. Structured requires own SL/TP; text without levels separate. Duplicate same channel/id or repeated canonical post excluded before PnL; all exclusions counted. No messages=trades conflation.",
+  "edits": "Only last snapshot known: available_at=max(publication,edit timestamp). Edited flag with unknown timestamp unsupported; no snapshot text at original pre-edit time. Explicitly count delay and lost original versions. 19 archive edited=None is unknown metadata, not proof no edits. Historical causal validity limited.",
+  "linkage": "Reply chain to earlier signal preferred, else unique same coin/side in channel prior7days. Do not link missing-coin updates by guessing. No future messages in past decisions. Explicit exit/partial/BE/SL/cancel only; TP-reached is claim, not discretionary market close. Unspecified partial/DCA/remove-stop unresolved, not invented. Multiple human authors unknown in anonymized channels: channel-stream aggregates, never claim a single identified author.",
+  "OLEG_policies": {
+    "O0": "Market first complete1m after available_at+60sec; author absoluteSL and original author targets/standard50/50(two) or50/30/20(three), BE+0.11% after TP1. Code-baseline proxy: historical per-trade config/reversal settings and queue not complete; not exact LIVE replica.72h research time cap. This source uses author levels, not OLEG_MAIN stop4%.",
+    "O1": "O0 onlySHORT",
+    "O2": "O0 onlyLONG",
+    "O3": "O0 exits; limit midpoint own entry range,12h wait, otherwise cancel",
+    "O4": "O0 market entry; authorSL, first2authorTP50/50, no automatic BE, need2TP",
+    "O5": "O3limit +O4exits",
+    "AUTHOR": "O4 plus causal explicit linked author updates; otherwise O4"
+  },
+  "O0_limitations": "13 saved trades initial_stop is emergency stop, not financial1R. Compare matched coin/side/publication, observed price/time/exits; no claim exact $ reconciliation without size/fill/ingest/config history. O0 proxy matches code author-levels+BE, excludes unproven dynamic reversal; report LIVE mismatch as blocker, do not tune to13 outcomes.",
+  "private19_policies": {
+    "P1": "Structured market+ownSL, full finalTP, causal author actions, no automaticBE",
+    "P2": "Structured market+ownSL first2TP50/50, BEafterTP1",
+    "P3": "Structured market+ownSL, full firstTP, no automaticBE",
+    "T1": "Fresh text market or explicit limit24h; authorSL if given else5.6%; standard2.1/4.2/6.3%50/30/20,BE; linked author actions",
+    "T2": "Text market, stop beyond previous24h extremum±1%, targets1/2R50/50,BE,72h",
+    "T3": "Text market, frozenPUMP_FADE-style5.6%SL,2.1/4.2/6.3%TP50/30/20,BE72h, side unchanged",
+    "AUTHOR": "Structured P1 alias, text T1 alias; no extra optimized policy; author identity/unknown fractions explicitly unresolved"
+  },
+  "horizons": "OLEG and T policies72h; P1-P3 have no invented time exit, open at ASOF censored. Model ASOF2026-11-18T00:00Z, no live monitoring. H1 must close before split; otherwise purge, not let H2 price affect selection. No terminal fake close.",
+  "costs": {
+    "taker_every_fill": 0.00055,
+    "market_stop_time_slip": 0.0005,
+    "limit_TP_extra_slip": 0,
+    "funding": "Binance raw actual cash by remaining baseqty and closed1m price proxy. Archived known coverage only; unknown0 with±0.01%/8h stress, never exclude. No Bybit funding presented as Binance funding.",
+    "R": "Initial entry-to-author/modelSL distance, fees separately; emergency live stop not R; fixed dollar sizing projection not leveraged edge"
+  },
+  "split": "Within OLEG/each channel freeze time range from all source posts before PnL; midpoint H1/H2,tail40 at60% time. H1 select only among source policies by netR,n>=60,pricecoverage>=95%; raw best also reported. Validate exactly frozen H1winner, no H2 switch. All policies H2 diagnostic retained; last40 overlapsH2. Already viewed/archive histories not untouched prospective OOS.",
+  "control": "One deterministic same-symbol/side random time per signal within±7d and original time stratum (H1/H2/tail40); no resampling unavailable. Same random time across policies. Relative author geometry translated from observed signal reference to control open; unknown geometry flagged. Author updates disabled in random baseline per old text pipeline (so author excess combines timing+management, not pure timing). No borrowed future author actions at counterfactual time.",
+  "statistics": "Paired daily-block sign test9999 seed20261118; BH entire140 slots=7 OLEG +19*7; missing slots p=1. H2 andlast40 separate. Channel/source selection included in family. Risk-signature buckets descriptive, never select risk threshold. Claimed Profit% compared to market envelope at claim time and recorded leverage if supplied; no capital/weights/unknown leverage => not comparable, not accusation.",
+  "promotion": "Only H1chosen policy, n>=60,H1/H2/last40 positive netR PF>=1.3,positive matched excess BHq<=.10, adverse cost/funding remains positive, top3 contribution<=50%, coverage>=95%, no material author/edited/exec ambiguity. At mostPROMISING due retrospective data; enabled=false. OLEG YES only if evidence passes; otherwise NO_evidence or INCONCLUSIVE, never invent full-historical proof.",
+  "resources": "Independent OLEG and PRIVATE19 symbol-sharded Actions jobs parallel; immutable price caches reused; no completed earlier research replay. Publish all outcomes/events/gaps, versions and checkpoints. No deployment/main merge.",
+  "safety": "DesktopCommander0, exchangeKeys0, realOrders0, LIVEchanges0, TelegramSessions0; GitHub research branch only"
+}
