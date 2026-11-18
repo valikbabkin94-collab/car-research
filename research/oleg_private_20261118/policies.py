@@ -36,7 +36,7 @@ def plan(s,policy,q,random=False):
   if effective.startswith('P'):
    if not structured:return None,'NOT_APPLICABLE_TEXT_COHORT'
    if not authored_stop()or not s['targets']:return None,'MISSING_AUTHOR_LEVELS'
-   p['hold_hours']=100000;p['move_be']=effective=='P2'
+   p['hold_hours']=100000;p['move_be']=effective=='P2';p['be_offset']=0.;p['all_author_targets']=s['targets']
    if effective=='P1':targets(s['targets'][-1:],[1.]);
    elif effective=='P2':targets(s['targets'][:2],[.5,.5]if len(s['targets'])>=2 else[1.])
    else:targets(s['targets'][:1],[1.])

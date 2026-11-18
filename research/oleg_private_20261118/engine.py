@@ -33,7 +33,7 @@ def simulate(q,p,end_bound,force=None,mirror_width=None):
  elif p.get('tp_kind')=='R':dist=[width*z for z in [1,2,3]]
  else:dist=p.get('tp_dist',[.021,.042,.063])
  targets=list(p['absolute_targets'])if p.get('absolute_targets')is not None else[entry*(1+side*d) for d in dist];weights=p.get('weights',[.5,.3,.2]) if dist else []
- if len(targets)!=len(weights) or any(x<=0 or side*(x-entry)<=0 for x in targets):out['status']='REJECTED_INVALID_TARGETS';return out
+ if len(targets)!=len(weights) or any(x<=0 or side*(x-entry)<=0 for x in targets)or any(side*(x-entry)<=0 for x in p.get('all_author_targets',[])):out['status']='REJECTED_INVALID_TARGETS';return out
  denom=width;entry_maker=p.get('entry_type','LIMIT')=='LIMIT'
  cost=(MAKER if entry_maker else TAKER+SLIP);gross=0.;left=1.;hit=0;be_from=None;trail_from=None;best=entry
  cutoff=min(et+int(p.get('hold_hours',72)*H),p.get('absolute_deadline',2**63-1));out.update(status='OPEN_RIGHT_CENSORED',entry_ms=et,entry=float(entry),initial_stop=float(stop),risk_fraction=float(width),risk_denominator=float(denom))
@@ -55,7 +55,7 @@ def simulate(q,p,end_bound,force=None,mirror_width=None):
    ae=author_events[author_i];author_i+=1;kind=ae['kind']
    if kind=='CLOSE_ALL':leave('AUTHOR_CLOSE',t,o,left)
    elif kind=='CLOSE_PART':leave('AUTHOR_PARTIAL',t,o,left*ae['fraction'])
-   elif kind=='MOVE_BE':stop=entry*(1+side*.0011);be_from=t
+   elif kind=='MOVE_BE':stop=entry*(1+side*p.get('be_offset',.0011));be_from=t
    elif kind=='MOVE_STOP'and side*(o-ae['price'])>0:stop=ae['price']
    elif kind in['UNRESOLVED_FRACTION','UNRESOLVED_DCA','REMOVE_STOP']:unresolved=True
    if left<1e-9:break
@@ -71,7 +71,7 @@ def simulate(q,p,end_bound,force=None,mirror_width=None):
     next_stop=best*(1-side*p.get('trail_fraction',.04));stop=max(stop,next_stop) if side==1 else min(stop,next_stop);trail_from=t+M
   elif hit and p.get('trail_atr'):
    best=max(best,hi) if side==1 else min(best,lo);next_stop=best-side*p['trail_atr']*p['atr'];stop=max(stop,next_stop) if side==1 else min(stop,next_stop);trail_from=t+M
-  elif hit and p.get('move_be',True):stop=entry*(1+side*.0011);be_from=t+M
+  elif hit and p.get('move_be',True):stop=entry*(1+side*p.get('be_offset',.0011));be_from=t+M
  if left<1e-9:
   out.update(status='CLOSED',exit_ms=out['events'][-1]['time_ms'],gross_R=float(gross/denom),execution_cost_R=float(cost/denom),price_R=float((gross-cost)/denom),hold_hours=(out['events'][-1]['time_ms']-et)/H)
  if p.get('author_events')and out.get('status')=='CLOSED'and unresolved:out['counterfactual_price_R']=out['price_R'];out['status']='UNRESOLVED_AUTHOR_ACTION'

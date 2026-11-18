@@ -1,4 +1,4 @@
-import json,gzip,collections,subprocess,datetime as dt
+import json,gzip,collections,subprocess,datetime as dt,os
 from pathlib import Path
 import numpy as np
 from market import save,M,H,DAY
@@ -7,7 +7,7 @@ B=Path('research/oleg_private_20261118');I=B/'inputs'
 def load(p):return json.loads(gzip.decompress(p.read_bytes()))if p.suffix=='.gz'else json.load(p.open())
 def read(name):
  rows=[]
- for p in Path('results').glob('*_shard*/'+name):rows+=load(p)
+ for p in Path(os.environ.get('RESULTS_ROOT','results')).glob('*_shard*/'+name):rows+=load(p)
  return rows
 
 def metrics(rows,bound=None):
@@ -32,7 +32,7 @@ def bh(ps):
  return q
 
 def main():
- a=read('ACTUAL.json.gz');c=read('CONTROL.json.gz');assert len(a)==len(c)==len(load(I/'PLANS.json.gz'))*7,'INCOMPLETE_CASE_MATRIX';assert len({(r['post_key'],r['policy'])for r in a})==len(a),'DUPLICATE_CASE';claims=read('CLAIMS.json.gz');cm={(r['post_key'],r['policy']):r for r in c};st={r['channel']:r for r in load(I/'DATA_INVENTORY.json')};out=B/'final';out.mkdir(parents=True,exist_ok=True);table=[];selection={}
+ a=read('ACTUAL.json.gz');c=read('CONTROL.json.gz');assert len(a)==len(c)==len(load(I/'PLANS.json.gz'))*7,'INCOMPLETE_CASE_MATRIX';assert len({(r['post_key'],r['policy'])for r in a})==len(a),'DUPLICATE_CASE';claims=read('CLAIMS.json.gz');cm={(r['post_key'],r['policy']):r for r in c};st={r['channel']:r for r in load(I/'DATA_INVENTORY.json')};out=B/os.environ.get('OUTPUT_STAGE','final');out.mkdir(parents=True,exist_ok=True);table=[];selection={}
  for ch,s in st.items():
   codes=O if ch=='OLEG'else C;rr=[r for r in a if r['channel']==ch];h1={p:metrics([r for r in rr if r['policy']==p and r['available_ms']<s['midpoint']],s['midpoint'])for p in codes};eligible=[p for p,m in h1.items()if m['n']>=60 and m['coverage']>=.95];selection[ch]=dict(winner=max(eligible,key=lambda p:h1[p]['netR'])if eligible else None,raw_max=max(codes,key=lambda p:h1[p]['netR']),H1=h1)
  save(out/'SELECTION_FROZEN.json',dict(selection=selection,selection_only_H1=True,code_sha=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()))

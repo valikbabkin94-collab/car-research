@@ -22,3 +22,8 @@ def test_o3_is_midpoint12h():
 def test_funding_string_values_are_normalized_before_cash_math():
  from run import normalize_funding_rows
  x=normalize_funding_rows([dict(ts='2',rate='-0.0001'),dict(ts='1',rate='0.0002')]);assert x[0]['ts']==1 and x[0]['rate']==.0002 and x[1]['rate']==-.0001
+def test_structured_be_is_source_entry_without_fee_offset():
+ s=dict(channel='C',kind='STRUCTURED',available_ms=0,pub=0,side='LONG',symbol='XUSDT',stop=90,stop_percent=None,targets=[110,120],events=[],entry_zone=None);r,e=plan(s,'P2',quotes());assert r['be_offset']==0
+ defignore=0
+def test_original_all_author_target_gate_rejects_stale_first_even_if_final_ahead():
+ q=quotes();r=simulate(q,p(absolute_targets=[120],all_author_targets=[99,120]),10*M);assert r['status']=='REJECTED_INVALID_TARGETS'
