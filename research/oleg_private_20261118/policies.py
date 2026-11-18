@@ -6,6 +6,7 @@ def entry_start(s):return ((s['available_ms']+M-1)//M+1)*M
 def plan(s,policy,q,random=False):
  obs=s['available_ms']+M-1;t=entry_start(s);i=np.searchsorted(q[:,0],t)if len(q)else 0
  if i>=len(q)or q[i,0]!=t:return None,'NO_ENTRY_CANDLE'
+ if policy=='AUTHOR'and'AUTHOR_DCA_SIZING_UNSPECIFIED'in s.get('flags',[]):return None,'UNRESOLVED_AUTHOR_DCA_SIZING'
  side=1 if s['side']=='LONG'else-1;market=float(q[i,1]);p=dict(symbol=s['symbol'],signal_ms=s['pub'],observed_ms=obs,side=side,entry_type='MARKET',hold_hours=72,stop_fraction=.056,move_be=True,tp_dist=[.021,.042,.063],weights=[.5,.3,.2])
  def authored_stop():
   if s['stop'] is not None:p['absolute_stop']=s['stop'];return True

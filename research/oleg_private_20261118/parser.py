@@ -21,7 +21,7 @@ def prices(s):
  return [float(v.replace(',','.'))for v in re.findall(NUM,s)if float(v.replace(',','.'))>0]
 
 HEADERS={'entry':r'entry(?:\s+(?:zone|range|targets?))?|entries|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вход|твх|price\s+between', 'stop':r'stop\s*(?:loss|targets?)?|\bsl\b|стоп(?:\s*лосс)?', 'tp':r'take[ -]?profit(?:\s+targets?)?|sell\s+targets?|targets?|\btp\s*\d*\b|тейк\w*|цел[ьи]\w*'}
-STOP_SECTION=re.compile(r'(?i)risk|риск|leverage|плеч|published|join|subscribe|by:|итог|профит|profit:|loss\s*\(|loss\s*%')
+STOP_SECTION=re.compile(r'(?i)усредн|добор|\bdca\b|risk|риск|leverage|плеч|published|join|subscribe|by:|итог|профит|profit:|loss\s*\(|loss\s*%')
 def levels(t,kind):
  out=[];active=False
  for raw in t.splitlines():
@@ -33,6 +33,7 @@ def levels(t,kind):
   if kind=='entry'and m and out:break
   other=any(re.search('(?i)'+p,line)for k,p in HEADERS.items()if k!=kind)
   if m:
+   if kind=='entry'and re.search(r'(?i)по\s+рынку|market',line):return[]
    active=True;s=line[m.end():].lstrip(' :=–—-')
    if not re.search(NUM,s)and m.start():s=line[:m.start()]
    if kind=='tp'and '%'in s:continue
@@ -102,6 +103,7 @@ def parse_one(channel,r,known=()):
  if re.search(r'(?i)добрал|добор|усреднил|докупил|добавил.{0,15}позици',t):actions.append(dict(kind='UNRESOLVED_DCA'))
  if re.search(r'(?i)(?:снят|убрал|убрать).{0,10}стоп|remove.{0,10}stop',t):actions.append(dict(kind='REMOVE_STOP'))
  flags=[]
+ if re.search(r'(?i)усреднение|\bDCA\b|добор\s*:',t):flags.append('AUTHOR_DCA_SIZING_UNSPECIFIED')
  if len(coins)!=1:flags.append('MULTI_OR_UNRESOLVED_SYMBOL')
  if len(sidewords)>1:flags.append('MULTIPLE_DIRECTIONS')
  if isinstance(r.get('edited'),bool)and r.get('edited')and not ed:flags.append('EDIT_TIME_UNKNOWN')
