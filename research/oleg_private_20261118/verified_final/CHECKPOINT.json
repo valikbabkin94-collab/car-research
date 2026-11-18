@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_WITH_RECORDED_LIMITATIONS",
+  "posts": 39291,
+  "sources": 20,
+  "actual_rows": 14728,
+  "control_rows": 14728,
+  "claims_checked": 1256,
+  "paper_candidates": 0,
+  "oleg_answer": "NO_PROFITABILITY_PROVEN",
+  "code_sha": "499f8ad25be91e0d6522b362ba385970ae752171",
+  "live_changes": 0
+}

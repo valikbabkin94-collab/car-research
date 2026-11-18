@@ -1,0 +1,155 @@
+{
+  "OLEG": {
+    "claims_in_source": 570,
+    "linked_market_claims": 317,
+    "statuses": {
+      "NO_MARKET_OR_ENTRY_DATA": 59,
+      "WITHIN_UNDERLYING_ENVELOPE": 244,
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 14
+    },
+    "unlinked_in_source": 253
+  },
+  "Verified_CryptoTraders0": {
+    "claims_in_source": 34,
+    "linked_market_claims": 7,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 4,
+      "NO_MARKET_OR_ENTRY_DATA": 3
+    },
+    "unlinked_in_source": 27
+  },
+  "traid_invest": {
+    "claims_in_source": 146,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 146
+  },
+  "slivaeminfo_org": {
+    "claims_in_source": 1,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 1
+  },
+  "Signal_Feed_altFINS": {
+    "claims_in_source": 26,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 26
+  },
+  "pentagon": {
+    "claims_in_source": 16,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 16
+  },
+  "Official_GCR": {
+    "claims_in_source": 701,
+    "linked_market_claims": 330,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 330
+    },
+    "unlinked_in_source": 371
+  },
+  "kript_pushka": {
+    "claims_in_source": 69,
+    "linked_market_claims": 2,
+    "statuses": {
+      "WITHIN_UNDERLYING_ENVELOPE": 2
+    },
+    "unlinked_in_source": 67
+  },
+  "klondike": {
+    "claims_in_source": 297,
+    "linked_market_claims": 284,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 282,
+      "NO_MARKET_OR_ENTRY_DATA": 2
+    },
+    "unlinked_in_source": 13
+  },
+  "jewtrade": {
+    "claims_in_source": 64,
+    "linked_market_claims": 37,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 5,
+      "WITHIN_UNDERLYING_ENVELOPE": 31,
+      "NO_MARKET_OR_ENTRY_DATA": 1
+    },
+    "unlinked_in_source": 27
+  },
+  "DarwinLabSignals": {
+    "claims_in_source": 164,
+    "linked_market_claims": 57,
+    "statuses": {
+      "WITHIN_UNDERLYING_ENVELOPE": 49,
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 8
+    },
+    "unlinked_in_source": 107
+  },
+  "daniel_crypto": {
+    "claims_in_source": 17,
+    "linked_market_claims": 13,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 13
+    },
+    "unlinked_in_source": 4
+  },
+  "crypto_student": {
+    "claims_in_source": 167,
+    "linked_market_claims": 2,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 2
+    },
+    "unlinked_in_source": 165
+  },
+  "crypto_futures_scalp": {
+    "claims_in_source": 469,
+    "linked_market_claims": 187,
+    "statuses": {
+      "NO_MARKET_OR_ENTRY_DATA": 41,
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 144,
+      "WITHIN_UNDERLYING_ENVELOPE": 2
+    },
+    "unlinked_in_source": 282
+  },
+  "crypto_freemium": {
+    "claims_in_source": 129,
+    "linked_market_claims": 20,
+    "statuses": {
+      "EXCEEDS_UNLEVERED_ENVELOPE_ROI_BASIS_UNKNOWN": 11,
+      "NO_MARKET_OR_ENTRY_DATA": 1,
+      "WITHIN_UNDERLYING_ENVELOPE": 8
+    },
+    "unlinked_in_source": 109
+  },
+  "cryptoinsidebets": {
+    "claims_in_source": 5920,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 5920
+  },
+  "bitcoinbullets": {
+    "claims_in_source": 14,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 14
+  },
+  "binance_killers": {
+    "claims_in_source": 24,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 24
+  },
+  "altsignals": {
+    "claims_in_source": 128,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 128
+  },
+  "2trade": {
+    "claims_in_source": 25,
+    "linked_market_claims": 0,
+    "statuses": {},
+    "unlinked_in_source": 25
+  }
+}
