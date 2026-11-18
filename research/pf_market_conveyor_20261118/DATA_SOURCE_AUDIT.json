@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_FORENSICS_NO_NEW_PNL",
+  "native_2113": "Saved Bybit5m executions; original universe/model metadata not recovered from these rows",
+  "additional_sources_found": {
+    "rank_proxy": {
+      "repo": "valikbabkin94-collab/car-research",
+      "branch": "research/round4-cont",
+      "path": "inputs/pit/PIT_RANKS.npz",
+      "sha256": "7369884264c348ea5e772c6f63a884308a88750cd48307a38d4b1f01359eb438",
+      "schema": "decision_ms26617; symbols924; rank[decision,symbol]",
+      "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING",
+      "mapping_to2113": {
+        "TOP100": 766,
+        "OUTSIDE_TOP100": 1101,
+        "NO_RANK": 246
+      },
+      "not_used_for_pnl_reason": "Binance proxy rank is not native historical Bybit factory universe. Would be a different, explicit proxy-universe experiment, not faithful PF_TOP100 replay."
+    },
+    "funding_proxy": {
+      "branch": "research/round4-cont",
+      "path_pattern": "inputs/funding/symbols/*.json.gz",
+      "classification": "PUBLIC_BINANCE_ARCHIVE_METADATA_RANKS_OR_FUNDING",
+      "SOL_sample_coverage": [
+        1698796800000,
+        1793491200000
+      ],
+      "SOL_Nov2026": "uncertified REST451 window",
+      "not_used_as_Bybit_cash": "Funding on another venue must not silently replace actual Bybit archived payments; baseline source proved only original trade intervals."
+    }
+  },
+  "clarification": "DATA_NEEDED.json refers to native source-specific data, not a claim that no ranks or funding exist anywhere on GitHub. Additional proxy sources explicitly inventoried; no profit claim from their omission."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "DELIVERED_WITH_EXPLICIT_BLOCKERS_AND_SCOPE_LIMITS",
+  "A": {
+    "code_ready": true,
+    "package_ready": true,
+    "installed": false,
+    "tests_local": 55,
+    "private_actions_run": 44287364073,
+    "CI": "BILLING_BLOCKED_BEFORE_START",
+    "branch": "feat/shadow-factory-pf-market-20261118",
+    "code_sha": "6dfaa98256b30b2398905abd12bfdbaea4f85b4a",
+    "package_sha256": "4a8941ca0c7f8e731a41dcefc261bd13ea30473998ebc5e3cc6260bab6d96314",
+    "pending": "Exact deployed-Acer source parity, private CI; 5m report is not exact1m factory replica"
+  },
+  "B": {
+    "runs": [
+      44288013479,
+      44288662580
+    ],
+    "status": "SUCCESS",
+    "conveyor_better": false,
+    "comparable_variants": 5,
+    "raw_signals": 2113,
+    "conditional_selected": 1041,
+    "market_replays_completed_do_not_repeat": true,
+    "limits": "missing native TOP100/WIDE/R10/other source streams; unknown funding; selected model training causality unconfirmed"
+  },
+  "C": {
+    "saved_result_reused": true,
+    "audit_run": 44287504106,
+    "audit_status": "SUCCESS",
+    "monthly_H2_mean": -0.6784,
+    "median": -0.7791,
+    "worst": -1.2449,
+    "winner_H1": "FC4",
+    "limitations": "Binance proxy, data gaps; old research no randomtime/BH; integrity audit not independent PnL replication"
+  },
+  "next": "Independent Claude code/data review only; do not rerun completed simulations or fit H2 parameters.",
+  "orders": 0,
+  "live_changes": 0
+}
