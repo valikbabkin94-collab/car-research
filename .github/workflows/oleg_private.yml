@@ -1,0 +1,72 @@
+name: OLEG full history and19 private channels independent offline jobs
+on:
+  push:
+    branches: [research/oleg-and-private-20261118]
+    paths: [.github/workflows/oleg_private.yml]
+permissions: {contents: write, actions: read}
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [oleg, private19]
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6 pytest==8.4.2
+      - run: PYTHONPATH=research/oleg_private_20261118 python -m pytest -q research/oleg_private_20261118/test_parser.py research/oleg_private_20261118/test_engine.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: manager-all-verified-market-cache
+          run-id: '44092086995'
+          path: work/market/m1
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: s1-s3-history-inputs-results-checkpoint
+          run-id: '43874717889'
+          path: source
+          github-token: ${{ github.token }}
+      - name: Fixed policies on numeric plans only
+        env: {GROUP: '${{ matrix.group }}', SHARD: '${{ matrix.shard }}'}
+        run: PYTHONPATH=research/oleg_private_20261118 python -u research/oleg_private_20261118/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ matrix.group }}_shard${{ matrix.shard }}
+          path: research/oleg_private_20261118/${{ matrix.group }}_shard${{ matrix.shard }}
+          retention-days: 90
+      - name: Persist research results and checkpoints only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/oleg_private_20261118/${{ matrix.group }}_shard${{ matrix.shard }}
+        run: python research/oleg_private_20261118/publish.py
+  final:
+    needs: replay
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy==2.2.6
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: '*_shard*'
+          path: results
+      - run: PYTHONPATH=research/oleg_private_20261118 python research/oleg_private_20261118/finalize.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: oleg-private-final
+          path: research/oleg_private_20261118/final
+          retention-days: 90
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          LAB_OUTPUT: research/oleg_private_20261118/final
+        run: python research/oleg_private_20261118/publish.py

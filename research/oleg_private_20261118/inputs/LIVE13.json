@@ -1,0 +1,292 @@
+[
+  {
+    "source": "OLEG",
+    "coin": "PENGU",
+    "side": "short",
+    "open": "2026-10-23 14:54:42.227037",
+    "close": "2026-10-23 21:25:03.493000",
+    "entry": 0.008073,
+    "initial_stop": 0.009673,
+    "stop_pct": 0.19819,
+    "exit_reason": "reversal_candles",
+    "exits": [
+      {
+        "t": "2026-10-23 21:21:38.718000",
+        "price": 0.007825,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-23 21:25:03.493000",
+        "price": 0.007856,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.272
+  },
+  {
+    "source": "OLEG",
+    "coin": "AERO",
+    "side": "long",
+    "open": "2026-10-24 14:56:03.834543",
+    "close": "2026-10-26 15:16:01.886000",
+    "entry": 0.7025,
+    "initial_stop": 0.5635,
+    "stop_pct": 0.19786,
+    "exit_reason": "author_close",
+    "exits": [
+      {
+        "t": "2026-10-26 15:16:01.886000",
+        "price": 0.68819865,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.109
+  },
+  {
+    "source": "OLEG",
+    "coin": "QNT",
+    "side": "short",
+    "open": "2026-10-26 12:33:38.324771",
+    "close": "2026-10-26 18:01:06.255000",
+    "entry": 222.5,
+    "initial_stop": 259.21,
+    "stop_pct": 0.16499,
+    "exit_reason": "reversal_candles",
+    "exits": [
+      {
+        "t": "2026-10-26 17:40:27.176000",
+        "price": 206.51,
+        "frac": 0.8889,
+        "type": "limit"
+      },
+      {
+        "t": "2026-10-26 18:01:06.255000",
+        "price": 204.91,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": 0.859
+  },
+  {
+    "source": "OLEG",
+    "coin": "TRIA",
+    "side": "short",
+    "open": "2026-10-27 12:49:56.729508",
+    "close": "2026-10-28 09:46:57.162000",
+    "entry": 0.00295,
+    "initial_stop": 0.003923,
+    "stop_pct": 0.32983,
+    "exit_reason": "author_close",
+    "exits": [
+      {
+        "t": "2026-10-28 09:46:57.162000",
+        "price": 0.003077,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.135
+  },
+  {
+    "source": "OLEG",
+    "coin": "ICNT",
+    "side": "short",
+    "open": "2026-11-05 16:48:30.917717",
+    "close": "2026-11-06 07:06:17.730000",
+    "entry": 0.2201,
+    "initial_stop": 0.2927,
+    "stop_pct": 0.32985,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-06 07:06:17.730000",
+        "price": 0.2537,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.465
+  },
+  {
+    "source": "OLEG",
+    "coin": "BEAM",
+    "side": "short",
+    "open": "2026-11-07 12:49:05.951301",
+    "close": "2026-11-12 03:27:17.392000",
+    "entry": 0.0039844,
+    "initial_stop": 0.0052992,
+    "stop_pct": 0.32999,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-12 03:27:17.392000",
+        "price": 0.0045513,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.436
+  },
+  {
+    "source": "OLEG",
+    "coin": "EDGE",
+    "side": "short",
+    "open": "2026-11-10 18:40:59.769718",
+    "close": "2026-11-11 07:05:10.168000",
+    "entry": 0.3906,
+    "initial_stop": 0.5194,
+    "stop_pct": 0.32975,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-11 04:33:17.788000",
+        "price": 0.3737,
+        "frac": 0.9091,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-11 07:05:10.168000",
+        "price": 0.3559,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 0.386
+  },
+  {
+    "source": "OLEG",
+    "coin": "GRAM",
+    "side": "short",
+    "open": "2026-11-11 11:18:29.724725",
+    "close": "2026-11-12 18:26:14.089000",
+    "entry": 1.189,
+    "initial_stop": 1.581,
+    "stop_pct": 0.32969,
+    "exit_reason": "stop_on_exchange_panel",
+    "exits": [
+      {
+        "t": "2026-11-12 18:26:14.089000",
+        "price": 1.188,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.002
+  },
+  {
+    "source": "OLEG",
+    "coin": "USELESS",
+    "side": "short",
+    "open": "2026-11-12 12:33:42.378122",
+    "close": "2026-11-13 01:07:52.970000",
+    "entry": 0.12332,
+    "initial_stop": 0.14766,
+    "stop_pct": 0.19737,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-13 01:07:52.970000",
+        "price": 0.13475,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.481
+  },
+  {
+    "source": "OLEG",
+    "coin": "JCT",
+    "side": "long",
+    "open": "2026-11-13 14:51:10.106196",
+    "close": "2026-11-13 17:29:59.458000",
+    "entry": 0.002047,
+    "initial_stop": 0.001035,
+    "stop_pct": 0.49438,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-13 16:51:19.018000",
+        "price": 0.002174,
+        "frac": 1.0,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-13 17:29:59.458000",
+        "price": 0.002443,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 0.507
+  },
+  {
+    "source": "OLEG",
+    "coin": "KITE",
+    "side": "short",
+    "open": "2026-11-14 13:07:57.561143",
+    "close": "2026-11-15 20:25:01.824000",
+    "entry": 0.12861,
+    "initial_stop": 0.16044,
+    "stop_pct": 0.24749,
+    "exit_reason": "stoploss_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-15 20:25:01.824000",
+        "price": 0.14305,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.46
+  },
+  {
+    "source": "OLEG",
+    "coin": "AERO",
+    "side": "long",
+    "open": "2026-11-15 10:26:09.132031",
+    "close": "2026-11-16 01:02:10.544000",
+    "entry": 0.4442,
+    "initial_stop": 0.3814,
+    "stop_pct": 0.14138,
+    "exit_reason": "sold_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-16 01:02:10.544000",
+        "price": 0.4149,
+        "frac": 1.0,
+        "type": "market"
+      }
+    ],
+    "net_R": -0.475
+  },
+  {
+    "source": "OLEG",
+    "coin": "BEAM",
+    "side": "short",
+    "open": "2026-11-16 12:09:22.540780",
+    "close": "2026-11-17 10:31:28.000000",
+    "entry": 0.0041519,
+    "initial_stop": 0.0049719,
+    "stop_pct": 0.1975,
+    "exit_reason": "tp_on_exchange",
+    "exits": [
+      {
+        "t": "2026-11-16 14:59:55.454000",
+        "price": 0.004003,
+        "frac": 0.9583,
+        "type": "limit"
+      },
+      {
+        "t": "2026-11-17 10:31:28.000000",
+        "price": 0.0037927,
+        "frac": 1.0,
+        "type": "limit"
+      }
+    ],
+    "net_R": 0.595
+  }
+]

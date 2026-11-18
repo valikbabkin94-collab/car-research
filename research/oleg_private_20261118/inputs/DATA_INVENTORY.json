@@ -1,0 +1,557 @@
+[
+  {
+    "channel": "OLEG",
+    "posts": 3212,
+    "labels": {
+      "OTHER": 1049,
+      "SIGNAL": 864,
+      "REPORT": 673,
+      "UPDATE": 626
+    },
+    "parse_statuses": {
+      "AMBIGUOUS_SIGNAL": 99,
+      "CANDIDATE": 765
+    },
+    "structured": 742,
+    "text": 23,
+    "signals": 765,
+    "linked_update_posts": 666,
+    "signals_with_events": 394,
+    "claims": 570,
+    "unlinked_claims": 253,
+    "media_posts": 2126,
+    "edited_delayed_posts": 3090,
+    "source_start": 1707660144000,
+    "source_end": 1794936597000,
+    "midpoint": 1751298400500,
+    "last40": 1760026051800,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": true
+  },
+  {
+    "channel": "Verified_CryptoTraders0",
+    "posts": 134,
+    "labels": {
+      "OTHER": 63,
+      "SIGNAL": 39,
+      "REPORT": 32
+    },
+    "parse_statuses": {
+      "CANDIDATE": 39
+    },
+    "structured": 32,
+    "text": 7,
+    "signals": 39,
+    "linked_update_posts": 7,
+    "signals_with_events": 0,
+    "claims": 34,
+    "unlinked_claims": 27,
+    "media_posts": 0,
+    "edited_delayed_posts": 0,
+    "source_start": 1785131984000,
+    "source_end": 1793080634000,
+    "midpoint": 1789106339000,
+    "last40": 1789901210000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "traid_invest",
+    "posts": 989,
+    "labels": {
+      "OTHER": 744,
+      "REPORT": 205,
+      "SIGNAL": 15,
+      "UPDATE": 25
+    },
+    "parse_statuses": {
+      "CANDIDATE": 6,
+      "AMBIGUOUS_SIGNAL": 9
+    },
+    "structured": 5,
+    "text": 1,
+    "signals": 6,
+    "linked_update_posts": 1,
+    "signals_with_events": 1,
+    "claims": 146,
+    "unlinked_claims": 146,
+    "media_posts": 637,
+    "edited_delayed_posts": 0,
+    "source_start": 1785205346000,
+    "source_end": 1793176037000,
+    "midpoint": 1789190721500,
+    "last40": 1789987796600,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "slivaeminfo_org",
+    "posts": 115,
+    "labels": {
+      "UPDATE": 1,
+      "OTHER": 113,
+      "REPORT": 1
+    },
+    "parse_statuses": {},
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 1,
+    "unlinked_claims": 1,
+    "media_posts": 6,
+    "edited_delayed_posts": 0,
+    "source_start": 1785237960000,
+    "source_end": 1793093238000,
+    "midpoint": 1789165629000,
+    "last40": 1789951162800,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "Signal_Feed_altFINS",
+    "posts": 1970,
+    "labels": {
+      "OTHER": 1848,
+      "UPDATE": 52,
+      "SIGNAL": 39,
+      "REPORT": 31
+    },
+    "parse_statuses": {
+      "AMBIGUOUS_SIGNAL": 35,
+      "CANDIDATE": 4
+    },
+    "structured": 0,
+    "text": 4,
+    "signals": 4,
+    "linked_update_posts": 1,
+    "signals_with_events": 1,
+    "claims": 26,
+    "unlinked_claims": 26,
+    "media_posts": 1970,
+    "edited_delayed_posts": 0,
+    "source_start": 1785113602000,
+    "source_end": 1793126822000,
+    "midpoint": 1789120242000,
+    "last40": 1789921570000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "pentagon",
+    "posts": 1203,
+    "labels": {
+      "OTHER": 1089,
+      "SIGNAL": 6,
+      "UPDATE": 64,
+      "REPORT": 44
+    },
+    "parse_statuses": {
+      "AMBIGUOUS_SIGNAL": 6
+    },
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 16,
+    "unlinked_claims": 16,
+    "media_posts": 153,
+    "edited_delayed_posts": 0,
+    "source_start": 1785246027000,
+    "source_end": 1793177279000,
+    "midpoint": 1789211683000,
+    "last40": 1790004814200,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "Official_GCR",
+    "posts": 1332,
+    "labels": {
+      "OTHER": 364,
+      "SIGNAL": 273,
+      "REPORT": 687,
+      "UPDATE": 8
+    },
+    "parse_statuses": {
+      "CANDIDATE": 272,
+      "AMBIGUOUS_SIGNAL": 1
+    },
+    "structured": 266,
+    "text": 6,
+    "signals": 272,
+    "linked_update_posts": 329,
+    "signals_with_events": 1,
+    "claims": 701,
+    "unlinked_claims": 371,
+    "media_posts": 0,
+    "edited_delayed_posts": 0,
+    "source_start": 1785117596000,
+    "source_end": 1793129893000,
+    "midpoint": 1789123774500,
+    "last40": 1789925010200,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "kript_pushka",
+    "posts": 270,
+    "labels": {
+      "UPDATE": 45,
+      "SIGNAL": 43,
+      "OTHER": 121,
+      "REPORT": 61
+    },
+    "parse_statuses": {
+      "CANDIDATE": 43
+    },
+    "structured": 36,
+    "text": 7,
+    "signals": 43,
+    "linked_update_posts": 32,
+    "signals_with_events": 26,
+    "claims": 69,
+    "unlinked_claims": 67,
+    "media_posts": 203,
+    "edited_delayed_posts": 0,
+    "source_start": 1785227836000,
+    "source_end": 1793101247000,
+    "midpoint": 1789164571500,
+    "last40": 1789951918600,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "klondike",
+    "posts": 603,
+    "labels": {
+      "REPORT": 323,
+      "OTHER": 116,
+      "SIGNAL": 113,
+      "UPDATE": 51
+    },
+    "parse_statuses": {
+      "CANDIDATE": 113
+    },
+    "structured": 113,
+    "text": 0,
+    "signals": 113,
+    "linked_update_posts": 297,
+    "signals_with_events": 13,
+    "claims": 297,
+    "unlinked_claims": 13,
+    "media_posts": 39,
+    "edited_delayed_posts": 0,
+    "source_start": 1785200718000,
+    "source_end": 1793181866000,
+    "midpoint": 1789191322000,
+    "last40": 1789989442800,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "jewtrade",
+    "posts": 358,
+    "labels": {
+      "REPORT": 64,
+      "SIGNAL": 64,
+      "OTHER": 205,
+      "UPDATE": 25
+    },
+    "parse_statuses": {
+      "CANDIDATE": 63,
+      "AMBIGUOUS_SIGNAL": 1
+    },
+    "structured": 0,
+    "text": 63,
+    "signals": 63,
+    "linked_update_posts": 48,
+    "signals_with_events": 11,
+    "claims": 64,
+    "unlinked_claims": 27,
+    "media_posts": 272,
+    "edited_delayed_posts": 0,
+    "source_start": 1785237065000,
+    "source_end": 1793179480000,
+    "midpoint": 1789208302500,
+    "last40": 1790002550000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "DarwinLabSignals",
+    "posts": 272,
+    "labels": {
+      "OTHER": 45,
+      "SIGNAL": 109,
+      "REPORT": 117,
+      "UPDATE": 1
+    },
+    "parse_statuses": {
+      "CANDIDATE": 77,
+      "AMBIGUOUS_SIGNAL": 32
+    },
+    "structured": 0,
+    "text": 77,
+    "signals": 77,
+    "linked_update_posts": 44,
+    "signals_with_events": 39,
+    "claims": 164,
+    "unlinked_claims": 107,
+    "media_posts": 272,
+    "edited_delayed_posts": 0,
+    "source_start": 1792523703000,
+    "source_end": 1793125629000,
+    "midpoint": 1792824696000,
+    "last40": 1792884894600,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "daniel_crypto",
+    "posts": 117,
+    "labels": {
+      "SIGNAL": 68,
+      "UPDATE": 5,
+      "REPORT": 17,
+      "OTHER": 27
+    },
+    "parse_statuses": {
+      "CANDIDATE": 68
+    },
+    "structured": 68,
+    "text": 0,
+    "signals": 68,
+    "linked_update_posts": 15,
+    "signals_with_events": 9,
+    "claims": 17,
+    "unlinked_claims": 4,
+    "media_posts": 104,
+    "edited_delayed_posts": 0,
+    "source_start": 1785321511000,
+    "source_end": 1793124816000,
+    "midpoint": 1789223193500,
+    "last40": 1790003530000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "crypto_student",
+    "posts": 6625,
+    "labels": {
+      "OTHER": 6285,
+      "REPORT": 210,
+      "UPDATE": 118,
+      "SIGNAL": 12
+    },
+    "parse_statuses": {
+      "CANDIDATE": 4,
+      "AMBIGUOUS_SIGNAL": 8
+    },
+    "structured": 0,
+    "text": 4,
+    "signals": 4,
+    "linked_update_posts": 4,
+    "signals_with_events": 2,
+    "claims": 167,
+    "unlinked_claims": 165,
+    "media_posts": 1083,
+    "edited_delayed_posts": 0,
+    "source_start": 1785209876000,
+    "source_end": 1793182441000,
+    "midpoint": 1789196188500,
+    "last40": 1789993451000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "crypto_futures_scalp",
+    "posts": 1037,
+    "labels": {
+      "SIGNAL": 485,
+      "REPORT": 469,
+      "OTHER": 83
+    },
+    "parse_statuses": {
+      "CANDIDATE": 484,
+      "DUPLICATE_CANONICAL_SIGNAL": 1
+    },
+    "structured": 484,
+    "text": 0,
+    "signals": 484,
+    "linked_update_posts": 187,
+    "signals_with_events": 0,
+    "claims": 469,
+    "unlinked_claims": 282,
+    "media_posts": 0,
+    "edited_delayed_posts": 0,
+    "source_start": 1785123161000,
+    "source_end": 1793110573000,
+    "midpoint": 1789116897000,
+    "last40": 1789915644200,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "crypto_freemium",
+    "posts": 581,
+    "labels": {
+      "OTHER": 386,
+      "SIGNAL": 91,
+      "REPORT": 66,
+      "UPDATE": 38
+    },
+    "parse_statuses": {
+      "CANDIDATE": 82,
+      "AMBIGUOUS_SIGNAL": 9
+    },
+    "structured": 70,
+    "text": 12,
+    "signals": 82,
+    "linked_update_posts": 20,
+    "signals_with_events": 0,
+    "claims": 129,
+    "unlinked_claims": 109,
+    "media_posts": 0,
+    "edited_delayed_posts": 0,
+    "source_start": 1785118048000,
+    "source_end": 1793131043000,
+    "midpoint": 1789124575500,
+    "last40": 1789925881000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "cryptoinsidebets",
+    "posts": 17872,
+    "labels": {
+      "OTHER": 6296,
+      "REPORT": 11575,
+      "UPDATE": 1
+    },
+    "parse_statuses": {},
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 5920,
+    "unlinked_claims": 5920,
+    "media_posts": 17872,
+    "edited_delayed_posts": 0,
+    "source_start": 1785110411000,
+    "source_end": 1793127575000,
+    "midpoint": 1789119023000,
+    "last40": 1789920745400,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "bitcoinbullets",
+    "posts": 191,
+    "labels": {
+      "OTHER": 179,
+      "REPORT": 11,
+      "UPDATE": 1
+    },
+    "parse_statuses": {},
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 14,
+    "unlinked_claims": 14,
+    "media_posts": 191,
+    "edited_delayed_posts": 0,
+    "source_start": 1785124563000,
+    "source_end": 1793128296000,
+    "midpoint": 1789126459500,
+    "last40": 1789926838800,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "binance_killers",
+    "posts": 647,
+    "labels": {
+      "UPDATE": 250,
+      "SIGNAL": 84,
+      "OTHER": 291,
+      "REPORT": 22
+    },
+    "parse_statuses": {
+      "CANDIDATE": 84
+    },
+    "structured": 65,
+    "text": 19,
+    "signals": 84,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 24,
+    "unlinked_claims": 24,
+    "media_posts": 447,
+    "edited_delayed_posts": 0,
+    "source_start": 1785208803000,
+    "source_end": 1793159734000,
+    "midpoint": 1789184298500,
+    "last40": 1789979397600,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "altsignals",
+    "posts": 364,
+    "labels": {
+      "REPORT": 148,
+      "OTHER": 214,
+      "UPDATE": 2
+    },
+    "parse_statuses": {},
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 128,
+    "unlinked_claims": 128,
+    "media_posts": 364,
+    "edited_delayed_posts": 0,
+    "source_start": 1785405076000,
+    "source_end": 1792941719000,
+    "midpoint": 1789173427500,
+    "last40": 1789927097800,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  },
+  {
+    "channel": "2trade",
+    "posts": 1399,
+    "labels": {
+      "UPDATE": 95,
+      "OTHER": 1267,
+      "REPORT": 34,
+      "SIGNAL": 3
+    },
+    "parse_statuses": {
+      "AMBIGUOUS_SIGNAL": 3
+    },
+    "structured": 0,
+    "text": 0,
+    "signals": 0,
+    "linked_update_posts": 0,
+    "signals_with_events": 0,
+    "claims": 25,
+    "unlinked_claims": 25,
+    "media_posts": 697,
+    "edited_delayed_posts": 0,
+    "source_start": 1785253320000,
+    "source_end": 1793112490000,
+    "midpoint": 1789182935000,
+    "last40": 1789968858000,
+    "snapshot_edit_history_available": false,
+    "author_identity_verified": false
+  }
+]

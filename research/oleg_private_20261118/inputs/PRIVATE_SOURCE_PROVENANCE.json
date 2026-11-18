@@ -1,0 +1,11 @@
+{
+  "oleg_blob": "e6c66348127c9c8c2bf3a36221b08ade621e405f",
+  "private19_blob": "4f9fac60aa57777e902482ef547a9d0b13b49ab6",
+  "oleg_sha256": "85da953c3d330f3c3fa2bfad8213243f2804632b034151e1c7f9586c1aa78f0e",
+  "zip_sha256": "84b6614c113eab250319a27c3cad6ec8064b7c12305ee8c5e27db1accb0aae6b",
+  "private_raw_copied_to_public": false,
+  "raw_posts": 39291,
+  "plans": 2104,
+  "claims": 8981,
+  "parser_frozen_commit": "8fe9b5e7c79be5e1ec9ad7d249260401e6de4074"
+}
