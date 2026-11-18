@@ -31,3 +31,10 @@ def test_side_filter_does_not_count_opposite_side_as_price_gap():
  s=dict(channel='OLEG',side='LONG',stop=90,stop_percent=None,targets=[110,120],entry_zone=[99,100]);p,e=plan(s,'O1',np.empty((0,5)));assert e=='DIRECTION_FILTER_LONG'
 def test_nonapplicable_cohort_does_not_become_price_gap():
  s=dict(channel='C',side='LONG',kind='TEXT');p,e=plan(s,'P2',np.empty((0,5)));assert e=='NOT_APPLICABLE_TEXT_COHORT'
+def test_author_partial_then_tp_cannot_sell_more_than_initial_position():
+ q=quotes();q[3,2]=111;r=simulate(q,p(author_events=[dict(kind='CLOSE_PART',fraction=.5,effective_ms=2*M,post_key='partial')]),10*M);assert abs(sum(e['fraction']for e in r['events'])-1)<1e-12;assert abs(r['gross_R']-.5)<1e-12
+ defignore=0
+def test_saved_terminal_overfill_repaired_without_new_price_path():
+ from fill_audit import repair
+ r=dict(channel='OLEG',post_key='x',policy='AUTHOR',status='CLOSED',side=1,entry=100.,risk_denominator=.1,funding_R=.01,funding_stress_R=0.,net_R=1.0,events=[dict(kind='AUTHOR_PARTIAL',price=100.,fraction=.5,time_ms=2*M),dict(kind='TP1',price=110.,fraction=1.,time_ms=3*M)])
+ new,log=repair(r,dict(channel='OLEG'));assert sum(e['fraction']for e in new['events'])==1 and new['events'][-1]['time_ms']==3*M;assert abs(new['gross_R']-.5)<1e-12 and new['funding_R']==.01

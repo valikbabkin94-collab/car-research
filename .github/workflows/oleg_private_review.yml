@@ -53,3 +53,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           LAB_OUTPUT: research/oleg_private_20261118/final_rows
         run: python research/oleg_private_20261118/publish.py
+
+# Final event-journal audit caps terminal fills at remaining quantity; no price replay.

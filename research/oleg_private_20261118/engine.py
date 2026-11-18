@@ -39,6 +39,8 @@ def simulate(q,p,end_bound,force=None,mirror_width=None):
  cutoff=min(et+int(p.get('hold_hours',72)*H),p.get('absolute_deadline',2**63-1));out.update(status='OPEN_RIGHT_CENSORED',entry_ms=et,entry=float(entry),initial_stop=float(stop),risk_fraction=float(width),risk_denominator=float(denom))
  def leave(kind,t,price,fraction,passive=False):
   nonlocal gross,cost,left
+  fraction=min(float(fraction),left)
+  if fraction<=1e-12:return
   gross+=side*(price/entry-1)*fraction;cost+=(MAKER if passive else TAKER+SLIP)*price/entry*fraction
   out['events'].append(dict(time_ms=int(t if kind=='TIME'or kind.startswith('AUTHOR') else t+M),bar_ms=int(t),kind=kind,price=float(price),fraction=float(fraction)));left=max(0,left-fraction)
  author_events=sorted(p.get('author_events',[]),key=lambda e:(e['effective_ms'],e.get('pub',0),e['post_key']));author_i=0;unresolved=False
@@ -63,7 +65,7 @@ def simulate(q,p,end_bound,force=None,mirror_width=None):
   if lo<=stop if side==1 else hi>=stop:
    price=min(o,stop) if side==1 else max(o,stop);kind='TRAIL'if trail_from is not None else'BE'if be_from is not None else'SL';leave(kind,t,price,left);break
   if t!=et:
-   while hit<len(targets) and (hi>=targets[hit] if side==1 else lo<=targets[hit]):leave('TP'+str(hit+1),t,targets[hit],weights[hit],True);hit+=1
+   while left>1e-9 and hit<len(targets) and (hi>=targets[hit] if side==1 else lo<=targets[hit]):leave('TP'+str(hit+1),t,targets[hit],weights[hit],True);hit+=1
   if left<1e-9:break
   if p.get('trail_after_profit') is not None:
    best=max(best,hi) if side==1 else min(best,lo)
