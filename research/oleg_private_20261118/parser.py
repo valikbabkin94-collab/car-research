@@ -82,7 +82,7 @@ def parse_one(channel,r,known=()):
  if claim and not claims:claims=[float(v.replace('−','-').replace(',','.'))for v in re.findall(r'([+−-]'+NUM+r')\s*%',t)]
  stop_pct_m=re.search(r'(?i)(?:\bsl\b|stop\s*(?:loss)?|стоп)\s*[:=]?\s*('+NUM+r')\s*%',t);stop_pct=float(stop_pct_m[1].replace(',','.'))if stop_pct_m else None
  if stop_pct is not None:sl=None
- card=bool(symbol and side and(sl or stop_pct)and tp);fresh=bool(re.search(r'(?i)\bentry\b|entries|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вхожу|захожу|заходим|беру|открываю|набираю|\bopen\s+(?:long|short)|\bdirection\s*:',t))or bool(re.search(r'(?i)[#$][A-Z0-9]+.{0,40}(?:лонг|шорт|\bLONG\b|\bSHORT\b)',t))
+ card=bool(symbol and side and(sl or stop_pct)and tp);fresh=bool(re.search(r'(?i)\bentry\b|entries|\bвход\b|диапазон\s+входа|зона\s+входа|точк\w*\s+входа|вхожу|захожу|заходим|беру|открываю|набираю|\bopen\s+(?:long|short)|\bdirection\s*:',t))or bool(re.search(r'(?i)[#$][A-Z0-9]+.{0,40}(?:лонг|шорт|\bLONG\b|\bSHORT\b)',t))
  update=bool(re.search(r'(?i)вышел|вышла|закры|\bclos(?:e|ed|ing)\b|фиксир|фикс\b|безубыт|б/у|breakeven|cancel|отмен|добор|усредн|перенос.{0,12}стоп',t))
  if card and fresh and not past and not claim and not negative and not conditional:label='SIGNAL';kind='STRUCTURED'
  elif side and fresh and not past and not claim and not negative and not conditional:label='SIGNAL';kind='TEXT'

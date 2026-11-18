@@ -37,3 +37,5 @@ def test_multiline_stop_targets():
  p=parse_one('C',row('#ABC/USDT LONG\nEntry Targets:\n1)10\nTake-Profit Targets:\n1)11\n2)12\nStop Targets:\n1)9'));assert p['stop']==9 and p['targets']==[11,12]and p['kind']=='STRUCTURED'
 def test_incomplete_existing_card_not_text_entry():
  p=parse_one('C',row('COIN:$ABC/USDT\nDirection:LONG\nTARGETS:11,12'));assert p['label']=='UPDATE'
+def test_plain_market_entry_card_is_fresh_signal():
+ p=parse_one('daniel_crypto',row('JUP/USDT LONG\nВход: по рынку\nУсреднение:9\nЦели:12 13 14\nСтоп:8\nРиск менеджмент: не более1%'));assert p['label']=='SIGNAL'and p['kind']=='STRUCTURED'and p['entry_zone']is None
