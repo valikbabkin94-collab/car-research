@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "primary_run": 44270512713,
+  "conformance_run": 44271797197,
+  "policy_rows": 14728,
+  "control_rows": 14728,
+  "metadata_corrections": 1118,
+  "new_market_simulations": 0,
+  "metadata_financial_hashes_preserved": true,
+  "terminal_fill_repairs": 11,
+  "code_sha": "aa41b67ae5e8a956e8cd97742fb142e974e68dfc",
+  "live_changes": 0
+}
