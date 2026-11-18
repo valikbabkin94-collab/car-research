@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "group": "private19",
+  "shard": 1,
+  "symbols": 91,
+  "signals": 397,
+  "actual_rows": 2779,
+  "controls": 2779,
+  "claims": 265,
+  "code_sha": "a9b42783b8e36262488932da90e2067b03b7c4f4",
+  "live_changes": 0
+}
