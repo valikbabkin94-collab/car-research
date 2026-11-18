@@ -1,0 +1,10 @@
+{
+  "status": "PRE_RAW_ALLOCATOR_PNL",
+  "reason": "All2113 user-requested archive vs previous conditional1041 model-selected allocator. Model-training availability at historical dates not proved; raw selection removes that additional selection dependency. Preserve original outputs and winners.",
+  "freeze": "Same5 variants,28d,n10,Monday, costs/R, boundaries,1000random, sign9999; no new price simulations, no new entry/exit parameters; source exact saved ALL_ENTRY_MODE_TRADES.",
+  "primary_interpretation": "RAW2113 allocator supplementary predeclared audit; existing selected1041 retained as conditional execution analysis, not proof trained model existed historically.",
+  "multiple_tests": "BH across both six-comparison studies=12; preserve oldBH6 separately",
+  "source_model_cut_ms": 1788079200000,
+  "source_model_causality": "UNKNOWN_NOT_CONFIRMED",
+  "promotion": "No paper edge candidate based on either, require source model audit and funding coverage"
+}
