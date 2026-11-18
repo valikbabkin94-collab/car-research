@@ -1,0 +1,11 @@
+{
+  "status": "SOURCE_CONFORMANCE_COMPLETE",
+  "source_run": 44270512713,
+  "actual_rows": 14728,
+  "control_rows": 14728,
+  "replayed_BE_cases": 595,
+  "static_gate_reclassified": 858,
+  "all_OLEG_outcomes_unchanged": true,
+  "unaffected_outcomes_reused": true,
+  "code_sha": "499f8ad25be91e0d6522b362ba385970ae752171"
+}
