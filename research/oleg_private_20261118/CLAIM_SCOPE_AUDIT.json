@@ -1,0 +1,217 @@
+{
+  "method": "Text-only reporting scope audit, not a change to frozen trading parser or any PnL. Explicit past/TP-hit reports vs forecasts/promotions/unknown basis; all percentages preserved, no accusations of false profitability.",
+  "counts": [
+    {
+      "channel": "OLEG",
+      "percent_expressions": 570,
+      "distinct_posts": 514,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 348,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 200,
+        "PROJECTION_NOT_REALIZED": 21,
+        "PROMOTIONAL_BASIS_UNKNOWN": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "Verified_CryptoTraders0",
+      "percent_expressions": 34,
+      "distinct_posts": 31,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 22,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 10,
+        "PROJECTION_NOT_REALIZED": 2
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "traid_invest",
+      "percent_expressions": 146,
+      "distinct_posts": 110,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 43,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 100,
+        "PROJECTION_NOT_REALIZED": 3
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "slivaeminfo_org",
+      "percent_expressions": 1,
+      "distinct_posts": 1,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "Signal_Feed_altFINS",
+      "percent_expressions": 26,
+      "distinct_posts": 24,
+      "scope_counts": {
+        "PROJECTION_NOT_REALIZED": 23,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 3
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "pentagon",
+      "percent_expressions": 16,
+      "distinct_posts": 10,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 13,
+        "PROJECTION_NOT_REALIZED": 1,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 2
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "Official_GCR",
+      "percent_expressions": 701,
+      "distinct_posts": 687,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 554,
+        "PROJECTION_NOT_REALIZED": 9,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 138
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "kript_pushka",
+      "percent_expressions": 69,
+      "distinct_posts": 16,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 44,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 18,
+        "PROJECTION_NOT_REALIZED": 7
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "klondike",
+      "percent_expressions": 297,
+      "distinct_posts": 297,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 38,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 259
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "jewtrade",
+      "percent_expressions": 64,
+      "distinct_posts": 63,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 63,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "DarwinLabSignals",
+      "percent_expressions": 164,
+      "distinct_posts": 109,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 134,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 30
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "daniel_crypto",
+      "percent_expressions": 17,
+      "distinct_posts": 17,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 16,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "crypto_student",
+      "percent_expressions": 167,
+      "distinct_posts": 129,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 114,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 50,
+        "PROJECTION_NOT_REALIZED": 2,
+        "PROMOTIONAL_BASIS_UNKNOWN": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "crypto_futures_scalp",
+      "percent_expressions": 469,
+      "distinct_posts": 469,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 226,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 243
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "crypto_freemium",
+      "percent_expressions": 129,
+      "distinct_posts": 53,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 82,
+        "PROJECTION_NOT_REALIZED": 25,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 22
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "cryptoinsidebets",
+      "percent_expressions": 5920,
+      "distinct_posts": 5825,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 4968,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 762,
+        "PROMOTIONAL_BASIS_UNKNOWN": 190
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "bitcoinbullets",
+      "percent_expressions": 14,
+      "distinct_posts": 11,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 12,
+        "PROJECTION_NOT_REALIZED": 1,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 1
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "binance_killers",
+      "percent_expressions": 24,
+      "distinct_posts": 5,
+      "scope_counts": {
+        "CLAIMED_REALIZED_NOT_VERIFIED": 22,
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 2
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "altsignals",
+      "percent_expressions": 128,
+      "distinct_posts": 128,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 80,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 48
+      },
+      "not_author_cash_pnl": true
+    },
+    {
+      "channel": "2trade",
+      "percent_expressions": 25,
+      "distinct_posts": 11,
+      "scope_counts": {
+        "UNQUALIFIED_PERCENT_BASIS_UNKNOWN": 22,
+        "CLAIMED_REALIZED_NOT_VERIFIED": 1,
+        "PROJECTION_NOT_REALIZED": 2
+      },
+      "not_author_cash_pnl": true
+    }
+  ]
+}
