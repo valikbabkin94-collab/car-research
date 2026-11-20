@@ -1,0 +1,13 @@
+{
+  "source_repository": "valikbabkin94-collab/Crypto-Auto-Radar",
+  "source_commit": "3a595e3e7671408f41728320146e5f1bd8cd6a6e",
+  "source_gzip_sha256": "fda024da7f403ff25bfabb2484ec7bab97a1bda94e27f636bcd44b87ebbf0f40",
+  "targeted_numeric_sha256": "f013c323b6e53a619589be3ccdf6f176700e4ae3cf2c2ab91a71d0ba7b80d6ff",
+  "original_simulator_commit": "1c1d90c43d582bc0433ee474c9a9a21db8acc8fe",
+  "original_simulator_path": "tools/manager_author_study.py",
+  "original_simulator_sha256": "4cbd28c448de215ff8c5b1a9fb830054f7a3a968a9dd6b433187f9255ca0eff7",
+  "verified_formula": "(gross - .0021 * entry) / abs(entry-initial_stop); captured source entry/stop match geometric R",
+  "no_private_raw_text_copied": true,
+  "no_live_logs_read": true,
+  "source_time_is_publication_not_first_received": true
+}
