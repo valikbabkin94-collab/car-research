@@ -1,0 +1,106 @@
+{
+  "input_origin": "Owner text, not original Telegram archive or market candles",
+  "channel_publication_screen_time": "2026-11-20 07:22",
+  "channel_result_screen_time": "2026-11-20 17:57",
+  "screen_timezone": null,
+  "claimed_duration": "9h23m",
+  "screen_difference": "10h35m",
+  "unexplained_difference_minutes": 72,
+  "claimed_margin_roi_pct": 58.9892,
+  "claimed_leverage": 25,
+  "unlevered_simple_equivalent_pct": 2.359568,
+  "implied_simple_R_before_costs": 0.6148373342800797,
+  "parser_commit": "bde8d93461238697e6f769e2282943b382875235",
+  "parser_fixture_not_original": true,
+  "parser_fixture_result": {
+    "kind": "SIGNAL",
+    "id": "YODA:AUDIT_FIXTURE:1",
+    "source": "YODA",
+    "chatId": "AUDIT_FIXTURE",
+    "messageId": 1,
+    "symbol": "HYPEUSDT",
+    "pair": "HYPE/USDT:USDT",
+    "side": "short",
+    "entry_low": 65.69,
+    "entry_high": 66.42,
+    "entry_mid": 66.055,
+    "stop": 68.59,
+    "targets": [
+      65.16,
+      64.9,
+      64.32,
+      63.66,
+      62.66
+    ],
+    "created_ms": 0,
+    "expires_ms": null,
+    "status": "ACTIVE",
+    "commands": [],
+    "text_hash": "sha256:ea179e3919bedb915d0bdc14326a1b5360fb2de5e29c405214035e0c9fe0fedc"
+  },
+  "models_are_conditional_not_observed": true,
+  "models": [
+    {
+      "name": "CAR_MAX3_ALL_THREE_HIT",
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "exit_prices_assumed": [
+        65.16,
+        64.9,
+        64.32
+      ],
+      "entry_assumed": 66.055,
+      "financial_stop": 68.59,
+      "risk_width": 2.5349999999999966,
+      "gross_R": 0.45009861932939244,
+      "net_after_taker_fees_before_funding_R": 0.4216832544378736,
+      "all_fills5bps_sensitivity_R": 0.3958511045364929
+    },
+    {
+      "name": "CAR_TP1_THEN_FEE_BUFFER_BE",
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "exit_prices_assumed": [
+        65.16,
+        65.98233950000001
+      ],
+      "entry_assumed": 66.055,
+      "financial_stop": 68.59,
+      "risk_width": 2.5349999999999966,
+      "gross_R": 0.19086005917159948,
+      "net_after_taker_fees_before_funding_R": 0.1623021130719939,
+      "all_fills5bps_sensitivity_R": 0.13634034389053432
+    },
+    {
+      "name": "AUTHOR_ALL5_EQUAL_HYPOTHETICAL",
+      "weights": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "exit_prices_assumed": [
+        65.16,
+        64.9,
+        64.32,
+        63.66,
+        62.66
+      ],
+      "entry_assumed": 66.055,
+      "financial_stop": 68.59,
+      "risk_width": 2.5349999999999966,
+      "gross_R": 0.7554240631163754,
+      "net_after_taker_fees_before_funding_R": 0.7271766272189395,
+      "all_fills5bps_sensitivity_R": 0.7014971400394523
+    }
+  ],
+  "actual_paper_netR": null,
+  "actual_signal_received": null,
+  "actual_entry_rejection_reason": null
+}

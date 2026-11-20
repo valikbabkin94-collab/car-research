@@ -1,0 +1,51 @@
+{
+  "status": "POINT1_PR_READY_POINTS2_3_STOPPED_PER_MISSING_DATA_RULE",
+  "asof_utc": "2026-11-20T17:33:17.160601+00:00",
+  "point1": {
+    "PR": "https://github.com/valikbabkin94-collab/Crypto-Auto-Radar/pull/593",
+    "draft": true,
+    "merged": false,
+    "auto_merge": null,
+    "base": "fix/egress-guard-blip-20261120",
+    "base_commit": "23b70e3bfaf515103c50d9b823afba0e3fa77859",
+    "branch": "fix/egress-probe-cache-alerts-20261120",
+    "code_commit": "d53e0e5c77d8bf77cd8a10211c7b34e3b0b52d37",
+    "offline_tests": 89,
+    "hosted_CI_not_claimed": true,
+    "actual_Acer_hash_confirmed": false,
+    "actual_key_whitelist_confirmed": false,
+    "installed": false
+  },
+  "point2": {
+    "status": "DATA_NEEDED",
+    "received": null,
+    "actual_rejection_reason": null,
+    "actual_paper_netR": null,
+    "reconstructed_parser_fixture": "SIGNAL",
+    "snapshot_YODA_enabled": true,
+    "snapshot_max_targets": 3,
+    "original_screen_timezone": null
+  },
+  "point3": {
+    "status": "DATA_NEEDED",
+    "day_total_signals": null,
+    "day_executed_trades": null,
+    "concurrent_max": null,
+    "risk_peak_USDT": null,
+    "lost_egress_entries": null,
+    "dump_tested_n": 0,
+    "pf_tested_n": 0,
+    "profits_claimed": false
+  },
+  "source_refs": {
+    "config_ingest_parser": "bde8d93461238697e6f769e2282943b382875235",
+    "previous_day20_report": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+    "legacy_live97": "e425f277e0f172bfd66c1a70e6d62478efb2882e"
+  },
+  "resume": "Receive the specified redacted private GitHub exports; do not connect to notebooks or repeat completed research.",
+  "desktop_commander_calls": 0,
+  "remote_desktop_calls": 0,
+  "Bybit_key_access": 0,
+  "orders": 0,
+  "live_changes": 0
+}
