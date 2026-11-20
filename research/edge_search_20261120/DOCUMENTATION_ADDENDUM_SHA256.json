@@ -1,0 +1,10 @@
+{
+  "status": "DOCUMENTATION_COMPLETE_NO_RECALC",
+  "new_financial_runs": 0,
+  "prior_result_commit": "57446d6e36a04b32a45477d1afc472fd05c17077",
+  "previous_head": "d2d53cf9089ffc8e57b0be0619702b01b77dc250",
+  "sha256": {
+    "DOCUMENTATION_ADDENDUM_20261120.md": "d186382956256c8326cdbf9bd05dc9a92d19ffc2c6862c4fc952a52c059fad78",
+    "OWNER_SUMMARY_20261120.txt": "ee891b79c1216c5814027ab96c20b27aac4f0e386d520c68bff6e07855d11692"
+  }
+}

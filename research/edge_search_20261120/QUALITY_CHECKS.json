@@ -1,0 +1,14 @@
+{
+  "check_kind": "integrity_and_documentation_QA_not_a_new_financial_run",
+  "source_gzip_matches_pinned_provenance": true,
+  "numeric_input_hash_matches_results_and_provenance": true,
+  "canonical_result_hash_matches": true,
+  "financial_code_results_inputs_and_frozen_T2_protocol_unchanged": true,
+  "all_JSON_parse": true,
+  "numeric_rows": 147,
+  "raw_message_and_post_id_fields_absent_from_numeric_rows": true,
+  "unit_tests_previously_passed": 8,
+  "tests_not_repeated_after_docs_only_changes": true,
+  "T1_source_execution_and_R_semantics_reviewed": true,
+  "T3_statistical_test_selection_explicitly_pending_independent_review": true
+}

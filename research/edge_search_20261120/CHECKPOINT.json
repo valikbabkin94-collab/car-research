@@ -1,0 +1,22 @@
+{
+  "status": "PHASE_A_COMPLETE_PHASE_B_BOUNDED_T2_AUDIT_COMPLETE_PHASE_C_REVIEW_READY",
+  "experiment_id": "T2_WHALES_M1_LEDGER_ECONOMICS_V1_20261120",
+  "protocol_commit": "b21119734c7e7e2fa566124aa1e0e9e242c21cfa",
+  "code_input_commit": "7935b12c5047604fdcfca345818fb88f0b3690f3",
+  "model_rows_audited": 126,
+  "original_signals_in_safe_derivative": 147,
+  "new_trade_bar_replays": 0,
+  "new_market_downloads": 0,
+  "tests_passed": 8,
+  "true_net_R_measured": false,
+  "net_USDT_at55_measured": false,
+  "gate_passed": false,
+  "forward_capture_missing": true,
+  "T3_T5_not_run": true,
+  "new_collectors": 0,
+  "LIVE_changes": 0,
+  "orders": 0,
+  "main_merge": 0,
+  "configs_risks_changed": 0,
+  "next": "Independent ChatGPT artifact review; only missing existing firstseen/PRICE_BATCH/fill/funding/filters exports required, no old sweep repeats."
+}
