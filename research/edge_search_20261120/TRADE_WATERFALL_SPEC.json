@@ -1,0 +1,71 @@
+{
+  "schema": "TRADE_WATERFALL_V1",
+  "status": "SPEC_ONLY_SOURCE_DATA_GAP",
+  "available_archived_rows": 97,
+  "source_schema_fields": [
+    "source",
+    "coin",
+    "side",
+    "open",
+    "close",
+    "entry",
+    "initial_stop",
+    "stop_pct",
+    "exit_reason",
+    "exits",
+    "net_R"
+  ],
+  "realized_profit_present_rows": 0,
+  "previous_audit_rows": 97,
+  "previous_estimated_R_missing": 20,
+  "no_new_realized_PnL_calculated": true,
+  "identity": [
+    "hashed_trade_id",
+    "source",
+    "native_pair/product",
+    "side",
+    "signal_family",
+    "original_post_SHA",
+    "code/config_SHA"
+  ],
+  "clock": [
+    "published_utc",
+    "first_seen_utc",
+    "first_received_utc",
+    "parsed_utc",
+    "decision_utc",
+    "order_intent_utc",
+    "actual_fill_utc",
+    "partial_close_utc",
+    "final_close_utc"
+  ],
+  "events": [
+    "received",
+    "parsed_or_rejected",
+    "source_disabled",
+    "global_or_source_block",
+    "risk_or_slot_reject",
+    "zone_or_TTL_reject",
+    "order_not_sent",
+    "cancelled_unfilled",
+    "partially_filled",
+    "open",
+    "closed",
+    "right_censored",
+    "data_gap"
+  ],
+  "cash_fields": [
+    "entry/exit fill_id+time+price+quantity+fee+fee_asset",
+    "raw realized_profit with Freqtradeversion semantics",
+    "funding settledcash+time",
+    "initial actual protectiveSL and initial positionqty",
+    "planned risk and actual initial financialrisk separately"
+  ],
+  "dedup": "unique venue/product/orderid/fillid; repeatedmessage aliases notnewcashflows; position close row not extra fullsize exit; no renormalizing duplicate1.0 fractions into proof ofrealqty",
+  "cash_rule": "Use realized_profit once pertrade, not close_profit_abs oflastpartial. Verify whether fee/funding included forsourceversion; do not subtract includeditems twice. Missingcash not0.",
+  "R_rule": "actual R0 from frozen initial financial protectiveSL and actual initial position; not emergency initial_stop, leverage, or H1meanstop calibration; ifunknown, actualR null",
+  "waterfall": "Receipts/opportunities→terminalintentstatus counts, separately actualfilled pricegross→knownfees→knownspread/slip→knownfunding→reconcilednet. Missingcomponent remainsunreconciled. Bad_signal vsbad_entry attribution needs fixedmatchedcounterfactual, notanadditivefact byinspection.",
+  "missed_entries": "Explicit deny reason egress plusactualblockinterval canidentify deniedintent. Alerts alone orcoincidence do notprove economicmissedfill; othergates andfutureexecution needed.",
+  "portfolio": "dynamicremainingqty/currentprotectiveSL, signednotional, coin/BTCcorrelation, actualcapital+unrealized+margin, reservations separate. TradeR sum not accountequity.",
+  "source_prior_audit": "https://github.com/valikbabkin94-collab/car-research/blob/e425f277e0f172bfd66c1a70e6d62478efb2882e/research/paket_20261117/part7_live_trades/X0_ACTUAL_FILLS_AUDIT.json"
+}

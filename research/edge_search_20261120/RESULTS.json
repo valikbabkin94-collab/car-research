@@ -1,0 +1,3378 @@
+{
+  "EXPERIMENT_ID": "T2_WHALES_M1_LEDGER_ECONOMICS_V1_20261120",
+  "protocol_commit": "b21119734c7e7e2fa566124aa1e0e9e242c21cfa",
+  "code_commit": "7935b12c5047604fdcfca345818fb88f0b3690f3",
+  "exposure": "EXPOSED",
+  "realized_profit_not_reconstructed": true,
+  "inputs_sha256": "f013c323b6e53a619589be3ccdf6f176700e4ae3cf2c2ab91a71d0ba7b80d6ff",
+  "cohorts": {
+    "Whalesguide_M1": {
+      "source_bounds": {
+        "first_utc": "2025-08-15T19:54:15+00:00",
+        "last_utc": "2026-11-12T02:04:30+00:00",
+        "calendar_midpoint_utc": "2026-03-30T10:59:22.500000+00:00",
+        "train60_signals": 48,
+        "oos40_signals": 33,
+        "oos_first_utc": "2026-02-04T20:31:42+00:00"
+      },
+      "source_statuses": {
+        "MATCHED": 77,
+        "DATA_GAP": 2,
+        "CENSORED": 2
+      },
+      "source_window_months": 14.891404289299567,
+      "archive_opportunities_per_month": 5.439379552551919,
+      "archive_matched_fills_per_month": 4.835004046712816,
+      "first_matched_fill_utc": "2025-08-15T20:05:00+00:00",
+      "last_matched_fill_utc": "2026-11-01T05:38:00+00:00",
+      "edited_visible_all_n": 4,
+      "first_received_known_n": 0,
+      "independent_trade_n": null,
+      "unique_fill_day_symbol_n": 72,
+      "metrics": [
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 72,
+          "price_cost_R": 12.393248401698818,
+          "mean_price_cost_R": 0.1721284500235947,
+          "PF_price_cost_only": 1.5002179787397931,
+          "win_rate_pct": 52.77777777777778,
+          "close_order_maxDD_R": 5.665317150337107,
+          "unknown_funding_closed_n": 72,
+          "true_net_R": null,
+          "no_fill_n": 5,
+          "all_source_opportunities": 81,
+          "root_statuses": {
+            "MATCHED": 77,
+            "DATA_GAP": 2,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 72,
+            "NOFILL": 5
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 72,
+          "price_cost_R": 9.497968173539821,
+          "mean_price_cost_R": 0.13191622463249753,
+          "PF_price_cost_only": 1.3639724421983843,
+          "win_rate_pct": 52.77777777777778,
+          "close_order_maxDD_R": 6.34249971137923,
+          "unknown_funding_closed_n": 72,
+          "true_net_R": null,
+          "no_fill_n": 5,
+          "all_source_opportunities": 81,
+          "root_statuses": {
+            "MATCHED": 77,
+            "DATA_GAP": 2,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 72,
+            "NOFILL": 5
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 72,
+          "price_cost_R": 6.395882214798038,
+          "mean_price_cost_R": 0.08883169742775053,
+          "PF_price_cost_only": 1.232500167469217,
+          "win_rate_pct": 52.77777777777778,
+          "close_order_maxDD_R": 7.068052455352934,
+          "unknown_funding_closed_n": 72,
+          "true_net_R": null,
+          "no_fill_n": 5,
+          "all_source_opportunities": 81,
+          "root_statuses": {
+            "MATCHED": 77,
+            "DATA_GAP": 2,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 72,
+            "NOFILL": 5
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 53,
+          "price_cost_R": 5.4977093094593785,
+          "mean_price_cost_R": 0.10373036432942224,
+          "PF_price_cost_only": 1.271458000760028,
+          "win_rate_pct": 49.056603773584904,
+          "close_order_maxDD_R": 5.665317150337107,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 59,
+          "root_statuses": {
+            "MATCHED": 57,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 53,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": 5.4977093094593785
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 53,
+          "price_cost_R": 3.3174829349177752,
+          "mean_price_cost_R": 0.06259401763995803,
+          "PF_price_cost_only": 1.1556951376094549,
+          "win_rate_pct": 49.056603773584904,
+          "close_order_maxDD_R": 6.34249971137923,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 59,
+          "root_statuses": {
+            "MATCHED": 57,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 53,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": 3.3174829349177752
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 53,
+          "price_cost_R": 0.9815261050517712,
+          "mean_price_cost_R": 0.01851936047267493,
+          "PF_price_cost_only": 1.043744019075597,
+          "win_rate_pct": 49.056603773584904,
+          "close_order_maxDD_R": 7.068052455352934,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 59,
+          "root_statuses": {
+            "MATCHED": 57,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 53,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": 0.9815261050517712
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 19,
+          "price_cost_R": 6.8955390922394395,
+          "mean_price_cost_R": 0.3629231101178652,
+          "PF_price_cost_only": 2.5244915659547793,
+          "win_rate_pct": 63.1578947368421,
+          "close_order_maxDD_R": 3.2992787907520604,
+          "unknown_funding_closed_n": 19,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 22,
+          "root_statuses": {
+            "MATCHED": 20,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 19,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 19,
+          "price_cost_R": 6.180485238622046,
+          "mean_price_cost_R": 0.32528869676958133,
+          "PF_price_cost_only": 2.2908987113289117,
+          "win_rate_pct": 63.1578947368421,
+          "close_order_maxDD_R": 3.4145813106197664,
+          "unknown_funding_closed_n": 19,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 22,
+          "root_statuses": {
+            "MATCHED": 20,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 19,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 19,
+          "price_cost_R": 5.414356109746267,
+          "mean_price_cost_R": 0.2849661110392772,
+          "PF_price_cost_only": 2.0676673865913413,
+          "win_rate_pct": 63.1578947368421,
+          "close_order_maxDD_R": 3.5381197247637357,
+          "unknown_funding_closed_n": 19,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 22,
+          "root_statuses": {
+            "MATCHED": 20,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 19,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 42,
+          "price_cost_R": 5.724579245712007,
+          "mean_price_cost_R": 0.13629950585028586,
+          "PF_price_cost_only": 1.3671516181282428,
+          "win_rate_pct": 50.0,
+          "close_order_maxDD_R": 5.665317150337107,
+          "unknown_funding_closed_n": 42,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 48,
+          "root_statuses": {
+            "MATCHED": 46,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 42,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 42,
+          "price_cost_R": 4.000946545548046,
+          "mean_price_cost_R": 0.09526063203685822,
+          "PF_price_cost_only": 1.244027759095356,
+          "win_rate_pct": 50.0,
+          "close_order_maxDD_R": 6.34249971137923,
+          "unknown_funding_closed_n": 42,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 48,
+          "root_statuses": {
+            "MATCHED": 46,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 42,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 42,
+          "price_cost_R": 2.1541972239438008,
+          "mean_price_cost_R": 0.051290410093900014,
+          "PF_price_cost_only": 1.124834354421166,
+          "win_rate_pct": 50.0,
+          "close_order_maxDD_R": 7.068052455352934,
+          "unknown_funding_closed_n": 42,
+          "true_net_R": null,
+          "no_fill_n": 4,
+          "all_source_opportunities": 48,
+          "root_statuses": {
+            "MATCHED": 46,
+            "DATA_GAP": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 42,
+            "NOFILL": 4
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 30,
+          "price_cost_R": 6.668669155986811,
+          "mean_price_cost_R": 0.22228897186622706,
+          "PF_price_cost_only": 1.726131714837096,
+          "win_rate_pct": 56.666666666666664,
+          "close_order_maxDD_R": 3.2992787907520604,
+          "unknown_funding_closed_n": 30,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 33,
+          "root_statuses": {
+            "MATCHED": 31,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 30,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 30,
+          "price_cost_R": 5.497021627991776,
+          "mean_price_cost_R": 0.18323405426639253,
+          "PF_price_cost_only": 1.5667127172725341,
+          "win_rate_pct": 56.666666666666664,
+          "close_order_maxDD_R": 3.4145813106197664,
+          "unknown_funding_closed_n": 30,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 33,
+          "root_statuses": {
+            "MATCHED": 31,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 30,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 30,
+          "price_cost_R": 4.241684990854237,
+          "mean_price_cost_R": 0.14138949969514125,
+          "PF_price_cost_only": 1.4137137225115695,
+          "win_rate_pct": 56.666666666666664,
+          "close_order_maxDD_R": 3.5381197247637353,
+          "unknown_funding_closed_n": 30,
+          "true_net_R": null,
+          "no_fill_n": 1,
+          "all_source_opportunities": 33,
+          "root_statuses": {
+            "MATCHED": 31,
+            "CENSORED": 2
+          },
+          "matched_model_statuses": {
+            "TRADE": 30,
+            "NOFILL": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        }
+      ],
+      "economics_by_cost": {
+        "21": {
+          "mean_price_cost_R_per_observed_month": 0.8322417524184852,
+          "monthly_ledger": [
+            {
+              "month": "2025-08",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.8303893842438066,
+              "source_opportunities": 13,
+              "model_fills": 9,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -1.914713414228031,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.5635341636231688,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-11",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.3216661946477775,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-12",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 5.002132565249918,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-01",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.9513613205782958,
+              "source_opportunities": 8,
+              "model_fills": 8,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-02",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0.011803094670441272,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-03",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.2386730309230689,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-04",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0.47569393402886195,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-05",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0.014661849279665594,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-06",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.3936117452681263,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 2.7465572535703116,
+              "source_opportunities": 4,
+              "model_fills": 4,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -2.1992780203360356,
+              "source_opportunities": 4,
+              "model_fills": 3,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 1.4930421736886963,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.9712501567398132,
+              "source_opportunities": 3,
+              "model_fills": 1,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": -2.1992780203360356,
+          "days": {
+            "groups": {
+              "2025-08-15": -1.0877335154116274,
+              "2025-08-19": 2.245578255303113,
+              "2025-08-20": 1.1251596844848606,
+              "2025-08-25": 1.6696296296296325,
+              "2025-08-26": -2.082925173069994,
+              "2025-08-30": -1.039319496692178,
+              "2025-09-05": 0.23754295355753954,
+              "2025-09-16": 0.7851555493857167,
+              "2025-09-17": -1.0770205943605171,
+              "2025-09-20": 0.37560161173674583,
+              "2025-09-23": -0.09474953485043668,
+              "2025-09-25": -1.0455206842923797,
+              "2025-09-29": -1.0957227154046998,
+              "2025-10-05": -0.12719629213483105,
+              "2025-10-16": 1.2091412548194873,
+              "2025-10-17": 0.475030674846626,
+              "2025-10-20": -1.0674727120067171,
+              "2025-10-30": -1.0530370891477339,
+              "2025-11-12": 0.6398884730724427,
+              "2025-11-14": 2.0315928033769723,
+              "2025-11-21": 0.6501849181983628,
+              "2025-12-01": 0.5757906976744176,
+              "2025-12-05": -1.0225254359272213,
+              "2025-12-09": 1.630467605633796,
+              "2025-12-15": 1.4996184971098268,
+              "2025-12-17": -1.0104739159891598,
+              "2025-12-19": 1.7290309788172302,
+              "2025-12-21": 1.6002241379310282,
+              "2026-01-12": -0.6158575809400247,
+              "2026-01-18": 0.6724027030851965,
+              "2026-01-20": 0.24468593097489533,
+              "2026-01-21": -1.0979999999999999,
+              "2026-01-22": 0.2886471676873991,
+              "2026-01-26": -0.2857847533632272,
+              "2026-01-28": -0.15745478802253499,
+              "2026-02-05": 1.6618630778232855,
+              "2026-02-09": -0.09196802557953654,
+              "2026-02-11": -1.0649622266401588,
+              "2026-02-19": 0.5479556962025295,
+              "2026-02-28": -1.0410854271356782,
+              "2026-03-08": 0.8220604949587516,
+              "2026-03-12": 0.5167415261044177,
+              "2026-03-23": -2.155108691926177,
+              "2026-03-26": -0.30753115264797415,
+              "2026-03-27": 0.8851647925879127,
+              "2026-04-03": 0.1276258472317425,
+              "2026-04-27": 0.8381677322301653,
+              "2026-04-28": -0.49009964543304585,
+              "2026-05-01": 0.12544163223140392,
+              "2026-05-07": -0.06753802281368837,
+              "2026-05-28": -0.04324176013804996,
+              "2026-06-04": 1.6788445569620243,
+              "2026-06-05": 1.7147671883061022,
+              "2026-07-08": 3.227972379250082,
+              "2026-07-10": 0.6185856447362548,
+              "2026-07-20": -1.1000007704160248,
+              "2026-08-12": -0.13881131844064784,
+              "2026-08-14": -1.0154229959286818,
+              "2026-08-17": -1.0450437059667061,
+              "2026-09-27": 1.1851034055727563,
+              "2026-09-29": 0.30793876811594,
+              "2026-11-02": 0.9712501567398132
+            },
+            "total_price_cost_R": 12.393248401698818,
+            "best1": [
+              [
+                "2026-07-08",
+                3.227972379250082
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-08",
+                3.227972379250082
+              ],
+              [
+                "2025-08-19",
+                2.245578255303113
+              ],
+              [
+                "2025-11-14",
+                2.0315928033769723
+              ]
+            ],
+            "best1_share_of_net": 0.26046217058052384,
+            "best3_share_of_net": 0.6055832332789676,
+            "without_best1_R": 9.165276022448737,
+            "without_best3_R": 4.888104963768651,
+            "leave_one_group_out_R": {
+              "2025-08-15": 13.480981917110446,
+              "2025-08-19": 10.147670146395704,
+              "2025-08-20": 11.268088717213958,
+              "2025-08-25": 10.723618772069186,
+              "2025-08-26": 14.476173574768811,
+              "2025-08-30": 13.432567898390996,
+              "2025-09-05": 12.155705448141278,
+              "2025-09-16": 11.608092852313101,
+              "2025-09-17": 13.470268996059335,
+              "2025-09-20": 12.017646789962072,
+              "2025-09-23": 12.487997936549254,
+              "2025-09-25": 13.438769085991197,
+              "2025-09-29": 13.488971117103517,
+              "2025-10-05": 12.52044469383365,
+              "2025-10-16": 11.184107146879331,
+              "2025-10-17": 11.918217726852191,
+              "2025-10-20": 13.460721113705535,
+              "2025-10-30": 13.446285490846552,
+              "2025-11-12": 11.753359928626375,
+              "2025-11-14": 10.361655598321846,
+              "2025-11-21": 11.743063483500455,
+              "2025-12-01": 11.8174577040244,
+              "2025-12-05": 13.41577383762604,
+              "2025-12-09": 10.762780796065023,
+              "2025-12-15": 10.893629904588991,
+              "2025-12-17": 13.403722317687977,
+              "2025-12-19": 10.664217422881588,
+              "2025-12-21": 10.79302426376779,
+              "2026-01-12": 13.009105982638843,
+              "2026-01-18": 11.720845698613621,
+              "2026-01-20": 12.148562470723922,
+              "2026-01-21": 13.491248401698819,
+              "2026-01-22": 12.104601234011419,
+              "2026-01-26": 12.679033155062045,
+              "2026-01-28": 12.550703189721354,
+              "2026-02-05": 10.731385323875532,
+              "2026-02-09": 12.485216427278354,
+              "2026-02-11": 13.458210628338977,
+              "2026-02-19": 11.845292705496288,
+              "2026-02-28": 13.434333828834497,
+              "2026-03-08": 11.571187906740066,
+              "2026-03-12": 11.8765068755944,
+              "2026-03-23": 14.548357093624995,
+              "2026-03-26": 12.700779554346791,
+              "2026-03-27": 11.508083609110905,
+              "2026-04-03": 12.265622554467075,
+              "2026-04-27": 11.555080669468653,
+              "2026-04-28": 12.883348047131864,
+              "2026-05-01": 12.267806769467414,
+              "2026-05-07": 12.460786424512506,
+              "2026-05-28": 12.436490161836868,
+              "2026-06-04": 10.714403844736793,
+              "2026-06-05": 10.678481213392716,
+              "2026-07-08": 9.165276022448737,
+              "2026-07-10": 11.774662756962563,
+              "2026-07-20": 13.493249172114844,
+              "2026-08-12": 12.532059720139467,
+              "2026-08-14": 13.4086713976275,
+              "2026-08-17": 13.438292107665525,
+              "2026-09-27": 11.208144996126062,
+              "2026-09-29": 12.085309633582877,
+              "2026-11-02": 11.421998244959005
+            },
+            "leave_one_out_min_R": 9.165276022448737
+          },
+          "coins": {
+            "groups": {
+              "APTUSDT": -1.0877335154116274,
+              "MYXUSDT": 0.41933256273505926,
+              "TURBOUSDT": 1.0242794411957132,
+              "CYBERUSDT": 1.349676615208689,
+              "USUALUSDT": -0.2245169307238283,
+              "UMAUSDT": 1.6696296296296325,
+              "AKTUSDT": -0.914792830627649,
+              "COMPUSDT": -1.0405064952106022,
+              "PHAUSDT": -1.196774284714713,
+              "UNIUSDT": 0.23754295355753954,
+              "AVAAIUSDT": 0.7851555493857167,
+              "BIOUSDT": -1.0770205943605171,
+              "IOTXUSDT": 0.37560161173674583,
+              "HFTUSDT": -0.09474953485043668,
+              "CHESSUSDT": -1.0455206842923797,
+              "ZROUSDT": -1.2229190075395309,
+              "HBARUSDT": 1.2091412548194873,
+              "IMXUSDT": 0.475030674846626,
+              "XPLUSDT": -1.0674727120067171,
+              "HYPEUSDT": -1.0530370891477339,
+              "TIAUSDT": -0.37709122905758663,
+              "ALTUSDT": -0.06482490272373534,
+              "GALAUSDT": 1.428961783439487,
+              "GRTUSDT": 0.6026310199374852,
+              "XVGUSDT": 0.6743116646183771,
+              "STRKUSDT": 0.5757906976744176,
+              "YBUSDT": 1.630467605633796,
+              "YFIUSDT": 1.4996184971098268,
+              "PTBUSDT": -1.0104739159891598,
+              "BEATUSDT": 1.938241352273674,
+              "IPUSDT": 1.6002241379310282,
+              "CHZUSDT": -0.9109364116034335,
+              "PENGUUSDT": -0.40090138398721575,
+              "ACXUSDT": -1.0979999999999999,
+              "ICNTUSDT": 0.5837259983508079,
+              "RONINUSDT": -0.2857847533632272,
+              "XRPUSDT": 1.6618630778232855,
+              "ZENUSDT": -0.09196802557953654,
+              "DRIFTUSDT": -1.1325002494538472,
+              "COTIUSDT": 0.5479556962025295,
+              "KITEUSDT": -1.0410854271356782,
+              "C98USDT": 0.8220604949587516,
+              "BANANAS31USDT": 0.8851647925879127,
+              "ONTUSDT": 0.8381677322301653,
+              "ARKMUSDT": 0.623014782427651,
+              "INJUSDT": -1.1131144278606968,
+              "MELANIAUSDT": 0.12544163223140392,
+              "VVVUSDT": -0.04324176013804996,
+              "TAOUSDT": 1.6788445569620243,
+              "ZECUSDT": 0.6147664178900774,
+              "TLMUSDT": 1.5449184510250575,
+              "JTOUSDT": 1.6830539282250243,
+              "VANRYUSDT": 0.6185856447362548,
+              "GUAUSDT": -0.13881131844064784,
+              "CYSUSDT": -1.0154229959286818,
+              "ONUSDT": -1.0450437059667061,
+              "PUMPUSDT": 1.1851034055727563,
+              "NEARUSDT": 0.30793876811594,
+              "CAPUSDT": 0.9712501567398132
+            },
+            "total_price_cost_R": 12.393248401698818,
+            "best1": [
+              [
+                "BEATUSDT",
+                1.938241352273674
+              ]
+            ],
+            "best3": [
+              [
+                "BEATUSDT",
+                1.938241352273674
+              ],
+              [
+                "JTOUSDT",
+                1.6830539282250243
+              ],
+              [
+                "TAOUSDT",
+                1.6788445569620243
+              ]
+            ],
+            "best1_share_of_net": 0.15639494097511894,
+            "best3_share_of_net": 0.4276634878660384,
+            "without_best1_R": 10.455007049425145,
+            "without_best3_R": 7.093108564238095,
+            "leave_one_group_out_R": {
+              "APTUSDT": 13.480981917110446,
+              "MYXUSDT": 11.973915838963759,
+              "TURBOUSDT": 11.368968960503105,
+              "CYBERUSDT": 11.04357178649013,
+              "USUALUSDT": 12.617765332422646,
+              "UMAUSDT": 10.723618772069186,
+              "AKTUSDT": 13.308041232326467,
+              "COMPUSDT": 13.43375489690942,
+              "PHAUSDT": 13.590022686413532,
+              "UNIUSDT": 12.155705448141278,
+              "AVAAIUSDT": 11.608092852313101,
+              "BIOUSDT": 13.470268996059335,
+              "IOTXUSDT": 12.017646789962072,
+              "HFTUSDT": 12.487997936549254,
+              "CHESSUSDT": 13.438769085991197,
+              "ZROUSDT": 13.616167409238349,
+              "HBARUSDT": 11.184107146879331,
+              "IMXUSDT": 11.918217726852191,
+              "XPLUSDT": 13.460721113705535,
+              "HYPEUSDT": 13.446285490846552,
+              "TIAUSDT": 12.770339630756405,
+              "ALTUSDT": 12.458073304422554,
+              "GALAUSDT": 10.964286618259331,
+              "GRTUSDT": 11.790617381761333,
+              "XVGUSDT": 11.71893673708044,
+              "STRKUSDT": 11.8174577040244,
+              "YBUSDT": 10.762780796065023,
+              "YFIUSDT": 10.893629904588991,
+              "PTBUSDT": 13.403722317687977,
+              "BEATUSDT": 10.455007049425145,
+              "IPUSDT": 10.79302426376779,
+              "CHZUSDT": 13.304184813302252,
+              "PENGUUSDT": 12.794149785686034,
+              "ACXUSDT": 13.491248401698819,
+              "ICNTUSDT": 11.80952240334801,
+              "RONINUSDT": 12.679033155062045,
+              "XRPUSDT": 10.731385323875532,
+              "ZENUSDT": 12.485216427278354,
+              "DRIFTUSDT": 13.525748651152664,
+              "COTIUSDT": 11.845292705496288,
+              "KITEUSDT": 13.434333828834497,
+              "C98USDT": 11.571187906740066,
+              "BANANAS31USDT": 11.508083609110905,
+              "ONTUSDT": 11.555080669468653,
+              "ARKMUSDT": 11.770233619271167,
+              "INJUSDT": 13.506362829559516,
+              "MELANIAUSDT": 12.267806769467414,
+              "VVVUSDT": 12.436490161836868,
+              "TAOUSDT": 10.714403844736793,
+              "ZECUSDT": 11.77848198380874,
+              "TLMUSDT": 10.84832995067376,
+              "JTOUSDT": 10.710194473473793,
+              "VANRYUSDT": 11.774662756962563,
+              "GUAUSDT": 12.532059720139467,
+              "CYSUSDT": 13.4086713976275,
+              "ONUSDT": 13.438292107665525,
+              "PUMPUSDT": 11.208144996126062,
+              "NEARUSDT": 12.085309633582877,
+              "CAPUSDT": 11.421998244959005
+            },
+            "leave_one_out_min_R": 10.455007049425145
+          },
+          "weeks": {
+            "groups": {
+              "2025-08-11": -1.0877335154116274,
+              "2025-08-18": 3.3707379397879738,
+              "2025-08-25": -1.4526150401325393,
+              "2025-09-01": 0.23754295355753954,
+              "2025-09-15": 0.08373656676194546,
+              "2025-09-22": -1.1402702191428162,
+              "2025-09-29": -1.2229190075395309,
+              "2025-10-13": 1.6841719296661133,
+              "2025-10-20": -1.0674727120067171,
+              "2025-10-27": -1.0530370891477339,
+              "2025-11-10": 2.671481276449415,
+              "2025-11-17": 0.6501849181983628,
+              "2025-12-01": -0.44673473825280374,
+              "2025-12-08": 1.630467605633796,
+              "2025-12-15": 3.8183996978689256,
+              "2026-01-12": 0.05654512214517171,
+              "2026-01-19": -0.5646669013377055,
+              "2026-01-26": -0.44323954138576216,
+              "2026-02-02": 1.6618630778232855,
+              "2026-02-09": -1.1569302522196954,
+              "2026-02-16": 0.5479556962025295,
+              "2026-02-23": -1.0410854271356782,
+              "2026-03-02": 0.8220604949587516,
+              "2026-03-09": 0.5167415261044177,
+              "2026-03-23": -1.5774750519862386,
+              "2026-03-30": 0.1276258472317425,
+              "2026-04-27": 0.47350971902852346,
+              "2026-05-04": -0.06753802281368837,
+              "2026-05-25": -0.04324176013804996,
+              "2026-06-01": 3.3936117452681263,
+              "2026-07-06": 3.8465580239863364,
+              "2026-07-20": -1.1000007704160248,
+              "2026-08-10": -1.1542343143693297,
+              "2026-08-17": -1.0450437059667061,
+              "2026-09-21": 1.1851034055727563,
+              "2026-09-28": 0.30793876811594,
+              "2026-11-02": 0.9712501567398132
+            },
+            "total_price_cost_R": 12.393248401698818,
+            "best1": [
+              [
+                "2026-07-06",
+                3.8465580239863364
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-06",
+                3.8465580239863364
+              ],
+              [
+                "2025-12-15",
+                3.8183996978689256
+              ],
+              [
+                "2026-06-01",
+                3.3936117452681263
+              ]
+            ],
+            "best1_share_of_net": 0.31037528655191526,
+            "best3_share_of_net": 0.892305964399739,
+            "without_best1_R": 8.546690377712482,
+            "without_best3_R": 1.3346789345754306,
+            "leave_one_group_out_R": {
+              "2025-08-11": 13.480981917110446,
+              "2025-08-18": 9.022510461910844,
+              "2025-08-25": 13.845863441831357,
+              "2025-09-01": 12.155705448141278,
+              "2025-09-15": 12.309511834936872,
+              "2025-09-22": 13.533518620841635,
+              "2025-09-29": 13.616167409238349,
+              "2025-10-13": 10.709076472032704,
+              "2025-10-20": 13.460721113705535,
+              "2025-10-27": 13.446285490846552,
+              "2025-11-10": 9.721767125249404,
+              "2025-11-17": 11.743063483500455,
+              "2025-12-01": 12.839983139951622,
+              "2025-12-08": 10.762780796065023,
+              "2025-12-15": 8.574848703829893,
+              "2026-01-12": 12.336703279553646,
+              "2026-01-19": 12.957915303036524,
+              "2026-01-26": 12.836487943084581,
+              "2026-02-02": 10.731385323875532,
+              "2026-02-09": 13.550178653918513,
+              "2026-02-16": 11.845292705496288,
+              "2026-02-23": 13.434333828834497,
+              "2026-03-02": 11.571187906740066,
+              "2026-03-09": 11.8765068755944,
+              "2026-03-23": 13.970723453685057,
+              "2026-03-30": 12.265622554467075,
+              "2026-04-27": 11.919738682670294,
+              "2026-05-04": 12.460786424512506,
+              "2026-05-25": 12.436490161836868,
+              "2026-06-01": 8.999636656430692,
+              "2026-07-06": 8.546690377712482,
+              "2026-07-20": 13.493249172114844,
+              "2026-08-10": 13.547482716068147,
+              "2026-08-17": 13.438292107665525,
+              "2026-09-21": 11.208144996126062,
+              "2026-09-28": 12.085309633582877,
+              "2026-11-02": 11.421998244959005
+            },
+            "leave_one_out_min_R": 8.546690377712482
+          }
+        },
+        "35": {
+          "mean_price_cost_R_per_observed_month": 0.6378154799252024,
+          "monthly_ledger": [
+            {
+              "month": "2025-08",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.5009918939532647,
+              "source_opportunities": 13,
+              "model_fills": 9,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -2.2109562249317554,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.8197608656376296,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-11",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.09619212098145,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-12",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 4.677347358263026,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-01",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -1.242867737080311,
+              "source_opportunities": 8,
+              "model_fills": 8,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-02",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.2155602430598096,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-03",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.46790336757046014,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-04",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0.2666238106496668,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-05",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.11158286828044642,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-06",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.3226862421135466,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 2.6099401752486857,
+              "source_opportunities": 4,
+              "model_fills": 4,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -2.247913359926391,
+              "source_opportunities": 4,
+              "model_fills": 3,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 1.4116361499977554,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.9290950888192281,
+              "source_opportunities": 3,
+              "model_fills": 1,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": -2.247913359926391,
+          "days": {
+            "groups": {
+              "2025-08-15": -1.1462225256860457,
+              "2025-08-19": 2.1954108989045387,
+              "2025-08-20": 1.0394952542890057,
+              "2025-08-25": 1.6160493827160523,
+              "2025-08-26": -2.138208621783323,
+              "2025-08-30": -1.0655324944869633,
+              "2025-09-05": 0.18475949439487643,
+              "2025-09-16": 0.7544638023183189,
+              "2025-09-17": -1.1283676572675285,
+              "2025-09-20": 0.323802045665871,
+              "2025-09-23": -0.11020824388149437,
+              "2025-09-25": -1.075867807153966,
+              "2025-09-29": -1.159537859007833,
+              "2025-10-05": -0.2119938202247184,
+              "2025-10-16": 1.1469681037504373,
+              "2025-10-17": 0.44611451942740304,
+              "2025-10-20": -1.112454520011195,
+              "2025-10-30": -1.0883951485795564,
+              "2025-11-12": 0.557634362410193,
+              "2025-11-14": 1.9549162282406543,
+              "2025-11-21": 0.5836415303306031,
+              "2025-12-01": 0.5526744186046503,
+              "2025-12-05": -1.0375423932120356,
+              "2025-12-09": 1.5507793427229983,
+              "2025-12-15": 1.3866473988439307,
+              "2025-12-17": -1.0174565266485998,
+              "2025-12-19": 1.71505163136205,
+              "2025-12-21": 1.5271934865900323,
+              "2026-01-12": -0.6438930825028011,
+              "2026-01-18": 0.6327713699405602,
+              "2026-01-20": 0.2295670330725289,
+              "2026-01-21": -1.163333333333333,
+              "2026-01-22": 0.22911527795187275,
+              "2026-01-26": -0.3148729446935711,
+              "2026-01-28": -0.21222205751556766,
+              "2026-02-05": 1.6031051297054777,
+              "2026-02-09": -0.1532800426325609,
+              "2026-02-11": -1.108270377733598,
+              "2026-02-19": 0.5113607594936689,
+              "2026-02-28": -1.0684757118927972,
+              "2026-03-08": 0.7766086159486691,
+              "2026-03-12": 0.4904192771084338,
+              "2026-03-23": -2.258514486543628,
+              "2026-03-26": -0.32355919003115174,
+              "2026-03-27": 0.8471424159472164,
+              "2026-04-03": 0.09377998629198159,
+              "2026-04-27": 0.7848740127867652,
+              "2026-04-28": -0.61203018842908,
+              "2026-05-01": 0.07305010330578413,
+              "2026-05-07": -0.11256337135614729,
+              "2026-05-28": -0.07206960023008326,
+              "2026-06-04": 1.6314075949367077,
+              "2026-06-05": 1.6912786471768388,
+              "2026-07-08": 3.1700071165177897,
+              "2026-07-10": 0.6066010094242712,
+              "2026-07-20": -1.1666679506933748,
+              "2026-08-12": -0.14713552343407754,
+              "2026-08-14": -1.0257049932144697,
+              "2026-08-17": -1.0750728432778436,
+              "2026-09-27": 1.1387430340557285,
+              "2026-09-29": 0.27289311594202686,
+              "2026-11-02": 0.9290950888192281
+            },
+            "total_price_cost_R": 9.497968173539821,
+            "best1": [
+              [
+                "2026-07-08",
+                3.1700071165177897
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-08",
+                3.1700071165177897
+              ],
+              [
+                "2025-08-19",
+                2.1954108989045387
+              ],
+              [
+                "2025-11-14",
+                1.9549162282406543
+              ]
+            ],
+            "best1_share_of_net": 0.3337563422616052,
+            "best3_share_of_net": 0.7707263395613958,
+            "without_best1_R": 6.327961057022032,
+            "without_best3_R": 2.177633929876839,
+            "leave_one_group_out_R": {
+              "2025-08-15": 10.644190699225867,
+              "2025-08-19": 7.302557274635282,
+              "2025-08-20": 8.458472919250815,
+              "2025-08-25": 7.881918790823769,
+              "2025-08-26": 11.636176795323145,
+              "2025-08-30": 10.563500668026784,
+              "2025-09-05": 9.313208679144944,
+              "2025-09-16": 8.743504371221501,
+              "2025-09-17": 10.62633583080735,
+              "2025-09-20": 9.17416612787395,
+              "2025-09-23": 9.608176417421316,
+              "2025-09-25": 10.573835980693786,
+              "2025-09-29": 10.657506032547653,
+              "2025-10-05": 9.709961993764539,
+              "2025-10-16": 8.351000069789384,
+              "2025-10-17": 9.051853654112417,
+              "2025-10-20": 10.610422693551016,
+              "2025-10-30": 10.586363322119377,
+              "2025-11-12": 8.940333811129628,
+              "2025-11-14": 7.543051945299167,
+              "2025-11-21": 8.914326643209218,
+              "2025-12-01": 8.94529375493517,
+              "2025-12-05": 10.535510566751856,
+              "2025-12-09": 7.947188830816822,
+              "2025-12-15": 8.11132077469589,
+              "2025-12-17": 10.51542470018842,
+              "2025-12-19": 7.782916542177771,
+              "2025-12-21": 7.970774686949788,
+              "2026-01-12": 10.141861256042622,
+              "2026-01-18": 8.865196803599261,
+              "2026-01-20": 9.268401140467292,
+              "2026-01-21": 10.661301506873155,
+              "2026-01-22": 9.268852895587948,
+              "2026-01-26": 9.812841118233392,
+              "2026-01-28": 9.710190231055389,
+              "2026-02-05": 7.894863043834343,
+              "2026-02-09": 9.651248216172382,
+              "2026-02-11": 10.60623855127342,
+              "2026-02-19": 8.986607414046151,
+              "2026-02-28": 10.566443885432617,
+              "2026-03-08": 8.721359557591152,
+              "2026-03-12": 9.007548896431388,
+              "2026-03-23": 11.75648266008345,
+              "2026-03-26": 9.821527363570972,
+              "2026-03-27": 8.650825757592605,
+              "2026-04-03": 9.40418818724784,
+              "2026-04-27": 8.713094160753055,
+              "2026-04-28": 10.1099983619689,
+              "2026-05-01": 9.424918070234037,
+              "2026-05-07": 9.610531544895968,
+              "2026-05-28": 9.570037773769904,
+              "2026-06-04": 7.866560578603114,
+              "2026-06-05": 7.806689526362982,
+              "2026-07-08": 6.327961057022032,
+              "2026-07-10": 8.89136716411555,
+              "2026-07-20": 10.664636124233196,
+              "2026-08-12": 9.645103696973898,
+              "2026-08-14": 10.52367316675429,
+              "2026-08-17": 10.573041016817665,
+              "2026-09-27": 8.359225139484092,
+              "2026-09-29": 9.225075057597794,
+              "2026-11-02": 8.568873084720593
+            },
+            "leave_one_out_min_R": 6.327961057022032
+          },
+          "coins": {
+            "groups": {
+              "APTUSDT": -1.1462225256860457,
+              "MYXUSDT": 0.372914099941813,
+              "TURBOUSDT": 0.9743101947898618,
+              "CYBERUSDT": 1.2972978845054302,
+              "USUALUSDT": -0.25780263021642447,
+              "UMAUSDT": 1.6160493827160523,
+              "AKTUSDT": -0.9769178101403376,
+              "COMPUSDT": -1.0675108253510037,
+              "PHAUSDT": -1.277754552002531,
+              "UNIUSDT": 0.18475949439487643,
+              "AVAAIUSDT": 0.7544638023183189,
+              "BIOUSDT": -1.1283676572675285,
+              "IOTXUSDT": 0.323802045665871,
+              "HFTUSDT": -0.11020824388149437,
+              "CHESSUSDT": -1.075867807153966,
+              "ZROUSDT": -1.3715316792325514,
+              "HBARUSDT": 1.1469681037504373,
+              "IMXUSDT": 0.44611451942740304,
+              "XPLUSDT": -1.112454520011195,
+              "HYPEUSDT": -1.0883951485795564,
+              "TIAUSDT": -0.4706651411398558,
+              "ALTUSDT": -0.1080415045395589,
+              "GALAUSDT": 1.3879723991507398,
+              "GRTUSDT": 0.5669438290899145,
+              "XVGUSDT": 0.6238527743639604,
+              "STRKUSDT": 0.5526744186046503,
+              "YBUSDT": 1.5507793427229983,
+              "YFIUSDT": 1.3866473988439307,
+              "PTBUSDT": -1.0174565266485998,
+              "BEATUSDT": 1.8819117184393321,
+              "IPUSDT": 1.5271934865900323,
+              "CHZUSDT": -0.9696429241174271,
+              "PENGUUSDT": -0.4894021085134601,
+              "ACXUSDT": -1.163333333333333,
+              "ICNTUSDT": 0.5548651195664988,
+              "RONINUSDT": -0.3148729446935711,
+              "XRPUSDT": 1.6031051297054777,
+              "ZENUSDT": -0.1532800426325609,
+              "DRIFTUSDT": -1.2208337490897454,
+              "COTIUSDT": 0.5113607594936689,
+              "KITEUSDT": -1.0684757118927972,
+              "C98USDT": 0.7766086159486691,
+              "BANANAS31USDT": 0.8471424159472164,
+              "ONTUSDT": 0.7848740127867652,
+              "ARKMUSDT": 0.5764938580054149,
+              "INJUSDT": -1.1885240464344948,
+              "MELANIAUSDT": 0.07305010330578413,
+              "VVVUSDT": -0.07206960023008326,
+              "TAOUSDT": 1.6314075949367077,
+              "ZECUSDT": 0.524610696483464,
+              "TLMUSDT": 1.5315839028094158,
+              "JTOUSDT": 1.6384232137083738,
+              "VANRYUSDT": 0.6066010094242712,
+              "GUAUSDT": -0.14713552343407754,
+              "CYSUSDT": -1.0257049932144697,
+              "ONUSDT": -1.0750728432778436,
+              "PUMPUSDT": 1.1387430340557285,
+              "NEARUSDT": 0.27289311594202686,
+              "CAPUSDT": 0.9290950888192281
+            },
+            "total_price_cost_R": 9.497968173539821,
+            "best1": [
+              [
+                "BEATUSDT",
+                1.8819117184393321
+              ]
+            ],
+            "best3": [
+              [
+                "BEATUSDT",
+                1.8819117184393321
+              ],
+              [
+                "JTOUSDT",
+                1.6384232137083738
+              ],
+              [
+                "TAOUSDT",
+                1.6314075949367077
+              ]
+            ],
+            "best1_share_of_net": 0.1981383474922677,
+            "best3_share_of_net": 0.5424046946626478,
+            "without_best1_R": 7.616056455100489,
+            "without_best3_R": 4.346225646455407,
+            "leave_one_group_out_R": {
+              "APTUSDT": 10.644190699225867,
+              "MYXUSDT": 9.125054073598008,
+              "TURBOUSDT": 8.52365797874996,
+              "CYBERUSDT": 8.200670289034392,
+              "USUALUSDT": 9.755770803756246,
+              "UMAUSDT": 7.881918790823769,
+              "AKTUSDT": 10.474885983680158,
+              "COMPUSDT": 10.565478998890825,
+              "PHAUSDT": 10.775722725542352,
+              "UNIUSDT": 9.313208679144944,
+              "AVAAIUSDT": 8.743504371221501,
+              "BIOUSDT": 10.62633583080735,
+              "IOTXUSDT": 9.17416612787395,
+              "HFTUSDT": 9.608176417421316,
+              "CHESSUSDT": 10.573835980693786,
+              "ZROUSDT": 10.869499852772373,
+              "HBARUSDT": 8.351000069789384,
+              "IMXUSDT": 9.051853654112417,
+              "XPLUSDT": 10.610422693551016,
+              "HYPEUSDT": 10.586363322119377,
+              "TIAUSDT": 9.968633314679677,
+              "ALTUSDT": 9.60600967807938,
+              "GALAUSDT": 8.10999577438908,
+              "GRTUSDT": 8.931024344449906,
+              "XVGUSDT": 8.87411539917586,
+              "STRKUSDT": 8.94529375493517,
+              "YBUSDT": 7.947188830816822,
+              "YFIUSDT": 8.11132077469589,
+              "PTBUSDT": 10.51542470018842,
+              "BEATUSDT": 7.616056455100489,
+              "IPUSDT": 7.970774686949788,
+              "CHZUSDT": 10.467611097657247,
+              "PENGUUSDT": 9.98737028205328,
+              "ACXUSDT": 10.661301506873155,
+              "ICNTUSDT": 8.943103053973323,
+              "RONINUSDT": 9.812841118233392,
+              "XRPUSDT": 7.894863043834343,
+              "ZENUSDT": 9.651248216172382,
+              "DRIFTUSDT": 10.718801922629567,
+              "COTIUSDT": 8.986607414046151,
+              "KITEUSDT": 10.566443885432617,
+              "C98USDT": 8.721359557591152,
+              "BANANAS31USDT": 8.650825757592605,
+              "ONTUSDT": 8.713094160753055,
+              "ARKMUSDT": 8.921474315534406,
+              "INJUSDT": 10.686492219974316,
+              "MELANIAUSDT": 9.424918070234037,
+              "VVVUSDT": 9.570037773769904,
+              "TAOUSDT": 7.866560578603114,
+              "ZECUSDT": 8.973357477056357,
+              "TLMUSDT": 7.966384270730405,
+              "JTOUSDT": 7.859544959831447,
+              "VANRYUSDT": 8.89136716411555,
+              "GUAUSDT": 9.645103696973898,
+              "CYSUSDT": 10.52367316675429,
+              "ONUSDT": 10.573041016817665,
+              "PUMPUSDT": 8.359225139484092,
+              "NEARUSDT": 9.225075057597794,
+              "CAPUSDT": 8.568873084720593
+            },
+            "leave_one_out_min_R": 7.616056455100489
+          },
+          "weeks": {
+            "groups": {
+              "2025-08-11": -1.1462225256860457,
+              "2025-08-18": 3.2349061531935446,
+              "2025-08-25": -1.587691733554234,
+              "2025-09-01": 0.18475949439487643,
+              "2025-09-15": -0.05010180928333863,
+              "2025-09-22": -1.1860760510354604,
+              "2025-09-29": -1.3715316792325514,
+              "2025-10-13": 1.5930826231778403,
+              "2025-10-20": -1.112454520011195,
+              "2025-10-27": -1.0883951485795564,
+              "2025-11-10": 2.5125505906508474,
+              "2025-11-17": 0.5836415303306031,
+              "2025-12-01": -0.4848679746073853,
+              "2025-12-08": 1.5507793427229983,
+              "2025-12-15": 3.6114359901474136,
+              "2026-01-12": -0.011121712562240926,
+              "2026-01-19": -0.7046510223089315,
+              "2026-01-26": -0.5270950022091387,
+              "2026-02-02": 1.6031051297054777,
+              "2026-02-09": -1.261550420366159,
+              "2026-02-16": 0.5113607594936689,
+              "2026-02-23": -1.0684757118927972,
+              "2026-03-02": 0.7766086159486691,
+              "2026-03-09": 0.4904192771084338,
+              "2026-03-23": -1.734931260627563,
+              "2026-03-30": 0.09377998629198159,
+              "2026-04-27": 0.24589392766346943,
+              "2026-05-04": -0.11256337135614729,
+              "2026-05-25": -0.07206960023008326,
+              "2026-06-01": 3.3226862421135466,
+              "2026-07-06": 3.7766081259420607,
+              "2026-07-20": -1.1666679506933748,
+              "2026-08-10": -1.1728405166485474,
+              "2026-08-17": -1.0750728432778436,
+              "2026-09-21": 1.1387430340557285,
+              "2026-09-28": 0.27289311594202686,
+              "2026-11-02": 0.9290950888192281
+            },
+            "total_price_cost_R": 9.497968173539821,
+            "best1": [
+              [
+                "2026-07-06",
+                3.7766081259420607
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-06",
+                3.7766081259420607
+              ],
+              [
+                "2025-12-15",
+                3.6114359901474136
+              ],
+              [
+                "2026-06-01",
+                3.3226862421135466
+              ]
+            ],
+            "best1_share_of_net": 0.39762273961532424,
+            "best3_share_of_net": 1.1276864864678962,
+            "without_best1_R": 5.72136004759776,
+            "without_best3_R": -1.2127621846632,
+            "leave_one_group_out_R": {
+              "2025-08-11": 10.644190699225867,
+              "2025-08-18": 6.263062020346276,
+              "2025-08-25": 11.085659907094055,
+              "2025-09-01": 9.313208679144944,
+              "2025-09-15": 9.54806998282316,
+              "2025-09-22": 10.684044224575281,
+              "2025-09-29": 10.869499852772373,
+              "2025-10-13": 7.90488555036198,
+              "2025-10-20": 10.610422693551016,
+              "2025-10-27": 10.586363322119377,
+              "2025-11-10": 6.9854175828889735,
+              "2025-11-17": 8.914326643209218,
+              "2025-12-01": 9.982836148147205,
+              "2025-12-08": 7.947188830816822,
+              "2025-12-15": 5.886532183392408,
+              "2026-01-12": 9.509089886102062,
+              "2026-01-19": 10.202619195848753,
+              "2026-01-26": 10.02506317574896,
+              "2026-02-02": 7.894863043834343,
+              "2026-02-09": 10.75951859390598,
+              "2026-02-16": 8.986607414046151,
+              "2026-02-23": 10.566443885432617,
+              "2026-03-02": 8.721359557591152,
+              "2026-03-09": 9.007548896431388,
+              "2026-03-23": 11.232899434167384,
+              "2026-03-30": 9.40418818724784,
+              "2026-04-27": 9.25207424587635,
+              "2026-05-04": 9.610531544895968,
+              "2026-05-25": 9.570037773769904,
+              "2026-06-01": 6.175281931426275,
+              "2026-07-06": 5.72136004759776,
+              "2026-07-20": 10.664636124233196,
+              "2026-08-10": 10.670808690188368,
+              "2026-08-17": 10.573041016817665,
+              "2026-09-21": 8.359225139484092,
+              "2026-09-28": 9.225075057597794,
+              "2026-11-02": 8.568873084720593
+            },
+            "leave_one_out_min_R": 5.72136004759776
+          }
+        },
+        "50": {
+          "mean_price_cost_R_per_observed_month": 0.42950161653954233,
+          "monthly_ledger": [
+            {
+              "month": "2025-08",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.14806601149911214,
+              "source_opportunities": 13,
+              "model_fills": 9,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -2.528359236400032,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -1.0942894749388377,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-11",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 2.8546127563389567,
+              "source_opportunities": 8,
+              "model_fills": 7,
+              "net_USDT": null
+            },
+            {
+              "month": "2025-12",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 4.329363207919929,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-01",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -1.5551960404753273,
+              "source_opportunities": 8,
+              "model_fills": 8,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-02",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.4591638191993639,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-03",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.7135072996926656,
+              "source_opportunities": 6,
+              "model_fills": 6,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-04",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0.042620107029100573,
+              "source_opportunities": 5,
+              "model_fills": 5,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-05",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -0.24684506566628076,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-06",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.246694631590783,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 2.4635647341898013,
+              "source_opportunities": 4,
+              "model_fills": 4,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": -2.3000226523446283,
+              "source_opportunities": 4,
+              "model_fills": 3,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 1.32441541032889,
+              "source_opportunities": 2,
+              "model_fills": 2,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.8839289446186013,
+              "source_opportunities": 3,
+              "model_fills": 1,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": -2.528359236400032,
+          "days": {
+            "groups": {
+              "2025-08-15": -1.2088893224086368,
+              "2025-08-19": 2.141660159906067,
+              "2025-08-20": 0.947711936222018,
+              "2025-08-25": 1.5586419753086447,
+              "2025-08-26": -2.19744088826189,
+              "2025-08-30": -1.0936178492670903,
+              "2025-09-05": 0.12820578814916594,
+              "2025-09-16": 0.7215797876032498,
+              "2025-09-17": -1.1833823675250408,
+              "2025-09-20": 0.2683025105899337,
+              "2025-09-23": -0.12677114641477047,
+              "2025-09-25": -1.1083825816485229,
+              "2025-09-29": -1.227911227154047,
+              "2025-10-05": -0.30284831460674067,
+              "2025-10-16": 1.0803540133193124,
+              "2025-10-17": 0.41513292433537846,
+              "2025-10-20": -1.1606493143017074,
+              "2025-10-30": -1.1262787836850805,
+              "2025-11-12": 0.46950495812921117,
+              "2025-11-14": 1.8727627548803136,
+              "2025-11-21": 0.5123450433294321,
+              "2025-12-01": 0.5279069767441852,
+              "2025-12-05": -1.0536319903029079,
+              "2025-12-09": 1.465399061032858,
+              "2025-12-15": 1.265606936416185,
+              "2025-12-17": -1.0249378952122854,
+              "2025-12-19": 1.7000737590886426,
+              "2025-12-21": 1.448946360153251,
+              "2026-01-12": -0.6739311198914901,
+              "2026-01-18": 0.5903092272855928,
+              "2026-01-20": 0.21336821389142202,
+              "2026-01-21": -1.233333333333333,
+              "2026-01-22": 0.16533111037809445,
+              "2026-01-26": -0.3460388639760824,
+              "2026-01-28": -0.27090127482953125,
+              "2026-02-05": 1.540150185293541,
+              "2026-02-09": -0.21897148947508702,
+              "2026-02-11": -1.1546719681908546,
+              "2026-02-19": 0.47215189873417535,
+              "2026-02-28": -1.0978224455611387,
+              "2026-03-08": 0.7279101741521522,
+              "2026-03-12": 0.46221686746987956,
+              "2026-03-23": -2.36930640934804,
+              "2026-03-26": -0.3407320872274134,
+              "2026-03-27": 0.806404155260756,
+              "2026-04-03": 0.057516563856523456,
+              "2026-04-27": 0.7277735990974078,
+              "2026-04-28": -0.7426700559248307,
+              "2026-05-01": 0.016916322314048632,
+              "2026-05-07": -0.16080481622306758,
+              "2026-05-28": -0.1029565717572618,
+              "2026-06-04": 1.5805822784810117,
+              "2026-06-05": 1.666112353109771,
+              "2026-07-08": 3.107901477876048,
+              "2026-07-10": 0.5937603287328602,
+              "2026-07-20": -1.238097072419107,
+              "2026-08-12": -0.15605431449846652,
+              "2026-08-14": -1.0367214188778138,
+              "2026-08-17": -1.107246918968348,
+              "2026-09-27": 1.0890712074303415,
+              "2026-09-29": 0.23534420289854852,
+              "2026-11-02": 0.8839289446186013
+            },
+            "total_price_cost_R": 6.395882214798038,
+            "best1": [
+              [
+                "2026-07-08",
+                3.107901477876048
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-08",
+                3.107901477876048
+              ],
+              [
+                "2025-08-19",
+                2.141660159906067
+              ],
+              [
+                "2025-11-14",
+                1.8727627548803136
+              ]
+            ],
+            "best1_share_of_net": 0.4859222502073837,
+            "best3_share_of_net": 1.1135796678968906,
+            "without_best1_R": 3.28798073692199,
+            "without_best3_R": -0.7264421778643904,
+            "leave_one_group_out_R": {
+              "2025-08-15": 7.604771537206675,
+              "2025-08-19": 4.254222054891971,
+              "2025-08-20": 5.44817027857602,
+              "2025-08-25": 4.837240239489393,
+              "2025-08-26": 8.593323103059928,
+              "2025-08-30": 7.489500064065129,
+              "2025-09-05": 6.2676764266488725,
+              "2025-09-16": 5.674302427194789,
+              "2025-09-17": 7.579264582323079,
+              "2025-09-20": 6.127579704208104,
+              "2025-09-23": 6.522653361212809,
+              "2025-09-25": 7.504264796446561,
+              "2025-09-29": 7.623793441952086,
+              "2025-10-05": 6.698730529404779,
+              "2025-10-16": 5.315528201478726,
+              "2025-10-17": 5.98074929046266,
+              "2025-10-20": 7.556531529099746,
+              "2025-10-30": 7.522160998483119,
+              "2025-11-12": 5.926377256668827,
+              "2025-11-14": 4.523119459917725,
+              "2025-11-21": 5.883537171468606,
+              "2025-12-01": 5.8679752380538535,
+              "2025-12-05": 7.449514205100947,
+              "2025-12-09": 4.930483153765181,
+              "2025-12-15": 5.130275278381854,
+              "2025-12-17": 7.4208201100103235,
+              "2025-12-19": 4.695808455709396,
+              "2025-12-21": 4.946935854644787,
+              "2026-01-12": 7.069813334689528,
+              "2026-01-18": 5.805572987512446,
+              "2026-01-20": 6.182514000906616,
+              "2026-01-21": 7.629215548131372,
+              "2026-01-22": 6.230551104419944,
+              "2026-01-26": 6.741921078774121,
+              "2026-01-28": 6.666783489627569,
+              "2026-02-05": 4.855732029504497,
+              "2026-02-09": 6.614853704273125,
+              "2026-02-11": 7.550554182988893,
+              "2026-02-19": 5.923730316063863,
+              "2026-02-28": 7.493704660359177,
+              "2026-03-08": 5.6679720406458864,
+              "2026-03-12": 5.933665347328159,
+              "2026-03-23": 8.765188624146077,
+              "2026-03-26": 6.736614302025452,
+              "2026-03-27": 5.589478059537282,
+              "2026-04-03": 6.3383656509415145,
+              "2026-04-27": 5.66810861570063,
+              "2026-04-28": 7.138552270722869,
+              "2026-05-01": 6.37896589248399,
+              "2026-05-07": 6.556687031021106,
+              "2026-05-28": 6.4988387865553,
+              "2026-06-04": 4.815299936317027,
+              "2026-06-05": 4.7297698616882675,
+              "2026-07-08": 3.28798073692199,
+              "2026-07-10": 5.802121886065178,
+              "2026-07-20": 7.633979287217145,
+              "2026-08-12": 6.551936529296505,
+              "2026-08-14": 7.432603633675852,
+              "2026-08-17": 7.503129133766386,
+              "2026-09-27": 5.306811007367697,
+              "2026-09-29": 6.16053801189949,
+              "2026-11-02": 5.511953270179437
+            },
+            "leave_one_out_min_R": 3.28798073692199
+          },
+          "coins": {
+            "groups": {
+              "APTUSDT": -1.2088893224086368,
+              "MYXUSDT": 0.3231800326633354,
+              "TURBOUSDT": 0.920771716497878,
+              "CYBERUSDT": 1.2411778158947955,
+              "USUALUSDT": -0.2934658796727775,
+              "UMAUSDT": 1.5586419753086447,
+              "AKTUSDT": -1.043480288189647,
+              "COMPUSDT": -1.0964440362157197,
+              "PHAUSDT": -1.3645191240966215,
+              "UNIUSDT": 0.12820578814916594,
+              "AVAAIUSDT": 0.7215797876032498,
+              "BIOUSDT": -1.1833823675250408,
+              "IOTXUSDT": 0.2683025105899337,
+              "HFTUSDT": -0.12677114641477047,
+              "CHESSUSDT": -1.1083825816485229,
+              "ZROUSDT": -1.5307595417607878,
+              "HBARUSDT": 1.0803540133193124,
+              "IMXUSDT": 0.41513292433537846,
+              "XPLUSDT": -1.1606493143017074,
+              "HYPEUSDT": -1.1262787836850805,
+              "TIAUSDT": -0.5709229040851443,
+              "ALTUSDT": -0.15434500648508415,
+              "GALAUSDT": 1.3440552016985106,
+              "GRTUSDT": 0.5287075531818031,
+              "XVGUSDT": 0.5697896776627995,
+              "STRKUSDT": 0.5279069767441852,
+              "YBUSDT": 1.465399061032858,
+              "YFIUSDT": 1.265606936416185,
+              "PTBUSDT": -1.0249378952122854,
+              "BEATUSDT": 1.8215585393311087,
+              "IPUSDT": 1.448946360153251,
+              "CHZUSDT": -1.032542758953849,
+              "PENGUUSDT": -0.5842243133630076,
+              "ACXUSDT": -1.233333333333333,
+              "ICNTUSDT": 0.5239427494404533,
+              "RONINUSDT": -0.3460388639760824,
+              "XRPUSDT": 1.540150185293541,
+              "ZENUSDT": -0.21897148947508702,
+              "DRIFTUSDT": -1.3154767844139221,
+              "COTIUSDT": 0.47215189873417535,
+              "KITEUSDT": -1.0978224455611387,
+              "C98USDT": 0.7279101741521522,
+              "BANANAS31USDT": 0.806404155260756,
+              "ONTUSDT": 0.7277735990974078,
+              "ARKMUSDT": 0.5266500104101619,
+              "INJUSDT": -1.2693200663349926,
+              "MELANIAUSDT": 0.016916322314048632,
+              "VVVUSDT": -0.1029565717572618,
+              "TAOUSDT": 1.5805822784810117,
+              "ZECUSDT": 0.4280152806906641,
+              "TLMUSDT": 1.5172968868640857,
+              "JTOUSDT": 1.5906045910119626,
+              "VANRYUSDT": 0.5937603287328602,
+              "GUAUSDT": -0.15605431449846652,
+              "CYSUSDT": -1.0367214188778138,
+              "ONUSDT": -1.107246918968348,
+              "PUMPUSDT": 1.0890712074303415,
+              "NEARUSDT": 0.23534420289854852,
+              "CAPUSDT": 0.8839289446186013
+            },
+            "total_price_cost_R": 6.395882214798038,
+            "best1": [
+              [
+                "BEATUSDT",
+                1.8215585393311087
+              ]
+            ],
+            "best3": [
+              [
+                "BEATUSDT",
+                1.8215585393311087
+              ],
+              [
+                "JTOUSDT",
+                1.5906045910119626
+              ],
+              [
+                "TAOUSDT",
+                1.5805822784810117
+              ]
+            ],
+            "best1_share_of_net": 0.2848017643471609,
+            "best3_share_of_net": 0.7806187232892529,
+            "without_best1_R": 4.57432367546693,
+            "without_best3_R": 1.403136805973955,
+            "leave_one_group_out_R": {
+              "APTUSDT": 7.604771537206675,
+              "MYXUSDT": 6.072702182134703,
+              "TURBOUSDT": 5.47511049830016,
+              "CYBERUSDT": 5.154704398903243,
+              "USUALUSDT": 6.689348094470816,
+              "UMAUSDT": 4.837240239489393,
+              "AKTUSDT": 7.439362502987685,
+              "COMPUSDT": 7.492326251013758,
+              "PHAUSDT": 7.76040133889466,
+              "UNIUSDT": 6.2676764266488725,
+              "AVAAIUSDT": 5.674302427194789,
+              "BIOUSDT": 7.579264582323079,
+              "IOTXUSDT": 6.127579704208104,
+              "HFTUSDT": 6.522653361212809,
+              "CHESSUSDT": 7.504264796446561,
+              "ZROUSDT": 7.926641756558826,
+              "HBARUSDT": 5.315528201478726,
+              "IMXUSDT": 5.98074929046266,
+              "XPLUSDT": 7.556531529099746,
+              "HYPEUSDT": 7.522160998483119,
+              "TIAUSDT": 6.966805118883182,
+              "ALTUSDT": 6.550227221283122,
+              "GALAUSDT": 5.051827013099528,
+              "GRTUSDT": 5.867174661616235,
+              "XVGUSDT": 5.826092537135239,
+              "STRKUSDT": 5.8679752380538535,
+              "YBUSDT": 4.930483153765181,
+              "YFIUSDT": 5.130275278381854,
+              "PTBUSDT": 7.4208201100103235,
+              "BEATUSDT": 4.57432367546693,
+              "IPUSDT": 4.946935854644787,
+              "CHZUSDT": 7.428424973751888,
+              "PENGUUSDT": 6.980106528161046,
+              "ACXUSDT": 7.629215548131372,
+              "ICNTUSDT": 5.871939465357585,
+              "RONINUSDT": 6.741921078774121,
+              "XRPUSDT": 4.855732029504497,
+              "ZENUSDT": 6.614853704273125,
+              "DRIFTUSDT": 7.71135899921196,
+              "COTIUSDT": 5.923730316063863,
+              "KITEUSDT": 7.493704660359177,
+              "C98USDT": 5.6679720406458864,
+              "BANANAS31USDT": 5.589478059537282,
+              "ONTUSDT": 5.66810861570063,
+              "ARKMUSDT": 5.869232204387877,
+              "INJUSDT": 7.6652022811330305,
+              "MELANIAUSDT": 6.37896589248399,
+              "VVVUSDT": 6.4988387865553,
+              "TAOUSDT": 4.815299936317027,
+              "ZECUSDT": 5.9678669341073745,
+              "TLMUSDT": 4.878585327933953,
+              "JTOUSDT": 4.8052776237860755,
+              "VANRYUSDT": 5.802121886065178,
+              "GUAUSDT": 6.551936529296505,
+              "CYSUSDT": 7.432603633675852,
+              "ONUSDT": 7.503129133766386,
+              "PUMPUSDT": 5.306811007367697,
+              "NEARUSDT": 6.16053801189949,
+              "CAPUSDT": 5.511953270179437
+            },
+            "leave_one_out_min_R": 4.57432367546693
+          },
+          "weeks": {
+            "groups": {
+              "2025-08-11": -1.2088893224086368,
+              "2025-08-18": 3.089372096128085,
+              "2025-08-25": -1.7324167622203357,
+              "2025-09-01": 0.12820578814916594,
+              "2025-09-15": -0.19350006933185726,
+              "2025-09-22": -1.2351537280632934,
+              "2025-09-29": -1.5307595417607878,
+              "2025-10-13": 1.4954869376546909,
+              "2025-10-20": -1.1606493143017074,
+              "2025-10-27": -1.1262787836850805,
+              "2025-11-10": 2.342267713009525,
+              "2025-11-17": 0.5123450433294321,
+              "2025-12-01": -0.5257250135587227,
+              "2025-12-08": 1.465399061032858,
+              "2025-12-15": 3.3896891604457933,
+              "2026-01-12": -0.08362189260589736,
+              "2026-01-19": -0.8546340090638166,
+              "2026-01-26": -0.6169401388056137,
+              "2026-02-02": 1.540150185293541,
+              "2026-02-09": -1.3736434576659415,
+              "2026-02-16": 0.47215189873417535,
+              "2026-02-23": -1.0978224455611387,
+              "2026-03-02": 0.7279101741521522,
+              "2026-03-09": 0.46221686746987956,
+              "2026-03-23": -1.9036343413146972,
+              "2026-03-30": 0.057516563856523456,
+              "2026-04-27": 0.0020198654866258325,
+              "2026-05-04": -0.16080481622306758,
+              "2026-05-25": -0.1029565717572618,
+              "2026-06-01": 3.246694631590783,
+              "2026-07-06": 3.701661806608908,
+              "2026-07-20": -1.238097072419107,
+              "2026-08-10": -1.1927757333762803,
+              "2026-08-17": -1.107246918968348,
+              "2026-09-21": 1.0890712074303415,
+              "2026-09-28": 0.23534420289854852,
+              "2026-11-02": 0.8839289446186013
+            },
+            "total_price_cost_R": 6.395882214798039,
+            "best1": [
+              [
+                "2026-07-06",
+                3.701661806608908
+              ]
+            ],
+            "best3": [
+              [
+                "2026-07-06",
+                3.701661806608908
+              ],
+              [
+                "2025-12-15",
+                3.3896891604457933
+              ],
+              [
+                "2026-06-01",
+                3.246694631590783
+              ]
+            ],
+            "best1_share_of_net": 0.5787570318359583,
+            "best3_share_of_net": 1.616359596917925,
+            "without_best1_R": 2.694220408189131,
+            "without_best3_R": -3.9421633838474452,
+            "leave_one_group_out_R": {
+              "2025-08-11": 7.604771537206676,
+              "2025-08-18": 3.306510118669954,
+              "2025-08-25": 8.128298977018375,
+              "2025-09-01": 6.267676426648873,
+              "2025-09-15": 6.589382284129896,
+              "2025-09-22": 7.631035942861333,
+              "2025-09-29": 7.926641756558827,
+              "2025-10-13": 4.900395277143348,
+              "2025-10-20": 7.556531529099747,
+              "2025-10-27": 7.52216099848312,
+              "2025-11-10": 4.053614501788514,
+              "2025-11-17": 5.883537171468607,
+              "2025-12-01": 6.921607228356762,
+              "2025-12-08": 4.930483153765181,
+              "2025-12-15": 3.006193054352246,
+              "2026-01-12": 6.479504107403937,
+              "2026-01-19": 7.2505162238618555,
+              "2026-01-26": 7.012822353603653,
+              "2026-02-02": 4.855732029504498,
+              "2026-02-09": 7.769525672463981,
+              "2026-02-16": 5.923730316063864,
+              "2026-02-23": 7.493704660359178,
+              "2026-03-02": 5.667972040645887,
+              "2026-03-09": 5.9336653473281595,
+              "2026-03-23": 8.299516556112737,
+              "2026-03-30": 6.338365650941515,
+              "2026-04-27": 6.393862349311413,
+              "2026-05-04": 6.556687031021107,
+              "2026-05-25": 6.498838786555301,
+              "2026-06-01": 3.1491875832072562,
+              "2026-07-06": 2.694220408189131,
+              "2026-07-20": 7.633979287217146,
+              "2026-08-10": 7.588657948174319,
+              "2026-08-17": 7.503129133766388,
+              "2026-09-21": 5.306811007367697,
+              "2026-09-28": 6.160538011899491,
+              "2026-11-02": 5.511953270179438
+            },
+            "leave_one_out_min_R": 2.694220408189131
+          }
+        }
+      },
+      "cluster_sensitivity_35bp": [
+        {
+          "cluster_axis": "week",
+          "nonempty_blocks": 37,
+          "replications": 9999,
+          "seed": 20261120,
+          "meanR_q05": -0.07460448153335747,
+          "meanR_q95": 0.33972574402015854,
+          "interpretation": "Descriptive exchangeable-cluster sensitivity of EXPOSED sample. Not selection-adjusted confidence, not independent-trade significance."
+        },
+        {
+          "cluster_axis": "coin",
+          "nonempty_blocks": 59,
+          "replications": 9999,
+          "seed": 20261120,
+          "meanR_q05": -0.044870394325959864,
+          "meanR_q95": 0.30518075475170064,
+          "interpretation": "Descriptive exchangeable-cluster sensitivity of EXPOSED sample. Not selection-adjusted confidence, not independent-trade significance."
+        }
+      ],
+      "concurrency": {
+        "peak_open_model_positions": 3,
+        "peak_positions_at_ms": 1755596220000,
+        "peak_full_initial_notional_per_1USDT_R": 80.69364161849711,
+        "peak_full_reservation_at_ms": 1765807260000,
+        "full_reserve_margin_at_10x_per_1USDT_R": 8.06936416184971,
+        "deposit_reference_USDT": 55,
+        "reference_leverage_ceiling_not_recommendation": 10,
+        "actual_remaining_risk_USDT": null,
+        "actual_leverage": null,
+        "actual_account_equity": null,
+        "interpretation": "Full original notional reserved until final exit is conservative reservation, not actual margin; no partial-fill chronology, no mark-to-market. Above55 does not prove impossibility; below55 does not prove feasibility."
+      },
+      "unit_risk_diagnostic": {
+        "USDT_risk_notional_unit": 1,
+        "notional_per_unit_risk_min": 4.987579042457091,
+        "median": 26.649040481984628,
+        "p95": 52.929418996969154,
+        "max": 80.69364161849711,
+        "actual_trade_sizing": null,
+        "actual_lot_tick_filters": null,
+        "no_position_size_recommendation": true
+      },
+      "gates": {
+        "35": {
+          "positive_ALL": true,
+          "positive_calendar_both": true,
+          "PF13_calendar_both": false,
+          "positive_exposed_last40": true,
+          "funding_and_independent_OOS_known": false
+        },
+        "50": {
+          "positive_ALL": true,
+          "positive_calendar_both": true,
+          "PF13_calendar_both": false,
+          "positive_exposed_last40": true,
+          "funding_and_independent_OOS_known": false
+        }
+      },
+      "true_net_R": null,
+      "netUSDT_per_month_at55": null,
+      "actual_opportunities_per_month": null,
+      "status": "FORWARD_PENDING_WITH_ECONOMIC_DATA_GAPS",
+      "untouched_OOS": false,
+      "new_bar_replays": 0
+    },
+    "WolfxCrypto_VIP_M0_PROXY": {
+      "source_bounds": {
+        "first_utc": "2026-07-15T17:26:21+00:00",
+        "last_utc": "2026-11-10T18:09:45+00:00",
+        "calendar_midpoint_utc": "2026-09-12T17:48:03+00:00",
+        "train60_signals": 39,
+        "oos40_signals": 27,
+        "oos_first_utc": "2026-10-22T06:43:08+00:00"
+      },
+      "source_statuses": {
+        "MATCHED": 54,
+        "DATA_GAP": 4,
+        "UNMATCHED_OUTCOME": 2,
+        "CENSORED": 6
+      },
+      "source_window_months": 3.8777869039470683,
+      "archive_opportunities_per_month": 17.020017250772813,
+      "archive_matched_fills_per_month": 13.925468659723212,
+      "first_matched_fill_utc": "2026-07-15T17:28:00+00:00",
+      "last_matched_fill_utc": "2026-11-04T15:27:00+00:00",
+      "edited_visible_all_n": 0,
+      "first_received_known_n": 0,
+      "independent_trade_n": null,
+      "unique_fill_day_symbol_n": 53,
+      "metrics": [
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 54,
+          "price_cost_R": 12.841637395243387,
+          "mean_price_cost_R": 0.23780809991191457,
+          "PF_price_cost_only": 1.6282894754704857,
+          "win_rate_pct": 62.96296296296296,
+          "close_order_maxDD_R": 3.3417145615527835,
+          "unknown_funding_closed_n": 54,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 66,
+          "root_statuses": {
+            "MATCHED": 54,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 54
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 54,
+          "price_cost_R": 7.829624057028585,
+          "mean_price_cost_R": 0.14499303809312195,
+          "PF_price_cost_only": 1.348933405430941,
+          "win_rate_pct": 61.111111111111114,
+          "close_order_maxDD_R": 3.5695242692546385,
+          "unknown_funding_closed_n": 54,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 66,
+          "root_statuses": {
+            "MATCHED": 54,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 54
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "ALL",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 54,
+          "price_cost_R": 2.4596097660841534,
+          "mean_price_cost_R": 0.0455483290015584,
+          "PF_price_cost_only": 1.0992364690955252,
+          "win_rate_pct": 61.111111111111114,
+          "close_order_maxDD_R": 3.9384397160681246,
+          "unknown_funding_closed_n": 54,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 66,
+          "root_statuses": {
+            "MATCHED": 54,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 54
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 1,
+          "price_cost_R": -1.228917641560308,
+          "mean_price_cost_R": -1.228917641560308,
+          "PF_price_cost_only": 0.0,
+          "win_rate_pct": 0.0,
+          "close_order_maxDD_R": 1.228917641560308,
+          "unknown_funding_closed_n": 1,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 1,
+          "root_statuses": {
+            "MATCHED": 1
+          },
+          "matched_model_statuses": {
+            "TRADE": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": -1.228917641560308
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 1,
+          "price_cost_R": -1.3815294026005134,
+          "mean_price_cost_R": -1.3815294026005134,
+          "PF_price_cost_only": 0.0,
+          "win_rate_pct": 0.0,
+          "close_order_maxDD_R": 1.3815294026005134,
+          "unknown_funding_closed_n": 1,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 1,
+          "root_statuses": {
+            "MATCHED": 1
+          },
+          "matched_model_statuses": {
+            "TRADE": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": -1.3815294026005134
+        },
+        {
+          "slice": "CAL_H1",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 1,
+          "price_cost_R": -1.545042003715019,
+          "mean_price_cost_R": -1.545042003715019,
+          "PF_price_cost_only": 0.0,
+          "win_rate_pct": 0.0,
+          "close_order_maxDD_R": 1.545042003715019,
+          "unknown_funding_closed_n": 1,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 1,
+          "root_statuses": {
+            "MATCHED": 1
+          },
+          "matched_model_statuses": {
+            "TRADE": 1
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": -1.545042003715019
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 53,
+          "price_cost_R": 14.070555036803695,
+          "mean_price_cost_R": 0.2654821705057301,
+          "PF_price_cost_only": 1.7324550302456179,
+          "win_rate_pct": 64.15094339622641,
+          "close_order_maxDD_R": 3.3417145615527835,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 65,
+          "root_statuses": {
+            "MATCHED": 53,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 53
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 53,
+          "price_cost_R": 9.211153459629099,
+          "mean_price_cost_R": 0.17379534829488866,
+          "PF_price_cost_only": 1.4374347592186312,
+          "win_rate_pct": 62.264150943396224,
+          "close_order_maxDD_R": 3.5695242692546385,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 65,
+          "root_statuses": {
+            "MATCHED": 53,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 53
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "CAL_H2",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 53,
+          "price_cost_R": 4.004651769799172,
+          "mean_price_cost_R": 0.07555946735470137,
+          "PF_price_cost_only": 1.1723149818825291,
+          "win_rate_pct": 62.264150943396224,
+          "close_order_maxDD_R": 3.9384397160681246,
+          "unknown_funding_closed_n": 53,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 65,
+          "root_statuses": {
+            "MATCHED": 53,
+            "DATA_GAP": 4,
+            "UNMATCHED_OUTCOME": 2,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 53
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 36,
+          "price_cost_R": 10.09786733843593,
+          "mean_price_cost_R": 0.28049631495655364,
+          "PF_price_cost_only": 1.6942995723923724,
+          "win_rate_pct": 58.333333333333336,
+          "close_order_maxDD_R": 3.3417145615527835,
+          "unknown_funding_closed_n": 36,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 39,
+          "root_statuses": {
+            "MATCHED": 36,
+            "DATA_GAP": 3
+          },
+          "matched_model_statuses": {
+            "TRADE": 36
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 36,
+          "price_cost_R": 6.851955710117097,
+          "mean_price_cost_R": 0.19033210305880827,
+          "PF_price_cost_only": 1.4301004426525648,
+          "win_rate_pct": 58.333333333333336,
+          "close_order_maxDD_R": 3.5695242692546385,
+          "unknown_funding_closed_n": 36,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 39,
+          "root_statuses": {
+            "MATCHED": 36,
+            "DATA_GAP": 3
+          },
+          "matched_model_statuses": {
+            "TRADE": 36
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_TRAIN60",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 36,
+          "price_cost_R": 3.37419325120406,
+          "mean_price_cost_R": 0.0937275903112239,
+          "PF_price_cost_only": 1.1937272722777146,
+          "win_rate_pct": 58.333333333333336,
+          "close_order_maxDD_R": 3.9384397160681246,
+          "unknown_funding_closed_n": 36,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 39,
+          "root_statuses": {
+            "MATCHED": 36,
+            "DATA_GAP": 3
+          },
+          "matched_model_statuses": {
+            "TRADE": 36
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 21,
+          "model_closed_n": 18,
+          "price_cost_R": 2.7437700568074552,
+          "mean_price_cost_R": 0.1524316698226364,
+          "PF_price_cost_only": 1.4654336772884724,
+          "win_rate_pct": 72.22222222222223,
+          "close_order_maxDD_R": 2.375357727134129,
+          "unknown_funding_closed_n": 18,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 27,
+          "root_statuses": {
+            "MATCHED": 18,
+            "UNMATCHED_OUTCOME": 2,
+            "DATA_GAP": 1,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 18
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 35,
+          "model_closed_n": 18,
+          "price_cost_R": 0.9776683469114875,
+          "mean_price_cost_R": 0.05431490816174931,
+          "PF_price_cost_only": 1.1502331215490829,
+          "win_rate_pct": 66.66666666666667,
+          "close_order_maxDD_R": 3.1240306535956854,
+          "unknown_funding_closed_n": 18,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 27,
+          "root_statuses": {
+            "MATCHED": 18,
+            "UNMATCHED_OUTCOME": 2,
+            "DATA_GAP": 1,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 18
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        },
+        {
+          "slice": "SOURCE_LAST40",
+          "total_cost_budget_bp": 50,
+          "model_closed_n": 18,
+          "price_cost_R": -0.9145834851199067,
+          "mean_price_cost_R": -0.0508101936177726,
+          "PF_price_cost_only": 0.8758726703381453,
+          "win_rate_pct": 66.66666666666667,
+          "close_order_maxDD_R": 3.927186647993838,
+          "unknown_funding_closed_n": 18,
+          "true_net_R": null,
+          "no_fill_n": 0,
+          "all_source_opportunities": 27,
+          "root_statuses": {
+            "MATCHED": 18,
+            "UNMATCHED_OUTCOME": 2,
+            "DATA_GAP": 1,
+            "CENSORED": 6
+          },
+          "matched_model_statuses": {
+            "TRADE": 18
+          },
+          "H1_cross_boundary_closed_n": 0,
+          "strict_H1_price_cost_R": null
+        }
+      ],
+      "economics_by_cost": {
+        "21": {
+          "mean_price_cost_R_per_observed_month": 3.3115892423516926,
+          "monthly_ledger": [
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": false,
+              "price_cost_R": -1.228917641560308,
+              "source_opportunities": 1,
+              "model_fills": 1,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 13.181743427027493,
+              "source_opportunities": 52,
+              "model_fills": 47,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.8888116097761972,
+              "source_opportunities": 13,
+              "model_fills": 6,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": 0,
+          "days": {
+            "groups": {
+              "2026-07-16": -1.228917641560308,
+              "2026-10-05": 0.5223925316929845,
+              "2026-10-06": 1.3660801268946083,
+              "2026-10-07": 1.6805804270462654,
+              "2026-10-08": 3.4479350892309433,
+              "2026-10-14": 1.0124987267189078,
+              "2026-10-15": -1.1163661052473992,
+              "2026-10-16": 1.254372292494879,
+              "2026-10-17": 0.4620004783341536,
+              "2026-10-18": 0.18790078377711583,
+              "2026-10-19": -0.0335021592162994,
+              "2026-10-20": -1.1192126582278477,
+              "2026-10-21": 1.8555747426829987,
+              "2026-10-22": 1.8065307038149288,
+              "2026-10-23": 2.3918609281247267,
+              "2026-10-24": -1.191681762545898,
+              "2026-10-25": 0.059626461507289896,
+              "2026-10-28": -1.2423630911188026,
+              "2026-10-29": 1.8375159110639423,
+              "2026-11-01": 0.36134166666666623,
+              "2026-11-02": -0.736740290012351,
+              "2026-11-03": 0.40766021505376343,
+              "2026-11-04": 0.8565500180681185
+            },
+            "total_price_cost_R": 12.841637395243387,
+            "best1": [
+              [
+                "2026-10-08",
+                3.4479350892309433
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-08",
+                3.4479350892309433
+              ],
+              [
+                "2026-10-23",
+                2.3918609281247267
+              ],
+              [
+                "2026-10-21",
+                1.8555747426829987
+              ]
+            ],
+            "best1_share_of_net": 0.2684965307078424,
+            "best3_share_of_net": 0.5992515224646567,
+            "without_best1_R": 9.393702306012443,
+            "without_best3_R": 5.146266635204718,
+            "leave_one_group_out_R": {
+              "2026-07-16": 14.070555036803695,
+              "2026-10-05": 12.319244863550402,
+              "2026-10-06": 11.475557268348778,
+              "2026-10-07": 11.161056968197121,
+              "2026-10-08": 9.393702306012443,
+              "2026-10-14": 11.829138668524479,
+              "2026-10-15": 13.958003500490786,
+              "2026-10-16": 11.587265102748507,
+              "2026-10-17": 12.379636916909233,
+              "2026-10-18": 12.653736611466272,
+              "2026-10-19": 12.875139554459686,
+              "2026-10-20": 13.960850053471235,
+              "2026-10-21": 10.986062652560388,
+              "2026-10-22": 11.035106691428458,
+              "2026-10-23": 10.44977646711866,
+              "2026-10-24": 14.033319157789284,
+              "2026-10-25": 12.782010933736096,
+              "2026-10-28": 14.08400048636219,
+              "2026-10-29": 11.004121484179445,
+              "2026-11-01": 12.48029572857672,
+              "2026-11-02": 13.578377685255738,
+              "2026-11-03": 12.433977180189624,
+              "2026-11-04": 11.985087377175269
+            },
+            "leave_one_out_min_R": 9.393702306012443
+          },
+          "coins": {
+            "groups": {
+              "BTCUSDT": -0.19640882367308832,
+              "CHRUSDT": 3.7077061937776,
+              "SANDUSDT": 1.548269809020722,
+              "PEOPLEUSDT": -1.0980672384219559,
+              "BCHUSDT": -0.18218968212611383,
+              "STXUSDT": 1.6805804270462654,
+              "SOLUSDT": 1.556329371816639,
+              "ZRXUSDT": -1.1024426666666662,
+              "LINKUSDT": 1.3347651155984777,
+              "EIGENUSDT": 2.586004263816864,
+              "ETCUSDT": -0.2997292929292947,
+              "BNBUSDT": 0.6407261968754614,
+              "XTZUSDT": 0.3857767790262167,
+              "ETHUSDT": -1.1163661052473992,
+              "APTUSDT": 2.182826244182195,
+              "CHZUSDT": 0.022701727026677998,
+              "ONTUSDT": -2.3078159382750574,
+              "LDOUSDT": -2.206612351159022,
+              "HOTUSDT": 0.8428930648769578,
+              "ETHFIUSDT": -1.0864132596685083,
+              "OPUSDT": 0.4012936936936939,
+              "PUMPUSDT": 1.6591932659932658,
+              "INJUSDT": 3.365283365892185,
+              "XRPUSDT": -1.175320734194425,
+              "ICPUSDT": -1.1192126582278477,
+              "ADAUSDT": 0.30445415444770396,
+              "MANAUSDT": -0.8183611743106043,
+              "ZROUSDT": 1.4162301907944692,
+              "JASMYUSDT": 0.33884444444444384,
+              "ZECUSDT": 0.3971829128590795,
+              "ASTERUSDT": 1.5085961739130394,
+              "NEARUSDT": -1.1502432915921297,
+              "GRASSUSDT": 0.4135030015797787,
+              "ARUSDT": 0.40766021505376343
+            },
+            "total_price_cost_R": 12.841637395243387,
+            "best1": [
+              [
+                "CHRUSDT",
+                3.7077061937776
+              ]
+            ],
+            "best3": [
+              [
+                "CHRUSDT",
+                3.7077061937776
+              ],
+              [
+                "INJUSDT",
+                3.365283365892185
+              ],
+              [
+                "EIGENUSDT",
+                2.586004263816864
+              ]
+            ],
+            "best1_share_of_net": 0.28872534550391177,
+            "best3_share_of_net": 0.7521621679696697,
+            "without_best1_R": 9.133931201465787,
+            "without_best3_R": 3.1826435717567385,
+            "leave_one_group_out_R": {
+              "BTCUSDT": 13.038046218916476,
+              "CHRUSDT": 9.133931201465787,
+              "SANDUSDT": 11.293367586222665,
+              "PEOPLEUSDT": 13.939704633665343,
+              "BCHUSDT": 13.0238270773695,
+              "STXUSDT": 11.161056968197121,
+              "SOLUSDT": 11.285308023426747,
+              "ZRXUSDT": 13.944080061910054,
+              "LINKUSDT": 11.50687227964491,
+              "EIGENUSDT": 10.255633131426523,
+              "ETCUSDT": 13.141366688172681,
+              "BNBUSDT": 12.200911198367926,
+              "XTZUSDT": 12.455860616217171,
+              "ETHUSDT": 13.958003500490786,
+              "APTUSDT": 10.658811151061192,
+              "CHZUSDT": 12.818935668216708,
+              "ONTUSDT": 15.149453333518444,
+              "LDOUSDT": 15.048249746402409,
+              "HOTUSDT": 11.99874433036643,
+              "ETHFIUSDT": 13.928050654911896,
+              "OPUSDT": 12.440343701549693,
+              "PUMPUSDT": 11.182444129250122,
+              "INJUSDT": 9.476354029351203,
+              "XRPUSDT": 14.016958129437812,
+              "ICPUSDT": 13.960850053471235,
+              "ADAUSDT": 12.537183240795683,
+              "MANAUSDT": 13.659998569553991,
+              "ZROUSDT": 11.425407204448918,
+              "JASMYUSDT": 12.502792950798943,
+              "ZECUSDT": 12.444454482384307,
+              "ASTERUSDT": 11.333041221330348,
+              "NEARUSDT": 13.991880686835517,
+              "GRASSUSDT": 12.428134393663608,
+              "ARUSDT": 12.433977180189624
+            },
+            "leave_one_out_min_R": 9.133931201465787
+          },
+          "weeks": {
+            "groups": {
+              "2026-07-13": -1.228917641560308,
+              "2026-10-05": 7.0169881748648,
+              "2026-10-12": 1.8004061760776573,
+              "2026-10-19": 3.769196256139899,
+              "2026-10-26": 0.9564944866118059,
+              "2026-11-02": 0.527469943109531
+            },
+            "total_price_cost_R": 12.841637395243385,
+            "best1": [
+              [
+                "2026-10-05",
+                7.0169881748648
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-05",
+                7.0169881748648
+              ],
+              [
+                "2026-10-19",
+                3.769196256139899
+              ],
+              [
+                "2026-10-12",
+                1.8004061760776573
+              ]
+            ],
+            "best1_share_of_net": 0.546424724425246,
+            "best3_share_of_net": 0.9801390757026437,
+            "without_best1_R": 5.824649220378585,
+            "without_best3_R": 0.2550467881610281,
+            "leave_one_group_out_R": {
+              "2026-07-13": 14.070555036803693,
+              "2026-10-05": 5.824649220378585,
+              "2026-10-12": 11.041231219165727,
+              "2026-10-19": 9.072441139103486,
+              "2026-10-26": 11.885142908631579,
+              "2026-11-02": 12.314167452133853
+            },
+            "leave_one_out_min_R": 5.824649220378585
+          }
+        },
+        "35": {
+          "mean_price_cost_R_per_observed_month": 2.0190960078438236,
+          "monthly_ledger": [
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": false,
+              "price_cost_R": -1.3815294026005134,
+              "source_opportunities": 1,
+              "model_fills": 1,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 8.729800776668771,
+              "source_opportunities": 52,
+              "model_fills": 47,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.48135268296032857,
+              "source_opportunities": 13,
+              "model_fills": 6,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": 0,
+          "days": {
+            "groups": {
+              "2026-07-16": -1.3815294026005134,
+              "2026-10-05": 0.3706542194883091,
+              "2026-10-06": 1.2208236242901793,
+              "2026-10-07": 1.6343007117437742,
+              "2026-10-08": 3.1134495170725445,
+              "2026-10-14": 0.48178596655498385,
+              "2026-10-15": -1.1939435087456653,
+              "2026-10-16": 1.2159467534032034,
+              "2026-10-17": 0.27000079722358694,
+              "2026-10-18": -0.5201653603714766,
+              "2026-10-19": -0.3581934834717826,
+              "2026-10-20": -1.1986877637130795,
+              "2026-10-21": 1.6866291328848266,
+              "2026-10-22": 1.5108845063582068,
+              "2026-10-23": 2.0578197991069382,
+              "2026-10-24": -1.3194696042431633,
+              "2026-10-25": -0.40062256415451813,
+              "2026-10-28": -1.4039384851980043,
+              "2026-10-29": 1.5625265184399069,
+              "2026-11-01": 0.26890277777777705,
+              "2026-11-02": -0.8945671500205851,
+              "2026-11-03": 0.34610035842293907,
+              "2026-11-04": 0.7609166967801975
+            },
+            "total_price_cost_R": 7.829624057028585,
+            "best1": [
+              [
+                "2026-10-08",
+                3.1134495170725445
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-08",
+                3.1134495170725445
+              ],
+              [
+                "2026-10-23",
+                2.0578197991069382
+              ],
+              [
+                "2026-10-21",
+                1.6866291328848266
+              ]
+            ],
+            "best1_share_of_net": 0.39764993751872774,
+            "best3_share_of_net": 0.8758911537914817,
+            "without_best1_R": 4.716174539956041,
+            "without_best3_R": 0.9717256079642755,
+            "leave_one_group_out_R": {
+              "2026-07-16": 9.211153459629099,
+              "2026-10-05": 7.458969837540276,
+              "2026-10-06": 6.608800432738406,
+              "2026-10-07": 6.195323345284811,
+              "2026-10-08": 4.716174539956041,
+              "2026-10-14": 7.347838090473601,
+              "2026-10-15": 9.02356756577425,
+              "2026-10-16": 6.613677303625382,
+              "2026-10-17": 7.559623259804998,
+              "2026-10-18": 8.349789417400062,
+              "2026-10-19": 8.187817540500369,
+              "2026-10-20": 9.028311820741665,
+              "2026-10-21": 6.142994924143759,
+              "2026-10-22": 6.3187395506703785,
+              "2026-10-23": 5.771804257921647,
+              "2026-10-24": 9.149093661271749,
+              "2026-10-25": 8.230246621183104,
+              "2026-10-28": 9.23356254222659,
+              "2026-10-29": 6.267097538588678,
+              "2026-11-01": 7.560721279250808,
+              "2026-11-02": 8.72419120704917,
+              "2026-11-03": 7.483523698605646,
+              "2026-11-04": 7.068707360248387
+            },
+            "leave_one_out_min_R": 4.716174539956041
+          },
+          "coins": {
+            "groups": {
+              "BTCUSDT": -0.6677400854451674,
+              "CHRUSDT": 3.442315681512702,
+              "SANDUSDT": 1.5098821617228757,
+              "PEOPLEUSDT": -1.1634453973699264,
+              "BCHUSDT": -0.2890585374326964,
+              "STXUSDT": 1.6343007117437742,
+              "SOLUSDT": 1.4272156196943986,
+              "ZRXUSDT": -1.1707377777777772,
+              "LINKUSDT": 1.2581662276851036,
+              "EIGENUSDT": 2.476673773028104,
+              "ETCUSDT": -0.3648686868686888,
+              "BNBUSDT": -0.09878967187421678,
+              "XTZUSDT": 0.3096279650436945,
+              "ETHUSDT": -1.1939435087456653,
+              "APTUSDT": 1.9300366728820602,
+              "CHZUSDT": -0.29549712162220476,
+              "ONTUSDT": -2.5130265637917626,
+              "LDOUSDT": -2.34435391859837,
+              "HOTUSDT": 0.738155108128263,
+              "ETHFIUSDT": -1.1440220994475139,
+              "OPUSDT": 0.33548948948948976,
+              "PUMPUSDT": 1.5986554433221096,
+              "INJUSDT": 3.1397823917090237,
+              "XRPUSDT": -1.2922012236573748,
+              "ICPUSDT": -1.1986877637130795,
+              "ADAUSDT": 0.10142815249266879,
+              "MANAUSDT": -1.0306019571843406,
+              "ZROUSDT": 1.3356298783398068,
+              "JASMYUSDT": 0.23140740740740637,
+              "ZECUSDT": 0.3286381880984658,
+              "ASTERUSDT": 1.3476602898550687,
+              "NEARUSDT": -1.250405485986883,
+              "GRASSUSDT": 0.3558383359662979,
+              "ARUSDT": 0.34610035842293907
+            },
+            "total_price_cost_R": 7.829624057028585,
+            "best1": [
+              [
+                "CHRUSDT",
+                3.442315681512702
+              ]
+            ],
+            "best3": [
+              [
+                "CHRUSDT",
+                3.442315681512702
+              ],
+              [
+                "INJUSDT",
+                3.1397823917090237
+              ],
+              [
+                "EIGENUSDT",
+                2.476673773028104
+              ]
+            ],
+            "best1_share_of_net": 0.43965274149051453,
+            "best3_share_of_net": 1.1569868208573628,
+            "without_best1_R": 4.387308375515883,
+            "without_best3_R": -1.2291477892212441,
+            "leave_one_group_out_R": {
+              "BTCUSDT": 8.497364142473753,
+              "CHRUSDT": 4.387308375515883,
+              "SANDUSDT": 6.319741895305709,
+              "PEOPLEUSDT": 8.993069454398512,
+              "BCHUSDT": 8.118682594461282,
+              "STXUSDT": 6.195323345284811,
+              "SOLUSDT": 6.402408437334187,
+              "ZRXUSDT": 9.000361834806363,
+              "LINKUSDT": 6.5714578293434815,
+              "EIGENUSDT": 5.352950284000482,
+              "ETCUSDT": 8.194492743897275,
+              "BNBUSDT": 7.928413728902802,
+              "XTZUSDT": 7.519996091984891,
+              "ETHUSDT": 9.02356756577425,
+              "APTUSDT": 5.899587384146525,
+              "CHZUSDT": 8.12512117865079,
+              "ONTUSDT": 10.342650620820347,
+              "LDOUSDT": 10.173977975626956,
+              "HOTUSDT": 7.091468948900323,
+              "ETHFIUSDT": 8.9736461564761,
+              "OPUSDT": 7.494134567539096,
+              "PUMPUSDT": 6.230968613706476,
+              "INJUSDT": 4.689841665319562,
+              "XRPUSDT": 9.121825280685961,
+              "ICPUSDT": 9.028311820741665,
+              "ADAUSDT": 7.728195904535917,
+              "MANAUSDT": 8.860226014212927,
+              "ZROUSDT": 6.493994178688778,
+              "JASMYUSDT": 7.598216649621179,
+              "ZECUSDT": 7.50098586893012,
+              "ASTERUSDT": 6.481963767173516,
+              "NEARUSDT": 9.080029543015469,
+              "GRASSUSDT": 7.473785721062288,
+              "ARUSDT": 7.483523698605646
+            },
+            "leave_one_out_min_R": 4.387308375515883
+          },
+          "weeks": {
+            "groups": {
+              "2026-07-13": -1.3815294026005134,
+              "2026-10-05": 6.339228072594807,
+              "2026-10-12": 0.25362464806463203,
+              "2026-10-19": 1.9783600227674283,
+              "2026-10-26": 0.42749081101967956,
+              "2026-11-02": 0.21244990518255152
+            },
+            "total_price_cost_R": 7.829624057028585,
+            "best1": [
+              [
+                "2026-10-05",
+                6.339228072594807
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-05",
+                6.339228072594807
+              ],
+              [
+                "2026-10-19",
+                1.9783600227674283
+              ],
+              [
+                "2026-10-26",
+                0.42749081101967956
+              ]
+            ],
+            "best1_share_of_net": 0.8096465457883814,
+            "best3_share_of_net": 1.1169219419330272,
+            "without_best1_R": 1.4903959844337784,
+            "without_best3_R": -0.9154548493533294,
+            "leave_one_group_out_R": {
+              "2026-07-13": 9.211153459629099,
+              "2026-10-05": 1.4903959844337784,
+              "2026-10-12": 7.575999408963954,
+              "2026-10-19": 5.851264034261157,
+              "2026-10-26": 7.402133246008906,
+              "2026-11-02": 7.617174151846034
+            },
+            "leave_one_out_min_R": 1.4903959844337784
+          }
+        },
+        "50": {
+          "mean_price_cost_R_per_observed_month": 0.6342818280139633,
+          "monthly_ledger": [
+            {
+              "month": "2026-07",
+              "complete_source_calendar_month": false,
+              "price_cost_R": -1.545042003715019,
+              "source_opportunities": 1,
+              "model_fills": 1,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-08",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-09",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 0,
+              "source_opportunities": 0,
+              "model_fills": 0,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-10",
+              "complete_source_calendar_month": true,
+              "price_cost_R": 3.959862222712987,
+              "source_opportunities": 52,
+              "model_fills": 47,
+              "net_USDT": null
+            },
+            {
+              "month": "2026-11",
+              "complete_source_calendar_month": false,
+              "price_cost_R": 0.0447895470861836,
+              "source_opportunities": 13,
+              "model_fills": 6,
+              "net_USDT": null
+            }
+          ],
+          "worst_complete_month_price_cost_R": 0,
+          "days": {
+            "groups": {
+              "2026-07-16": -1.545042003715019,
+              "2026-10-05": 0.20807745641187125,
+              "2026-10-06": 1.0651916572140054,
+              "2026-10-07": 1.5847153024911051,
+              "2026-10-08": 2.7550721183314026,
+              "2026-10-14": -0.08683484790636356,
+              "2026-10-15": -1.2770621553509507,
+              "2026-10-16": 1.1747765329478366,
+              "2026-10-17": 0.06428685317655147,
+              "2026-10-18": -1.2788076576735405,
+              "2026-10-19": -0.7060770451740863,
+              "2026-10-20": -1.2838396624472566,
+              "2026-10-21": 1.5056159795296424,
+              "2026-10-22": 1.194120723368862,
+              "2026-10-23": 1.699918589445022,
+              "2026-10-24": -1.4563851489188049,
+              "2026-10-25": -0.8937465202207411,
+              "2026-10-28": -1.577054978854292,
+              "2026-10-29": 1.2678950263427258,
+              "2026-11-01": 0.16986111111111005,
+              "2026-11-02": -1.0636673571722643,
+              "2026-11-03": 0.2801433691756272,
+              "2026-11-04": 0.6584524239717107
+            },
+            "total_price_cost_R": 2.459609766084154,
+            "best1": [
+              [
+                "2026-10-08",
+                2.7550721183314026
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-08",
+                2.7550721183314026
+              ],
+              [
+                "2026-10-23",
+                1.699918589445022
+              ],
+              [
+                "2026-10-07",
+                1.5847153024911051
+              ]
+            ],
+            "best1_share_of_net": 1.1201257029962288,
+            "best3_share_of_net": 2.4555545735546107,
+            "without_best1_R": -0.2954623522472488,
+            "without_best3_R": -3.580096244183376,
+            "leave_one_group_out_R": {
+              "2026-07-16": 4.004651769799173,
+              "2026-10-05": 2.2515323096722826,
+              "2026-10-06": 1.3944181088701484,
+              "2026-10-07": 0.8748944635930487,
+              "2026-10-08": -0.2954623522472488,
+              "2026-10-14": 2.5464446139905172,
+              "2026-10-15": 3.7366719214351045,
+              "2026-10-16": 1.2848332331363173,
+              "2026-10-17": 2.395322912907602,
+              "2026-10-18": 3.7384174237576944,
+              "2026-10-19": 3.16568681125824,
+              "2026-10-20": 3.7434494285314104,
+              "2026-10-21": 0.9539937865545114,
+              "2026-10-22": 1.2654890427152918,
+              "2026-10-23": 0.7596911766391319,
+              "2026-10-24": 3.9159949150029587,
+              "2026-10-25": 3.353356286304895,
+              "2026-10-28": 4.036664744938446,
+              "2026-10-29": 1.191714739741428,
+              "2026-11-01": 2.2897486549730437,
+              "2026-11-02": 3.523277123256418,
+              "2026-11-03": 2.1794663969085266,
+              "2026-11-04": 1.8011573421124432
+            },
+            "leave_one_out_min_R": -0.2954623522472488
+          },
+          "coins": {
+            "groups": {
+              "BTCUSDT": -1.1727378659152516,
+              "CHRUSDT": 3.1579687040860263,
+              "SANDUSDT": 1.4687525396180403,
+              "PEOPLEUSDT": -1.2334934248141805,
+              "BCHUSDT": -0.40356088240403487,
+              "STXUSDT": 1.5847153024911051,
+              "SOLUSDT": 1.2888794567062836,
+              "ZRXUSDT": -1.2439111111111103,
+              "LINKUSDT": 1.1760959906350597,
+              "EIGENUSDT": 2.3595339614687183,
+              "ETCUSDT": -0.43466089466089686,
+              "BNBUSDT": -0.8911281026774438,
+              "XTZUSDT": 0.2280399500624207,
+              "ETHUSDT": -1.2770621553509507,
+              "APTUSDT": 1.659190703631916,
+              "CHZUSDT": -0.6364244594602936,
+              "ONTUSDT": -2.7328950911310894,
+              "LDOUSDT": -2.4919341694262434,
+              "HOTUSDT": 0.6259358687546615,
+              "ETHFIUSDT": -1.2057458563535912,
+              "OPUSDT": 0.26498498498498535,
+              "PUMPUSDT": 1.5337934904601567,
+              "INJUSDT": 2.8981742050842083,
+              "XRPUSDT": -1.4174303195105356,
+              "ICPUSDT": -1.2838396624472566,
+              "ADAUSDT": -0.1160997067448688,
+              "MANAUSDT": -1.2580027959776297,
+              "ZROUSDT": 1.2492724007098113,
+              "JASMYUSDT": 0.11629629629629479,
+              "ZECUSDT": 0.2551974115692368,
+              "ASTERUSDT": 1.1752289855072429,
+              "NEARUSDT": -1.3577221228384042,
+              "GRASSUSDT": 0.29405476566613975,
+              "ARUSDT": 0.2801433691756272
+            },
+            "total_price_cost_R": 2.4596097660841534,
+            "best1": [
+              [
+                "CHRUSDT",
+                3.1579687040860263
+              ]
+            ],
+            "best3": [
+              [
+                "CHRUSDT",
+                3.1579687040860263
+              ],
+              [
+                "INJUSDT",
+                2.8981742050842083
+              ],
+              [
+                "EIGENUSDT",
+                2.3595339614687183
+              ]
+            ],
+            "best1_share_of_net": 1.2839307875711123,
+            "best3_share_of_net": 3.4215496241248124,
+            "without_best1_R": -0.6983589380018729,
+            "without_best3_R": -5.9560671045547995,
+            "leave_one_group_out_R": {
+              "BTCUSDT": 3.632347631999405,
+              "CHRUSDT": -0.6983589380018729,
+              "SANDUSDT": 0.9908572264661131,
+              "PEOPLEUSDT": 3.693103190898334,
+              "BCHUSDT": 2.8631706484881883,
+              "STXUSDT": 0.8748944635930482,
+              "SOLUSDT": 1.1707303093778698,
+              "ZRXUSDT": 3.7035208771952637,
+              "LINKUSDT": 1.2835137754490937,
+              "EIGENUSDT": 0.10007580461543508,
+              "ETCUSDT": 2.8942706607450503,
+              "BNBUSDT": 3.3507378687615974,
+              "XTZUSDT": 2.2315698160217328,
+              "ETHUSDT": 3.736671921435104,
+              "APTUSDT": 0.8004190624522374,
+              "CHZUSDT": 3.096034225544447,
+              "ONTUSDT": 5.192504857215242,
+              "LDOUSDT": 4.951543935510397,
+              "HOTUSDT": 1.833673897329492,
+              "ETHFIUSDT": 3.665355622437745,
+              "OPUSDT": 2.194624781099168,
+              "PUMPUSDT": 0.9258162756239967,
+              "INJUSDT": -0.43856443900005493,
+              "XRPUSDT": 3.8770400855946887,
+              "ICPUSDT": 3.74344942853141,
+              "ADAUSDT": 2.575709472829022,
+              "MANAUSDT": 3.717612562061783,
+              "ZROUSDT": 1.2103373653743421,
+              "JASMYUSDT": 2.3433134697878586,
+              "ZECUSDT": 2.2044123545149166,
+              "ASTERUSDT": 1.2843807805769105,
+              "NEARUSDT": 3.8173318889225576,
+              "GRASSUSDT": 2.1655550004180135,
+              "ARUSDT": 2.179466396908526
+            },
+            "leave_one_out_min_R": -0.6983589380018729
+          },
+          "weeks": {
+            "groups": {
+              "2026-07-13": -1.545042003715019,
+              "2026-10-05": 5.6130565344483845,
+              "2026-10-12": -1.4036412748064668,
+              "2026-10-19": 0.05960691558263753,
+              "2026-10-26": -0.1392988414004562,
+              "2026-11-02": -0.12507156402492642
+            },
+            "total_price_cost_R": 2.4596097660841534,
+            "best1": [
+              [
+                "2026-10-05",
+                5.6130565344483845
+              ]
+            ],
+            "best3": [
+              [
+                "2026-10-05",
+                5.6130565344483845
+              ],
+              [
+                "2026-10-19",
+                0.05960691558263753
+              ],
+              [
+                "2026-11-02",
+                -0.12507156402492642
+              ]
+            ],
+            "best1_share_of_net": 2.2820923106776845,
+            "best3_share_of_net": 2.255476442849792,
+            "without_best1_R": -3.153446768364231,
+            "without_best3_R": -3.0879821199219424,
+            "leave_one_group_out_R": {
+              "2026-07-13": 4.004651769799173,
+              "2026-10-05": -3.153446768364231,
+              "2026-10-12": 3.86325104089062,
+              "2026-10-19": 2.400002850501516,
+              "2026-10-26": 2.5989086074846095,
+              "2026-11-02": 2.58468133010908
+            },
+            "leave_one_out_min_R": -3.153446768364231
+          }
+        }
+      },
+      "cluster_sensitivity_35bp": [
+        {
+          "cluster_axis": "week",
+          "nonempty_blocks": 6,
+          "replications": 9999,
+          "seed": 20261120,
+          "meanR_q05": -0.03183699743255463,
+          "meanR_q95": 0.3681611322416328,
+          "interpretation": "Descriptive exchangeable-cluster sensitivity of EXPOSED sample. Not selection-adjusted confidence, not independent-trade significance."
+        },
+        {
+          "cluster_axis": "coin",
+          "nonempty_blocks": 34,
+          "replications": 9999,
+          "seed": 20261120,
+          "meanR_q05": -0.10608915401780711,
+          "meanR_q95": 0.3949704294094656,
+          "interpretation": "Descriptive exchangeable-cluster sensitivity of EXPOSED sample. Not selection-adjusted confidence, not independent-trade significance."
+        }
+      ],
+      "concurrency": {
+        "peak_open_model_positions": 7,
+        "peak_positions_at_ms": 1792340820000,
+        "peak_full_initial_notional_per_1USDT_R": 369.2382432462426,
+        "peak_full_reservation_at_ms": 1792340820000,
+        "full_reserve_margin_at_10x_per_1USDT_R": 36.923824324624256,
+        "deposit_reference_USDT": 55,
+        "reference_leverage_ceiling_not_recommendation": 10,
+        "actual_remaining_risk_USDT": null,
+        "actual_leverage": null,
+        "actual_account_equity": null,
+        "interpretation": "Full original notional reserved until final exit is conservative reservation, not actual margin; no partial-fill chronology, no mark-to-market. Above55 does not prove impossibility; below55 does not prove feasibility."
+      },
+      "unit_risk_diagnostic": {
+        "USDT_risk_notional_unit": 1,
+        "notional_per_unit_risk_min": 27.419748069890264,
+        "median": 60.337717785061415,
+        "p95": 121.72557770685637,
+        "max": 183.95626666666297,
+        "actual_trade_sizing": null,
+        "actual_lot_tick_filters": null,
+        "no_position_size_recommendation": true
+      },
+      "gates": {
+        "35": {
+          "positive_ALL": true,
+          "positive_calendar_both": false,
+          "PF13_calendar_both": false,
+          "positive_exposed_last40": true,
+          "funding_and_independent_OOS_known": false
+        },
+        "50": {
+          "positive_ALL": true,
+          "positive_calendar_both": false,
+          "PF13_calendar_both": false,
+          "positive_exposed_last40": false,
+          "funding_and_independent_OOS_known": false
+        }
+      },
+      "true_net_R": null,
+      "netUSDT_per_month_at55": null,
+      "actual_opportunities_per_month": null,
+      "status": "FORWARD_PENDING_WITH_ECONOMIC_DATA_GAPS",
+      "untouched_OOS": false,
+      "new_bar_replays": 0
+    }
+  },
+  "integrity_checks": [
+    {
+      "cohort": "Whalesguide_M1",
+      "source21bp_n_matches": true,
+      "source21bp_rounded_sum_matches": true
+    },
+    {
+      "cohort": "WolfxCrypto_VIP_M0_PROXY",
+      "source21bp_n_matches": true,
+      "source21bp_rounded_sum_matches": true
+    }
+  ],
+  "runtime_seconds": 0.3862688499975775,
+  "live_changes": 0,
+  "market_downloads": 0,
+  "new_trade_simulations": 0
+}

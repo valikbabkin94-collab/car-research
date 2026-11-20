@@ -1,0 +1,120 @@
+{
+  "task": "CAR_EDGE_SEARCH_20261120",
+  "task_sha256": "7b7d2225e5d2781d84e026ec02fbb77efa798b2e23433924703c5420c354bcef",
+  "frozen_protocol_commit": "b21119734c7e7e2fa566124aa1e0e9e242c21cfa",
+  "code_before_results_commit": "7935b12c5047604fdcfca345818fb88f0b3690f3",
+  "entries": {
+    "T0": {
+      "idea_id": "EXECUTION_ALPHA",
+      "status": "DATA_GAP",
+      "performed": "schema+reuse prior97-trade audit; no new cashPnL",
+      "available_records": 97,
+      "realized_profit_available": 0,
+      "true_netR": null,
+      "netUSDT_month55": null,
+      "spec": "TRADE_WATERFALL_SPEC.json"
+    },
+    "T1": {
+      "idea_id": "SHORT_STRONG_FORWARD",
+      "status": "FORWARD_PENDING",
+      "historical_exposure": "EXPOSED",
+      "historical_model_fills": 61,
+      "prospective_fills": null,
+      "source_SHA": "71c24ec8905773aec686c439597871647d40df95",
+      "frozen_rules": {
+        "family": "first global family revision",
+        "plan_type": "LIMIT",
+        "entry_mode": "PULLBACK_ENTRY",
+        "side": "SHORT",
+        "ctx": "STRONG",
+        "chase": 0,
+        "entry": "original zone, quote known after receipt",
+        "SL": "original protective",
+        "TP": "original first3,50/30/20",
+        "BE": "afterTP1, nextbar under source manager",
+        "hold_hours": 24,
+        "limit_opportunity_hours": 2,
+        "controls": [
+          "SHORT_only",
+          "SHORT_BEARISH"
+        ],
+        "same_costs_slots": true
+      },
+      "gap": "main30.csv+k5cache not published in inspectedtree; no newfirstseen futurecapture",
+      "netUSDT_month55": null
+    },
+    "T2": {
+      "idea_id": "WHALESGUIDE_M1_FORWARD",
+      "status": "FORWARD_PENDING",
+      "economic_audit_id": "T2_WHALES_M1_LEDGER_ECONOMICS_V1_20261120",
+      "audit_complete": true,
+      "new_bar_replays": 0,
+      "model_closed_n": 72,
+      "prospective_closed_n": null,
+      "source_SHA": "3a595e3e7671408f41728320146e5f1bd8cd6a6e",
+      "collector_PR": 591,
+      "collector_SHA": "364f0911c222d8f7bf5716fefb4cf44efde7457c",
+      "new_collector_created": false,
+      "rules": "PR591 M1 limitzone,ATR14/1.5,stopoutsidezone0.3ATR,TP50/25/25,noBE,TTL12h,hold24h; firstreceived/freezeoriginalpost",
+      "price_screen_pass": false,
+      "netR_actual": null,
+      "netUSDT_month55": null,
+      "diagnostic_Wolfx_separate": {
+        "model": "M0_PROXY",
+        "n": 54,
+        "calendar_H1_n": 1,
+        "status": "CANDIDATE_REVIEW_DIAGNOSTIC_FAILED_COST50_LAST40"
+      }
+    },
+    "T3": {
+      "idea_id": "RESIDUAL_SHOCK_EXHAUSTION",
+      "status": "DATA_GAP",
+      "strategy_trades_tested": 0,
+      "profitability": "UNTESTED",
+      "protocol": "FROZEN_T3.md",
+      "new_market_downloads": 0,
+      "controls": [
+        "matched_rawPF_prior_to_decision",
+        "PITalwaysSHORTdaily00UTC",
+        "same_time_random_side"
+      ],
+      "resource_bound": {
+        "symbols": 50,
+        "study_days": 56,
+        "episodes": 300,
+        "run_allowed_now": false
+      }
+    },
+    "T4": {
+      "idea_id": "PUMP_FADE_TRADFI_AND_EXT",
+      "status": "FORWARD_PENDING",
+      "source_SHA": "999cbb9b50eaee8df1d355088d41e07c0963c72c",
+      "retuning": false,
+      "originals": {
+        "TRADFI": "posthoc93trades+12.35R/PF2.11",
+        "EXT": "1204signals;TRAINnegative,TESTpositive;filterfailedPF1.3"
+      },
+      "after_study_captured_fills": null,
+      "gates": [
+        "after12Novfirstseen",
+        "nativeBybitinstrumenttype",
+        "sessioncalendarpauses",
+        "lot/tick/minnotional",
+        "samefixedrules/costs/funding"
+      ],
+      "netUSDT_month55": null
+    },
+    "T5": {
+      "idea_id": "PREMIUM_BASIS_REVERSION",
+      "status": "DATA_GAP",
+      "strategy_trades_tested": 0,
+      "profitability": "UNTESTED",
+      "need": "synchronized point-in-time spot/index/mark/perp bidask anddepth,filters,fees,borrow/margin;1hOHLCforcarry notsubstitute",
+      "no_carry_rerun": true,
+      "basis_trade_rule": "do not invent thresholds until data horizon verified and new prePnLprotocol registered",
+      "netUSDT_month55": null
+    }
+  },
+  "selection_no_new_best_variant": true,
+  "live_changes": 0
+}
