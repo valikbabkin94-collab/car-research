@@ -41,7 +41,8 @@
         "same_costs_slots": true
       },
       "gap": "main30.csv+k5cache not published in inspectedtree; no newfirstseen futurecapture",
-      "netUSDT_month55": null
+      "netUSDT_month55": null,
+      "source_execution_caveat": "Source simulate skips pre-entry bars touching TP1/SL, then processes entry bar SL-first; sub-bar order remains unobserved. Historical source R divides net by geometric risk + source COST, unlike geometric R in T2. Do not pool R or label historical replay an exact forward fill."
     },
     "T2": {
       "idea_id": "WHALESGUIDE_M1_FORWARD",

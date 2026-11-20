@@ -1,12 +1,10 @@
 # Воспроизведение выполненного расчёта
 
-ФазаA: прочитаны task, OPS/HANDOFF18.11, PR560/590/591, pinnedresults/codes. ФазаB: один fixedWhalesM1 economic ledgeraudit +заданная отдельная диагностическаяWolfM0; без bars/новыхпараметров/маркетзагрузок. ФазаC: только исследовательские документы/code/data в этойветке. Отсутствующиеforward/T3/T5 не объявлены выполненными.
+Протокол до новых агрегатов: `b21119734c7e7e2fa566124aa1e0e9e242c21cfa`.
+Код, безопасные входы и восемь тестов до результатов: `7935b12c5047604fdcfca345818fb88f0b3690f3`.
+Происхождение и SHA: INPUT_PROVENANCE.json. Приватный исходный экспорт в публичный репозиторий не копируется.
 
-Протокол до новых агрегатов: b21119734c7e7e2fa566124aa1e0e9e242c21cfa.
-Код+safeinput+8tests до результата: 7935b12c5047604fdcfca345818fb88f0b3690f3.
-Данные происхождения и SHA: INPUT_PROVENANCE.json; raw private source payload не копируется вpublic.
-
-Runtime: Python3.12 stdlib, без pip и торговыхбиблиотек. ВGitHubчерезотдельныйcheckout либо обычныйлокальныйисследовательскийcheckout:
+Выполнена только проверка экономики сохранённых Whalesguide M1 и отдельного Wolfx M0. Новых свечных прогонов и загрузок рынка не было. Python 3.12, стандартная библиотека, без установки пакетов или торговых библиотек.
 
 ```bash
 git clone --single-branch --branch research/edge-search-20261120 https://github.com/valikbabkin94-collab/car-research.git
@@ -15,12 +13,14 @@ PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s research/edge_search_20
 EXPERIMENT_CODE_SHA=7935b12c5047604fdcfca345818fb88f0b3690f3 PYTHONDONTWRITEBYTECODE=1 python research/edge_search_20261120/ledger_audit.py
 ```
 
-PowerShell: передпоследнейкомандой `$env:EXPERIMENT_CODE_SHA='7935b12c5047604fdcfca345818fb88f0b3690f3'`; командаpython таже. Скрипт не импортирует runtime/SDK, не читает .env и не содержитnetwork. Пишет только research/edge_search_20261120/RESULTS.json. Это завершённыйодноразовый расчёт, не collector.
+Для PowerShell перед последней командой установить `$env:EXPERIMENT_CODE_SHA='7935b12c5047604fdcfca345818fb88f0b3690f3'`, затем выполнить ту же команду python. Код не импортирует runtime/SDK, не читает `.env` и не использует сеть. Записывает только RESULTS.json в исследовательской папке. Это одноразовый расчёт, не коллектор.
 
-Тесты синтетические и проверяют алгебруcostdelta, R-геометрию, не-NET при неизвестномfunding, nofill/gap, exit-order drawdown, close-before-entry concurrency иконцентрацию. Они не заменяют реальные72/54исходов; те используются только вledger_audit.
+Тесты используют синтетические примеры исключительно для проверки алгебры издержек, геометрии R, неизвестного funding, no-fill/gap, просадки по порядку закрытий, close-before-entry при равных timestamps и концентрации. Они не заменяют реальные 72/54 исхода расчёта.
 
-Результат воспроизводится из inputs/targeted_numeric.json и split_definitions.json. numericinput — whitelist derivative из pinned private outcomes, extractioncode extract_inputs.py. Аудитор с доступом кприватномуисточнику может отдельно проверить исходный gzipSHA/ARTIFACT_MANIFEST и extraction; не публиковать rawtexts/ids. Вsourcecode PR590simulate возвращает `(gross−0.0021×entry)/abs(entry−initialSL)`, что позволяет строго алгебраически заменить общийcostbudget21→35/50bp без свечногопересчёта. Этиbp — гипотетическиеall-inexecutioncost, а не все измеренные реальныеиздержки.
+Входы: inputs/targeted_numeric.json и inputs/split_definitions.json. Extract-код: extract_inputs.py. Аудитор с доступом к приватному источнику может отдельно сверить gzip SHA/ARTIFACT_MANIFEST и числовую производную. Исходные тексты и ID не публиковать.
 
-runtime_seconds по определениюразличается на повторе. Дляканонического финансовогорезультата убрать только top-level runtime_seconds, JSON sort_keys=True/separators(',',':'), ensure_ascii=False/allow_nan=False и SHA256. CANONICAL_RESULT_SHA256.json хранитэтотhash; остальные поля/seed/R должнысовпасть. Приразличии code_commit проверьenv, не подменяй результаты заново подобраннойисторией.
+В PR #590 исходный симулятор возвращает `(gross−0.0021×entry)/abs(entry−initial_SL)`. Поэтому общий бюджет исполнения заменяется 21→35/50 bp алгебраически, без нового свечного бэктеста. Это гипотетические бюджеты исполнения, не измеренные полные расходы с funding.
 
-Нет необходимости повторятьзапуск, чтобыпрочитать выводы. Все oldnegativeисточники уже закреплены вEVIDENCE_MATRIX; сверяющийChatGPT может проверятьформулы/выборочные строки иметаданные без повторныхмассовыхбэктестов.
+Время выполнения runtime_seconds различается при повторе. Для канонической сверки удалить только это верхнеуровневое поле и сериализовать JSON с sort_keys=True, separators=(',', ':'), ensure_ascii=False, allow_nan=False. SHA256 сохранён в CANONICAL_RESULT_SHA256.json. Остальные поля, seed и результаты должны совпадать; code_commit берётся из переменной EXPERIMENT_CODE_SHA.
+
+Повторный запуск не требуется для чтения отчёта: расчёт завершён, результаты и отрицательные выводы сохранены. Старые исследования перечислены в EVIDENCE_MATRIX.md и не пересчитывались.
