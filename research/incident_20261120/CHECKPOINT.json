@@ -9,12 +9,20 @@
     "base": "fix/egress-guard-blip-20261120",
     "base_commit": "23b70e3bfaf515103c50d9b823afba0e3fa77859",
     "branch": "fix/egress-probe-cache-alerts-20261120",
-    "code_commit": "d53e0e5c77d8bf77cd8a10211c7b34e3b0b52d37",
-    "offline_tests": 89,
+    "code_commit": "0921f24d2e9999ec4bae6b1989a1243fa55ed7ea",
     "hosted_CI_not_claimed": true,
     "actual_Acer_hash_confirmed": false,
     "actual_key_whitelist_confirmed": false,
-    "installed": false
+    "installed": false,
+    "prior_full_offline_tests": 89,
+    "prior_full_test_commit": "d53e0e5c77d8bf77cd8a10211c7b34e3b0b52d37",
+    "delta_offline_tests": 12,
+    "new_rotation_tests": 4,
+    "full_suite_repeated": false,
+    "local_guard_allowlist_values_confirmed": false,
+    "key_whitelist_verified_by": "owner only",
+    "observed_ip_rotation": "owner-reported 17:35 and21:12; not independently verified",
+    "UNKNOWN_MISMATCH_messages_separate": true
   },
   "point2": {
     "status": "DATA_NEEDED",
@@ -47,5 +55,18 @@
   "remote_desktop_calls": 0,
   "Bybit_key_access": 0,
   "orders": 0,
-  "live_changes": 0
+  "live_changes": 0,
+  "owner_rotation_update": {
+    "reported_on": "2026-11-20",
+    "screen_times": [
+      "17:35",
+      "21:12"
+    ],
+    "timezone": null,
+    "source": "owner statement, not runtime logs",
+    "local_allowlist_membership": null,
+    "key_whitelist_membership": null,
+    "new_PnL_runs": 0,
+    "not_proof_of_HYPE_morning_rejection": true
+  }
 }

@@ -8,7 +8,7 @@
 ## Для пункта1 — подтвердить установленный код/пути/allowlist без изменения runtime
 1. SHA256 четырёх реально установленных файлов относительно fastpath: `tools/car_egress_entry_guard.py`, `tools/car_ip_watchdog.py`, `freqtrade/strategies/egress_recovery.py`, `freqtrade/strategies/CarFastPathV1.py`. Если SHA не совпадает с опубликованным — приватная read-only копия этих файлов, без .env и конфигов с ключами.
 2. Action Execute/Arguments/WorkingDirectory задач `CAR_Egress_EntryGuard` и IP-watchdog (имя фактической задачи). Нужен точный `--status-file`, `--state`, путь/значения явного `--expected-ip`, аргументы watchdog и частота. Экспорт только этих полей, не все процессы/службы.
-3. Текущий владелец-подтверждённый whitelist IP конкретного ключа **без самого ключа/ID/секрета**. Не выводить новый allowlist из однажды увиденного147.45.63.64. Без этого код сравнивает только опубликованную оператором политику, не фактическую настройку аккаунта Bybit.
+3. Whitelist самого Bybit-ключа проверяет **владелец**, Codex его не видит и не запрашивает. Нужен только локальный список guard из --expected-ip/egress_guard_policy.json и подтверждение владельца, совпадает ли он с настройкой ключа и допустима ли ротация двух адресов из дополнения17:35/21:12. Полный whitelist ключа, сам ключ/ID/секрет передавать не нужно. Не учить allowlist на наблюдавшихся адресах и не считать новый адрес разрешённым автоматически.
 4. Файл по реальному `--status-file`, соседний `egress_guard_policy.json` и журнал/история результатов проверок за общий интервал. Текущий снимок не заменяет исторические интервалы. Для старого watcher: `freqtrade/user_data/shadow/ip_watchdog.json` и его stdout/stderr/Task History, если есть.
 5. Mounts контейнера для проверки соответствия host→read-only strategies. Только read-only запрос `docker inspect --format '{{json .Mounts}}' car-fastpath-freqtrade-1`, не полный inspect с Env.
 
@@ -36,3 +36,7 @@ docker logs --timestamps --since 2026-11-19T21:00:00Z --until 2026-11-21T03:00:0
 docker logs --timestamps --since 2026-11-19T21:00:00Z --until 2026-11-21T03:00:00Z car-fastpath-ingest-1
 ```
 Если реальные имена отличаются — указать соответствие, не создавать новые контейнеры. Для paperDB — read-only экспорт positions/events по sourceYODA/HYPE и всех дневных вариантов из фактического `--db`; не делать backup/live-db mutation агентом. Безэтих данных пункты2/3 остановлены; никаких удалённых команд здесь не выполнялось.
+
+## Дополнение21:12
+
+Показанные владельцем IP менялись. Нельзя считать все предупреждения timeout, но и назвать второй адрес чужим без explicit guard-list нельзя. Для сопоставления нужны timestamps/actual_ip/expected_ips/status/problem/entry_action/entries_blocked; неизвестный адрес и несовпадение — отдельные категории. Новые наблюдения не заменяют отсутствующие журналы07:22 или дневной portfolio ledger. Пункты2/3 остаются остановленными.
