@@ -1,0 +1,74 @@
+{
+  "stage": "train_entries",
+  "code_commit": "83c13931033c83ea916f5a6624427bc86c3e0839",
+  "packet_sha256": "765707b4aef3cabb4b196861982c28d9144eb71958edc23bc3e58b8515804b77",
+  "exposed_history": true,
+  "entries": [
+    "LIVE_GATES_REPRICE_5M_PROXY",
+    "MARKET_NEXT_OPEN"
+  ],
+  "top2": [
+    {
+      "entry": "LIVE_GATES_REPRICE_5M_PROXY",
+      "exit": "E0",
+      "opportunities": 1117,
+      "eligible_80h": 1117,
+      "n": 564,
+      "fill_pct": 50.4923903312444,
+      "WR_price_pct": 73.58156028368795,
+      "mean_price_R": -0.0665346903552725,
+      "sum_price_R": -37.52556536037369,
+      "PF_price": 0.7633998787477115,
+      "maxDD_close_R": 38.58699393180219,
+      "known_funding_proxy_n": 448,
+      "unknown_funding_n": 116,
+      "mean_R_known_funding_proxy": -0.09319188960219793,
+      "sum_R_known_funding_proxy": -41.74996654178467,
+      "PF_known_funding_proxy": 0.6960047331586751,
+      "true_net_R": null,
+      "statuses": {
+        "PRICE_ALREADY_AT_TP1": 525,
+        "CLOSED": 564,
+        "PRICE_ALREADY_AT_STOP": 27,
+        "NOFILL": 1
+      },
+      "hold_hours_mean": 3.9038120567375887,
+      "unique_symbols": 139,
+      "unique_signal_days": 185,
+      "fillbar_TP_banned_n": 30,
+      "ambiguous_pending_fill_TP1_n": 29,
+      "known_original_TP1_passed_entries": 0,
+      "small_sample": false
+    },
+    {
+      "entry": "MARKET_NEXT_OPEN",
+      "exit": "E0",
+      "opportunities": 1117,
+      "eligible_80h": 1117,
+      "n": 1117,
+      "fill_pct": 100.0,
+      "WR_price_pct": 71.53088630259624,
+      "mean_price_R": -0.08609174314244122,
+      "sum_price_R": -96.16447709010684,
+      "PF_price": 0.7137870060795383,
+      "maxDD_close_R": 98.48394137582032,
+      "known_funding_proxy_n": 911,
+      "unknown_funding_n": 206,
+      "mean_R_known_funding_proxy": -0.1022263155995389,
+      "sum_R_known_funding_proxy": -93.12817351117994,
+      "PF_known_funding_proxy": 0.6706404965068592,
+      "true_net_R": null,
+      "statuses": {
+        "CLOSED": 1117
+      },
+      "hold_hours_mean": 4.00820650552074,
+      "unique_symbols": 166,
+      "unique_signal_days": 208,
+      "fillbar_TP_banned_n": 90,
+      "ambiguous_pending_fill_TP1_n": 0,
+      "known_original_TP1_passed_entries": 188,
+      "small_sample": false
+    }
+  ],
+  "profitability_not_assumed": true
+}

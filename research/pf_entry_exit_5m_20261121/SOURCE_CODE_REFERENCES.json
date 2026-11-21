@@ -1,0 +1,32 @@
+[
+  {
+    "path": "fastpath/freqtrade/strategies/CarFastPathV1.py",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "local": "strategy_source.py",
+    "sha256": "14bb19cff0bdecdc65618e12437a1612eaeb7f2043dfdcfe01850b023c718167"
+  },
+  {
+    "path": "fastpath/freqtrade/strategies/CarFastPathV1.py",
+    "commit": "c31b01a799769145be30eb85fec1039e50d8b7ca",
+    "local": "strategy_proposed.py",
+    "sha256": "7367c91c27567b11b2fdd7795ec8808bf817379bd367c40b654e1db8899cb300"
+  },
+  {
+    "path": "fastpath/report.py",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "local": "report.py",
+    "sha256": "8bbb60481655ac3eae420d87470f897b3234e1ae094f8e0f4c6e2bf97c03389f"
+  },
+  {
+    "path": "fastpath/tools/shadow_pump_fade.py",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "local": "shadow_pump_fade.py",
+    "sha256": "f1bb13532694312a7e4da8e8ff174693fdd2f61c8b17b8d9f3dace5f70d4a164"
+  },
+  {
+    "path": "tools/shadow_factory.py",
+    "commit": "b45cad215edaed127f021ef8283c755efa5b6f4f",
+    "local": "shadow_factory.py",
+    "sha256": "bacac513642ea92f787c56c26cf5f0bf3cca2ef1e7967e7a2a397b5f83eb12e4"
+  }
+]

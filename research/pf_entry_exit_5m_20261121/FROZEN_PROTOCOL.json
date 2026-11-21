@@ -1,0 +1,141 @@
+{
+  "id": "PF_ENTRY_EXIT_5M_V1_20261121",
+  "status": "FROZEN_BEFORE_NEW_PNL",
+  "source_prices_commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+  "prices_sha256": "48bb2e205c55c0aa8d60926f3aaa771dc9ec6d8672803ee4c1b89902f4258a0f",
+  "signal_source": "BASE/PRIMARY 2113, all statuses; never only 1761 already-filled entries",
+  "exposure": "EXPOSED history, temporal TEST is not untouched OOS",
+  "cohorts": {
+    "primary": "RAW BASE/PRIMARY, no score re-fit",
+    "diagnostic": "original selected mask, already exposed; not certified identical LIVE top50; no choice using this subgroup"
+  },
+  "entries": [
+    "LIVE_GATES_REPRICE_5M_PROXY",
+    "MARKET_NEXT_OPEN",
+    "LIMIT_SIGNAL_0",
+    "LIMIT_PLUS_0_5",
+    "RESTING_PLUS_1_3",
+    "HYBRID_1H_1PCT"
+  ],
+  "common": {
+    "decision_delay_ms": 300000,
+    "entry_TTL_hours_from_signal": 8,
+    "hold_hours_after_fill": 72,
+    "stop_fraction": 0.056,
+    "BE_short_after_TP1": 0.9989,
+    "entry_chase_frac": 0,
+    "entry_better_frac": 0,
+    "entry_tolerance_pct": 0,
+    "actual_runtime_config_unknown": true,
+    "all_variants_fill_anchored_stop_targets": true,
+    "no_profitable_TP_fillbar": true,
+    "SL_first": true,
+    "gap_stop": "max(open, stop)",
+    "pending_guard": "known bar open vs own planned TP1/SL; proxy LIVE first checks previous closed5m then proposed FT rate",
+    "limit_fill": "high >= resting limit, conservative fill at limit, no favorable gap improvement; unknown queue/tick order flagged",
+    "original_guard_market": "market reanchors plan; original planned TP1 already passed logged diagnostic, not immediate profit",
+    "LIVE_proxy": "cancel/reprice each5m using max(open, original entry_low); WAIT when resulting rate outside original zone; not exact measured engine scheduling/timeout",
+    "hybrid": "resting1.3%, fixed1h timeout then market only abs(open/C-1)<=1%; pending TP1/SL guards retained; X not tuned"
+  },
+  "exits": {
+    "E0": {
+      "tp_fraction": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ]
+    },
+    "E1": {
+      "RR": [
+        0.5,
+        1,
+        2
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ]
+    },
+    "E2": {
+      "RR": [
+        1,
+        2,
+        4
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ]
+    },
+    "E3": {
+      "tp_fraction": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    "E4": {
+      "tp_fraction": [
+        0.021,
+        0.042,
+        0.063
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ]
+    },
+    "E5": {
+      "tp_fraction": [
+        0.021
+      ],
+      "weights": [
+        0.5
+      ],
+      "remainder_trail_after_TP1_R": 1
+    }
+  },
+  "exit_timing": "BE/trail updated only using completed bars and effective next bar; base partials50/30/20. Trail min(current_stop, lowest_completed_low+1R), no loosening.",
+  "costs_total_roundtrip": [
+    0.0021,
+    0.004
+  ],
+  "cost_not_double_charged": true,
+  "R": "geometric initial5.6% price risk; costs separate, source_norm_R_21=(gross-.0021+funding)/.0581 diagnostic only",
+  "funding": "native full cached rates; bracketing and <=8h gaps screen, payouts marked using contemporaneous5m open proxy; missing=>netR null, no zero fill-in; incomplete rate/mark cover separate. No funding_R reuse for changed holding periods.",
+  "coverage": "same common full80h price availability aftersignal plus preceding5m close; all gaps/rightcensors retained; no synthesis",
+  "split": "chronological calendar60% TRAIN/40% TEST of full source signal window; purge TRAIN events whose potential80h horizon crosses cut; no choice using TEST",
+  "selection_stage1": "E0 six entries TRAIN only, primary RAW at0.40% cost, n>=100; top2 by mean price_costR then totalR then lexicographic ID. If negative still diagnostic, not a profitability claim. Commit selection before TEST/exit run.",
+  "selection_stage2": "Only five new exits on two selected entries => max16 unique entry/exit combos, two cost views each. Choose one final pair by TRAIN same criterion and freeze before TEST. All evaluated variants including failures published.",
+  "regimes": "BTC r24 from closed nativeH1 available atdecision; <=-3% down, >=+3% up, rest sideways, missing UNKNOWN; n<40 marked SMALL_SAMPLE",
+  "multiple_testing": "max16 actual configs; no tuning on regimes or TEST; clustered sensitivity/concentration descriptive, no independent significance claim on EXPOSED data",
+  "LIVE_comparison": "old13 exported aggregate+case31 reused, claimed16 not assumed present; require matching signal IDs/period/plans/R definitions; exact reproduction blocked by absent engine decision/quote/timeout logs",
+  "promotion": "owner minimum100 new shadow trades and >0.1R/trade; historical trades do not count; no new collector or LIVE changes",
+  "resource_budget": {
+    "market_downloads": 0,
+    "github_data_reuse_only": true,
+    "workers": 1,
+    "engine_seconds_per_stage_max": 300,
+    "memory_target_MB": 1024
+  },
+  "safety": {
+    "LIVE": 0,
+    "orders": 0,
+    "configs_risk_entry_mode_sources": 0,
+    "Desktop_Remote": 0,
+    "main_merge": 0
+  }
+}

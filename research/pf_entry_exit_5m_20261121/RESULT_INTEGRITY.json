@@ -1,0 +1,15 @@
+{
+  "rows": 33472,
+  "closed_rows_including_repeated_trade_across_managers": 24184,
+  "distinct_configs": 16,
+  "metrics_rows": 640,
+  "fraction_conservation": true,
+  "cost_delta_exact": true,
+  "funding_unknown_not_zero": true,
+  "funding_counts_conserve": true,
+  "selection_unchanged": {
+    "entry": "LIVE_GATES_REPRICE_5M_PROXY",
+    "exit": "E3"
+  },
+  "PnL_reruns": 0
+}

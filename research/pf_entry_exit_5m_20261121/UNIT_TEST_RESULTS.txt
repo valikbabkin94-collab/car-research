@@ -1,0 +1,26 @@
+test_actual_limit_touch_fill (test_engine.FinancialEngineTests.test_actual_limit_touch_fill) ... ok
+test_cost_views_use_geometric_same_denominator (test_engine.FinancialEngineTests.test_cost_views_use_geometric_same_denominator) ... ok
+test_far_targets_use_R_not_percent (test_engine.FinancialEngineTests.test_far_targets_use_R_not_percent) ... ok
+test_fractional_tp_and_next_bar_BE (test_engine.FinancialEngineTests.test_fractional_tp_and_next_bar_BE) ... ok
+test_funding_gap_and_bracket_required (test_engine.FinancialEngineTests.test_funding_gap_and_bracket_required) ... ok
+test_funding_zero_actual_rates_valid (test_engine.FinancialEngineTests.test_funding_zero_actual_rates_valid) ... ok
+test_gap_stop_worse_than_one_R (test_engine.FinancialEngineTests.test_gap_stop_worse_than_one_R) ... ok
+test_hybrid_distance_reject_not_parameter_search (test_engine.FinancialEngineTests.test_hybrid_distance_reject_not_parameter_search) ... ok
+test_hybrid_fixed_timeout (test_engine.FinancialEngineTests.test_hybrid_fixed_timeout) ... ok
+test_live_proxy_checks_previous_close_and_clamped_rate (test_engine.FinancialEngineTests.test_live_proxy_checks_previous_close_and_clamped_rate) ... ok
+test_market_can_have_original_take_passed_but_no_instant_TP (test_engine.FinancialEngineTests.test_market_can_have_original_take_passed_but_no_instant_TP) ... ok
+test_missing_prices_not_zero_return (test_engine.FinancialEngineTests.test_missing_prices_not_zero_return) ... ok
+test_no_profitable_fill_bar_take (test_engine.FinancialEngineTests.test_no_profitable_fill_bar_take) ... ok
+test_purged_training_outcomes_not_read (test_engine.FinancialEngineTests.test_purged_training_outcomes_not_read) ... ok
+test_resting_nonfill_kept (test_engine.FinancialEngineTests.test_resting_nonfill_kept) ... ok
+test_stop_before_limit_known_at_decision_rejected (test_engine.FinancialEngineTests.test_stop_before_limit_known_at_decision_rejected) ... ok
+test_stop_first_when_both_targets_and_stop_touch (test_engine.FinancialEngineTests.test_stop_first_when_both_targets_and_stop_touch) ... ok
+test_three_partial_targets_total_reward (test_engine.FinancialEngineTests.test_three_partial_targets_total_reward) ... ok
+test_tp1_before_limit_known_at_decision_rejected (test_engine.FinancialEngineTests.test_tp1_before_limit_known_at_decision_rejected) ... ok
+test_trailing_has_partial_then_price_exit (test_engine.FinancialEngineTests.test_trailing_has_partial_then_price_exit) ... ok
+test_unknown_funding_not_zero (test_engine.FinancialEngineTests.test_unknown_funding_not_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.043s
+
+OK
