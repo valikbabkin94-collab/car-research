@@ -1,0 +1,111 @@
+{
+  "stage": "train_exits",
+  "code_commit": "83c13931033c83ea916f5a6624427bc86c3e0839",
+  "packet_sha256": "765707b4aef3cabb4b196861982c28d9144eb71958edc23bc3e58b8515804b77",
+  "exposed_history": true,
+  "entry_selection_sha256": "f5a82c1c27264932be39f28b3d3d004d93ebb9d5daa48681bb6907d97332de49",
+  "all_configs": [
+    [
+      "HYBRID_1H_1PCT",
+      "E0"
+    ],
+    [
+      "LIMIT_PLUS_0_5",
+      "E0"
+    ],
+    [
+      "LIMIT_SIGNAL_0",
+      "E0"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E0"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E1"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E2"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E3"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E4"
+    ],
+    [
+      "LIVE_GATES_REPRICE_5M_PROXY",
+      "E5"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E0"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E1"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E2"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E3"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E4"
+    ],
+    [
+      "MARKET_NEXT_OPEN",
+      "E5"
+    ],
+    [
+      "RESTING_PLUS_1_3",
+      "E0"
+    ]
+  ],
+  "winner": {
+    "entry": "LIVE_GATES_REPRICE_5M_PROXY",
+    "exit": "E3"
+  },
+  "winner_train": {
+    "entry": "LIVE_GATES_REPRICE_5M_PROXY",
+    "exit": "E3",
+    "opportunities": 1117,
+    "eligible_80h": 1117,
+    "n": 564,
+    "fill_pct": 50.4923903312444,
+    "WR_price_pct": 73.75886524822695,
+    "mean_price_R": -0.06262775031196093,
+    "sum_price_R": -35.32205117594596,
+    "PF_price": 0.7772483259174581,
+    "maxDD_close_R": 36.4020511759459,
+    "known_funding_proxy_n": 448,
+    "unknown_funding_n": 116,
+    "mean_R_known_funding_proxy": -0.09216227221262596,
+    "sum_R_known_funding_proxy": -41.28869795125643,
+    "PF_known_funding_proxy": 0.6992077234491472,
+    "true_net_R": null,
+    "statuses": {
+      "PRICE_ALREADY_AT_TP1": 525,
+      "CLOSED": 564,
+      "PRICE_ALREADY_AT_STOP": 27,
+      "NOFILL": 1
+    },
+    "hold_hours_mean": 3.9038120567375887,
+    "unique_symbols": 139,
+    "unique_signal_days": 185,
+    "fillbar_TP_banned_n": 30,
+    "ambiguous_pending_fill_TP1_n": 29,
+    "known_original_TP1_passed_entries": 0,
+    "small_sample": false
+  },
+  "actual_combinations": 16,
+  "parameter_selection_only_TRAIN": true
+}
