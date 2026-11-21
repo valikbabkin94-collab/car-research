@@ -1,0 +1,87 @@
+[
+  {
+    "path": "CHECKPOINT.json",
+    "bytes": 840,
+    "sha256": "47b9286343c9d69d918f30fb4730de7009f03ffd7f2688f792285b3f33b9319e"
+  },
+  {
+    "path": "DATA_NEEDED.md",
+    "bytes": 4225,
+    "sha256": "7771309b63163ee079bde868f316535a21a186d81f9b7d6d3c904c76e13fea90"
+  },
+  {
+    "path": "DISCOVERY.json",
+    "bytes": 4586,
+    "sha256": "02d0a0c4fe022c7c548e680cf64eff75d416019f14293aaaefbd99d84a50f852"
+  },
+  {
+    "path": "FROZEN_PROTOCOL.json",
+    "bytes": 4816,
+    "sha256": "3a2034b8b7df78b1fe372ac51ff76ff69db8a06c2b763b7fb59cc245875163ec"
+  },
+  {
+    "path": "HANDOFF_FOR_REVIEW_RU.md",
+    "bytes": 3912,
+    "sha256": "f0356545170c2b0de9c7f99659746ec915c57c158b8c329702263279e3403ca0"
+  },
+  {
+    "path": "ISOLATION_AUDIT.json",
+    "bytes": 693,
+    "sha256": "666aefa8ed89bfddd092a3f820b258eeacc257802a1bc2c217a04252aba8e957"
+  },
+  {
+    "path": "README_RU.md",
+    "bytes": 8261,
+    "sha256": "8a94b2e9aa59c18691f4f1100a62bbf3ee2240c5aa74fd9348faac6e303430ff"
+  },
+  {
+    "path": "REGISTRATION.json",
+    "bytes": 413,
+    "sha256": "fc24ea64cf5653814bd17fd3e9de8e2ddf402b5400c77d934ba01f23539eee92"
+  },
+  {
+    "path": "REPORT_RU.md",
+    "bytes": 17427,
+    "sha256": "81dafc429f99914cf7451bc8ab536430af1fa11ccd0d31d5033f4690ed8c8f72"
+  },
+  {
+    "path": "RESULTS.json",
+    "bytes": 1643,
+    "sha256": "3d0ff9a4c0fcfcc821147647c4ba6c4179f41734a4c2ed39d1e3eeb7c06c53f4"
+  },
+  {
+    "path": "SOURCE_CODE_REFERENCES.json",
+    "bytes": 482,
+    "sha256": "28967470e32028c3d786ec9471e440ec46ccb66edd9d3ab9cc47b23a13fa4889"
+  },
+  {
+    "path": "TASK_RU.md",
+    "bytes": 5514,
+    "sha256": "87f3cfb3f71fae3395a1a68611e2fa19b1af152fa9ce2284eb50653cdd3b0bd9"
+  },
+  {
+    "path": "UNIT_TEST_RESULTS.txt",
+    "bytes": 3107,
+    "sha256": "a3a1997bdfba6b3c7abf564952ed817ae870a171fdf8fb6652ef74643f2afed4"
+  },
+  {
+    "path": "ingest.py",
+    "bytes": 2649,
+    "sha256": "15288c2ad5f8dfe05d8314dec318fe7858a7ad5cb475e6b43b875273e3c11349"
+  },
+  {
+    "path": "replay.py",
+    "bytes": 10369,
+    "sha256": "817d67f92a9a8de279fb49b5cd9c65f3359247765c10dc64da98e613e06f5bc9"
+  },
+  {
+    "path": "test_ingest.py",
+    "bytes": 1155,
+    "sha256": "30f78904cab940d8a7ae144a9adc6c49a94babb3895967ca8ec8224f26e2370c"
+  },
+  {
+    "path": "test_replay.py",
+    "bytes": 5255,
+    "sha256": "8a7d03b30c77c8a1c326d50e5c0cf62b9b01314c8880f7e0e6aab56119d6f66b"
+  }
+]

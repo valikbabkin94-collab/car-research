@@ -1,0 +1,40 @@
+{
+  "imports": {
+    "test_ingest.py": [
+      "copy",
+      "ingest",
+      "test_replay",
+      "unittest"
+    ],
+    "ingest.py": [
+      "argparse",
+      "hashlib",
+      "json",
+      "pathlib",
+      "replay"
+    ],
+    "test_replay.py": [
+      "copy",
+      "json",
+      "pathlib",
+      "replay",
+      "unittest"
+    ],
+    "replay.py": [
+      "argparse",
+      "collections",
+      "datetime",
+      "gzip",
+      "hashlib",
+      "json",
+      "math",
+      "pathlib"
+    ]
+  },
+  "network_exchange_clients": false,
+  "live_runtime_imports": false,
+  "executable_files": 0,
+  "scheduled_workflows": 0,
+  "actual_market_replay_runs": 0,
+  "unit_tests_are_synthetic_only": true
+}

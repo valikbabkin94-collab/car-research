@@ -1,0 +1,20 @@
+{
+  "status": "READY_FOR_INDEPENDENT_REVIEW_DATA_BLOCKED",
+  "protocol_commit": "88beb18c07523a701f1ea3b92c95c3ee9cfb4801",
+  "registration_utc": "2026-11-21T20:51:30Z",
+  "data_archive": "DATA_GAP_NOT_ACCESSED_ON_ACER",
+  "real_financial_replay_count": 0,
+  "new_forward_signals_observed": 0,
+  "prior_5m_experiment": "REUSED_NOT_RERUN_PR4_accf6f1573928b0322b8f22ff00489d796c35444",
+  "model_snapshot_verified": false,
+  "unit_tests": 38,
+  "next": "Obtain listed private GitHub archive; verify hashes/model/simulator; do not change rules. New actual cohort starts only after model registration. No collector/service activated.",
+  "unimplemented": [
+    "funding_cash_calculation",
+    "counterfactual_portfolio_simulation",
+    "weekly_paired_bootstrap_statistics"
+  ],
+  "LIVE_changes": 0,
+  "Desktop_Commander": 0,
+  "Bybit_keys": 0
+}

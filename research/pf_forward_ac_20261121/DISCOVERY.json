@@ -1,0 +1,178 @@
+[
+  {
+    "repository": "car-research",
+    "branch": "main",
+    "sha": "66b8fe93bd436e95a59ccbf2cc89ec885a379fa2",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/channels-audit-v2",
+    "sha": "99c7f56ce98355abfd6e70610b296f09d4b02f4d",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/conveyor-20261118",
+    "sha": "cf8c7fa14bbf925e1061be033df4f9f634e3c4a7",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/edge-gate2-20261121",
+    "sha": "2ab9bdbd25639e01edb5f7b62920c36995556a98",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/edge-search-20261120",
+    "sha": "6053002160f6bcaf6d8097170242e5a37329dc41",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/funding-carry",
+    "sha": "4352edbf18f409792f245d416ebe2dc476733ed2",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/incident-20261120",
+    "sha": "082507aca833e487df5e7c45ac75369980241eee",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/manager-all-scenarios",
+    "sha": "e4412b2cfdccbb6f710f7b32da2f1db6fc360b32",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/oleg-and-private-20261118",
+    "sha": "f4bc449b56f101ad69c67b36f602e47484fec4d6",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/paket-20261117",
+    "sha": "e425f277e0f172bfd66c1a70e6d62478efb2882e",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-entry-exit-5m-20261121",
+    "sha": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-equity-switch",
+    "sha": "aab89d78a8d8e7680e27724916f91a388461fceb",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-hedged",
+    "sha": "4a6ac1ddaddedf7e981d5cdad699832027974c05",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-live-vs-backtest",
+    "sha": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-missed-entries-20261121",
+    "sha": "8fa37f2dcc36d04e9e1c2e8c2d38eeef50309518",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/pf-rubik",
+    "sha": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/recheck-1m-20261118",
+    "sha": "b5912f1e06fe634818e18dcf0b3861684a567175",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/round4-cont",
+    "sha": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/s1-s3-history",
+    "sha": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/scenario-factory",
+    "sha": "edb0f5cf19cddc0d1230848821e166d9312d8083",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "car-research",
+    "branch": "research/text-signals-audit",
+    "sha": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "feat/tg-only-live-20261111",
+    "sha": "bde8d93461238697e6f769e2282943b382875235",
+    "truncated": false,
+    "matches": [],
+    "status": "CHECKED"
+  }
+]

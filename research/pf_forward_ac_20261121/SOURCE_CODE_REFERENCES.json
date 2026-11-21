@@ -1,0 +1,14 @@
+[
+  {
+    "path": "fastpath/freqtrade/strategies/CarFastPathV1.py",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "local": "strategy_source.py",
+    "sha256": "14bb19cff0bdecdc65618e12437a1612eaeb7f2043dfdcfe01850b023c718167"
+  },
+  {
+    "path": "fastpath/tools/shadow_pump_fade.py",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "local": "shadow_pump_fade.py",
+    "sha256": "f1bb13532694312a7e4da8e8ff174693fdd2f61c8b17b8d9f3dace5f70d4a164"
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "id": "PF_FORWARD_AC_V1_20261121",
+  "status": "FROZEN_BEFORE_ANY_NEW_PNL",
+  "variants": {
+    "A": {
+      "limit_offset": 0.013,
+      "ttl_hours": 8
+    },
+    "B": {
+      "limit_offset": 0.01,
+      "ttl_hours": 8,
+      "role": "historical_reproduction_only_not_forward_candidate"
+    },
+    "C": {
+      "limit_offset": 0.006,
+      "ttl_hours": 4
+    }
+  },
+  "forward_variants": [
+    "A",
+    "C"
+  ],
+  "unchanged_filter": {
+    "passed": true,
+    "keep": "top50",
+    "model_snapshot_required": true,
+    "no_refit": true
+  },
+  "geometry": {
+    "stop_from_fill": 0.056,
+    "TP_from_fill": [
+      0.021,
+      0.042,
+      0.063
+    ],
+    "weights": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "BE_short_multiplier": 0.9989,
+    "hold_hours": 72,
+    "hold_note": "fixed research cap from prior PF model; actual runtime hold cap must be reconciled"
+  },
+  "entry_model": {
+    "timeframe_ms": 60000,
+    "activation": "first full minute boundary at or after first_received_ms",
+    "zone_low_multiplier": 0.999,
+    "zone_high_multiplier": 1.003,
+    "check": "previous completed minute close vs plan TP1/SL before order formation; then quote proxy=open, limit=max(open,zone_low), WAIT above zone_high",
+    "order_lifetime_ms": 60000,
+    "entry_TTL_origin": "first_received_ms",
+    "TTL_note": "research horizon from receipt; original created/expires also recorded, mismatch blocks exact LIVE parity",
+    "actual_runtime_overrides": "UNKNOWN: tolerance/chase/better, FT scheduler/timeout/quotes. Defaults in this model are assumptions, not measured LIVE",
+    "no_chase": true,
+    "intra_minute_fill": "high touch only price proxy, never guaranteed execution",
+    "gapped_pending_entry": "not filled before accepted order; gap above zone rejects new order",
+    "admissibility": "gate observations only as of decision, never carry actual A portfolio to C as causal counterfactual; missing evidence=UNKNOWN",
+    "actual_order_proof_required": true
+  },
+  "execution": {
+    "SL_first": true,
+    "gap_stop": "max(open,stop) for short",
+    "TP_in_fill_minute": "forbidden",
+    "BE_effective": "next minute",
+    "partial_events": "timestamp at minute end; preserve original fractions, no same-bar BE assumption",
+    "MFE_MAE": "coarse whole entry/exit minute; not precise tick order",
+    "not_mathematical_lower_bound": true
+  },
+  "costs_bp": [
+    21,
+    35,
+    50
+  ],
+  "R": {
+    "primary_denominator": 0.056,
+    "compatibility_denominator": 0.0581,
+    "never_pool_definitions": true,
+    "allin_roundtrip_fee_slippage_budget": true,
+    "unknown_funding": "null, never assume known zero",
+    "true_net_requires": "complete funding cash/mark and execution evidence; otherwise model price R only"
+  },
+  "forward_registration": {
+    "start": "strictly after registration commit committer UTC time; original signal_ms AND first_received_ms must be later",
+    "old_65_signals": "EXPOSED_HISTORICAL_ONLY, not OOS",
+    "freshness_evidence": "append-only source log first_received + original id/times + GitHub batch commit timestamp; late/backfilled records segregated",
+    "collection": "manual offline ingestion of owner-provided GitHub exports only; no service, scheduled workflow, exchange or Telegram session"
+  },
+  "analysis": {
+    "no_parameter_selection": true,
+    "paired_unit": "all unique same signal ids for A/C; non-entry=0 only when fully observed; pending/data-gap never zero",
+    "primary_comparison": "paired model net R per opportunity and per calendar week, not only conditional filled trades",
+    "secondary": [
+      "admissible entries per week",
+      "model R/trade",
+      "PF",
+      "closed-trade R drawdown",
+      "loss streak",
+      "daily/coin profit concentration",
+      "cost sensitivity",
+      "BTC regime"
+    ],
+    "regime": "last completed BTC1m close vs last completed close24h earlier; DOWN<=-3%, UP>=3%, elseSIDEWAYS; missing=UNKNOWN",
+    "small_group": "n<40 no inference",
+    "fixed_horizon": "8 calendar weeks minimum AND at least100 new fully closed independently eligible paper trades per A and C; otherwise INCONCLUSIVE; no optional stopping based on profit",
+    "paired_uncertainty": "resample whole UTC calendar weeks, 10000 samples, seed20261121; need>=8 fully observed weeks; no significance claim before complete data",
+    "promotion": "owner minimum100 NEW shadow trades and >0.1R/trade; stronger comparative gate requires C positive at50bp, improvement A/C with paired lower95% bound>0 and no concentration dependence; no automatic LIVE change even if passed"
+  },
+  "current_status": {
+    "archive_on_Acer": "NOT_ACCESSED",
+    "historical_reproduction": "DATA_GAP",
+    "forward_collector": "NOT_STARTED",
+    "observed_new_forward_signals": 0,
+    "prior_5m_grid": "not rerun",
+    "LIVE_changes": 0
+  }
+}
