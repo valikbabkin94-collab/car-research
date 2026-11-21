@@ -1,0 +1,49 @@
+{
+  "experiment_id": "CAR_EDGE_GATE2_20261121_V1",
+  "mode": "GitHub-only research; no runtime or market connections",
+  "before_new_financial_tests": true,
+  "scope": {
+    "T1": "Find existing original 1981 first-family LIMIT/PULLBACK and mature gate; original SHORT ctx STRONG no chase; controls SHORT-only, SHORT+BEARISH; unchanged entry/SL/TP50-30-20/BE/hold24h/TTL2h",
+    "T2": "Only records first received after 2026-11-14T00:00:00Z, preserve originals/edits/nofill/gaps; Whales M1 and Wolf M0 separate; no replay old history",
+    "T3": "Methodology audit and availability only; no T3 PnL until v2 controls reviewed and point-in-time quotes/data pass gates",
+    "cash": "Availability and identity/fill/fee/funding semantics; no inference from model R to actualUSDT"
+  },
+  "T1_analysis_if_existing_outcomes_found": {
+    "freeze_candidate_and_controls": true,
+    "shared_window": "intersection of documented available coverage, same instrument eligibility/costs/admission limits; expose any cohort-dependent horizon",
+    "frequency": "all candidates and fills by full UTC calendar month with explicit partial months; 365.25/12 days for window-normalized descriptive rate",
+    "halves": "calendar midpoint common documented coverage, signal decision time; H1 labels unresolved across midpoint excluded from training choice and counted separately",
+    "costs_total_bp": [
+      35,
+      50
+    ],
+    "R": "report source_R separately; geometric R=pricePnL/abs(entry-initial_protectiveSL); calculate 35/50 from original gross and actual geometry only; unknown funding or fees=>true_net=null",
+    "concentration": "exit-day, symbol; best1 and3 removal diagnostic only; no new filters",
+    "controls": "fixed candidate and two baseline cohorts, no parameter search; no blindOOS claims from exposed old data",
+    "stop_if": "missing original identity, timeframe, protectiveSL, fill outcome/order, source coverage or geometric risk => BLOCKED, not rerun original study"
+  },
+  "T2_if_new_capture_found": {
+    "new_cutoff_utc": "2026-11-14T00:00:00Z",
+    "first_received": "required actual observed receipt, publication cannot substitute",
+    "performance": "retain collector result as paper only; inspect known costs/delay and all terminal statuses; funding unknown=>netUSDT unknown",
+    "runtime_proof": "scheduler outcome/collector heartbeat with asof plus actual event logs; PR or installation docs insufficient"
+  },
+  "resource_budget": {
+    "selected_recursive_tree_snapshots_max": 50,
+    "github_content_bytes_max": 20000000,
+    "new_market_downloads": 0,
+    "new_trade_bar_replays": 0,
+    "new_services": 0
+  },
+  "hypotheses_only": "At most3, only after checking old registry; no PnL for new ideas now",
+  "selection": "No parameter selection; prioritize one existing candidate by evidence quality, frequency if known, robustness and affordability; explicitly unknown where not measured",
+  "independence": "No independent-agent review claimed; own methodological audit prepared for ChatGPT",
+  "safety": {
+    "LIVE": 0,
+    "orders": 0,
+    "configs_risk_IP": 0,
+    "runtime_processes": 0,
+    "Windows_tasks": 0,
+    "main_merge": 0
+  }
+}
