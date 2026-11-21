@@ -76,4 +76,8 @@ class ExportTests(unittest.TestCase):
  def test_code_digest_rejects_env(self):
   p=self.src/'.env';p.write_text('password=value');e=self.ex();e.code_digest(p,'env')
   self.assertEqual(e.manifest['records'][0]['status'],'BLOCKED')
+ def test_schema_gaps_and_byte_budget_are_explicit(self):
+  e=self.ex(max_bytes=1_000);e.db(self.db,'live');m=e.finish()
+  self.assertTrue(m['has_missing_or_blocked'])
+  self.assertIn('open_date',m['records'][0]['tables']['trades']['missing_expected_columns'])
 if __name__=='__main__':unittest.main()

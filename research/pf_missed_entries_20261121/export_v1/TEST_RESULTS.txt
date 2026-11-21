@@ -11,6 +11,7 @@ test_missing_funding_is_none_not_zero (test_export.ExportTests.test_missing_fund
 test_output_existing_forbidden (test_export.ExportTests.test_output_existing_forbidden) ... ok
 test_output_in_source_forbidden (test_export.ExportTests.test_output_in_source_forbidden) ... ok
 test_readonly_bundle_manifest_hashes (test_export.ExportTests.test_readonly_bundle_manifest_hashes) ... ok
+test_schema_gaps_and_byte_budget_are_explicit (test_export.ExportTests.test_schema_gaps_and_byte_budget_are_explicit) ... ok
 test_sensitive_logs_drop_whole_line (test_export.ExportTests.test_sensitive_logs_drop_whole_line) ... ok
 test_source_config_forbidden (test_export.ExportTests.test_source_config_forbidden) ... ok
 test_sqlite_source_bytes_unchanged_and_no_sidecars (test_export.ExportTests.test_sqlite_source_bytes_unchanged_and_no_sidecars) ... ok
@@ -20,6 +21,6 @@ test_unknown_columns_preserved_with_redaction (test_export.ExportTests.test_unkn
 test_wal_rejected_without_opening_database (test_export.ExportTests.test_wal_rejected_without_opening_database) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 0.064s
+Ran 21 tests in 0.065s
 
 OK

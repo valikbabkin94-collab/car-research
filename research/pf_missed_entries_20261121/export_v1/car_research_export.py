@@ -56,7 +56,7 @@ class Exporter:
           'cash_rule':'raw realized_profit and close_profit_abs separate; no fallback or PnL calculation',
           'R_rule':'initial_stop_loss may be emergency; protective event history required; no derived R',
           'coverage_claim':'selected explicit snapshots only; missing history/fields is not zero',
-          'missing_required':['producer decision quote/time and stage events if not historically logged',
+          'required_not_automatically_verified':['producer decision quote/time and stage events if not historically logged',
            'deployed code and safe config/variant recipes','clock offsets and route/request durations',
            'actual initial financial protective SL and quantity history','settled funding cashflows',
            'BTC/coin price path before entry and after stop; no downloader included']}
@@ -103,6 +103,8 @@ class Exporter:
                     raise ValueError('CONSISTENT_OFFLINE_SNAPSHOT_REQUIRED_NONEMPTY_'+suffix[1:].upper())
             before=fingerprint(path)
             con=sqlite3.connect(path.as_uri()+'?mode=ro&immutable=1',uri=True,timeout=2)
+            if not hasattr(con,'setlimit'):con.close();raise ValueError('PYTHON_3_11_OR_NEWER_REQUIRED')
+            con.setlimit(sqlite3.SQLITE_LIMIT_LENGTH,self.max_bytes)
             con.execute('PRAGMA query_only=ON');con.execute('BEGIN')
             try:
                 tables={r[0]for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
@@ -112,17 +114,24 @@ class Exporter:
                         record['tables'][table]={'status':'MISSING','rows':None};continue
                     columns=[r[1]for r in con.execute('PRAGMA table_info("'+table+'")')]
                     # No config/credential tables or arbitrary SQL are ever accepted.
-                    rows=[];truncated=False
+                    rows=[];truncated=False;used_bytes=0
                     for row in con.execute('SELECT * FROM "'+table+'"'):
                         if len(rows)>=self.max_rows:truncated=True;break
                         record_row=dict(zip(columns,row))
                         if table=='trades':
                             record_row['source']=str(record_row.get('enter_tag')or'?').split(':',1)[0]
-                        rows.append(self.clean(record_row))
+                        clean_row=self.clean(record_row)
+                        row_bytes=len(json.dumps(clean_row,ensure_ascii=False,allow_nan=False).encode())
+                        if used_bytes+row_bytes>self.max_bytes:truncated=True;break
+                        used_bytes+=row_bytes;rows.append(clean_row)
                     dest=f'{label}_{table}.json';dump(self.out/dest,rows)
                     record['tables'][table]={'status':'TRUNCATED'if truncated else'EXPORTED',
                         'rows_exported':len(rows),'columns':columns,'file':dest,
                         'no_cash_semantics_inferred':True}
+                    expected={'trades':('id','enter_tag','open_date','close_date','realized_profit','close_profit_abs','amount','fee_open','fee_close','funding_fees'),
+                              'orders':('ft_trade_id','order_id','filled','average','order_filled_date'),
+                              'trade_custom_data':('ft_trade_id','cd_key','cd_value')}.get(table,())
+                    record['tables'][table]['missing_expected_columns']=[k for k in expected if k not in columns]
                 record['schema_only_other_table_names']=sorted(tables-set(wanted))
             finally:con.close()
             if fingerprint(path)!=before:raise ValueError('SOURCE_CHANGED_DURING_READ')
@@ -189,7 +198,7 @@ class Exporter:
     def finish(self):
         files={p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in self.out.iterdir()if p.is_file()}
         self.manifest['output_sha256']=files
-        self.manifest['has_missing_or_blocked']=any(r['status']!='EXPORTED'for r in self.manifest['records'])
+        self.manifest['has_missing_or_blocked']=any(r['status']!='EXPORTED'or any(t.get('status')!='EXPORTED'or t.get('missing_expected_columns') for t in r.get('tables',{}).values())for r in self.manifest['records'])
         dump(self.out/'MANIFEST.json',self.manifest)
         return self.manifest
 

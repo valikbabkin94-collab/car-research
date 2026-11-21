@@ -1,8 +1,10 @@
 {
+  "A_ARB_REPORT_RU.md": "7f704bed609ddcbff1ab00535ba65e435f696063f4430ede19941e53c1041b4f",
   "B_C_REPORT_RU.md": "3313a2c5add770f49486a8b2c538b6e178d06c3a65e26b3ec1bf7f1ce1f0b0ee",
-  "CHECKPOINT.json": "1b714c09a38f85bf66ffe8754a269f582bfb25f8868441ea9757156dc9b1190c",
-  "README_RU.md": "acae00edde9beb6bbd046f26e4d022ea759c25ac3f4d260b30e5a01dc3f8f0f7",
-  "TEST_RESULTS.txt": "8af63bf55aa3fd81c26adbbea33eebe05554d4e0ad3e34cd8e4853c1b87f78e1",
-  "car_research_export.py": "e80e01a5ae097972e94665097359a37b8c7383351a5e2b886a0707818326fc70",
-  "tests/test_export.py": "7f04b47ceeb33fc1b88f3bcda49c89f1157f7a6904545fcd6536bb5a6c4f59a5"
+  "CHECKPOINT.json": "97dd5c7bf91b307bba3885bef39151ba3619d088a6188d5199d24ad25e1a0d3a",
+  "FOLLOWUP_RU.md": "9d49eba347d83e63ff5d5a553d0b23600f075492fdf9407a1580a6a7109f5cfd",
+  "README_RU.md": "3630d68a3c86f05c44f16aa1bd07cd78fc29fba6e7d151eb03ec7fa6b847c053",
+  "TEST_RESULTS.txt": "19662dffe8d14cb27e2fc73a2ab943a52cec18b85ce716b018b2d501615db28c",
+  "car_research_export.py": "5fd109edcbdfb329103d14eceee24131162930288b0da955ccfbd31d438bf064",
+  "tests/test_export.py": "7efdd64d19f1710330756455afe63522489f35a6ad5210a2ed3d6d431b255094"
 }
