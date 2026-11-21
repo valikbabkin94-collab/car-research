@@ -3,6 +3,7 @@
 Результат: выбранный на TRAIN вариант не прошёл TEST. Новая установка/торговля не запускалась.
 
 - [Отчёт и ограничения](REPORT_RU.md).
+- [Заполнения и пропуски](ENTRY_COUNTS_RU.md).
 - [Все 16 конфигураций](ALL_VARIANTS_RU.md), [режимы](REGIMES_RU.md), [все 640 строк](METRICS.csv).
 - [Протокол](FROZEN_PROTOCOL.json), [источники](CORE_INPUTS.json), [контрольная точка](CHECKPOINT.json).
 - [Независимая проверка Claude/ChatGPT](HANDOFF_FOR_CLAUDE_RU.md).

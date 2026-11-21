@@ -35,6 +35,11 @@
     "sha256": "9540d14eccbbafd87ae2499bd8600e97bb0d6278a7d3f7d1dc3958a7a05f976a"
   },
   {
+    "path": "ENTRY_COUNTS_RU.md",
+    "bytes": 1902,
+    "sha256": "c458f2187c5f6b1c2e79c9b515501c8f8f8c015e1fc76de291730ec4c01c0145"
+  },
+  {
     "path": "FINAL_TRAIN_SELECTION.json",
     "bytes": 2340,
     "sha256": "19a4fce316049a458e83ff0b01a4ab3059b49ef83986387b811a60370de2c04d"
@@ -66,8 +71,8 @@
   },
   {
     "path": "METRICS.csv",
-    "bytes": 138208,
-    "sha256": "2a6da4149851ee116eef5a57c79f664dfcfe085b0dfa7c3cf3cce2dd728faba2"
+    "bytes": 137567,
+    "sha256": "2a61ad4e084eaee1c00f21f94ae5c44e3f00fd27b0f452495e95f694fbbb1fe6"
   },
   {
     "path": "METRICS.json",
@@ -76,8 +81,8 @@
   },
   {
     "path": "README_RU.md",
-    "bytes": 3661,
-    "sha256": "f2a0eb37822e791915cc63bcd6bc9d467f5fd5f4c6a825e41a451a0921ccfb51"
+    "bytes": 3727,
+    "sha256": "b9dd2a7ab68520366d9ffa3f425a162fef951b08a51adef399f9366113ac5315"
   },
   {
     "path": "READ_SOURCE_MANIFEST.json",
