@@ -1,0 +1,50 @@
+{
+  "status": "DATA_GAP",
+  "historical_signal_archive_received": false,
+  "real_market_financial_replays_executed": 0,
+  "new_forward_signals_observed": 0,
+  "paper_collection_started": false,
+  "unit_tests_passed": 38,
+  "variants": {
+    "A": {
+      "source_reported_closed_n": 21,
+      "source_reported_R_21bp": 2.53,
+      "source_reported_R_50bp": 1.41,
+      "origin": "USER_TASK_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "independent_closed_n": null,
+      "independent_R_per_trade": null,
+      "independent_net_R_week": null,
+      "independent_PF": null,
+      "independent_DD": null,
+      "admissibility": "НЕ ПРОВЕРЕНО"
+    },
+    "B": {
+      "source_reported_closed_n": 22,
+      "source_reported_R_21bp": 4.04,
+      "source_reported_R_50bp": 2.8,
+      "origin": "USER_TASK_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "independent_closed_n": null,
+      "independent_R_per_trade": null,
+      "independent_net_R_week": null,
+      "independent_PF": null,
+      "independent_DD": null,
+      "admissibility": "НЕ ПРОВЕРЕНО"
+    },
+    "C": {
+      "source_reported_closed_n": 34,
+      "source_reported_R_21bp": 8.34,
+      "source_reported_R_50bp": 6.33,
+      "origin": "USER_TASK_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "independent_closed_n": null,
+      "independent_R_per_trade": null,
+      "independent_net_R_week": null,
+      "independent_PF": null,
+      "independent_DD": null,
+      "admissibility": "НЕ ПРОВЕРЕНО"
+    }
+  },
+  "forward_measured_metrics": null,
+  "actual_LIVE_17_of_65": "USER_TASK_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+  "forward_gate": "NOT_MET",
+  "LIVE_changes": 0
+}

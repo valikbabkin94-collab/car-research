@@ -1,0 +1,11 @@
+{
+  "protocol_commit": "88beb18c07523a701f1ea3b92c95c3ee9cfb4801",
+  "registration_utc": "2026-11-21T20:51:30Z",
+  "registration_ms": 1795294290000,
+  "model_snapshot_verified": false,
+  "model_sha256": null,
+  "collection_status": "NOT_STARTED_NO_AUTHORIZED_INPUT_EXPORT",
+  "forward_financial_replay": "BLOCKED_UNTIL_ORIGINAL_MODEL_SNAPSHOT_IS_PINNED",
+  "old65": "never independent OOS",
+  "live_changes": 0
+}

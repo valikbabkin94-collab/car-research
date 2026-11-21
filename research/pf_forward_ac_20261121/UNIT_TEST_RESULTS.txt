@@ -1,0 +1,43 @@
+test_BE_only_next_minute (test_replay.ExecutionTests.test_BE_only_next_minute) ... ok
+test_B_not_forward (test_replay.ExecutionTests.test_B_not_forward) ... ok
+test_SL_before_TP (test_replay.ExecutionTests.test_SL_before_TP) ... ok
+test_TP_before_order (test_replay.ExecutionTests.test_TP_before_order) ... ok
+test_TP_fill_minute_banned (test_replay.ExecutionTests.test_TP_fill_minute_banned) ... ok
+test_all_observed_gates (test_replay.ExecutionTests.test_all_observed_gates) ... ok
+test_all_three_targets (test_replay.ExecutionTests.test_all_three_targets) ... ok
+test_bad_ohlc (test_replay.ExecutionTests.test_bad_ohlc) ... ok
+test_blocked_egress (test_replay.ExecutionTests.test_blocked_egress) ... ok
+test_cost_denominator (test_replay.ExecutionTests.test_cost_denominator) ... ok
+test_duplicate_prices (test_replay.ExecutionTests.test_duplicate_prices) ... ok
+test_expiry_not_new_order (test_replay.ExecutionTests.test_expiry_not_new_order) ... ok
+test_future_cohort (test_replay.ExecutionTests.test_future_cohort) ... ok
+test_future_gate (test_replay.ExecutionTests.test_future_gate) ... ok
+test_gap_not_interpolated (test_replay.ExecutionTests.test_gap_not_interpolated) ... ok
+test_gap_stop_at_open (test_replay.ExecutionTests.test_gap_stop_at_open) ... ok
+test_gate_unknown (test_replay.ExecutionTests.test_gate_unknown) ... ok
+test_ml_not_relaxed (test_replay.ExecutionTests.test_ml_not_relaxed) ... ok
+test_no_BTC_future (test_replay.ExecutionTests.test_no_BTC_future) ... ok
+test_no_fill_before_acceptance (test_replay.ExecutionTests.test_no_fill_before_acceptance) ... ok
+test_no_funding_zero_or_real_fill (test_replay.ExecutionTests.test_no_funding_zero_or_real_fill) ... ok
+test_no_prices (test_replay.ExecutionTests.test_no_prices) ... ok
+test_nonfinite_price (test_replay.ExecutionTests.test_nonfinite_price) ... ok
+test_old_gate (test_replay.ExecutionTests.test_old_gate) ... ok
+test_partial_gate_unknown (test_replay.ExecutionTests.test_partial_gate_unknown) ... ok
+test_receive_before_signal (test_replay.ExecutionTests.test_receive_before_signal) ... ok
+test_regime_bounds (test_replay.ExecutionTests.test_regime_bounds) ... ok
+test_stop_before_order (test_replay.ExecutionTests.test_stop_before_order) ... ok
+test_summary_no_fake_zero (test_replay.ExecutionTests.test_summary_no_fake_zero) ... ok
+test_tail_pending (test_replay.ExecutionTests.test_tail_pending) ... ok
+test_unaligned (test_replay.ExecutionTests.test_unaligned) ... ok
+test_wrong_keep (test_replay.ExecutionTests.test_wrong_keep) ... ok
+test_conflicting_duplicate_rejected (test_ingest.IngestTests.test_conflicting_duplicate_rejected) ... ok
+test_hash_chain (test_ingest.IngestTests.test_hash_chain) ... ok
+test_identical_duplicate_once (test_ingest.IngestTests.test_identical_duplicate_once) ... ok
+test_key_not_copied (test_ingest.IngestTests.test_key_not_copied) ... ok
+test_old_never_oos (test_ingest.IngestTests.test_old_never_oos) ... ok
+test_tamper_rejected (test_ingest.IngestTests.test_tamper_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.004s
+
+OK
