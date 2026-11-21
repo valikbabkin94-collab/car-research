@@ -1,0 +1,8 @@
+candidate,status,n,mean_R_per_trade,PF,fills_per_month,robustness,provenance,deposit55
+SHORT_STRONG,FORWARD_PENDING_DATA_GAP,61 old model fills,"+0.489 source R, not geometric actual net",2.466 at35bp,NOT_MEASURED,74% one old week; new H1/H2 and50bp NOT_TESTED,Old PR560 only,"NOT_TESTED: lots, sizing, funding, portfolio"
+SHORT_ONLY_control,OLD_COMPARISON_ONLY,460 old model fills,+0.159 source R,1.367 at35bp,NOT_MEASURED,New halves/stress50 NOT_TESTED,Old PR560 only,NOT_TESTED
+SHORT_BEARISH_control,OLD_COMPARISON_ONLY,123 old model fills,+0.335 source R,1.860 at35bp,NOT_MEASURED,New halves/stress50 NOT_TESTED,Old PR560 only,NOT_TESTED
+Whalesguide_M1,FORWARD_PENDING_OLD_COSTSCREEN_FAILED,72 old model trades,+0.131916 priceR after35bp before funding,1.363972 at35bp;1.232500 at50bp,4.835 old archive model fills,H1PF1.155695; without best3days at50bp -0.726R,"PR1 RESULTS.json reused, no recompute",NOT_TESTED: netUSDT null
+Wolfx_M0,DIAGNOSTIC_NOT_ACCEPTED,54 old model trades,+0.144993 priceR after35bp before funding,1.348933 at35bp;1.099236 at50bp,13.925 old archive model fills,calendarH1n1; last40 at50bp -0.914583R/PF0.875873,"PR1 RESULTS.json reused, no recompute",NOT_TESTED
+RESIDUAL_SHOCK,METHOD_GAP_DATA_GAP,"0 tested, future opportunities unknown",NOT_TESTED,NOT_TESTED,NOT_MEASURED,Timing control/inference incomplete; no clean PIT quotes window,New pre-PnL methodological review,NOT_TESTED
+PRICE_BAND_RELEASE,NEW_HYPOTHESIS_UNTESTED_DATA_GAP,"0 tested, event frequency unknown",NOT_TESTED,NOT_TESTED,NOT_MEASURED,Need real dynamic band release events and matching controls,New hypothesis; novelty limited to inspected registries,NOT_TESTED; small ATR may be uneconomic
