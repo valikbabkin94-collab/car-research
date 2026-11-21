@@ -1,0 +1,33 @@
+{
+  "status": "CODE_AUDIT_COMPLETE_EVENT_ANALYSIS_BLOCKED",
+  "source_code_SHA": "bde8d93461238697e6f769e2282943b382875235",
+  "proposed_resting_SHA_not_deployment": "c31b01a799769145be30eb85fec1039e50d8b7ca",
+  "existing_paper_SHA": "b45cad215edaed127f021ef8283c755efa5b6f4f",
+  "source_TP1_relative_to_C": "0.991727",
+  "source_TP1_change_from_C_pct": "-0.827300",
+  "producer_freshness_ms": 120000,
+  "unknown_decision_rate_not_assumed_market_tick": true,
+  "daily_invalid_not_all_rejections": true,
+  "truncation_in_report_price_phrase_found": false,
+  "full_incident_telegram_text_available": false,
+  "real_missed_signal_count": null,
+  "eligible_counterfactual_rows": 0,
+  "new_PnL_runs": 0,
+  "missed_R": null,
+  "egress_lost_entries": null,
+  "price_lost_entries": null,
+  "latency_ms": null,
+  "VPN_contribution_ms": null,
+  "owner_claims_verified": false,
+  "reported_PUMP_FADE30_mapping": "UNVERIFIED",
+  "live_entry_change_recommended": false,
+  "safety": {
+    "LIVE": 0,
+    "orders": 0,
+    "Bybit_API": 0,
+    "configs_risk_IP": 0,
+    "Windows_tasks_processes": 0,
+    "Desktop_Remote": 0,
+    "main_merge": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_SHA256_and_AST_checked": true,
+  "price_gate_and_input_sources_checked": true,
+  "mark_has_reason_time_not_price": true,
+  "ingest_freshness_120s_checked": true,
+  "report_reason_translation_and_colon_grouping_checked": true,
+  "not_a_runtime_regression_or_trading_test": true,
+  "new_PnL_runs": 0
+}

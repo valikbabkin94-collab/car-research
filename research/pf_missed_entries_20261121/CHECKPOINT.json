@@ -1,0 +1,19 @@
+{
+  "state": "COMPLETE_CODE_AUDIT_BLOCKED_MISSING_EVENT_LEDGER",
+  "next": "Only existing private GitHub exports listed in DATA_NEEDED_RU.md; do not replay old PF grids",
+  "new_financial_runs": 0,
+  "new_runtime_code_changes": 0,
+  "code_proposals": "ALERT_DESIGN_RU.md only; any implementation separate tested code PR",
+  "completed_items": [
+    "1 source audit",
+    "7 alert design"
+  ],
+  "blocked_items": [
+    "2 full missed ledger",
+    "3 counterfactual",
+    "4 causal block attribution",
+    "5 latency/VPN",
+    "6 measured policy alternatives"
+  ],
+  "safe_mode": "GitHub research only"
+}

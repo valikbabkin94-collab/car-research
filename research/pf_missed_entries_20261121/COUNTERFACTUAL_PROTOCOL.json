@@ -1,0 +1,39 @@
+{
+  "id": "PF_MISSED_DECISION_COUNTERFACTUAL_20261121_V1",
+  "status": "REGISTERED_NOT_RUN_DATA_GAP",
+  "new_PnL_runs": 0,
+  "primary": "Market SHORT at the actually observed decision quote, original absolute SL/TP and original TP weights/BE; no target reanchoring",
+  "decision_time": "actual event, not inferred from creation/invalid.at; quote timestamp and age mandatory",
+  "costs": {
+    "market_short_entry_adverse_slippage_bp": 5,
+    "all_exit_adverse_slippage_bp": 5,
+    "fee_each_execution_bp": 5.5,
+    "slippage_sensitivity_bp": 10,
+    "total_execution_budget_screens_bp": [
+      35,
+      50
+    ],
+    "no_double_charge_budget_and_base_fees": true,
+    "unknown_funding": "true_net_R null, price-costR separately"
+  },
+  "R": "geometric abs(actual CF fill-initial actual protectiveSL), fees separate; source risk+cost denominator not mixed",
+  "geometry": "SHORT requires initial SL > CFfill > TP1 > TP2 > TP3 >0; already-passed targets=>INEXECUTABLE_GEOMETRY, not instant profits",
+  "execution": "actual quote/lot filters; no profitable fillbar TP; SLfirst ambiguous 1m, worse gap open; no fake touch fill",
+  "BE": "exact original rule and verified deployed fee offset only after actual modeled TP1 execution; not assume BE=entry",
+  "BTC_regime": "known closed BTC r24 atdecision <=-3% falling, >=+3% rising, otherwise sideways",
+  "peak": "latest timestamp of max high in preceding168 closed1h atsignal; no future peak",
+  "peak_age_bins_hours": [
+    "<=1",
+    "(1,4]",
+    "(4,24]",
+    ">24",
+    "UNKNOWN"
+  ],
+  "comparators": "existing actual policy, fixed original-geometry CF; existing PF_MARKET/PF_CHASE/resting diagnostics only after recipe identity and new preregistration, not repeated old grid",
+  "samples": "all emitted and dropped signals, distinct signalIDs; nofill/pending/gaps retained; UTC coverage explicit",
+  "validation": "no parameter optimization; calendarH1/H2 of complete event coverage, last40 exposed overlap explicit; paired controls/concentration/week-coin dependence; no significance claim before valid prespecified inference",
+  "minimum_screen": "40 independent closed missed events per key group only preliminary minimum, not a powered proof; n requirement for inference unknown until variance/effect plan; no recommendation from tiny subgroups",
+  "funding_and_latency_unknown_are_not_zero": true,
+  "stop_gate": "missing decision prices/times/deployed plan/event ledger=>do not run; no notebook access or new downloads",
+  "LIVE_changes": 0
+}
