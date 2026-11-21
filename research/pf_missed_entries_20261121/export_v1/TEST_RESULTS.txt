@@ -1,0 +1,25 @@
+test_artifact_rows_limit_and_malformed_visible (test_export.ExportTests.test_artifact_rows_limit_and_malformed_visible) ... ok
+test_cash_zero_preserved_no_close_profit_fallback (test_export.ExportTests.test_cash_zero_preserved_no_close_profit_fallback) ... ok
+test_code_digest_rejects_env (test_export.ExportTests.test_code_digest_rejects_env) ... ok
+test_code_hash_only_no_contents (test_export.ExportTests.test_code_hash_only_no_contents) ... ok
+test_custom_signal_private_fields_redacted (test_export.ExportTests.test_custom_signal_private_fields_redacted) ... ok
+test_env_input_not_read (test_export.ExportTests.test_env_input_not_read) ... ok
+test_file_missing_is_blocked_not_empty_success (test_export.ExportTests.test_file_missing_is_blocked_not_empty_success) ... ok
+test_foreign_keys_join_and_source_label_survives (test_export.ExportTests.test_foreign_keys_join_and_source_label_survives) ... ok
+test_gzip_bounded_decompression (test_export.ExportTests.test_gzip_bounded_decompression) ... ok
+test_missing_funding_is_none_not_zero (test_export.ExportTests.test_missing_funding_is_none_not_zero) ... ok
+test_output_existing_forbidden (test_export.ExportTests.test_output_existing_forbidden) ... ok
+test_output_in_source_forbidden (test_export.ExportTests.test_output_in_source_forbidden) ... ok
+test_readonly_bundle_manifest_hashes (test_export.ExportTests.test_readonly_bundle_manifest_hashes) ... ok
+test_sensitive_logs_drop_whole_line (test_export.ExportTests.test_sensitive_logs_drop_whole_line) ... ok
+test_source_config_forbidden (test_export.ExportTests.test_source_config_forbidden) ... ok
+test_sqlite_source_bytes_unchanged_and_no_sidecars (test_export.ExportTests.test_sqlite_source_bytes_unchanged_and_no_sidecars) ... ok
+test_sqlite_truncation_not_complete (test_export.ExportTests.test_sqlite_truncation_not_complete) ... ok
+test_symlink_input_forbidden (test_export.ExportTests.test_symlink_input_forbidden) ... ok
+test_unknown_columns_preserved_with_redaction (test_export.ExportTests.test_unknown_columns_preserved_with_redaction) ... ok
+test_wal_rejected_without_opening_database (test_export.ExportTests.test_wal_rejected_without_opening_database) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.064s
+
+OK
