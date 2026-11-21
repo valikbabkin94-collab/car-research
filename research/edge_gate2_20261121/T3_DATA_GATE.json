@@ -1,0 +1,29 @@
+{
+  "status": "BLOCKED_DATA_AND_METHOD",
+  "PnL_runs": 0,
+  "hourly_snapshots": [
+    {
+      "source": "hourly_readme.json",
+      "declared_symbols": 300,
+      "declared_bars": 2031353,
+      "declared_last_bar_timestamp_utc": "2026-11-12T07:00:00+00:00",
+      "source_note": "top-300 by 24h turnover on 12.11 (survivorship bias)",
+      "not_last_receipt_proof": true
+    },
+    {
+      "source": "hourly_ext_readme.json",
+      "declared_symbols": 101,
+      "declared_bars": 641203,
+      "declared_last_bar_timestamp_utc": "2026-11-12T09:00:00+00:00",
+      "source_note": "top-300 by 24h turnover on 12.11 (survivorship bias)",
+      "not_last_receipt_proof": true
+    }
+  ],
+  "old_book_archive_payload": "Not obtained; declared local archive only",
+  "native_historic_PIT_population_verified": false,
+  "decision_time_quotes_in_new_independent_window_verified": false,
+  "funding_and_contract_filters_verified": false,
+  "cross_venue_metrics_not_native_quote_substitute": true,
+  "control_method_external_review": "PENDING_CHATGPT",
+  "statistical_inference_approved": false
+}

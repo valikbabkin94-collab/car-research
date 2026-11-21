@@ -1,0 +1,121 @@
+[
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/live-journal",
+    "commit": "179c62125d560954b527b2bc3f29f6d9c6190464",
+    "path": "live_journal/README_week_2026-11-16.md",
+    "sha256": "ea988e6088e31089aaa8a9c7896c2a136e42d06daec8ce223e2e3a9546d11d04"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/live-journal",
+    "commit": "179c62125d560954b527b2bc3f29f6d9c6190464",
+    "path": "live_journal/week_2026-11-16.json",
+    "sha256": "5e700c8e491eca44f73d2a511853c2ceba6131bfe4d6a89e92f48e1292a75eb5"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "docs/codex-vse-srazu-20261120",
+    "commit": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+    "path": "OTCHET_CODEX_VSE_SRAZU_20261120.md",
+    "sha256": "775993f14173d7a724fc21acc7f57130e0f6a498354683fb843ea50464a98b52"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "docs/codex-vse-srazu-20261120",
+    "commit": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+    "path": "OPS/acer/q/export_live_trades.py",
+    "sha256": "f3ffec436cf35edaae6f643bf9f83fc110d2522a538e49b7fa630b1b3f073a0f"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "data/new-data-20261114",
+    "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+    "path": "data/new_data_20261114/README.json",
+    "sha256": "224dac881a8b74522c2dff8a8b062ea58a092b51b07884b2967e4660f1ce6cf2"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "data/new-data-20261114",
+    "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+    "path": "data/new_data_20261114/SOURCE_REGISTRY.json",
+    "sha256": "4132f2e5688f639405a18d536c943b859a3015aebd12791580e232d3cbd5b320"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/web-ideas-20261114",
+    "commit": "5009ceb57d9a8d075b6c30e9d97320dd27c3d501",
+    "path": "research/web_ideas_20261114/OTCHET_DLYA_CLAUDE_CODEX_WEB_IDEAS_20261114.md",
+    "sha256": "febc328e8cfae6d73a635e5379d39e89043eddd8eb5a980e94a6d0ed154e1e3b"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/round4-20261115",
+    "commit": "4079cd1c7938a1e35f590b1ca97fa47c09b7f324",
+    "path": "research/round4_20261115/neutral_20261116/OTCHET_DLYA_CLAUDE_CODEX_N1_N4_20261116.md",
+    "sha256": "44099f7380220f378061ef2abf6eb129ae51f4b2cc0d14b70f2431405c8f29a0"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "data/hourly-20261112",
+    "commit": "41d076f1c29c81c4b2b9e5eddaca65f7384e8075",
+    "path": "README.json",
+    "sha256": "abfb90392b172a3bdc55d1ba57ec61c364545e949088ac7f04d1f1bd2e1fb1ef"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "data/hourly-ext-20261112",
+    "commit": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+    "path": "README.json",
+    "sha256": "b37a0eb8cddc6acf99e1f4f9980aa3e98ed2f386ab9e47d1e0ea9b58f6909f21"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/main-limit-v2-offline-policy-20261025",
+    "commit": "71c24ec8905773aec686c439597871647d40df95",
+    "path": "fastpath/docs/ARCHIVE_MANIFEST_20261023.json",
+    "sha256": "161f92891db418622a679501c962aa39ddf362cc5f77d69e8f5598d4b775cdaf"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/main-limit-v2-offline-policy-20261025",
+    "commit": "71c24ec8905773aec686c439597871647d40df95",
+    "path": "fastpath/tools/main_limit_v2_offline.py",
+    "sha256": "48441060a22b445ff2f25397c2e09ea27dfc2a1f8a7e10d959f3903c1038e9a9"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/grid-v7-entry-quality-orderflow-preflight-20261009",
+    "commit": "d5b4237fe4d28127e277dc45f898d5adc973eb5f",
+    "path": "control/GRID/46_GRID_V7_ORDERFLOW_READONLY_DATA_PREFLIGHT_20261009.md",
+    "sha256": "f13b6b521b8174150b106522dd75c6a68b62bf5d8ae6b4ff6b60ae76b6d16917"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/grid-v7-entry-quality-orderflow-preflight-20261009",
+    "commit": "d5b4237fe4d28127e277dc45f898d5adc973eb5f",
+    "path": "control/GRID/47_GRID_V7_PUBLIC_DATA_PROBE_PRE_RUN_CHECKPOINT_20261009.md",
+    "sha256": "253c36c91f3a2ea9a66e08bf47948816ede9bea3ceaa16ea1e86b3d8af652d3a"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "research/scalp-microstructure-exhaustion-v3-20260916",
+    "commit": "70617049eac19a4f9d22616aeb9beae733724bc5",
+    "path": "core/docs/SCALP_MICROSTRUCTURE_EXHAUSTION_V3_20260916.md",
+    "sha256": "db27b05ad4a8fc8a85df7def9c51575fbc7c1783689019308841f376c76cae48"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "car-control-state-v1",
+    "commit": "7a9e9568791747f6e7cd16f4803a65774fab8095",
+    "path": "control/MAIN/02_STATE.json",
+    "sha256": "ce007c3dcaa29f915b205a928b3d0627c202608748ff31cca2064903b7803442"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "branch": "car-control-state-v1",
+    "commit": "7a9e9568791747f6e7cd16f4803a65774fab8095",
+    "path": "control/QUANT/02_STATE.json",
+    "sha256": "067d36d680540cabc2f40c586d5c54c007ad16163f6dbedadfde5ee6de2f6e69"
+  }
+]

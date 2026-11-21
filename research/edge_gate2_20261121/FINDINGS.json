@@ -1,0 +1,771 @@
+{
+  "audit_id": "EDGE_GATE2_SOURCE_GATES_20261121",
+  "protocol_commit": "6de16b46934633e5f5f87000ce8aeed5ae4d688c",
+  "branch_names_enumerated": {
+    "Crypto-Auto-Radar": 980,
+    "car-research": 18
+  },
+  "selected_tree_snapshots": 50,
+  "scope": "50 selected non-truncated trees, not exhaustive content inspection of all 998 branches",
+  "new_financial_tests": 0,
+  "old_PnL_replays": 0,
+  "source_scan": [
+    {
+      "repository": "car-research",
+      "branch": "main",
+      "commit": "66b8fe93bd436e95a59ccbf2cc89ec885a379fa2",
+      "tree_sha": "66b8fe93bd436e95a59ccbf2cc89ec885a379fa2",
+      "truncated": false,
+      "blob_paths": 2,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/channels-audit-v2",
+      "commit": "99c7f56ce98355abfd6e70610b296f09d4b02f4d",
+      "tree_sha": "99c7f56ce98355abfd6e70610b296f09d4b02f4d",
+      "truncated": false,
+      "blob_paths": 2538,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/conveyor-20261118",
+      "commit": "cf8c7fa14bbf925e1061be033df4f9f634e3c4a7",
+      "tree_sha": "cf8c7fa14bbf925e1061be033df4f9f634e3c4a7",
+      "truncated": false,
+      "blob_paths": 58,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/edge-search-20261120",
+      "commit": "6053002160f6bcaf6d8097170242e5a37329dc41",
+      "tree_sha": "6053002160f6bcaf6d8097170242e5a37329dc41",
+      "truncated": false,
+      "blob_paths": 27,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/funding-carry",
+      "commit": "4352edbf18f409792f245d416ebe2dc476733ed2",
+      "tree_sha": "4352edbf18f409792f245d416ebe2dc476733ed2",
+      "truncated": false,
+      "blob_paths": 507,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/incident-20261120",
+      "commit": "082507aca833e487df5e7c45ac75369980241eee",
+      "tree_sha": "082507aca833e487df5e7c45ac75369980241eee",
+      "truncated": false,
+      "blob_paths": 8,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/manager-all-scenarios",
+      "commit": "e4412b2cfdccbb6f710f7b32da2f1db6fc360b32",
+      "tree_sha": "e4412b2cfdccbb6f710f7b32da2f1db6fc360b32",
+      "truncated": false,
+      "blob_paths": 370,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/oleg-and-private-20261118",
+      "commit": "f4bc449b56f101ad69c67b36f602e47484fec4d6",
+      "tree_sha": "f4bc449b56f101ad69c67b36f602e47484fec4d6",
+      "truncated": false,
+      "blob_paths": 139,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/paket-20261117",
+      "commit": "e425f277e0f172bfd66c1a70e6d62478efb2882e",
+      "tree_sha": "e425f277e0f172bfd66c1a70e6d62478efb2882e",
+      "truncated": false,
+      "blob_paths": 305,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/pf-equity-switch",
+      "commit": "aab89d78a8d8e7680e27724916f91a388461fceb",
+      "tree_sha": "aab89d78a8d8e7680e27724916f91a388461fceb",
+      "truncated": false,
+      "blob_paths": 28,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/pf-hedged",
+      "commit": "4a6ac1ddaddedf7e981d5cdad699832027974c05",
+      "tree_sha": "4a6ac1ddaddedf7e981d5cdad699832027974c05",
+      "truncated": false,
+      "blob_paths": 115,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/pf-live-vs-backtest",
+      "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+      "tree_sha": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+      "truncated": false,
+      "blob_paths": 363,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/pf-rubik",
+      "commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+      "tree_sha": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+      "truncated": false,
+      "blob_paths": 90,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/recheck-1m-20261118",
+      "commit": "b5912f1e06fe634818e18dcf0b3861684a567175",
+      "tree_sha": "b5912f1e06fe634818e18dcf0b3861684a567175",
+      "truncated": false,
+      "blob_paths": 61,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/round4-cont",
+      "commit": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+      "tree_sha": "d3c667f95ee38ef8eae18214b14d94960846f5aa",
+      "truncated": false,
+      "blob_paths": 2000,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/s1-s3-history",
+      "commit": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+      "tree_sha": "8d47c98b5d77ce5014ddfc255b46e4a6e7f68340",
+      "truncated": false,
+      "blob_paths": 316,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/scenario-factory",
+      "commit": "edb0f5cf19cddc0d1230848821e166d9312d8083",
+      "tree_sha": "edb0f5cf19cddc0d1230848821e166d9312d8083",
+      "truncated": false,
+      "blob_paths": 24,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "car-research",
+      "branch": "research/text-signals-audit",
+      "commit": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+      "tree_sha": "dcb47d3b062cbf25bc7a9eade541b5a2ae9179a8",
+      "truncated": false,
+      "blob_paths": 111,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "car-control-state-v1",
+      "commit": "7a9e9568791747f6e7cd16f4803a65774fab8095",
+      "tree_sha": "7a9e9568791747f6e7cd16f4803a65774fab8095",
+      "truncated": false,
+      "blob_paths": 2320,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/binance-full-universe-20261114",
+      "commit": "fbcc962fe272aacf091854a637c62e806ce1217c",
+      "tree_sha": "fbcc962fe272aacf091854a637c62e806ce1217c",
+      "truncated": false,
+      "blob_paths": 272,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/funding-oi-20261113",
+      "commit": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+      "tree_sha": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+      "truncated": false,
+      "blob_paths": 12,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/hourly-20261112",
+      "commit": "41d076f1c29c81c4b2b9e5eddaca65f7384e8075",
+      "tree_sha": "41d076f1c29c81c4b2b9e5eddaca65f7384e8075",
+      "truncated": false,
+      "blob_paths": 9,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/hourly-ext-20261112",
+      "commit": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+      "tree_sha": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+      "truncated": false,
+      "blob_paths": 6,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/live-trades-20261117",
+      "commit": "a2a77b403985b6d9efe31e19f93c2de4c160b5af",
+      "tree_sha": "a2a77b403985b6d9efe31e19f93c2de4c160b5af",
+      "truncated": false,
+      "blob_paths": 1,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/new-data-20261114",
+      "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+      "tree_sha": "836da46b018d3fa831815531db6009e7b667e89a",
+      "truncated": false,
+      "blob_paths": 1615,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/owner-style-movers-20261114",
+      "commit": "17f749f0fb98bf0716078429cefe0cd8daa1a0f2",
+      "tree_sha": "17f749f0fb98bf0716078429cefe0cd8daa1a0f2",
+      "truncated": false,
+      "blob_paths": 243,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "data/runtime-snapshot-20261112",
+      "commit": "1ee7ed72d8924766e0aec0c403a56f029b86c0c5",
+      "tree_sha": "1ee7ed72d8924766e0aec0c403a56f029b86c0c5",
+      "truncated": false,
+      "blob_paths": 101,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "docs/codex-vse-srazu-20261120",
+      "commit": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+      "tree_sha": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+      "truncated": false,
+      "blob_paths": 427,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "feat/paper-channels-20261114",
+      "commit": "364f0911c222d8f7bf5716fefb4cf44efde7457c",
+      "tree_sha": "364f0911c222d8f7bf5716fefb4cf44efde7457c",
+      "truncated": false,
+      "blob_paths": 241,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "feat/tg-only-live-20261111",
+      "commit": "bde8d93461238697e6f769e2282943b382875235",
+      "tree_sha": "bde8d93461238697e6f769e2282943b382875235",
+      "truncated": false,
+      "blob_paths": 279,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "feature/main-limit-v2-strong-short-strict-zone-20261025",
+      "commit": "5529741e5477e627437409f3336132e8262c563d",
+      "tree_sha": "5529741e5477e627437409f3336132e8262c563d",
+      "truncated": false,
+      "blob_paths": 128,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research-binance-cross-market-capture-v1",
+      "commit": "2f40864140953a347c934444618574d814a85be4",
+      "tree_sha": "2f40864140953a347c934444618574d814a85be4",
+      "truncated": false,
+      "blob_paths": 447,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research-cross-market-clock-timing-v2",
+      "commit": "42a457cd220fdf2f1a1ea43a9fee238c7abd7e3f",
+      "tree_sha": "42a457cd220fdf2f1a1ea43a9fee238c7abd7e3f",
+      "truncated": false,
+      "blob_paths": 447,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/car-rubik-next-edge-map-20261031",
+      "commit": "7db515f5f46d6762e0eb19ae8b2f7c6324d65244",
+      "tree_sha": "7db515f5f46d6762e0eb19ae8b2f7c6324d65244",
+      "truncated": false,
+      "blob_paths": 706,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/claude-own-scenarios-20261112",
+      "commit": "999cbb9b50eaee8df1d355088d41e07c0963c72c",
+      "tree_sha": "999cbb9b50eaee8df1d355088d41e07c0963c72c",
+      "truncated": false,
+      "blob_paths": 221,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/codex-ideas-20261110",
+      "commit": "d851889e0ef79aa473ff5695adf1967f2710eb2c",
+      "tree_sha": "d851889e0ef79aa473ff5695adf1967f2710eb2c",
+      "truncated": false,
+      "blob_paths": 244,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/grid-v7-entry-quality-orderflow-preflight-20261009",
+      "commit": "d5b4237fe4d28127e277dc45f898d5adc973eb5f",
+      "tree_sha": "d5b4237fe4d28127e277dc45f898d5adc973eb5f",
+      "truncated": false,
+      "blob_paths": 2175,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/live-journal",
+      "commit": "179c62125d560954b527b2bc3f29f6d9c6190464",
+      "tree_sha": "179c62125d560954b527b2bc3f29f6d9c6190464",
+      "truncated": false,
+      "blob_paths": 2,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/main-execution-analytics-v1",
+      "commit": "0b4ffc801945c795d714f91af21853ad687d9412",
+      "tree_sha": "0b4ffc801945c795d714f91af21853ad687d9412",
+      "truncated": false,
+      "blob_paths": 655,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/main-learning-data-v1",
+      "commit": "6db846dc1d485d4cad6a336d0ce5393b0786837b",
+      "tree_sha": "6db846dc1d485d4cad6a336d0ce5393b0786837b",
+      "truncated": false,
+      "blob_paths": 642,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/main-limit-v2-offline-policy-20261025",
+      "commit": "71c24ec8905773aec686c439597871647d40df95",
+      "tree_sha": "71c24ec8905773aec686c439597871647d40df95",
+      "truncated": false,
+      "blob_paths": 132,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/main-opportunity-outcomes-v1",
+      "commit": "47c36d5bf4fe46a7fa1512a88cc720f73fe72b68",
+      "tree_sha": "47c36d5bf4fe46a7fa1512a88cc720f73fe72b68",
+      "truncated": false,
+      "blob_paths": 647,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/round2-neutral-20261115",
+      "commit": "82aa927d45de20626b307a0b78d6a242be9392d1",
+      "tree_sha": "82aa927d45de20626b307a0b78d6a242be9392d1",
+      "truncated": false,
+      "blob_paths": 303,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/round3-20261115",
+      "commit": "2bf74eed1613fc0ec32ed0bd54d1af7f84134ab7",
+      "tree_sha": "2bf74eed1613fc0ec32ed0bd54d1af7f84134ab7",
+      "truncated": false,
+      "blob_paths": 357,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/round4-20261115",
+      "commit": "4079cd1c7938a1e35f590b1ca97fa47c09b7f324",
+      "tree_sha": "4079cd1c7938a1e35f590b1ca97fa47c09b7f324",
+      "truncated": false,
+      "blob_paths": 908,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/scalp-microstructure-exhaustion-v3-20260916",
+      "commit": "70617049eac19a4f9d22616aeb9beae733724bc5",
+      "tree_sha": "70617049eac19a4f9d22616aeb9beae733724bc5",
+      "truncated": false,
+      "blob_paths": 367,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/scenario-hunt-20261113",
+      "commit": "e96634651149f316f62c3ad4b8a4436db5fa2c30",
+      "tree_sha": "e96634651149f316f62c3ad4b8a4436db5fa2c30",
+      "truncated": false,
+      "blob_paths": 374,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "research/web-ideas-20261114",
+      "commit": "5009ceb57d9a8d075b6c30e9d97320dd27c3d501",
+      "tree_sha": "5009ceb57d9a8d075b6c30e9d97320dd27c3d501",
+      "truncated": false,
+      "blob_paths": 301,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "runtime-evidence-archive",
+      "commit": "919c1e9a19e61591a1d4d6d20229aedb5432e801",
+      "tree_sha": "919c1e9a19e61591a1d4d6d20229aedb5432e801",
+      "truncated": false,
+      "blob_paths": 2047,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    },
+    {
+      "repository": "Crypto-Auto-Radar",
+      "branch": "sync/acer-runtime-20261115b",
+      "commit": "428e2f7c807c618bf112d7ff0e2e81cf4143b001",
+      "tree_sha": "428e2f7c807c618bf112d7ff0e2e81cf4143b001",
+      "truncated": false,
+      "blob_paths": 480,
+      "original_T1_path_hits": [],
+      "actual_paper_data_hits": [],
+      "AGENTS_paths": []
+    }
+  ],
+  "T1": {
+    "status": "DATA_GAP_ORIGINAL_LEDGER_AND_CANDLES",
+    "original_main30_and_k5_found": false,
+    "main30_mentioned_in_archive_manifest": false,
+    "new_monthly_frequency": null,
+    "new_halves": null,
+    "new_50bp": null,
+    "new_day_coin_concentration": null,
+    "old_controls_available_in_report_only": true
+  },
+  "T2": {
+    "status": "RUNTIME_UNVERIFIED_AND_CAPTURE_DATA_GAP",
+    "PR591_head": "364f0911c222d8f7bf5716fefb4cf44efde7457c",
+    "paper_capture_found": false,
+    "new_paper_trades_after14Nov": null,
+    "receipt_delay": null,
+    "new_journal_has_Whales_Wolf_rows": 0,
+    "stale_archive_pairs": [
+      {
+        "file": "CAR_FREQTRADE_ANALYTICS_DEMO_LATEST.txt",
+        "path_earlier": "runtime-evidence/archive/2026-11-14/CAR_FREQTRADE_ANALYTICS_DEMO_LATEST.txt",
+        "path_later": "runtime-evidence/archive/2026-11-18/CAR_FREQTRADE_ANALYTICS_DEMO_LATEST.txt",
+        "same_blob": true,
+        "earlier_blob": "be7b811cec1046409b4c9f0d2c65651392149a01",
+        "later_blob": "be7b811cec1046409b4c9f0d2c65651392149a01",
+        "size": 48258
+      },
+      {
+        "file": "CAR_FREQTRADE_ANALYTICS_SCALP_LATEST.txt",
+        "path_earlier": "runtime-evidence/archive/2026-11-14/CAR_FREQTRADE_ANALYTICS_SCALP_LATEST.txt",
+        "path_later": "runtime-evidence/archive/2026-11-18/CAR_FREQTRADE_ANALYTICS_SCALP_LATEST.txt",
+        "same_blob": true,
+        "earlier_blob": "a7fba23c88aacc09dd1c583f2dc98763fea81050",
+        "later_blob": "a7fba23c88aacc09dd1c583f2dc98763fea81050",
+        "size": 3405912
+      },
+      {
+        "file": "CAR_FREQTRADE_LEARNING_LATEST.txt",
+        "path_earlier": "runtime-evidence/archive/2026-11-14/CAR_FREQTRADE_LEARNING_LATEST.txt",
+        "path_later": "runtime-evidence/archive/2026-11-18/CAR_FREQTRADE_LEARNING_LATEST.txt",
+        "same_blob": true,
+        "earlier_blob": "499f99b7b8b2ebb828d8c9871958044f0c2a9717",
+        "later_blob": "499f99b7b8b2ebb828d8c9871958044f0c2a9717",
+        "size": 485370
+      }
+    ]
+  },
+  "T0": {
+    "newly_examined_weekly_journal_closed_rows": 26,
+    "weekly_journal_source_counts": {
+      "OLEG": 7,
+      "YODA": 1,
+      "PUMP_FADE": 10,
+      "OLEG_CLONE": 6,
+      "ALTCOIN_MGR": 1,
+      "BK_MGR": 1
+    },
+    "weekly_journal_fields": [
+      "atr1h_pct",
+      "btc_r24",
+      "close",
+      "entry",
+      "exit",
+      "exit_reason",
+      "hold_h",
+      "hour_utc",
+      "id",
+      "mae_pct",
+      "mfe_pct",
+      "open",
+      "pnl",
+      "r168",
+      "r24",
+      "rsi1h",
+      "side",
+      "src",
+      "sym",
+      "tradfi",
+      "weekday"
+    ],
+    "realized_profit_present": 0,
+    "complete_fills_and_cash_funding_present": false,
+    "README_declared_USDT_total": 5.14,
+    "README_value_recomputed": false,
+    "declared_total_not_cash_reconciled": true,
+    "exporter_actual_run": false,
+    "exporter_code_findings": [
+      "realized_profit fallback to close_profit_abs when null",
+      "initial_stop_loss fallback to current stop_loss",
+      "net_R uses open_trade_value * stop_pct",
+      "output omits raw realized_profit, qty, fees and funding",
+      "exit fraction uses filled/current trades.amount, so denominator not certified initial position"
+    ],
+    "actual_net_USDT_reconstructed": false
+  },
+  "T3": {
+    "status": "DATA_GAP_AND_METHOD_REVISION_REQUIRED",
+    "all_new_PnL_tests": 0,
+    "raw_book_archives_declared": [
+      {
+        "name": "car1-front-broad-capture-v1",
+        "declared_oldest": "2026-10-06",
+        "declared_newest": "2026-10-16",
+        "declared_bytes": 50050798250,
+        "declared_sha256": "8225176bce4d6df208ce8e2a1b7d402d45143f441ad0f9249b6c81e59f30cb2a",
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car1-front-raw-l50-sidecar-v1",
+        "declared_oldest": "2026-10-06",
+        "declared_newest": "2026-10-16",
+        "declared_bytes": 15870474394,
+        "declared_sha256": "b5b8a08d253afd9531d76b0aab7453f04465e4facbbdfdc5c349812adebb1212",
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car1-front-rich-capture-pilot-v1",
+        "declared_oldest": "2026-10-06",
+        "declared_newest": "2026-10-16",
+        "declared_bytes": 6585641976,
+        "declared_sha256": "f223a12e6e80ce896a42cff22861093e8a3b58bd2af6d92e31497057d6f826a3",
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car1-front-ondemand-microscope-v1",
+        "declared_oldest": "2026-10-07",
+        "declared_newest": "2026-10-16",
+        "declared_bytes": 464898299,
+        "declared_sha256": "7e2d59d2bd557bba10e9cc517bccbba8856849fbe20025cd4a5c89b0d1b09254",
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-l50-cohort-b-10d-v1-20261006",
+        "declared_oldest": "2026-10-06",
+        "declared_newest": "2026-10-07",
+        "declared_bytes": 1307014934,
+        "declared_sha256": "8eacfcaa03d9ab00a48a29c098419e2b0b55de941e5f4c899f3efe8b1b7a5ddd",
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-l50-cohort-b-cont-v1-20261007",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 12163039324,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-l50-cohort-c-10d-v1-20261006",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 942190171,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-l50-cohort-c-cont-v1-20261007",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 9468586232,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-raw-l50-10d-v1-20261006",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 2600759620,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-s1s2-raw-l50-20261006",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 2235683527,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      },
+      {
+        "name": "car2-task66-raw-l50-forward-v1-20261006",
+        "declared_oldest": null,
+        "declared_newest": null,
+        "declared_bytes": 1890347820,
+        "declared_sha256": null,
+        "availability": "LOCAL_ARCHIVE_DECLARED_IN_MANIFEST_NOT_FETCHED_NOT_A_GITHUB_PAYLOAD"
+      }
+    ],
+    "newdata_PIT_source_status": "PROVISIONAL cross-venue timestamp with assumed availability, not historic receipt/revision audit",
+    "issues": [
+      "direction randomization does not test incremental timing information",
+      "daily always-short has different exposure frequency/universe/admission",
+      "first confirmation k1/k2 requires common-landmark diagnostic to avoid timing/selection comparison bias",
+      "week/coin dependence and post-selection multiplicity unresolved in old BH plan",
+      "current snapshots are not native historic PIT population; hourly is not bid/ask/depth"
+    ]
+  },
+  "safety": {
+    "LIVE": 0,
+    "Bybit_orders": 0,
+    "configs_risk_IP": 0,
+    "runtime_Windows_tasks": 0,
+    "new_collectors": 0,
+    "market_downloads": 0,
+    "main_merge": 0
+  },
+  "source_scan_implementation_note": "Exact main30 basename/prefix rule excludes MAIN300.json (different universe metadata file), not a discovered 61-trade ledger."
+}

@@ -1,0 +1,25 @@
+{
+  "stage": "EDGE_GATE2_COMPLETE_WITH_SOURCE_AND_METHOD_GAPS",
+  "protocol_commit": "6de16b46934633e5f5f87000ce8aeed5ae4d688c",
+  "prior_PR1_head_unchanged": "6053002160f6bcaf6d8097170242e5a37329dc41",
+  "new_PnL_runs": 0,
+  "old_PnL_reruns": 0,
+  "branch_names_enumerated": 998,
+  "selected_tree_snapshots": 50,
+  "T1_original_ledger_found": false,
+  "new_T2_capture_found": false,
+  "actual_cash_reconciled": false,
+  "new_T3_experiment_started": false,
+  "new_hypotheses": 1,
+  "independent_external_review": "PENDING_CHATGPT",
+  "priority_next": "SHORT_STRONG original and subsequent existing ledger; no rerun until provenance pass",
+  "safety": {
+    "LIVE": 0,
+    "Bybit_orders": 0,
+    "configs_risk_IP": 0,
+    "runtime_Windows_tasks": 0,
+    "new_collectors": 0,
+    "market_downloads": 0,
+    "main_merge": 0
+  }
+}
