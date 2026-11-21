@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_BOUNDED_HISTORICAL_COMPARISON",
+  "commits": {
+    "protocol": "c108337ac74c4e2a172ef83d47a705cddb57b9ff",
+    "code": "83c13931033c83ea916f5a6624427bc86c3e0839",
+    "entry_selection": "d733cc25807c18697822be3ccd7bb60a1676e1db",
+    "exit_selection": "4dd3040534d4ff74548a97b9bcb1a167399177e3"
+  },
+  "new_PnL_configs": 16,
+  "old_grids_rerun": false,
+  "train_eligible": 1117,
+  "train_purged": 21,
+  "test_opportunities": 975,
+  "test_eligible": 956,
+  "right_censored": 19,
+  "frozen_winner": "LIVE_GATES_REPRICE_5M_PROXY/E3",
+  "verdict": "REJECTED_FOR_FORWARD_PROMOTION_ON_THIS_EXPOSED_5M_PROXY",
+  "real_live16_reconciliation": "NOT_VERIFIED_MISSING_CURRENT_EXPORT",
+  "new_shadow_100_gate": "NOT_MET",
+  "LIVE_changes": 0,
+  "Desktop_Commander_calls": 0,
+  "Bybit_key_use": 0,
+  "resume": "DO NOT rerun COMPLETE stages. Review ledgers and methodology, obtain listed actual execution/config evidence; new PnL only after separate protocol."
+}
