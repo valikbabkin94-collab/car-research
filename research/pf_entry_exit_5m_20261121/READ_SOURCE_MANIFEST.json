@@ -1,0 +1,155 @@
+[
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+    "path": "data/pf_5m/README.json",
+    "file": "pf5m_readme.json",
+    "sha256": "b1d123c72a894d07c6491ef89cc95b2ec7221b961d0f34c0dbb51ff8d70916ba",
+    "bytes": 199
+  },
+  {
+    "repository": "car-research",
+    "commit": "e425f277e0f172bfd66c1a70e6d62478efb2882e",
+    "path": "research/paket_20261117/part6_pf_exits/INPUTS.json",
+    "file": "signals.json",
+    "sha256": "4f6f014830b1661dd914f2d33190e740362b5874e320763065beae75a46c3eb1",
+    "bytes": 1380016
+  },
+  {
+    "repository": "car-research",
+    "commit": "e425f277e0f172bfd66c1a70e6d62478efb2882e",
+    "path": "research/paket_20261117/part6_pf_exits/REPORT_RU.md",
+    "file": "old_exits.md",
+    "sha256": "24c6a68843a24eb6bdb25ddd9f53f185133afb69230b5f2735049f430b9ad97d",
+    "bytes": 5586
+  },
+  {
+    "repository": "car-research",
+    "commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "path": "research/pf_rubik_20261116/run.py",
+    "file": "rubik.py",
+    "sha256": "72441d770fa93cf09152bffb7ff05726f27fc84c2d1bf54c04592f87be8c5a45",
+    "bytes": 19752
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/audit.py",
+    "file": "live_audit.py",
+    "sha256": "3ab14a532ca35598661df5dd7ee3b2f7518a15417bcdd273c826efda06a45781",
+    "bytes": 16860
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "8505e0574120ca1e0c3c505d685c130f89b2def7",
+    "path": "OPS/acer/q/pf_exit_review.py",
+    "file": "pf_exit_review.py",
+    "sha256": "0600e5dff757f205ff3adcb906fbeb6459e9d3e2f61e08ea3492a0ac4e22e54b",
+    "bytes": 3687
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "path": "fastpath/tools/fade_exit_lab.py",
+    "file": "fade_exit_lab.py",
+    "sha256": "89ff0d2f1190788647c037cafe40f7af42857866a59cc4b0a008132ae97fc996",
+    "bytes": 13116
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "bde8d93461238697e6f769e2282943b382875235",
+    "path": "fastpath/tools/fade_wf_tune.py",
+    "file": "fade_wf_tune.py",
+    "sha256": "0667c403fb1d493068da1ddc3f909e9260023395048644f8808ed320437b60ee",
+    "bytes": 6387
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/inputs/LIVE_TRADES_AGGREGATES.json",
+    "file": "live_aggregates.json",
+    "sha256": "109b553704a485b099d8bccaa6cff5977fd94f7b470841f9c7246aeb0345a3ca",
+    "bytes": 14627
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+    "path": "research/scenario-hunt-20261113/public_release/SIGNALS.jsonl.gz",
+    "file": "all_signals.jsonl.gz",
+    "sha256": "6a23dca13eb632c0d6b0e127725c2629ce003bf4064b6ce6d3cecf1b20c24dee",
+    "bytes": 1709455
+  },
+  {
+    "repository": "car-research",
+    "commit": "ee7f45cce520ba4917187b81fcf0d8924d4ec45e",
+    "path": "research/pf_rubik_20261116/OTCHET_DLYA_CLAUDE_CODEX_PF_RUBIK_20261116.md",
+    "file": "old_rubik.md",
+    "sha256": "0a1c96637a70b56647fd77eb2da10cc5f7ef8cbed9cffac15877da60c0c0f5d4",
+    "bytes": 9642
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/OTCHET_DLYA_CLAUDE_CODEX_PF_LIVE_VS_BT_20261116.md",
+    "file": "old_live.md",
+    "sha256": "bef2a2482c0dbc7731622a44575a33cc5f2651cc1409de55ea1b8de4cbbacb51",
+    "bytes": 7703
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/inputs/PROVENANCE.json",
+    "file": "live_provenance.json",
+    "sha256": "794a63ef7cac2c9bf3eaa12fca6eb37b6d89960e1156d5afbfb9a7c78731dddd",
+    "bytes": 1492
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/inputs/FUNDING_EVENTS.jsonl.gz",
+    "file": "funding_events.jsonl.gz",
+    "sha256": "bebe928727a7c71dab7f7377bbde2353072cdfa5f2069ce5449d31d78dee0abb",
+    "bytes": 36316
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+    "path": "h1_part02.csv.gz",
+    "file": "btc_h1.csv.gz",
+    "sha256": "81b93f73468590f77809b0a01f7eea2553d92ad373b6d9411f2d2f3aba5079bf",
+    "bytes": 251488
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+    "path": "data/funding_oi/README.json",
+    "file": "funding_readme.json",
+    "sha256": "ffc353c5dee661589fc9d34adb78fdbb128be8668fba9e2f9afcc74510c766d8",
+    "bytes": 3740
+  },
+  {
+    "repository": "car-research",
+    "commit": "bfbd12c065db125c592d85de235c1ddf93dc100f",
+    "path": "research/pf_live_vs_backtest_20261116/inputs/REFERENCE_EXECUTIONS.jsonl.gz",
+    "file": "reference.jsonl.gz",
+    "sha256": "e2dd2aae0d1a3f077522a293d31718f6ffe4a157d6e98332e1176c98826b5c37",
+    "bytes": 116202
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+    "path": "data/funding_oi/funding.csv.gz",
+    "file": "funding_full.csv.gz",
+    "sha256": "436b918eaa26fe399896fde92919803b1ec4a4d4b84416945e795ad33305e13d",
+    "bytes": 2133249
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+    "path": "data/pf_5m/pf_5m.csv.gz",
+    "git_blob": "9136107962e733a7fc2137bcc7193ddb57b18963",
+    "bytes": 46943027,
+    "sha256": "48bb2e205c55c0aa8d60926f3aaa771dc9ec6d8672803ee4c1b89902f4258a0f",
+    "file": "pf_5m.csv.gz"
+  }
+]
