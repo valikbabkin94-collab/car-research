@@ -1,0 +1,11 @@
+{
+  "same_kernel_bytes": true,
+  "no_baseline_or_entry_resimulation": true,
+  "paired_TRAIN_n": 564,
+  "paired_TEST_n": 473,
+  "new_exit_modes": 4,
+  "new_forward_positions": 0,
+  "factory_tests_passed": 93,
+  "managed_overlay": "DATA_GAP_NOT_SIMULATED",
+  "LIVE_changes": 0
+}

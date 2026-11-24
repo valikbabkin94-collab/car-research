@@ -1,0 +1,12 @@
+# Независимая проверка
+
+1. Прочитайте REPORT_RU.md, FROZEN_PROTOCOL.json, CHECKPOINT.json, TABLES_RU.md. Проверьте коммиты: protocol → рабочийкод → TRAINselection → TEST. Исходная синтаксическаяошибкаисправлена доPnl; завершённыеэтапы не повторялись.
+2. Сверьте исходные2113возможности, тот жеPR#4 LIVE_GATES_REPRICE_5M_PROXY/E0 RAW,564/473CLOSED. Сигналы/входы/выходыбазыизledger несимулировалисьзаново; суммированиееёготовыхgrossreturnдляпарныхметрикдопустимо. Параsameid/sameentry/sametime;21purged/19tail не создаютновыхвходов.
+3. ВыборRUN15 сделаннаTRAIN и не заменёнболееудобнымTESTвариантом. Проверьте3traildistances иfixedTP3_RUN10; другихкомбинацийнебыло.
+4. Stop-first/gap/noTPfillbar/BE0.9989-nextbar/trail-fromcompletedlow-afterTP2/TP3; стопникогданеухудшается. TIME72hотвхода; стоимость21/40bpсокращаетсявпарнойценовойΔ. Fundingпересчитанпоновымдолям/выходамизnativearchive;unknownне0,commonknownsubset отдельно.
+5. Проверьте20kweek-clusterbootstrap95% и98.75%familywise;малыеDOWNn31/12безCI. EXPOSEDисториюневыдаватьзанезависимыйOOS. DDвзакрытыхRнеequity%, CVaR5/worst10вJSON.
+6. Теневойкод—отдельныйDraftPR,основаfeat/shadow-factory-pf-exits-20261120@56cb2d5. СтарыйPF_RUNNER(50%послеTP1/trail4%)сохранён. НовыеPUMP_FADE_RUN/OLEG_CLONE_RUNвыключены;никакойподменыLIVEисточников/риска.
+7. Проверитьanchorпоexportedexecutions,целостностьVWAP/qty,activation/future/idempotence/transaction;сигнал/касаниеценыникоимобразомнепринимаютсякакLIVEfill. Initialfillчерезнесколькоминутотказ;частьentryминутыненаблюдается,ambiguityявна.
+8. ManagedнамеренноDATA_GAP,нефальшивыйрезультатобычнойлестницы;требуетсяактивныйpolicyconfig/transitions. Это незавершённаячастьзадания. Нетновыхforwardнаблюдений/процессов. Сводкаготовакакpaperpayload/строки,Telegramнеподключался.
+9. Проверить93офлайнтеста,legacyparity,MANIFEST/новыйallowlistиз5бумажныхфайлов. PACKAGE_CHECKвыполненлишьнаscratchкопииGitHubbase,неAcer;Windows/реальнаяустановкаНЕПРОВЕРЕНЫ. Старыйupgraderнепонимаетновыемодули—использоватьтолькоreviewedверсиюэтогоPR.
+10. Порог≥100НОВЫХтеневыхсделок/источник/cohort,meannet>0.1иpairedCIlower>0непройден. Никакихавтослияний/установок/запуска/торговыхордеров. ПовторныеPnLтолькоприобнаруженнойошибкесновымаудитследом.

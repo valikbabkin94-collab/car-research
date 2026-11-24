@@ -1,0 +1,10 @@
+{
+  "stage": "test",
+  "code_commit": "d4ddc0af6bed867e614078c170fe33cf9cb352dc",
+  "base_reused_n": 473,
+  "new_modes": 4,
+  "new_exit_rows": 1892,
+  "base_replayed": false,
+  "entry_replayed": false,
+  "complete": true
+}

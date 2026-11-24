@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+    "path": "data/pf_5m/pf_5m.csv.gz",
+    "git_blob": "9136107962e733a7fc2137bcc7193ddb57b18963",
+    "bytes": 46943027,
+    "sha256": "48bb2e205c55c0aa8d60926f3aaa771dc9ec6d8672803ee4c1b89902f4258a0f",
+    "file": "pf_5m.csv.gz"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+    "path": "research/scenario-hunt-20261113/public_release/SIGNALS.jsonl.gz",
+    "file": "all_signals.jsonl.gz",
+    "sha256": "6a23dca13eb632c0d6b0e127725c2629ce003bf4064b6ce6d3cecf1b20c24dee",
+    "bytes": 1709455,
+    "git_blob": "eb20ea4b016e292af51f7f8e18fe64051d809630"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+    "path": "h1_part02.csv.gz",
+    "file": "btc_h1.csv.gz",
+    "sha256": "81b93f73468590f77809b0a01f7eea2553d92ad373b6d9411f2d2f3aba5079bf",
+    "bytes": 251488,
+    "git_blob": "43bdf36bcff1244d022578e300105745bfeafee8"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+    "path": "data/funding_oi/funding.csv.gz",
+    "file": "funding_full.csv.gz",
+    "sha256": "436b918eaa26fe399896fde92919803b1ec4a4d4b84416945e795ad33305e13d",
+    "bytes": 2133249,
+    "git_blob": "6bbc6956019abaae480d69d22f9f4d6888332702"
+  }
+]
