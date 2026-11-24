@@ -31,7 +31,7 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['train','test'],required=True);ap.add_argument('--root',type=Path,default=D);a=ap.parse_args();root=a.root;out=root/'results';out.mkdir(exist_ok=True)
  if(out/('COMPLETE_'+a.stage+'.json')).exists():raise RuntimeError('ALREADY_COMPLETE_NO_REPEAT')
  split=a.stage.upper();allbase=loadgz(root/'input'/('TRAIN_ALL_ROWS.jsonl.gz'if split=='TRAIN'else'TEST_ALL_ROWS.jsonl.gz'))
- base=[r for r in allbase if r['entry_mode']=='LIVE_GATES_REPRICE_5M_PROXY'and r['exit_mode']=='E0'and r['status']=='CLOSED'];assert len(base)==(564 if split=='TRAIN'else473)
+ base=[r for r in allbase if r['entry_mode']=='LIVE_GATES_REPRICE_5M_PROXY'and r['exit_mode']=='E0'and r['status']=='CLOSED'];assert len(base)==(564 if split=='TRAIN'else 473)
  packets={x['id']:x for x in json.loads((root/'prepared/packets.json').read_text())};funding=json.loads((root/'prepared/funding.json').read_text())
  with np.load(root/'prepared/frames.npz',allow_pickle=False)as z:frames={k:z[k]for k in z.files}
  allrows=[];table=[]
@@ -41,7 +41,7 @@ def main():
    frame=frames[packets[b['id']]['frame_key']];p=create(b['entry'],b['entry_ms'],mode);advance(p,frame[frame[:,0]>=b['entry_ms']]);assert p['status']=='CLOSED'
    r={**b,**p,'runner_mode':mode,'cached_base_exit_ms':b['exit_ms'],'cached_base_gross_return':b['gross_return']};r['funding_R_proxy'],r['funding_status']=funding_result(r,frame,funding);rows.append(r)
    # Both policies are identical before TP2 (or TP3 for RUN10), check cached events without replaying baseline.
-   pre=2 if mode!='TP3_RUN10'else3
+   pre=2 if mode!='TP3_RUN10'else 3
    be=[e for e in b['events']if e['kind'].startswith('TP')and int(e['kind'][2:])<pre]
    re=[e for e in r['events']if e['kind'].startswith('TP')and int(e['kind'][2:])<pre]
    assert be==re
