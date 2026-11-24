@@ -1,0 +1,71 @@
+{
+  "id": "PF_RUNNER_V1_20261124",
+  "status": "FROZEN_BEFORE_NEW_RUNNER_PNL",
+  "parent_research_commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+  "data_and_splits": "identical PR4; RAW only; cached LIVE_GATES_REPRICE_5M_PROXY/E0 entries and exits, no new entry model; TRAIN1117 opportunities/564fills; TEST975/956eligible/473fills;21purged and19tail unchanged",
+  "exposure": "EXPOSED historical corpus, temporal TEST not pristine independent OOS",
+  "base": "cached E0 TP2.1/4.2/6.3%, weights50/30/20, SL5.6%, BE entry*0.9989 after TP1 next bar, hold72h",
+  "variants": {
+    "RUN15": {
+      "trail_fraction": 0.015,
+      "activate_after": "TP2",
+      "TP_weights": [
+        0.5,
+        0.3
+      ],
+      "runner_weight": 0.2
+    },
+    "RUN25": {
+      "trail_fraction": 0.025,
+      "activate_after": "TP2",
+      "TP_weights": [
+        0.5,
+        0.3
+      ],
+      "runner_weight": 0.2
+    },
+    "RUN35": {
+      "trail_fraction": 0.035,
+      "activate_after": "TP2",
+      "TP_weights": [
+        0.5,
+        0.3
+      ],
+      "runner_weight": 0.2
+    },
+    "TP3_RUN10": {
+      "trail_fraction": 0.025,
+      "activate_after": "TP3",
+      "TP_weights": [
+        0.5,
+        0.3,
+        0.1
+      ],
+      "runner_weight": 0.1
+    }
+  },
+  "distance_rationale": "1.5% tighter than TP ladder gap2.1%;2.5% moderate above that gap;3.5% wider but below initial5.6%SL. Chosen from geometry not observed outcomes. RUN10 uses fixed middle2.5%, no fifth search",
+  "trail_rule": "short stop=min(previous stop, lowest completed low since activation*(1+d)); starts on activation bar close and effective NEXT bar; does not loosen existing BE; no TP on fill bar; SL first; gap-stop=max(open,stop)",
+  "hold_hours": 72,
+  "costs_allin_roundtrip_bp": [
+    21,
+    40
+  ],
+  "risk_definition": "price_R=(grossreturn-cost)/0.056; no pooling with LIVE0.0581; cost delta cancels in paired price difference by construction",
+  "funding": "PR4 native funding_result with changed partial quantities/durations; rates plus5m-open markproxy; unknown remainsnull; paired funding delta only common-known subset; true cash net not claimed",
+  "selection": "4 new exit variants, reused cached base is not rerun. Rank mean paired price delta TRAIN40bp, then lower TRAIN closeR DD, then id. Freeze winner commit before any runner TEST computation. Negative absolute result does not qualify for LIVE",
+  "CI": "20000 whole UTC signal-week cluster bootstrap resamples, deterministic seed20261124 per comparison; ratio sumdelta/sumtradecount; report95% and98.75% familywise CI for4variants; n<40 orweeks<8 INCONCLUSIVE. Descriptive intervals on exposed history, not confirmation",
+  "regime": "reuse PR4 causal last closed BTC H1 r24: DOWN<=-3%, UP>=3%, elseSIDEWAYS; no regime optimization",
+  "metrics": [
+    "paired n and mean delta",
+    "win/tie/loss share vsbase",
+    "meanR andPF at21/40bp",
+    "closeR DD,5%CVaR,minR andworst10trades",
+    "common-known funding paired delta",
+    "TRAIN/TEST andDOWN separately"
+  ],
+  "forward": "paper-only opt-in disabled; PUMP_FADE_RUN and OLEG_CLONE_RUN share actual exported LIVE fill anchors with paired base. No sourceML/entry/risk changes. Without actual fill proof no claiming same LIVE entry. Existing factory integration in separate DraftPR, owner installs after review",
+  "promotion_gate": "atleast100 NEW shadow trades per source/management cohort,mean netR>0.1,paired delta positive andCI lower>0; unknown funding/execution keepsINCONCLUSIVE; never autoenableLIVE",
+  "manager_separation": "base and runner siblings per exported fill; retain manager/no-manager cohorts separately, no aggregated claim",
+  "no_LIVE_mutation": true
+}
