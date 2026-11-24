@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "56cb2d569ba97ba417af68edbec4b54b4e2c3230",
+    "path": "tools/shadow_factory.py",
+    "git_blob": "add0ce7c5cade55c38eb28b4d009c1cfd870d4ac",
+    "bytes": 62213,
+    "sha256": "4937ea4a979014cc15f484c8242a4795ef46230fba04ef2c8ccdd027251bad39",
+    "file": "shadow_factory.py"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "56cb2d569ba97ba417af68edbec4b54b4e2c3230",
+    "path": "research/shadow_factory_20261115/variants.json",
+    "git_blob": "ae4a207eb5ceb47ba721fec064cd8308a47653ad",
+    "bytes": 4014,
+    "sha256": "dabe43384e040c1fa23e62b62ad86f17abada4525f73b86260eef9d574a133d2",
+    "file": "variants.json"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "56cb2d569ba97ba417af68edbec4b54b4e2c3230",
+    "path": "research/shadow_factory_20261115/OTCHET_DLYA_CLAUDE_CODEX_ROUND4_B_20261115.md",
+    "git_blob": "b18e808cf0d613a158e6152a0bbfb2efaefd6ebd",
+    "bytes": 5199,
+    "sha256": "3341f7f9bd3b1dd7717918930f4e821ae79e396ebf655ee26afc2e33bbf24e55",
+    "file": "OTCHET_DLYA_CLAUDE_CODEX_ROUND4_B_20261115.md"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "56cb2d569ba97ba417af68edbec4b54b4e2c3230",
+    "path": "research/shadow_factory_20261115/PROTOCOL_PRE_RUN_RU.md",
+    "git_blob": "0543c1fe236743fa8165d5ebe041f933ca6758c7",
+    "bytes": 5034,
+    "sha256": "1406bbdc7edf7f4be466e870707f79331e787aa59c56e6a331ff378ab5e7b7c6",
+    "file": "PROTOCOL_PRE_RUN_RU.md"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "56cb2d569ba97ba417af68edbec4b54b4e2c3230",
+    "path": "research/shadow_factory_20261115/README_RU.md",
+    "git_blob": "bc2d9569f0393e38a382b740b93e582b98a0ee2a",
+    "bytes": 4667,
+    "sha256": "d0d4ff77865d4632113581ca598a58f0c0d60305adcd5e44ff920b519b92a602",
+    "file": "README_RU.md"
+  }
+]

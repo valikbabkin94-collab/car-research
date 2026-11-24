@@ -1,0 +1,19 @@
+test_10_after_TP3 (test_runner.TailTests.test_10_after_TP3) ... ok
+test_BASE_targets (test_runner.TailTests.test_BASE_targets) ... ok
+test_BE_never_loosened (test_runner.TailTests.test_BE_never_loosened) ... ok
+test_SL_first (test_runner.TailTests.test_SL_first) ... ok
+test_TP3_no_longer_closes_20 (test_runner.TailTests.test_TP3_no_longer_closes_20) ... ok
+test_closed_immutable (test_runner.TailTests.test_closed_immutable) ... ok
+test_gap_rejected (test_runner.TailTests.test_gap_rejected) ... ok
+test_gap_stop (test_runner.TailTests.test_gap_stop) ... ok
+test_incremental_idempotent (test_runner.TailTests.test_incremental_idempotent) ... ok
+test_invalid_numeric (test_runner.TailTests.test_invalid_numeric) ... ok
+test_minute_and_5m (test_runner.TailTests.test_minute_and_5m) ... ok
+test_no_TP_fill (test_runner.TailTests.test_no_TP_fill) ... ok
+test_no_trail_before_TP2 (test_runner.TailTests.test_no_trail_before_TP2) ... ok
+test_trail_next_bar (test_runner.TailTests.test_trail_next_bar) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK

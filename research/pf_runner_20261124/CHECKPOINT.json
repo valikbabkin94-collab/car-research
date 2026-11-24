@@ -1,0 +1,23 @@
+{
+  "status": "HISTORICAL_COMPLETE_FORWARD_CODE_DISABLED_MANAGER_DATA_GAP",
+  "protocol_sha": "04227e6ff7e15b98b1f0fb57eaf3cb8c3e173f2d",
+  "code_sha": "d4ddc0af6bed867e614078c170fe33cf9cb352dc",
+  "train_selection_sha": "548ef61e26bc6e47456897e930edd73d3a34c3bb",
+  "winner": "RUN15",
+  "new_exit_profiles": 4,
+  "TRAIN_rows": 2256,
+  "TEST_rows": 1892,
+  "paired_TRAIN_n": 564,
+  "paired_TEST_n": 473,
+  "baseline_PnL_recalculated": false,
+  "entry_rules_recalculated": false,
+  "cached_ledger_parent": "accf6f1573928b0322b8f22ff00489d796c35444",
+  "shadow_forward_n": 0,
+  "LIVE_changes": 0,
+  "negative_results_retained": true,
+  "resume": "Do not repeat completed stages. Independent review, owner-reviewed isolated factory installation/export schema and manager policy evidence; never autoenable.",
+  "shadow_PR": "https://github.com/valikbabkin94-collab/Crypto-Auto-Radar/pull/596",
+  "shadow_commit": "91ae419010d634036e6d81cd033146036e4aa358",
+  "factory_tests_passed": 93,
+  "package_check": "SCRATCH_ONLY_READY_HASHES_TRUE"
+}

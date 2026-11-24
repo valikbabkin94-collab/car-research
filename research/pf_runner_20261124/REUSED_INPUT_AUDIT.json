@@ -1,0 +1,42 @@
+{
+  "original_signal_rows": 2113,
+  "already_filled_only_part6_rows": 1761,
+  "selected_exposed_rows": 1041,
+  "source_5m_rows": 2105525,
+  "frames": 2113,
+  "coverage": {
+    "COMPLETE_80H": 2094,
+    "RIGHT_CENSORED_80H": 19
+  },
+  "split": {
+    "TRAIN": 1117,
+    "TRAIN_PURGED": 21,
+    "TEST": 975
+  },
+  "cut_ms": 1782099300000,
+  "min_signal_ms": 1763542800000,
+  "max_signal_ms": 1794466800000,
+  "coverage_by_split": {
+    "TRAIN": {
+      "COMPLETE_80H": 1117
+    },
+    "TEST": {
+      "COMPLETE_80H": 956,
+      "RIGHT_CENSORED_80H": 19
+    },
+    "TRAIN_PURGED": {
+      "COMPLETE_80H": 21
+    }
+  },
+  "C_recovered_from_real_closed5m_n": 333,
+  "C_original_vs_previous5m_max_abs": 2.220446049250313e-16,
+  "bad_price_frames": {},
+  "conflicting_funding_timestamps": 0,
+  "regime_opportunities": {
+    "SIDEWAYS": 1736,
+    "DOWN": 97,
+    "UP": 280
+  },
+  "preparation_seconds": 10.68777321699963,
+  "PnL_computed": false
+}
