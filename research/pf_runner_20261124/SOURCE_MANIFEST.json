@@ -1,0 +1,119 @@
+[
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/CORE_INPUTS.json",
+    "git_blob": "a7486e38b4ac296336ce5cc957da1879b2997534",
+    "bytes": 1403,
+    "sha256": "9540d14eccbbafd87ae2499bd8600e97bb0d6278a7d3f7d1dc3958a7a05f976a",
+    "file": "CORE_INPUTS.json"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/INPUT_AUDIT.json",
+    "git_blob": "6fd1dcc6727465906f3045d943e35fb7ef56bc42",
+    "bytes": 939,
+    "sha256": "fa68649e9037d2f29a43d3f3daf1ea33684d9370d355fd6862e01ce700a42690",
+    "file": "INPUT_AUDIT.json"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/FROZEN_PROTOCOL.json",
+    "git_blob": "9fcd19c36d0b5a9c22f2d5fa8be4b1e5eb3168eb",
+    "bytes": 5262,
+    "sha256": "1daac305c41a44b036a8038087b20f94e8988c452f019ea9f31b376a1d636c57",
+    "file": "FROZEN_PROTOCOL.json"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/TRAIN_ALL_ROWS.jsonl.gz",
+    "git_blob": "cf4deaae86009213c87cd34103f6b570330a4bd0",
+    "bytes": 1379390,
+    "sha256": "409b7bd907da022b2bb93efe6c2ef3234d91dcd853d13f4a3e3110fe8d0e836d",
+    "file": "TRAIN_ALL_ROWS.jsonl.gz"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/TEST_ALL_ROWS.jsonl.gz",
+    "git_blob": "3907daa9c7766218f2ee0b4df3dc543e4243350a",
+    "bytes": 1169415,
+    "sha256": "6fe49597a38fc19a43c391972bf1e9a5dc9af7830de211bdc2d7759b806b55d6",
+    "file": "TEST_ALL_ROWS.jsonl.gz"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/METRICS.json",
+    "git_blob": "ccfc6b2c951dbbe89c1fae4a4a7f9dc8a2ce5338",
+    "bytes": 675230,
+    "sha256": "9dc59fdaa6d1d6dd4815776c37daeebb044a257176d77157e9562523ad8fca2f",
+    "file": "METRICS.json"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/engine.py",
+    "git_blob": "5d97c48344aff901eb8f2827d3c9288d01813f9e",
+    "bytes": 5407,
+    "sha256": "9d21b0ab813957558c19ae488aa4e458e37c647fb9aedb2c656d1818d4fd4d46",
+    "file": "engine.py"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/prepare.py",
+    "git_blob": "d13bfed7b65da60c2771afd83eb7b2f969c876ba",
+    "bytes": 5037,
+    "sha256": "a3937280aca6921a612d1ad81e91fe7e6d155113e8ac917bed8eca3e07ec4bb8",
+    "file": "prepare.py"
+  },
+  {
+    "repository": "car-research",
+    "commit": "accf6f1573928b0322b8f22ff00489d796c35444",
+    "path": "research/pf_entry_exit_5m_20261121/inputs/packets.json",
+    "git_blob": "1665b41316ecc4dfd3fa8ed6a3724b978f795f41",
+    "bytes": 1049922,
+    "sha256": "765707b4aef3cabb4b196861982c28d9144eb71958edc23bc3e58b8515804b77",
+    "file": "packets.json"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "fea37d85c4554ed5db441c9449070aeb10dd49b7",
+    "path": "data/pf_5m/pf_5m.csv.gz",
+    "git_blob": "9136107962e733a7fc2137bcc7193ddb57b18963",
+    "bytes": 46943027,
+    "sha256": "48bb2e205c55c0aa8d60926f3aaa771dc9ec6d8672803ee4c1b89902f4258a0f",
+    "file": "pf_5m.csv.gz"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "836da46b018d3fa831815531db6009e7b667e89a",
+    "path": "research/scenario-hunt-20261113/public_release/SIGNALS.jsonl.gz",
+    "git_blob": "eb20ea4b016e292af51f7f8e18fe64051d809630",
+    "bytes": 1709455,
+    "sha256": "6a23dca13eb632c0d6b0e127725c2629ce003bf4064b6ce6d3cecf1b20c24dee",
+    "file": "all_signals.jsonl.gz"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "a63cdcc62d8da9ed0348b6e9b24cd453ef7bf842",
+    "path": "h1_part02.csv.gz",
+    "git_blob": "43bdf36bcff1244d022578e300105745bfeafee8",
+    "bytes": 251488,
+    "sha256": "81b93f73468590f77809b0a01f7eea2553d92ad373b6d9411f2d2f3aba5079bf",
+    "file": "btc_h1.csv.gz"
+  },
+  {
+    "repository": "Crypto-Auto-Radar",
+    "commit": "db8c46caaf7b56d7fb5a3b26ead0a090c5172ea7",
+    "path": "data/funding_oi/funding.csv.gz",
+    "git_blob": "6bbc6956019abaae480d69d22f9f4d6888332702",
+    "bytes": 2133249,
+    "sha256": "436b918eaa26fe399896fde92919803b1ec4a4d4b84416945e795ad33305e13d",
+    "file": "funding_full.csv.gz"
+  }
+]
